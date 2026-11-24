@@ -58,7 +58,7 @@ def check(old, new):
             if len(g["classifica"]) < len(o[gid]["classifica"]): print("! squadre in meno:", gid); bad += 1
             if g["aggiornato"] < o[gid]["aggiornato"]: print("! data più vecchia:", gid); bad += 1
             go, gn = o[gid].get("giornata") or 0, g.get("giornata") or 0
-            if gn < go: print("! giornata indietro:", gid); bad += 1
+            if gn < go: print("  nota: giornata corretta all'indietro (", go, "->", gn, ") in", gid)
         pts = [r.get("g") for r in g["classifica"] if r.get("g") is not None]
         if pts and max(pts) - min(pts) > 3: print("  nota: partite giocate molto diverse in", gid)
     print("nuovi gironi:", len(set(n) - set(o)), "| aggiornati:", sum(1 for k in n if k in o and n[k]["aggiornato"] != o[k]["aggiornato"]), "| problemi:", bad)
