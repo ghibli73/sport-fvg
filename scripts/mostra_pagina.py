@@ -16,8 +16,7 @@ for i, tr in enumerate(righe):
         print("=" * 20)
         for t in righe[max(0, i - 4):i + 1]:
             print([volley.norm(td.get_text(" ")) for td in t.find_all(["td", "th"])][:12])
-        el = tr
-        for _ in range(6):  # titoli prima della tabella
-            el = el.find_previous(["h1", "h2", "h3", "h4", "h5", "caption", "div"], class_=True)
-            if el is None: break
-            print("  prev", el.name, el.get("class"), volley.norm(el.get_text(" "))[:90])
+        tab = tr.find_parent("table")
+        prev = [volley.norm(x) for x in tab.find_all_previous(string=True, limit=40) if volley.norm(x)][:8]
+        print("  testi prima della tabella:", prev)
+        print("  link nella tabella/vicino:", [a.get("href") for a in tab.find_all_previous("a", limit=4)])
