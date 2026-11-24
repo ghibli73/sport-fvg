@@ -97,21 +97,24 @@ def parse_gare(html):
     riga intestazione "Gara | G | Data / ora | Squadra casa | Squadra ospite | Risul. | Dettagli",
     poi una riga per gara: numero, giornata, data/ora, casa, ospite, risultato, parziali, impianto."""
     soup = BeautifulSoup(html, "html.parser")
-    gare, cid, camp, sez = [], None, "", None
+    pos = lambda t: (t.sourceline or 0, t.sourcepos or 0)
+    links = [(pos(a), RX_CID.search(a["href"]).group(1)) for a in soup.find_all("a", href=True) if RX_CID.search(a["href"])]
+    gare, cid, camp, ultima_gara = [], None, "", (0, 0)
     for tr in soup.find_all("tr"):
         c = [x for x in cells(tr) if x != ""]
+        if not c:
+            continue
         di = next((i for i, x in enumerate(c) if RX_DATA.search(x)), None)
         if di is None:
-            # righe di titolo/link della sezione (i link possono essere solo icone, senza testo)
-            for a in tr.find_all("a", href=True):
-                m = RX_CID.search(a["href"])
-                if m:
-                    sez = m.group(1)
-            if c and c[0].lower().startswith("gara"):
-                cid, sez = sez, None  # intestazione: inizia la sezione; senza link classifica = Coppa/altro
-            elif c:
+            if c[0].lower().startswith("gara"):
+                # intestazione di una sezione: il girone è il link "classifica" più vicino che sta tra
+                # l'ultima gara della sezione precedente e questa intestazione; nessun link = Coppa/altro
+                tra = [x for p, x in links if ultima_gara < p < pos(tr)]
+                cid = tra[-1] if tra else None
+            else:
                 camp = " ".join(c)[:120]
             continue
+        ultima_gara = pos(tr)
         pre = [x for x in c[:di] if re.fullmatch(r"\d{1,5}", x)]
         rest = c[di + 1:]
         ri = next((i for i, x in enumerate(rest) if RX_RIS.match(x)), None)
