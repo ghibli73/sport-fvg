@@ -83,28 +83,36 @@ def parse_classifica(html):
     return best
 
 
-RX_ALTRO = re.compile(r"coppa|supercoppa|trofeo|torneo|amichevol|memorial|final|play.?off|play.?out", re.I)
 RX_DATA = re.compile(r"(\d{2})/(\d{2})/(\d{2,4})(?:\s+(\d{1,2}[:.]\d{2}))?")
 RX_RIS = re.compile(r"^(\d)\s*-\s*(\d)$")
 RX_PARZ = re.compile(r"\d{1,2}-\d{1,2}")
 
 
+RX_CID = re.compile(r"classifica\.aspx\?CId=(\d+)", re.I)
+
+
 def parse_gare(html):
-    """Ogni riga gara della pagina risultati: numero, data/ora, casa, ospite, risultato (se giocata), parziali, impianto.
-    Le etichette di campionato sono righe con una sola cella di testo che precedono le gare."""
+    """La pagina risultati è una tabella unica divisa in sezioni, una per girone:
+    riga titolo (con i link classifica.aspx?CId=... se il girone ha classifica; le Coppe non li hanno),
+    riga intestazione "Gara | G | Data / ora | Squadra casa | Squadra ospite | Risul. | Dettagli",
+    poi una riga per gara: numero, giornata, data/ora, casa, ospite, risultato, parziali, impianto."""
     soup = BeautifulSoup(html, "html.parser")
-    gare, camp = [], ""
+    gare, cid, camp = [], None, ""
     for tr in soup.find_all("tr"):
         c = [x for x in cells(tr) if x != ""]
         if not c:
             continue
-        if len(c) == 1 and not RX_DATA.search(c[0]):
-            camp = c[0]
-            continue
         di = next((i for i, x in enumerate(c) if RX_DATA.search(x)), None)
         if di is None:
+            if c[0].lower().startswith("gara"):
+                continue  # intestazione
+            m = None
+            for a in tr.find_all("a", href=True):
+                m = m or RX_CID.search(a["href"])
+            cid = m.group(1) if m else None  # nuova sezione: senza link classifica = Coppa/altro
+            camp = " ".join(c)[:120]
             continue
-        num = next((x for x in c[:di] if re.fullmatch(r"\d{1,5}", x)), "")
+        pre = [x for x in c[:di] if re.fullmatch(r"\d{1,5}", x)]
         rest = c[di + 1:]
         ri = next((i for i, x in enumerate(rest) if RX_RIS.match(x)), None)
         teams = [x for x in (rest[:ri] if ri is not None else rest) if not RX_PARZ.fullmatch(x) and not re.fullmatch(r"[\d\s:.-]*", x)]
@@ -112,7 +120,8 @@ def parse_gare(html):
             continue
         d = RX_DATA.search(c[di])
         y = d.group(3); y = ("20" + y) if len(y) == 2 else y
-        g = {"num": num, "data": f"{y}-{d.group(2)}-{d.group(1)}", "ora": (d.group(4) or "").replace(".", ":"),
+        g = {"num": pre[0] if pre else "", "giornata": int(pre[1]) if len(pre) > 1 else None, "cid": cid,
+             "data": f"{y}-{d.group(2)}-{d.group(1)}", "ora": (d.group(4) or "").replace(".", ":"),
              "casa": teams[0], "ospite": teams[1], "risultato": "", "parziali": "", "campo": "", "campionato": camp}
         after = rest[ri + 1:] if ri is not None else rest[2:]
         if ri is not None:
@@ -155,8 +164,8 @@ def aggiorna(g, cfg, oggi, dump):
         for k in (-7, 0, 7):
             try:
                 for x in parse_gare(get(url_settimana(cfg, lunedi(oggi) + dt.timedelta(days=k)), dump)):
-                    # stesse squadre possono incontrarsi anche in Coppa: si tengono solo le gare del campionato giusto
-                    if RX_ALTRO.search(x["campionato"]) and not RX_ALTRO.search(cfg["girone"] + " " + cfg["categoria"]):
+                    # solo le gare della sezione di questo girone (le stesse squadre giocano anche in Coppa)
+                    if x["cid"] != str(cfg["cid"]):
                         continue
                     if key(x["casa"]) in nomi and key(x["ospite"]) in nomi:
                         nuove.append(x)
@@ -170,11 +179,16 @@ def aggiorna(g, cfg, oggi, dump):
         k2 = (key(x["casa"]), key(x["ospite"]))
         m = idx.get(k2)
         if m is None:
-            w = lunedi(dt.date.fromisoformat(x["data"]))
-            if w not in settimane:
-                settimane[w] = giorn_max + len(settimane) + 1
-            m = {"giornata": settimane[w]}
+            if x["giornata"]:
+                m = {"giornata": x["giornata"]}
+            else:
+                w = lunedi(dt.date.fromisoformat(x["data"]))
+                if w not in settimane:
+                    settimane[w] = giorn_max + len(settimane) + 1
+                m = {"giornata": settimane[w]}
             old.append(m); idx[k2] = m
+        elif x["giornata"]:
+            m["giornata"] = x["giornata"]  # la giornata scritta dal portale prevale su quella ricostruita
         m.update({"data": x["data"], "ora": x["ora"], "casa": x["casa"], "ospite": x["ospite"],
                   "id_casa": alias.get(k2[0]), "id_ospite": alias.get(k2[1]),
                   "risultato": x["risultato"] or m.get("risultato", ""), "parziali": x["parziali"] or m.get("parziali", ""),
