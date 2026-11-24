@@ -14,8 +14,8 @@ righe = soup.find_all("tr")
 for i, tr in enumerate(righe):
     if testo in tr.get_text(" ").lower():
         print("=" * 20)
-        for t in righe[max(0, i - 4):i + 1]:
-            print([volley.norm(td.get_text(" ")) for td in t.find_all(["td", "th"])][:12])
+        for t in righe[max(0, i - 8):i + 1]:
+            print([volley.norm(td.get_text(" ")) for td in t.find_all(["td", "th"])][:12], [a.get("href","")[:40] for a in t.find_all("a")][:4])
         tab = tr.find_parent("table")
         prev = [volley.norm(x) for x in tab.find_all_previous(string=True, limit=40) if volley.norm(x)][:8]
         print("  testi prima della tabella:", prev)

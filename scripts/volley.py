@@ -97,20 +97,20 @@ def parse_gare(html):
     riga intestazione "Gara | G | Data / ora | Squadra casa | Squadra ospite | Risul. | Dettagli",
     poi una riga per gara: numero, giornata, data/ora, casa, ospite, risultato, parziali, impianto."""
     soup = BeautifulSoup(html, "html.parser")
-    gare, cid, camp = [], None, ""
+    gare, cid, camp, sez = [], None, "", None
     for tr in soup.find_all("tr"):
         c = [x for x in cells(tr) if x != ""]
-        if not c:
-            continue
         di = next((i for i, x in enumerate(c) if RX_DATA.search(x)), None)
         if di is None:
-            if c[0].lower().startswith("gara"):
-                continue  # intestazione
-            m = None
+            # righe di titolo/link della sezione (i link possono essere solo icone, senza testo)
             for a in tr.find_all("a", href=True):
-                m = m or RX_CID.search(a["href"])
-            cid = m.group(1) if m else None  # nuova sezione: senza link classifica = Coppa/altro
-            camp = " ".join(c)[:120]
+                m = RX_CID.search(a["href"])
+                if m:
+                    sez = m.group(1)
+            if c and c[0].lower().startswith("gara"):
+                cid, sez = sez, None  # intestazione: inizia la sezione; senza link classifica = Coppa/altro
+            elif c:
+                camp = " ".join(c)[:120]
             continue
         pre = [x for x in c[:di] if re.fullmatch(r"\d{1,5}", x)]
         rest = c[di + 1:]
