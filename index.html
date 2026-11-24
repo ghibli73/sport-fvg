@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#123a6b">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="description" content="Società sportive, campionati, classifiche e risultati del Friuli Venezia Giulia.">
+<title>Sport in FVG</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE: guida sportiva regionale da tasca, diretta e veloce
+   IDEA: la bacheca dei campionati con i colori della bandiera FVG, tenuta in una mano
+   PICTURE: l'elenco dei comuni stesso, ogni riga con le icone degli sport presenti
+   COLOUR and TYPE: blu regione profondo, oro aquila, bianco; Barlow Condensed + Barlow
+   LAYOUT: barra blu fissa con ricerca, filtri in una riga, liste compatte, barra schede in basso, scheda società a tutto schermo */
+:root{color-scheme:light dark;
+--bg:light-dark(#eef2f8,#0a1322);--card:light-dark(#fff,#121e34);--ink:light-dark(#0f1c33,#e8eef8);--mute:light-dark(#5a6780,#9fb0c9);
+--blue:#123a6b;--blue2:#0c2b52;--gold:#f2b705;--chalk:#f5f7fb;--line:light-dark(#dde3ee,#22324f);--soft:light-dark(#e8eef8,#1a2a47);
+--acc:light-dark(#123a6b,#f2b705);--safe-b:env(safe-area-inset-bottom,0px);--safe-t:env(safe-area-inset-top,0px)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0;-webkit-tap-highlight-color:transparent}
+html{scroll-padding-top:140px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Barlow,system-ui,sans-serif;overflow-x:clip;padding-bottom:calc(72px + var(--safe-b))}
+h1,h2,h3{font-family:"Barlow Condensed",Barlow,sans-serif;line-height:1.08;margin:0}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+/* barra in alto */
+.top{position:sticky;top:0;z-index:20;background:var(--blue);color:var(--chalk);padding:calc(10px + var(--safe-t)) 14px 10px;box-shadow:0 2px 10px rgba(0,0,0,.18)}
+.brand{display:flex;align-items:center;gap:10px;max-width:1100px;margin:0 auto 8px}
+.brand svg{width:30px;height:30px;color:var(--gold);flex:none}
+.brand h1{font-size:24px;font-weight:800;letter-spacing:.2px}
+.brand h1 span{color:var(--gold)}
+.brand .cov{margin-left:auto;font-size:13px;color:#c9d6ea;white-space:nowrap}
+.dtabs{display:none;gap:4px;margin-left:16px}
+.dtab{border:0;background:transparent;color:#c9d6ea;font:700 17px "Barlow Condensed",sans-serif;padding:6px 12px;border-radius:8px;min-height:40px}
+.dtab[aria-current=true]{background:rgba(255,255,255,.14);color:#fff}
+.sbox{position:relative;max-width:1100px;margin:0 auto}
+.sbox input{width:100%;font:16px Barlow,sans-serif;padding:11px 40px 11px 42px;border-radius:12px;border:0;min-height:46px;background:var(--chalk);color:#0f1c33}
+.sbox .mag{position:absolute;left:13px;top:50%;transform:translateY(-50%);width:20px;height:20px;color:#5a6780;pointer-events:none}
+.sbox .clr{position:absolute;right:4px;top:50%;transform:translateY(-50%);width:40px;height:40px;border:0;background:none;color:#5a6780;font-size:22px;display:none}
+.sbox.has .clr{display:block}
+.sugg{position:absolute;left:0;right:0;top:calc(100% + 6px);background:var(--card);color:var(--ink);border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.28);max-height:min(62vh,460px);overflow:auto;display:none;padding:6px 0}
+.sugg.on{display:block}
+.sugg h4{margin:8px 14px 4px;font:600 12px Barlow,sans-serif;color:var(--mute);text-transform:none}
+.sg{display:flex;align-items:center;gap:10px;width:100%;text-align:left;border:0;background:none;padding:9px 14px;min-height:48px}
+.sg:hover,.sg.k{background:var(--soft)}
+.sg .i{width:32px;height:32px;border-radius:9px;background:var(--soft);display:grid;place-items:center;color:var(--acc);flex:none}
+.sg .i svg{width:22px;height:22px}
+.sg b{display:block;font-weight:600;line-height:1.2}
+.sg small{color:var(--mute);font-size:13px}
+/* filtri */
+.filt{position:sticky;top:calc(112px + var(--safe-t));z-index:15;background:var(--bg);border-bottom:1px solid var(--line)}
+.frow{display:flex;gap:8px;overflow-x:auto;padding:10px 14px;scrollbar-width:none;max-width:1100px;margin:0 auto}
+.frow::-webkit-scrollbar{display:none}
+.pill{flex:none;display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-weight:600;font-size:15px;white-space:nowrap}
+.pill svg{width:20px;height:20px;color:var(--acc)}
+.pill[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:#fff}
+.pill[aria-pressed=true] svg{color:var(--gold)}
+.pill.sp{border-style:dashed}
+.pill .x{margin-left:2px;font-size:18px;line-height:1;opacity:.8}
+.sep{flex:none;width:1px;background:var(--line);margin:4px 2px}
+/* contenuto */
+main{max-width:1100px;margin:0 auto;padding:14px 14px 24px}
+.hd{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:4px 2px 10px}
+.hd h2{font-size:26px;font-weight:800}
+.hd .n{color:var(--mute);font-size:14px}
+.sort{display:flex;gap:4px;background:var(--soft);padding:3px;border-radius:10px}
+.sort button{border:0;background:none;padding:5px 10px;border-radius:8px;font-size:13px;font-weight:600;color:var(--mute);min-height:32px}
+.sort button[aria-pressed=true]{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.list{background:var(--card);border-radius:16px;border:1px solid var(--line);overflow:hidden}
+.row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px 12px;width:100%;text-align:left;border:0;border-top:1px solid var(--line);background:none;padding:12px 14px;min-height:60px}
+.row:first-child{border-top:0}
+.row:active{background:var(--soft)}
+@media(hover:hover){.row:hover{background:var(--soft)}}
+.row .t{font-weight:700;font-size:17px;line-height:1.2;display:flex;align-items:center;gap:6px}
+.row .t em{font-style:normal;font:600 12px Barlow,sans-serif;color:var(--mute);background:var(--soft);border-radius:6px;padding:1px 6px}
+.row .s{color:var(--mute);font-size:14px;margin-top:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .s b{color:var(--acc);font-weight:600}
+.mini{display:flex;gap:3px;margin-top:5px}
+.mini svg{width:20px;height:20px;color:var(--acc)}
+.cnt{display:flex;align-items:center;gap:6px;color:var(--mute);font-size:14px;white-space:nowrap}
+.cnt b{font:700 20px "Barlow Condensed",sans-serif;color:var(--ink)}
+.cnt svg{width:16px;height:16px;opacity:.5}
+.row.club{grid-template-columns:44px minmax(0,1fr) auto}
+.ico{width:44px;height:44px;border-radius:12px;background:var(--blue);display:grid;place-items:center;color:var(--gold)}
+.ico svg{width:28px;height:28px}
+.grp{margin:18px 2px 8px;display:flex;align-items:center;gap:8px;font:700 18px "Barlow Condensed",sans-serif}
+.grp svg{width:22px;height:22px;color:var(--acc)}
+.grp span{color:var(--mute);font:500 14px Barlow,sans-serif}
+.more{display:block;width:100%;margin:12px 0 0;min-height:48px;border-radius:12px;border:1px solid var(--line);background:var(--card);font-weight:600}
+.empty{padding:28px 16px;text-align:center;color:var(--mute)}
+.back{display:inline-flex;align-items:center;gap:6px;border:0;background:none;color:var(--acc);font-weight:600;padding:6px 2px;min-height:40px}
+.chead{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:12px}
+.chead h2{font-size:30px;font-weight:800}
+.chead p{margin:4px 0 0;color:var(--mute);font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+@media(max-width:759px){.chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:12px -16px 0;padding:0 16px 2px}.chips::-webkit-scrollbar{display:none}.cp{flex:none}}
+.cp{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:5px 10px 5px 7px;font-size:14px;font-weight:600;min-height:36px}
+.cp svg{width:18px;height:18px;color:var(--acc)}
+.cp[aria-pressed=true]{background:var(--blue);color:#fff;border-color:var(--blue)}
+.cp[aria-pressed=true] svg{color:var(--gold)}
+/* griglia sport */
+.sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.stile{display:flex;flex-direction:column;align-items:flex-start;gap:8px;border:1px solid var(--line);background:var(--card);border-radius:14px;padding:14px;text-align:left;min-height:104px}
+.stile svg{width:32px;height:32px;color:var(--acc)}
+.stile b{font-size:16px;line-height:1.15}
+.stile small{color:var(--mute)}
+.stile[aria-pressed=true]{border-color:var(--blue);box-shadow:inset 0 0 0 2px var(--blue)}
+/* info */
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:12px}
+.card h3{font-size:20px;margin-bottom:8px}
+.big{font:800 44px/1 "Barlow Condensed",sans-serif;color:var(--acc)}
+.meter{height:10px;border-radius:99px;background:var(--soft);overflow:hidden;margin:10px 0 4px}
+.meter i{display:block;height:100%;background:var(--gold)}
+.bars{display:grid;gap:6px}
+.bar{display:grid;grid-template-columns:22px 8.5em minmax(0,1fr) 3em;align-items:center;gap:8px;font-size:14px}
+.bar svg{width:20px;height:20px;color:var(--acc)}
+.bar i{display:block;height:8px;border-radius:9px;background:var(--blue)}
+:root[data-theme=dark] .bar i{background:var(--gold)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]) .bar i{background:var(--gold)}}
+.bar span:last-child{text-align:right;color:var(--mute)}
+.small{font-size:14px;color:var(--mute)}
+/* barra in basso */
+.nav{position:fixed;left:0;right:0;bottom:0;z-index:25;background:var(--card);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding:4px 4px calc(4px + var(--safe-b))}
+.nb{border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:12px;font-weight:600;color:var(--mute);min-height:56px;justify-content:center;border-radius:10px}
+.nb svg{width:24px;height:24px}
+.nb[aria-current=true]{color:var(--acc)}
+.nb[aria-current=true] svg{transform:translateY(-1px)}
+/* scheda società */
+.sheet{position:fixed;inset:0;z-index:40;background:rgba(5,12,25,.5);display:none}
+.sheet.on{display:block}
+.panel{position:absolute;left:0;right:0;bottom:0;top:0;background:var(--bg);overflow:auto;overscroll-behavior:contain;animation:up .22s ease-out}
+@keyframes up{from{transform:translateY(24px);opacity:.4}to{transform:none;opacity:1}}
+.ph{position:sticky;top:0;z-index:2;background:var(--blue);color:#fff;padding:calc(8px + var(--safe-t)) 8px 14px;display:grid;grid-template-columns:44px 52px minmax(0,1fr) 44px;gap:10px;align-items:center}
+.ph .bk{width:44px;height:44px;border:0;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;display:grid;place-items:center}
+.ph .bk svg{width:22px;height:22px}
+.ph .ico{background:var(--gold);color:var(--blue);width:52px;height:52px}
+.ph h2{font-size:23px;font-weight:800}
+.ph p{margin:2px 0 0;color:#c9d6ea;font-size:14px}
+.pb{max-width:760px;margin:0 auto;padding:14px 14px calc(28px + var(--safe-b))}
+.acts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.act{display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;border-radius:12px;border:1px solid var(--line);background:var(--card);font-weight:600;text-decoration:none;color:var(--ink)}
+.act svg{width:20px;height:20px;color:var(--acc)}
+.act.facebook svg{color:#1877f2}.act.instagram svg{color:#d62976}
+.now{background:var(--blue);color:#fff;border-radius:16px;padding:14px 16px;margin-bottom:12px}
+.now small{color:#c9d6ea;font-size:13px}
+.now b{display:block;font:700 22px "Barlow Condensed",sans-serif;margin-top:2px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:14px;padding:4px 10px;border-radius:8px;background:var(--soft)}
+.tl{display:grid;gap:0}
+.tli{display:grid;grid-template-columns:4.6em minmax(0,1fr) auto;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.tli:first-child{border-top:0}
+.tli .y{font:700 16px "Barlow Condensed",sans-serif;color:var(--mute)}
+.tli .c{font-size:15px;line-height:1.3}
+.pos{display:inline-block;min-width:40px;text-align:center;font:700 16px "Barlow Condensed",sans-serif;padding:3px 8px;border-radius:8px;background:var(--soft);white-space:nowrap}
+.pos.up{background:#d6f5df;color:#0b5a2b}.pos.dn{background:#fde0d6;color:#8a2a0a}.pos.nd{color:var(--mute);font-weight:600}
+.tli.sq{grid-template-columns:7.5em minmax(0,1fr)}
+.cl{width:100%;border-collapse:collapse;font-size:15px}
+.cl th{font:600 12px Barlow,sans-serif;color:var(--mute);text-align:right;padding:6px 4px;border-bottom:1px solid var(--line)}
+.cl th:nth-child(2){text-align:left}
+.cl td{padding:9px 4px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.cl td.sq{text-align:left;white-space:normal;font-weight:600;line-height:1.25}
+.cl td.p{font:700 17px "Barlow Condensed",sans-serif;color:var(--mute);width:2em}
+.cl td.pt{font:700 17px "Barlow Condensed",sans-serif}
+.cl tr.me td{background:var(--soft)}
+.cl tr[data-id]{cursor:pointer}
+.cl td.sq a{color:var(--acc);text-decoration:none}
+@media(max-width:420px){.cl .hx{display:none}}
+.mt{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.mt:first-child{border-top:0}
+.mt .h{text-align:right;font-weight:600;line-height:1.2;overflow-wrap:anywhere}.dh{font:700 15px "Barlow Condensed",sans-serif;color:var(--mute);margin:8px 0 0}.mt .a{font-weight:600;line-height:1.2;overflow-wrap:anywhere}
+.mt .r{font:800 20px "Barlow Condensed",sans-serif;background:var(--soft);border-radius:8px;padding:2px 10px;min-width:64px;text-align:center}
+.mt .r.fut{font:600 13px Barlow,sans-serif;color:var(--mute);background:none}
+.mt small{grid-column:1/-1;text-align:center;color:var(--mute);font-size:12px;margin-top:-4px}
+.mt .me{color:var(--acc)}
+.rr{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;align-items:center;width:100%;text-align:left;border:0;background:none;padding:10px 0;border-top:1px solid var(--line)}
+.rr:first-child{border-top:0}
+.rr b{font-size:15px;line-height:1.25}.rr small{color:var(--mute);font-size:13px;grid-column:1}
+.rr .ps{grid-row:1/3;grid-column:2;text-align:right;font:800 24px "Barlow Condensed",sans-serif;color:var(--acc)}
+.rr .ps span{display:block;font:600 12px Barlow,sans-serif;color:var(--mute)}
+.ib{border:0;background:rgba(255,255,255,.14);color:#fff;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;flex:none}
+.ib svg{width:20px;height:20px}
+@media(min-width:760px){.ib{display:none}}
+.star{width:44px;height:44px;border:0;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;display:grid;place-items:center}
+.star svg{width:24px;height:24px}
+.star[aria-pressed=true]{color:var(--gold)}.star[aria-pressed=true] svg{fill:var(--gold)}
+.gstar{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;min-height:40px;margin-top:10px}
+.gstar svg{width:18px;height:18px;color:var(--acc)}
+.gstar[aria-pressed=true] svg{fill:var(--gold);color:var(--gold)}
+.row .fav{width:16px;height:16px;color:var(--gold);fill:var(--gold);flex:none}
+.fh{display:flex;align-items:center;gap:8px;margin:18px 2px 8px;font:700 18px "Barlow Condensed",sans-serif}
+.sync{font-size:12px;color:var(--mute);margin:-4px 2px 10px}
+.seg{display:flex;gap:4px;background:var(--soft);padding:4px;border-radius:12px;margin:0 0 12px;overflow-x:auto;scrollbar-width:none}
+.seg::-webkit-scrollbar{display:none}
+.seg button{flex:1 0 auto;display:flex;align-items:center;justify-content:center;gap:6px;border:0;background:none;border-radius:9px;padding:8px 12px;font-weight:600;font-size:15px;color:var(--mute);min-height:40px;white-space:nowrap}
+.seg button svg{width:20px;height:20px}
+.seg button[aria-selected=true]{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.14)}
+.seg button[aria-selected=true] svg{color:var(--acc)}
+.dnav{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:4px}
+.dnav b{font:700 18px "Barlow Condensed",sans-serif}
+.dnav button{width:44px;height:44px;border:1px solid var(--line);border-radius:50%;background:var(--card);display:grid;place-items:center;color:var(--acc)}
+.dnav button svg{width:20px;height:20px}.dnav button:disabled{opacity:.35}
+.nofilt .filt{display:none}
+.live{border:1px dashed var(--line);border-radius:14px;padding:12px 14px;color:var(--mute);font-size:14px;display:flex;gap:10px;align-items:center}
+.live svg{width:22px;height:22px;flex:none}
+.toast{position:fixed;left:50%;bottom:calc(84px + var(--safe-b));transform:translateX(-50%);background:#0f1c33;color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;z-index:60;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.on{opacity:1}
+.err{padding:18px;border-radius:14px;background:#fde0d6;color:#8a2a0a}
+@media(min-width:760px){
+ body{padding-bottom:24px}.nav{display:none}.dtabs{display:flex}.brand .cov{display:block}
+ .top{padding-top:12px}.brand{margin-bottom:10px}.filt{top:122px}html{scroll-padding-top:150px}
+ .sheet{background:rgba(5,12,25,.5)}.panel{left:auto;width:min(560px,100%);border-left:1px solid var(--line);box-shadow:-8px 0 30px rgba(0,0,0,.2)}
+ .ph{grid-template-columns:44px 60px minmax(0,1fr) 44px}.ph .ico{width:60px;height:60px}
+}
+@media(max-width:759px){.brand .cov{font-size:12px}}
+@media(max-width:479px){.brand .cov{display:none}.brand .ib{margin-left:auto}}
+@media(prefers-reduced-motion:reduce){.panel{animation:none}.toast{transition:none}}
+</style></head>
+<body>
+<header class="top">
+<div class="brand">
+<svg viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M50 8c4 6 4 12 0 16-4-4-4-10 0-16zM50 26c10 0 14 8 14 16 8-6 20-8 30-4-6 4-12 10-14 18 6 0 12 2 16 6-8 2-16 2-24 0 2 8 0 16-6 22l-6 6v-10c-4 2-6 2-10 0v10l-6-6c-6-6-8-14-6-22-8 2-16 2-24 0 4-4 10-6 16-6-2-8-8-14-14-18 10-4 22-2 30 4 0-8 4-16 14-16z"/></svg>
+<h1>Sport in <span>FVG</span></h1>
+<nav class="dtabs" aria-label="Sezioni">
+<button class="dtab" data-v="comuni">Comuni</button><button class="dtab" data-v="societa">Società</button><button class="dtab" data-v="risultati">Campionati</button><button class="dtab" data-v="sport">Sport</button><button class="dtab" data-v="preferiti">Preferiti</button><button class="dtab" data-v="info">Info</button>
+</nav>
+<span class="cov" id="cov"></span><button class="ib" data-v="info" aria-label="Informazioni"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg></button>
+</div>
+<div class="sbox" id="sbox">
+<svg class="mag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+<input id="q" type="search" placeholder="Cerca un comune o una società" autocomplete="off" enterkeyhint="search" aria-label="Cerca un comune o una società" aria-controls="sugg" aria-expanded="false">
+<button class="clr" id="clr" aria-label="Cancella ricerca">×</button>
+<div class="sugg" id="sugg" role="listbox"></div>
+</div>
+</header>
+<div class="filt"><div class="frow" id="frow" role="group" aria-label="Filtri"></div></div>
+<main id="main"><p class="empty">Caricamento…</p></main>
+<nav class="nav" aria-label="Sezioni">
+<button class="nb" data-v="comuni"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Comuni</button>
+<button class="nb" data-v="societa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3 8.5-7 10-4-1.5-7-5-7-10V6z"/></svg>Società</button>
+<button class="nb" data-v="risultati"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 13h3M8 16h6M15 13h1"/></svg>Campionati</button>
+<button class="nb" data-v="sport"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3.5 9.5c5 1.5 12 1.5 17 0M3.5 14.5c5-1.5 12-1.5 17 0M12 3v18"/></svg>Sport</button>
+<button class="nb" data-v="preferiti"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>Preferiti</button>
+</nav>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="dName"><div class="panel" id="panel"></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script>
+{
+const I={
+calcio:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="16" cy="16" r="12"/><path d="M16 9l5 3.6-1.9 6h-6.2L11 12.6z" fill="currentColor"/><path d="M16 9V4M21 12.6l4.6-1.6M19.1 18.6l3 4M12.9 18.6l-3 4M11 12.6l-4.6-1.6"/></svg>',
+calcio5:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="7" width="26" height="18" rx="2"/><path d="M16 7v18M3 12h4v8H3M29 12h-4v8h4"/><circle cx="16" cy="16" r="3" fill="currentColor"/></svg>',
+pallavolo:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="16" cy="16" r="12"/><path d="M16 4c-2 5-1 10 4 13M28 17c-5-1-9 1-12-1M8 26c3-4 7-6 8-10M16 16c-4-2-9-2-11 1"/></svg>',
+basket:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="16" cy="16" r="12"/><path d="M4 16h24M16 4v24M7.5 7.5c4 4 4 13 0 17M24.5 7.5c-4 4-4 13 0 17"/></svg>',
+rugby:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="16" cy="16" rx="13" ry="8" transform="rotate(-40 16 16)"/><path d="M11 21l10-10M13 15l4 4M15 13l4 4M17 11l4 4"/></svg>',
+pallanuoto:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="16" cy="12" r="8"/><path d="M8.5 9.5c5 2 10 2 15 0M16 4v16"/><path d="M3 24c3 2 5 2 8 0s5-2 8 0 5 2 8 0" stroke-linecap="round"/></svg>',
+pallamano:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="22" cy="8" r="5"/><path d="M20 6l4 4M24 6l-4 4M6 28l5-9 6-3M11 19l-3-5 6-3 3 5"/></svg>',
+hockey:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M22 3l-9 20c-1 2-3 3-5 3H4"/><circle cx="24" cy="25" r="3" fill="currentColor"/></svg>',
+baseball:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="16" cy="16" r="12"/><path d="M9 6c3 6 3 14 0 20M23 6c-3 6-3 14 0 20M8 10h3M8 22h3M21 10h3M21 22h3"/></svg>',
+nuoto:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="22" cy="9" r="3" fill="currentColor"/><path d="M6 17l7-5 4 3 4-2M3 22c3 2 5 2 8 0s5-2 8 0 5 2 8 0M3 27c3 2 5 2 8 0s5-2 8 0 5 2 8 0"/></svg>',
+tennis:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="13" cy="12" rx="8" ry="9" transform="rotate(-35 13 12)"/><path d="M18.5 18.5L27 27M8 8l10 8M6 13l9 7M11 5l9 8"/><circle cx="25" cy="7" r="3" fill="currentColor"/></svg>',
+atletica:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="5" r="2.6" fill="currentColor"/><path d="M11 11l6-2 4 4 4 1M17 9l-3 8 5 4-1 7M14 17l-5 2-4-1"/></svg>',
+ciclismo:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><circle cx="7.5" cy="21" r="5.5"/><circle cx="24.5" cy="21" r="5.5"/><path d="M7.5 21l5-9h9l3 9M12.5 12l4 9h-9M15 9h4"/></svg>',
+scherma:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 27L25 7M27 27L7 7M22 4l6 6M4 22l6 6M10 4L4 10M28 22l-6 6"/></svg>',
+ginnastica:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="25" r="2.6" fill="currentColor"/><path d="M16 21v-8M16 13L9 4M16 13l7-9M16 21l-6 2M16 21l6 2"/></svg>',
+judo:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M10 4l6 6 6-6 6 6-4 3v15H8V13l-4-3z"/><path d="M8 18h16M16 10v8"/></svg>',
+danza:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="17" cy="5" r="2.6" fill="currentColor"/><path d="M17 9l-1 8 4 5 1 6M16 17l-5 4-2 6M17 10l7-3M17 10l-8 1-3-3"/></svg>',
+sci:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="5" r="2.6" fill="currentColor"/><path d="M19 9l-5 5 4 3-2 6M14 14l-5 2M4 22l24 6M24 9l-2 6"/></svg>',
+canottaggio:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 20c6 3 20 3 26 0"/><path d="M6 6l20 20M24 24l3 3"/><circle cx="14" cy="13" r="2.4" fill="currentColor"/></svg>',
+vela:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M16 3v19M16 4l9 16h-9M16 7L8 20h8M4 24h24l-3 4H7z"/></svg>',
+bocce:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10" cy="19" r="7"/><circle cx="23" cy="20" r="6"/><circle cx="17" cy="8" r="2.5" fill="currentColor"/></svg>',
+tiro:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="16" cy="16" r="12"/><circle cx="16" cy="16" r="7"/><circle cx="16" cy="16" r="2.5" fill="currentColor"/></svg>',
+equitazione:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M10 28V18c0-6 4-11 10-12l2-3 1 4c3 2 5 5 5 8l-3 1-3-2-3 3v11"/></svg>',
+pattinaggio:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M8 4h7v9l9 4v4H6V4z"/><path d="M6 21h18"/><circle cx="9" cy="26" r="2.4"/><circle cx="21" cy="26" r="2.4"/></svg>',
+tennistavolo:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="8"/><path d="M17.5 17.5L26 26"/><circle cx="25" cy="7" r="2.5" fill="currentColor"/></svg>',
+altro:'<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M9 5h14v6a7 7 0 0 1-14 0zM9 7H4c0 4 2 6 5 6M23 7h5c0 4-2 6-5 6M16 18v5M11 27h10l-1-4h-8z"/></svg>'
+};
+const NAMES={calcio:'Calcio',calcio5:'Calcio a 5',pallavolo:'Pallavolo',basket:'Basket',rugby:'Rugby',pallanuoto:'Pallanuoto',pallamano:'Pallamano',hockey:'Hockey',baseball:'Baseball / softball',nuoto:'Nuoto',tennis:'Tennis e padel',atletica:'Atletica',ciclismo:'Ciclismo',scherma:'Scherma',ginnastica:'Ginnastica',judo:'Arti marziali',danza:'Danza sportiva',sci:'Sport invernali',canottaggio:'Canottaggio e canoa',vela:'Vela',bocce:'Bocce',tiro:'Tiro',equitazione:'Equitazione',tennistavolo:'Tennistavolo',pattinaggio:'Pattinaggio',altro:'Altri sport'};
+
+const PROV={UD:'Udine',PN:'Pordenone',GO:'Gorizia',TS:'Trieste'};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+const ico=s=>I[s]||I.altro;
+const fp=p=>{const t=String(p??'').trim();return /^\d+$/.test(t)?t+'°':(t||'n.d.')};
+const CHEV='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>';
+const BACK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M15 6l-6 6 6 6"/></svg>';
+let FAV={c:[],g:[]},FDB=null,FREF=null,FSYNC='locale';
+let C=[],COM=[],AGG='',BYC={},G=[],GBY={},girone='',view='comuni',prov='',sport='',comune='',sortBy='az',limit=60,cSport='';
+const st={get(k){try{return localStorage.getItem('sfvg-'+k)}catch(e){return null}},set(k,v){try{localStorage.setItem('sfvg-'+k,v)}catch(e){}}};
+const STAR=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>`;
+function favLoad(){try{const v=JSON.parse(localStorage.getItem('sfvg-fav')||'null');if(v&&Array.isArray(v.c))FAV={c:v.c,g:v.g||[]}}catch(e){}}
+function favSave(){try{localStorage.setItem('sfvg-fav',JSON.stringify(FAV))}catch(e){}
+if(FREF){const p=FREF.set({c:FAV.c,g:FAV.g,t:Date.now()});if(p&&p.catch)p.catch(()=>{FSYNC='locale';})}}
+const isFav=(k,id)=>FAV[k].includes(id);
+function favToggle(k,id){const a=FAV[k];const i=a.indexOf(id);if(i<0)a.unshift(id);else a.splice(i,1);favSave();toast(i<0?'Aggiunto ai preferiti':'Tolto dai preferiti');return i<0}
+async function favCloud(){try{if(!window.claude||!claude.use)return;const [db,user]=await Promise.all([claude.use('db'),claude.use('user')]);if(!db||!user)return;const id=await user.id();if(!id)return;
+FREF=db.doc('data/users/'+id+'/preferiti');const r=await FREF.get();let v=r;if(r&&typeof r.data==='function')v=r.data();else if(r&&r.data&&typeof r.data==='object')v=r.data;
+if(v&&Array.isArray(v.c)){FAV={c:[...new Set([...v.c,...FAV.c])],g:[...new Set([...(v.g||[]),...FAV.g])]}}
+FSYNC='account';favSave();if(view==='preferiti'||$('sheet').classList.contains('on'))render()}catch(e){FREF=null}}
+function toast(t){const e=$('toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.h);toast.h=setTimeout(()=>e.classList.remove('on'),1800)}
+function sub(c){if(c.attuale)return `<b>${esc(c.attuale)}</b>`;const l=c.storico[c.storico.length-1];if(l)return `${esc(l.stagione)}: ${esc(l.campionato)}${l.pos&&String(l.pos)!=='n.d.'?' · '+esc(fp(l.pos)):''}`;return c.categorie.length?esc(c.categorie.slice(0,3).join(' · ')):esc(NAMES[c.sport])}
+function match(c){return(!prov||c.prov===prov)&&(!sport||c.sport===sport||c.altri_sport.includes(sport))}
+function clubRow(c,showCom=true){return `<button class="row club" data-id="${c.id}"><span class="ico" aria-hidden="true">${ico(c.sport)}</span><span><span class="t">${esc(c.nome)}${isFav('c',c.id)?`<svg class="fav" viewBox="0 0 24 24" aria-label="preferito"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>`:''}</span><span class="s">${showCom?esc(c.comune)+' · ':''}${sub(c)}</span></span><span class="cnt">${CHEV}</span></button>`}
+function filters(){
+const sp=sport?`<button class="pill" data-s="" aria-pressed="true">${ico(sport)}${esc(NAMES[sport])}<span class="x" aria-hidden="true">×</span></button>`:`<button class="pill sp" data-go="sport">${I.altro}Scegli sport</button>`;
+$('frow').innerHTML=sp+'<span class="sep"></span>'+[['','Tutta la regione'],...Object.entries(PROV)].map(([k,v])=>`<button class="pill" data-p="${k}" aria-pressed="${k===prov}">${v}</button>`).join('');
+}
+function nav(){document.querySelectorAll('.nb,.dtab').forEach(b=>b.setAttribute('aria-current',b.dataset.v===(girone?'risultati':comune?'comuni':view)))}
+function vComuni(m){
+let L=COM.filter(c=>!prov||c.prov===prov).map(c=>{const ks=BYC[c.codice]||[];const f=ks.filter(match);return{c,f,all:ks}}).filter(r=>!sport||r.f.length);
+L.sort(sortBy==='n'?(a,b)=>b.f.length-a.f.length||a.c.nome.localeCompare(b.c.nome):(a,b)=>a.c.nome.localeCompare(b.c.nome));
+const tot=L.reduce((s,r)=>s+r.f.length,0);
+m.innerHTML=`<div class="hd"><h2>${prov?PROV[prov]:'Comuni'}</h2><div class="sort" role="group" aria-label="Ordina"><button data-sort="az" aria-pressed="${sortBy==='az'}">A–Z</button><button data-sort="n" aria-pressed="${sortBy==='n'}">Più società</button></div></div><p class="hd n" style="margin-top:-6px">${L.length} comuni · ${tot} società${sport?' di '+esc(NAMES[sport].toLowerCase()):''}</p>`+
+(L.length?`<div class="list">${L.slice(0,limit).map(({c,f})=>{const sp=[...new Set(f.map(k=>k.sport))];return `<button class="row" data-c="${c.codice}"><span><span class="t">${esc(c.nome)} <em>${c.prov}</em></span>${f.length?`<span class="mini" aria-hidden="true">${sp.slice(0,7).map(ico).join('')}</span>`:'<span class="s">Nessuna società trovata finora</span>'}</span><span class="cnt"><b>${f.length}</b>${CHEV}</span></button>`}).join('')}</div>${L.length>limit?`<button class="more" data-more>Mostra altri ${Math.min(60,L.length-limit)} comuni</button>`:''}`:'<div class="list"><p class="empty">Nessun comune con questi filtri.</p></div>');
+}
+function vComune(m){
+const c=COM.find(x=>x.codice===comune);const all=(BYC[comune]||[]).filter(k=>!prov||k.prov===prov);
+const cnt={};all.forEach(k=>cnt[k.sport]=(cnt[k.sport]||0)+1);const sps=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]);
+const f=all.filter(k=>!cSport||k.sport===cSport);
+const groups={};f.forEach(k=>(groups[k.sport]=groups[k.sport]||[]).push(k));
+m.innerHTML=`<button class="back" data-back>${BACK}Comuni</button><div class="chead"><h2>${esc(c.nome)}</h2><p>${PROV[c.prov]} · ${c.pop.toLocaleString('it-IT')} abitanti · CAP ${esc(c.cap)}</p>${sps.length>1?`<div class="chips">${`<button class="cp" data-cs="" aria-pressed="${!cSport}">Tutti · ${all.length}</button>`+sps.map(s=>`<button class="cp" data-cs="${s}" aria-pressed="${cSport===s}">${ico(s)}${esc(NAMES[s])} · ${cnt[s]}</button>`).join('')}</div>`:''}</div>`+
+(f.length?Object.keys(groups).sort((a,b)=>groups[b].length-groups[a].length).map(s=>`<div class="grp">${ico(s)}${esc(NAMES[s])}<span>${groups[s].length}</span></div><div class="list">${groups[s].sort((a,b)=>a.nome.localeCompare(b.nome)).map(k=>clubRow(k,false)).join('')}</div>`).join(''):'<div class="list"><p class="empty">Per questo comune non abbiamo ancora trovato società sportive. La raccolta dati continua.</p></div>');
+}
+function vSocieta(m){
+const L=C.filter(match).sort((a,b)=>(sport?0:a.sport.localeCompare(b.sport))||a.comune.localeCompare(b.comune)||a.nome.localeCompare(b.nome));
+m.innerHTML=`<div class="hd"><h2>${sport?esc(NAMES[sport]):'Tutte le società'}</h2><span class="n">${L.length}${prov?' · '+PROV[prov]:''}</span></div>`+(L.length?`<div class="list">${L.slice(0,limit).map(k=>clubRow(k)).join('')}</div>${L.length>limit?`<button class="more" data-more>Mostra altre ${Math.min(60,L.length-limit)}</button>`:''}`:'<div class="list"><p class="empty">Nessuna società con questi filtri.</p></div>');
+}
+function vSport(m){
+const cnt={};C.filter(k=>!prov||k.prov===prov).forEach(k=>{cnt[k.sport]=(cnt[k.sport]||0)+1});
+const ks=Object.keys(NAMES).filter(k=>cnt[k]).sort((a,b)=>cnt[b]-cnt[a]);
+m.innerHTML=`<div class="hd"><h2>Sport</h2><span class="n">${ks.length} discipline${prov?' · '+PROV[prov]:''}</span></div><div class="sgrid">${ks.map(k=>`<button class="stile" data-pick="${k}" aria-pressed="${sport===k}">${ico(k)}<b>${esc(NAMES[k])}</b><small>${cnt[k]} società</small></button>`).join('')}</div>`;
+}
+function vInfo(m){
+const done=COM.filter(c=>c.n>0).length;const cnt={};C.forEach(k=>cnt[k.sport]=(cnt[k.sport]||0)+1);const mx=Math.max(...Object.values(cnt));
+const ks=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]);
+m.innerHTML=`<div class="hd"><h2>Info</h2></div><div class="card"><div class="big">${C.length.toLocaleString('it-IT')}</div><div>società sportive in ${done} comuni su 215</div><div class="meter"><i style="width:${(done/215*100).toFixed(1)}%"></i></div><p class="small">Dati aggiornati al ${AGG.split('-').reverse().join('/')}. Con storico dei campionati: ${C.filter(k=>k.storico.length).length} società.</p></div>
+<div class="card"><h3>Società per sport</h3><div class="bars">${ks.map(k=>`<div class="bar">${ico(k)}<span>${esc(NAMES[k])}</span><span><i style="width:${(cnt[k]/mx*100).toFixed(1)}%"></i></span><span>${cnt[k]}</span></div>`).join('')}</div></div>
+<div class="card"><h3>Da dove vengono i dati</h3><p class="small" style="margin:0">Elenchi e classifiche pubblicati dalle federazioni e dai loro comitati regionali (LND FVG, FIP FVG, FIPAV, FIDAL, FIJLKAM, FISR, FITeT, FIV e altre), integrati da Wikipedia e dai siti delle società. Ogni scheda indica le sue fonti. "n.d." significa che il dato non è stato trovato. Applicazione non ufficiale, non collegata alle federazioni.</p><p class="small" style="margin:8px 0 0"><a href="note-legali.html" style="color:var(--acc)">Note legali e privacy</a></p></div>`;
+}
+const dt=s=>{if(!s)return'';const[y,m,d]=String(s).split('-');return d?`${+d}/${+m}`:s};
+const CORD=['Prima squadra','Seconda squadra','Terza squadra','Juniores','Under 21','Under 20','Under 19','Under 18','Under 17','Under 16','Under 15','Under 14','Under 13','Under 12'];
+const LV=[/serie a1|superlega|serie a\b|lba/i,/serie a2/i,/serie a3|b nazionale/i,/serie b1|b interregionale/i,/serie b2/i,/serie b/i,/serie c/i,/serie d/i,/eccellenza/i,/promozione/i,/prima categoria/i,/prima divisione|divisione regionale 1|dr1/i,/seconda categoria/i,/seconda divisione|divisione regionale 2|dr2/i,/terza categoria/i,/terza divisione|divisione regionale 3|dr3/i,/carnico/i,/gold/i,/silver/i,/regionale/i,/provincial/i];
+const lidx=n=>{const k=LV.findIndex(r=>r.test(n));return k<0?99:k};
+const cidx=c=>{const k=CORD.findIndex(o=>String(c||'').startsWith(o));return k<0?99:k};
+let rSport='',rAmb='',gTab='cl',gDay=null;
+function vRisultati(m){
+const sps=[...new Set(G.map(g=>g.sport))];if(!rSport||!sps.includes(rSport))rSport=(sport&&sps.includes(sport))?sport:(sps.includes('calcio')?'calcio':sps[0]||'');
+const inS=G.filter(g=>g.sport===rSport);const ambs=[...new Set(inS.map(g=>g.comitato))].sort();if(rAmb&&!ambs.includes(rAmb))rAmb='';
+const L=inS.filter(g=>!rAmb||g.comitato===rAmb);
+const cats={};L.forEach(g=>{const k=g.categoria||'Altro';(cats[k]=cats[k]||[]).push(g)});
+const favG=G.filter(g=>FAV.g.includes(g.gid)||g.classifica.some(r=>r.id&&FAV.c.includes(r.id)));
+m.innerHTML=`<div class="hd"><h2>Campionati</h2><span class="n">${G.length} gironi</span></div>`+
+(favG.length?`<div class="fh">${STAR.replace('<svg','<svg style="width:18px;height:18px;color:var(--gold);fill:var(--gold)"')}Le mie squadre</div><div class="list">${favG.map(g=>{const r=g.classifica.find(r=>r.id&&FAV.c.includes(r.id));return `<button class="row" data-g="${g.gid}"><span><span class="t">${esc(r?r.squadra:g.girone)}</span><span class="s">${esc(NAMES[g.sport]||g.sport)} · ${esc(g.girone)}</span></span><span class="cnt">${r?`<b>${esc(r.pos)}°</b>`:''}${CHEV}</span></button>`}).join('')}</div>`:'')+
+(sps.length?`<div class="seg" role="tablist" style="margin-top:14px">${sps.map(x=>`<button role="tab" data-rs="${x}" aria-selected="${x===rSport}">${ico(x)}${esc(NAMES[x]||x)}</button>`).join('')}</div>`:'')+
+(ambs.length>1?`<div class="chips" style="margin:10px 0 4px">${[['','Tutti'],...ambs.map(a=>[a,a])].map(([k,v])=>`<button class="cp" data-ra="${esc(k)}" aria-pressed="${k===rAmb}">${esc(v)}</button>`).join('')}</div>`:'')+
+(L.length?Object.keys(cats).sort((a,b)=>cidx(a)-cidx(b)||a.localeCompare(b)).map(c=>`<div class="grp">${esc(c)}<span>${cats[c].length}</span></div><div class="list">${cats[c].sort((a,b)=>lidx(a.girone)-lidx(b.girone)||String(a.genere).localeCompare(String(b.genere))||a.girone.localeCompare(b.girone)).map(g=>{const t=g.classifica[0];return `<button class="row" data-g="${g.gid}"><span><span class="t">${esc(g.girone)}${g.genere?` <em>${esc(g.genere)}</em>`:''}</span><span class="s">${esc(g.comitato)}${g.giornata?` · ${g.giornata}ª giornata`:''}${t?` · 1° ${esc(t.squadra)}`:''}</span></span><span class="cnt">${CHEV}</span></button>`}).join('')}</div>`).join(''):`<div class="list"><p class="empty">${G.length?'Nessun girone qui.':'I campionati sono in caricamento: torna più tardi.'}</p></div>`)+
+`<p class="small" style="margin:14px 2px 0">Classifiche e risultati dalle pubblicazioni ufficiali delle federazioni (FIPAV, FIP, LND), aggiornati ogni settimana.</p>`;
+}
+function matchRows(ps,me){let last='';return ps.map(x=>{const fut=!x.risultato;const info=[x.giornata&&fut?x.giornata+'ª giornata':'',!fut&&x.data&&x.giornata==null?'':'',x.parziali?esc(x.parziali):'',fut&&x.campo?esc(x.campo):'',!fut&&x.campo&&!x.parziali?esc(x.campo):''].filter(Boolean).join(' · ');const hd=(x.giornata==null&&x.data&&x.data!==last)?`<div class="dh">${esc(dt(x.data))}</div>`:'';last=x.data;return hd+`<div class="mt"><span class="h${x.id_casa&&(x.id_casa===me||FAV.c.includes(x.id_casa))?' me':''}">${esc(x.casa)}</span><span class="r${fut?' fut':''}">${fut?esc(dt(x.data)+(x.ora?' '+x.ora:'')):esc(x.risultato)}</span><span class="a${x.id_ospite&&(x.id_ospite===me||FAV.c.includes(x.id_ospite))?' me':''}">${esc(x.ospite)}</span>${info?`<small>${info}</small>`:''}</div>`}).join('')}
+function vGirone(m){
+const g=GBY[girone];if(!g){m.innerHTML='<p class="empty">Girone non trovato.</p>';return}
+const hasN=g.classifica.some(r=>r.n!=null),hasFS=g.classifica.some(r=>r.f!=null),hasSet=g.classifica.some(r=>r.set_v!=null);
+const played=g.partite.filter(x=>x.risultato),fut=g.partite.filter(x=>!x.risultato);
+const days=[...new Set(played.map(x=>x.giornata).filter(x=>x!=null))].sort((a,b)=>a-b);
+if(gDay==null||!days.includes(gDay))gDay=days.length?days[days.length-1]:null;
+const fav=id=>id&&FAV.c.includes(id);
+let body='';
+if(gTab==='cl')body=g.classifica.length?`<div class="card"><table class="cl"><thead><tr><th>#</th><th>Squadra</th><th>Pt</th><th>G</th><th>V</th>${hasN?'<th>N</th>':''}<th>P</th>${hasSet?'<th class="hx">SV</th><th class="hx">SP</th>':hasFS?'<th class="hx">F</th><th class="hx">S</th>':''}</tr></thead><tbody>${g.classifica.map(r=>`<tr${r.id?` data-id="${r.id}"`:''}${fav(r.id)?' class="me"':''}><td class="p">${esc(r.pos)}</td><td class="sq">${r.id?`<a>${esc(r.squadra)}</a>`:esc(r.squadra)}</td><td class="pt">${esc(r.punti??'')}</td><td>${esc(r.g??'')}</td><td>${esc(r.v??'')}</td>${hasN?`<td>${esc(r.n??'')}</td>`:''}<td>${esc(r.p??'')}</td>${hasSet?`<td class="hx">${esc(r.set_v??'')}</td><td class="hx">${esc(r.set_p??'')}</td>`:hasFS?`<td class="hx">${esc(r.f??'')}</td><td class="hx">${esc(r.s??'')}</td>`:''}</tr>`).join('')}</tbody></table>${g.calcolata?'<p class="small" style="margin:8px 0 0">Classifica calcolata dai risultati ufficiali: a pari punti possibili differenze per scontri diretti o penalizzazioni.</p>':''}</div>`:'<div class="card"><p class="small" style="margin:0">Classifica non disponibile.</p></div>';
+else if(gTab==='ris'){const ms=gDay==null?played.slice().reverse():played.filter(x=>x.giornata===gDay);const i=days.indexOf(gDay);
+body=played.length?`<div class="card">${days.length?`<div class="dnav"><button data-day="${days[i-1]??''}" ${i>0?'':'disabled'} aria-label="Giornata precedente">${BACK}</button><b>${gDay}ª giornata</b><button data-day="${days[i+1]??''}" ${i<days.length-1?'':'disabled'} aria-label="Giornata successiva">${CHEV}</button></div>`:''}${matchRows(ms,'')}</div>${days.length&&days.length<(g.giornata||0)?`<p class="small" style="margin:0 2px 10px">Disponibili le giornate ${days[0]}–${days[days.length-1]}.</p>`:''}`:'<div class="card"><p class="small" style="margin:0">Nessun risultato disponibile.</p></div>';}
+else body=fut.length?`<div class="card">${matchRows(fut,'')}</div>`:'<div class="card"><p class="small" style="margin:0">Nessuna partita in programma disponibile.</p></div>';
+m.innerHTML=`<button class="back" data-go="risultati">${BACK}Campionati</button><div class="chead"><h2>${esc(g.girone)}</h2><p>${esc(NAMES[g.sport]||g.sport)} · ${esc(g.categoria||'')}${g.genere?' '+esc(g.genere):''} · ${esc(g.comitato)} · ${esc(g.stagione)}</p><button class="gstar" data-fav="g" data-fid="${g.gid}" aria-pressed="${isFav('g',g.gid)}">${STAR}${isFav('g',g.gid)?'Nei preferiti':'Segui il girone'}</button></div>
+<div class="seg" role="tablist"><button role="tab" data-gt="cl" aria-selected="${gTab==='cl'}">Classifica</button><button role="tab" data-gt="ris" aria-selected="${gTab==='ris'}">Risultati</button><button role="tab" data-gt="cal" aria-selected="${gTab==='cal'}">Calendario</button></div>
+${body}<p class="small" style="margin:4px 2px">Aggiornato al ${dt(g.aggiornato)}${g.giornata?` · ${g.giornata}ª giornata`:''} · <a href="${esc(g.fonte)}" target="_blank" rel="noopener" style="color:var(--acc)">fonte ufficiale</a></p>`;
+}
+function clubResults(c){
+const gs=G.filter(g=>g.classifica.some(r=>r.id===c.id)||g.partite.some(x=>x.id_casa===c.id||x.id_ospite===c.id));
+if(!gs.length)return '';
+return `<div class="card"><h3>Risultati 2026/27</h3>${gs.map(g=>{const r=g.classifica.find(r=>r.id===c.id);const last=g.partite.filter(x=>x.risultato&&(x.id_casa===c.id||x.id_ospite===c.id)).pop();const nx=g.partite.find(x=>!x.risultato&&(x.id_casa===c.id||x.id_ospite===c.id));
+return `<button class="rr" data-gs="${g.gid}"><b>${esc(g.categoria&&g.categoria!=='Prima squadra'?g.categoria+' · ':'')}${esc(g.girone)}</b>${r?`<span class="ps">${esc(r.pos)}°<span>${esc(r.punti??'')} pt</span></span>`:''}<small>${last?`Ultima: ${esc(last.casa)} ${esc(last.risultato)} ${esc(last.ospite)}`:''}${nx?`${last?'<br>':''}Prossima: ${esc(nx.casa)} – ${esc(nx.ospite)}, ${esc(dt(nx.data))}`:''}</small></button>`}).join('')}</div>`}
+function vPreferiti(m){
+const cs=FAV.c.map(id=>C.find(x=>x.id===id)).filter(Boolean),gs=FAV.g.map(id=>GBY[id]).filter(Boolean);
+if(!cs.length&&!gs.length){m.innerHTML=`<div class="hd"><h2>Preferiti</h2></div><div class="card"><p style="margin:0">Tocca la stella ${STAR.replace('<svg','<svg style="width:18px;height:18px;vertical-align:-3px"')} nella scheda di una società o nella pagina di un girone per seguirli qui: troverai campionato in corso, ultimo risultato e prossima partita.</p></div>`;return}
+m.innerHTML=`<div class="hd"><h2>Preferiti</h2><span class="n">${cs.length+gs.length}</span></div><p class="sync">${FSYNC==='account'?'Salvati nel tuo account: li ritrovi su ogni dispositivo.':'Salvati su questo dispositivo.'}</p>`+
+(cs.length?`<div class="fh">Società e squadre</div><div class="list">${cs.map(c=>{const rs=G.filter(g=>g.classifica.some(r=>r.id===c.id));const r=rs.length?rs[0].classifica.find(r=>r.id===c.id):null;const last=rs.length?rs[0].partite.filter(x=>x.risultato&&(x.id_casa===c.id||x.id_ospite===c.id)).pop():null;
+return `<button class="row club" data-id="${c.id}"><span class="ico" aria-hidden="true">${ico(c.sport)}</span><span><span class="t">${esc(c.nome)}</span><span class="s">${r?`<b>${esc(r.pos)}° · ${esc(r.punti??'')} pt</b> · `:''}${last?esc(last.casa+' '+last.risultato+' '+last.ospite):sub(c)}</span></span><span class="cnt">${CHEV}</span></button>`}).join('')}</div>`:'')+
+(gs.length?`<div class="fh">Gironi</div><div class="list">${gs.map(g=>`<button class="row" data-g="${g.gid}"><span><span class="t">${esc(g.girone)}</span><span class="s">${esc(NAMES[g.sport]||g.sport)} · ${g.classifica[0]?'in testa '+esc(g.classifica[0].squadra):''}</span></span><span class="cnt">${CHEV}</span></button>`).join('')}</div>`:'');
+}
+function render(){
+nav();filters();document.body.classList.toggle('nofilt',!!girone||(!comune&&['risultati','preferiti','info'].includes(view)));const m=$('main');
+if(girone)vGirone(m);else if(comune)vComune(m);else if(view==='risultati')vRisultati(m);else if(view==='preferiti')vPreferiti(m);else if(view==='societa')vSocieta(m);else if(view==='sport')vSport(m);else if(view==='info')vInfo(m);else vComuni(m);
+}
+function openClub(id,push=true){
+const c=C.find(x=>x.id===id);if(!c)return;
+const s=c.storico;
+const ORD=['Prima squadra','Seconda squadra','Terza squadra','Juniores','Under 21','Under 20','Under 19','Under 18','Under 17','Under 16','Under 15','Under 14','Under 13','Under 12'];const sq=(c.squadre||[]).slice().sort((a,b)=>{const i=x=>{const k=ORD.findIndex(o=>String(x.categoria).startsWith(o));return k<0?50:k};return i(a)-i(b)||String(a.genere).localeCompare(b.genere)});
+const rows=s.map((x,k)=>{const p=s[k-1];const t=String(x.pos);let cls=/promoss/i.test(t)?'up':/retroces/i.test(t)?'dn':/^n\.?d/i.test(t)||!t?'nd':'';return `<div class="tli"><span class="y">${esc(x.stagione)}</span><span class="c">${esc(x.campionato)}</span><span class="pos ${cls}">${esc(fp(x.pos))}</span></div>`}).reverse().join('');
+const so=c.social||{};const sl=[['facebook','Facebook',`<svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8V6.5c0-.8.2-1.3 1.4-1.3H17V2.2c-.3 0-1.3-.2-2.5-.2C12 2 10.5 3.5 10.5 6.2V8H8v3.2h2.5V22H14V11.2h2.6L17 8z"/></svg>`],['instagram','Instagram',`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>`],['sito','Sito',`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>`]].filter(([k])=>so[k]);const soc=sl.length?`<div class="acts soc" style="grid-template-columns:repeat(${sl.length},1fr)">${sl.map(([k,l,i])=>`<a class="act ${k}" href="${esc(so[k])}" target="_blank" rel="noopener">${i}${l}</a>`).join('')}</div>${c.social_verifica==='corrispondenza nome e comune'?'<p class="small" style="margin:-4px 2px 12px">Profili abbinati per nome e comune: non risultano collegati da un sito ufficiale.</p>':''}`:'';
+const q=encodeURIComponent((c.indirizzo&&!/non pubblicato/i.test(c.indirizzo)?c.indirizzo+', ':'')+c.comune+' '+c.prov);
+$('panel').innerHTML=`<div class="ph"><button class="bk" data-close aria-label="Indietro">${BACK}</button><span class="ico" aria-hidden="true">${ico(c.sport)}</span><div><h2 id="dName">${esc(c.nome)}</h2><p>${esc(NAMES[c.sport])}${c.altri_sport.length?' · '+c.altri_sport.map(x=>esc(NAMES[x])).join(', '):''} · ${esc(c.comune)}</p></div><button class="star" data-fav="c" data-fid="${c.id}" aria-pressed="${isFav('c',c.id)}" aria-label="${isFav('c',c.id)?'Togli dai preferiti':'Aggiungi ai preferiti'}">${STAR}</button></div>
+<div class="pb">
+<div class="acts"><a class="act" href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Mappa</a><button class="act" data-copy><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>Copia link</button></div>
+${soc}${c.attuale?`<div class="now"><small>Stagione in corso</small><b>${esc(c.attuale)}</b></div>`:''}
+<div class="card"><h3>Dove</h3><div>${esc(c.indirizzo||'Indirizzo non pubblicato')}</div><div class="small">${esc(c.comune)} (${c.prov})${c.fondata?' · fondata nel '+esc(c.fondata):''}</div></div>
+${sq.length?`<div class="card"><h3>Squadre 2026/27</h3><div class="tl">${sq.map(q=>`<div class="tli sq"><span class="y">${esc(q.categoria)}${q.genere&&q.genere!=='misto'?' '+esc(q.genere):''}</span><span class="c">${esc(q.campionato||'')}</span></div>`).join('')}</div></div>`:(c.categorie.length?`<div class="card"><h3>Squadre e categorie</h3><div class="tags">${c.categorie.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></div>`:'')}
+<div class="card"><h3>Ultime stagioni</h3>${s.length?`<div class="tl">${rows}</div><p class="small" style="margin:8px 0 0">Prima squadra · n.d. = dato non trovato</p>`:'<p class="small" style="margin:0">Nessuno storico di campionato disponibile.</p>'}</div>
+${c.note?`<div class="card"><h3>Note</h3><p style="margin:0">${esc(c.note)}</p></div>`:''}
+${clubResults(c)||`<div class="live"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M5.6 5.6a9 9 0 0 0 0 12.8M18.4 5.6a9 9 0 0 1 0 12.8"/></svg>Risultati e classifiche in tempo reale: in arrivo.</div>`}
+${c.fonte?`<p class="small" style="margin:14px 2px 0">Fonti: ${esc(c.fonte)}</p>`:''}
+</div>`;
+$('sheet').classList.add('on');document.body.style.overflow='hidden';$('panel').scrollTop=0;
+if(push&&location.hash!=='#s-'+id){location.hash='s-'+id}
+setTimeout(()=>{const b=document.querySelector('[data-close]');b&&b.focus()},50);
+}
+function closeSheet(){if(!$('sheet').classList.contains('on'))return;$('sheet').classList.remove('on');document.body.style.overflow='';render()}
+function go(h){if(location.hash!=='#'+h)location.hash=h;else route()}
+function route(){
+const h=decodeURIComponent(location.hash.slice(1));
+if(h.startsWith('s-')){const c=C.find(x=>x.id===h.slice(2));if(c){if(!$('sheet').classList.contains('on'))openClub(c.id,false);return}}
+closeSheet();
+const prev=comune+girone;girone='';
+if(h.startsWith('g-')&&GBY[h.slice(2)]){comune='';girone=h.slice(2)}
+else if(h.startsWith('c-')&&COM.some(c=>c.codice===h.slice(2))){comune=h.slice(2);if(prev!==comune)cSport=''}
+else{comune='';if(['societa','sport','info','comuni','risultati','preferiti'].includes(h))view=h;else if(!h)view='comuni'}
+limit=60;render();if(prev!==comune+girone)window.scrollTo(0,0);
+}
+/* ricerca */
+let sel=-1;
+function suggest(){
+const v=norm($('q').value.trim());$('sbox').classList.toggle('has',!!v);const s=$('sugg');
+if(v.length<2){s.classList.remove('on');$('q').setAttribute('aria-expanded','false');return}
+const cm=COM.filter(c=>norm(c.nome).includes(v)).sort((a,b)=>norm(a.nome).indexOf(v)-norm(b.nome).indexOf(v)||a.nome.localeCompare(b.nome)).slice(0,5);
+const cl=C.filter(c=>norm(c.nome).includes(v)).slice(0,8);
+s.innerHTML=(cm.length?'<h4>Comuni</h4>'+cm.map(c=>`<button class="sg" role="option" data-c="${c.codice}"><span class="i">${'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/></svg>'}</span><span><b>${esc(c.nome)}</b><small>${PROV[c.prov]} · ${(BYC[c.codice]||[]).length} società</small></span></button>`).join(''):'')+
+(cl.length?'<h4>Società</h4>'+cl.map(c=>`<button class="sg" role="option" data-id="${c.id}"><span class="i">${ico(c.sport)}</span><span><b>${esc(c.nome)}</b><small>${esc(NAMES[c.sport])} · ${esc(c.comune)}</small></span></button>`).join(''):'')||'<p class="empty">Nessun risultato</p>';
+s.classList.add('on');$('q').setAttribute('aria-expanded','true');sel=-1;
+}
+function hideSugg(){$('sugg').classList.remove('on');$('q').setAttribute('aria-expanded','false')}
+$('q').addEventListener('input',suggest);
+$('q').addEventListener('focus',suggest);
+$('q').addEventListener('keydown',e=>{const o=[...$('sugg').querySelectorAll('.sg')];if(!o.length)return;
+if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();sel=(sel+(e.key==='ArrowDown'?1:-1)+o.length)%o.length;o.forEach((x,i)=>x.classList.toggle('k',i===sel));o[sel].scrollIntoView({block:'nearest'})}
+else if(e.key==='Enter'){(o[sel]||o[0]).click()}else if(e.key==='Escape'){hideSugg();$('q').blur()}});
+$('clr').addEventListener('click',()=>{$('q').value='';suggest();$('q').focus()});
+document.addEventListener('click',e=>{if(!e.target.closest('#sbox'))hideSugg()});
+$('sugg').addEventListener('click',e=>{const b=e.target.closest('.sg');if(!b)return;hideSugg();$('q').value='';$('sbox').classList.remove('has');$('q').blur();
+if(b.dataset.c)go('c-'+b.dataset.c);else openClub(b.dataset.id)});
+/* eventi */
+document.addEventListener('click',e=>{
+const t=e.target;let b;
+if(b=t.closest('[data-fav]')){const on=favToggle(b.dataset.fav,b.dataset.fid);b.setAttribute('aria-pressed',on);if(b.classList.contains('gstar'))b.lastChild.textContent=on?'Nei preferiti':'Segui il girone';else b.setAttribute('aria-label',on?'Togli dai preferiti':'Aggiungi ai preferiti');if(!$('sheet').classList.contains('on'))render();return}
+if(b=t.closest('.nb,.dtab,.ib')){go(b.dataset.v);window.scrollTo(0,0);return}
+if(b=t.closest('[data-p]')){prov=b.dataset.p;st.set('prov',prov);limit=60;render();return}
+if(b=t.closest('.pill[data-s]')){sport='';limit=60;render();return}
+if(b=t.closest('[data-go]')){go(b.dataset.go);return}
+if(b=t.closest('[data-pick]')){sport=sport===b.dataset.pick?'':b.dataset.pick;go(sport?'societa':'sport');render();window.scrollTo(0,0);return}
+if(b=t.closest('[data-sort]')){sortBy=b.dataset.sort;st.set('sort',sortBy);render();return}
+if(b=t.closest('[data-more]')){limit+=60;render();return}
+if(b=t.closest('[data-cs]')){cSport=b.dataset.cs;render();return}
+if(b=t.closest('[data-back]')){history.length>1&&document.referrer!==undefined?history.back():go('comuni');return}
+if(b=t.closest('.row[data-g]')){gTab='cl';gDay=null;go('g-'+b.dataset.g);return}
+if(b=t.closest('[data-rs]')){rSport=b.dataset.rs;rAmb='';render();return}
+if(b=t.closest('[data-ra]')){rAmb=b.dataset.ra;render();return}
+if(b=t.closest('[data-gt]')){gTab=b.dataset.gt;render();return}
+if(b=t.closest('[data-day]')){if(b.dataset.day!==''){gDay=+b.dataset.day;render()}return}
+if(b=t.closest('[data-gs]')){const gg=b.dataset.gs;gTab='cl';gDay=null;closeSheet();history.replaceState(null,'','#g-'+gg);route();window.scrollTo(0,0);return}
+if(b=t.closest('tr[data-id]')){openClub(b.dataset.id);return}
+if(b=t.closest('.row[data-c]')){go('c-'+b.dataset.c);return}
+if(b=t.closest('.row[data-id]')){openClub(b.dataset.id);return}
+if(b=t.closest('[data-close]')||t.id==='sheet'){history.back();return}
+if(b=t.closest('[data-copy]')){const u=location.href;(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(()=>toast('Link copiato'),()=>toast('Copia non consentita qui'));return}
+});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('sheet').classList.contains('on'))history.back()});
+window.addEventListener('hashchange',route);
+favLoad();favCloud();prov=st.get('prov')||'';sortBy=st.get('sort')||'az';if(!PROV[prov])prov='';
+Promise.all([fetch('data/comuni.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/data.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/risultati.json',{cache:'no-cache'}).then(r=>r.ok?r.json():[]).catch(()=>[])]).then(([c,d,rg])=>{
+G=rg||[];G.forEach(g=>GBY[g.gid]=g);
+COM=c.comuni;AGG=c.aggiornato;C=d;C.forEach(k=>(BYC[k.codice]=BYC[k.codice]||[]).push(k));
+$('cov').textContent=`${C.length} società · 215 comuni`;
+const h=location.hash.slice(1);if(h.startsWith('s-')){const id=h.slice(2);history.replaceState(null,'','#comuni');route();openClub(id)}else route();
+}).catch(()=>{$('main').innerHTML='<div class="err">Non riesco a caricare i dati. Ricarica la pagina tra qualche istante.</div>'});
+}
+if('serviceWorker' in navigator&&location.protocol==='https:'){navigator.serviceWorker.register('sw.js').catch(()=>{})}
+</script>
+</body>
+</html>

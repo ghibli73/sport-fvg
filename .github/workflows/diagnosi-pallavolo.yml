@@ -1,0 +1,29 @@
+name: Diagnosi pallavolo (solo lettura)
+
+# Da avviare a mano la prima volta o se l'aggiornamento automatico smette di funzionare:
+# scarica le pagine dei portali e le allega all'esecuzione (sezione "Artifacts") senza modificare i dati.
+on:
+  workflow_dispatch:
+    inputs:
+      girone:
+        description: "Slug del girone da provare (vuoto = tutti)"
+        required: false
+        default: ""
+
+jobs:
+  diagnosi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Prova lettura con salvataggio delle pagine
+        run: |
+          if [ -n "${{ github.event.inputs.girone }}" ]; then python scripts/volley.py --dump --solo "${{ github.event.inputs.girone }}" || true
+          else python scripts/volley.py --dump || true; fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pagine-portali
+          path: debug/
