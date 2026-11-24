@@ -83,6 +83,7 @@ def parse_classifica(html):
     return best
 
 
+RX_ALTRO = re.compile(r"coppa|supercoppa|trofeo|torneo|amichevol|memorial|final|play.?off|play.?out", re.I)
 RX_DATA = re.compile(r"(\d{2})/(\d{2})/(\d{2,4})(?:\s+(\d{1,2}[:.]\d{2}))?")
 RX_RIS = re.compile(r"^(\d)\s*-\s*(\d)$")
 RX_PARZ = re.compile(r"\d{1,2}-\d{1,2}")
@@ -154,6 +155,9 @@ def aggiorna(g, cfg, oggi, dump):
         for k in (-7, 0, 7):
             try:
                 for x in parse_gare(get(url_settimana(cfg, lunedi(oggi) + dt.timedelta(days=k)), dump)):
+                    # stesse squadre possono incontrarsi anche in Coppa: si tengono solo le gare del campionato giusto
+                    if RX_ALTRO.search(x["campionato"]) and not RX_ALTRO.search(cfg["girone"] + " " + cfg["categoria"]):
+                        continue
                     if key(x["casa"]) in nomi and key(x["ospite"]) in nomi:
                         nuove.append(x)
             except Exception as e:
