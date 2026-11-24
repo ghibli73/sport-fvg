@@ -23,6 +23,8 @@ jobs:
         run: |
           if [ -n "${{ github.event.inputs.girone }}" ]; then python scripts/volley.py --dump --solo "${{ github.event.inputs.girone }}" || true
           else python scripts/volley.py --dump || true; fi
+      - name: Struttura pagina (Serie C F, settimana scorsa)
+        run: python scripts/mostra_pagina.py serie-c-femminile-fvg villadies -1 || true
       - uses: actions/upload-artifact@v4
         with:
           name: pagine-portali
