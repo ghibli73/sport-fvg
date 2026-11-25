@@ -276,6 +276,54 @@ details.avv[open]>summary{border-color:var(--blue)}
 @media(prefers-reduced-motion:reduce){.panel{animation:none}.toast{transition:none}.sk i{animation:none}}
 .evl{list-style:none;margin:0;padding:0}.evi{display:grid;grid-template-columns:64px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--line,#e3e8f0)}.evi:first-child{border-top:0}.evd{font-variant-numeric:tabular-nums;font-size:13px;opacity:.75;padding-top:2px}.evm summary{cursor:pointer;min-height:44px;display:flex;align-items:center;color:var(--acc);font-weight:600}
 .cmp{color:var(--acc);text-decoration:none;display:inline-block;padding:12px 4px;line-height:20px;min-height:44px}.cmp:active{opacity:.7}
+
+/* risultati in primo piano */
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.es{display:inline-grid;place-items:center;min-width:28px;height:28px;padding:0 4px;border-radius:8px;font:800 16px var(--fc);flex:none}
+.es.w{padding:0 10px;font-size:15px;text-transform:uppercase;letter-spacing:.3px}
+.es.v{background:#d6f5df;color:#0b5a2b}.es.p{background:#fde0d6;color:#8a2a0a}.es.n{background:#e3e8f0;color:#33415c}
+.rs{font:800 17px var(--fc);font-variant-numeric:tabular-nums;white-space:nowrap}
+.rh{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-bottom:12px;box-shadow:0 2px 12px rgba(18,58,107,.10)}
+.rhh{display:flex;align-items:center;justify-content:space-between;gap:8px;background:var(--blue);color:#fff;padding:10px 16px}
+.rhh h3{display:flex;align-items:center;gap:8px;font-size:20px;margin:0}.rhh h3 svg{width:20px;height:20px;color:var(--gold)}
+.rhh>span{font-size:14px;color:#c9d6ea}
+.tm{padding:14px 16px 0;cursor:pointer}
+.tmt{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.tmn{min-width:0}.tmc{display:block;font-size:14px;font-weight:600;color:var(--mute)}.tmn b{display:block;font:700 19px/1.15 var(--fc);text-wrap:balance}
+.tmp{text-align:right;flex:none}.tmp b{display:block;font:800 40px/1 var(--fc);color:var(--acc)}.tmp span{font-size:14px;color:var(--mute);white-space:nowrap}
+.tml{margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}
+.lb{display:block;font-size:13px;font-weight:700;color:var(--mute);text-transform:uppercase;letter-spacing:.4px;margin-bottom:4px}
+.tmr{display:flex;align-items:center;gap:10px;font-size:15px;line-height:1.3}.tmr strong{color:var(--acc)}
+.tmr.nxt{align-items:flex-start;flex-direction:column;gap:2px}.tmr .when{font-weight:700}.tmr .cmp{padding:10px 0;font-size:14px}
+.tmb{display:flex;align-items:center;justify-content:space-between;width:calc(100% + 32px);margin:10px -16px 0;padding:0 16px;min-height:48px;border:0;border-top:1px solid var(--line);background:var(--soft);color:var(--acc);font-weight:700;font-size:15px}
+.tmb svg{width:20px;height:20px}
+.trs{padding:12px 16px 4px;border-top:1px solid var(--line)}.trs h4{margin:0 0 2px;font:700 15px var(--f);color:var(--mute)}
+.trw{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;align-items:center;width:100%;text-align:left;border:0;border-top:1px solid var(--line);background:none;padding:10px 0;min-height:56px}
+.trs .trw:first-of-type{border-top:0}
+.trc b{display:block;font-size:15px;line-height:1.25}.trc small{display:block;color:var(--mute);font-size:13px;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.trp{text-align:right}.trp b{display:block;font:800 22px/1 var(--fc);color:var(--acc)}.trp small{font-size:13px;color:var(--mute)}
+.trl{grid-column:1/-1;display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:4px 8px;font-size:14px;line-height:1.3}.trl>.sl:first-child{grid-column:1/-1}.trl strong{color:var(--acc)}
+.trl .es{min-width:24px;height:24px;font-size:14px}.trl .rs{font-size:15px}
+.trl .nx,.trl>.small{grid-column:1/-1;color:var(--mute)}.trl .nx .lb{display:inline;font-size:12px;margin:0 4px 0 0}
+.rhs{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:12px 16px 14px;border-top:1px solid var(--line)}
+.rhs details[open]{grid-column:1/-1}.rhs .act{min-height:44px;font-size:15px}
+.fold{padding:0}.fold>summary{display:flex;align-items:center;gap:10px;padding:14px 16px;min-height:52px;cursor:pointer;list-style:none}
+.fold>summary::-webkit-details-marker{display:none}.fold>summary h3{margin:0;font-size:18px}
+.fold>summary::after{content:"";margin-left:auto;width:10px;height:10px;border-right:2.5px solid var(--mute);border-bottom:2.5px solid var(--mute);transform:rotate(45deg);transition:transform .15s}
+.fold[open]>summary::after{transform:rotate(-135deg)}.fn{font-size:14px;color:var(--mute);background:var(--soft);border-radius:99px;padding:1px 8px}
+.fb{padding:0 16px 14px}
+.pfl{margin-bottom:12px}.pfl .trw{padding:10px 14px;border-top:1px solid var(--line)}
+.hr{margin:0 0 18px}.hrh{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:2px 2px 10px}
+.hrh h2{display:flex;align-items:center;gap:8px;font-size:24px;font-weight:800}.hrh h2 svg{width:22px;height:22px;color:var(--gold);fill:none}
+.hr .trw{padding:10px 14px}.hr .list .trw:first-child{border-top:0}
+.lnk{display:inline-flex;align-items:center;gap:2px;border:0;background:none;color:var(--acc);font-weight:700;min-height:44px;padding:0 4px}.lnk svg{width:18px;height:18px}
+.mr{display:grid;grid-template-columns:40px minmax(0,1fr) 18px;gap:10px;align-items:center;width:100%;text-align:left;border:0;border-top:1px solid var(--line);background:none;padding:10px 14px;min-height:60px}
+.mr:first-child{border-top:0}.mr .ico{width:40px;height:40px;border-radius:11px}.mr .ico svg{width:24px;height:24px}.mr>svg{width:18px;height:18px;color:var(--mute)}
+.mrs{display:block;font-weight:600;font-size:15px;line-height:1.3}.mrt small{display:block;color:var(--mute);font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.more.pri{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--blue);border-color:var(--blue);color:#fff}.more.pri svg{width:20px;height:20px;color:var(--gold)}
+.mf{margin-top:8px}.mf>summary,.trs .evm>summary{min-height:44px;display:flex;align-items:center;color:var(--acc);font-weight:700;cursor:pointer}
+.nb.nr svg{color:var(--acc)}
+@media(hover:hover){.tm:hover .tmb,.trw:hover,.mr:hover{background:var(--soft)}}
 </style></head>
 <body>
 <header class="top">
@@ -283,7 +331,7 @@ details.avv[open]>summary{border-color:var(--blue)}
 <img class="logo" src="icons/icon-192.png" alt="" width="34" height="34">
 <h1>Zuìn <small>Sport in FVG</small></h1>
 <nav class="dtabs" aria-label="Sezioni">
-<button class="dtab" data-v="comuni">Comuni</button><button class="dtab" data-v="societa">Società</button><button class="dtab" data-v="risultati">Campionati</button><button class="dtab" data-v="sport">Sport</button><button class="dtab" data-v="preferiti">Preferiti</button><button class="dtab" data-v="info">Info</button>
+<button class="dtab" data-v="comuni">Comuni</button><button class="dtab" data-v="societa">Società</button><button class="dtab" data-v="risultati">Risultati</button><button class="dtab" data-v="sport">Sport</button><button class="dtab" data-v="preferiti">Preferiti</button><button class="dtab" data-v="info">Info</button>
 </nav>
 <span class="cov" id="cov"></span><button class="ib" data-v="info" aria-label="Informazioni"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg></button>
 </div>
@@ -299,7 +347,7 @@ details.avv[open]>summary{border-color:var(--blue)}
 <nav class="nav" aria-label="Sezioni">
 <button class="nb" data-v="comuni"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Comuni</button>
 <button class="nb" data-v="societa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3 8.5-7 10-4-1.5-7-5-7-10V6z"/></svg>Società</button>
-<button class="nb" data-v="risultati"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 13h3M8 16h6M15 13h1"/></svg>Campionati</button>
+<button class="nb nr" data-v="risultati"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 21h18M5 21V12h4v9M10 21V7h4v14M15 21v-6h4v6"/><path d="M12 2.5l.9 1.8 2 .3-1.45 1.4.35 2-1.8-.95-1.8.95.35-2L9.1 4.6l2-.3z" fill="currentColor" stroke="none"/></svg>Risultati</button>
 <button class="nb" data-v="sport"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3.5 9.5c5 1.5 12 1.5 17 0M3.5 14.5c5-1.5 12-1.5 17 0M12 3v18"/></svg>Sport</button>
 <button class="nb" data-v="preferiti"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>Preferiti</button>
 </nav>
@@ -367,11 +415,20 @@ const sp=sport?`<button class="pill" data-s="" aria-pressed="true" aria-label="T
 $('frow').innerHTML=sp+'<span class="sep"></span>'+[['','Tutta la regione'],...Object.entries(PROV)].map(([k,v])=>`<button class="pill" data-p="${k}" aria-pressed="${k===prov}">${v}</button>`).join('');
 }
 function nav(){document.querySelectorAll('.nb,.dtab').forEach(b=>b.setAttribute('aria-current',b.dataset.v===(girone?'risultati':comune||view==='mappa'?'comuni':view)))}
+function homeRis(){
+const fc=FAV.c.map(id=>C.find(x=>x.id===id)).filter(Boolean);const T=[];fc.forEach(c=>{const t=squadreRis(c)[0];if(t)T.push(t)});
+if(T.length)return `<section class="hr" aria-labelledby="hrT"><div class="hrh"><h2 id="hrT">${STAR}Le tue squadre</h2><button class="lnk" data-go="preferiti">Preferiti${CHEV}</button></div><div class="list">${T.slice(0,3).map(t=>teamRow(t,'data-gg',true)).join('')}</div><button class="more pri" data-go="risultati">${LIVE}Tutti i risultati e le classifiche</button></section>`;
+const d0=oggi();let L=[];G.forEach(g=>{if(sport&&g.sport!==sport)return;g.partite.forEach(x=>{if(x.risultato&&x.data&&x.data<=d0&&(x.id_casa||x.id_ospite))L.push({g,x})})});if(!L.length)return `<section class="hr"><button class="more pri" data-go="risultati">${LIVE}Risultati e classifiche</button></section>`;
+const mx=L.reduce((m,o)=>o.x.data>m?o.x.data:m,'');const lim=new Date(mx);lim.setDate(lim.getDate()-3);const ls=lim.toISOString().slice(0,10);
+L=L.filter(o=>o.x.data>=ls).sort((a,b)=>cidx(a.g.categoria)-cidx(b.g.categoria)||lidx(a.g.girone)-lidx(b.g.girone)||(a.x.data<b.x.data?1:-1));
+const seen=new Set(),bySp={};L.forEach(o=>{if(seen.has(o.g.gid))return;seen.add(o.g.gid);(bySp[o.g.sport]=bySp[o.g.sport]||[]).push(o)});
+const sps=Object.keys(bySp).sort((a,b)=>(a==='calcio'?-1:b==='calcio'?1:bySp[b].length-bySp[a].length));const P=[];for(let i=0;P.length<4&&i<4;i++)sps.forEach(k=>{if(P.length<4&&bySp[k][i])P.push(bySp[k][i])});
+return `<section class="hr" aria-labelledby="hrT"><div class="hrh"><h2 id="hrT">${LIVE}Ultimi risultati</h2><span class="small">fino al ${esc(dt(mx))}</span></div><div class="list">${P.map(({g,x})=>`<button class="mr" data-gg="${g.gid}"><span class="ico" aria-hidden="true">${ico(g.sport)}</span><span class="mrt"><span class="mrs">${esc(x.casa)} <b class="rs">${esc(x.risultato)}</b> ${esc(x.ospite)}</span><small>${esc(g.girone)} · ${esc(dt(x.data))}</small></span>${CHEV}</button>`).join('')}</div><button class="more pri" data-go="risultati">${LIVE}Tutti i risultati e le classifiche</button></section>`}
 function vComuni(m){
 let L=COM.filter(c=>!prov||c.prov===prov).map(c=>{const ks=BYC[c.codice]||[];const f=ks.filter(match);return{c,f,all:ks}}).filter(r=>!sport||r.f.length);
 L.sort(sortBy==='n'?(a,b)=>b.f.length-a.f.length||a.c.nome.localeCompare(b.c.nome):(a,b)=>a.c.nome.localeCompare(b.c.nome));
 const tot=L.reduce((s,r)=>s+r.f.length,0);
-m.innerHTML=`<div class="hd"><h2>${prov?PROV[prov]:'Comuni'}</h2><button class="gstar" data-map="" style="margin:0 auto 0 0">${PIN}Mappa</button><div class="sort" role="group" aria-label="Ordina"><button data-sort="az" aria-pressed="${sortBy==='az'}">A–Z</button><button data-sort="n" aria-pressed="${sortBy==='n'}">Più società</button></div></div><p class="hd n" style="margin-top:-6px">${L.length} comuni · ${tot} società${sport?' di '+esc(NAMES[sport].toLowerCase()):''}</p>`+
+m.innerHTML=homeRis()+`<div class="hd"><h2>${prov?PROV[prov]:'Comuni'}</h2><button class="gstar" data-map="" style="margin:0 auto 0 0">${PIN}Mappa</button><div class="sort" role="group" aria-label="Ordina"><button data-sort="az" aria-pressed="${sortBy==='az'}">A–Z</button><button data-sort="n" aria-pressed="${sortBy==='n'}">Più società</button></div></div><p class="hd n" style="margin-top:-6px">${L.length} comuni · ${tot} società${sport?' di '+esc(NAMES[sport].toLowerCase()):''}</p>`+
 (L.length?`<div class="list">${L.slice(0,limit).map(({c,f})=>{const sp=[...new Set(f.map(k=>k.sport))];return `<button class="row" data-c="${c.codice}"><span><span class="t">${esc(c.nome)} <em>${c.prov}</em></span>${f.length?`<span class="mini" aria-hidden="true">${sp.slice(0,7).map(ico).join('')}</span>`:'<span class="s">Nessuna società trovata finora</span>'}</span><span class="cnt"><b${f.length?'':' class="z"'}>${f.length}</b>${CHEV}</span></button>`}).join('')}</div>${L.length>limit?`<button class="more" data-more>Mostra altri ${Math.min(60,L.length-limit)} comuni</button>`:''}`:'<div class="list"><p class="empty">Nessun comune con questi filtri.</p></div>');
 }
 function vComune(m){
@@ -391,7 +448,7 @@ const cnt={};C.filter(k=>!prov||k.prov===prov).forEach(k=>{cnt[k.sport]=(cnt[k.s
 const ks=Object.keys(NAMES).filter(k=>cnt[k]).sort((a,b)=>cnt[b]-cnt[a]);
 m.innerHTML=`<div class="hd"><h2>Sport</h2><span class="n">${ks.length} discipline${prov?' · '+PROV[prov]:''}</span></div><div class="sgrid">${ks.map(k=>`<button class="stile" data-pick="${k}" aria-pressed="${sport===k}">${ico(k)}<b>${esc(NAMES[k])}</b><small>${cnt[k]} società</small></button>`).join('')}</div>`;
 }
-const VERSIONE='1.7.3 beta',VERSIONE_DATA='2026-11-25';
+const VERSIONE='1.8.0 beta',VERSIONE_DATA='2026-11-25';
 function vInfo(m){
 const done=COM.filter(c=>c.n>0).length;const cnt={};C.forEach(k=>cnt[k.sport]=(cnt[k.sport]||0)+1);const mx=Math.max(...Object.values(cnt));
 const ks=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]);
@@ -411,8 +468,8 @@ const inS=G.filter(g=>g.sport===rSport);const ambs=[...new Set(inS.map(g=>g.comi
 const L=inS.filter(g=>!rAmb||g.comitato===rAmb);
 const cats={};L.forEach(g=>{const k=g.categoria||'Altro';(cats[k]=cats[k]||[]).push(g)});
 const favG=G.filter(g=>FAV.g.includes(g.gid)||g.classifica.some(r=>r.id&&FAV.c.includes(r.id)));
-m.innerHTML=`<div class="hd"><h2>Campionati</h2><span class="n">${G.length} gironi</span></div>`+
-(favG.length?`<div class="fh">${STAR.replace('<svg','<svg style="width:18px;height:18px;color:var(--gold);fill:var(--gold)"')}Le mie squadre</div><div class="list">${favG.map(g=>{const r=g.classifica.find(r=>r.id&&FAV.c.includes(r.id));return `<button class="row" data-g="${g.gid}"><span><span class="t">${esc(r?r.squadra:g.girone)}</span><span class="s">${esc(NAMES[g.sport]||g.sport)} · ${esc(g.girone)}</span></span><span class="cnt">${r?`<b>${esc(r.pos)}°</b>`:''}${CHEV}</span></button>`}).join('')}</div>`:'')+
+m.innerHTML=`<div class="hd"><h2>Risultati e classifiche</h2><span class="n">${G.length} gironi</span></div>`+
+(favG.length?`<div class="fh">${STAR.replace('<svg','<svg style="width:18px;height:18px;color:var(--gold);fill:var(--gold)"')}Le mie squadre</div><div class="list">${favG.map((g,i)=>{const r=g.classifica.find(r=>r.id&&FAV.c.includes(r.id));return (i===3?`</div><details class="evm mf"><summary>Mostra tutte (${favG.length})</summary><div class="list">`:'')+`<button class="row" data-g="${g.gid}"><span><span class="t">${esc(r?r.squadra:g.girone)}</span><span class="s">${esc(NAMES[g.sport]||g.sport)} · ${esc(g.categoria||'')} · ${esc(g.girone)}</span></span><span class="cnt">${r?`<b>${esc(r.pos)}°</b>`:''}${CHEV}</span></button>`}).join('')}</div>${favG.length>3?'</details>':''}`:'')+
 (sps.length?`<div class="seg" role="tablist" style="margin-top:14px">${sps.map(x=>`<button role="tab" data-rs="${x}" aria-selected="${x===rSport}">${ico(x)}${esc(NAMES[x]||x)}</button>`).join('')}</div>`:'')+
 (ambs.length>1?`<div class="chips" style="margin:10px 0 4px">${[['','Tutti'],...ambs.map(a=>[a,a])].map(([k,v])=>`<button class="cp" data-ra="${esc(k)}" aria-pressed="${k===rAmb}">${esc(v)}</button>`).join('')}</div>`:'')+
 (L.length?Object.keys(cats).sort((a,b)=>cidx(a)-cidx(b)||a.localeCompare(b)).map(c=>`<div class="grp">${esc(c)}<span>${cats[c].length}</span></div><div class="list">${cats[c].sort((a,b)=>lidx(a.girone)-lidx(b.girone)||String(a.genere).localeCompare(String(b.genere))||a.girone.localeCompare(b.girone)).map(g=>{const t=g.classifica[0];return `<button class="row" data-g="${g.gid}"><span><span class="t">${esc(g.girone)}${g.genere?` <em>${esc(g.genere)}</em>`:''}</span><span class="s">${esc(g.comitato)}${g.giornata?` · ${g.giornata}ª giornata`:''}${t?` · 1° ${esc(t.squadra)}`:''}</span></span><span class="cnt">${CHEV}</span></button>`}).join('')}</div>`).join(''):`<div class="list"><p class="empty">${G.length?'Nessun girone qui.':'I campionati sono in caricamento: torna più tardi.'}</p></div>`)+
@@ -435,7 +492,7 @@ if(gTab==='cl')body=g.classifica.length?`<div class="card"><table class="cl"><th
 else if(gTab==='ris'){const ms=gDay==null?played.slice().reverse():played.filter(x=>x.giornata===gDay);const i=days.indexOf(gDay);
 body=played.length?`<div class="card">${days.length?`<div class="dnav"><button data-day="${days[i-1]??''}" ${i>0?'':'disabled'} aria-label="Giornata precedente">${BACK}</button><b>${gDay}ª giornata</b><button data-day="${days[i+1]??''}" ${i<days.length-1?'':'disabled'} aria-label="Giornata successiva">${CHEV}</button></div>`:''}${matchRows(ms,'',g)}</div><div class="tools"><button class="gstar" data-share="day">${SHARE}${gDay==null?'Condividi i risultati':'Condividi la giornata'}</button></div>${days.length&&days.length<(g.giornata||0)?`<p class="small" style="margin:0 2px 10px">Disponibili le giornate ${days[0]}–${days[days.length-1]}.</p>`:''}`:'<div class="card"><p class="small" style="margin:0">Nessun risultato disponibile.</p></div>';}
 else{const nxt=fut.filter(futura),old=fut.filter(x=>!futura(x));body=(nxt.length?`<div class="card">${matchRows(nxt,'')}</div>`:'<div class="card"><p class="small" style="margin:0">Nessuna partita in programma: il calendario delle prossime giornate non è ancora pubblicato.</p></div>')+(old.length?`<div class="card"><h3>Senza risultato</h3><p class="small" style="margin:0 0 6px">Partite con data già passata ma senza risultato pubblicato (rinviate o in attesa del comunicato).</p>${matchRows(old,'')}</div>`:'')}
-m.innerHTML=`<button class="back" data-go="risultati">${BACK}Campionati</button><div class="chead"><h2>${esc(g.girone)}</h2><p>${esc(NAMES[g.sport]||g.sport)} · ${esc(g.categoria||'')}${g.genere?' '+esc(g.genere):''} · ${esc(g.comitato)} · ${esc(g.stagione)}</p><div class="gacts"><button class="gstar" data-fav="g" data-fid="${g.gid}" aria-pressed="${isFav('g',g.gid)}">${STAR}${isFav('g',g.gid)?'Nei preferiti':'Segui il girone'}</button>${g.partite.some(futura)?`<button class="gstar" data-ics="${g.gid}">${CAL}Aggiungi al calendario</button>`:''}</div>${gironeAvvisi(g)}</div>
+m.innerHTML=`<button class="back" data-go="risultati">${BACK}Risultati</button><div class="chead"><h2>${esc(g.girone)}</h2><p>${esc(NAMES[g.sport]||g.sport)} · ${esc(g.categoria||'')}${g.genere?' '+esc(g.genere):''} · ${esc(g.comitato)} · ${esc(g.stagione)}</p><div class="gacts"><button class="gstar" data-fav="g" data-fid="${g.gid}" aria-pressed="${isFav('g',g.gid)}">${STAR}${isFav('g',g.gid)?'Nei preferiti':'Segui il girone'}</button>${g.partite.some(futura)?`<button class="gstar" data-ics="${g.gid}">${CAL}Aggiungi al calendario</button>`:''}</div>${gironeAvvisi(g)}</div>
 <div class="seg" role="tablist"><button role="tab" data-gt="cl" aria-selected="${gTab==='cl'}">Classifica</button><button role="tab" data-gt="ris" aria-selected="${gTab==='ris'}">Risultati</button><button role="tab" data-gt="cal" aria-selected="${gTab==='cal'}">Calendario</button></div>
 ${body}<p class="small" style="margin:4px 2px">Aggiornato al ${dt(g.aggiornato)}${g.giornata?` · ${g.giornata}ª giornata`:''} · <a href="${esc(g.fonte)}" target="_blank" rel="noopener" style="color:var(--acc)">fonte ufficiale</a></p>`;
 }
@@ -444,27 +501,45 @@ const dd=d=>{const p=String(d||'').split('-');return p.length===3?`${+p[2]}/${+p
 const li=e=>`<li class="evi"><span class="evd">${dd(e.data)}</span><div><b>${esc(e.evento)}</b>${e.risultato?`<div>${esc(e.risultato)}</div>`:''}<div class="small">${[e.luogo,e.livello].filter(Boolean).map(esc).join(' · ')}${e.fonte?` · <a href="${esc(e.fonte)}" target="_blank" rel="noopener" style="color:var(--acc)">fonte</a>`:''}</div></div></li>`;
 const a=ev.slice(0,5),b=ev.slice(5);
 return `<div class="card"><h3>Eventi e piazzamenti</h3><ul class="evl">${a.map(li).join('')}</ul>${b.length?`<details class="evm"><summary>Mostra tutti (${ev.length})</summary><ul class="evl">${b.map(li).join('')}</ul></details>`:''}<p class="small" style="margin:8px 0 0">Risultati della società negli ultimi 12 mesi, dalle fonti indicate.</p></div>`}
-function clubResults(c){
-const gs=G.filter(g=>g.classifica.some(r=>r.id===c.id)||g.partite.some(x=>x.id_casa===c.id||x.id_ospite===c.id));
-if(!gs.length)return '';
-return `<div class="card"><h3>Risultati 2026/27</h3>${gs.map(g=>{const r=g.classifica.find(r=>r.id===c.id);const last=g.partite.filter(x=>x.risultato&&(x.id_casa===c.id||x.id_ospite===c.id)).pop();const nx=g.partite.find(x=>futura(x)&&(x.id_casa===c.id||x.id_ospite===c.id));
-return `<button class="rr" data-gs="${g.gid}"><b>${esc(g.categoria&&g.categoria!=='Prima squadra'?g.categoria+' · ':'')}${esc(g.girone)}</b>${r?`<span class="ps">${esc(r.pos)}°<span>${esc(r.punti??'')} pt</span></span>`:''}<small>${last?`Ultima: ${esc(last.casa)} ${esc(last.risultato)} ${esc(last.ospite)}`:''}${nx?`${last?'<br>':''}Prossima: ${esc(nx.casa)} – ${esc(nx.ospite)}, ${esc(dt(nx.data))}`:''}</small></button>`}).join('')}</div>`}
+/* risultati per squadra: posizione, ultima e prossima partita, dai dati già caricati */
+const isMe=(x,id)=>x.id_casa===id||x.id_ospite===id;
+function esito(x,id){const m=/^\s*(\d+)\s*[-–:]\s*(\d+)/.exec(x.risultato||'');if(!m)return'';const a=+m[1],b=+m[2],my=x.id_casa===id?a:b,ot=x.id_casa===id?b:a;return my>ot?'v':my<ot?'p':'n'}
+const ESL={v:'Vinta',p:'Persa',n:'Pari'};
+const badge=(e,w)=>e?(w?`<span class="es w ${e}">${ESL[e]}</span>`:`<span class="es ${e}"><span aria-hidden="true">${e.toUpperCase()}</span><span class="vh">${ESL[e]}</span></span>`):'';
+const contro=(x,id)=>x.id_casa===id?`in casa con ${esc(x.ospite)}`:`in trasferta con ${esc(x.casa)}`;
+const ord=x=>(x.data||'')+String(x.giornata??'').padStart(3,'0');
+function squadreRis(c){return G.filter(g=>g.classifica.some(r=>r.id===c.id)||g.partite.some(x=>isMe(x,c.id))).map(g=>{const ps=g.partite.filter(x=>isMe(x,c.id));const pl=ps.filter(x=>x.risultato).sort((a,b)=>ord(a)<ord(b)?-1:ord(a)>ord(b)?1:0);const nx=ps.filter(futura).sort((a,b)=>((a.data+(a.ora||''))<(b.data+(b.ora||''))?-1:1))[0]||null;
+const cat=(g.categoria||'')+(g.genere&&g.genere!=='misto'?' '+g.genere:'');return{g,c,r:g.classifica.find(r=>r.id===c.id)||null,n:g.classifica.length,last:pl[pl.length-1]||null,nx,cat}}).sort((a,b)=>cidx(a.g.categoria)-cidx(b.g.categoria)||lidx(a.g.girone)-lidx(b.g.girone)||String(a.g.genere).localeCompare(String(b.g.genere)))}
+const nome=(x,id,k)=>{const me=k==='c'?x.id_casa===id:x.id_ospite===id;const t=esc(k==='c'?x.casa:x.ospite);return me?`<strong>${t}</strong>`:t};
+const scoreLine=(x,id)=>`${nome(x,id,'c')} <b class="rs">${esc(x.risultato)}</b> ${nome(x,id,'o')}`;
+const nextWhen=x=>`${esc(dt(x.data))}${x.ora?' · '+esc(x.ora):''}`;
+/* riga compatta di una squadra: usata in scheda (data-gs), Preferiti e Home (data-gg) */
+function teamRow(t,attr,club){const{g,r,last,nx,cat}=t;const id=t.c.id;
+return `<button class="trw" ${attr}="${g.gid}"><span class="trc">${club?`<b>${esc(t.c.nome)}</b><small>${esc(cat)} · ${esc(g.girone)}</small>`:`<b>${esc(cat||g.girone)}</b><small>${esc(g.girone)}</small>`}</span><span class="trp">${r?`<b>${esc(r.pos)}°</b><small>${esc(r.punti??'')} pt</small>`:''}</span><span class="trl">${last?`${badge(esito(last,id))}<span class="sl">${scoreLine(last,id)}</span>`:''}${nx?`<span class="nx"><span class="lb">Prossima</span> ${nextWhen(nx)} · ${contro(nx,id)}</span>`:''}${!last&&!nx?'<span class="small">Nessuna partita disponibile</span>':''}</span></button>`}
+function clubRis(c){const T=squadreRis(c);if(!T.length)return'';const t=T[0],{g,r,last,nx}=t,id=c.id;const rest=T.slice(1);
+const main=`<div class="tm" data-gs="${g.gid}"><div class="tmt"><div class="tmn"><span class="tmc">${esc(t.cat||NAMES[g.sport]||'')}</span><b>${esc(g.girone)}</b></div>${r?`<div class="tmp"><b>${esc(r.pos)}°</b><span>${esc(r.punti??'')} pt${t.n?' · su '+t.n:''}</span></div>`:''}</div>
+${last?`<div class="tml"><span class="lb">Ultima${last.data?' · '+esc(dt(last.data)):''}</span><div class="tmr">${badge(esito(last,id),1)}<span>${scoreLine(last,id)}</span></div></div>`:''}
+${nx?`<div class="tml"><span class="lb">Prossima</span><div class="tmr nxt"><span class="when">${nextWhen(nx)}</span><span>${esc(nx.casa)} – ${esc(nx.ospite)}${nx.campo?`<br>${campoLink(nx.campo)}`:''}</span></div></div>`:''}
+<button class="tmb" data-gs="${g.gid}">Classifica e risultati del girone${CHEV}</button></div>`;
+const more=rest.length?`<div class="trs"><h4>Altre squadre · ${rest.length}</h4>${rest.slice(0,3).map(x=>teamRow(x,'data-gs')).join('')}${rest.length>3?`<details class="evm"><summary>Mostra tutte (${rest.length})</summary>${rest.slice(3).map(x=>teamRow(x,'data-gs')).join('')}</details>`:''}</div>`:'';
+return `<section class="rh" aria-labelledby="rhT"><div class="rhh"><h3 id="rhT">${LIVE}Risultati e classifica</h3>${T.length>1?`<span>${T.length} squadre</span>`:''}</div>${main}${more}<div class="rhs">${clubCal(c,true)}${clubAvvisi(c,true)}</div></section>`}
+const LIVE='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>';
+function fold(title,body,n){return `<details class="card fold"><summary><h3>${title}</h3>${n?`<span class="fn">${n}</span>`:''}</summary><div class="fb">${body}</div></details>`}
 /* avvisi gratuiti con ntfy.sh: un argomento pubblico per società, nessun account e nessun dato personale */
 const BELL='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4zM10 21h4"/></svg>';
 const ntfyTopic=id=>'zuin-fvg-'+String(id).replace(/[^A-Za-z0-9]/g,'-');
 const conPartite=c=>G.some(g=>g.partite.some(x=>x.id_casa===c.id||x.id_ospite===c.id));
 const NTFY_INFO='<p>Ricevi una notifica gratuita, senza account, quando arriva un risultato: apri la pagina ntfy e tocca "Subscribe" per attivare le notifiche del browser, oppure installa l\'app ntfy e iscriviti all\'argomento.</p>';
 const NTFY_APP='<div class="acts"><a class="act" href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener">App Android</a><a class="act" href="https://apps.apple.com/app/ntfy/id1625396347" target="_blank" rel="noopener">App iPhone</a></div>';
-function clubAvvisi(c){if(!conPartite(c))return '';const t=ntfyTopic(c.id);
-return `<div class="card"><h3>Avvisi dei risultati</h3><details class="avv"><summary class="act">${BELL}Ricevi avvisi</summary><div class="avb">${NTFY_INFO}<a class="act pri" href="https://ntfy.sh/${t}" target="_blank" rel="noopener" style="margin-bottom:8px">${BELL}Apri ntfy.sh/${t}</a>${NTFY_APP}<p style="margin:0">Argomento da usare nell'app: <code>${t}</code>. Gli argomenti ntfy sono pubblici: chiunque li conosca può leggerli. Dettagli in Info › Note legali.</p></div></details></div>`}
+function clubAvvisi(c,mini){if(!conPartite(c))return '';const t=ntfyTopic(c.id);
+return `${mini?'':'<div class="card"><h3>Avvisi dei risultati</h3>'}<details class="avv"><summary class="act">${BELL}${mini?'Avvisi':'Ricevi avvisi'}</summary><div class="avb">${NTFY_INFO}<a class="act pri" href="https://ntfy.sh/${t}" target="_blank" rel="noopener" style="margin-bottom:8px">${BELL}Apri ntfy.sh/${t}</a>${NTFY_APP}<p style="margin:0">Argomento da usare nell'app: <code>${t}</code>. Gli argomenti ntfy sono pubblici: chiunque li conosca può leggerli. Dettagli in Info › Note legali.</p></div></details>${mini?'':'</div>'}`}
 function prefAvvisi(cs){const L=cs.filter(conPartite);if(!L.length)return '';
 return `<details class="avv" style="margin-top:12px"><summary class="act">${BELL}Ricevi avvisi dei risultati</summary><div class="avb">${NTFY_INFO}<div class="avl">${L.map(c=>`<a class="act" href="https://ntfy.sh/${ntfyTopic(c.id)}" target="_blank" rel="noopener">${BELL}<span>${esc(c.nome)}<br><small class="small">${ntfyTopic(c.id)}</small></span></a>`).join('')}</div><div style="margin-top:8px">${NTFY_APP}</div><p style="margin:0">Gli argomenti ntfy sono pubblici; Zuìn non raccoglie dati personali. Dettagli in Info › Note legali.</p></div></details>`}
 function vPreferiti(m){
 const cs=FAV.c.map(id=>C.find(x=>x.id===id)).filter(Boolean),gs=FAV.g.map(id=>GBY[id]).filter(Boolean);
 if(!cs.length&&!gs.length){m.innerHTML=`<div class="hd"><h2>Preferiti</h2></div><div class="card emp"><span class="emi" aria-hidden="true">${STAR}</span><p>Tocca la stella nella scheda di una società o nella pagina di un girone per seguirli qui: troverai campionato in corso, ultimo risultato e prossima partita.</p><button class="more" data-go="risultati">Sfoglia i campionati</button></div>`;return}
 m.innerHTML=`<div class="hd"><h2>Preferiti</h2><span class="n">${cs.length+gs.length}</span></div><p class="sync">${FSYNC==='account'?'Salvati nel tuo account: li ritrovi su ogni dispositivo.':'Salvati su questo dispositivo.'}</p>`+
-(cs.length?`<div class="fh">Società e squadre</div><div class="list">${cs.map(c=>{const rs=G.filter(g=>g.classifica.some(r=>r.id===c.id));const r=rs.length?rs[0].classifica.find(r=>r.id===c.id):null;const last=rs.length?rs[0].partite.filter(x=>x.risultato&&(x.id_casa===c.id||x.id_ospite===c.id)).pop():null;
-return `<button class="row club" data-id="${c.id}"><span class="ico" aria-hidden="true">${ico(c.sport)}</span><span><span class="t">${esc(c.nome)}</span><span class="s">${r?`<b>${esc(r.pos)}° · ${esc(r.punti??'')} pt</b> · `:''}${last?esc(last.casa+' '+last.risultato+' '+last.ospite):sub(c)}</span></span><span class="cnt">${CHEV}</span></button>`}).join('')}</div>${prefAvvisi(cs)}`:'')+
+(cs.length?`<div class="fh">Società e squadre</div>${cs.map(c=>{const T=squadreRis(c);return `<div class="list pfl">${clubRow(c)}${T.map(t=>teamRow(t,'data-gg')).join('')}</div>`}).join('')}${prefAvvisi(cs)}`:'')+
 (gs.length?`<div class="fh">Gironi</div><div class="list">${gs.map(g=>`<button class="row" data-g="${g.gid}"><span><span class="t">${esc(g.girone)}</span><span class="s">${esc(NAMES[g.sport]||g.sport)} · ${g.classifica[0]?'in testa '+esc(g.classifica[0].squadra):''}</span></span><span class="cnt">${CHEV}</span></button>`).join('')}</div>`:'');
 }
 /* calendario (.ics): stesso formato e stessi UID di scripts/ics.py */
@@ -492,11 +567,12 @@ function scarica(blob,nome){const a=document.createElement('a');a.href=URL.creat
 function icsScarica(gid,club){const g=GBY[gid];if(!g)return;const ps=g.partite.filter(x=>futura(x)&&(!club||x.id_casa===club||x.id_ospite===club));if(!ps.length){toast('Nessuna partita in programma');return}
 const c=club&&C.find(k=>k.id===club);const nome=c?`${c.nome} · ${g.girone}`:g.girone;
 scarica(new Blob([icsFile('Zuìn · '+nome,ps.map(x=>icsEvent(g,x)))],{type:'text/calendar;charset=utf-8'}),`zuin-${(club?club+'-':'')+g.gid}.ics`.replace(/[^\w.-]+/g,'-'));toast(`${ps.length} partite nel file calendario`)}
-function clubCal(c){
+function clubCal(c,mini){
 const gs=G.filter(g=>g.partite.some(x=>x.id_casa===c.id||x.id_ospite===c.id));if(!gs.length)return '';
 const rows=gs.map(g=>{const n=g.partite.filter(x=>(x.id_casa===c.id||x.id_ospite===c.id)&&futura(x)).length;return n?`<button class="act" data-ics="${g.gid}" data-club="${c.id}">${CAL}<span>${esc(g.categoria&&g.categoria!=='Prima squadra'?g.categoria+' · ':'')}${esc(g.girone)} · ${n} ${n>1?'partite':'partita'}</span></button>`:''}).join('');
 const u=SITO.replace(/^https:/,'')+'data/ics/'+encodeURIComponent(c.id)+'.ics';
-return `<div class="card"><h3>Calendario partite</h3><p class="small" style="margin:0 0 10px">Abbonati: le partite compaiono nel calendario del telefono e si aggiornano da sole. Oppure scarica le prossime partite di una squadra.</p><a class="act pri" href="webcal:${u}">${CAL}Abbonati al calendario</a>${rows?`<div class="icsl">${rows}</div>`:''}<p class="small" style="margin:10px 0 0">Su computer: in Google Calendar scegli "Altri calendari › Da URL" e incolla <span style="overflow-wrap:anywhere">https:${esc(u)}</span></p></div>`}
+const body=`<p class="small" style="margin:0 0 10px">Abbonati: le partite compaiono nel calendario del telefono e si aggiornano da sole. Oppure scarica le prossime partite di una squadra.</p><a class="act pri" href="webcal:${u}">${CAL}Abbonati al calendario</a>${rows?`<div class="icsl">${rows}</div>`:''}<p class="small" style="margin:10px 0 0">Su computer: in Google Calendar scegli "Altri calendari › Da URL" e incolla <span style="overflow-wrap:anywhere">https:${esc(u)}</span></p>`;
+return mini?`<details class="avv"><summary class="act">${CAL}Calendario</summary><div class="avb">${body}</div></details>`:`<div class="card"><h3>Calendario partite</h3>${body}</div>`}
 /* condivisione: immagine 1080×1350 disegnata nel browser */
 let LOGO=null;function logoLoad(){if(LOGO)return;const i=new Image();i.onload=()=>{LOGO=i};i.src='icons/icon-192.png'}
 function rr(k,x,y,w,h,r){k.beginPath();k.moveTo(x+r,y);k.arcTo(x+w,y,x+w,y+h,r);k.arcTo(x+w,y+h,x,y+h,r);k.arcTo(x,y+h,x,y,r);k.arcTo(x,y,x+w,y,r);k.closePath()}
@@ -595,17 +671,19 @@ const ORD=['Prima squadra','Seconda squadra','Terza squadra','Juniores','Under 2
 const rows=s.map((x,k)=>{const p=s[k-1];const t=String(x.pos);let cls=/promoss/i.test(t)?'up':/retroces/i.test(t)?'dn':/^n\.?d/i.test(t)||!t?'nd':'';return `<div class="tli"><span class="y">${esc(x.stagione)}</span><span class="c">${esc(x.campionato)}</span><span class="pos ${cls}">${esc(fp(x.pos))}</span></div>`}).reverse().join('');
 const so=c.social||{};const sl=[['facebook','Facebook',`<svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8V6.5c0-.8.2-1.3 1.4-1.3H17V2.2c-.3 0-1.3-.2-2.5-.2C12 2 10.5 3.5 10.5 6.2V8H8v3.2h2.5V22H14V11.2h2.6L17 8z"/></svg>`],['instagram','Instagram',`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>`],['sito','Sito',`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>`]].filter(([k])=>so[k]);const soc=sl.length?`<div class="acts soc" style="grid-template-columns:repeat(${sl.length},1fr)">${sl.map(([k,l,i])=>`<a class="act ${k}" href="${esc(so[k])}" target="_blank" rel="noopener">${i}${l}</a>`).join('')}</div>${c.social_verifica==='corrispondenza nome e comune'?'<p class="small" style="margin:-4px 2px 12px">Profili abbinati per nome e comune: non risultano collegati da un sito ufficiale.</p>':''}`:'';
 const q=encodeURIComponent((c.indirizzo&&!/non pubblicato/i.test(c.indirizzo)?c.indirizzo+', ':'')+c.comune+' '+c.prov);
+const ris=clubRis(c),evh=clubEventi(c),top=ris||evh;
 $('panel').innerHTML=`<div class="ph"><button class="bk" data-close aria-label="Indietro">${BACK}</button><span class="ico" aria-hidden="true">${ico(c.sport)}</span><div><h2 id="dName">${esc(c.nome)}</h2><p>${esc(NAMES[c.sport])}${c.altri_sport.length?' · '+c.altri_sport.map(x=>esc(NAMES[x])).join(', '):''} · ${esc(c.comune)}</p></div><button class="star" data-fav="c" data-fid="${c.id}" aria-pressed="${isFav('c',c.id)}" aria-label="${isFav('c',c.id)?'Togli dai preferiti':'Aggiungi ai preferiti'}">${STAR}</button></div>
 <div class="pb">
+${top}
+${c.attuale?`<div class="now"><small>Stagione in corso</small><b>${esc(c.attuale)}</b></div>`:''}
 <div class="acts"><a class="act" href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Mappa</a><button class="act" data-copy><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>Copia link</button></div>
-${soc}${c.attuale?`<div class="now"><small>Stagione in corso</small><b>${esc(c.attuale)}</b></div>`:''}
+${soc}
 <div class="card"><h3>Dove</h3><div>${esc(c.indirizzo||'Indirizzo non pubblicato')}</div><div class="small">${esc(c.comune)} (${c.prov})${c.fondata?' · fondata nel '+esc(c.fondata):''}</div></div>
-${clubAvvisi(c)}
-${sq.length?`<div class="card"><h3>Squadre 2026/27</h3><div class="tl">${sq.map(q=>`<div class="tli sq"><span class="y">${esc(q.categoria)}${q.genere&&q.genere!=='misto'?' '+esc(q.genere):''}</span><span class="c">${esc(q.campionato||'')}</span></div>`).join('')}</div></div>`:(c.categorie.length?`<div class="card"><h3>Squadre e categorie</h3><div class="tags">${c.categorie.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div></div>`:'')}
-<div class="card"><h3>Ultime stagioni</h3>${s.length?`<div class="tl">${rows}</div><p class="small" style="margin:8px 0 0">Prima squadra · n.d. = dato non trovato</p>`:'<p class="small" style="margin:0">Nessuno storico di campionato disponibile.</p>'}</div>
-${clubEventi(c)}
+${sq.length?fold('Squadre 2026/27',`<div class="tl">${sq.map(q=>`<div class="tli sq"><span class="y">${esc(q.categoria)}${q.genere&&q.genere!=='misto'?' '+esc(q.genere):''}</span><span class="c">${esc(q.campionato||'')}</span></div>`).join('')}</div>`,sq.length):(c.categorie.length?fold('Squadre e categorie',`<div class="tags">${c.categorie.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>`,c.categorie.length):'')}
+${fold('Ultime stagioni',s.length?`<div class="tl">${rows}</div><p class="small" style="margin:8px 0 0">Prima squadra · n.d. = dato non trovato</p>`:'<p class="small" style="margin:0">Nessuno storico di campionato disponibile.</p>',s.length)}
+${ris&&evh?fold('Eventi e piazzamenti',evh.replace(/^<div class="card"><h3>Eventi e piazzamenti<\/h3>/,'').replace(/<\/div>$/,''),(c.eventi||[]).length):''}
 ${c.note?`<div class="card"><h3>Note</h3><p style="margin:0">${esc(c.note)}</p></div>`:''}
-${clubCal(c)}${clubResults(c)||`<div class="live"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M5.6 5.6a9 9 0 0 0 0 12.8M18.4 5.6a9 9 0 0 1 0 12.8"/></svg>Risultati e classifiche in tempo reale: in arrivo.</div>`}
+${top?'':`<div class="live"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M5.6 5.6a9 9 0 0 0 0 12.8M18.4 5.6a9 9 0 0 1 0 12.8"/></svg>Per questa società non abbiamo ancora risultati, classifiche o piazzamenti.</div>`}
 ${c.fonte?`<p class="small" style="margin:14px 2px 0">Fonti: ${esc(c.fonte)}</p>`:''}
 </div>`;
 if(!$('sheet').classList.contains('on'))OPENER=document.activeElement;$('sheet').classList.add('on');document.body.style.overflow='hidden';document.querySelectorAll('.top,.filt,main,.nav').forEach(e=>e.inert=true);$('panel').scrollTop=0;
@@ -666,6 +744,7 @@ if(b=t.closest('[data-rs]')){rSport=b.dataset.rs;rAmb='';render();return}
 if(b=t.closest('[data-ra]')){rAmb=b.dataset.ra;render();return}
 if(b=t.closest('[data-gt]')){gTab=b.dataset.gt;render();return}
 if(b=t.closest('[data-day]')){if(b.dataset.day!==''){gDay=+b.dataset.day;render()}return}
+if(b=t.closest('[data-gg]')){gTab='cl';gDay=null;go('g-'+b.dataset.gg);window.scrollTo(0,0);return}
 if(b=t.closest('[data-gs]')){const gg=b.dataset.gs;gTab='cl';gDay=null;closeSheet();history.replaceState(null,'','#g-'+gg);route();window.scrollTo(0,0);return}
 if(b=t.closest('tr[data-id]')){if(!t.closest('a[href]'))openClub(b.dataset.id);return}
 if(b=t.closest('.row[data-c]')){go('c-'+b.dataset.c);return}
