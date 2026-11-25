@@ -11,6 +11,7 @@ Uso: python scripts/calcio.py [--tutto] [--prova]
 """
 import io, json, os, re, sys, time, datetime as dt, unicodedata
 import requests
+from abbinamenti import applica_comuni  # scripts/abbinamenti.py
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RIS = os.path.join(ROOT, "data", "risultati.json")
@@ -405,6 +406,7 @@ def main():
         if o:  # le gare future già note (giornata successiva) restano
             n["partite"] += [p for p in o.get("partite", []) if not p.get("risultato") and (p.get("giornata") or 0) > n["giornata"]]
         tenuti.append(n)
+    applica_comuni(tenuti)  # comune delle squadre senza id (config/squadre_comune.json)
     json.dump(tenuti, open(RIS, "w"), ensure_ascii=False, separators=(",", ":"))
     stato = {"letti": sorted(letti), "gare": list(gare.values())}
     json.dump(stato, open(STATO, "w"), ensure_ascii=False, separators=(",", ":"))
