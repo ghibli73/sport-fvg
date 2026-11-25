@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:basket-dr1-ovest-980f15da@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261030T210000
+DTEND;TZID=Europe/Rome:20261030T230000
+SUMMARY:BCC Pordenonese e Monsile 70-86 Pol. Casarsa (Divisione Regionale 1
+  — girone Ovest)
+LOCATION:Palazzetto "Matteo Molent"\, Azzano Decimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u14-regionale-pn-ud-2188b241@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261031T160000
@@ -48,6 +61,19 @@ DESCRIPTION:Under 15 Maschile Regionale — girone PN\n2ª giornata\nDati n
  on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
  /#g-basket-u15-regionale-pn
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-eb441172@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:BCC Pordenonese e Monsile 75-59 C.T.S. (Divisione Regionale 1 — g
+ irone Ovest)
+LOCATION:Palazzetto "Matteo Molent"\, Azzano Decimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-regionale-pn-ud-0a09910c@zuin-fvg
@@ -76,6 +102,19 @@ DESCRIPTION:Under 13 Maschile — girone PN B\n1ª giornata\nDati non uffic
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr1-ovest-c29ffcae@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261113T200000
+DTEND;TZID=Europe/Rome:20261113T220000
+SUMMARY:Gemona Basket 83-77 BCC Pordenonese e Monsile (Divisione Regionale 
+ 1 — girone Ovest)
+LOCATION:Palestra IPSIA\, Gemona del Friuli
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u14-regionale-pn-ud-0219a701@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261114T160000
@@ -100,5 +139,31 @@ DESCRIPTION:Under 13 Maschile — girone PN B\n2ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
  et-u13-pn-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-c56845db@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T210000
+DTEND;TZID=Europe/Rome:20261120T230000
+SUMMARY:BCC Pordenonese e Monsile 56-48 Tecno 2 Commerciale Tricesimo (Divi
+ sione Regionale 1 — girone Ovest)
+LOCATION:Palazzetto "Matteo Molent"\, Azzano Decimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-73ba3ec3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T210000
+DTEND;TZID=Europe/Rome:20261127T230000
+SUMMARY:Pol. Lib. Pasian di Prato – BCC Pordenonese e Monsile (Divisione 
+ Regionale 1 — girone Ovest)
+LOCATION:(Udine)
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
 END:VEVENT
 END:VCALENDAR
