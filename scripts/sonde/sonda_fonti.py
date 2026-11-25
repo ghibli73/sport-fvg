@@ -64,6 +64,26 @@ for u in [x[6:] for x in prove if x.startswith("testo=")]:
             lines = [l for p in pdf.pages for l in (p.extract_text() or "").splitlines()]
         print("\n".join("   | " + l for l in lines[:600]))
     except Exception as e: print("ERRORE", e)
+# "opzioni=<url>": valori e testi dei menu <select> (es. filtro Società FIPAV: SId -> nome società)
+# "loghi=<url>": righe di classifica FIPAV con l'ID società del logo (mngArea/Societa/img/<ID>/...)
+for u in [x[8:] for x in prove if x.startswith("opzioni=")]:
+    titolo("OPZIONI " + u)
+    try:
+        h = S.get(u, timeout=30).text
+        for nome, corpo in re.findall(r'<select[^>]*name="([^"]+)"[^>]*>(.*?)</select>', h, re.S | re.I):
+            print("  menu", nome)
+            for v, t in re.findall(r'<option[^>]*value="([^"]*)"[^>]*>(.*?)</option>', corpo, re.S | re.I):
+                print("   |", v, "|", re.sub(r"\s+", " ", t).strip())
+    except Exception as e: print("ERRORE", e)
+for u in [x[6:] for x in prove if x.startswith("loghi=")]:
+    titolo("LOGHI " + u)
+    try:
+        h = S.get(u, timeout=30).text
+        for riga in re.findall(r"<tr.*?</tr>", h, re.S | re.I):
+            m = re.search(r"Societa/img/(\d+)/", riga)
+            t = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", riga)).strip()
+            if m or "no-image" in riga: print("   |", m.group(1) if m else "-", "|", t[:90])
+    except Exception as e: print("ERRORE", e)
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:
