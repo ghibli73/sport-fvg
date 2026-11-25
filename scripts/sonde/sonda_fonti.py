@@ -39,6 +39,26 @@ def pagina(url, n=1500, cerca=None):
         print("   ", t[:n])
 
 prove = sys.argv[1:] or ["basket", "calcio", "minori"]
+# "media=<sito>|<parole>[|<dopo AAAA-MM-GG>]": elenco completo dei file dell'archivio WordPress che contengono le parole
+# (es. media=https://friuliveneziagiulia.fip.it|Spostamenti|2026-09-01)
+for x in [x[6:] for x in prove if x.startswith("media=")]:
+    base, q, *dopo = x.split("|")
+    titolo(f"MEDIA {base} '{q}'")
+    try:
+        pagina_n, tot = 1, 0
+        while pagina_n < 6:
+            par = {"search": q.replace("+", " "), "per_page": 100, "page": pagina_n, "_fields": "date,source_url,title"}
+            if dopo: par["after"] = dopo[0] + "T00:00:00"
+            r = S.get(f"{base}/wp-json/wp/v2/media", params=par, timeout=30)
+            if r.status_code == 400: break
+            r.raise_for_status(); js = r.json()
+            for m in js: print(m["date"], m["source_url"])
+            tot += len(js)
+            if len(js) < 100: break
+            pagina_n += 1; time.sleep(1)
+        print("totale:", tot)
+    except Exception as e: print("ERRORE", e)
+    time.sleep(1)
 # "righe=<url PDF LND>": stampa le righe come le legge scripts/calcio.py (colonne separate) dalla sezione RISULTATI
 # e, per ogni gara riconosciuta, categoria/girone/giornata assegnati dal parser: serve a controllare il parser sul CU reale
 for u in [x[6:] for x in prove if x.startswith("righe=")]:

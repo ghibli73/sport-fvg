@@ -15,4 +15,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt pdfplumber
-      - run: python scripts/sonde/sonda_fonti.py ${{ github.event.inputs.prove }}
+      # l'input passa da una variabile d'ambiente: un URL con "&" non deve diventare un comando della shell
+      - run: python scripts/sonde/sonda_fonti.py $PROVE
+        env:
+          PROVE: ${{ github.event.inputs.prove }}
