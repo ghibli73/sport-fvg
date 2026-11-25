@@ -220,6 +220,9 @@ def aggiorna(g, cfg, oggi, dump, completo=False):
         m = per_num.get(x["num"]) if x["num"] else None
         if m is None:
             m = idx.get(k2)
+            # stesse squadre ma altro numero gara: è un'altra gara (gironi con più di andata e ritorno)
+            if m is not None and m.get("gara") and x["num"] and str(m["gara"]) != x["num"]:
+                m = None
         if m is None:
             if x["giornata"]:
                 m = {"giornata": x["giornata"]}
@@ -228,7 +231,7 @@ def aggiorna(g, cfg, oggi, dump, completo=False):
                 if w not in settimane:
                     settimane[w] = giorn_max + len(settimane) + 1
                 m = {"giornata": settimane[w]}
-            old.append(m); idx[k2] = m
+            old.append(m); idx.setdefault(k2, m)
             if x["num"]:
                 per_num[x["num"]] = m
         elif x["giornata"]:
