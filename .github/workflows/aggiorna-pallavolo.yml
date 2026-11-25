@@ -3,12 +3,17 @@ name: Aggiorna pallavolo
 on:
   schedule:
     # orari in UTC (Italia = UTC+1 d'inverno, UTC+2 d'estate)
-    - cron: "17 13-22 * * 6,0"   # sabato e domenica: ogni ora dalle 14 alle 23 circa
-    - cron: "37 20 * * 1-5"      # dal lunedì al venerdì: una volta, verso le 21
-  workflow_dispatch:              # avvio manuale dal pulsante "Run workflow"
+    - cron: "17 13-22 * * 6,0"   # sabato e domenica: ogni ora dalle 14 alle 23 circa (settimane vicine)
+    - cron: "37 20 * * 1-5"      # dal lunedì al venerdì: una volta, verso le 21 (settimane vicine)
+    - cron: "7 1 * * *"          # ogni notte verso le 2: calendario completo (tutte le settimane con gare)
+  workflow_dispatch:
     inputs:
+      opzioni:
+        description: "Opzioni per scripts/volley.py (es. --completo, --prova, --solo <slug>)"
+        required: false
+        default: ""
       silenzioso:
-        description: "Non inviare gli avvisi ntfy dei risultati"
+        description: "Non inviare gli avvisi ntfy (risultati e partite spostate)"
         type: boolean
         required: false
         default: false
@@ -20,10 +25,16 @@ concurrency:
   group: aggiorna-dati
   cancel-in-progress: false
 
+env:
+  # opzioni del lancio manuale (--prova: nessun file del repository viene modificato, nessun commit,
+  # gli avvisi sono solo stampati; il risultato è in /tmp/risultati_prova.json)
+  OPZIONI: ${{ github.event.inputs.opzioni }}
+  NOTTE: ${{ github.event.schedule == '7 1 * * *' }}
+
 jobs:
   pallavolo:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -31,23 +42,36 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - name: Copia dei dati attuali
-        run: cp data/risultati.json /tmp/risultati_prima.json
-      - name: Legge classifiche e risultati dai portali FIPAV
-        run: python scripts/volley.py
+        run: |
+          cp data/risultati.json /tmp/risultati_prima.json
+          OUT=data/risultati.json; PROVA=false
+          case " $OPZIONI " in *" --prova "*) OUT=/tmp/risultati_prova.json; PROVA=true;; esac
+          echo "OUT=$OUT" >> "$GITHUB_ENV"; echo "PROVA=$PROVA" >> "$GITHUB_ENV"
+      - name: Legge classifiche, risultati e calendari dai portali FIPAV
+        run: |
+          EXTRA=""; if [ "$NOTTE" = "true" ]; then EXTRA="--completo"; fi
+          python scripts/volley.py $OPZIONI $EXTRA
+      - name: Partite spostate (campo "variata") e rapporto
+        run: python scripts/variazioni.py /tmp/risultati_prima.json "$OUT"
       - name: Controlli prima di pubblicare
-        run: python scripts/risultati_tools.py check /tmp/risultati_prima.json data/risultati.json
-      - name: Avvisi dei risultati (ntfy.sh)
-        run: python scripts/avvisi.py /tmp/risultati_prima.json data/risultati.json
+        run: python scripts/risultati_tools.py check /tmp/risultati_prima.json "$OUT"
+      - name: Avvisi dei risultati e delle partite spostate (ntfy.sh)
+        run: |
+          if [ "$PROVA" = "true" ]; then python scripts/avvisi.py /tmp/risultati_prima.json "$OUT" --prova
+          else python scripts/avvisi.py /tmp/risultati_prima.json "$OUT"; fi
         continue-on-error: true
         env:
           SILENZIOSO: ${{ github.event.inputs.silenzioso }}
       - name: Calendari delle società (data/ics)
+        if: env.PROVA != 'true'
         run: python scripts/ics.py
         continue-on-error: true
       - name: Widget per i siti (data/widget)
+        if: env.PROVA != 'true'
         run: python scripts/widget_dati.py
         continue-on-error: true
       - name: Salva i dati aggiornati
+        if: env.PROVA != 'true'
         run: |
           if [ -z "$(git status --porcelain data/)" ]; then echo "Nessuna novità"; exit 0; fi
           git config user.name "sport-fvg-bot"

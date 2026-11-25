@@ -2,14 +2,22 @@
 
 Per ogni girone di config/pallavolo.json:
   1. legge la classifica ufficiale:  https://<host>/classifica.aspx?CId=<cid>
-  2. legge le gare della settimana scorsa, di quella corrente e della prossima dalla pagina risultati del comitato
-     (risultati-classifiche.aspx?...&DataDa=<lunedì>&PId=<pid>), tenendo le gare tra squadre del girone;
-  3. unisce le gare nuove a quelle già presenti in data/risultati.json e aggiorna classifica, giornata e data.
+  2. legge le gare dalla pagina risultati del comitato (risultati-classifiche.aspx?...&DataDa=<lunedì>&PId=<pid>),
+     una pagina per settimana, tenendo le gare della sezione del girone:
+       - normale (ogni ora nel fine settimana): settimana scorsa, corrente e prossima;
+       - --completo (una volta al giorno, di notte): dalla settimana scorsa in avanti finché le pagine
+         restituiscono gare (si smette dopo SETTIMANE_VUOTE settimane vuote di fila, al massimo MAX_SETTIMANE),
+         così ogni girone ha il calendario completo pubblicato con data, ora e impianto aggiornati;
+  3. unisce le gare lette a quelle già presenti in data/risultati.json per NUMERO GARA (campo "gara"; per le
+     gare salvate prima che il numero fosse registrato, per squadre): una gara spostata cambia data, ora e
+     impianto ma resta nella sua giornata. Poi aggiorna classifica, giornata e data.
 
 Protezioni: se una classifica letta ha meno squadre di quella esistente, o la lettura fallisce, il girone resta com'era.
 Uso:  python scripts/volley.py            (aggiorna data/risultati.json)
       python scripts/volley.py --dump     (salva anche le pagine scaricate in debug/ per controllare il parser)
       python scripts/volley.py --solo <slug>
+      python scripts/volley.py --completo (calendario completo: tutte le settimane con gare)
+      python scripts/volley.py --prova    (non tocca data/risultati.json: scrive /tmp/risultati_prova.json)
 """
 import json, os, re, sys, time, datetime as dt
 import requests
@@ -22,6 +30,9 @@ CFG = os.path.join(ROOT, "config", "pallavolo.json")
 DEBUG = os.path.join(ROOT, "debug")
 UA = os.environ.get("SPORTFVG_UA", "SportFVG/1.0 (+https://github.com/; app non ufficiale di consultazione)")
 PAUSA = 1.5  # secondi tra le richieste: siamo ospiti dei portali federali
+MAX_SETTIMANE = 30   # lettura completa: al massimo 30 settimane dopo quella corrente
+SETTIMANE_VUOTE = 3  # ... e ci si ferma dopo 3 settimane di fila senza gare (la pausa di Natale dura meno)
+PROVA = "/tmp/risultati_prova.json"
 S = requests.Session()
 S.headers["User-Agent"] = UA
 _cache = {}
@@ -152,7 +163,34 @@ def url_settimana(cfg, lun):
     return f"https://{cfg['host']}/risultati-classifiche.aspx?{q}"
 
 
-def aggiorna(g, cfg, oggi, dump):
+_comitati = {}
+
+
+def gare_comitato(cfg, oggi, dump, completo):
+    """Tutte le gare (di tutti i campionati) delle pagine settimanali del comitato: le pagine sono le stesse per
+    tutti i gironi dello stesso comitato, quindi si leggono una volta sola."""
+    chiave = (cfg["host"], cfg.get("comitato_id"), cfg["pid"])
+    if chiave in _comitati:
+        return _comitati[chiave]
+    out, vuote, lette = [], 0, 0
+    settimane = range(-1, MAX_SETTIMANE + 1) if completo else (-1, 0, 1)
+    for k in settimane:
+        try:
+            gare = parse_gare(get(url_settimana(cfg, lunedi(oggi) + dt.timedelta(days=7 * k)), dump))
+            lette += 1
+        except Exception as e:
+            print(f"   ! pagina gare ({k:+d} sett.): {e}")
+            continue
+        out += gare
+        vuote = 0 if gare else vuote + 1
+        if completo and k > 1 and vuote >= SETTIMANE_VUOTE:
+            break
+    print(f"   [{cfg['host']} {cfg['pid']}] pagine lette {lette}, gare {len(out)}")
+    _comitati[chiave] = out
+    return out
+
+
+def aggiorna(g, cfg, oggi, dump, completo=False):
     cl = parse_classifica(get(f"https://{cfg['host']}/classifica.aspx?CId={cfg['cid']}", dump))
     if not cl:
         return "classifica non letta: girone invariato"
@@ -162,26 +200,29 @@ def aggiorna(g, cfg, oggi, dump):
     nomi = {key(r["squadra"]) for r in cl}
     for r in cl:
         r["id"] = alias.get(key(r["squadra"]))
-    # gare: settimana scorsa, corrente, prossima
+    # gare delle settimane lette (vedi gare_comitato)
     nuove = []
     if cfg.get("pid"):
-        for k in (-7, 0, 7):
-            try:
-                for x in parse_gare(get(url_settimana(cfg, lunedi(oggi) + dt.timedelta(days=k)), dump)):
-                    # solo le gare della sezione di questo girone (le stesse squadre giocano anche in Coppa)
-                    if x["cid"] != str(cfg["cid"]):
-                        continue
-                    if key(x["casa"]) in nomi and key(x["ospite"]) in nomi:
-                        nuove.append(x)
-            except Exception as e:
-                print(f"   ! pagina gare ({k:+d}gg): {e}")
+        for x in gare_comitato(cfg, oggi, dump, completo):
+            # solo le gare della sezione di questo girone (le stesse squadre giocano anche in Coppa)
+            if x["cid"] != str(cfg["cid"]):
+                continue
+            if key(x["casa"]) in nomi and key(x["ospite"]) in nomi:
+                nuove.append(x)
     old = g.get("partite") or []
     idx = {(key(m["casa"]), key(m["ospite"])): m for m in old}
+    per_num = {str(m["gara"]): m for m in old if m.get("gara")}
     giorn_max = max([m.get("giornata") or 0 for m in old] + [0])
     settimane = {}
     for x in sorted(nuove, key=lambda m: (m["data"], m["ora"])):
         k2 = (key(x["casa"]), key(x["ospite"]))
-        m = idx.get(k2)
+        # prima per numero gara (una gara spostata resta la stessa gara), poi per squadre
+        m = per_num.get(x["num"]) if x["num"] else None
+        if m is None:
+            m = idx.get(k2)
+            # stesse squadre ma altro numero gara: è un'altra gara (gironi con più di andata e ritorno)
+            if m is not None and m.get("gara") and x["num"] and str(m["gara"]) != x["num"]:
+                m = None
         if m is None:
             if x["giornata"]:
                 m = {"giornata": x["giornata"]}
@@ -190,9 +231,13 @@ def aggiorna(g, cfg, oggi, dump):
                 if w not in settimane:
                     settimane[w] = giorn_max + len(settimane) + 1
                 m = {"giornata": settimane[w]}
-            old.append(m); idx[k2] = m
+            old.append(m); idx.setdefault(k2, m)
+            if x["num"]:
+                per_num[x["num"]] = m
         elif x["giornata"]:
             m["giornata"] = x["giornata"]  # la giornata scritta dal portale prevale su quella ricostruita
+        if x["num"]:
+            m["gara"] = x["num"]
         m.update({"data": x["data"], "ora": x["ora"], "casa": x["casa"], "ospite": x["ospite"],
                   "id_casa": alias.get(k2[0]), "id_ospite": alias.get(k2[1]),
                   "risultato": x["risultato"] or m.get("risultato", ""), "parziali": x["parziali"] or m.get("parziali", ""),
@@ -208,6 +253,7 @@ def aggiorna(g, cfg, oggi, dump):
 
 def main():
     dump = "--dump" in sys.argv
+    completo, prova = "--completo" in sys.argv, "--prova" in sys.argv
     solo = sys.argv[sys.argv.index("--solo") + 1] if "--solo" in sys.argv else None
     oggi = dt.date.today()
     data = json.load(open(RIS))
@@ -224,7 +270,7 @@ def main():
                  "stagione": cfg["stagione"], "comitato": cfg["comitato"], "classifica": [], "partite": [], "calcolata": False}
         g["fonte"] = f"https://{cfg['host']}/classifica.aspx?CId={cfg['cid']}"
         try:
-            esito = aggiorna(g, cfg, oggi, dump)
+            esito = aggiorna(g, cfg, oggi, dump, completo)
         except Exception as e:
             esito = f"errore: {e}"
         if esito.startswith("ok") and gid not in by:
@@ -233,7 +279,9 @@ def main():
             errori += 1
         print(f"{cfg['slug']}: {esito}")
     applica_comuni(data)  # comune delle squadre senza id (config/squadre_comune.json)
-    json.dump(data, open(RIS, "w"), ensure_ascii=False, separators=(",", ":"))
+    json.dump(data, open(PROVA if prova else RIS, "w"), ensure_ascii=False, separators=(",", ":"))
+    if prova:
+        print("prova: data/risultati.json non modificato, risultato in", PROVA)
     print(f"gironi con problemi: {errori} su {len(cfgs)}")
     # il workflow fallisce solo se non è stato letto quasi nulla (probabile cambio del portale)
     sys.exit(2 if cfgs and errori > 0.5 * len(cfgs) else 0)

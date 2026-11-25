@@ -5,10 +5,18 @@ Per ogni girone in config/basket/<slug>.json (calendario + abbinamenti squadra -
   2. legge le "Omologazione gare" pubblicate dal Comitato (archivio WordPress del sito FIP regionale) non ancora lette
      e assegna i punteggi per numero gara;
   3. ricalcola la classifica (2 punti a vittoria; a parità differenza canestri, poi punti fatti) e scrive il girone
-     in data/risultati.json con tutte le gare giocate e la giornata successiva.
+     in data/risultati.json con tutte le gare giocate e TUTTE le gare in calendario ancora da giocare.
+Calendario aggiornato (spostamenti, anticipi, cambi di campo, recuperi): vedi pipeline/agenti/calendari.md
+  4. calendari riemessi: ogni PDF "Calendario" dell'archivio non ancora letto viene confrontato con i gironi (stessi
+     numeri gara e squadre) e, se è di un girone, ne aggiorna per numero gara data, ora e campo delle gare non giocate;
+  5. portale risultati FIP (fip.it/risultati, una pagina per giornata con data, ora, numero gara e campo di gioco):
+     per i gironi abbinati in config/basket_fip.json legge le giornate con gare non giocate entro FIP_GIORNI giorni
+     (tutte con --completo) e aggiorna per numero gara data, ora e campo. L'abbinamento girone FIP -> slug viene
+     cercato in automatico (--scopri-fip, oppure da solo una volta alla settimana) confrontando i numeri gara.
 Le omologazioni lette sono ricordate in config/basket_stato.json, così ogni esecuzione legge solo le nuove.
-Uso: python scripts/basket.py [--tutto] [--solo <slug>] [--prova]
-     --tutto  rilegge tutte le omologazioni della stagione;  --prova  non scrive nulla, stampa solo cosa farebbe.
+Uso: python scripts/basket.py [--tutto] [--solo <slug>] [--prova] [--completo] [--scopri-fip]
+     --tutto  rilegge tutte le omologazioni della stagione;  --prova  non scrive config né data/risultati.json
+     (il risultato va in /tmp/risultati_prova.json);  --completo  legge sul portale FIP tutte le giornate future.
 """
 import io, json, os, re, sys, time, glob, datetime as dt
 import requests
@@ -23,6 +31,11 @@ ARCHIVI = {  # comitato -> (archivio media WordPress, filtro sul nome del file)
     "veneto": ("https://veneto.fip.it", r"Interregionale"),  # dal Veneto solo la B Interregionale (girone con squadre FVG)
 }
 INIZIO = "2026-08-15T00:00:00"
+FIP_CFG = os.path.join(ROOT, "config", "basket_fip.json")
+FIP_URL = "https://fip.it/risultati/"
+FIP_PAUSA = 1.5    # secondi tra le pagine del portale FIP
+FIP_GIORNI = 14    # lettura normale: giornate con gare non giocate fino a 14 giorni da oggi (e i recuperi)
+PROVA = "/tmp/risultati_prova.json"
 S = requests.Session()
 S.headers["User-Agent"] = os.environ.get("SPORTFVG_UA", "SportFVG/1.0 (app non ufficiale di consultazione)")
 PAUSA = 1.0
@@ -78,6 +91,17 @@ def dividi_squadre(testo, squadre):
 def leggi_calendario(url, gare_note):
     """Legge il PDF del calendario usando la posizione delle parole: colonne Gara | Squadra A | Squadra B | Giorno/Data/Ora.
     I nomi del PDF sono poi tradotti nei nomi della config grazie alle gare già note (stesso numero gara)."""
+    righe = righe_calendario(url)
+    return abbina_calendario(righe, gare_note)
+
+
+_righe_cal = {}
+
+
+def righe_calendario(url):
+    """Righe del PDF del calendario (tipo, dati), lette una volta sola per URL."""
+    if url in _righe_cal:
+        return _righe_cal[url]
     import pdfplumber
     righe = []  # (tipo, dati)
     with pdfplumber.open(io.BytesIO(get(url).content)) as pdf:
@@ -110,6 +134,11 @@ def leggi_calendario(url, gare_note):
                     righe.append(("P", (int(pre[0]), A, B, f"{m.group(3)}-{m.group(2)}-{m.group(1)}", m.group(4).replace(".", ":").zfill(5))))
                 elif (A or B) and not pre and not dopo:
                     righe.append(("X", (A, B)))
+    _righe_cal[url] = righe
+    return righe
+
+
+def abbina_calendario(righe, gare_note):
     gare, gio, andata_max = [], None, 0
     for tipo, d in righe:
         if tipo == "G":
@@ -224,10 +253,7 @@ def costruisci(spec, oggi):
     ultima = max([g for g, (gi, tot) in giocate_per_g.items() if gi * 2 >= tot] or [0])
     partite = []
     for num, gio, data, ora, casa, osp, campo, ris in sorted(spec["gare"], key=lambda g: (g[1], g[2] or "", g[3] or "", g[0])):
-        if not ris and gio > ultima + 1:
-            continue
-        if not ris and gio <= ultima and (data or "") >= oggi:
-            pass  # recupero già in calendario: lo teniamo
+        # tutte le gare non giocate restano: calendario completo (anche i recuperi delle giornate passate)
         p = {"giornata": gio, "gara": num}
         if data: p["data"] = data
         if ora: p["ora"] = ora
@@ -247,8 +273,208 @@ def costruisci(spec, oggi):
     return out
 
 
+# ---------------------------------------------------------------- calendari riemessi
+def elenco_calendari(base):
+    """PDF "Calendario" dell'archivio media del Comitato (data, url), dal più vecchio."""
+    out, pagina = [], 1
+    while True:
+        r = S.get(f"{base}/wp-json/wp/v2/media", params={"search": "Calendario", "per_page": 100, "page": pagina,
+                  "after": INIZIO, "_fields": "date,source_url"}, timeout=60)
+        if r.status_code == 400:
+            break
+        r.raise_for_status()
+        js = r.json()
+        out += [x for x in js if x["source_url"].lower().endswith(".pdf")]
+        if len(js) < 100:
+            break
+        pagina += 1
+    return sorted(out, key=lambda x: x["date"])
+
+
+def aggiorna_da_calendario(s, cal, fonte):
+    """Gare del calendario (riemesso) -> per numero gara aggiorna data, ora e campo delle gare non giocate.
+    -> numero di gare cambiate."""
+    per_num = {g[0]: g for g in s["gare"]}
+    cambiate = 0
+    for c in cal:
+        g = per_num.get(c[0])
+        if not g or (g[7] and not pari(g[7])) or not c[4] or not c[5]:
+            continue
+        if g[4] != c[4] or g[5] != c[5]:
+            continue  # stesso numero ma altre squadre: non è la stessa gara
+        nuovo = (c[2], c[3], c[6] if c[6] and "," in c[6] else g[6])
+        if (g[2], g[3], g[6]) != nuovo:
+            print(f"  gara {g[0]} ({s['slug']}): {g[2]} {g[3]} {g[6]} -> {nuovo[0]} {nuovo[1]} {nuovo[2]} [{fonte.rsplit('/', 1)[-1]}]")
+            g[2], g[3], g[6] = nuovo
+            cambiate += 1
+    return cambiate
+
+
+# ---------------------------------------------------------------- portale risultati FIP
+MESI = {m: i for i, m in enumerate(["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto",
+                                     "settembre", "ottobre", "novembre", "dicembre"], 1)}
+RX_FIP = re.compile(r"(\d{1,2}) (" + "|".join(MESI) + r") (\d{4}) (\d{1,2}[:.]\d{2}) (\d{3,7}) .*?Squadra di casa (.+?) "
+                    r"Squadra ospite (.+?) Campo di gioco (.+?) (?:Arbitri|\d\W{0,2} Arbitro|Designazione)", re.I)
+_fip_t = [0.0]
+
+
+def fip_get(params):
+    attesa = FIP_PAUSA - (time.time() - _fip_t[0])
+    if attesa > 0:
+        time.sleep(attesa)
+    r = S.get(FIP_URL, params=params, timeout=60)
+    _fip_t[0] = time.time()
+    r.raise_for_status()
+    return r.text
+
+
+def fip_testo(html):
+    t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", html, flags=re.S | re.I)
+    t = re.sub(r"<[^>]+>", " ", t)
+    t = t.replace("&nbsp;", " ").replace("&#039;", "'").replace("&amp;", "&").replace("&quot;", '"')
+    t = re.sub(r"[ЇїЄє]", "'", t)  # virgolette tipografiche lette con la codifica sbagliata dal portale
+    return re.sub(r"\s+", " ", t)
+
+
+def fip_campo(c):
+    """Es. "PALESTRA 'M.ERVATTI', Località Borgo Grotta Gigante 34010 SGONICO ( TS)" -> "Palestra 'M.Ervatti', Sgonico"."""
+    nome = re.split(r"\s*,\s*", c.strip(), 1)[0].strip(" ,")
+    m = re.search(r"\d{5}\s+(.+?)\s*\(\s*[A-Z]{2}\s*\)\s*$", c)
+    return f"{nome.title()}, {m.group(1).title()}" if m else nome.title()
+
+
+def fip_gare(html):
+    """Gare di una pagina giornata del portale FIP -> [(numero, casa, ospite, data, ora, campo)]."""
+    out = []
+    for m in RX_FIP.finditer(fip_testo(html)):
+        d = f"{m.group(3)}-{MESI[m.group(2).lower()]:02d}-{int(m.group(1)):02d}"
+        if d[5:] == "06-30":
+            d = None  # 30 giugno = data segnaposto del portale per le gare rinviate "da definire"
+        out.append((int(m.group(5)), m.group(6).strip(), m.group(7).strip(), d, m.group(4).replace(".", ":").zfill(5),
+                    fip_campo(m.group(8))))
+    return out
+
+
+def fip_link(html):
+    """Parametri dei link alle giornate presenti nella pagina: {(fase, girone): {(ar, giornata), ...}}."""
+    out = {}
+    for q in re.findall(r"codice_fase=(\d+)&(?:amp;)?codice_girone=(\d+)&(?:amp;)?codice_ar=(\d)&(?:amp;)?giornata=(\d+)", html):
+        out.setdefault((q[0], q[1]), set()).add((int(q[2]), int(q[3])))
+    return out
+
+
+REGIONI = {"ABR", "BAS", "CAL", "CAM", "EMR", "FVG", "LAZ", "LIG", "LOM", "MAR", "MOL", "PMN", "PUG", "SAR", "SIC", "TOS",
+           "TAA", "UMB", "VDA", "VEN", "NAZ"}
+NON_GIRONI = {"ES", "ESO", "TAQ", "TAQB", "TAQS", "OPENM", "OPENF", "A1/F", "A2/F", "B/F"}  # minibasket, open, nazionali
+
+
+def fip_campionati(html):
+    """Campionati dell'elenco a tendina (senza regioni, comitati, minibasket e campionati nazionali)."""
+    out = {}
+    for v, nome in re.findall(r'<option value="([A-Z0-9]{1,6}(?:/[A-Z]{1,2})?)"\s*>\s*([^<]{3,120}?)\s*</option>', html):
+        nome = re.sub(r"\s+", " ", nome)
+        if v in REGIONI or v in NON_GIRONI or re.match(r"R[A-Z]{2}$", v) or nome.upper().startswith(("COMITATO", "NAZIONALE")):
+            continue
+        out.setdefault(v, nome)
+    return out
+
+
+def scopri_fip(specs, cfg):
+    """Abbina i gironi del portale FIP (comitato FVG) ai gironi di config/basket: per ogni campionato e girone legge
+    la 1ª giornata di andata e confronta i numeri gara con quelli del calendario (almeno 3 numeri e le squadre)."""
+    base = {"group": "campionati-regionali", "regione_codice": "RFR", "comitato_codice": "RFR"}
+    per_num = {}
+    for s in specs.values():
+        for g in s["gare"]:
+            per_num.setdefault(g[0], []).append((s, g))
+    trovati = 0
+    for sesso in ("M", "F"):
+        try:
+            camp = fip_campionati(fip_get({**base, "sesso": sesso}))
+        except Exception as e:
+            print(f"FIP: elenco campionati {sesso} non letto ({e})"); continue
+        for codice, nome in camp.items():
+            try:
+                html = fip_get({**base, "sesso": sesso, "codice_campionato": codice})
+            except Exception as e:
+                print(f"FIP {codice}: {e}"); continue
+            link = fip_link(html)
+            # altri gironi dello stesso campionato: numeri a 5-6 cifre nelle voci dei menu (stessa fase del primo)
+            fase0 = next(iter(link))[0] if link else "1"
+            for gir in set(re.findall(r'value="(\d{5,6})"', html)) - {g for _, g in link}:
+                link[(fase0, gir)] = set()
+            for (fase, gir), giornate in link.items():
+                p = {**base, "sesso": sesso, "codice_campionato": codice, "codice_fase": fase, "codice_girone": gir}
+                andata = max([g for ar, g in giornate if ar == 1] or [0])
+                gare = []
+                for ar, n in ((0, 1), (1, andata), (1, 1)):
+                    if not n:
+                        continue
+                    try:
+                        h = fip_get({**p, "codice_ar": ar, "giornata": n})
+                    except Exception as e:
+                        print(f"FIP {codice} {gir}: {e}"); break
+                    gare = fip_gare(h)
+                    if not andata:
+                        andata = max([g for a, g in fip_link(h).get((fase, gir), set()) if a == 1] or [0])
+                    if gare:
+                        break
+                voti = {}
+                for num, casa, osp, *_ in gare:
+                    t = set(toks(casa + " " + osp)) - VUOTE
+                    for s, g in per_num.get(num, []):
+                        if t & (set(toks(g[4] + " " + g[5])) - VUOTE):
+                            voti[s["slug"]] = voti.get(s["slug"], 0) + 1
+                if voti:
+                    slug, n = max(voti.items(), key=lambda x: x[1])
+                    if n >= min(3, len(gare)) and andata and n >= cfg["gironi"].get(slug, {}).get("uguali", 0):
+                        cfg["gironi"][slug] = {**p, "andata": andata, "nome": nome.strip(), "uguali": n}
+                        trovati += 1
+                        print(f"FIP: {slug} = {nome.strip()} (campionato {codice}, fase {fase}, girone {gir}, {n} gare uguali)")
+    cfg["scoperta"] = dt.date.today().isoformat()
+    print(f"FIP: gironi abbinati {trovati}; senza abbinamento: {sorted(set(specs) - set(cfg['gironi']))}")
+
+
+def variazioni_fip(specs, cfg, oggi, completo):
+    """Per i gironi abbinati legge le giornate con gare non giocate (entro FIP_GIORNI giorni, o tutte con
+    --completo, più i recuperi) e aggiorna per numero gara data, ora e campo. -> gare cambiate."""
+    fino = (dt.date.fromisoformat(oggi) + dt.timedelta(days=FIP_GIORNI)).isoformat()
+    cambiate = pagine = 0
+    for slug, p in sorted(cfg.get("gironi", {}).items()):
+        s = specs.get(slug)
+        if not s or not p.get("andata"):
+            continue
+        aperte = sorted({g[1] for g in s["gare"] if (not g[7] or pari(g[7])) and (completo or (g[2] or "") <= fino)})
+        per_num = {g[0]: g for g in s["gare"]}
+        for gio in aperte:
+            ar, n = (1, gio) if gio <= p["andata"] else (0, gio - p["andata"])
+            q = {k: v for k, v in p.items() if k not in ("andata", "nome", "uguali")}
+            try:
+                gare = fip_gare(fip_get({**q, "codice_ar": ar, "giornata": n}))
+                pagine += 1
+            except Exception as e:
+                print(f"  ! FIP {slug} giornata {gio}: {e}"); continue
+            for num, casa, osp, data, ora, campo in gare:
+                g = per_num.get(num)
+                if not g or (g[7] and not pari(g[7])):
+                    continue
+                if not (set(toks(casa)) - VUOTE) & (set(toks(g[4])) - VUOTE):
+                    continue  # stesso numero, altra squadra di casa: non è la stessa gara
+                if not data:
+                    continue  # rinviata a data da definire: resta la data del calendario
+                if (g[2], g[3]) != (data, ora) or (campo and campo != g[6]):
+                    if (g[2], g[3]) != (data, ora):
+                        print(f"  gara {num} ({slug}): {g[2]} {g[3]} -> {data} {ora}" + (f" campo {campo}" if campo != g[6] else ""))
+                        cambiate += 1
+                    g[2], g[3] = data, ora
+                    if campo:
+                        g[6] = campo
+    print(f"FIP: pagine lette {pagine}, gare spostate {cambiate}")
+    return cambiate
+
+
 def main():
-    prova, tutto = "--prova" in sys.argv, "--tutto" in sys.argv
+    prova, tutto, completo = "--prova" in sys.argv, "--tutto" in sys.argv, "--completo" in sys.argv
     solo = sys.argv[sys.argv.index("--solo") + 1] if "--solo" in sys.argv else None
     oggi = dt.date.today().isoformat()
     specs = {}
@@ -259,6 +485,7 @@ def main():
         s["_file"] = f
         specs[s["slug"]] = s
     stato = json.load(open(STATO)) if os.path.exists(STATO) and not tutto else {"omologazioni_lette": [], "calendari_letti": []}
+    prima_fut = sum(1 for s in specs.values() for g in s["gare"] if not g[7] and (g[2] or "") >= oggi)
 
     # 1. calendari completi (una volta per girone)
     for s in specs.values():
@@ -285,6 +512,47 @@ def main():
             s["gare"].append(g + [""]); nuove += 1
         stato["calendari_letti"].append(u)
         print(f"{s['slug']}: calendario completo, {len(cal)} gare ({nuove} aggiunte)")
+
+    # 1b. calendari riemessi (anche con un nome diverso): stessi numeri gara e squadre di un girone
+    try:
+        nuovi_cal = [x for x in elenco_calendari(ARCHIVI["fvg"][0]) if x["source_url"] not in stato["calendari_letti"]]
+    except Exception as e:
+        nuovi_cal = []; print(f"calendari riemessi: archivio non letto ({e})")
+    for x in nuovi_cal:
+        u = x["source_url"]
+        usato = False
+        for s in specs.values():
+            try:
+                cal = leggi_calendario(u, s["gare"])
+            except Exception as e:
+                print(f"  ! {u.rsplit('/', 1)[-1]}: {e}"); break
+            per_num = {g[0]: g for g in s["gare"]}
+            # è il calendario di questo girone se quasi tutte le gare hanno numero e squadre uguali
+            buone = [c for c in cal if c[4] and per_num.get(c[0]) and per_num[c[0]][4:6] == c[4:6]]
+            if len(buone) < 0.8 * max(1, len(cal)) or len(buone) < 3:
+                continue
+            n = aggiorna_da_calendario(s, cal, u)
+            print(f"{s['slug']}: calendario {u.rsplit('/', 1)[-1]} ({len(buone)} gare, {n} cambiate)")
+            if u != s.get("id_fonte"):
+                s["id_fonte"] = u
+            usato = True
+        if not usato:
+            print(f"calendario {u.rsplit('/', 1)[-1]}: nessun girone corrispondente")
+        stato["calendari_letti"].append(u)
+
+    # 1c. portale risultati FIP: date, ore e campi aggiornati delle gare non giocate
+    fip = json.load(open(FIP_CFG)) if os.path.exists(FIP_CFG) else {"gironi": {}}
+    fip.setdefault("gironi", {})
+    if "--scopri-fip" in sys.argv or not fip.get("scoperta") or \
+            (dt.date.fromisoformat(oggi) - dt.date.fromisoformat(fip["scoperta"])).days >= 7 and set(specs) - set(fip["gironi"]):
+        try:
+            scopri_fip(specs, fip)
+        except Exception as e:
+            print(f"FIP: ricerca dei gironi non riuscita ({e})")
+    try:
+        variazioni_fip(specs, fip, oggi, completo)
+    except Exception as e:
+        print(f"FIP: lettura non riuscita ({e})")
 
     # 2. omologazioni nuove
     per_num = {}
@@ -334,14 +602,15 @@ def main():
             print(f"{u.rsplit('/', 1)[-1]}: {usate} risultati su {len(righe)} righe")
 
     print("confronto con i risultati già presenti:", CONTA)
-    if prova:
-        print("prova: nessun file scritto"); return
-    # 3. scrittura
+    dopo_fut = sum(1 for s in specs.values() for g in s["gare"] if not g[7] and (g[2] or "") >= oggi)
+    print(f"gare future in calendario (config): {prima_fut} -> {dopo_fut}")
+    # 3. scrittura (in prova solo /tmp/risultati_prova.json: config e stato restano com'erano)
     data = json.load(open(RIS))
     by = {g["gid"]: i for i, g in enumerate(data)}
     for s in specs.values():
         f = s.pop("_file")
-        json.dump(s, open(f, "w"), ensure_ascii=False, indent=0)
+        if not prova:
+            json.dump(s, open(f, "w"), ensure_ascii=False, indent=0)
         g = costruisci(s, oggi)
         if g["gid"] in by:
             old = data[by[g["gid"]]]
@@ -351,8 +620,12 @@ def main():
         else:
             data.append(g)
     applica_comuni(data)  # comune delle squadre senza id (config/squadre_comune.json)
+    if prova:
+        json.dump(data, open(PROVA, "w"), ensure_ascii=False, separators=(",", ":"))
+        print("prova: config e data/risultati.json non modificati, risultato in", PROVA); return
     json.dump(data, open(RIS, "w"), ensure_ascii=False, separators=(",", ":"))
     json.dump(stato, open(STATO, "w"), ensure_ascii=False, indent=0)
+    json.dump(fip, open(FIP_CFG, "w"), ensure_ascii=False, indent=1)
     print(f"gironi aggiornati da nuove omologazioni: {len(aggiornate)} su {len(specs)}")
 
 
