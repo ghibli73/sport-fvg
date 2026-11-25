@@ -78,7 +78,7 @@ for u in [x[6:] for x in prove if x.startswith("righe=")]:
     except Exception as e: print("ERRORE", e)
 # "html=<url>|<regex>": i pezzi dell'HTML grezzo che corrispondono (es. i valori delle <option> di un filtro)
 for x in [x[5:] for x in prove if x.startswith("html=")]:
-    u, rx = x.rsplit("|", 1)
+    u, rx = x.split("|", 1)
     titolo("HTML " + u + " /" + rx + "/")
     try:
         t = S.get(u, timeout=60).text
@@ -90,7 +90,7 @@ for x in [x[5:] for x in prove if x.startswith("html=")]:
 # "cerca=<url PDF o ZIP>|<regex>": nel PDF (o nei PDF dello ZIP il cui nome contiene la regex del file, dopo "@")
 # stampa le righe attorno a ogni corrispondenza, es. cerca=https://.../CU-50.pdf|VARIAZIONI GARE
 for x in [x[6:] for x in prove if x.startswith("cerca=")]:
-    u, rx = x.rsplit("|", 1)
+    u, rx = x.split("|", 1)
     rx, _, rxf = rx.partition("@")
     titolo("CERCA " + u + " /" + rx + "/" + (" file /" + rxf + "/" if rxf else ""))
     try:
