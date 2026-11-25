@@ -10,23 +10,21 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="description" content="Società sportive, campionati, classifiche e risultati del Friuli Venezia Giulia.">
 <title>Sport in FVG</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 /* VOICE: guida sportiva regionale da tasca, diretta e veloce
    IDEA: la bacheca dei campionati con i colori della bandiera FVG, tenuta in una mano
    PICTURE: l'elenco dei comuni stesso, ogni riga con le icone degli sport presenti
-   COLOUR and TYPE: blu regione profondo, oro aquila, bianco; Barlow Condensed + Barlow
+   COLOUR and TYPE: blu regione profondo, oro aquila, bianco; font di sistema (system-ui) con titoli condensati se disponibili
    LAYOUT: barra blu fissa con ricerca, filtri in una riga, liste compatte, barra schede in basso, scheda società a tutto schermo */
 :root{color-scheme:light dark;
 --bg:light-dark(#eef2f8,#0a1322);--card:light-dark(#fff,#121e34);--ink:light-dark(#0f1c33,#e8eef8);--mute:light-dark(#5a6780,#9fb0c9);
 --blue:#123a6b;--blue2:#0c2b52;--gold:#f2b705;--chalk:#f5f7fb;--line:light-dark(#dde3ee,#22324f);--soft:light-dark(#e8eef8,#1a2a47);
---acc:light-dark(#123a6b,#f2b705);--safe-b:env(safe-area-inset-bottom,0px);--safe-t:env(safe-area-inset-top,0px)}
+--acc:light-dark(#123a6b,#f2b705);--f:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--fc:"Roboto Condensed","Arial Narrow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--safe-b:env(safe-area-inset-bottom,0px);--safe-t:env(safe-area-inset-top,0px)}
 :root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
 *{box-sizing:border-box;min-width:0;-webkit-tap-highlight-color:transparent}
 html{scroll-padding-top:140px}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Barlow,system-ui,sans-serif;overflow-x:clip;padding-bottom:calc(72px + var(--safe-b))}
-h1,h2,h3{font-family:"Barlow Condensed",Barlow,sans-serif;line-height:1.08;margin:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--f);overflow-x:clip;padding-bottom:calc(72px + var(--safe-b))}
+h1,h2,h3{font-family:var(--fc);line-height:1.08;margin:0}
 button{font:inherit;color:inherit;cursor:pointer}
 button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 /* barra in alto */
@@ -37,16 +35,18 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(-
 .brand h1 span{color:var(--gold)}
 .brand .cov{margin-left:auto;font-size:13px;color:#c9d6ea;white-space:nowrap}
 .dtabs{display:none;gap:4px;margin-left:16px}
-.dtab{border:0;background:transparent;color:#c9d6ea;font:700 17px "Barlow Condensed",sans-serif;padding:6px 12px;border-radius:8px;min-height:40px}
+.dtab{border:0;background:transparent;color:#c9d6ea;font:700 17px var(--fc);padding:6px 12px;border-radius:8px;min-height:44px}
+.dtab:hover{color:#fff;background:rgba(255,255,255,.08)}
 .dtab[aria-current=true]{background:rgba(255,255,255,.14);color:#fff}
 .sbox{position:relative;max-width:1100px;margin:0 auto}
-.sbox input{width:100%;font:16px Barlow,sans-serif;padding:11px 40px 11px 42px;border-radius:12px;border:0;min-height:46px;background:var(--chalk);color:#0f1c33}
+.sbox input{width:100%;font:16px var(--f);padding:11px 40px 11px 42px;border-radius:12px;border:0;min-height:46px;background:var(--chalk);color:#0f1c33}
+.sbox input::placeholder{color:#5a6780;opacity:1}
 .sbox .mag{position:absolute;left:13px;top:50%;transform:translateY(-50%);width:20px;height:20px;color:#5a6780;pointer-events:none}
-.sbox .clr{position:absolute;right:4px;top:50%;transform:translateY(-50%);width:40px;height:40px;border:0;background:none;color:#5a6780;font-size:22px;display:none}
+.sbox .clr{position:absolute;right:2px;top:50%;transform:translateY(-50%);width:44px;height:44px;border:0;background:none;color:#5a6780;font-size:22px;display:none}
 .sbox.has .clr{display:block}
 .sugg{position:absolute;left:0;right:0;top:calc(100% + 6px);background:var(--card);color:var(--ink);border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.28);max-height:min(62vh,460px);overflow:auto;display:none;padding:6px 0}
 .sugg.on{display:block}
-.sugg h4{margin:8px 14px 4px;font:600 12px Barlow,sans-serif;color:var(--mute);text-transform:none}
+.sugg h4{margin:8px 14px 4px;font:600 13px var(--f);color:var(--mute);text-transform:none}
 .sg{display:flex;align-items:center;gap:10px;width:100%;text-align:left;border:0;background:none;padding:9px 14px;min-height:48px}
 .sg:hover,.sg.k{background:var(--soft)}
 .sg .i{width:32px;height:32px;border-radius:9px;background:var(--soft);display:grid;place-items:center;color:var(--acc);flex:none}
@@ -57,7 +57,7 @@ button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(-
 .filt{position:sticky;top:calc(112px + var(--safe-t));z-index:15;background:var(--bg);border-bottom:1px solid var(--line)}
 .frow{display:flex;gap:8px;overflow-x:auto;padding:10px 14px;scrollbar-width:none;max-width:1100px;margin:0 auto}
 .frow::-webkit-scrollbar{display:none}
-.pill{flex:none;display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-weight:600;font-size:15px;white-space:nowrap}
+.pill{flex:none;display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-weight:600;font-size:15px;white-space:nowrap}
 .pill svg{width:20px;height:20px;color:var(--acc)}
 .pill[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:#fff}
 .pill[aria-pressed=true] svg{color:var(--gold)}
@@ -70,7 +70,7 @@ main{max-width:1100px;margin:0 auto;padding:14px 14px 24px}
 .hd h2{font-size:26px;font-weight:800}
 .hd .n{color:var(--mute);font-size:14px}
 .sort{display:flex;gap:4px;background:var(--soft);padding:3px;border-radius:10px}
-.sort button{border:0;background:none;padding:5px 10px;border-radius:8px;font-size:13px;font-weight:600;color:var(--mute);min-height:32px}
+.sort button{border:0;background:none;padding:5px 12px;border-radius:8px;font-size:14px;font-weight:600;color:var(--mute);min-height:44px}
 .sort button[aria-pressed=true]{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
 .list{background:var(--card);border-radius:16px;border:1px solid var(--line);overflow:hidden}
 .row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px 12px;width:100%;text-align:left;border:0;border-top:1px solid var(--line);background:none;padding:12px 14px;min-height:60px}
@@ -78,29 +78,35 @@ main{max-width:1100px;margin:0 auto;padding:14px 14px 24px}
 .row:active{background:var(--soft)}
 @media(hover:hover){.row:hover{background:var(--soft)}}
 .row .t{font-weight:700;font-size:17px;line-height:1.2;display:flex;align-items:center;gap:6px}
-.row .t em{font-style:normal;font:600 12px Barlow,sans-serif;color:var(--mute);background:var(--soft);border-radius:6px;padding:1px 6px}
-.row .s{color:var(--mute);font-size:14px;margin-top:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .t em{font-style:normal;font:600 13px var(--f);color:var(--mute);background:var(--soft);border-radius:6px;padding:1px 6px;flex:none}
+.row>span:first-child{min-width:0}
+.row .s{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;color:var(--mute);font-size:14px;line-height:1.35;margin-top:3px;overflow:hidden}
 .row .s b{color:var(--acc);font-weight:600}
 .mini{display:flex;gap:3px;margin-top:5px}
 .mini svg{width:20px;height:20px;color:var(--acc)}
 .cnt{display:flex;align-items:center;gap:6px;color:var(--mute);font-size:14px;white-space:nowrap}
-.cnt b{font:700 20px "Barlow Condensed",sans-serif;color:var(--ink)}
-.cnt svg{width:16px;height:16px;opacity:.5}
+.cnt b{font:700 20px var(--fc);color:var(--ink)}
+.cnt svg{width:18px;height:18px;opacity:.7}
+.cnt b.z{color:var(--mute);font-weight:600}
 .row.club{grid-template-columns:44px minmax(0,1fr) auto}
 .ico{width:44px;height:44px;border-radius:12px;background:var(--blue);display:grid;place-items:center;color:var(--gold)}
 .ico svg{width:28px;height:28px}
-.grp{margin:18px 2px 8px;display:flex;align-items:center;gap:8px;font:700 18px "Barlow Condensed",sans-serif}
+.grp{margin:18px 2px 8px;display:flex;align-items:center;gap:8px;font:700 18px var(--fc)}
 .grp svg{width:22px;height:22px;color:var(--acc)}
-.grp span{color:var(--mute);font:500 14px Barlow,sans-serif}
+.grp span{color:var(--mute);font:500 14px var(--f)}
 .more{display:block;width:100%;margin:12px 0 0;min-height:48px;border-radius:12px;border:1px solid var(--line);background:var(--card);font-weight:600}
 .empty{padding:28px 16px;text-align:center;color:var(--mute)}
-.back{display:inline-flex;align-items:center;gap:6px;border:0;background:none;color:var(--acc);font-weight:600;padding:6px 2px;min-height:40px}
+.emp{text-align:center;padding:24px 18px}.emp p{margin:10px 0 4px;color:var(--mute)}
+.emi{display:inline-grid;place-items:center;width:64px;height:64px;border-radius:50%;background:var(--soft);color:var(--gold)}.emi svg{width:32px;height:32px;fill:var(--gold)}
+.back{display:inline-flex;align-items:center;gap:4px;border:0;background:none;color:var(--acc);font-weight:600;padding:6px 10px 6px 2px;min-height:44px;margin:-6px 0 4px}
+.back svg{width:20px;height:20px}
 .chead{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:12px}
-.chead h2{font-size:30px;font-weight:800}
+.chead h2{font-size:30px;font-weight:800;text-wrap:balance}
+@media(max-width:479px){.chead h2{font-size:27px}}
 .chead p{margin:4px 0 0;color:var(--mute);font-size:14px}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
 @media(max-width:759px){.chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:12px -16px 0;padding:0 16px 2px}.chips::-webkit-scrollbar{display:none}.cp{flex:none}}
-.cp{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:5px 10px 5px 7px;font-size:14px;font-weight:600;min-height:36px}
+.cp{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:5px 12px 5px 9px;font-size:14px;font-weight:600;min-height:44px}
 .cp svg{width:18px;height:18px;color:var(--acc)}
 .cp[aria-pressed=true]{background:var(--blue);color:#fff;border-color:var(--blue)}
 .cp[aria-pressed=true] svg{color:var(--gold)}
@@ -114,7 +120,7 @@ main{max-width:1100px;margin:0 auto;padding:14px 14px 24px}
 /* info */
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:12px}
 .card h3{font-size:20px;margin-bottom:8px}
-.big{font:800 44px/1 "Barlow Condensed",sans-serif;color:var(--acc)}
+.big{font:800 44px/1 var(--fc);color:var(--acc)}
 .meter{height:10px;border-radius:99px;background:var(--soft);overflow:hidden;margin:10px 0 4px}
 .meter i{display:block;height:100%;background:var(--gold)}
 .bars{display:grid;gap:6px}
@@ -127,10 +133,11 @@ main{max-width:1100px;margin:0 auto;padding:14px 14px 24px}
 .small{font-size:14px;color:var(--mute)}
 /* barra in basso */
 .nav{position:fixed;left:0;right:0;bottom:0;z-index:25;background:var(--card);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding:4px 4px calc(4px + var(--safe-b))}
-.nb{border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:12px;font-weight:600;color:var(--mute);min-height:56px;justify-content:center;border-radius:10px}
-.nb svg{width:24px;height:24px}
+.nb{border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:13px;font-weight:600;color:var(--mute);min-height:56px;justify-content:center;border-radius:10px}
+.nb svg{width:52px;height:30px;padding:3px 14px;border-radius:999px;transition:background .15s}
 .nb[aria-current=true]{color:var(--acc)}
-.nb[aria-current=true] svg{transform:translateY(-1px)}
+.nb[aria-current=true] svg{background:var(--soft)}
+.nb:active svg{background:var(--soft)}
 /* scheda società */
 .sheet{position:fixed;inset:0;z-index:40;background:rgba(5,12,25,.5);display:none}
 .sheet.on{display:block}
@@ -140,7 +147,9 @@ main{max-width:1100px;margin:0 auto;padding:14px 14px 24px}
 .ph .bk{width:44px;height:44px;border:0;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;display:grid;place-items:center}
 .ph .bk svg{width:22px;height:22px}
 .ph .ico{background:var(--gold);color:var(--blue);width:52px;height:52px}
-.ph h2{font-size:23px;font-weight:800}
+.panel:focus{outline:none}
+.ph h2{font-size:23px;font-weight:800;text-wrap:balance}
+@media(max-width:479px){.ph h2{font-size:21px}}
 .ph p{margin:2px 0 0;color:#c9d6ea;font-size:14px}
 .pb{max-width:760px;margin:0 auto;padding:14px 14px calc(28px + var(--safe-b))}
 .acts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
@@ -149,60 +158,67 @@ main{max-width:1100px;margin:0 auto;padding:14px 14px 24px}
 .act.facebook svg{color:#1877f2}.act.instagram svg{color:#d62976}
 .now{background:var(--blue);color:#fff;border-radius:16px;padding:14px 16px;margin-bottom:12px}
 .now small{color:#c9d6ea;font-size:13px}
-.now b{display:block;font:700 22px "Barlow Condensed",sans-serif;margin-top:2px}
+.now b{display:block;font:700 22px var(--fc);margin-top:2px}
 .tags{display:flex;flex-wrap:wrap;gap:6px}
 .tag{font-size:14px;padding:4px 10px;border-radius:8px;background:var(--soft)}
 .tl{display:grid;gap:0}
 .tli{display:grid;grid-template-columns:4.6em minmax(0,1fr) auto;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
 .tli:first-child{border-top:0}
-.tli .y{font:700 16px "Barlow Condensed",sans-serif;color:var(--mute)}
+.tli .y{font:700 16px var(--fc);color:var(--mute)}
 .tli .c{font-size:15px;line-height:1.3}
-.pos{display:inline-block;min-width:40px;text-align:center;font:700 16px "Barlow Condensed",sans-serif;padding:3px 8px;border-radius:8px;background:var(--soft);white-space:nowrap}
+.pos{display:inline-block;min-width:40px;text-align:center;font:700 16px var(--fc);padding:3px 8px;border-radius:8px;background:var(--soft);white-space:nowrap}
 .pos.up{background:#d6f5df;color:#0b5a2b}.pos.dn{background:#fde0d6;color:#8a2a0a}.pos.nd{color:var(--mute);font-weight:600}
 .tli.sq{grid-template-columns:7.5em minmax(0,1fr)}
 .cl{width:100%;border-collapse:collapse;font-size:15px}
-.cl th{font:600 12px Barlow,sans-serif;color:var(--mute);text-align:right;padding:6px 4px;border-bottom:1px solid var(--line)}
+.card:has(>.cl){padding:6px 10px 10px}
+.cl th{font:600 13px var(--f);color:var(--mute);text-align:right;padding:10px 4px 6px;border-bottom:1px solid var(--line)}
 .cl th:nth-child(2){text-align:left}
 .cl td{padding:9px 4px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
-.cl td.sq{text-align:left;white-space:normal;font-weight:600;line-height:1.25}
-.cl td.p{font:700 17px "Barlow Condensed",sans-serif;color:var(--mute);width:2em}
-.cl td.pt{font:700 17px "Barlow Condensed",sans-serif}
+.cl td.sq{text-align:left;white-space:normal;font-weight:600;line-height:1.25;overflow-wrap:break-word;font-size:14px;padding-left:6px}
+.cl tbody tr:last-child td{border-bottom:0}
+.cl td.pt{color:var(--ink)}
+.cl tbody tr:nth-child(-n+3) td.p{color:var(--acc)}
+.cl td.p{font:700 17px var(--fc);color:var(--mute);width:1.8em;text-align:center}
+.cl td.pt{font:800 18px var(--fc);padding-right:8px}
 .cl tr.me td{background:var(--soft)}
 .cl tr[data-id]{cursor:pointer}
 .cl td.sq a{color:var(--acc);text-decoration:none}
 @media(max-width:420px){.cl .hx{display:none}}
 .mt{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
 .mt:first-child{border-top:0}
-.mt .h{text-align:right;font-weight:600;line-height:1.2;overflow-wrap:anywhere}.dh{font:700 15px "Barlow Condensed",sans-serif;color:var(--mute);margin:8px 0 0}.mt .a{font-weight:600;line-height:1.2;overflow-wrap:anywhere}
-.mt .r{font:800 20px "Barlow Condensed",sans-serif;background:var(--soft);border-radius:8px;padding:2px 10px;min-width:64px;text-align:center}
-.mt .r.fut{font:600 13px Barlow,sans-serif;color:var(--mute);background:none}
-.mt small{grid-column:1/-1;text-align:center;color:var(--mute);font-size:12px;margin-top:-4px}
+.mt .h{text-align:right;font-weight:600;font-size:15px;line-height:1.2;overflow-wrap:break-word;hyphens:auto}.dh{font:700 15px var(--fc);color:var(--mute);margin:8px 0 0;padding-top:6px}
+.dh+.mt{border-top:0}
+.mt+.dh{border-top:1px solid var(--line);margin-top:0;padding-top:12px}.mt .a{font-weight:600;font-size:15px;line-height:1.2;overflow-wrap:break-word;hyphens:auto}
+.mt .r{font:800 20px var(--fc);background:var(--soft);border-radius:8px;padding:4px 8px;min-width:58px;text-align:center;font-variant-numeric:tabular-nums}
+.mt .r.fut{font:600 14px/1.2 var(--f);color:var(--ink);background:none;min-width:48px}
+.mt .r.fut i{display:block;font-style:normal;color:var(--mute);font-size:13px}
+.mt small{grid-column:1/-1;text-align:center;color:var(--mute);font-size:13px;margin-top:-4px}
 .mt .me{color:var(--acc)}
 .rr{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;align-items:center;width:100%;text-align:left;border:0;background:none;padding:10px 0;border-top:1px solid var(--line)}
 .rr:first-child{border-top:0}
 .rr b{font-size:15px;line-height:1.25}.rr small{color:var(--mute);font-size:13px;grid-column:1}
-.rr .ps{grid-row:1/3;grid-column:2;text-align:right;font:800 24px "Barlow Condensed",sans-serif;color:var(--acc)}
-.rr .ps span{display:block;font:600 12px Barlow,sans-serif;color:var(--mute)}
-.ib{border:0;background:rgba(255,255,255,.14);color:#fff;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;flex:none}
+.rr .ps{grid-row:1/3;grid-column:2;text-align:right;font:800 24px var(--fc);color:var(--acc)}
+.rr .ps span{display:block;font:600 13px var(--f);color:var(--mute)}
+.ib{border:0;background:rgba(255,255,255,.14);color:#fff;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;flex:none}
 .ib svg{width:20px;height:20px}
 @media(min-width:760px){.ib{display:none}}
 .star{width:44px;height:44px;border:0;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;display:grid;place-items:center}
 .star svg{width:24px;height:24px}
 .star[aria-pressed=true]{color:var(--gold)}.star[aria-pressed=true] svg{fill:var(--gold)}
-.gstar{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;min-height:40px;margin-top:10px}
+.gstar{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 14px;font-weight:600;font-size:14px;min-height:44px;margin-top:10px}
 .gstar svg{width:18px;height:18px;color:var(--acc)}
 .gstar[aria-pressed=true] svg{fill:var(--gold);color:var(--gold)}
 .row .fav{width:16px;height:16px;color:var(--gold);fill:var(--gold);flex:none}
-.fh{display:flex;align-items:center;gap:8px;margin:18px 2px 8px;font:700 18px "Barlow Condensed",sans-serif}
-.sync{font-size:12px;color:var(--mute);margin:-4px 2px 10px}
+.fh{display:flex;align-items:center;gap:8px;margin:18px 2px 8px;font:700 18px var(--fc)}
+.sync{font-size:13px;color:var(--mute);margin:-4px 2px 10px}
 .seg{display:flex;gap:4px;background:var(--soft);padding:4px;border-radius:12px;margin:0 0 12px;overflow-x:auto;scrollbar-width:none}
 .seg::-webkit-scrollbar{display:none}
-.seg button{flex:1 0 auto;display:flex;align-items:center;justify-content:center;gap:6px;border:0;background:none;border-radius:9px;padding:8px 12px;font-weight:600;font-size:15px;color:var(--mute);min-height:40px;white-space:nowrap}
+.seg button{flex:1 0 auto;display:flex;align-items:center;justify-content:center;gap:6px;border:0;background:none;border-radius:9px;padding:8px 12px;font-weight:600;font-size:15px;color:var(--mute);min-height:44px;white-space:nowrap}
 .seg button svg{width:20px;height:20px}
 .seg button[aria-selected=true]{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.14)}
 .seg button[aria-selected=true] svg{color:var(--acc)}
 .dnav{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:4px}
-.dnav b{font:700 18px "Barlow Condensed",sans-serif}
+.dnav b{font:700 18px var(--fc)}
 .dnav button{width:44px;height:44px;border:1px solid var(--line);border-radius:50%;background:var(--card);display:grid;place-items:center;color:var(--acc)}
 .dnav button svg{width:20px;height:20px}.dnav button:disabled{opacity:.35}
 .nofilt .filt{display:none}
@@ -210,6 +226,10 @@ main{max-width:1100px;margin:0 auto;padding:14px 14px 24px}
 .live svg{width:22px;height:22px;flex:none}
 .toast{position:fixed;left:50%;bottom:calc(84px + var(--safe-b));transform:translateX(-50%);background:#0f1c33;color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;z-index:60;opacity:0;transition:opacity .2s;pointer-events:none}
 .toast.on{opacity:1}
+.sk{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.sk i{display:block;height:60px;border-top:1px solid var(--line);background:linear-gradient(90deg,transparent 0,var(--soft) 50%,transparent 100%) 0 0/200% 100% no-repeat;animation:sh 1.2s linear infinite}
+.sk i:first-child{border-top:0}
+@keyframes sh{from{background-position:150% 0}to{background-position:-50% 0}}
 .err{padding:18px;border-radius:14px;background:#fde0d6;color:#8a2a0a}
 @media(min-width:760px){
  body{padding-bottom:24px}.nav{display:none}.dtabs{display:flex}.brand .cov{display:block}
@@ -218,8 +238,8 @@ main{max-width:1100px;margin:0 auto;padding:14px 14px 24px}
  .ph{grid-template-columns:44px 60px minmax(0,1fr) 44px}.ph .ico{width:60px;height:60px}
 }
 @media(max-width:759px){.brand .cov{font-size:12px}}
-@media(max-width:479px){.brand .cov{display:none}.brand .ib{margin-left:auto}}
-@media(prefers-reduced-motion:reduce){.panel{animation:none}.toast{transition:none}}
+@media(max-width:479px){.brand .cov{display:none}.brand .ib{margin:-4px -4px -4px auto}}
+@media(prefers-reduced-motion:reduce){.panel{animation:none}.toast{transition:none}.sk i{animation:none}}
 </style></head>
 <body>
 <header class="top">
@@ -239,7 +259,7 @@ main{max-width:1100px;margin:0 auto;padding:14px 14px 24px}
 </div>
 </header>
 <div class="filt"><div class="frow" id="frow" role="group" aria-label="Filtri"></div></div>
-<main id="main"><p class="empty">Caricamento…</p></main>
+<main id="main" aria-busy="true"><div class="hd"><h2>Caricamento…</h2></div><div class="sk" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div></main>
 <nav class="nav" aria-label="Sezioni">
 <button class="nb" data-v="comuni"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Comuni</button>
 <button class="nb" data-v="societa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3 8.5-7 10-4-1.5-7-5-7-10V6z"/></svg>Società</button>
@@ -247,7 +267,7 @@ main{max-width:1100px;margin:0 auto;padding:14px 14px 24px}
 <button class="nb" data-v="sport"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3.5 9.5c5 1.5 12 1.5 17 0M3.5 14.5c5-1.5 12-1.5 17 0M12 3v18"/></svg>Sport</button>
 <button class="nb" data-v="preferiti"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>Preferiti</button>
 </nav>
-<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="dName"><div class="panel" id="panel"></div></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="dName"><div class="panel" id="panel" tabindex="-1"></div></div>
 <div class="toast" id="toast" role="status"></div>
 <script>
 {
@@ -307,7 +327,7 @@ function sub(c){if(c.attuale)return `<b>${esc(c.attuale)}</b>`;const l=c.storico
 function match(c){return(!prov||c.prov===prov)&&(!sport||c.sport===sport||c.altri_sport.includes(sport))}
 function clubRow(c,showCom=true){return `<button class="row club" data-id="${c.id}"><span class="ico" aria-hidden="true">${ico(c.sport)}</span><span><span class="t">${esc(c.nome)}${isFav('c',c.id)?`<svg class="fav" viewBox="0 0 24 24" aria-label="preferito"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>`:''}</span><span class="s">${showCom?esc(c.comune)+' · ':''}${sub(c)}</span></span><span class="cnt">${CHEV}</span></button>`}
 function filters(){
-const sp=sport?`<button class="pill" data-s="" aria-pressed="true">${ico(sport)}${esc(NAMES[sport])}<span class="x" aria-hidden="true">×</span></button>`:`<button class="pill sp" data-go="sport">${I.altro}Scegli sport</button>`;
+const sp=sport?`<button class="pill" data-s="" aria-pressed="true">${ico(sport)}${esc(NAMES[sport])}<span class="x" aria-hidden="true">×</span></button>`:`<button class="pill sp" data-go="sport"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Scegli sport</button>`;
 $('frow').innerHTML=sp+'<span class="sep"></span>'+[['','Tutta la regione'],...Object.entries(PROV)].map(([k,v])=>`<button class="pill" data-p="${k}" aria-pressed="${k===prov}">${v}</button>`).join('');
 }
 function nav(){document.querySelectorAll('.nb,.dtab').forEach(b=>b.setAttribute('aria-current',b.dataset.v===(girone?'risultati':comune?'comuni':view)))}
@@ -316,7 +336,7 @@ let L=COM.filter(c=>!prov||c.prov===prov).map(c=>{const ks=BYC[c.codice]||[];con
 L.sort(sortBy==='n'?(a,b)=>b.f.length-a.f.length||a.c.nome.localeCompare(b.c.nome):(a,b)=>a.c.nome.localeCompare(b.c.nome));
 const tot=L.reduce((s,r)=>s+r.f.length,0);
 m.innerHTML=`<div class="hd"><h2>${prov?PROV[prov]:'Comuni'}</h2><div class="sort" role="group" aria-label="Ordina"><button data-sort="az" aria-pressed="${sortBy==='az'}">A–Z</button><button data-sort="n" aria-pressed="${sortBy==='n'}">Più società</button></div></div><p class="hd n" style="margin-top:-6px">${L.length} comuni · ${tot} società${sport?' di '+esc(NAMES[sport].toLowerCase()):''}</p>`+
-(L.length?`<div class="list">${L.slice(0,limit).map(({c,f})=>{const sp=[...new Set(f.map(k=>k.sport))];return `<button class="row" data-c="${c.codice}"><span><span class="t">${esc(c.nome)} <em>${c.prov}</em></span>${f.length?`<span class="mini" aria-hidden="true">${sp.slice(0,7).map(ico).join('')}</span>`:'<span class="s">Nessuna società trovata finora</span>'}</span><span class="cnt"><b>${f.length}</b>${CHEV}</span></button>`}).join('')}</div>${L.length>limit?`<button class="more" data-more>Mostra altri ${Math.min(60,L.length-limit)} comuni</button>`:''}`:'<div class="list"><p class="empty">Nessun comune con questi filtri.</p></div>');
+(L.length?`<div class="list">${L.slice(0,limit).map(({c,f})=>{const sp=[...new Set(f.map(k=>k.sport))];return `<button class="row" data-c="${c.codice}"><span><span class="t">${esc(c.nome)} <em>${c.prov}</em></span>${f.length?`<span class="mini" aria-hidden="true">${sp.slice(0,7).map(ico).join('')}</span>`:'<span class="s">Nessuna società trovata finora</span>'}</span><span class="cnt"><b${f.length?'':' class="z"'}>${f.length}</b>${CHEV}</span></button>`}).join('')}</div>${L.length>limit?`<button class="more" data-more>Mostra altri ${Math.min(60,L.length-limit)} comuni</button>`:''}`:'<div class="list"><p class="empty">Nessun comune con questi filtri.</p></div>');
 }
 function vComune(m){
 const c=COM.find(x=>x.codice===comune);const all=(BYC[comune]||[]).filter(k=>!prov||k.prov===prov);
@@ -335,7 +355,7 @@ const cnt={};C.filter(k=>!prov||k.prov===prov).forEach(k=>{cnt[k.sport]=(cnt[k.s
 const ks=Object.keys(NAMES).filter(k=>cnt[k]).sort((a,b)=>cnt[b]-cnt[a]);
 m.innerHTML=`<div class="hd"><h2>Sport</h2><span class="n">${ks.length} discipline${prov?' · '+PROV[prov]:''}</span></div><div class="sgrid">${ks.map(k=>`<button class="stile" data-pick="${k}" aria-pressed="${sport===k}">${ico(k)}<b>${esc(NAMES[k])}</b><small>${cnt[k]} società</small></button>`).join('')}</div>`;
 }
-const VERSIONE='1.1.0',VERSIONE_DATA='2026-11-25';
+const VERSIONE='1.2.0',VERSIONE_DATA='2026-11-25';
 function vInfo(m){
 const done=COM.filter(c=>c.n>0).length;const cnt={};C.forEach(k=>cnt[k.sport]=(cnt[k.sport]||0)+1);const mx=Math.max(...Object.values(cnt));
 const ks=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]);
@@ -362,7 +382,7 @@ m.innerHTML=`<div class="hd"><h2>Campionati</h2><span class="n">${G.length} giro
 (L.length?Object.keys(cats).sort((a,b)=>cidx(a)-cidx(b)||a.localeCompare(b)).map(c=>`<div class="grp">${esc(c)}<span>${cats[c].length}</span></div><div class="list">${cats[c].sort((a,b)=>lidx(a.girone)-lidx(b.girone)||String(a.genere).localeCompare(String(b.genere))||a.girone.localeCompare(b.girone)).map(g=>{const t=g.classifica[0];return `<button class="row" data-g="${g.gid}"><span><span class="t">${esc(g.girone)}${g.genere?` <em>${esc(g.genere)}</em>`:''}</span><span class="s">${esc(g.comitato)}${g.giornata?` · ${g.giornata}ª giornata`:''}${t?` · 1° ${esc(t.squadra)}`:''}</span></span><span class="cnt">${CHEV}</span></button>`}).join('')}</div>`).join(''):`<div class="list"><p class="empty">${G.length?'Nessun girone qui.':'I campionati sono in caricamento: torna più tardi.'}</p></div>`)+
 `<p class="small" style="margin:14px 2px 0">Classifiche e risultati dalle pubblicazioni ufficiali delle federazioni (FIPAV, FIP, LND), aggiornati ogni settimana.</p>`;
 }
-function matchRows(ps,me){let last='';return ps.map(x=>{const fut=!x.risultato;const info=[x.giornata&&fut?x.giornata+'ª giornata':'',!fut&&x.data&&x.giornata==null?'':'',x.parziali?esc(x.parziali):'',fut&&x.campo?esc(x.campo):'',!fut&&x.campo&&!x.parziali?esc(x.campo):''].filter(Boolean).join(' · ');const hd=(x.giornata==null&&x.data&&x.data!==last)?`<div class="dh">${esc(dt(x.data))}</div>`:'';last=x.data;return hd+`<div class="mt"><span class="h${x.id_casa&&(x.id_casa===me||FAV.c.includes(x.id_casa))?' me':''}">${esc(x.casa)}</span><span class="r${fut?' fut':''}">${fut?esc(dt(x.data)+(x.ora?' '+x.ora:'')):esc(x.risultato)}</span><span class="a${x.id_ospite&&(x.id_ospite===me||FAV.c.includes(x.id_ospite))?' me':''}">${esc(x.ospite)}</span>${info?`<small>${info}</small>`:''}</div>`}).join('')}
+function matchRows(ps,me){let last='',lastG=null;return ps.map(x=>{const fut=!x.risultato;const gh=(fut&&x.giornata!=null&&x.giornata!==lastG)?`<div class="dh">${esc(x.giornata)}ª giornata</div>`:'';if(fut&&x.giornata!=null)lastG=x.giornata;const info=[!fut&&x.data&&x.giornata==null?'':'',x.parziali?esc(x.parziali):'',fut&&x.campo?esc(x.campo):'',!fut&&x.campo&&!x.parziali?esc(x.campo):''].filter(Boolean).join(' · ');const hd=(x.giornata==null&&x.data&&x.data!==last)?`<div class="dh">${esc(dt(x.data))}</div>`:'';last=x.data;return gh+hd+`<div class="mt"><span class="h${x.id_casa&&(x.id_casa===me||FAV.c.includes(x.id_casa))?' me':''}">${esc(x.casa)}</span><span class="r${fut?' fut':''}">${fut?esc(dt(x.data))+(x.ora?`<i>${esc(x.ora)}</i>`:''):esc(x.risultato)}</span><span class="a${x.id_ospite&&(x.id_ospite===me||FAV.c.includes(x.id_ospite))?' me':''}">${esc(x.ospite)}</span>${info?`<small>${info}</small>`:''}</div>`}).join('')}
 function vGirone(m){
 const g=GBY[girone];if(!g){m.innerHTML='<p class="empty">Girone non trovato.</p>';return}
 const hasN=g.classifica.some(r=>r.n!=null),hasFS=g.classifica.some(r=>r.f!=null),hasSet=g.classifica.some(r=>r.set_v!=null);
@@ -386,7 +406,7 @@ return `<div class="card"><h3>Risultati 2026/27</h3>${gs.map(g=>{const r=g.class
 return `<button class="rr" data-gs="${g.gid}"><b>${esc(g.categoria&&g.categoria!=='Prima squadra'?g.categoria+' · ':'')}${esc(g.girone)}</b>${r?`<span class="ps">${esc(r.pos)}°<span>${esc(r.punti??'')} pt</span></span>`:''}<small>${last?`Ultima: ${esc(last.casa)} ${esc(last.risultato)} ${esc(last.ospite)}`:''}${nx?`${last?'<br>':''}Prossima: ${esc(nx.casa)} – ${esc(nx.ospite)}, ${esc(dt(nx.data))}`:''}</small></button>`}).join('')}</div>`}
 function vPreferiti(m){
 const cs=FAV.c.map(id=>C.find(x=>x.id===id)).filter(Boolean),gs=FAV.g.map(id=>GBY[id]).filter(Boolean);
-if(!cs.length&&!gs.length){m.innerHTML=`<div class="hd"><h2>Preferiti</h2></div><div class="card"><p style="margin:0">Tocca la stella ${STAR.replace('<svg','<svg style="width:18px;height:18px;vertical-align:-3px"')} nella scheda di una società o nella pagina di un girone per seguirli qui: troverai campionato in corso, ultimo risultato e prossima partita.</p></div>`;return}
+if(!cs.length&&!gs.length){m.innerHTML=`<div class="hd"><h2>Preferiti</h2></div><div class="card emp"><span class="emi" aria-hidden="true">${STAR}</span><p>Tocca la stella nella scheda di una società o nella pagina di un girone per seguirli qui: troverai campionato in corso, ultimo risultato e prossima partita.</p><button class="more" data-go="risultati">Sfoglia i campionati</button></div>`;return}
 m.innerHTML=`<div class="hd"><h2>Preferiti</h2><span class="n">${cs.length+gs.length}</span></div><p class="sync">${FSYNC==='account'?'Salvati nel tuo account: li ritrovi su ogni dispositivo.':'Salvati su questo dispositivo.'}</p>`+
 (cs.length?`<div class="fh">Società e squadre</div><div class="list">${cs.map(c=>{const rs=G.filter(g=>g.classifica.some(r=>r.id===c.id));const r=rs.length?rs[0].classifica.find(r=>r.id===c.id):null;const last=rs.length?rs[0].partite.filter(x=>x.risultato&&(x.id_casa===c.id||x.id_ospite===c.id)).pop():null;
 return `<button class="row club" data-id="${c.id}"><span class="ico" aria-hidden="true">${ico(c.sport)}</span><span><span class="t">${esc(c.nome)}</span><span class="s">${r?`<b>${esc(r.pos)}° · ${esc(r.punti??'')} pt</b> · `:''}${last?esc(last.casa+' '+last.risultato+' '+last.ospite):sub(c)}</span></span><span class="cnt">${CHEV}</span></button>`}).join('')}</div>`:'')+
@@ -416,7 +436,7 @@ ${c.fonte?`<p class="small" style="margin:14px 2px 0">Fonti: ${esc(c.fonte)}</p>
 </div>`;
 $('sheet').classList.add('on');document.body.style.overflow='hidden';$('panel').scrollTop=0;
 if(push&&location.hash!=='#s-'+id){location.hash='s-'+id}
-setTimeout(()=>{const b=document.querySelector('[data-close]');b&&b.focus()},50);
+setTimeout(()=>{$('panel').focus({preventScroll:true})},50);
 }
 function closeSheet(){if(!$('sheet').classList.contains('on'))return;$('sheet').classList.remove('on');document.body.style.overflow='';render()}
 function go(h){if(location.hash!=='#'+h)location.hash=h;else route()}
@@ -480,7 +500,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('sheet').classLis
 window.addEventListener('hashchange',route);
 favLoad();favCloud();prov=st.get('prov')||'';sortBy=st.get('sort')||'az';if(!PROV[prov])prov='';
 Promise.all([fetch('data/comuni.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/data.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/risultati.json',{cache:'no-cache'}).then(r=>r.ok?r.json():[]).catch(()=>[])]).then(([c,d,rg])=>{
-G=rg||[];G.forEach(g=>GBY[g.gid]=g);
+G=rg||[];G.forEach(g=>GBY[g.gid]=g);$('main').removeAttribute('aria-busy');
 COM=c.comuni;AGG=c.aggiornato;C=d;C.forEach(k=>(BYC[k.codice]=BYC[k.codice]||[]).push(k));
 $('cov').textContent=`${C.length} società · 215 comuni`;
 const h=location.hash.slice(1);if(h.startsWith('s-')){const id=h.slice(2);history.replaceState(null,'','#comuni');route();openClub(id)}else route();
