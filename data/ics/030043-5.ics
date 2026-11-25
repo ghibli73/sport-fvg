@@ -25,18 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-u13-ud-b-63e88b99@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261028T184500
-DTEND;TZID=Europe/Rome:20261028T204500
-SUMMARY:P.A.F. 52-70 GEMONA BASKET (Under 13 Maschile — girone UD B)
-LOCATION:Palestra Scolastica\, Povoletto
-DESCRIPTION:Under 13 Maschile — girone UD B\n1ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
- et-u13-ud-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u19-gold-a-fa132fa2@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261028T200000
@@ -50,8 +38,20 @@ DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u13-ud-b-63e88b99@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261029T184500
+DTEND;TZID=Europe/Rome:20261029T204500
+SUMMARY:P.A.F. 52-70 GEMONA BASKET (Under 13 Maschile — girone UD B)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Under 13 Maschile — girone UD B\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-dr1-ovest-165145e8@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261031T200000
 DTEND;TZID=Europe/Rome:20261031T220000
 SUMMARY:Gemona Basket 74-76 Pol. Polisigma (Divisione Regionale 1 — giron
@@ -115,7 +115,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-ovest-50bbf61f@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261108T180000
 DTEND;TZID=Europe/Rome:20261108T200000
 SUMMARY:Libertas Fiume Veneto 87-52 Gemona Basket (Divisione Regionale 1 
@@ -138,6 +138,19 @@ DESCRIPTION:Under 19 Maschile Gold — girone A\n6ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-u19-gold-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-c29ffcae@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261113T200000
+DTEND;TZID=Europe/Rome:20261113T220000
+SUMMARY:Gemona Basket 83-77 BCC Pordenonese e Monsile (Divisione Regionale 
+ 1 — girone Ovest)
+LOCATION:Palestra IPSIA\, Gemona del Friuli
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-ud-b-00ce4dce@zuin-fvg
@@ -166,19 +179,6 @@ DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n3ª giornata\nDat
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-dr1-ovest-c29ffcae@zuin-fvg
-DTSTAMP:20261118T000000Z
-DTSTART;TZID=Europe/Rome:20261114T200000
-DTEND;TZID=Europe/Rome:20261114T220000
-SUMMARY:Gemona Basket 83-77 BCC Pordenonese e Monsile (Divisione Regionale 
- 1 — girone Ovest)
-LOCATION:Palestra IPSIA\, Gemona del Friuli
-DESCRIPTION:Divisione Regionale 1 — girone Ovest\n7ª giornata\nDati non 
- ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
- -basket-dr1-ovest
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u19-gold-a-eb015353@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261116T203000
@@ -190,5 +190,30 @@ DESCRIPTION:Under 19 Maschile Gold — girone A\n7ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-u19-gold-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-6a37a670@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261122T180000
+DTEND;TZID=Europe/Rome:20261122T200000
+SUMMARY:C.T.S. 81-78 Gemona Basket (Divisione Regionale 1 — girone Ovest)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-80cb887e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T200000
+DTEND;TZID=Europe/Rome:20261128T220000
+SUMMARY:Gemona Basket – Errebi Majano (Divisione Regionale 1 — girone O
+ vest)
+LOCATION:Palestra Ipsia\, Gemona Del Friuli
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
 END:VEVENT
 END:VCALENDAR

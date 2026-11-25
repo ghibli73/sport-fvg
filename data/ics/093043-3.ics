@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:basket-dr3-pn-99129be1@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261028T210000
 DTEND;TZID=Europe/Rome:20261028T230000
 SUMMARY:BALONSESTO 50-44 BASKET PASIANO 'B' (Divisione Regionale 3 — giro
@@ -39,7 +39,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-pn-b60a7c13@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261105T204500
 DTEND;TZID=Europe/Rome:20261105T224500
 SUMMARY:POLISPORTIVA MONTEREALE 52-41 BALONSESTO (Divisione Regionale 3 —
@@ -78,9 +78,9 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-pn-2942b49b@zuin-fvg
-DTSTAMP:20261118T000000Z
-DTSTART;TZID=Europe/Rome:20261109T211500
-DTEND;TZID=Europe/Rome:20261109T231500
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261110T211500
+DTEND;TZID=Europe/Rome:20261110T231500
 SUMMARY:JULIA CONCORDIA BASKET 41-36 BALONSESTO (Divisione Regionale 3 — 
  girone PN)
 LOCATION:Pal.tto Sport "L. Valerio"\, Concordia Sagittaria
@@ -91,7 +91,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-pn-575d7e85@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261116T210000
 DTEND;TZID=Europe/Rome:20261116T230000
 SUMMARY:BALONSESTO 49-51 NAONIS BASKET (Divisione Regionale 3 — girone PN
@@ -116,6 +116,18 @@ DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n2ª g
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr3-pn-d92b4196@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261121T183000
+DTEND;TZID=Europe/Rome:20261121T203000
+SUMMARY:BVO ANNONE 47-54 BALONSESTO (Divisione Regionale 3 — girone PN)
+LOCATION:Palazzetto dello Sport\, Annone Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u13-pn-b-f1c02f46@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261125T191500
@@ -126,5 +138,18 @@ DESCRIPTION:Under 13 Maschile — girone PN B\n2ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
  et-u13-pn-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-365b7b91@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261130T210000
+DTEND;TZID=Europe/Rome:20261130T230000
+SUMMARY:BALONSESTO – TORRE BASKET 'B' (Divisione Regionale 3 — girone P
+ N)
+LOCATION:Palazzetto Comunale\, Sesto Al Reghena
+DESCRIPTION:Divisione Regionale 3 — girone PN\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
 END:VEVENT
 END:VCALENDAR

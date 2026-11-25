@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:basket-dr1-ovest-165145e8@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261031T200000
 DTEND;TZID=Europe/Rome:20261031T220000
 SUMMARY:Gemona Basket 74-76 Pol. Polisigma (Divisione Regionale 1 — giron
@@ -52,7 +52,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-ovest-8b8812e4@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261107T190000
 DTEND;TZID=Europe/Rome:20261107T210000
 SUMMARY:Pol. Polisigma 55-83 Pol. Lib. Pasian di Prato (Divisione Regionale
@@ -78,7 +78,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-ovest-97338be5@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261114T194500
 DTEND;TZID=Europe/Rome:20261114T214500
 SUMMARY:Feletto Basketball Academy 68-66 Pol. Polisigma (Divisione Regional
@@ -101,5 +101,31 @@ DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n3ª g
  iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
  ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-8b3bc96c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261121T190000
+DTEND;TZID=Europe/Rome:20261121T210000
+SUMMARY:Pol. Polisigma 77-73 Pall. Tolmezzo (Divisione Regionale 1 — giro
+ ne Ovest)
+LOCATION:Palestra Scolastica Scuole Medie\, Zoppola
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-05e46af2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:Pol. Casarsa – Pol. Polisigma (Divisione Regionale 1 — girone O
+ vest)
+LOCATION:(Pordenone)
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
 END:VEVENT
 END:VCALENDAR

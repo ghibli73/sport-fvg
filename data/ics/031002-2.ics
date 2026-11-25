@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:basket-dr1-est-79749936@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261030T210000
 DTEND;TZID=Europe/Rome:20261030T230000
 SUMMARY:Geatti Idraulica ed Edilizia 80-72 U.S. Alba (Divisione Regionale 1
@@ -65,7 +65,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-go-ts-7dec78da@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261106T210000
 DTEND;TZID=Europe/Rome:20261106T230000
 SUMMARY:A.S.A.R.-A.S. AM.ROMANS 77-34 US ALBA PALLACANESTRO 'B' (Divisione 
@@ -78,7 +78,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-b0cbd8d0@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261106T211500
 DTEND;TZID=Europe/Rome:20261106T231500
 SUMMARY:Insureteach SRL Azzurra 53-61 U.S. Alba (Divisione Regionale 1 — 
@@ -167,7 +167,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-go-ts-e8524c9c@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261113T203000
 DTEND;TZID=Europe/Rome:20261113T223000
 SUMMARY:US ALBA PALLACANESTRO 'B' 52-83 PALLACANESTRO GRADO (Divisione Regi
@@ -180,7 +180,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-93c69bcf@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261114T200000
 DTEND;TZID=Europe/Rome:20261114T220000
 SUMMARY:U.S. Alba 56-65 San Vito Trieste (Divisione Regionale 1 — girone 
@@ -241,6 +241,58 @@ DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n4ª giornata\nDat
  i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
  fvg/#g-basket-u15-regionale-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-1352f1cf@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T211500
+DTEND;TZID=Europe/Rome:20261120T231500
+SUMMARY:BASKET 4 TRIESTE 106-49 US ALBA PALLACANESTRO 'B' (Divisione Region
+ ale 3 — girone GO/TS)
+LOCATION:Pal. Liceo "G. Oberdan"\, Trieste
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-6c07f66b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261121T193000
+DTEND;TZID=Europe/Rome:20261121T213000
+SUMMARY:Metamorfosi Gradisca 71-64 U.S. Alba (Divisione Regionale 1 — gir
+ one Est)
+LOCATION:Pal. Ciro Zimolo\, Gradisca d'Isonzo
+DESCRIPTION:Divisione Regionale 1 — girone Est\n8ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-792c1de6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T210000
+DTEND;TZID=Europe/Rome:20261127T230000
+SUMMARY:U.S. Alba – S.S. SD Kontovel (Divisione Regionale 1 — girone Es
+ t)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Divisione Regionale 1 — girone Est\n9ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-758b8ada@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:OLIMPIA GORIZIA – US ALBA PALLACANESTRO 'B' (Divisione Regionale 
+ 3 — girone GO/TS)
+LOCATION:Centro "Stella Matutina"\, Gorizia
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u15-femminile-d916c95b@zuin-fvg

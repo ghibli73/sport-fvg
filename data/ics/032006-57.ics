@@ -25,6 +25,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:basket-u19-gold-b-576dd8ca@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T190000
+DTEND;TZID=Europe/Rome:20261027T210000
+SUMMARY:Basket Pasiano 81-64 O.F.P. Azzurra R.D.R. Basket Trieste (Under 19
+  Maschile Gold — girone B)
+LOCATION:Palazzetto "Roberto Marson"\, Pasiano di Pordenone
+DESCRIPTION:Under 19 Maschile Gold — girone B\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u15-regionale-go-ts-9ef5c75b@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;VALUE=DATE:20261028
@@ -35,19 +48,6 @@ DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n1ª giornata\nDat
  i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
  fvg/#g-basket-u15-regionale-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u19-gold-b-576dd8ca@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261028T190000
-DTEND;TZID=Europe/Rome:20261028T210000
-SUMMARY:Basket Pasiano 81-64 O.F.P. Azzurra R.D.R. Basket Trieste (Under 19
-  Maschile Gold — girone B)
-LOCATION:Palazzetto "Roberto Marson"\, Pasiano di Pordenone
-DESCRIPTION:Under 19 Maschile Gold — girone B\n4ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-u19-gold-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-80c6bf2e@zuin-fvg
@@ -154,7 +154,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-b0cbd8d0@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261106T211500
 DTEND;TZID=Europe/Rome:20261106T231500
 SUMMARY:Insureteach SRL Azzurra 53-61 U.S. Alba (Divisione Regionale 1 — 
@@ -258,7 +258,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-ab3e0398@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261113T210000
 DTEND;TZID=Europe/Rome:20261113T230000
 SUMMARY:Geatti Idraulica ed Edilizia 76-70 Insureteach SRL Azzurra (Divisio
@@ -345,5 +345,31 @@ DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n5ª giorn
  ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
  o/sport-fvg/#g-basket-u17-gold-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-3a9e5b5f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T211500
+DTEND;TZID=Europe/Rome:20261120T231500
+SUMMARY:Insureteach SRL Azzurra 68-81 San Vito Trieste (Divisione Regionale
+  1 — girone Est)
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n8ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-cd0b07e6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T200000
+DTEND;TZID=Europe/Rome:20261127T220000
+SUMMARY:U.S.D. Dom – Insureteach SRL Azzurra (Divisione Regionale 1 — g
+ irone Est)
+LOCATION:Kulturni Dom\, Gorizia
+DESCRIPTION:Divisione Regionale 1 — girone Est\n9ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
 END:VEVENT
 END:VCALENDAR

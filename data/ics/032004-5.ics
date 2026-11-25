@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:basket-dr2-go-ts-f676bed9@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261031T193000
 DTEND;TZID=Europe/Rome:20261031T213000
 SUMMARY:Circolo Sportivo Sokol 56-55 Breg (Divisione Regionale 2 — girone
@@ -78,7 +78,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr2-go-ts-a1678828@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261107T200000
 DTEND;TZID=Europe/Rome:20261107T220000
 SUMMARY:Breg 91-70 U.S. Goriziana (Divisione Regionale 2 — girone GO/TS)
@@ -90,7 +90,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr2-go-ts-fa0a324a@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261113T203000
 DTEND;TZID=Europe/Rome:20261113T223000
 SUMMARY:Athletismo 58-50 Breg (Divisione Regionale 2 — girone GO/TS)
@@ -112,6 +112,18 @@ DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n3
  ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
  github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-6e86824d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T211500
+DTEND;TZID=Europe/Rome:20261120T231500
+SUMMARY:C.U.S. Trieste 61-56 Breg (Divisione Regionale 2 — girone GO/TS)
+LOCATION:Palestra C.U.S.\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-go-ts-a-fb982768@zuin-fvg

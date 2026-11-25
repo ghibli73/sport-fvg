@@ -25,18 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-u13-ud-b-63e88b99@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261028T184500
-DTEND;TZID=Europe/Rome:20261028T204500
-SUMMARY:P.A.F. 52-70 GEMONA BASKET (Under 13 Maschile — girone UD B)
-LOCATION:Palestra Scolastica\, Povoletto
-DESCRIPTION:Under 13 Maschile — girone UD B\n1ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
- et-u13-ud-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u17-regionale-ud-bed9c5c8@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261028T190000
@@ -50,8 +38,20 @@ DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n2ª gio
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u13-ud-b-63e88b99@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261029T184500
+DTEND;TZID=Europe/Rome:20261029T204500
+SUMMARY:P.A.F. 52-70 GEMONA BASKET (Under 13 Maschile — girone UD B)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Under 13 Maschile — girone UD B\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-dr2-ud-bb13dafe@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261030T210000
 DTEND;TZID=Europe/Rome:20261030T230000
 SUMMARY:P.A.F. 70-84 Pall. Laipacco (Divisione Regionale 2 — girone UD)
@@ -63,7 +63,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr2-ud-1b324b36@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261106T204500
 DTEND;TZID=Europe/Rome:20261106T224500
 SUMMARY:Collinare Basket 74-67 P.A.F. (Divisione Regionale 2 — girone UD)
@@ -113,7 +113,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr2-ud-c90b809f@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261114T203000
 DTEND;TZID=Europe/Rome:20261114T223000
 SUMMARY:P.A.F. 95-66 Pol. Libertas Cussignacco (Divisione Regionale 2 — g
@@ -135,5 +135,28 @@ DESCRIPTION:Under 13 Maschile — girone UD B\n3ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
  et-u13-ud-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-1c070f0e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261119T180000
+DTEND;TZID=Europe/Rome:20261119T200000
+SUMMARY:C.U.S. Udine 80-70 P.A.F. (Divisione Regionale 2 — girone UD)
+LOCATION:Palazzetto 'Angelo G. Giumanin'\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-02ddc8df@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T204500
+DTEND;TZID=Europe/Rome:20261128T224500
+SUMMARY:P.A.F. – Longobardi (Divisione Regionale 2 — girone UD)
+DESCRIPTION:Divisione Regionale 2 — girone UD\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
 END:VEVENT
 END:VCALENDAR

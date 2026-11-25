@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:basket-dr1-est-5f820bbb@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261030T200000
 DTEND;TZID=Europe/Rome:20261030T220000
 SUMMARY:U.S.D. Dom 51-80 San Vito Trieste (Divisione Regionale 1 — girone
@@ -52,7 +52,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-ef87d98f@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261106T210000
 DTEND;TZID=Europe/Rome:20261106T230000
 SUMMARY:San Vito Trieste 64-66 Geatti Idraulica ed Edilizia (Divisione Regi
@@ -78,7 +78,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-93c69bcf@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261114T200000
 DTEND;TZID=Europe/Rome:20261114T220000
 SUMMARY:U.S. Alba 56-65 San Vito Trieste (Divisione Regionale 1 — girone 
@@ -103,6 +103,19 @@ DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n3
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr1-est-3a9e5b5f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T211500
+DTEND;TZID=Europe/Rome:20261120T231500
+SUMMARY:Insureteach SRL Azzurra 68-81 San Vito Trieste (Divisione Regionale
+  1 — girone Est)
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n8ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u13-go-ts-b-d780f062@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261125T181500
@@ -114,5 +127,18 @@ DESCRIPTION:Under 13 Maschile — girone GO/TS B\n4ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u13-go-ts-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-6505cd24@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T210000
+DTEND;TZID=Europe/Rome:20261127T230000
+SUMMARY:San Vito Trieste – Credifriuli Cervignano (Divisione Regionale 1 
+ — girone Est)
+LOCATION:Palazzetto 'Atleti Azzurri'\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n9ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
 END:VEVENT
 END:VCALENDAR

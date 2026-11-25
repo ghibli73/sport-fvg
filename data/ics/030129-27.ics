@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:basket-dr2-ud-efcf3bc0@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261028T210000
 DTEND;TZID=Europe/Rome:20261028T230000
 SUMMARY:Olympia Rivignano 66-37 Pol. Libertas Cussignacco (Divisione Region
@@ -78,7 +78,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-4567b2c5@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261102T204500
 DTEND;TZID=Europe/Rome:20261102T224500
 SUMMARY:ZIO PINO BASKIN UDINE 63-52 POL. LIBERTAS CUSSIGNACCO 'B' (Division
@@ -91,7 +91,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr2-ud-5f5fe336@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261106T213000
 DTEND;TZID=Europe/Rome:20261106T233000
 SUMMARY:Pol. Libertas Cussignacco 110-47 Longobardi (Divisione Regionale 2 
@@ -130,7 +130,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-e722f692@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261110T210000
 DTEND;TZID=Europe/Rome:20261110T230000
 SUMMARY:CSI TARCENTO 75-62 POL. LIBERTAS CUSSIGNACCO 'B' (Divisione Regiona
@@ -156,7 +156,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-f0ec6699@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261114T173000
 DTEND;TZID=Europe/Rome:20261114T193000
 SUMMARY:POL. LIBERTAS CUSSIGNACCO 'B' 41-53 MAJANESE 'B' (Divisione Regiona
@@ -169,7 +169,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr2-ud-c90b809f@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261114T203000
 DTEND;TZID=Europe/Rome:20261114T223000
 SUMMARY:P.A.F. 95-66 Pol. Libertas Cussignacco (Divisione Regionale 2 — g
@@ -205,5 +205,44 @@ DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n3ª giornata\n
  Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
  rt-fvg/#g-basket-u14-regionale-go-ts-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-018417a1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261118T210000
+DTEND;TZID=Europe/Rome:20261118T230000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO 'B' 52-62 POL. DIL. TRICESIMO 'C' (Divisi
+ one Regionale 3 — girone UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Divisione Regionale 3 — girone UD\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-56ba901c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T213000
+DTEND;TZID=Europe/Rome:20261120T233000
+SUMMARY:Pol. Libertas Cussignacco 65-73 Collinare Basket (Divisione Regiona
+ le 2 — girone UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-66411631@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T200000
+DTEND;TZID=Europe/Rome:20261128T220000
+SUMMARY:Basket Perteole – Pol. Libertas Cussignacco (Divisione Regionale 
+ 2 — girone UD)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Divisione Regionale 2 — girone UD\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
 END:VEVENT
 END:VCALENDAR

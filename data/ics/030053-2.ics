@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:basket-dr3-ud-143778bc@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261028T204500
 DTEND;TZID=Europe/Rome:20261028T224500
 SUMMARY:ZIO PINO BASKIN UDINE 61-36 MAJANESE 'B' (Divisione Regionale 3 —
@@ -39,7 +39,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-ovest-af1ea964@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261030T210000
 DTEND;TZID=Europe/Rome:20261030T230000
 SUMMARY:Errebi Majano 66-71 Libertas Fiume Veneto (Divisione Regionale 1 
@@ -65,7 +65,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-a9b2dc8a@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261101T180000
 DTEND;TZID=Europe/Rome:20261101T200000
 SUMMARY:MAJANESE 'B' 47-52 MONTGOMERY HAMBURGER HOUSE 'B' (Divisione Region
@@ -104,7 +104,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-5ded579c@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261106T203000
 DTEND;TZID=Europe/Rome:20261106T223000
 SUMMARY:MAJANESE 'B' 51-59 POL. DIL. TRICESIMO 'B' (Divisione Regionale 3 
@@ -117,7 +117,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-ovest-4740747e@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261106T204500
 DTEND;TZID=Europe/Rome:20261106T224500
 SUMMARY:Torre Basket 76-89 Errebi Majano (Divisione Regionale 1 — girone 
@@ -156,7 +156,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-ovest-b6fd010c@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261113T210000
 DTEND;TZID=Europe/Rome:20261113T230000
 SUMMARY:Errebi Majano 78-64 C.T.S. (Divisione Regionale 1 — girone Ovest)
@@ -181,7 +181,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-f0ec6699@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261114T173000
 DTEND;TZID=Europe/Rome:20261114T193000
 SUMMARY:POL. LIBERTAS CUSSIGNACCO 'B' 41-53 MAJANESE 'B' (Divisione Regiona
@@ -219,6 +219,19 @@ DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n3ª gio
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr1-ovest-8bfd9fb0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T210000
+DTEND;TZID=Europe/Rome:20261120T230000
+SUMMARY:Errebi Majano 90-92 Pol. Lib. Pasian di Prato (Divisione Regionale 
+ 1 — girone Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u19-regionale-ud-109357e2@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261125T190000
@@ -230,5 +243,18 @@ DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n4ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u19-regionale-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-80cb887e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T200000
+DTEND;TZID=Europe/Rome:20261128T220000
+SUMMARY:Gemona Basket – Errebi Majano (Divisione Regionale 1 — girone O
+ vest)
+LOCATION:Palestra Ipsia\, Gemona Del Friuli
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
 END:VEVENT
 END:VCALENDAR

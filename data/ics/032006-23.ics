@@ -25,19 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-u15-femminile-983ee87a@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261101T153000
-DTEND;TZID=Europe/Rome:20261101T173000
-SUMMARY:Futurosa Basket Trieste 54-61 Polisportiva Concordia (Under 15 Femm
- inile — girone unico)
-LOCATION:Pal. 'Don Milani'\, Trieste
-DESCRIPTION:Under 15 Femminile — girone unico\n3ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-u15-femminile
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u17-femminile-3367631b@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261103T193000
@@ -49,6 +36,19 @@ DESCRIPTION:Under 17 Femminile — girone unico\n3ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-u17-femminile
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-983ee87a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T153000
+DTEND;TZID=Europe/Rome:20261104T173000
+SUMMARY:Futurosa Basket Trieste 54-61 Polisportiva Concordia (Under 15 Femm
+ inile — girone unico)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-femminile-a-b9d5788b@zuin-fvg

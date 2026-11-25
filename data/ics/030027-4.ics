@@ -51,19 +51,6 @@ DESCRIPTION:Under 13 Maschile — girone UD A\n1ª giornata\nDati non uffic
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-ud-a-8ee2b14a@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261031T160000
-DTEND;TZID=Europe/Rome:20261031T180000
-SUMMARY:SPORT SYSTEM 25-96 PALL. CODROIPESE '2015' (Under 13 Maschile — g
- irone UD A)
-LOCATION:Palestra Comunale\, Mortegliano
-DESCRIPTION:Under 13 Maschile — girone UD A\n1ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
- et-u13-ud-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u14-regionale-pn-ud-ff64ba8e@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261031T160000
@@ -78,7 +65,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-ovest-c3ed06bc@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261031T180000
 DTEND;TZID=Europe/Rome:20261031T200000
 SUMMARY:C.T.S. 73-76 Torre Basket (Divisione Regionale 1 — girone Ovest)
@@ -129,7 +116,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-a9b2dc8a@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261101T180000
 DTEND;TZID=Europe/Rome:20261101T200000
 SUMMARY:MAJANESE 'B' 47-52 MONTGOMERY HAMBURGER HOUSE 'B' (Divisione Region
@@ -152,6 +139,19 @@ DESCRIPTION:Under 19 Maschile Gold — girone A\n5ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-u19-gold-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-8ee2b14a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T160000
+DTEND;TZID=Europe/Rome:20261104T180000
+SUMMARY:SPORT SYSTEM 25-96 PALL. CODROIPESE '2015' (Under 13 Maschile — g
+ irone UD A)
+LOCATION:Palestra Comunale\, Mortegliano
+DESCRIPTION:Under 13 Maschile — girone UD A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-regionale-ud-a93c51fb@zuin-fvg
@@ -181,7 +181,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-ovest-eb441172@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261106T210000
 DTEND;TZID=Europe/Rome:20261106T230000
 SUMMARY:BCC Pordenonese e Monsile 75-59 C.T.S. (Divisione Regionale 1 — g
@@ -272,7 +272,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-2207e9b9@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261109T193000
 DTEND;TZID=Europe/Rome:20261109T213000
 SUMMARY:POL. DIL. TRICESIMO 'C' 56-65 MONTGOMERY HAMBURGER HOUSE 'B' (Divis
@@ -298,7 +298,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-ovest-b6fd010c@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261113T210000
 DTEND;TZID=Europe/Rome:20261113T230000
 SUMMARY:Errebi Majano 78-64 C.T.S. (Divisione Regionale 1 — girone Ovest)
@@ -349,7 +349,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-59c7ed1e@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261115T180000
 DTEND;TZID=Europe/Rome:20261115T200000
 SUMMARY:MONTGOMERY HAMBURGER HOUSE 'B' 64-60 LIBERTAS GONARS 'B' (Divisione
@@ -387,6 +387,31 @@ DESCRIPTION:Under 13 Maschile — girone UD A\n3ª giornata\nDati non uffic
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr3-ud-dbe2280a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T210000
+DTEND;TZID=Europe/Rome:20261120T230000
+SUMMARY:MONTGOMERY HAMBURGER HOUSE 'B' 76-55 CSI TARCENTO (Divisione Region
+ ale 3 — girone UD)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-6a37a670@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261122T180000
+DTEND;TZID=Europe/Rome:20261122T200000
+SUMMARY:C.T.S. 81-78 Gemona Basket (Divisione Regionale 1 — girone Ovest)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u19-gold-a-e429237f@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261125T190000
@@ -398,5 +423,31 @@ DESCRIPTION:Under 19 Maschile Gold — girone A\n8ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-u19-gold-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-efe7e557@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261126T204500
+DTEND;TZID=Europe/Rome:20261126T224500
+SUMMARY:PALL. TOLMEZZO – MONTGOMERY HAMBURGER HOUSE 'B' (Divisione Region
+ ale 3 — girone UD)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-534c110a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T194500
+DTEND;TZID=Europe/Rome:20261128T214500
+SUMMARY:Feletto Basketball Academy – C.T.S. (Divisione Regionale 1 — gi
+ rone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
 END:VEVENT
 END:VCALENDAR

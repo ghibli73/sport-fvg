@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:basket-dr1-est-5f820bbb@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261030T200000
 DTEND;TZID=Europe/Rome:20261030T220000
 SUMMARY:U.S.D. Dom 51-80 San Vito Trieste (Divisione Regionale 1 — girone
@@ -52,7 +52,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-3a2a5481@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261107T180000
 DTEND;TZID=Europe/Rome:20261107T200000
 SUMMARY:S.S. SD Kontovel 82-60 U.S.D. Dom (Divisione Regionale 1 — girone
@@ -91,7 +91,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-5d97d8ea@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261115T200000
 DTEND;TZID=Europe/Rome:20261115T220000
 SUMMARY:U.S.D. Dom 78-86 Metamorfosi Gradisca (Divisione Regionale 1 — gi
@@ -114,5 +114,31 @@ DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n6ª giorn
  ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
  o/sport-fvg/#g-basket-u17-gold-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-3cbcf703@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T211500
+DTEND;TZID=Europe/Rome:20261120T231500
+SUMMARY:Santos Basket Trieste 80-71 U.S.D. Dom (Divisione Regionale 1 — g
+ irone Est)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n8ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-cd0b07e6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T200000
+DTEND;TZID=Europe/Rome:20261127T220000
+SUMMARY:U.S.D. Dom – Insureteach SRL Azzurra (Divisione Regionale 1 — g
+ irone Est)
+LOCATION:Kulturni Dom\, Gorizia
+DESCRIPTION:Divisione Regionale 1 — girone Est\n9ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
 END:VEVENT
 END:VCALENDAR

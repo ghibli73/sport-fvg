@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:basket-dr3-ud-1be47d86@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261026T193000
 DTEND;TZID=Europe/Rome:20261026T213000
 SUMMARY:POL. DIL. TRICESIMO 'C' 71-77 LIBERTAS GONARS 'B' (Divisione Region
@@ -64,7 +64,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-b2682c39@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261101T180000
 DTEND;TZID=Europe/Rome:20261101T200000
 SUMMARY:Libertas Gonars 82-64 Metamorfosi Gradisca (Divisione Regionale 1 
@@ -116,7 +116,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-6566b4d4@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261105T210000
 DTEND;TZID=Europe/Rome:20261105T230000
 SUMMARY:LIBERTAS GONARS 'B' 74-69 CSI TARCENTO (Divisione Regionale 3 — g
@@ -141,7 +141,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-56077eb7@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261107T180000
 DTEND;TZID=Europe/Rome:20261107T200000
 SUMMARY:Servolana 79-66 Libertas Gonars (Divisione Regionale 1 — girone E
@@ -205,7 +205,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-939af1c7@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261112T210000
 DTEND;TZID=Europe/Rome:20261112T230000
 SUMMARY:LIBERTAS GONARS 'B' 72-65 SPORT SYSTEM (Divisione Regionale 3 — g
@@ -256,7 +256,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-8e4a0590@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261115T180000
 DTEND;TZID=Europe/Rome:20261115T200000
 SUMMARY:Libertas Gonars 56-68 S.S. SD Kontovel (Divisione Regionale 1 — g
@@ -269,7 +269,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-59c7ed1e@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261115T180000
 DTEND;TZID=Europe/Rome:20261115T200000
 SUMMARY:MONTGOMERY HAMBURGER HOUSE 'B' 64-60 LIBERTAS GONARS 'B' (Divisione
@@ -293,6 +293,19 @@ DESCRIPTION:Under 15 Maschile Regionale — girone UD\n4ª giornata\nDati n
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr1-est-40303081@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261121T193000
+DTEND;TZID=Europe/Rome:20261121T213000
+SUMMARY:Credifriuli Cervignano 73-86 Libertas Gonars (Divisione Regionale 1
+  — girone Est)
+LOCATION:Palasport\, Cervignano del Friuli
+DESCRIPTION:Divisione Regionale 1 — girone Est\n8ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u19-regionale-ud-109357e2@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261125T190000
@@ -306,8 +319,21 @@ DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n4ª gio
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr1-est-d909505a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:Libertas Gonars – Santos Basket Trieste (Divisione Regionale 1 
+ — girone Est)
+LOCATION:Palazzetto Dello Sport\, Gonars
+DESCRIPTION:Divisione Regionale 1 — girone Est\n9ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-dr3-ud-78965c76@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20270111T211500
 DTEND;TZID=Europe/Rome:20270111T231500
 SUMMARY:POL. DIL. TRICESIMO 'B' – LIBERTAS GONARS 'B' (Divisione Regional

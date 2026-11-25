@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:basket-dr2-pn-0761fca7@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261030T203000
 DTEND;TZID=Europe/Rome:20261030T223000
 SUMMARY:Nordcaravan 82-54 Nuova Pallacanestro Sanvitese (Divisione Regional
@@ -40,8 +40,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-regionale-pn-f2db11f6@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261031T183000
-DTEND;TZID=Europe/Rome:20261031T203000
+DTSTART;TZID=Europe/Rome:20261104T183000
+DTEND;TZID=Europe/Rome:20261104T203000
 SUMMARY:BVO ANNONE 67-49 NUOVA PALLACANESTRO SANVITESE (Under 17 Maschile R
  egionale — girone PN (prima fase))
 LOCATION:Palazzetto dello Sport\, Annone Veneto
@@ -52,7 +52,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr2-pn-3d9b6055@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261106T203000
 DTEND;TZID=Europe/Rome:20261106T223000
 SUMMARY:Nuova Pallacanestro Sanvitese 64-69 Pallacanestro Fossaltese (Divis
@@ -78,7 +78,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-c
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr2-pn-7cc0237b@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261112T210000
 DTEND;TZID=Europe/Rome:20261112T230000
 SUMMARY:A.P.C. Chions 68-57 Nuova Pallacanestro Sanvitese (Divisione Region
@@ -101,5 +101,18 @@ DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n4ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u17-regionale-pn
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-425590e4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261203T210000
+DTEND;TZID=Europe/Rome:20261203T230000
+SUMMARY:Virtus PN – Nuova Pallacanestro Sanvitese (Divisione Regionale 2 
+ — girone PN)
+LOCATION:Palasport "Crisafulli"\, Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
 END:VEVENT
 END:VCALENDAR

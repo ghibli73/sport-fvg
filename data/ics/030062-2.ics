@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:basket-dr3-ud-2a7f32e3@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261027T210000
 DTEND;TZID=Europe/Rome:20261027T230000
 SUMMARY:CSI TARCENTO 54-48 SPORT SYSTEM (Divisione Regionale 3 — girone U
@@ -38,21 +38,8 @@ DESCRIPTION:Divisione Regionale 3 — girone UD\n2ª giornata\nDati non uff
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-ud-a-8ee2b14a@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261031T160000
-DTEND;TZID=Europe/Rome:20261031T180000
-SUMMARY:SPORT SYSTEM 25-96 PALL. CODROIPESE '2015' (Under 13 Maschile — g
- irone UD A)
-LOCATION:Palestra Comunale\, Mortegliano
-DESCRIPTION:Under 13 Maschile — girone UD A\n1ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
- et-u13-ud-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-dr3-ud-9c1c4264@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261102T203000
 DTEND;TZID=Europe/Rome:20261102T223000
 SUMMARY:SPORT SYSTEM 64-56 POL. DLF DI UDINE (Divisione Regionale 3 — gir
@@ -62,6 +49,19 @@ DESCRIPTION:Divisione Regionale 3 — girone UD\n3ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-dr3-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-8ee2b14a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T160000
+DTEND;TZID=Europe/Rome:20261104T180000
+SUMMARY:SPORT SYSTEM 25-96 PALL. CODROIPESE '2015' (Under 13 Maschile — g
+ irone UD A)
+LOCATION:Palestra Comunale\, Mortegliano
+DESCRIPTION:Under 13 Maschile — girone UD A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-ud-a-ba26f4cd@zuin-fvg
@@ -78,13 +78,26 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-939af1c7@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261112T210000
 DTEND;TZID=Europe/Rome:20261112T230000
 SUMMARY:LIBERTAS GONARS 'B' 72-65 SPORT SYSTEM (Divisione Regionale 3 — g
  irone UD)
 LOCATION:Palestra Comunale\, Santa Maria la Longa
 DESCRIPTION:Divisione Regionale 3 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-aaef828a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261118T204500
+DTEND;TZID=Europe/Rome:20261118T224500
+SUMMARY:SPORT SYSTEM 53-59 PALL. TOLMEZZO (Divisione Regionale 3 — girone
+  UD)
+LOCATION:Palestra Comunale\, Mortegliano
+DESCRIPTION:Divisione Regionale 3 — girone UD\n6ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-dr3-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud

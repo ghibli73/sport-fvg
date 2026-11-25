@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:basket-dr3-go-ts-5b1b05d4@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261030T211500
 DTEND;TZID=Europe/Rome:20261030T231500
 SUMMARY:BASKET 4 TRIESTE 79-46 OLIMPIA GORIZIA (Divisione Regionale 3 — g
@@ -65,7 +65,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-go-ts-976a2482@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261106T211500
 DTEND;TZID=Europe/Rome:20261106T231500
 SUMMARY:BASKET 4 TRIESTE 82-60 LIBERTAS TRIESTE (Divisione Regionale 3 — 
@@ -104,7 +104,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-go-ts-3a550dd3@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261113T210000
 DTEND;TZID=Europe/Rome:20261113T230000
 SUMMARY:OLD STARS 69-81 BASKET 4 TRIESTE (Divisione Regionale 3 — girone 
@@ -127,5 +127,18 @@ DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n4ª
  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
  hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-1352f1cf@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T211500
+DTEND;TZID=Europe/Rome:20261120T231500
+SUMMARY:BASKET 4 TRIESTE 106-49 US ALBA PALLACANESTRO 'B' (Divisione Region
+ ale 3 — girone GO/TS)
+LOCATION:Pal. Liceo "G. Oberdan"\, Trieste
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
 END:VEVENT
 END:VCALENDAR

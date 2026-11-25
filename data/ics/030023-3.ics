@@ -39,7 +39,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-bdde1f07@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261030T210000
 DTEND;TZID=Europe/Rome:20261030T230000
 SUMMARY:Credifriuli Cervignano 73-77 S.S. SD Kontovel (Divisione Regionale 
@@ -104,7 +104,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-21d1ff4b@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261106T211500
 DTEND;TZID=Europe/Rome:20261106T231500
 SUMMARY:Santos Basket Trieste 72-100 Credifriuli Cervignano (Divisione Regi
@@ -217,19 +217,6 @@ DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n3ª giornata\n
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u17-regionale-go-ts-82d0782e@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261114T200000
-DTEND;TZID=Europe/Rome:20261114T220000
-SUMMARY:U.S.D. DON BOSCO 0-0 BASKET CERVIGNANESE (Under 17 Maschile Regiona
- le — girone GO/TS (prima fase))
-LOCATION:Pal. Oratorio Don Bosco\, Trieste
-DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n4ª 
- giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
- hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u19-regionale-go-ts-ud-58b12155@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261117T191500
@@ -256,6 +243,19 @@ DESCRIPTION:Under 19 Maschile Gold — girone A\n7ª giornata\nDati non uff
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr1-est-40303081@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261121T193000
+DTEND;TZID=Europe/Rome:20261121T213000
+SUMMARY:Credifriuli Cervignano 73-86 Libertas Gonars (Divisione Regionale 1
+  — girone Est)
+LOCATION:Palasport\, Cervignano del Friuli
+DESCRIPTION:Divisione Regionale 1 — girone Est\n8ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u19-regionale-go-ts-ud-d7cc7a8c@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261125T194500
@@ -267,5 +267,18 @@ DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n4
  ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
  github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-6505cd24@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T210000
+DTEND;TZID=Europe/Rome:20261127T230000
+SUMMARY:San Vito Trieste – Credifriuli Cervignano (Divisione Regionale 1 
+ — girone Est)
+LOCATION:Palazzetto 'Atleti Azzurri'\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n9ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
 END:VEVENT
 END:VCALENDAR

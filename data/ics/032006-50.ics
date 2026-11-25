@@ -40,8 +40,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-gold-go-ts-8ee7d528@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261028T193000
-DTEND;TZID=Europe/Rome:20261028T213000
+DTSTART;TZID=Europe/Rome:20261029T193000
+DTEND;TZID=Europe/Rome:20261029T213000
 SUMMARY:Basketrieste 66-87 Basket Gradisca (Under 17 Maschile Gold — giro
  ne GO/TS (prima fase))
 LOCATION:Palarubini Allianz Dome\, Trieste
@@ -52,7 +52,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-serie-c-girone-d-4f1b182a@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261030T203000
 DTEND;TZID=Europe/Rome:20261030T223000
 SUMMARY:BASKETRIESTE 56-76 UEB Cividale B (Serie C maschile — girone D (p
@@ -104,7 +104,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-serie-c-girone-d-1e9f3af3@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261107T190000
 DTEND;TZID=Europe/Rome:20261107T210000
 SUMMARY:CENTRO SEDIA BASKET 88-79 BASKETRIESTE (Serie C maschile — girone
@@ -143,7 +143,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-serie-c-girone-d-3e9d5b34@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261113T203000
 DTEND;TZID=Europe/Rome:20261113T223000
 SUMMARY:BASKETRIESTE 72-81 COLLINARE BASKET (Serie C maschile — girone D 
@@ -205,5 +205,18 @@ DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n5ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-gold-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-eff92a1b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T203000
+DTEND;TZID=Europe/Rome:20261127T223000
+SUMMARY:BASKETRIESTE – G.S. VALLENONCELLO (Serie C maschile — girone D 
+ (prima fase))
+LOCATION:Palarubini\, Trieste
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
 END:VEVENT
 END:VCALENDAR

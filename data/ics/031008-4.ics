@@ -27,8 +27,8 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:basket-u17-gold-go-ts-8ee7d528@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261028T193000
-DTEND;TZID=Europe/Rome:20261028T213000
+DTSTART;TZID=Europe/Rome:20261029T193000
+DTEND;TZID=Europe/Rome:20261029T213000
 SUMMARY:Basketrieste 66-87 Basket Gradisca (Under 17 Maschile Gold — giro
  ne GO/TS (prima fase))
 LOCATION:Palarubini Allianz Dome\, Trieste
@@ -65,7 +65,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-b2682c39@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261101T180000
 DTEND;TZID=Europe/Rome:20261101T200000
 SUMMARY:Libertas Gonars 82-64 Metamorfosi Gradisca (Divisione Regionale 1 
@@ -91,7 +91,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-fab81845@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261107T193000
 DTEND;TZID=Europe/Rome:20261107T213000
 SUMMARY:Metamorfosi Gradisca 79-61 Pall. Interclub Muggia (Divisione Region
@@ -130,7 +130,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-5d97d8ea@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261115T200000
 DTEND;TZID=Europe/Rome:20261115T220000
 SUMMARY:U.S.D. Dom 78-86 Metamorfosi Gradisca (Divisione Regionale 1 — gi
@@ -153,5 +153,31 @@ DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n6ª giorn
  ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
  o/sport-fvg/#g-basket-u17-gold-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-6c07f66b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261121T193000
+DTEND;TZID=Europe/Rome:20261121T213000
+SUMMARY:Metamorfosi Gradisca 71-64 U.S. Alba (Divisione Regionale 1 — gir
+ one Est)
+LOCATION:Pal. Ciro Zimolo\, Gradisca d'Isonzo
+DESCRIPTION:Divisione Regionale 1 — girone Est\n8ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-f2ff4a39@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T210000
+DTEND;TZID=Europe/Rome:20261127T230000
+SUMMARY:Geatti Idraulica ed Edilizia – Metamorfosi Gradisca (Divisione Re
+ gionale 1 — girone Est)
+LOCATION:Pal. ''M. Vecchiatto''\, Udine
+DESCRIPTION:Divisione Regionale 1 — girone Est\n9ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
 END:VEVENT
 END:VCALENDAR

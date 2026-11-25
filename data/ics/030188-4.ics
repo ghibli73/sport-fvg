@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:basket-dr2-ud-efcf3bc0@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261028T210000
 DTEND;TZID=Europe/Rome:20261028T230000
 SUMMARY:Olympia Rivignano 66-37 Pol. Libertas Cussignacco (Divisione Region
@@ -129,7 +129,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr2-ud-aebf13cc@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261107T200000
 DTEND;TZID=Europe/Rome:20261107T220000
 SUMMARY:Basket Perteole 68-72 Olympia Rivignano (Divisione Regionale 2 — 
@@ -180,7 +180,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr2-ud-6b1ffb07@zuin-fvg
-DTSTAMP:20261118T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261113T203000
 DTEND;TZID=Europe/Rome:20261113T223000
 SUMMARY:Longobardi 66-59 Olympia Rivignano (Divisione Regionale 2 — giron
@@ -242,5 +242,31 @@ DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n4ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u17-regionale-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-679a29e2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261121T183000
+DTEND;TZID=Europe/Rome:20261121T203000
+SUMMARY:Olympia Rivignano 80-72 Pall. Laipacco (Divisione Regionale 2 — g
+ irone UD)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Divisione Regionale 2 — girone UD\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-b0e38c27@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T204500
+DTEND;TZID=Europe/Rome:20261127T224500
+SUMMARY:Collinare Basket – Olympia Rivignano (Divisione Regionale 2 — g
+ irone UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Divisione Regionale 2 — girone UD\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
 END:VEVENT
 END:VCALENDAR
