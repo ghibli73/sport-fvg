@@ -12,6 +12,7 @@ Uso: python scripts/basket.py [--tutto] [--solo <slug>] [--prova]
 """
 import io, json, os, re, sys, time, glob, datetime as dt
 import requests
+from abbinamenti import applica_comuni  # scripts/abbinamenti.py
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CFG_DIR = os.path.join(ROOT, "config", "basket")
@@ -349,6 +350,7 @@ def main():
             data[by[g["gid"]]] = g
         else:
             data.append(g)
+    applica_comuni(data)  # comune delle squadre senza id (config/squadre_comune.json)
     json.dump(data, open(RIS, "w"), ensure_ascii=False, separators=(",", ":"))
     json.dump(stato, open(STATO, "w"), ensure_ascii=False, indent=0)
     print(f"gironi aggiornati da nuove omologazioni: {len(aggiornate)} su {len(specs)}")

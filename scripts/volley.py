@@ -13,6 +13,7 @@ Uso:  python scripts/volley.py            (aggiorna data/risultati.json)
 """
 import json, os, re, sys, time, datetime as dt
 import requests
+from abbinamenti import applica_comuni  # scripts/abbinamenti.py
 from bs4 import BeautifulSoup
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -231,6 +232,7 @@ def main():
         if not esito.startswith("ok"):
             errori += 1
         print(f"{cfg['slug']}: {esito}")
+    applica_comuni(data)  # comune delle squadre senza id (config/squadre_comune.json)
     json.dump(data, open(RIS, "w"), ensure_ascii=False, separators=(",", ":"))
     print(f"gironi con problemi: {errori} su {len(cfgs)}")
     # il workflow fallisce solo se non è stato letto quasi nulla (probabile cambio del portale)

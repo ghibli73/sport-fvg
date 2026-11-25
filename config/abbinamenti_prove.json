@@ -1,0 +1,291 @@
+[
+ {
+  "nome": "COLLI VOLLEY",
+  "sport": "pallavolo",
+  "id": "030127-3",
+  "prova": "Filtro Società SId=2560 del portale FIPAV Udine = 'VOLLEY TEAM 87': nella settimana 16-22/11/2026 elenca solo le gare 32 (Muzzana-Colli Volley) e 38 (Martignacco-Colli Volley) di Prima Divisione F; Colli Volley gioca in casa al Palasport di Tricesimo, comune di Volley Team 87. Con SId=2556 (CSI Tarcento) Colli Volley NON compare.",
+  "fonte": "https://udine.federvolley.it/risultati-classifiche.aspx?DataDa=16%2f11%2f2026&StatoGara=&CId=&SId=2560&PId=15544&btFiltro=CERCA",
+  "gironi": [
+   "pallavolo-prima-divisione-femminile-ud"
+  ]
+ },
+ {
+  "nome": "TALMASTELLA PINK",
+  "sport": "pallavolo",
+  "id": "030188-3",
+  "prova": "Filtro Società SId=2548 'STELLA VOLLEY A.S.D.' (portale FIPAV Udine, settimana 16-22/11/2026) elenca la gara U17 F gir. A Talmastella Pink-ASFJR 1971 (Talmassons); con SId=2555 (Volley Talmassons) la squadra non compare.",
+  "fonte": "https://udine.federvolley.it/risultati-classifiche.aspx?DataDa=16%2f11%2f2026&StatoGara=&CId=&SId=2548&PId=15544&btFiltro=CERCA",
+  "gironi": [
+   "pallavolo-under-17-femminile-ud-girone-a"
+  ]
+ },
+ {
+  "nome": "ST. DENTISTICO CIAN*",
+  "sport": "pallavolo",
+  "id": "030016-3",
+  "prova": "Filtro Società SId=2517 'PAV BRESSA A.S.D.' (portale FIPAV Udine, settimana 16-22/11/2026) elenca la gara U13 F gir. C 13090 St. Dentistico Cian*-Blu Team, palestra comunale di Campoformido (comune di PAV Bressa).",
+  "fonte": "https://udine.federvolley.it/risultati-classifiche.aspx?DataDa=16%2f11%2f2026&StatoGara=&CId=&SId=2517&PId=15544&btFiltro=CERCA",
+  "gironi": [
+   "pallavolo-under-13-femminile-ud-girone-c"
+  ]
+ },
+ {
+  "nome": "FUTURA-LIBERTAS",
+  "sport": "pallavolo",
+  "id": "030070-5",
+  "prova": "Filtro Società SId=2536 'FUTURA PALMANOVA A.S.D.' (portale FIPAV Udine, settimana 09-15/11/2026) elenca la gara U14 F gir. A Futura-Libertas-Project Volley Olimpia al Palazzetto di Palmanova; la stessa squadra U15 ha l'ID logo 2536.",
+  "fonte": "https://udine.federvolley.it/risultati-classifiche.aspx?DataDa=09%2f11%2f2026&StatoGara=&CId=&SId=2536&PId=15544&btFiltro=CERCA",
+  "gironi": [
+   "pallavolo-under-14-femminile-ud-girone-a"
+  ]
+ },
+ {
+  "nome": "APC LIFETIME CENTER CINTO",
+  "sport": "pallavolo",
+  "id": "093013-5",
+  "prova": "ID logo FIPAV 2459 nella classifica 1ª Div F PN (CId 93614); nel menu Società del portale FIPAV Pordenone il valore 2459 = 'A.P.D. COMUNALE CHIONS'. La squadra gioca a Cinto Caomaggiore (VE) ma è iscritta dalla società di Chions.",
+  "fonte": "https://pordenone.portalefipav.net/classifica.aspx?CId=93614 ; pipeline/patch/volley-squadre/_gironi.tsv (classifiche FIPAV al 24/11/2026 con ID logo) + menu Società del portale FIPAV (SId = ID logo)",
+  "gironi": [
+   "pallavolo-prima-divisione-femminile-pn"
+  ]
+ },
+ {
+  "nome": "Fly Solartech Icarus",
+  "sport": "basket",
+  "id": "030099-2",
+  "prova": "Fly Solartech Icarus è il nome della squadra di Serie C di Pol. Libertas Acli San Daniele (abbinamento certo per numero gara, pipeline/agenti/basket.md) e la U19 Gold gioca in casa al Pal. Falcone Borsellino di San Daniele, impianto della società in data.json.",
+  "fonte": "pipeline/agenti/basket.md; calendario FIP CU-025 U19 Gold girone B",
+  "gironi": [
+   "basket-u19-gold-b"
+  ]
+ },
+ {
+  "nome": "BCC Pordenonese e Monsile",
+  "sport": "basket",
+  "id": "093005-6",
+  "prova": "In DR1 Ovest gioca al Palazzetto 'Matteo Molent' di Azzano Decimo, impianto di Azzano Basket in data.json; data.json indica Azzano Basket iscritta in DR1 girone Ovest 2026/27 e nessun'altra squadra del girone ha quell'id.",
+  "fonte": "calendario FIP CU-013 DR1 girone Ovest; data/data.json",
+  "gironi": [
+   "basket-dr1-ovest"
+  ]
+ },
+ {
+  "nome": "CHIAVRIS",
+  "sport": "calcio",
+  "id": "030129-10",
+  "prova": "Nome nei Comunicati LND = 'G.S. Chiavris' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "S.GOTTARDO",
+  "sport": "calcio",
+  "id": "030129-5",
+  "prova": "Nome nei Comunicati LND = 'A.S. S. Gottardo' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "REANESE",
+  "sport": "calcio",
+  "id": "030090-1",
+  "prova": "Nome nei Comunicati LND = 'U.P. Reanese' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "MAGNANO IN RIVIERA",
+  "sport": "calcio",
+  "id": "030052-2",
+  "prova": "Nome nei Comunicati LND = 'A.S.D. Magnano (Magnano in Riviera)' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "CJARLINS MUZANE",
+  "sport": "calcio",
+  "id": "030018-1",
+  "prova": "Nome nei Comunicati LND = 'S.S.D. a r.l. Cjarlins Muzane' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "UDINE UNITED RIZZI CORMOR",
+  "sport": "calcio",
+  "id": "030129-6",
+  "prova": "Nome nei Comunicati LND = 'ASRD Udine United Rizzi Cormor' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "ZARJA A.S.D.",
+  "sport": "calcio",
+  "id": "032006-12",
+  "prova": "Nome nei Comunicati LND = 'C.D.S. Zarja A.S.D.' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "MORARO",
+  "sport": "calcio",
+  "id": "031013-1",
+  "prova": "Nome nei Comunicati LND = 'F.C. Moraro' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "PRIMORJE 1924",
+  "sport": "calcio",
+  "id": "032006-15",
+  "prova": "Nome nei Comunicati LND = 'ASD FC Primorje 1924' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "TRIESTE VICTORY ACADESQ.B",
+  "sport": "calcio",
+  "id": "032006-4",
+  "prova": "Nome nei Comunicati LND = 'A.S.D. Trieste Victory Academy (squadra B)' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "CORMONESE",
+  "sport": "calcio",
+  "id": "031002-1",
+  "prova": "Nome nei Comunicati LND = 'A.C.D. Cormonese' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "VALNATISONE CALCIO",
+  "sport": "calcio",
+  "id": "030103-1",
+  "prova": "Nome nei Comunicati LND = 'U.S.D. Valnatisone' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "ATLAS FOOTBALL ACCADEMY S",
+  "sport": "calcio",
+  "id": "031017-1",
+  "prova": "Nome nei Comunicati LND = 'A.S.D. Atlas Football Accademy' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "TRIESTINA CALCIO 1918 SRL",
+  "sport": "calcio",
+  "id": "032006-1",
+  "prova": "Nome nei Comunicati LND = 'U.S. Triestina Calcio 1918 S.r.l.' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "VESNA",
+  "sport": "calcio",
+  "id": "032006-13",
+  "prova": "Nome nei Comunicati LND = 'S.S. Vesna' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "SOVODNJE",
+  "sport": "calcio",
+  "id": "031022-1",
+  "prova": "Nome nei Comunicati LND = 'S.S. SD Sovodnje' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "STUDENTI",
+  "sport": "calcio",
+  "id": "032006-11",
+  "prova": "Nome nei Comunicati LND = 'C.G. Studenti' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "COSTALUNGA",
+  "sport": "calcio",
+  "id": "032006-5",
+  "prova": "Nome nei Comunicati LND = 'A.S. Costalunga' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "FANI OLIMPIA",
+  "sport": "calcio",
+  "id": "032004-3",
+  "prova": "Nome nei Comunicati LND = 'G.S.D. Fani Olimpia' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "CAMPANELLE sq.B",
+  "sport": "calcio",
+  "id": "032006-9",
+  "prova": "Nome nei Comunicati LND = 'A.S.D. Campanelle (squadra B)' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "COSEANO",
+  "sport": "calcio",
+  "id": "030031-1",
+  "prova": "Nome nei Comunicati LND = 'G.S. Coseano A.S.D.' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "MOIMACCO",
+  "sport": "calcio",
+  "id": "030060-1",
+  "prova": "Nome nei Comunicati LND = 'A.S. Moimacco' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "CENTRO ATLETICO RICREATIV",
+  "sport": "calcio",
+  "id": "030037-2",
+  "prova": "Nome nei Comunicati LND = 'A.S.D. Centro Atletico Ricreativo Ciconicco' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "COMUNALE LESTIZZA",
+  "sport": "calcio",
+  "id": "030048-1",
+  "prova": "Nome nei Comunicati LND = 'Pol. Comunale Lestizza' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "COMUNALE POCENIA",
+  "sport": "calcio",
+  "id": "030075-1",
+  "prova": "Nome nei Comunicati LND = 'A.S.D. Pocenia' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "VIVAI COOP RAUSCEDO/GRAVI",
+  "sport": "calcio",
+  "id": "093038-1",
+  "prova": "Nome nei Comunicati LND = 'Vivai Coop. Rauscedo/Gravis' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "CAVAZZO",
+  "sport": "calcio",
+  "id": "030021-1",
+  "prova": "Nome nei Comunicati LND = 'A.S. Cavazzo' a meno di sigle/troncamento a 25 caratteri; in data.json la società ha squadre negli stessi campionati e gironi (campo 'squadre').",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27; data/data.json"
+ },
+ {
+  "nome": "AQUILA PALMANOVA C5",
+  "sport": "calcio5",
+  "id": "030070-6",
+  "prova": "Nome nei Comunicati LND = 'A.S.D. Aquila Palmanova C.5' a meno di sigle; unica società di calcio a 5 con questo nome in data.json; in data.json ha la squadra in C1 regionale girone A.",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27 (calcio a 5); data/data.json",
+  "gironi": [
+   "calcio5-calcio-a-5-regionale-a"
+  ]
+ },
+ {
+  "nome": "MACCAN PRATA C5 SSD A RL",
+  "sport": "calcio5",
+  "id": "093034-2",
+  "prova": "Nome nei Comunicati LND = 'S.S.D. Maccan Prata C5' a meno di sigle; unica società di calcio a 5 con questo nome in data.json; in data.json ha la squadra in C1 regionale girone A.",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27 (calcio a 5); data/data.json",
+  "gironi": [
+   "calcio5-calcio-a-5-regionale-a"
+  ]
+ },
+ {
+  "nome": "PORDENONE",
+  "sport": "calcio5",
+  "id": "093033-3",
+  "prova": "Nome nei Comunicati LND = 'A.S.D. Pordenone (calcio a 5)' a meno di sigle; unica società di calcio a 5 con questo nome in data.json (seconda squadra in C1 regionale).",
+  "fonte": "Comunicati Ufficiali LND FVG 2026/27 (calcio a 5); data/data.json",
+  "gironi": [
+   "calcio5-calcio-a-5-regionale-a"
+  ]
+ }
+]
