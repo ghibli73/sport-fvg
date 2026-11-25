@@ -7,11 +7,15 @@ Classifica calcolata: 3 punti vittoria, 1 pareggio; a parità differenza reti, p
 non sono considerati: lo dice la nota del girone).
 Ogni girone diventa "calcio-<slug>" in data/risultati.json; i nomi squadra sono abbinati alle società di
 data/data.json con config/calcio_alias.json (alias certi) o per nome identico.
-Uso: python scripts/calcio.py [--tutto] [--prova]
+Calendario: le partite future (giornata, data, ora, campo) vengono dai calendari ufficiali LND e dalle
+"MODIFICHE AL PROGRAMMA GARE" dei comunicati: vedi scripts/calcio_calendari.py e pipeline/agenti/calendari.md.
+Uso: python scripts/calcio.py [--tutto] [--prova] [--diag]
+     --prova  non scrive config né data/risultati.json: il risultato va in /tmp/risultati_prova.json
 """
 import io, json, os, re, sys, time, datetime as dt, unicodedata
 import requests
 from abbinamenti import applica_comuni  # scripts/abbinamenti.py
+import calcio_calendari as CAL
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RIS = os.path.join(ROOT, "data", "risultati.json")
@@ -20,6 +24,7 @@ STATO = os.path.join(ROOT, "config", "calcio_stato.json")
 ALIAS = os.path.join(ROOT, "config", "calcio_alias.json")
 BASE = "https://friuliveneziagiulia.lnd.it"
 INIZIO = "2026-08-01T00:00:00"
+PROVA = "/tmp/risultati_prova.json"
 S = requests.Session()
 S.headers["User-Agent"] = os.environ.get("SPORTFVG_UA", "SportFVG/1.0 (app non ufficiale di consultazione)")
 
@@ -65,14 +70,32 @@ def elenco_pdf():
     return sorted(out, key=lambda x: x["date"])
 
 
+_pdf = {}
+
+
+def scarica(url):
+    """Byte del PDF, scaricato una volta sola per esecuzione (serve sia ai risultati sia alle variazioni)."""
+    if url not in _pdf:
+        time.sleep(0.8)
+        r = S.get(url, timeout=90); r.raise_for_status()
+        _pdf.clear()  # basta ricordare l'ultimo
+        _pdf[url] = r.content
+    return _pdf[url]
+
+
+def comitato_cu(url, righe):
+    testa = " ".join(righe[:40])
+    m = RX_DELEG.search(testa)
+    pf = re.match(r"^(ts|pn|go|ud|tol)[_-]", url.rsplit("/", 1)[-1].lower())
+    return PREF_FILE[pf.group(1)] if pf else m.group(1).title() if m else "Regionale"
+
+
 def pdf_righe(url):
     """Testo riga per riga; nelle pagine a due colonne (es. girone A a sinistra, girone B a destra) le due colonne
     vengono lette una dopo l'altra, mentre i titoli a tutta larghezza restano al loro posto."""
     import pdfplumber
-    time.sleep(0.8)
-    r = S.get(url, timeout=90); r.raise_for_status()
     out = []
-    with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+    with pdfplumber.open(io.BytesIO(scarica(url))) as pdf:
         for page in pdf.pages:
             mid = page.width / 2
             linee = {}
@@ -123,11 +146,7 @@ NON_CATEG = re.compile(r"RISULTATI|Si trascrivono|GIRONE|Pag\.|COMUNICATO|^\(|DE
 def leggi_cu(url):
     """-> comitato, [(categoria, girone, giornata, AR, data, casa, ospite, gc, go, n_nota)]"""
     righe = pdf_righe(url)
-    testa = " ".join(righe[:40])
-    m = RX_DELEG.search(testa)
-    f = url.rsplit("/", 1)[-1].lower()
-    pf = re.match(r"^(ts|pn|go|ud|tol)[_-]", f)
-    comitato = PREF_FILE[pf.group(1)] if pf else m.group(1).title() if m else "Regionale"
+    comitato = comitato_cu(url, righe)
     out, cat, gir, data, in_ris = [], None, None, None, False
     note_disp = {}  # id(riga) -> nota già applicata
     for i, l in enumerate(righe):
@@ -293,6 +312,32 @@ def costruisci(key, gare, comitato, ids_di, oggi):
             "classifica": classifica, "partite": partite, "auto": "lnd"}
 
 
+def aggiungi_futuri(g, k, n_sq, cal_stato, ids_di, oggi):
+    """Aggiunge al girone costruito le partite future del calendario ufficiale, con le variazioni dei comunicati.
+    Una partita futura che metterebbe una squadra due volte nella stessa giornata viene scartata."""
+    from collections import Counter
+    nomi = [r["squadra"] for r in g["classifica"]]
+    giocate = {(compatto(p["casa"]), compatto(p["ospite"])) for p in g["partite"] if p.get("risultato")}
+    andata = n_sq - 1 if n_sq % 2 == 0 else n_sq
+    try:
+        fut, var = CAL.futuri(sys.modules[__name__], k, nomi, giocate, andata, cal_stato, oggi)
+    except Exception as e:
+        print(f"  {g['gid']}: calendario non applicato ({e})"); return
+    occupate = Counter((p["giornata"], compatto(t)) for p in g["partite"] for t in (p["casa"], p["ospite"]))
+    aggiunte = scartate = 0
+    for v in fut:
+        if occupate[(v["giornata"], compatto(v["casa"]))] or occupate[(v["giornata"], compatto(v["ospite"]))]:
+            scartate += 1; continue
+        occupate[(v["giornata"], compatto(v["casa"]))] += 1; occupate[(v["giornata"], compatto(v["ospite"]))] += 1
+        p = {"giornata": v["giornata"], "data": v["data"]}
+        if v.get("ora"): p["ora"] = v["ora"]
+        p.update(casa=v["casa"], ospite=v["ospite"], id_casa=ids_di(v["casa"]), id_ospite=ids_di(v["ospite"]), risultato="")
+        if v.get("campo"): p["campo"] = v["campo"]
+        g["partite"].append(p); aggiunte += 1
+    if aggiunte or var:
+        print(f"  {g['gid']}: partite future {aggiunte}" + (f", scartate {scartate}" if scartate else "") + f", variazioni applicate {var}")
+
+
 def main():
     prova, tutto = "--prova" in sys.argv, "--tutto" in sys.argv
     oggi = dt.date.today().isoformat()
@@ -342,6 +387,12 @@ def main():
         letti.add(u)
         if righe:
             print(f"{u.rsplit('/', 1)[-1]} ({comitato}): {len(righe)} risultati")
+    # calendari ufficiali e variazioni (scripts/calcio_calendari.py)
+    cal_stato = CAL.carica()
+    try:
+        CAL.leggi_fonti(sys.modules[__name__], elenco, cal_stato, oggi)
+    except Exception as e:
+        print(f"calendari/variazioni: lettura non riuscita ({e})")
     # gironi
     per_k = {}
     for g in gare.values():
@@ -384,14 +435,15 @@ def main():
             print(f"  scartato {k}: squadre doppie nella stessa giornata dopo l'unificazione dei nomi"); continue
         pref = "" if k[0] == "Regionale" else slugify(k[0])[:3] + "-"
         g["gid"] = f"{g['sport']}-{pref}{slugify(k[1])}-{k[2].lower()}"
+        aggiungi_futuri(g, k, n_sq, cal_stato, ids_di, oggi)
         nuovi.append(g)
         if "--diag" in sys.argv:
             print("     ", " | ".join(r["squadra"] for r in g["classifica"]))
         print(f"  {g['gid']}: {len(g['classifica'])} squadre, {len(gs)} gare, giornata {g['giornata']}, "
               f"abbinate {sum(1 for r in g['classifica'] if r['id'])}")
-    print(f"gironi ricostruiti: {len(nuovi)}")
-    if prova:
-        print("prova: nessun file scritto"); return
+    print(f"gironi ricostruiti: {len(nuovi)}; partite future da calendari e variazioni: "
+          f"{sum(1 for g in nuovi for p in g['partite'] if not p.get('risultato'))} in "
+          f"{sum(1 for g in nuovi if any(not p.get('risultato') for p in g['partite']))} gironi")
     data = json.load(open(RIS))
     vecchi = {g["gid"]: g for g in data}
     nuovi_gid = {n["gid"] for n in nuovi}
@@ -403,11 +455,16 @@ def main():
         o = vecchi.get(n["gid"]) or next((vecchi[v] for v in sostituiti if n["gid"].endswith("-" + v.split("-", 1)[1])), None)
         if o and len(n["classifica"]) < len(o.get("classifica") or []):
             print(f"  {n['gid']}: meno squadre del precedente, tenuto il vecchio"); tenuti.append(o); continue
-        if o:  # le gare future già note (giornata successiva) restano
+        if o and not any(not p.get("risultato") for p in n["partite"]):
+            # senza calendario ufficiale letto restano le gare future già note (giornata successiva)
             n["partite"] += [p for p in o.get("partite", []) if not p.get("risultato") and (p.get("giornata") or 0) > n["giornata"]]
         tenuti.append(n)
     applica_comuni(tenuti)  # comune delle squadre senza id (config/squadre_comune.json)
+    if prova:
+        json.dump(tenuti, open(PROVA, "w"), ensure_ascii=False, separators=(",", ":"))
+        print("prova: config e data/risultati.json non modificati, risultato in", PROVA); return
     json.dump(tenuti, open(RIS, "w"), ensure_ascii=False, separators=(",", ":"))
+    CAL.salva(cal_stato)
     stato = {"letti": sorted(letti), "gare": list(gare.values())}
     json.dump(stato, open(STATO, "w"), ensure_ascii=False, separators=(",", ":"))
 

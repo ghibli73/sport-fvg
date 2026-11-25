@@ -13,6 +13,12 @@ sull'argomento pubblico di ciascuna delle due società: https://ntfy.sh/zuin-fvg
   giorni (un girone aggiunto per la prima volta non deve mandare decine di avvisi vecchi);
 - nessun avviso se la variabile SILENZIOSO è "true" (input del lancio manuale) o con --prova
   (stampa soltanto);
+- partite spostate: se una partita non ancora giocata cambia data o ora e la data (nuova o vecchia) cade
+  entro i prossimi GIORNI_SPOSTATE giorni, avviso "Partita spostata" alle due società (titolo
+  "Partita spostata: Casa – Ospite", testo "sab 28/11 ore 14:30 (era dom 29/11 ore 14:30) · girone",
+  Tags "calendar"). Stessa partita = stesso girone e numero gara, altrimenti stesse squadre e giornata
+  (come in scripts/variazioni.py); stesse regole, stessa pausa e stesso limite MAX_AVVISI dei risultati
+  (i risultati hanno la precedenza);
 - non fa mai fallire il workflow: ogni errore viene stampato e lo script termina con codice 0.
 """
 import base64
@@ -31,6 +37,7 @@ NTFY = "https://ntfy.sh/"
 MAX_AVVISI = 200
 PAUSA = 0.3
 GIORNI_NUOVE = 3
+GIORNI_SPOSTATE = 10  # avvisi di partita spostata solo per le partite dei prossimi 10 giorni
 TEMPO_MAX = 8 * 60  # secondi: oltre si smette (il workflow deve poi salvare i dati)
 
 
@@ -76,9 +83,43 @@ def nuovi_risultati(prima, dopo, oggi):
     return out
 
 
-def invia(topic, titolo, testo, click):
+GG = ["lun", "mar", "mer", "gio", "ven", "sab", "dom"]
+
+
+def quando(data, ora):
+    try:
+        d = dt.date.fromisoformat(data)
+        t = f"{GG[d.weekday()]} {d.day:02d}/{d.month:02d}"
+    except (TypeError, ValueError):
+        t = data or "data da definire"
+    return t + (f" ore {ora}" if ora else "")
+
+
+def partite_spostate(prima, dopo, oggi):
+    """Partite non giocate con data o ora cambiata, giocate (prima o dopo lo spostamento) entro GIORNI_SPOSTATE giorni."""
+    try:
+        import variazioni as V
+    except Exception:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import variazioni as V
+    idx = V.indice(prima)
+    da, a = oggi.isoformat(), (oggi + dt.timedelta(days=GIORNI_SPOSTATE)).isoformat()
+    out = []
+    for g in dopo:
+        for x in g.get("partite", []):
+            if x.get("risultato") or not (x.get("data") or "") >= da:
+                continue
+            v = V.trova(idx, g["gid"], x)
+            if not V.cambiata(v, x):
+                continue
+            if da <= x["data"] <= a or da <= (v.get("data") or "") <= a:
+                out.append((g, x, v))
+    return out
+
+
+def invia(topic, titolo, testo, click, tags="trophy"):
     req = urllib.request.Request(NTFY + topic, data=testo.encode("utf-8"), method="POST", headers={
-        "Title": intestazione(titolo), "Tags": "trophy", "Click": click,
+        "Title": intestazione(titolo), "Tags": tags, "Click": click,
         "User-Agent": "Zuin-SportFVG/1.0 (" + SITO + ")"})
     for tentativo in range(3):
         try:
@@ -115,18 +156,27 @@ def main(argv):
         titolo = f"{x['casa']} {x['risultato']} {x['ospite']}"
         for sid in dict.fromkeys([x.get("id_casa"), x.get("id_ospite")]):
             if sid and sid in ids:
-                coda.append((argomento(sid), titolo, g["girone"], SITO + "#g-" + g["gid"]))
-    print(f"Avvisi: {len(partite)} partite con risultato nuovo, {len(coda)} avvisi da inviare"
-          + (f" (si inviano i primi {MAX_AVVISI})" if len(coda) > MAX_AVVISI else ""))
+                coda.append((argomento(sid), titolo, g["girone"], SITO + "#g-" + g["gid"], "trophy"))
+    n_ris = len(coda)
+    spostate = partite_spostate(prima, dopo, dt.date.today())
+    for g, x, v in spostate:
+        titolo = f"Partita spostata: {x['casa']} – {x['ospite']}"
+        testo = f"{quando(x['data'], x.get('ora'))} (era {quando(v.get('data'), v.get('ora'))}) · {g['girone']}"
+        for sid in dict.fromkeys([x.get("id_casa"), x.get("id_ospite")]):
+            if sid and sid in ids:
+                coda.append((argomento(sid), titolo, testo, SITO + "#g-" + g["gid"], "calendar"))
+    print(f"Avvisi: {len(partite)} partite con risultato nuovo ({n_ris} avvisi), {len(spostate)} partite spostate "
+          f"nei prossimi {GIORNI_SPOSTATE} giorni ({len(coda) - n_ris} avvisi)"
+          + (f"; si inviano i primi {MAX_AVVISI}" if len(coda) > MAX_AVVISI else ""))
     inizio, ok, ko = time.time(), 0, 0
-    for i, (topic, titolo, testo, click) in enumerate(coda[:MAX_AVVISI]):
+    for i, (topic, titolo, testo, click, tags) in enumerate(coda[:MAX_AVVISI]):
         if prova:
             print("  [prova]", topic, "|", titolo, "|", testo, "|", click)
             continue
         if time.time() - inizio > TEMPO_MAX:
             print(f"  tempo massimo raggiunto: inviati {ok}, saltati {len(coda[:MAX_AVVISI]) - i}")
             break
-        st = invia(topic, titolo, testo, click)
+        st = invia(topic, titolo, testo, click, tags)
         if st and 200 <= st < 300:
             ok += 1
         else:
