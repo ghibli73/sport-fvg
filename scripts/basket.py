@@ -171,13 +171,31 @@ def elenco_omologazioni(base, filtro=None):
     return sorted(out, key=lambda x: x["date"])
 
 
+RX_GIOCATA = re.compile(r"giocata il (\d{2})/(\d{2})/(\d{4})", re.I)
+
+
 def leggi_omologazione(url):
-    ris = []
-    for l in pdf_righe(url):
+    """-> [(numero gara, testo squadre, punti A, punti B, data effettiva o None)].
+    La riga sotto la gara può dire "giocata il 09/11/2026": è la data vera (anticipi, posticipi, inversioni di campo).
+    Le righe "0 - 0" (es. sezione "RIPETIZIONE GARE ... Motivo della ripetizione") non sono un risultato: nel basket
+    non esiste il pareggio, quindi una riga con punteggi uguali viene ignorata."""
+    ris, righe = [], pdf_righe(url)
+    for i, l in enumerate(righe):
         m = RX_OMO.match(l)
-        if m:
-            ris.append((int(m.group(1)), m.group(2), int(m.group(3)), int(m.group(4))))
+        if not m:
+            continue
+        a, b = int(m.group(3)), int(m.group(4))
+        if a == b:
+            continue
+        d = RX_GIOCATA.search(righe[i + 1]) if i + 1 < len(righe) else None
+        ris.append((int(m.group(1)), m.group(2), a, b, f"{d.group(3)}-{d.group(2)}-{d.group(1)}" if d else None))
     return ris
+
+
+def pari(ris):
+    """True per un punteggio con i due numeri uguali (es. "0-0" di una gara da ripetere): non è un risultato."""
+    m = re.fullmatch(r"(\d+)-(\d+)", ris or "")
+    return bool(m) and m.group(1) == m.group(2)
 
 
 # ---------------------------------------------------------------- girone
@@ -187,7 +205,7 @@ def costruisci(spec, oggi):
     giocate_per_g = {}
     for num, gio, data, ora, casa, osp, campo, ris in spec["gare"]:
         giocate_per_g.setdefault(gio, [0, 0])[1] += 1
-        if not ris or casa not in tab or osp not in tab:
+        if not ris or pari(ris) or casa not in tab or osp not in tab:
             continue
         giocate_per_g[gio][0] += 1
         a, b = map(int, ris.split("-"))
@@ -215,7 +233,7 @@ def costruisci(spec, oggi):
         p.update(casa=casa, ospite=osp)
         if ids.get(casa): p["id_casa"] = ids[casa]
         if ids.get(osp): p["id_ospite"] = ids[osp]
-        p["risultato"] = ris or ""
+        p["risultato"] = "" if pari(ris) else (ris or "")
         if campo: p["campo"] = campo
         partite.append(p)
     for r in classifica: r.setdefault("id", None)
@@ -287,7 +305,7 @@ def main():
             except Exception as e:
                 print(f"  ! {u}: {e}"); continue
             usate = 0
-            for num, testo, a, b in righe:
+            for num, testo, a, b, giocata in righe:
                 # i numeri gara si ripetono tra campionati e comitati: la gara va accettata solo se nella riga
                 # compaiono parole distintive di ENTRAMBE le squadre del calendario
                 t = set(toks(testo))
@@ -296,6 +314,11 @@ def main():
                     CONTA["scartate"] += 1
                     continue
                 s, g = cand[0]
+                if pari(g[7]):
+                    g[7] = ""  # un vecchio "0-0" (gara da ripetere) non blocca il risultato vero
+                if giocata and g[2] != giocata:
+                    print(f"  gara {num} ({s['slug']}): giocata il {giocata} (calendario {g[2]})")
+                    g[2] = giocata
                 nuovo = f"{a}-{b}"
                 CONTA["uguali" if g[7] == nuovo else "nuovi" if not g[7] else "diversi"] += 1
                 if g[7] and g[7] != nuovo:
