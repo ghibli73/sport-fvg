@@ -84,6 +84,7 @@ Stato al 24/11/2026: 49 gironi caricati in /home/claude/fvg/risultati/basket/ (t
 
 ### Abbinamenti emersi dalle omologazioni/calendari (oltre a quelli sopra)
 Calligaris = Centro Sedia Basket (Serie C); Neonis Basket GS = G.S. Vallenoncello; Fly Solartech Icarus = Pol. Libertas Acli San Daniele (Serie C, certo per numero gara; in U19 Gold lasciata senza id); PrimaCassa Cividale B = UEB Cividale B; Tecnovalore Venezia Giulia = Venezia Giulia Basketball; UsableNet SBaMM / Uattzy / Sonvilla / WEB / Farmacia del Sole SBaMM = Scuola Basket Miky Mian; ZKB Jadran = Jadran; DINAMICA - Gorizia = Dinamo Gorizia (B Interregionale); Basket Maniago-Pol. Montereale (U19 reg. PN B) squadra congiunta, senza id.
+Abbinate il 25/11/2026 (pipeline/agenti/abbinamenti.md): Fly Solartech Icarus U19 Gold = Pol. Libertas Acli San Daniele; BCC Pordenonese e Monsile DR1 Ovest = Azzano Basket. Le altre hanno solo il comune (config/squadre_comune.json).
 Ancora non abbinate: MB Paper's, Ronchi Basket Club, Nautilus Allestimenti, Colledani srl, Pallacanestro Feletto, BIN Tigrotte, Basket Fiume, Monritz Team Sport, WIS 1963 Woman Spilimbergo, BCC Pordenonese e Monsile (DR1 Ovest).
 
 ### Da fare / limiti
