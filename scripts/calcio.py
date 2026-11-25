@@ -258,7 +258,7 @@ def costruisci(key, gare, comitato, ids_di, oggi):
             "stagione": "2026/27", "comitato": f"LND FVG — {'Comitato Regionale' if comitato == 'Regionale' else 'Delegazione di ' + comitato}",
             "fonte": max(g["fonte"] for g in gare), "aggiornato": max(g["pubbl"] for g in gare),
             "giornata": max(g["g_eff"] for g in gare), "calcolata": True,
-            "classifica": classifica, "partite": partite}
+            "classifica": classifica, "partite": partite, "auto": "lnd"}
 
 
 def main():
@@ -363,7 +363,8 @@ def main():
     nuovi_gid = {n["gid"] for n in nuovi}
     # i gironi delle delegazioni caricati a mano (es. calcio-seconda-categoria-b) sono sostituiti da quelli automatici
     sostituiti = {g for g in vecchi if vecchi[g]["sport"] in ("calcio", "calcio5") and any(n.endswith("-" + g.split("-", 1)[1]) and n != g for n in nuovi_gid)}
-    tenuti = [g for g in data if g["gid"] not in nuovi_gid and g["gid"] not in sostituiti]
+    # un girone creato in automatico che oggi non supera più i controlli viene tolto
+    tenuti = [g for g in data if g["gid"] not in nuovi_gid and g["gid"] not in sostituiti and g.get("auto") != "lnd"]
     for n in nuovi:
         o = vecchi.get(n["gid"]) or next((vecchi[v] for v in sostituiti if n["gid"].endswith("-" + v.split("-", 1)[1])), None)
         if o and len(n["classifica"]) < len(o.get("classifica") or []):
