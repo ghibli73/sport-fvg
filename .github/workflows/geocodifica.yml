@@ -1,0 +1,39 @@
+name: Geocodifica società (mappa)
+
+# Avvio solo manuale: calcola le posizioni delle società con Nominatim (OpenStreetMap)
+# e salva data/luoghi.json e la cache config/geocodifica_cache.json nel branch da cui è lanciato.
+on:
+  workflow_dispatch:
+    inputs:
+      max_minuti:
+        description: "Tempo massimo di ricerca in minuti (le richieste mancanti si fanno al giro dopo)"
+        required: false
+        default: "80"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aggiorna-dati
+  cancel-in-progress: false
+
+jobs:
+  geocodifica:
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Geocodifica con Nominatim (1 richiesta ogni 1,1 s)
+        run: python scripts/geocodifica.py --max-minuti "${{ github.event.inputs.max_minuti || '80' }}"
+      - name: Salva posizioni e cache
+        run: |
+          if [ -z "$(git status --porcelain data/luoghi.json config/geocodifica_cache.json)" ]; then echo "Nessuna novità"; exit 0; fi
+          git config user.name "sport-fvg-bot"
+          git config user.email "sport-fvg-bot@users.noreply.github.com"
+          git add data/luoghi.json config/geocodifica_cache.json
+          git commit -m "Mappa: geocodifica delle società $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
