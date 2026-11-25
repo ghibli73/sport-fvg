@@ -1,4 +1,6 @@
-# Sport in FVG
+# Zuìn – Sport in FVG
+
+"Zuìn" in friulano vuol dire "giochiamo!". L'icona è un aquilotto con il pollice in su (disegno originale, proposte in `design/zuin/`).
 
 App web (PWA) con le società sportive dei 215 comuni del Friuli Venezia Giulia, i loro campionati, classifiche e risultati.
 Applicazione indipendente e non ufficiale: i dati provengono dalle pubblicazioni ufficiali delle federazioni (FIPAV, FIP, LND FVG e altre), sempre citate.
