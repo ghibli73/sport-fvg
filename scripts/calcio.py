@@ -228,7 +228,7 @@ def unifica_nomi(gare):
     for nome, _ in c.most_common():
         k = compatto(nome)
         # varianti dello stesso nome: con/senza sigla societaria, o una che è l'inizio dell'altra
-        uguale = next((f for f in forme if tolti(f) == tolti(k) or (len(k) >= 6 and len(f) >= 6 and (f.startswith(k) or k.startswith(f)))), None)
+        uguale = next((f for f in forme if tolti(f) == tolti(k)), None)
         if uguale:
             scelto[k] = forme[uguale]
         else:
@@ -346,6 +346,8 @@ def main():
         if len(gs) < 4 or n_sq < 4 or n_sq > 22 or doppie:
             print(f"  scartato {k}: {n_sq} squadre, {len(gs)} gare, {len(doppie)} squadre doppie nella stessa giornata"); continue
         g = costruisci(k, gs, k[0], ids_di, oggi)
+        if any(c > 1 for c in Counter((p["giornata"], t) for p in g["partite"] for t in (p["casa"], p["ospite"])).values()):
+            print(f"  scartato {k}: squadre doppie nella stessa giornata dopo l'unificazione dei nomi"); continue
         pref = "" if k[0] == "Regionale" else slugify(k[0])[:3] + "-"
         g["gid"] = f"{g['sport']}-{pref}{slugify(k[1])}-{k[2].lower()}"
         nuovi.append(g)
