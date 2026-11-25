@@ -29,6 +29,11 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
   - `scripts/ics.py` scrive `data/ics/<id_società>.ics` per ogni società che compare in `data/risultati.json` (partite giocate negli ultimi 30 giorni con il risultato nel titolo + tutte quelle future; durata 2 ore, fuso Europe/Rome, senza ora = evento di giornata intera). UID stabili e identici a quelli generati dall'app; i file delle società senza più partite vengono tolti. Non fa mai fallire il workflow.
   - Workflow: passo "Calendari delle società (data/ics)" in `aggiorna-calcio/basket/pallavolo.yml`, prima del commit; il commit ora usa `git status --porcelain` per vedere anche i file nuovi.
 - **Condividi** — dalla 1.4.0, solo nel browser: immagine 1080×1350 (classifica prime 8, risultati di una giornata, singola partita) con logo, "Zuìn · Sport in FVG" e indirizzo del sito; Web Share API con file se disponibile, altrimenti download del PNG.
+- **Avvisi dei preferiti (ntfy.sh)** — dalla 1.5.0, gratuiti e senza account.
+  - Argomento pubblico per società: `zuin-fvg-<id società>` (caratteri non alfanumerici → `-`), es. `zuin-fvg-030001-1`. In app: "Ricevi avvisi" nella scheda società (solo se ha partite) e nei Preferiti, con link a `https://ntfy.sh/<argomento>` e alle app ntfy per Android e iPhone.
+  - `scripts/avvisi.py [prima] [dopo] [--prova]`: confronta `/tmp/risultati_prima.json` con `data/risultati.json`; per ogni partita che ha appena ricevuto il risultato (prima senza risultato, oppure nuova con data negli ultimi 3 giorni) pubblica su ntfy per le due società: titolo "Casa 3-1 Ospite", testo = girone, Click → `#g-<gid>`, Tags trophy. Massimo 200 avvisi, pausa 0,3 s, su 429 attende e riprova, al massimo 8 minuti. Esce sempre con 0. `--prova` stampa soltanto.
+  - Workflow: passo "Avvisi dei risultati (ntfy.sh)" dopo i controlli e prima di ics/commit in `aggiorna-*.yml`; il lancio manuale ha l'input `silenzioso` (casella) che li disattiva (variabile SILENZIOSO).
+  - Privacy: argomenti pubblici, nessun dato personale (spiegato in Info e in note-legali.html).
 
 ## Registro
 (una riga per intervento: data — cosa — esito)

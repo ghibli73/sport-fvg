@@ -6,6 +6,12 @@ on:
     - cron: "17 13-22 * * 6,0"   # sabato e domenica: ogni ora dalle 14 alle 23 circa
     - cron: "37 20 * * 1-5"      # dal lunedì al venerdì: una volta, verso le 21
   workflow_dispatch:              # avvio manuale dal pulsante "Run workflow"
+    inputs:
+      silenzioso:
+        description: "Non inviare gli avvisi ntfy dei risultati"
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -30,6 +36,11 @@ jobs:
         run: python scripts/volley.py
       - name: Controlli prima di pubblicare
         run: python scripts/risultati_tools.py check /tmp/risultati_prima.json data/risultati.json
+      - name: Avvisi dei risultati (ntfy.sh)
+        run: python scripts/avvisi.py /tmp/risultati_prima.json data/risultati.json
+        continue-on-error: true
+        env:
+          SILENZIOSO: ${{ github.event.inputs.silenzioso }}
       - name: Calendari delle società (data/ics)
         run: python scripts/ics.py
         continue-on-error: true
