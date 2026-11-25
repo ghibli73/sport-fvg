@@ -244,7 +244,7 @@ main{max-width:1100px;margin:0 auto;padding:14px 14px 24px}
 .leaflet-container{font:14px/1.4 var(--f)}
 .mapw .leaflet-bar a,.mapw .leaflet-touch .leaflet-bar a{width:44px;height:44px;line-height:44px;font-size:22px}
 .mapw .leaflet-popup a.leaflet-popup-close-button{width:44px;height:44px;font:24px/44px var(--f)}
-.mapw .leaflet-popup-content{margin:14px 40px 14px 16px}
+.mapw .leaflet-popup-pane{z-index:1001}.mapw .leaflet-popup-content{margin:14px 40px 14px 16px}
 .mk{width:44px;height:44px;display:grid;place-items:center;background:none;border:0}
 .mk i{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#123a6b;color:#f2b705;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)}
 .mk.cm i{border-style:dashed;background:#2a4f80}
@@ -550,7 +550,7 @@ MAPEL=document.createElement('div');
 MAPEL.innerHTML=`<button class="back" data-back>${BACK}Comuni</button><div class="hd"><h2>Mappa</h2><span class="n" id="mapn"></span></div><div class="chips" id="mapf" style="margin:0 0 10px"></div><div class="mapw"><div id="map" role="region" aria-label="Mappa delle società sportive"></div></div><div class="tools"><button class="gstar" data-near>${PIN}Vicino a me</button></div><div class="card" id="wk"><h3>Partite del weekend vicino a te</h3><p class="small" style="margin:0">Tocca «Vicino a me» per vedere le partite di sabato e domenica delle società entro 15 km. La posizione serve solo a questo calcolo sul telefono: non viene salvata né inviata.</p></div><p class="small" style="margin:4px 2px">Posizioni ricavate dagli indirizzi con OpenStreetMap (Nominatim); i segnaposto tratteggiati sono al centro del comune perché l'indirizzo non è stato trovato.</p>`;
 m.replaceChildren(MAPEL);
 Promise.all([leaflet(),LUO?Promise.resolve(LUO):fetch('data/luoghi.json',{cache:'no-cache'}).then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([L,l])=>{LUO=l||{};
-MAP=L.map('map',{zoomControl:true,minZoom:7}).setView([46.08,13.1],9);
+MAP=L.map('map',{zoomControl:true,minZoom:7}).fitBounds([[45.58,12.32],[46.65,13.92]]);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors'}).addTo(MAP);
 MK=L.layerGroup().addTo(MAP);MAP.on('moveend',drawMarkers);
 MAP.on('popupclose',()=>{POP=false;setTimeout(drawMarkers,0)});MAP.on('popupopen',e=>{POP=true;e.popup.getElement().querySelectorAll('[data-mid]').forEach(b=>b.onclick=()=>{MAP.closePopup();openClub(b.dataset.mid)})});

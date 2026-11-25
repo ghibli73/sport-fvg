@@ -9,10 +9,6 @@ on:
         description: "Tempo massimo di ricerca in minuti (le richieste mancanti si fanno al giro dopo)"
         required: false
         default: "80"
-  # TEMPORANEO: per la prima esecuzione dal branch (workflow_dispatch funziona solo quando il file è su main)
-  push:
-    branches: [funzioni/mappa]
-    paths: [".github/workflows/geocodifica.yml"]
 
 permissions:
   contents: write
