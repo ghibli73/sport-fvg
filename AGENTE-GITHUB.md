@@ -52,6 +52,14 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
   - CORS: GitHub Pages manda `access-control-allow-origin: *` per i siti pubblici (community discussion 22399); verificarlo con curl dopo il merge (vedi manuale). `sw.js` non mette mai in cache `widget.js`.
 - **Installa l'app** — dalla 1.10.0, in index.html.
   - Android e Chrome/Edge su computer: `beforeinstallprompt` intercettato; iPhone/iPad: guida in 2 passi (Condividi → Aggiungi alla schermata Home) con disegno SVG. Invito in basso sopra la barra di navigazione, alla seconda visita (contatore `sfvg-visite`, una volta per sessione) o dopo 30 s; mai se già installata (display-mode standalone / navigator.standalone); "Non ora" (o Esc, o "Ho capito" su iPhone) lo nasconde per 30 giorni (`sfvg-inst-no`). Nella pagina Info c'è sempre "Installa l'app" con le istruzioni per il dispositivo in uso.
+- **Calendari completi e partite spostate** — dalla 1.11.0 (manuale: `pipeline/agenti/calendari.md`).
+  - Pallavolo: ogni notte (`7 1 * * *`, `--completo`) tutte le settimane con gare (max 30, stop dopo 3 vuote); nelle altre esecuzioni le 3 settimane vicine. Gare unite per numero gara.
+  - Basket: tutte le gare non giocate in app; date/ore/campi per numero gara dal portale fip.it/risultati (`config/basket_fip.json`, scoperta automatica settimanale o `--scopri-fip`; ogni notte `53 1 * * *` con `--completo`) e dai PDF "Calendario" riemessi.
+  - Calcio: calendari ufficiali LND (CU-12 regionale, PDF e ZIP allegati delle Delegazioni) e "MODIFICHE AL PROGRAMMA GARE"/"Sabato del nostro calcio" dei CU (`scripts/calcio_calendari.py`, stato in `config/calcio_calendari.json`).
+  - `scripts/variazioni.py prima dopo [--prova]` (passo "Partite spostate" in tutti gli `aggiorna-*.yml`, dopo lo script): campi `variata`, `data_prec`, `ora_prec` e rapporto (partite future prima/dopo per sport, spostate, squadre doppie in giornata, future con risultato). Non fa mai fallire il workflow.
+  - Avvisi: "Partita spostata" alle due società per le partite dei prossimi 10 giorni (stesso limite dei risultati).
+  - Workflow: input `opzioni` passato con variabile d'ambiente; `--prova` = nessun file del repository modificato (risultato in `/tmp/risultati_prova.json`), avvisi solo stampati, niente ics né commit. Usarlo per provare un branch.
+  - Sonda fonti: input passato con variabile d'ambiente (gli URL con `&` non diventano comandi); modalità `media=`, `html=`, `pagina=`, `cerca=`.
 
 ## Registro
 (una riga per intervento: data — cosa — esito)
