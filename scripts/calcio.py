@@ -32,6 +32,10 @@ def norm(s):
     return re.sub(r"\s+", " ", re.sub(r"[^A-Z0-9 ]", " ", s)).strip()
 
 
+def compatto(s):
+    return norm(s).replace(" ", "")
+
+
 def slugify(s):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", strip_acc(s.lower()))).strip("-")
 
@@ -67,6 +71,8 @@ RX_DATA = re.compile(r"RISULTATI UFFICIALI GARE DEL (\d{2})/(\d{2})/(\d{4})", re
 RX_GIR = re.compile(r"^GIRONE\s+([A-Z0-9]{1,3})\s*-\s*(\d{1,2})\s*Giornata\s*-\s*([AR])", re.I)
 RX_RIS = re.compile(r"^(?:\(\d+\)\s*)?(.+?)\s+-\s+(.+?)\s+(\d{1,2})\s*-\s*(\d{1,2})\s*$")
 RX_DISP = re.compile(r"^\((\d+)\)\s*-\s*disputata il (\d{2})/(\d{2})/(\d{4})", re.I)
+RX_CAT_OK = re.compile(r"ECCELLENZA|PROMOZIONE|PRIMACATEGORIA|SECONDACATEGORIA|TERZACATEGORIA|UNDER\d\d|JUNIORES|ALLIEVI|GIOVANISSIMI|CALCIOA(5|CINQUE)|SERIEC[12]|SERIED|FEMMINILE|AMATORI")
+RX_CAT_NO = re.compile(r"COPPA|TORNEO|TROFEO|MEMORIAL|FASEFINALE|SPAREGGI|PLAYOFF|PLAYOUT")
 NON_CATEG = re.compile(r"RISULTATI|Si trascrivono|GIRONE|Pag\.|COMUNICATO|^\(|DECISIONI|GIUDICE", re.I)
 
 
@@ -89,10 +95,13 @@ def leggi_cu(url):
         if md:
             data = f"{md.group(3)}-{md.group(2)}-{md.group(1)}"
             # la categoria è la riga precedente (es. "UNDER 17 ALLIEVI REGIONALI")
-            j = i - 1
-            while j >= 0 and NON_CATEG.search(righe[j]):
+            j, cat = i - 1, None
+            while j >= 0 and i - j <= 3:
+                comp = re.sub(r"[^A-Z0-9]", "", strip_acc(righe[j].upper()))
+                if RX_CAT_OK.search(comp):
+                    cat = None if RX_CAT_NO.search(comp) else canon_cat(righe[j])
+                    break
                 j -= 1
-            cat = righe[j].strip() if j >= 0 else cat
             continue
         mg = RX_GIR.match(l)
         if mg:
@@ -111,13 +120,38 @@ def leggi_cu(url):
     return comitato, out
 
 
+def canon_cat(l):
+    """Ricompone le parole spezzate dal PDF: confronta il testo senza spazi con un elenco di parole note."""
+    comp = re.sub(r"[^A-Z0-9]", "", strip_acc(l.upper()))
+    parole = ["ECCELLENZA", "PROMOZIONE", "PRIMA", "SECONDA", "TERZA", "CATEGORIA", "UNDER", "JUNIORES", "ALLIEVI",
+              "GIOVANISSIMI", "REGIONALI", "REGIONALE", "PROVINCIALI", "PROVINCIALE", "CALCIO", "CINQUE", "FEMMINILE",
+              "SERIE", "AMATORI", "CAMPIONATO", "PROV", "TRIESTE", "UDINE", "PORDENONE", "GORIZIA", "TOLMEZZO", "ELITE", "FASCIA"]
+    out, i = [], 0
+    while i < len(comp):
+        for p in sorted(parole, key=len, reverse=True):
+            if comp.startswith(p, i):
+                out.append(p); i += len(p); break
+        else:
+            m = re.match(r"\d+|[A-Z]", comp[i:])
+            if out and re.fullmatch(r"[A-Z]", m.group(0)) and not re.fullmatch(r"\d+", out[-1]) and out[-1] not in parole:
+                out[-1] += m.group(0)
+            else:
+                out.append(m.group(0))
+            i += len(m.group(0))
+    t = " ".join(out)
+    t = re.sub(r"\bUNDER (\d\d)\b", r"UNDER \1", re.sub(r"UNDER(\d\d)", r"UNDER \1", t))
+    t = re.sub(r"\bCALCIO A (5|CINQUE)\b", "CALCIO A 5", t.replace("CALCIO A5", "CALCIO A 5"))
+    t = re.sub(r"\bU (\d\d)\b", r"U\1", t)
+    return t
+
+
 def calcio5(cat):
     return bool(re.search(r"CALCIO A (5|CINQUE)|C5|FUTSAL", cat, re.I))
 
 
 def categoria_app(cat):
     c = cat.upper()
-    m = re.search(r"UNDER\s*(\d{2})", c)
+    m = re.search(r"\bU(?:NDER)?\s*(\d{2})\b", c)
     if m: return f"Under {m.group(1)}"
     if "JUNIORES" in c: return "Under 19"
     if "ALLIEVI" in c: return "Under 17"
@@ -125,8 +159,21 @@ def categoria_app(cat):
     return "Prima squadra"
 
 
+def unifica_nomi(gare):
+    from collections import Counter
+    c = Counter()
+    for g in gare:
+        c[g["casa"]] += 1; c[g["ospite"]] += 1
+    scelto = {}
+    for nome, _ in c.most_common():
+        scelto.setdefault(compatto(nome), nome)
+    for g in gare:
+        g["casa"] = scelto[compatto(g["casa"])]; g["ospite"] = scelto[compatto(g["ospite"])]
+
+
 def costruisci(key, gare, comitato, ids_di, oggi):
     cat, gir = key[1], key[2]
+    unifica_nomi(gare)
     squadre = sorted({g["casa"] for g in gare} | {g["ospite"] for g in gare})
     tab = {n: dict(squadra=n, g=0, v=0, n=0, p=0, gf=0, gs=0) for n in squadre}
     for g in gare:
@@ -154,7 +201,7 @@ def main():
     oggi = dt.date.today().isoformat()
     stato = {"letti": [], "gare": []} if tutto or not os.path.exists(STATO) else json.load(open(STATO))
     letti = set(stato["letti"])
-    gare = {(tuple(g["k"]), g["giornata"], norm(g["casa"]), norm(g["ospite"])): g for g in stato["gare"]}
+    gare = {(tuple(g["k"]), (g["giornata"], g.get("ar")), compatto(g["casa"]), compatto(g["ospite"])): g for g in stato["gare"]}
     elenco = elenco_pdf()
     print(f"comunicati in archivio: {len(elenco)}, già letti: {len(letti & {x['source_url'] for x in elenco})}")
     for x in elenco:
@@ -167,7 +214,7 @@ def main():
             print(f"  ! {u}: {e}"); continue
         for cat, gir, n, ar, data, casa, osp, gc, go, _ in righe:
             k = (comitato, cat.upper(), gir)
-            gare[(k, (n, ar), norm(casa), norm(osp))] = {"k": list(k), "giornata": n, "ar": ar, "data": data, "casa": casa,
+            gare[(k, (n, ar), compatto(casa), compatto(osp))] = {"k": list(k), "giornata": n, "ar": ar, "data": data, "casa": casa,
                                                           "ospite": osp, "gc": gc, "go": go, "fonte": u, "pubbl": x["date"][:10]}
         letti.add(u)
         if righe:
@@ -190,11 +237,11 @@ def main():
         for nome in [s.get("nome", "")] + (s.get("alias") or []):
             per_nome.setdefault(norm(re.sub(r"\b(A\.?S\.?D\.?|S\.?S\.?D\.?|A\.?C\.?|U\.?S\.?|S\.?R\.?L\.?|A R L|ARL)\b", " ", nome)), set()).add(s["id"])
     alias = json.load(open(ALIAS)) if os.path.exists(ALIAS) else {}
-    alias_n = {norm(k): v for k, v in alias.items()}
+    alias_n = {compatto(k): v for k, v in alias.items()}
 
     def ids_di(nome):
-        if norm(nome) in alias_n:
-            return alias_n[norm(nome)]
+        if compatto(nome) in alias_n:
+            return alias_n[compatto(nome)]
         c = per_nome.get(norm(re.sub(r"\b(A\.?S\.?D\.?|S\.?S\.?D\.?|A\.?C\.?|U\.?S\.?|S\.?R\.?L\.?|A R L|ARL)\b", " ", nome)), set())
         return next(iter(c)) if len(c) == 1 else None
 
@@ -206,6 +253,8 @@ def main():
         pref = "" if k[0] == "Regionale" else slugify(k[0])[:3] + "-"
         g["gid"] = f"{g['sport']}-{pref}{slugify(k[1])}-{k[2].lower()}"
         nuovi.append(g)
+        if "--diag" in sys.argv:
+            print("     ", " | ".join(r["squadra"] for r in g["classifica"]))
         print(f"  {g['gid']}: {len(g['classifica'])} squadre, {len(gs)} gare, giornata {g['giornata']}, "
               f"abbinate {sum(1 for r in g['classifica'] if r['id'])}")
     print(f"gironi ricostruiti: {len(nuovi)}")
