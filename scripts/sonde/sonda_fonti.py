@@ -54,6 +54,16 @@ for u in [x[6:] for x in prove if x.startswith("righe=")]:
         print("comitato:", com)
         for g in gare: print("   >", calcio.classifica_cat(g[0]), "| gir", g[1], g[2], g[3], "|", g[4], "|", g[5], "-", g[6], g[7], g[8])
     except Exception as e: print("ERRORE", e)
+# "testo=<url PDF>": testo completo (tutte le pagine, al massimo 600 righe), per confrontare a mano dati e fonte
+for u in [x[6:] for x in prove if x.startswith("testo=")]:
+    titolo("TESTO " + u)
+    try:
+        import pdfplumber
+        r = S.get(u, timeout=60); r.raise_for_status()
+        with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+            lines = [l for p in pdf.pages for l in (p.extract_text() or "").splitlines()]
+        print("\n".join("   | " + l for l in lines[:600]))
+    except Exception as e: print("ERRORE", e)
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:
