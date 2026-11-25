@@ -22,7 +22,13 @@ import zipfile
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATO_CAL = os.path.join(ROOT, "config", "calcio_calendari.json")
 GIORNI_MODIFICHE = 35  # alla prima esecuzione si rileggono le variazioni dei comunicati degli ultimi 35 giorni
-PAUSA = 0.8
+PAUSA = 1.5        # secondi tra un file e l'altro (il sito LND risponde con pagine d'errore se si chiede troppo in fretta)
+MAX_ZIP = 15       # ZIP nuovi letti per esecuzione (gli altri alla prossima)
+MAX_CU_VAR = 25    # comunicati nuovi letti per le variazioni per esecuzione
+
+
+class Bloccato(Exception):
+    """Il sito ha risposto con qualcosa che non è il file chiesto: per oggi basta."""
 
 DELEG = [(r"TRIESTE|-TS-|\bTS\b", "Trieste"), (r"UDINE|-UD-|\bUD\b", "Udine"), (r"PORDENONE|-PN-|\bPN\b", "Pordenone"),
          (r"GORIZIA|-GO-|\bGO\b", "Gorizia"), (r"TOLMEZZO|CARNIC", "Tolmezzo")]
@@ -110,7 +116,7 @@ class FileRemoto(io.RawIOBase):
             return b""
         k = (self.pos, n)
         if k not in self.blocchi:
-            time.sleep(0.3)
+            time.sleep(1.0)
             r = self.S.get(self.url, headers={"Range": f"bytes={self.pos}-{self.pos + n - 1}"}, timeout=90)
             if r.status_code != 206:
                 raise IOError("Range non supportato")
@@ -128,9 +134,13 @@ def pdf_da_zip(S, url, filtro=r"calendar"):
     """[(nome, byte)] dei PDF dello ZIP il cui nome corrisponde al filtro."""
     try:
         z = zipfile.ZipFile(io.BufferedReader(FileRemoto(S, url), buffer_size=65536))
+    except zipfile.BadZipFile:
+        raise Bloccato("risposta non ZIP")
     except Exception:
         time.sleep(PAUSA)
         r = S.get(url, timeout=120); r.raise_for_status()
+        if not r.content.startswith(b"PK"):
+            raise Bloccato("risposta non ZIP")
         z = zipfile.ZipFile(io.BytesIO(r.content))
     out = []
     for n in z.namelist():
@@ -143,6 +153,8 @@ def pdf_da_zip(S, url, filtro=r"calendar"):
 def righe_testo(dati):
     """Righe del PDF così come le scrive pdfplumber (tutta la larghezza della pagina)."""
     import pdfplumber
+    if not dati.lstrip()[:5].startswith(b"%PDF"):
+        raise Bloccato("risposta non PDF")
     with pdfplumber.open(io.BytesIO(dati)) as pdf:
         return [l.rstrip() for p in pdf.pages for l in (p.extract_text() or "").splitlines() if l.strip()]
 
@@ -418,21 +430,24 @@ def leggi_fonti(C, elenco_cu, stato, oggi):
         zips = [x for x in elenco_media(C, "allegat", "application/zip") + elenco_media(C, "calendar", "application/zip")]
     except Exception as e:
         print(f"calendari: archivio non letto ({e})"); pdf, zips = [], []
+    bloccato = False
     for x in pdf:
         u = x["source_url"]
-        if u in stato["calendari_letti"]:
+        if u in stato["calendari_letti"] or bloccato:
             continue
         try:
             time.sleep(PAUSA)
             r = C.S.get(u, timeout=120); r.raise_for_status()
             aggiungi_calendari(stato, leggi_calendario_lnd(righe_testo(r.content), u, C), x["date"][:10])
             stato["calendari_letti"].append(u)
+        except Bloccato as e:
+            print(f"  ! calendario {u}: {e}: il sito non risponde bene, il resto alla prossima esecuzione"); bloccato = True
         except Exception as e:
             print(f"  ! calendario {u}: {e}")
     visti = set()
     for x in zips:
         u = x["source_url"]
-        if u in stato["zip_letti"] or u in visti:
+        if u in stato["zip_letti"] or u in visti or bloccato or len(visti) >= MAX_ZIP:
             continue
         visti.add(u)
         try:
@@ -440,20 +455,25 @@ def leggi_fonti(C, elenco_cu, stato, oggi):
                 fonte = u + "#" + nome.rsplit("/", 1)[-1]
                 aggiungi_calendari(stato, leggi_calendario_lnd(righe_testo(dati), fonte, C), x["date"][:10])
             stato["zip_letti"].append(u)
+        except Bloccato as e:
+            print(f"  ! zip {u}: {e}: il sito non risponde bene, il resto alla prossima esecuzione"); bloccato = True
         except Exception as e:
             print(f"  ! zip {u}: {e}")
     # 2. variazioni dei comunicati (alla prima esecuzione: quelli degli ultimi GIORNI_MODIFICHE giorni)
     dal = (dt.date.fromisoformat(oggi) - dt.timedelta(days=GIORNI_MODIFICHE)).isoformat()
-    nuove = 0
-    for x in elenco_cu:
+    nuove = lette = 0
+    for x in sorted(elenco_cu, key=lambda x: x["date"], reverse=True):  # prima i più recenti
         u = x["source_url"]
-        if u in stato["modifiche_lette"] or x["date"][:10] < dal:
+        if u in stato["modifiche_lette"] or x["date"][:10] < dal or bloccato or lette >= MAX_CU_VAR:
             continue
+        lette += 1
         try:
             righe = righe_testo(C.scarica(u))
             mod = leggi_modifiche(righe, u, x["date"][:10], C.comitato_cu(u, righe), C)
             stato["modifiche"] += mod; nuove += len(mod)
             stato["modifiche_lette"].append(u)
+        except Bloccato as e:
+            print(f"  ! variazioni {u}: {e}: il sito non risponde bene, il resto alla prossima esecuzione"); bloccato = True
         except Exception as e:
             print(f"  ! variazioni {u}: {e}")
     limite = (dt.date.fromisoformat(oggi) - dt.timedelta(days=60)).isoformat()

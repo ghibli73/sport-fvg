@@ -76,7 +76,7 @@ _pdf = {}
 def scarica(url):
     """Byte del PDF, scaricato una volta sola per esecuzione (serve sia ai risultati sia alle variazioni)."""
     if url not in _pdf:
-        time.sleep(0.8)
+        time.sleep(1.2)
         r = S.get(url, timeout=90); r.raise_for_status()
         _pdf.clear()  # basta ricordare l'ultimo
         _pdf[url] = r.content

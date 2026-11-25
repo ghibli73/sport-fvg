@@ -85,7 +85,10 @@ hanno la precedenza. Input `silenzioso` e `--prova` come prima.
   applicano in ordine di pubblicazione; una partita non in calendario e non giocata diventa un recupero.
 - Frequenza: con le esecuzioni del calcio (feriali 2 volte, weekend 1). Ogni comunicato si legge una volta
   (`config/calcio_calendari.json`: calendari_letti, zip_letti, modifiche_lette); alla prima esecuzione si rileggono le
-  variazioni dei comunicati degli ultimi 35 giorni. Variazioni tenute 60 giorni.
+  variazioni dei comunicati degli ultimi 35 giorni. Variazioni tenute 60 giorni. Ritmo: 1,5 s tra i file, 1 s tra le
+  richieste Range; al massimo 15 ZIP e 25 comunicati nuovi per esecuzione (il resto alla successiva). Se il sito risponde
+  con qualcosa che non è un PDF/ZIP (pagina d'errore: succede se si chiede troppo in fretta) la lettura delle fonti si
+  ferma per quella esecuzione e i file non letti restano da leggere.
 - Limiti: formato del calendario della Delegazione di Udine ("27/09/2026 - 1^ Giornata ore 10.30 - 13/12/2026" a due
   colonne) non letto; Campionato Carnico (anno solare) e calcio a 5 solo se il calendario è in formato LND; "DATA DA
   DESTINARSI" non dà una data (la partita resta fuori finché non viene fissata); l'ora di una variazione con una sola ora
