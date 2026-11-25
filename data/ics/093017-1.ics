@@ -1,0 +1,122 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.C. Cordenonese 3S ASD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-3a5848f6@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:A.C. CORDENONESE 3S ASD 1-2 FIUME VENETO -BANNIA (Under 19 regional
+ i — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-fbcd5cfe@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:REANESE 6-1 A.C. CORDENONESE 3S ASD (Under 19 regionali — girone 
+ A)
+DESCRIPTION:Under 19 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-51542453@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SPILIMBERGO 3-2 A.C. CORDENONESE 3S ASD (Prima Categoria — girone
+  A)
+DESCRIPTION:Prima Categoria — girone A\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-a67a8d19@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:A.C. CORDENONESE 3S ASD 3-0 OPICINA (Under 19 regionali — girone 
+ A)
+DESCRIPTION:Under 19 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-7673bec9@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:A.C. CORDENONESE 3S ASD 1-2 TAGLIAMENTO (Prima Categoria — girone
+  A)
+DESCRIPTION:Prima Categoria — girone A\n10ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-7f0fbe19@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:PRO FAGAGNA 9-1 A.C. CORDENONESE 3S ASD (Under 19 regionali — gir
+ one A)
+DESCRIPTION:Under 19 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-03013505@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:A.C. CORDENONESE 3S ASD 1-1 SAN LUIGI CALCIO (Under 19 regionali 
+ — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-f543d0bb@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:TORRE 0-0 A.C. CORDENONESE 3S ASD (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n11ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+END:VCALENDAR

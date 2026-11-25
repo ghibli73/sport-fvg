@@ -1,0 +1,514 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Stella Volley A.S.D.
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-21308345@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261030T193000
+DTEND;TZID=Europe/Rome:20261030T213000
+SUMMARY:A.S.D. STELLA VOLLEY 3-0 AURORA VOLLEY UD ARANCIO (Under 15 femmini
+ le CT Udine — girone B)
+LOCATION:Palestra Comunale\, POCENIA UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-deb3d0ab@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261030T203000
+DTEND;TZID=Europe/Rome:20261030T223000
+SUMMARY:A.S.D. STELLA VOLLEY 3-0 FTV RIZZI UDINE (Prima Divisione femminile
+  CT Udine — girone unico)
+LOCATION:Palestra Comunale di Teor\, RIVIGNANO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n5ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-f89da082@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T203000
+DTEND;TZID=Europe/Rome:20261031T223000
+SUMMARY:A.S.D. STELLA VOLLEY 3-1 UNION VOLLEY ACADEMY PN (Serie C femminile
+  — girone unico)
+LOCATION:Palestra Comunale di Rivignano\, RIVIGNANO UD
+DESCRIPTION:Serie C femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-c67773ba@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T181500
+DTEND;TZID=Europe/Rome:20261104T201500
+SUMMARY:ST. DENTISTICO CIAN* 2-1 STELLA VOLLEY BIANCA (Under 13 femminile C
+ T Udine — girone C)
+LOCATION:Palestra Comunale\, CAMPOFORMIDO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-70c10314@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T173000
+DTEND;TZID=Europe/Rome:20261107T193000
+SUMMARY:L.W.V. LATISANA 1-3 A.S.D. STELLA VOLLEY (Under 15 femminile CT Udi
+ ne — girone B)
+LOCATION:Palestra Scuole Medie\, LATISANA UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-4f2cf2d8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T210000
+DTEND;TZID=Europe/Rome:20261107T230000
+SUMMARY:ASD KENNEDY ADEGLIACCO 1-3 A.S.D. STELLA VOLLEY (Prima Divisione fe
+ mminile CT Udine — girone unico)
+LOCATION:Palestra Comunale\, REANA DEL ROIALE UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n3ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-a127673b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:A.S.D. STELLA VOLLEY 3-0 AURORA VOLLEY UDINE SI (Under 19 femminile
+  CT Udine — girone unico)
+LOCATION:Palestra Comunale di Teor\, RIVIGNANO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-ca279aeb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T180000
+DTEND;TZID=Europe/Rome:20261108T200000
+SUMMARY:DB CARR. DE BORTOLI 3-1 A.S.D. STELLA VOLLEY (Serie C femminile —
+  girone unico)
+LOCATION:Palasport\, Cordenons (PN)
+DESCRIPTION:Serie C femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-c-88dc6f5c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261110T183000
+DTEND;TZID=Europe/Rome:20261110T203000
+SUMMARY:A.S.D. STELLA VOLLEY 3-0 BLU TEAM (Under 12 femminile CT Udine — 
+ girone C)
+LOCATION:Palestra Comunale\, POCENIA UD
+DESCRIPTION:Under 12 femminile CT Udine — girone C\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-129d7440@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T193000
+DTEND;TZID=Europe/Rome:20261113T213000
+SUMMARY:A.S.D. STELLA VOLLEY 1-3 MAJANESE VOLLEY (Under 15 femminile CT Udi
+ ne — girone B)
+LOCATION:Palestra Comunale\, POCENIA UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-9ca28212@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:A.S.D. STELLA VOLLEY 3-2 LIBERTAS MARTIGNACCO (Prima Divisione femm
+ inile CT Udine — girone unico)
+LOCATION:Palestra Comunale di Teor\, Teor RIVIGNANO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n4ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-c97a3d88@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T153000
+DTEND;TZID=Europe/Rome:20261114T173000
+SUMMARY:LIBERTAS GONARS 0-3 STELLA VOLLEY AZZURRA (Under 13 femminile CT Ud
+ ine — girone D)
+LOCATION:Palestra Scuole Medie\, GONARS UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-653288b4@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T170000
+DTEND;TZID=Europe/Rome:20261114T190000
+SUMMARY:STELLA VOLLEY BIANCA 0-3 LIBERTAS MARTIGNACCO (Under 13 femminile C
+ T Udine — girone C)
+LOCATION:Palestra Comunale di Teor\, RIVIGNANO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-79d73fac@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:A.S.D. STELLA VOLLEY 0-3 VILLADIES FARMADERBE (Serie C femminile 
+ — girone unico)
+LOCATION:Palestra Comunale di Rivignano\, Rivignano (UD)
+DESCRIPTION:Serie C femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-d20d5a70@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261116T190000
+DTEND;TZID=Europe/Rome:20261116T210000
+SUMMARY:STELLA VOLLEY AZZURRA 3-0 A.S.D. FUTURA PALMANOVA (Under 13 femmini
+ le CT Udine — girone D)
+LOCATION:Palestra Comunale\, POCENIA UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-c-2991b740@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261117T183000
+DTEND;TZID=Europe/Rome:20261117T203000
+SUMMARY:A.S.D. STELLA VOLLEY 3-0 HORIZON CODROIPO (Under 12 femminile CT Ud
+ ine — girone C)
+LOCATION:Palestra Comunale\, POCENIA UD
+DESCRIPTION:Under 12 femminile CT Udine — girone C\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-37be86a3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261117T183000
+DTEND;TZID=Europe/Rome:20261117T203000
+SUMMARY:DOPOLAV. FERROV. UD. 0-3 STELLA VOLLEY AZZURRA (Under 13 femminile 
+ CT Udine — girone D)
+LOCATION:Palestra Scuola Alberti\, UDINE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-5fba557c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T193000
+DTEND;TZID=Europe/Rome:20261120T213000
+SUMMARY:A.S.D. STELLA VOLLEY 3-2 LIBERTAS MARTIGNACCO (Under 15 femminile C
+ T Udine — girone B)
+LOCATION:Palestra Comunale\, POCENIA UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-0a7e0c4f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T203000
+DTEND;TZID=Europe/Rome:20261120T223000
+SUMMARY:A.S.D. STELLA VOLLEY 0-3 FVG VOLLEY ACADEMY (Prima Divisione femmin
+ ile CT Udine — girone unico)
+LOCATION:Palestra Comunale di Teor\, Teor RIVIGNANO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n6ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-f05d0911@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T203000
+DTEND;TZID=Europe/Rome:20261121T223000
+SUMMARY:PAV NATISONIA 1-3 A.S.D. STELLA VOLLEY (Serie C femminile — giron
+ e unico)
+LOCATION:Palazzetto dello Sport\, San Giovanni al Natisone (UD)
+DESCRIPTION:Serie C femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-8a9f36c2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:A.S.D. STELLA VOLLEY 3-1 CLUB AURORA VOLLEY UDINE (Under 19 femmini
+ le CT Udine — girone unico)
+LOCATION:Palestra Comunale di Teor\, RIVIGNANO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-2fec2aa8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261124T180000
+DTEND;TZID=Europe/Rome:20261124T200000
+SUMMARY:BLANC RIZZI UDINE FTV 1-2 STELLA VOLLEY BIANCA (Under 13 femminile 
+ CT Udine — girone C)
+LOCATION:Palestra Scuole Rodari\, via Val d'Aupa\, UDINE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-90f091ce@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261124T191500
+DTEND;TZID=Europe/Rome:20261124T211500
+SUMMARY:FVG VOLLEY ACADEMY 3-0 A.S.D. STELLA VOLLEY (Under 15 femminile CT 
+ Udine — girone B)
+LOCATION:Palestra Scuole Medie\, via San Giusto\, LESTIZZA UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-50256815@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261127T210000
+DTEND;TZID=Europe/Rome:20261127T230000
+SUMMARY:VOLLEY BALL CARNIA – A.S.D. STELLA VOLLEY (Prima Divisione femmin
+ ile CT Udine — girone unico)
+LOCATION:Palestra Falcone\, Via XXV Aprile\, TOLMEZZO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n7ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-f8c0bdf5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:A.S.D. STELLA VOLLEY – ROJALKENNEDY EMPORIO ADV (Serie C femminil
+ e — girone unico)
+LOCATION:Palestra Comunale di Rivignano\, via Ungaretti 35\, Rivignano (UD)
+DESCRIPTION:Serie C femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-c-cf50cc20@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:PROJECT VOLLEY OLIMPIA – A.S.D. STELLA VOLLEY (Under 12 femminile
+  CT Udine — girone C)
+LOCATION:Palestra Scuole Medie\, Via Filippo Corridoni\, PORPETTO UD
+DESCRIPTION:Under 12 femminile CT Udine — girone C\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-fdf6ff21@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:PROJECTVOLLEY SANGIORED – STELLA VOLLEY AZZURRA (Under 13 femmini
+ le CT Udine — girone D)
+LOCATION:Palazzetto dello Sport\, Via Palladio\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-4bfd18a1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:LIBERTAS MARTIGNACCO – A.S.D. STELLA VOLLEY (Under 19 femminile C
+ T Udine — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, Via San Biagio\, MARTIGN
+ ACCO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-c-fb38eb12@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261201T183000
+DTEND;TZID=Europe/Rome:20261201T203000
+SUMMARY:A.S.D. STELLA VOLLEY – VOLLEY TALMASSONS (Under 12 femminile CT U
+ dine — girone C)
+DESCRIPTION:Under 12 femminile CT Udine — girone C\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-eefb0499@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261203T181500
+DTEND;TZID=Europe/Rome:20261203T201500
+SUMMARY:HORIZON GAS & ENERGIE – STELLA VOLLEY AZZURRA (Under 13 femminile
+  CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-94828318@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261203T193000
+DTEND;TZID=Europe/Rome:20261203T213000
+SUMMARY:STELLA VOLLEY BIANCA – BLU TEAM (Under 13 femminile CT Udine — 
+ girone C)
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-9437bdf8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:A.S.D. STELLA VOLLEY – FACTORY VOLLEY FAEDIS (Prima Divisione fem
+ minile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n8ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-e15901de@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T200000
+DTEND;TZID=Europe/Rome:20261205T220000
+SUMMARY:TIKITAKA STARANZANO – A.S.D. STELLA VOLLEY (Serie C femminile —
+  girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-4783135d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T113000
+DTEND;TZID=Europe/Rome:20261206T133000
+SUMMARY:ART_CENTO VOLLEY – A.S.D. STELLA VOLLEY (Under 19 femminile CT Ud
+ ine — girone unico)
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-a7e94947@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T150000
+DTEND;TZID=Europe/Rome:20261206T170000
+SUMMARY:AURORA VOLLEY UD ARANCIO – A.S.D. STELLA VOLLEY (Under 15 femmini
+ le CT Udine — girone B)
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-5bb141c0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:VILLADIES SAFE MARINE – A.S.D. STELLA VOLLEY (Prima Divisione fem
+ minile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n9ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+END:VCALENDAR

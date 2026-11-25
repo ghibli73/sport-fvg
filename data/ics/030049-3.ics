@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Lignano Basket
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-fd44cbdb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:BASKET CERVIGNANESE 51-47 LIGNANO BASKET (Under 14 Maschile Regiona
+ le — girone GO/TS/UD)
+LOCATION:Pal. Scuole Elementari\, Cervignano del Friuli
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n1ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-754fbaa0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261106T190000
+DTEND;TZID=Europe/Rome:20261106T210000
+SUMMARY:LIGNANO BASKET 63-39 PALL. LAIPACCO (Under 14 Maschile Regionale 
+ — girone GO/TS/UD)
+LOCATION:Palazzetto dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n2ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+END:VCALENDAR

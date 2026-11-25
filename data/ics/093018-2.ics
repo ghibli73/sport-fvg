@@ -1,0 +1,118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Basket Cordovado
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-24241e7f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261028T171500
+DTEND;TZID=Europe/Rome:20261028T191500
+SUMMARY:RORAIGRANDE 77-79 BASKET CORDOVADO (Under 17 Maschile Gold — giro
+ ne PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-3a77e517@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:BASKET CORDOVADO 81-64 VIS SPILIMBERGO (Under 17 Maschile Gold — 
+ girone PN (prima fase))
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-80eda58a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T120000
+DTEND;TZID=Europe/Rome:20261115T140000
+SUMMARY:NUOVO BASKET 2000 50-47 BASKET CORDOVADO (Under 17 Maschile Gold 
+ — girone PN (prima fase))
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-b736a284@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T164500
+DTEND;TZID=Europe/Rome:20261116T184500
+SUMMARY:Basket Cordovado 66-58 Libertas Fiume Veneto (Under 13 Maschile —
+  girone PN B)
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 13 Maschile — girone PN B\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-c9aa49aa@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T193000
+DTEND;TZID=Europe/Rome:20261125T213000
+SUMMARY:BASKET CORDOVADO – G.S. VALLENONCELLO (Under 17 Maschile Gold —
+  girone PN (prima fase))
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n6ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-01222689@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261130T164500
+DTEND;TZID=Europe/Rome:20261130T184500
+SUMMARY:Pall. Portogruaro – Basket Cordovado (Under 13 Maschile — giron
+ e PN B)
+LOCATION:Palestra Comunale "Summaga"\, Portogruaro
+DESCRIPTION:Under 13 Maschile — girone PN B\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-7f9a2f34@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270111T164500
+DTEND;TZID=Europe/Rome:20270111T184500
+SUMMARY:Basket Cordovado 96-26 Pol. Casarsa (Under 13 Maschile — girone P
+ N B)
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 13 Maschile — girone PN B\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+END:VCALENDAR

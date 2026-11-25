@@ -1,0 +1,171 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. Fiumicello 2004
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-promozione-a-19424bda@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:CORVA 1-1 FIUMICELLO 2004 (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-19-provinciali-e-8ee3f9b4@zuin-fvg
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:FIUMICELLO 2004 4-0 TRIESTE VICTORY ACADESQ.B (Under 19 provinciali
+  — girone E)
+DESCRIPTION:Under 19 provinciali — girone E\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-19-provinciali-e
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ -e
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-47114460@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:AZZURRA 0-2 FIUMICELLO 2004 (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-9ee97c58@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:FIUMICELLO 2004 1-2 SANT ANDREA SAN VITO (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n10ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-d401f389@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:FIUMICELLO 2004 1-1 MUGGIA 1967 (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-15-provinciali-e-06aff991@zuin-fvg
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:BUTTRIO CALCIO 0-2 FIUMICELLO 2004 (Under 15 provinciali — girone
+  E)
+DESCRIPTION:Under 15 provinciali — girone E\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-15-provinciali-e
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
+ -e
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-d0312ccd@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:S.P.A.L.CORDOVADO 0-1 FIUMICELLO 2004 (Under 16 regionali — giron
+ e A)
+DESCRIPTION:Under 16 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-992e27d7@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:BUJESE CALCIO 3-2 FIUMICELLO 2004 (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n11ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-14-provinciali-e-09c6ffec@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:FIUMICELLO 2004 0-3 MANZANESE CALCIO (Under 14 provinciali — giro
+ ne E)
+DESCRIPTION:Under 14 provinciali — girone E\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-14-provinciali-e
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-14-provinciali
+ -e
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-89e4be77@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:DOMIO 0-17 FIUMICELLO 2004 (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-a7ec5ed1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:FIUMICELLO 2004 4-1 UDINE UNITED RIZZI CORMOR (Under 16 regionali 
+ — girone A)
+DESCRIPTION:Under 16 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-38dfac17@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:DONATELLO CALCIO A.S.D. 2-0 FIUMICELLO 2004 (Under 16 regionali —
+  girone A)
+DESCRIPTION:Under 16 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+END:VCALENDAR

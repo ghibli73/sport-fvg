@@ -1,0 +1,204 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · S.S. Sangiorgina
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-290c547b@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:U.FINCANTIERI MONFALCONE 2-2 SANGIORGINA (Under 18 regionali — gi
+ rone A)
+DESCRIPTION:Under 18 regionali — girone A\n8ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-3cc967fe@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:TOLMEZZO CARNIA 0-1 SANGIORGINA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-5bdfef71@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:SANGIORGINA 1-1 NUOVO PORDENONE 2024 FC (Under 18 regionali — gir
+ one A)
+DESCRIPTION:Under 18 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-c6917a72@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:CHIONS 3-2 SANGIORGINA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-1d27056c@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SANGIORGINA 0-0 LA FORTEZZA GRADISCA (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-98f2f723@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:SANGIORGINA 4-0 POLISPORTIVA TAMAI ASD (Under 19 regionali — giro
+ ne A)
+DESCRIPTION:Under 19 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-0f679e2b@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:AZZURRA 2-3 SANGIORGINA (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n10ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-15-provinciali-a-b7811262@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CORNO CALCIO 1929 0-4 SANGIORGINA (Under 15 provinciali — girone 
+ A)
+DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-15-provinciali-e-1c4e8386@zuin-fvg
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:TRIESTE VICTORY ACADESQ.B 1-0 SANGIORGINA (Under 15 provinciali —
+  girone E)
+DESCRIPTION:Under 15 provinciali — girone E\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-15-provinciali-e
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
+ -e
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-86e1cea9@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:U.FINCANTIERI MONFALCONE 1-1 SANGIORGINA (Under 19 regionali — gi
+ rone A)
+DESCRIPTION:Under 19 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-6df8e2b2@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:PALMARKET PAGNACCO 0-3 SANGIORGINA (Under 18 regionali — girone A
+ )
+DESCRIPTION:Under 18 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-ec89f84f@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:SANGIORGINA 0-1 NUOVO PORDENONE 2024 FC (Under 19 regionali — gir
+ one A)
+DESCRIPTION:Under 19 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-5ca54daa@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SANGIORGINA 2-1 UNION 91 (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n11ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-14-provinciali-e-63a63480@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SANGIORGINA 0-2 BUTTRIO CALCIO (Under 14 provinciali — girone E)
+DESCRIPTION:Under 14 provinciali — girone E\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-14-provinciali-e
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-14-provinciali
+ -e
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-15-provinciali-a-7209549f@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SANGIORGINA 2-0 CHIAVRIS (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
+ -a
+END:VEVENT
+END:VCALENDAR

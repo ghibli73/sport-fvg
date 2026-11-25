@@ -1,0 +1,262 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.D. G.S. Pallavolo Arzene Valvasone
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-9d9b543e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T170000
+DTEND;TZID=Europe/Rome:20261031T190000
+SUMMARY:TREVISAN METALMECCANICA 3-1 CARR. F.LLI CARNELOS GIS (Seconda Divis
+ ione femminile CT Pordenone — girone unico)
+LOCATION:Palestra Scuole Medie\, VALVASONE PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n3ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-56e3455c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T200000
+DTEND;TZID=Europe/Rome:20261031T220000
+SUMMARY:TECNECO 3-1 ECOCOSTRUZIONI GSD FAVRIA (Prima Divisione femminile CT
+  Pordenone — girone unico)
+LOCATION:Palestra Scuole Medie\, VALVASONE PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n3ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-a-0f0bc452@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T150000
+DTEND;TZID=Europe/Rome:20261101T170000
+SUMMARY:CFV - FULL SERVICE 3-0 TREVISAN MET. JUNIOR (Under 15 femminile CT 
+ Pordenone — girone A)
+LOCATION:Palasport Villotta\, Villotta CHIONS PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone A\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-938c546e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T173000
+DTEND;TZID=Europe/Rome:20261107T193000
+SUMMARY:A.P. TRAVESIO 0-3 TREVISAN METALMECCANICA (Seconda Divisione femmin
+ ile CT Pordenone — girone unico)
+LOCATION:Palestra Scuole Medie\, TRAVESIO PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n4ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-92a13941@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:APC LIFETIME CENTER CINTO 3-0 TECNECO (Prima Divisione femminile CT
+  Pordenone — girone unico)
+LOCATION:Palasport Trevisan\, CINTO CAOMAGGIORE VE
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n4ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-289d3663@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261112T200000
+DTEND;TZID=Europe/Rome:20261112T220000
+SUMMARY:TECNECO 3-0 BIELECTRA (Prima Divisione femminile CT Pordenone — g
+ irone unico)
+LOCATION:Palestra Scuole Medie\, Valvasone PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n5ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-62e5c528@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T170000
+DTEND;TZID=Europe/Rome:20261114T190000
+SUMMARY:TREVISAN METALMECCANICA 0-3 ABRAWORD FAVRIA S.VITO (Seconda Divisio
+ ne femminile CT Pordenone — girone unico)
+LOCATION:Palestra Scuole Medie\, Valvasone PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n5ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-3855389a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:MIDA AD AVIANO 1-3 TECNECO (Prima Divisione femminile CT Pordenone 
+ — girone unico)
+LOCATION:Palasport\, Aviano PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n6ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-1b3a5665@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T200000
+DTEND;TZID=Europe/Rome:20261121T220000
+SUMMARY:TECNECO 3-1 GRIMEL GIS (Prima Divisione femminile CT Pordenone — 
+ girone unico)
+LOCATION:Palestra Scuole Medie\, Valvasone (PN)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n7ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-a-03dc4db5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:TREVISAN MET. JUNIOR 1-3 VIS ET VIRTUS ROVEREDO (Under 15 femminile
+  CT Pordenone — girone A)
+LOCATION:Palestra Scuole Medie\, Valvasone (PN)
+DESCRIPTION:Under 15 femminile CT Pordenone — girone A\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-a-34ddd632@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261126T193000
+DTEND;TZID=Europe/Rome:20261126T213000
+SUMMARY:CASAMERCATO VOLLEY – TREVISAN MET. JUNIOR (Under 15 femminile CT 
+ Pordenone — girone A)
+LOCATION:Palestra Scuole\, Via Fradeis\, MONTEREALE VALCELLINA PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone A\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-26f21be6@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:TREVISAN METALMECCANICA – BLU VOLLEY PORDENONE (Seconda Divisione
+  femminile CT Pordenone — girone unico)
+LOCATION:Palestra Scuole Medie\, via Sant'Elena 6\, VALVASONE PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n7ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-a-066331f9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T120000
+DTEND;TZID=Europe/Rome:20261129T140000
+SUMMARY:EIDOS U15 – TREVISAN MET. JUNIOR (Under 15 femminile CT Pordenone
+  — girone A)
+LOCATION:Palazzetto dello Sport\, Via del Parco 13\, FONTANAFREDDA PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone A\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-fa8f9c36@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T193000
+DTEND;TZID=Europe/Rome:20261129T213000
+SUMMARY:PORDENONE VOLLEY – TECNECO (Prima Divisione femminile CT Pordenon
+ e — girone unico)
+LOCATION:Palestra Borgomeduna\, Via Prasecco 3\, PORDENONE PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n8ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-20d4dcae@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T180000
+DTEND;TZID=Europe/Rome:20261205T200000
+SUMMARY:ALTA RESA – TREVISAN METALMECCANICA (Seconda Divisione femminile 
+ CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n8ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-cb2f9ce5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T203000
+DTEND;TZID=Europe/Rome:20261205T223000
+SUMMARY:TECNECO – UR-BUN S. VITO AL TAGL. (Prima Divisione femminile CT P
+ ordenone — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n9ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-a-548eea77@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T110000
+DTEND;TZID=Europe/Rome:20261206T130000
+SUMMARY:TREVISAN MET. JUNIOR – VPA (Under 15 femminile CT Pordenone — g
+ irone A)
+DESCRIPTION:Under 15 femminile CT Pordenone — girone A\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-a
+END:VEVENT
+END:VCALENDAR

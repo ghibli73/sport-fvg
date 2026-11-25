@@ -1,0 +1,196 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Basket Pasiano
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-b-576dd8ca@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261028T190000
+DTEND;TZID=Europe/Rome:20261028T210000
+SUMMARY:Basket Pasiano 81-64 O.F.P. Azzurra R.D.R. Basket Trieste (Under 19
+  Maschile Gold — girone B)
+LOCATION:Palazzetto "Roberto Marson"\, Pasiano di Pordenone
+DESCRIPTION:Under 19 Maschile Gold — girone B\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-99129be1@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261028T210000
+DTEND;TZID=Europe/Rome:20261028T230000
+SUMMARY:BALONSESTO 50-44 BASKET PASIANO 'B' (Divisione Regionale 3 — giro
+ ne PN)
+LOCATION:Palazzetto Comunale\, Sesto al Reghena
+DESCRIPTION:Divisione Regionale 3 — girone PN\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-48bbc60d@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261031T193000
+DTEND;TZID=Europe/Rome:20261031T213000
+SUMMARY:Basket Maniago 59-77 Basket Pasiano (Divisione Regionale 2 — giro
+ ne PN)
+LOCATION:Palazzetto dello Sport\, Maniago
+DESCRIPTION:Divisione Regionale 2 — girone PN\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-bd122831@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T193000
+DTEND;TZID=Europe/Rome:20261102T213000
+SUMMARY:Ronchi Basket Club 60-88 Basket Pasiano (Under 19 Maschile Gold —
+  girone B)
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 19 Maschile Gold — girone B\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-83ac9e9c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T180000
+DTEND;TZID=Europe/Rome:20261103T200000
+SUMMARY:Roraigrande Basket 14-57 Basket Pasiano (Under 13 Maschile — giro
+ ne PN A)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-9f8adb17@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:BVO Annone 66-63 Basket Pasiano (Divisione Regionale 2 — girone P
+ N)
+LOCATION:Palazzetto dello Sport\, Annone Veneto
+DESCRIPTION:Divisione Regionale 2 — girone PN\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-e2532d16@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T100000
+DTEND;TZID=Europe/Rome:20261108T120000
+SUMMARY:Basket Pasiano 69-29 Aviano Basket (Under 13 Maschile — girone PN
+  A)
+LOCATION:Palazzetto "Roberto Marson"\, Pasiano di Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-f040d5fa@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T190000
+DTEND;TZID=Europe/Rome:20261111T210000
+SUMMARY:Basket Pasiano 59-46 Pol. Casarsa (Under 19 Maschile Gold — giron
+ e B)
+LOCATION:Palazzetto "Roberto Marson"\, Pasiano di Pordenone
+DESCRIPTION:Under 19 Maschile Gold — girone B\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-cf34d655@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261111T210000
+DTEND;TZID=Europe/Rome:20261111T230000
+SUMMARY:NAONIS BASKET 46-35 BASKET PASIANO 'B' (Divisione Regionale 3 — g
+ irone PN)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Divisione Regionale 3 — girone PN\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-ccca3256@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261113T184500
+DTEND;TZID=Europe/Rome:20261113T204500
+SUMMARY:Humus Basket 66-45 Basket Pasiano (Under 13 Maschile — girone PN 
+ A)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 13 Maschile — girone PN A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-1fea33dc@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T211500
+DTEND;TZID=Europe/Rome:20261113T231500
+SUMMARY:Basket Pasiano 81-46 Humus Basket Sacile (Divisione Regionale 2 —
+  girone PN)
+LOCATION:Palazzetto Roberto Marson\, Pasiano di Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-08150bfd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T113000
+DTEND;TZID=Europe/Rome:20261115T133000
+SUMMARY:Libertas Trieste 37-80 Basket Pasiano (Under 19 Maschile Gold — g
+ irone B)
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Under 19 Maschile Gold — girone B\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-1a273b39@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T190000
+DTEND;TZID=Europe/Rome:20261125T210000
+SUMMARY:Basket Pasiano – Udine Basket Club (Under 19 Maschile Gold — gi
+ rone B)
+LOCATION:Palazzetto "Roberto Marson"\, Pasiano di Pordenone
+DESCRIPTION:Under 19 Maschile Gold — girone B\n8ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,105 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Nuova Pallacanestro Sanvitese
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr2-pn-0761fca7@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T203000
+DTEND;TZID=Europe/Rome:20261030T223000
+SUMMARY:Nordcaravan 82-54 Nuova Pallacanestro Sanvitese (Divisione Regional
+ e 2 — girone PN)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-f2db11f6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T183000
+DTEND;TZID=Europe/Rome:20261031T203000
+SUMMARY:BVO ANNONE 67-49 NUOVA PALLACANESTRO SANVITESE (Under 17 Maschile R
+ egionale — girone PN (prima fase))
+LOCATION:Palazzetto dello Sport\, Annone Veneto
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-3d9b6055@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T203000
+DTEND;TZID=Europe/Rome:20261106T223000
+SUMMARY:Nuova Pallacanestro Sanvitese 64-69 Pallacanestro Fossaltese (Divis
+ ione Regionale 2 — girone PN)
+LOCATION:Palazzetto dello Sport\, San Vito al Tagliamento
+DESCRIPTION:Divisione Regionale 2 — girone PN\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-c-fb5b10a8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T173000
+DTEND;TZID=Europe/Rome:20261107T193000
+SUMMARY:WEB SBaMM 66-64 NUOVA PALLACANESTRO SANVITESE (Under 14 Maschile Go
+ ld — girone C (prima fase))
+LOCATION:Palestra Ist. F. Tomadini\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone C (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-7cc0237b@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261112T210000
+DTEND;TZID=Europe/Rome:20261112T230000
+SUMMARY:A.P.C. Chions 68-57 Nuova Pallacanestro Sanvitese (Divisione Region
+ ale 2 — girone PN)
+LOCATION:Palasport\, Chions
+DESCRIPTION:Divisione Regionale 2 — girone PN\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-ed6fb258@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T113000
+DTEND;TZID=Europe/Rome:20261115T133000
+SUMMARY:BASKET MANIAGO 105-31 NUOVA PALLACANESTRO SANVITESE (Under 17 Masch
+ ile Regionale — girone PN (prima fase))
+LOCATION:Palazzetto dello Sport\, Maniago
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+END:VCALENDAR

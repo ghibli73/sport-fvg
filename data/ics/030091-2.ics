@@ -1,0 +1,118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · UEB Academy Cividale
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-a-15c2782a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261026T203000
+DTEND;TZID=Europe/Rome:20261026T223000
+SUMMARY:UEB Academy Cividale 35-96 CHIURLO CERVIGNANO (Under 19 Maschile Go
+ ld — girone A)
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-64c56d15@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T193000
+DTEND;TZID=Europe/Rome:20261031T213000
+SUMMARY:Uattzy SBaMM 76-87 UEB Academy Cividale (Under 17 Maschile Gold —
+  girone UD (prima fase))
+LOCATION:Palestra Tomadini\, Udine
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-8e4454ee@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T210000
+DTEND;TZID=Europe/Rome:20261102T230000
+SUMMARY:DINAMO GORIZIA 72-59 UEB Academy Cividale (Under 19 Maschile Gold 
+ — girone A)
+LOCATION:PalaBigot\, Gorizia
+DESCRIPTION:Under 19 Maschile Gold — girone A\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-97ad0658@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T150000
+DTEND;TZID=Europe/Rome:20261108T170000
+SUMMARY:UEB Academy Cividale 66-60 BASKET TERZO (Under 17 Maschile Gold —
+  girone UD (prima fase))
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-b45a0bdb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T184500
+DTEND;TZID=Europe/Rome:20261109T204500
+SUMMARY:Scuola Basket Miky Mian 89-101 UEB Academy Cividale (Under 19 Masch
+ ile Gold — girone A)
+LOCATION:Palestra Mazzini\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone A\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-f0278435@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261113T190000
+DTEND;TZID=Europe/Rome:20261113T210000
+SUMMARY:FELETTO BASKETBALL ACADEMY 68-67 UEB Academy Cividale (Under 17 Mas
+ chile Gold — girone UD (prima fase))
+LOCATION:Palestra Cavalicco\, Tavagnacco
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-92715eac@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T203000
+DTEND;TZID=Europe/Rome:20261116T223000
+SUMMARY:UEB Academy Cividale 89-85 BVO ANNONE (Under 19 Maschile Gold — g
+ irone A)
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.A.R. - A.S. Am. Romans
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-f735f754@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261029T204500
+DTEND;TZID=Europe/Rome:20261029T224500
+SUMMARY:PALLACANESTRO GRADO 48-56 A.S.A.R.-A.S. AM.ROMANS (Divisione Region
+ ale 3 — girone GO/TS)
+LOCATION:Palasport della Sacca dei Moreri\, Grado
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-f56f3a61@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:A.S.A.R.-A.S. AM.ROMANS 41-72 O.F.P. AZZURRA R.D.R. Basket (Under 1
+ 5 Maschile Regionale — girone GO/TS)
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-7dec78da@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:A.S.A.R.-A.S. AM.ROMANS 77-34 US ALBA PALLACANESTRO 'B' (Divisione 
+ Regionale 3 — girone GO/TS)
+LOCATION:Palestra Comunale\, Romans d'Isonzo
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-546a8316@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:NAUTILUS ALLESTIMENTI 66-56 A.S.A.R.-A.S. AM.ROMANS (Under 15 Masch
+ ile Regionale — girone GO/TS)
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-f607076d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:U.S. GORIZIANA 90-70 A.S.A.R.-A.S. AM.ROMANS (Under 15 Maschile Reg
+ ionale — girone GO/TS)
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-fd7d7726@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T210000
+DTEND;TZID=Europe/Rome:20261113T230000
+SUMMARY:A.S.A.R.-A.S. AM.ROMANS 50-44 OLIMPIA GORIZIA (Divisione Regionale 
+ 3 — girone GO/TS)
+LOCATION:Palestra Comunale\, Romans d'Isonzo
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+END:VCALENDAR

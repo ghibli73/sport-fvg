@@ -1,0 +1,442 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · U.S.D. Sloga (Zalet)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-19e8cc86@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261028T190000
+DTEND;TZID=Europe/Rome:20261028T210000
+SUMMARY:ZALET SLOGA U15 3-0 CASSA RURALE FVG TURRIACO (Under 15 femminile C
+ T Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-eed549c1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:ZALET SLOGA 3-0 ASD LE VOLPI (Seconda Divisione femminile CT Triest
+ e-Gorizia — girone B)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n3
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-10c42bcc@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T180000
+DTEND;TZID=Europe/Rome:20261031T200000
+SUMMARY:EDILADRIA-FINCANTIERI 1-3 ZALET SLOGA (Prima Divisione femminile CT
+  Trieste-Gorizia — girone unico)
+LOCATION:Palasport\, MONFALCONE
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 1ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-a-2a159180@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261105T173000
+DTEND;TZID=Europe/Rome:20261105T193000
+SUMMARY:ASD MOSSA 0-3 ZALET SLOGA U17 (Under 17 femminile CT Trieste-Gorizi
+ a — girone A)
+LOCATION:Palestra Comunale\, MOSSA GO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-a-12b1bac4@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261106T190000
+DTEND;TZID=Europe/Rome:20261106T210000
+SUMMARY:CARTUBI OLYMPIA TRIESTE 2-3 ZALET SLOGA U17 (Under 17 femminile CT 
+ Trieste-Gorizia — girone A)
+LOCATION:Palestra Stadio Rocco\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone A\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-37f789aa@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261106T204500
+DTEND;TZID=Europe/Rome:20261106T224500
+SUMMARY:ZALET SLOGA 3-0 FILO...VIA VOLLEY CLUB TS (Prima Divisione femminil
+ e CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 2ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-15250602@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T173000
+DTEND;TZID=Europe/Rome:20261107T193000
+SUMMARY:ZALET SLOGA 1-3 COSELLI 2D ARANCIONE (Seconda Divisione femminile C
+ T Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n4
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-567ba79e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T190000
+DTEND;TZID=Europe/Rome:20261108T210000
+SUMMARY:ASD OFP AZZURRA RDR LUCE 3-1 ZALET SLOGA U15 (Under 15 femminile CT
+  Trieste-Gorizia — girone B)
+LOCATION:Palestra Don Marzari\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-a-9e62e99d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T153000
+DTEND;TZID=Europe/Rome:20261114T173000
+SUMMARY:OLYMPIA TRIESTE NEXT GEN 3-0 SLOGA U14 (Under 14 femminile CT Tries
+ te-Gorizia — girone A)
+LOCATION:Palestra Stadio Rocco\, TRIESTE TS
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone A\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-1ead3ffe@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T190000
+DTEND;TZID=Europe/Rome:20261114T210000
+SUMMARY:U.S. AZZURRA 3-0 ZALET SLOGA (Seconda Divisione femminile CT Triest
+ e-Gorizia — girone B)
+LOCATION:Circ. Spor. Slov. - Pal. Mirko Spacapan\, GORIZIA GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n5
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-6919d004@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:AUTOSCUOLA EDI STARANZANO 1-3 ZALET SLOGA (Prima Divisione femminil
+ e CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Scuole Medie\, STARANZANO GO
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 3ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-e34ff7b0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:ZALET SLOGA U15 3-0 AR FINCANTIERI ASD (Under 15 femminile CT Tries
+ te-Gorizia — girone B)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-311ec720@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261118T204500
+DTEND;TZID=Europe/Rome:20261118T224500
+SUMMARY:ZALET SLOGA U19 3-0 CENTRO COSELLI U19X (Under 19 femminile CT Trie
+ ste-Gorizia — girone A)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO TS
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-a-e5bfe615@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261119T203000
+DTEND;TZID=Europe/Rome:20261119T223000
+SUMMARY:ZALET SLOGA U17 0-3 ASD OFP AZZURRA RDR ARIA (Under 17 femminile CT
+  Trieste-Gorizia — girone A)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone A\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-a-4f56baea@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T150000
+DTEND;TZID=Europe/Rome:20261121T170000
+SUMMARY:SLOGA U14 2-3 ASD OFP AZZURRARDR COMETA (Under 14 femminile CT Trie
+ ste-Gorizia — girone A)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO TS
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-0fd95542@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T173000
+DTEND;TZID=Europe/Rome:20261121T193000
+SUMMARY:ZALET SLOGA 3-0 CASSA RURALE FVG TURRIACO (Seconda Divisione femmin
+ ile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n6
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-fdd82dce@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T203000
+DTEND;TZID=Europe/Rome:20261121T223000
+SUMMARY:ZALET SLOGA 3-1 UNICLIMA TSV (Prima Divisione femminile CT Trieste-
+ Gorizia — girone unico)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 4ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-c33c8e57@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T103000
+DTEND;TZID=Europe/Rome:20261122T123000
+SUMMARY:ZALET SLOGA U15 3-1 EXCALIBUR OLYMPIA TRIESTE (Under 15 femminile C
+ T Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-a-58094041@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T163000
+DTEND;TZID=Europe/Rome:20261122T183000
+SUMMARY:RZ PELLETS - GLASMIK 3-2 ZALET SLOGA U17 (Under 17 femminile CT Tri
+ este-Gorizia — girone A)
+LOCATION:Palestra Comunale S. Andrea\, GORIZIA GO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone A\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-a-494884ec@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261125T190000
+DTEND;TZID=Europe/Rome:20261125T210000
+SUMMARY:ZALET SLOGA U17 – EUROVOLLEYSCHOOL U.17 (Under 17 femminile CT Tr
+ ieste-Gorizia — girone A)
+LOCATION:Palestra Comunale Paolo Colja\, Repen 177\, MONRUPINO TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone A\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-8811fc67@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261125T203000
+DTEND;TZID=Europe/Rome:20261125T223000
+SUMMARY:PINETA CITY OLYMPIA TS – ZALET SLOGA (Prima Divisione femminile C
+ T Trieste-Gorizia — girone unico)
+LOCATION:Palestra Stadio Rocco\, Via Dei Macelli 5/1\, TRIESTE TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 5ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-8dfb516c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T163000
+DTEND;TZID=Europe/Rome:20261128T183000
+SUMMARY:ZALET SLOGA – PALLAVOLO ALTURA (Seconda Divisione femminile CT Tr
+ ieste-Gorizia — girone B)
+LOCATION:Palestra Comunale Paolo Colja\, Repen 177\, MONRUPINO TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n7
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-a-1dc0d0da@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T163000
+DTEND;TZID=Europe/Rome:20261128T183000
+SUMMARY:VOLLEY CLUB TRIESTE – SLOGA U14 (Under 14 femminile CT Trieste-Go
+ rizia — girone A)
+LOCATION:Palestra Cobolli\, Via della Valle 3\, TRIESTE TS
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone A\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-da8c8e62@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:ZALET SLOGA U15 – SYSTEM VOLLEY U.15 (Under 15 femminile CT Tries
+ te-Gorizia — girone B)
+LOCATION:Palestra Comunale Paolo Colja\, Repen 177\, MONRUPINO TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-e07e7ef8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:UNICLIMA TSV – ZALET SLOGA U19 (Under 19 femminile CT Trieste-Gor
+ izia — girone A)
+LOCATION:Palestra Liceo Galilei\, Via Mameli 4\, TRIESTE TS
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-a-24f79d51@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261130T173000
+DTEND;TZID=Europe/Rome:20261130T193000
+SUMMARY:SLOGA U14 – AZZURRA FOREVER (Under 14 femminile CT Trieste-Gorizi
+ a — girone A)
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone A\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-270c90e0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261201T200000
+DTEND;TZID=Europe/Rome:20261201T220000
+SUMMARY:FARRAVOLO – ZALET SLOGA U19 (Under 19 femminile CT Trieste-Gorizi
+ a — girone A)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-92f626ca@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261202T204500
+DTEND;TZID=Europe/Rome:20261202T224500
+SUMMARY:MAMACA TSV BOOMER – ZALET SLOGA (Seconda Divisione femminile CT T
+ rieste-Gorizia — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n8
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-e30c60ae@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261203T200000
+DTEND;TZID=Europe/Rome:20261203T220000
+SUMMARY:U.S. AZZURRA – ZALET SLOGA U15 (Under 15 femminile CT Trieste-Gor
+ izia — girone B)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-37f08aaa@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T203000
+DTEND;TZID=Europe/Rome:20261205T223000
+SUMMARY:ZALET SLOGA – ASD OFP AZZURRA RDR ARIA (Prima Divisione femminile
+  CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 6ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+END:VCALENDAR

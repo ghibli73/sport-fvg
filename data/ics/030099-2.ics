@@ -1,0 +1,235 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Pol. Libertas Acli San Daniele
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u15-gold-66c424c2@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261027T173000
+DTEND;TZID=Europe/Rome:20261027T193000
+SUMMARY:ZKB Jadran 56-70 Pol. Libertas Acli (Under 15 Maschile Gold — gir
+ one unico)
+LOCATION:Palestra M. Ervatti\, Sgonico
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n2ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-84817382@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261030T190000
+DTEND;TZID=Europe/Rome:20261030T210000
+SUMMARY:POZZUOLO BASKET 44-28 POL. LIBERTAS ACLI (Under 13 Femminile — gi
+ rone PN/UD (prima fase))
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-5feabeae@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261031T161500
+DTEND;TZID=Europe/Rome:20261031T181500
+SUMMARY:Pol. Libertas Acli 62-57 Basket Gradisca (Under 15 Maschile Gold 
+ — girone unico)
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n3ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-df09073a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T183000
+DTEND;TZID=Europe/Rome:20261031T203000
+SUMMARY:A.INT.BALONCESTO ISONTINA 104-32 POL. LIBERTAS ACLI (Under 17 Femmi
+ nile — girone unico)
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 17 Femminile — girone unico\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-de4f2827@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261031T193000
+DTEND;TZID=Europe/Rome:20261031T213000
+SUMMARY:POL. LIBERTAS ACLI 72-62 COLLINARE BASKET (Serie C maschile — gir
+ one D (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-19c4d9a2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T150000
+DTEND;TZID=Europe/Rome:20261107T170000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO 45-34 POL. LIBERTAS ACLI (Under 13 Femmin
+ ile — girone PN/UD (prima fase))
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-25eef7db@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:Pol. Libertas Acli 31-87 APU Next Gen (Under 15 Femminile — giron
+ e unico)
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 15 Femminile — girone unico\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-70767d5c@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261107T180000
+DTEND;TZID=Europe/Rome:20261107T200000
+SUMMARY:Falconstar Basket 44-81 Pol. Libertas Acli (Under 15 Maschile Gold 
+ — girone unico)
+LOCATION:Palestra Polifunzionale\, Monfalcone
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n4ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-c2efd0a3@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261107T193000
+DTEND;TZID=Europe/Rome:20261107T213000
+SUMMARY:POL. LIBERTAS ACLI 74-84 INTERMEK CORDENONS (Serie C maschile — g
+ irone D (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-66cb33c5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T113000
+DTEND;TZID=Europe/Rome:20261108T133000
+SUMMARY:GP Engineering di Paron 79-77 POL. LIBERTAS ACLI (Under 17 Maschile
+  Gold — girone UD (prima fase))
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-7658c38b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T190000
+DTEND;TZID=Europe/Rome:20261108T210000
+SUMMARY:POL. LIBERTAS ACLI 36-102 LIBERTAS GYM E BASKET (Under 17 Femminile
+  — girone unico)
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 17 Femminile — girone unico\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-89f459d8@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261114T190000
+DTEND;TZID=Europe/Rome:20261114T210000
+SUMMARY:G.S. VALLENONCELLO 73-67 POL. LIBERTAS ACLI (Serie C maschile — g
+ irone D (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-8d222e45@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:Pol Lib. Pasian di Prato 42-40 Pol. Libertas Acli (Under 15 Femmini
+ le — girone unico)
+LOCATION:Palasport "Mario Vecchiatto"\, Pasian di Prato
+DESCRIPTION:Under 15 Femminile — girone unico\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-50e7ebbe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:POL. LIBERTAS ACLI 54-75 UDINE BASKET CLUB (Under 17 Maschile Gold 
+ — girone UD (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-d80a694a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T113000
+DTEND;TZID=Europe/Rome:20261115T133000
+SUMMARY:POL. CASARSA 59-52 POL. LIBERTAS ACLI (Under 17 Femminile — giron
+ e unico)
+LOCATION:Palasport 'Palarosa'\, Casarsa della Delizia
+DESCRIPTION:Under 17 Femminile — girone unico\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-902aed0c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T153000
+DTEND;TZID=Europe/Rome:20261115T173000
+SUMMARY:POL. LIBERTAS ACLI 58-22 WIS 1963 WOMAN SPILIMBERGO (Under 13 Femmi
+ nile — girone PN/UD (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+END:VCALENDAR

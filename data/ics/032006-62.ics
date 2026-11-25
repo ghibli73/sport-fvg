@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Libertas Trieste (basket)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-bd300815@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T181500
+DTEND;TZID=Europe/Rome:20261027T201500
+SUMMARY:LIBERTAS TRIESTE 84-83 U.S.D. DON BOSCO (Under 17 Maschile Regional
+ e — girone GO/TS (prima fase))
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n1ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-61389a4b@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T210000
+DTEND;TZID=Europe/Rome:20261030T230000
+SUMMARY:OLD STARS 83-53 LIBERTAS TRIESTE (Divisione Regionale 3 — girone 
+ GO/TS)
+LOCATION:Centro "Stella Matutina"\, Gorizia
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-3e681b6e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T180000
+DTEND;TZID=Europe/Rome:20261031T200000
+SUMMARY:O.F.P. AZZURRA R.D.R. Basket Trieste 47-93 LIBERTAS TRIESTE (Under 
+ 17 Maschile Regionale — girone GO/TS (prima fase))
+LOCATION:Pal. I.T. Leonardo da Vinci\, Trieste
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n2ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-976a2482@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T211500
+DTEND;TZID=Europe/Rome:20261106T231500
+SUMMARY:BASKET 4 TRIESTE 82-60 LIBERTAS TRIESTE (Divisione Regionale 3 — 
+ girone GO/TS)
+LOCATION:Pal. Liceo "G. Oberdan"\, Trieste
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-3fc48fc9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:DINAMO GORIZIA 59-71 LIBERTAS TRIESTE (Under 17 Maschile Regionale 
+ — girone GO/TS (prima fase))
+LOCATION:PalaBigot\, Gorizia
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n3ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-e2a93847@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T200000
+DTEND;TZID=Europe/Rome:20261110T220000
+SUMMARY:Amici Pallacanestro Udinese 88-55 Libertas Trieste (Under 19 Maschi
+ le Gold — girone B)
+LOCATION:Palasport 'Primo Carnera'\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone B\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-386cb207@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T173000
+DTEND;TZID=Europe/Rome:20261114T193000
+SUMMARY:LIBERTAS TRIESTE 59-54 SERVOLANA (Under 17 Maschile Regionale — g
+ irone GO/TS (prima fase))
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n4ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-08150bfd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T113000
+DTEND;TZID=Europe/Rome:20261115T133000
+SUMMARY:Libertas Trieste 37-80 Basket Pasiano (Under 19 Maschile Gold — g
+ irone B)
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Under 19 Maschile Gold — girone B\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,183 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · U.S.D. Jadran
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u15-gold-66c424c2@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261027T173000
+DTEND;TZID=Europe/Rome:20261027T193000
+SUMMARY:ZKB Jadran 56-70 Pol. Libertas Acli (Under 15 Maschile Gold — gir
+ one unico)
+LOCATION:Palestra M. Ervatti\, Sgonico
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n2ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-d8d0cb56@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T204500
+DTEND;TZID=Europe/Rome:20261027T224500
+SUMMARY:Udine Basket Club 64-72 U.S.D. Jadran (Under 19 Maschile Gold — g
+ irone B)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone B\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-b-interregionale-girone-b-d8570f2a@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:DINAMICA Gorizia 82-83 MOTOMARINE Jadran Trieste (Serie B Interregi
+ onale — girone B)
+DESCRIPTION:Serie B Interregionale — girone B\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-b-interregionale-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-b-interregionale-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-9392feff@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261031T180000
+DTEND;TZID=Europe/Rome:20261031T200000
+SUMMARY:U.S.D. Jadran 64-71 O.F.P. Azzurra R.D.R. Basket Trieste (Under 17 
+ Maschile Eccellenza — girone unico)
+LOCATION:Palestra Aldo Cova\, Trieste
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n5ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-08c4968b@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:Feletto Basketball Academy 69-90 ZKB Jadran (Under 15 Maschile Gold
+  — girone unico)
+LOCATION:Palestra F. Cavalicco\, Tavagnacco
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n3ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-b17e1d83@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T193000
+DTEND;TZID=Europe/Rome:20261102T213000
+SUMMARY:U.S.D. Jadran 70-51 Amici Pallacanestro Udinese (Under 19 Maschile 
+ Gold — girone B)
+LOCATION:Palestra 'M. Ervatti'\, Sgonico
+DESCRIPTION:Under 19 Maschile Gold — girone B\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-51cafd11@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:Basket Gradisca 58-70 ZKB Jadran (Under 15 Maschile Gold — girone
+  unico)
+LOCATION:Pal. Ciro Zimolo\, Gradisca d'Isonzo
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n4ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-534888f4@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:Pallacanestro Trieste 2004 88-52 U.S.D. Jadran (Under 17 Maschile E
+ ccellenza — girone unico)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n6ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-feb40245@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T210000
+DTEND;TZID=Europe/Rome:20261109T230000
+SUMMARY:Sistema BK Pordenone - BCC Pordenonese 83-60 U.S.D. Jadran (Under 1
+ 9 Maschile Gold — girone B)
+LOCATION:Palasport "Crisafulli"\, Pordenone
+DESCRIPTION:Under 19 Maschile Gold — girone B\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-b-interregionale-girone-b-47d1e57d@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:TRE PIU' CXO Ospitaletto 60-84 MOTOMARINE Jadran Trieste (Serie B I
+ nterregionale — girone B)
+DESCRIPTION:Serie B Interregionale — girone B\n8ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-b-interregionale-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-b-interregionale-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-227f162e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T193000
+DTEND;TZID=Europe/Rome:20261116T213000
+SUMMARY:U.S.D. Jadran 80-56 Fly Solartech Icarus (Under 19 Maschile Gold 
+ — girone B)
+LOCATION:Palestra 'M. Ervatti'\, Sgonico
+DESCRIPTION:Under 19 Maschile Gold — girone B\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-8fd03839@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261128T180000
+DTEND;TZID=Europe/Rome:20261128T200000
+SUMMARY:U.S.D. Jadran – MEP Cividale (Under 17 Maschile Eccellenza — gi
+ rone unico)
+LOCATION:Palestra Aldo Cova\, Trieste
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n4ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+END:VCALENDAR

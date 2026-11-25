@@ -1,0 +1,563 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.P.D. Rizzi Udine
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-deb3d0ab@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261030T203000
+DTEND;TZID=Europe/Rome:20261030T223000
+SUMMARY:A.S.D. STELLA VOLLEY 3-0 FTV RIZZI UDINE (Prima Divisione femminile
+  CT Udine — girone unico)
+LOCATION:Palestra Comunale di Teor\, RIVIGNANO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n5ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-4719ba89@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:BLANC RIZZI UDINE FTV 2-3 ASPA PALLAVOLO ARTEGNA (Under 14 femminil
+ e CT Udine — girone B)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, UDINE UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-29af2da7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T203000
+DTEND;TZID=Europe/Rome:20261031T223000
+SUMMARY:PALLAVOLO BRUGNERA 96 2-3 IMQ RIZZI UDINE (Serie D femminile — gi
+ rone unico)
+LOCATION:Palestra Scuole Elementari\, BRUGNERA PN
+DESCRIPTION:Serie D femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-85e5b93d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261103T203000
+DTEND;TZID=Europe/Rome:20261103T223000
+SUMMARY:IMQ RIZZI UDINE 3-0 ASD PALLAVOLO MOSSA (Serie D femminile — giro
+ ne unico)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, Udine (UD)
+DESCRIPTION:Serie D femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-2ac4f186@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T180000
+DTEND;TZID=Europe/Rome:20261104T200000
+SUMMARY:BLANC RIZZI UDINE FTV 0-3 PROJECTVOLLEY SANGIOWHITE (Under 13 femmi
+ nile CT Udine — girone C)
+LOCATION:Palestra Scuole Rodari\, UDINE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-20c3a9e7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T181500
+DTEND;TZID=Europe/Rome:20261104T201500
+SUMMARY:VOLLEYBAS BLACK 3-1 FTV RIZZI UDINE - BLU (Under 17 femminile CT Ud
+ ine — girone C)
+LOCATION:Palestra Scuola Media Valussi\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-8ea3f693@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:FTV RIZZI UDINE - GIALLA 3-0 VOLLEY BALL CARNIA (Under 17 femminile
+  CT Udine — girone A)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-9fc0ac82@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T173000
+DTEND;TZID=Europe/Rome:20261107T193000
+SUMMARY:APD SAN LEONARDO 3-0 BLANC RIZZI UDINE FTV (Under 14 femminile CT U
+ dine — girone B)
+LOCATION:Palestra Scuole Medie San Leonardo\, Merso di Sopra SAN LEONARDO U
+ D
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-4a1834a9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:IMQ RIZZI UDINE 1-3 MASCHIO PALLAVOLO BUIA (Serie D femminile — g
+ irone unico)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, Udine (UD)
+DESCRIPTION:Serie D femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-95b1f1c5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T180000
+DTEND;TZID=Europe/Rome:20261108T200000
+SUMMARY:FTV RIZZI UDINE 2-3 ART_CENTO VOLLEY (Prima Divisione femminile CT 
+ Udine — girone unico)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, UDINE UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n3ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-c488003e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261110T180000
+DTEND;TZID=Europe/Rome:20261110T200000
+SUMMARY:BLANC RIZZI UDINE FTV 3-0 ST. DENTISTICO CIAN* (Under 13 femminile 
+ CT Udine — girone C)
+LOCATION:Palestra Scuole Rodari\, UDINE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-a-e8351c2d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261110T190000
+DTEND;TZID=Europe/Rome:20261110T210000
+SUMMARY:RK BLU ROJALESE 3-0 FTV RIZZI UDINE BLU (Under 12 femminile CT Udin
+ e — girone A)
+LOCATION:Palestra Comunale\, REANA DEL ROIALE UD
+DESCRIPTION:Under 12 femminile CT Udine — girone A\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-e0e1d6a8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T174500
+DTEND;TZID=Europe/Rome:20261113T194500
+SUMMARY:CLUB AURORA VOLLEY UDINE 2-3 BLANC RIZZI UDINE FTV (Under 14 femmin
+ ile CT Udine — girone B)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-4c7bd5eb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:AURORA VOLLEY UD BA 0-3 FTV RIZZI UDINE - GIALLA (Under 17 femminil
+ e CT Udine — girone A)
+LOCATION:Palestra Scuola Mazzini\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-962077e1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:FTV RIZZI UDINE - BLU 2-3 ROJALKENNEDY EMPORIO ADV (Under 17 femmin
+ ile CT Udine — girone C)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-d73796be@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:COLLI VOLLEY 3-1 FTV RIZZI UDINE (Prima Divisione femminile CT Udin
+ e — girone unico)
+LOCATION:Palasport\, TRICESIMO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n4ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-9a29be05@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T193000
+DTEND;TZID=Europe/Rome:20261115T213000
+SUMMARY:PIZZA D'ORO PAV BRESSA 3-0 IMQ RIZZI UDINE (Serie D femminile — g
+ irone unico)
+LOCATION:Palestra Comunale\, Campoformido (UD)
+DESCRIPTION:Serie D femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-26f6c65e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261118T180000
+DTEND;TZID=Europe/Rome:20261118T200000
+SUMMARY:LIBERTAS MARTIGNACCO 0-3 BLANC RIZZI UDINE FTV (Under 13 femminile 
+ CT Udine — girone C)
+LOCATION:Palazzetto dello Sport (campo A)\, MARTIGNACCO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-a-ae6e26e8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261118T183000
+DTEND;TZID=Europe/Rome:20261118T203000
+SUMMARY:FTV RIZZI UDINE BLU 0-3 ASPA PALLAVOLO ARTEGNA (Under 12 femminile 
+ CT Udine — girone A)
+LOCATION:Palestra Scuole Rodari\, UDINE UD
+DESCRIPTION:Under 12 femminile CT Udine — girone A\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-91432cf8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261119T180000
+DTEND;TZID=Europe/Rome:20261119T200000
+SUMMARY:ROJALKENNEDY 2-3 FTV RIZZI UDINE - GIALLA (Under 17 femminile CT Ud
+ ine — girone A)
+LOCATION:Palestra Comunale\, Remugnano REANA DEL ROIALE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-e4068b39@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T210000
+DTEND;TZID=Europe/Rome:20261120T230000
+SUMMARY:LEGNOLANDIA VAL-BUT 3-1 FTV RIZZI UDINE (Prima Divisione femminile 
+ CT Udine — girone unico)
+LOCATION:Palestra scuole elementari\, SUTRIO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n6ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-b-6da66250@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T153000
+DTEND;TZID=Europe/Rome:20261121T173000
+SUMMARY:ASD KENNEDY ADEGLIACCO 2-1 FTV RIZZI UDINE GIALLA (Under 12 femmini
+ le CT Udine — girone B)
+LOCATION:Palestra scuole Medie\, TAVAGNACCO UD
+DESCRIPTION:Under 12 femminile CT Udine — girone B\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-63f9ea54@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T153000
+DTEND;TZID=Europe/Rome:20261121T173000
+SUMMARY:CLUB AURORA VOLLEY UDINE 3-0 FTV RIZZI UDINE - BLU (Under 17 femmin
+ ile CT Udine — girone C)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-7bf8e589@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T183000
+DTEND;TZID=Europe/Rome:20261122T203000
+SUMMARY:IMQ RIZZI UDINE 0-3 A.S.D. MORARO VOLLEY (Serie D femminile — gir
+ one unico)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, Udine (UD)
+DESCRIPTION:Serie D femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-311cc196@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261123T183000
+DTEND;TZID=Europe/Rome:20261123T203000
+SUMMARY:BLANC RIZZI UDINE FTV 0-3 CSI TARCENTO (Under 14 femminile CT Udine
+  — girone B)
+LOCATION:Palestra Scuole Rodari\, via Val d'Aupa\, UDINE UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-2fec2aa8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261124T180000
+DTEND;TZID=Europe/Rome:20261124T200000
+SUMMARY:BLANC RIZZI UDINE FTV 1-2 STELLA VOLLEY BIANCA (Under 13 femminile 
+ CT Udine — girone C)
+LOCATION:Palestra Scuole Rodari\, via Val d'Aupa\, UDINE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-b-fee42e24@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261127T183000
+DTEND;TZID=Europe/Rome:20261127T203000
+SUMMARY:FTV RIZZI UDINE GIALLA – ASFJR 1971 (Under 12 femminile CT Udine 
+ — girone B)
+LOCATION:Palestra Scuole Rodari\, via Val d'Aupa\, UDINE UD
+DESCRIPTION:Under 12 femminile CT Udine — girone B\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-a-3530a4e0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T153000
+DTEND;TZID=Europe/Rome:20261128T173000
+SUMMARY:LIBERTAS MARTIGNACCO – FTV RIZZI UDINE BLU (Under 12 femminile CT
+  Udine — girone A)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, Via San Biagio\, MARTIGN
+ ACCO UD
+DESCRIPTION:Under 12 femminile CT Udine — girone A\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-e90bbd16@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T160000
+DTEND;TZID=Europe/Rome:20261128T180000
+SUMMARY:FTV RIZZI UDINE - GIALLA – ART_CENTO VOLLEY (Under 17 femminile C
+ T Udine — girone A)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, Via del Pioppo 57\, UDI
+ NE
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-17cd1c9f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T190000
+DTEND;TZID=Europe/Rome:20261128T210000
+SUMMARY:FTV RIZZI UDINE - BLU – AURORA VOLLEY UD NI (Under 17 femminile C
+ T Udine — girone C)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, Via del Pioppo 57\, UDI
+ NE
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-2cb2e0fc@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:FARRAVOLO – IMQ RIZZI UDINE (Serie D femminile — girone unico)
+LOCATION:Palestra Comunale\, Via dei Conventi 22\, Farra d'Isonzo (GO)
+DESCRIPTION:Serie D femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-470948f1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:FTV RIZZI UDINE – ASD KENNEDY ADEGLIACCO (Prima Divisione femmini
+ le CT Udine — girone unico)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, Via del Pioppo 57\, UDI
+ NE
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n7ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-b-c155f3c1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261203T174500
+DTEND;TZID=Europe/Rome:20261203T194500
+SUMMARY:PAV NATISONIA – FTV RIZZI UDINE GIALLA (Under 12 femminile CT Udi
+ ne — girone B)
+DESCRIPTION:Under 12 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-a-8caa6bdc@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T183000
+DTEND;TZID=Europe/Rome:20261204T203000
+SUMMARY:FTV RIZZI UDINE BLU – VOLLEY BALL CARNIA (Under 12 femminile CT U
+ dine — girone A)
+DESCRIPTION:Under 12 femminile CT Udine — girone A\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-ff499d3f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T160000
+DTEND;TZID=Europe/Rome:20261205T180000
+SUMMARY:BLANC RIZZI UDINE FTV – FVG VOLLEY ACADEMY (Under 14 femminile CT
+  Udine — girone B)
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-063d99db@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T163000
+DTEND;TZID=Europe/Rome:20261205T183000
+SUMMARY:PAV NATISONIA – FTV RIZZI UDINE - GIALLA (Under 17 femminile CT U
+ dine — girone A)
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-88cfbeeb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T200000
+DTEND;TZID=Europe/Rome:20261205T220000
+SUMMARY:IMQ RIZZI UDINE – REVOLUTION SRL Trieste (Serie D femminile — g
+ irone unico)
+DESCRIPTION:Serie D femminile — girone unico\n9ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-39967c5f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T110000
+DTEND;TZID=Europe/Rome:20261206T130000
+SUMMARY:LIBERTAS MARTIGNACCO – FTV RIZZI UDINE - BLU (Under 17 femminile 
+ CT Udine — girone C)
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-fe2c2d08@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:FTV RIZZI UDINE – VOLLEY BALL CARNIA (Prima Divisione femminile C
+ T Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n8ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+END:VCALENDAR

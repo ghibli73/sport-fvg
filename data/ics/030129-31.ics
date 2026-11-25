@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Zio Pino Baskin Udine
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr3-ud-143778bc@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261028T204500
+DTEND;TZID=Europe/Rome:20261028T224500
+SUMMARY:ZIO PINO BASKIN UDINE 61-36 MAJANESE 'B' (Divisione Regionale 3 —
+  girone UD)
+LOCATION:Palestra Don Bosco\, Udine
+DESCRIPTION:Divisione Regionale 3 — girone UD\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-4567b2c5@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261102T204500
+DTEND;TZID=Europe/Rome:20261102T224500
+SUMMARY:ZIO PINO BASKIN UDINE 63-52 POL. LIBERTAS CUSSIGNACCO 'B' (Division
+ e Regionale 3 — girone UD)
+LOCATION:Palestra Don Bosco\, Udine
+DESCRIPTION:Divisione Regionale 3 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-23685c44@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261112T204500
+DTEND;TZID=Europe/Rome:20261112T224500
+SUMMARY:PALL. TOLMEZZO 50-40 ZIO PINO BASKIN UDINE (Divisione Regionale 3 
+ — girone UD)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-0984c3a4@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261116T204500
+DTEND;TZID=Europe/Rome:20261116T224500
+SUMMARY:ZIO PINO BASKIN UDINE 70-53 POL. DIL. TRICESIMO 'C' (Divisione Regi
+ onale 3 — girone UD)
+LOCATION:Palestra Don Bosco\, Udine
+DESCRIPTION:Divisione Regionale 3 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+END:VCALENDAR

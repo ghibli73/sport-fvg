@@ -1,0 +1,193 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Pallacanestro Laipacco
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr2-ud-bb13dafe@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T210000
+DTEND;TZID=Europe/Rome:20261030T230000
+SUMMARY:P.A.F. 70-84 Pall. Laipacco (Divisione Regionale 2 — girone UD)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Divisione Regionale 2 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-aa48a371@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:PALL. LAIPACCO 94-38 UDINE BASKET CLUB (Under 15 Maschile Regionale
+  — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n2ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-3b2d53bc@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T194500
+DTEND;TZID=Europe/Rome:20261102T214500
+SUMMARY:PALL. LAIPACCO 83-66 PALL. TOLMEZZO (Under 19 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Pal. Sc. Ezio Cernich\, Udine
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-e921b60a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T183000
+DTEND;TZID=Europe/Rome:20261104T203000
+SUMMARY:US ALBA PALLACANESTRO 65-50 PALL. LAIPACCO (Under 14 Maschile Regio
+ nale — girone GO/TS/UD)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n1ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-68844bbb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:APU NEXT GEN 63-56 PALL. LAIPACCO (Under 15 Maschile Regionale — 
+ girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n3ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-754fbaa0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261106T190000
+DTEND;TZID=Europe/Rome:20261106T210000
+SUMMARY:LIGNANO BASKET 63-39 PALL. LAIPACCO (Under 14 Maschile Regionale 
+ — girone GO/TS/UD)
+LOCATION:Palazzetto dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n2ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-53b3c713@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:Pall. Laipacco 44-63 S.I.L. Pallacanestro Lignano (Divisione Region
+ ale 2 — girone UD)
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-a326a426@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:PALL. LAIPACCO 75-83 POL. TRICESIMO (Under 17 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Pal. Sc. Ezio Cernich\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-f3eeb5b7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T190000
+DTEND;TZID=Europe/Rome:20261111T210000
+SUMMARY:MAJANESE 66-62 PALL. LAIPACCO (Under 19 Maschile Regionale — giro
+ ne UD (prima fase))
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-953683fd@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261111T210000
+DTEND;TZID=Europe/Rome:20261111T230000
+SUMMARY:Pall. Laipacco 53-60 Collinare Basket (Divisione Regionale 2 — gi
+ rone UD)
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-03791189@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:LIBERTAS GONARS 84-24 PALL. LAIPACCO (Under 14 Maschile Regionale 
+ — girone GO/TS/UD)
+LOCATION:Palazzetto dello Sport\, Gonars
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-4895a21d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T180000
+DTEND;TZID=Europe/Rome:20261116T200000
+SUMMARY:UDINE BASKET CLUB 55-74 PALL. LAIPACCO (Under 17 Maschile Regionale
+  — girone UD (prima fase))
+LOCATION:Palestra Sc. Marconi\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-d60ce9ed@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T203000
+DTEND;TZID=Europe/Rome:20261125T223000
+SUMMARY:POL LIB. PASIAN DI PRATO – PALL. LAIPACCO (Under 19 Maschile Regi
+ onale — girone UD (prima fase))
+LOCATION:Palasport Mario Vecchiatto\, Pasian di Prato
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+END:VCALENDAR

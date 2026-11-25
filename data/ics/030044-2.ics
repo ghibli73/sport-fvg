@@ -1,0 +1,321 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Pol. Libertas Gonars
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr3-ud-1be47d86@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261026T193000
+DTEND;TZID=Europe/Rome:20261026T213000
+SUMMARY:POL. DIL. TRICESIMO 'C' 71-77 LIBERTAS GONARS 'B' (Divisione Region
+ ale 3 — girone UD)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-140ec49a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:COLLEDANI SRL 58-75 LIBERTAS GONARS (Under 15 Maschile Regionale 
+ — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n1ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-cbeb9f2b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:LIBERTAS GONARS 53-86 GP Engineering di Paron (Under 17 Maschile Go
+ ld — girone UD (prima fase))
+LOCATION:Palazzetto dello Sport\, Gonars
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-b2682c39@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:Libertas Gonars 82-64 Metamorfosi Gradisca (Divisione Regionale 1 
+ — girone Est)
+LOCATION:Palazzetto dello Sport\, Gonars
+DESCRIPTION:Divisione Regionale 1 — girone Est\n5ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-2dac0444@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T173000
+DTEND;TZID=Europe/Rome:20261103T193000
+SUMMARY:PALL. TOLMEZZO 32-65 LIBERTAS GONARS (Under 13 Maschile — girone 
+ UD B)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Under 13 Maschile — girone UD B\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-013bc298@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T183000
+DTEND;TZID=Europe/Rome:20261104T203000
+SUMMARY:POL. DLF DI UDINE 45-50 LIBERTAS GONARS (Under 19 Maschile Regional
+ e — girone UD (prima fase))
+LOCATION:Pal. Sc. E. Ada Negri\, Udine
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-30b09845@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T193000
+DTEND;TZID=Europe/Rome:20261104T213000
+SUMMARY:U.S.D. DON BOSCO 36-74 LIBERTAS GONARS (Under 14 Maschile Regionale
+  — girone GO/TS/UD)
+LOCATION:Pal. Oratorio "Don Bosco"\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n1ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-6566b4d4@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261105T210000
+DTEND;TZID=Europe/Rome:20261105T230000
+SUMMARY:LIBERTAS GONARS 'B' 74-69 CSI TARCENTO (Divisione Regionale 3 — g
+ irone UD)
+LOCATION:Palestra Comunale\, Santa Maria la Longa
+DESCRIPTION:Divisione Regionale 3 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-9fc74050@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:LIBERTAS GONARS 67-59 BASKET CERVIGNANESE (Under 15 Maschile Region
+ ale — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n2ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-56077eb7@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261107T180000
+DTEND;TZID=Europe/Rome:20261107T200000
+SUMMARY:Servolana 79-66 Libertas Gonars (Divisione Regionale 1 — girone E
+ st)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n6ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-ddd29869@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:LIBERTAS GONARS 65-31 U.S. BASKET TIME UDINE (Under 13 Maschile —
+  girone UD B)
+LOCATION:Palazzetto dello Sport\, Gonars
+DESCRIPTION:Under 13 Maschile — girone UD B\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-c6a406f7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:UDINE BASKET CLUB 60-47 LIBERTAS GONARS (Under 17 Maschile Gold —
+  girone UD (prima fase))
+LOCATION:Palestra Mazzini\, Udine
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-a37e3aa8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T200000
+DTEND;TZID=Europe/Rome:20261110T220000
+SUMMARY:LIBERTAS GONARS 65-75 OLYMPIA RIVIGNANO (Under 19 Maschile Regional
+ e — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Santa Maria la Longa
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-e0c4f3b7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Sonvilla Snc SBaMM 79-65 LIBERTAS GONARS (Under 15 Maschile Regiona
+ le — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n3ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-939af1c7@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261112T210000
+DTEND;TZID=Europe/Rome:20261112T230000
+SUMMARY:LIBERTAS GONARS 'B' 72-65 SPORT SYSTEM (Divisione Regionale 3 — g
+ irone UD)
+LOCATION:Palestra Comunale\, Santa Maria la Longa
+DESCRIPTION:Divisione Regionale 3 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-03791189@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:LIBERTAS GONARS 84-24 PALL. LAIPACCO (Under 14 Maschile Regionale 
+ — girone GO/TS/UD)
+LOCATION:Palazzetto dello Sport\, Gonars
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-3051c225@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T180000
+DTEND;TZID=Europe/Rome:20261114T200000
+SUMMARY:LIBERTAS GONARS 70-57 BASKET TERZO (Under 17 Maschile Gold — giro
+ ne UD (prima fase))
+LOCATION:Palazzetto dello Sport\, Gonars
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-a09d0f68@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:P.A.F. 39-81 LIBERTAS GONARS (Under 13 Maschile — girone UD B)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Under 13 Maschile — girone UD B\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-8e4a0590@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:Libertas Gonars 56-68 S.S. SD Kontovel (Divisione Regionale 1 — g
+ irone Est)
+LOCATION:Palazzetto dello Sport\, Gonars
+DESCRIPTION:Divisione Regionale 1 — girone Est\n7ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-59c7ed1e@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:MONTGOMERY HAMBURGER HOUSE 'B' 64-60 LIBERTAS GONARS 'B' (Divisione
+  Regionale 3 — girone UD)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-e2c463cd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:LIBERTAS GONARS 98-15 PALL. TOLMEZZO (Under 15 Maschile Regionale 
+ — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n4ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-109357e2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T190000
+DTEND;TZID=Europe/Rome:20261125T210000
+SUMMARY:MAJANESE – LIBERTAS GONARS (Under 19 Maschile Regionale — giron
+ e UD (prima fase))
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-78965c76@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20270111T211500
+DTEND;TZID=Europe/Rome:20270111T231500
+SUMMARY:POL. DIL. TRICESIMO 'B' – LIBERTAS GONARS 'B' (Divisione Regional
+ e 3 — girone UD)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+END:VCALENDAR

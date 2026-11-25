@@ -1,0 +1,187 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ASD Moraro Volley
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-f2618131@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261030T193000
+DTEND;TZID=Europe/Rome:20261030T213000
+SUMMARY:ASD MORARO VOLLEY 0-3 SYSTEM VOLLEY U.17 (Under 17 femminile CT Tri
+ este-Gorizia — girone B)
+LOCATION:Palestra Comunale\, MORARO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ef6f0606@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA 3-1 A.S.D. MORARO VOLLEY (Serie D femminile
+  — girone unico)
+LOCATION:Palestra Scuole Medie\, ZOPPOLA PN
+DESCRIPTION:Serie D femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ad84bb84@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261105T210000
+DTEND;TZID=Europe/Rome:20261105T230000
+SUMMARY:A.S.D. MORARO VOLLEY 3-0 EUROVOLLEYSCHOOL (Serie D femminile — gi
+ rone unico)
+LOCATION:Palestra Comunale\, Mossa (GO)
+DESCRIPTION:Serie D femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-0449e0b9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:VERO SRL MANIAGO 0-3 A.S.D. MORARO VOLLEY (Serie D femminile — gi
+ rone unico)
+LOCATION:Palazzetto dello Sport\, Montereale Valcellina (PN)
+DESCRIPTION:Serie D femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-dda5c6a5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T153000
+DTEND;TZID=Europe/Rome:20261108T173000
+SUMMARY:ASD OFP AZZURRA RDR ETERE 1-3 ASD MORARO VOLLEY (Under 17 femminile
+  CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Don Marzari\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-e425783b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T170000
+DTEND;TZID=Europe/Rome:20261114T190000
+SUMMARY:ASD MORARO VOLLEY 3-0 CENTRO COSELLI U17Y (Under 17 femminile CT Tr
+ ieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, MORARO GO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-0c42656c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:A.S.D. MORARO VOLLEY 3-0 C.U.S. TRIESTE A.S.D. (Serie D femminile 
+ — girone unico)
+LOCATION:Palestra Comunale\, Mossa (GO)
+DESCRIPTION:Serie D femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-50d9d332@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T170000
+DTEND;TZID=Europe/Rome:20261121T190000
+SUMMARY:MAVI SRL STARANZANO 3-1 ASD MORARO VOLLEY (Under 17 femminile CT Tr
+ ieste-Gorizia — girone B)
+LOCATION:Palestra Scuole Medie\, STARANZANO GO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-7bf8e589@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T183000
+DTEND;TZID=Europe/Rome:20261122T203000
+SUMMARY:IMQ RIZZI UDINE 0-3 A.S.D. MORARO VOLLEY (Serie D femminile — gir
+ one unico)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, Udine (UD)
+DESCRIPTION:Serie D femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-0ad99935@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:ASD MORARO VOLLEY – PINETA CITY OLYMPIA TS (Under 17 femminile CT
+  Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, Via Ciso Tuni 6\, MORARO GO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-55ff394b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:A.S.D. MORARO VOLLEY – PALLAVOLO BRUGNERA 96 (Serie D femminile 
+ — girone unico)
+LOCATION:Palestra Comunale\, Via dello Sport 1\, Mossa (GO)
+DESCRIPTION:Serie D femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-c5c6f937@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T200000
+DTEND;TZID=Europe/Rome:20261205T220000
+SUMMARY:SOCA LOKANDA DEVETAK ZKB – A.S.D. MORARO VOLLEY (Serie D femminil
+ e — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n9ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+END:VCALENDAR

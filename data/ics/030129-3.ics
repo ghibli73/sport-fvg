@@ -1,0 +1,209 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. Ancona Lumignacco
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-d-362c281e@zuin-fvg
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:BRIAN LIGNANO CALCIO 1-3 ANCONA LUMIGNACCO (Under 14 provinciali 
+ — girone D)
+DESCRIPTION:Under 14 provinciali — girone D\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-e59936b5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:ANCONA LUMIGNACCO 8-1 CALCIO MANIAGO VAJONT (Under 15 regionali —
+  girone A)
+DESCRIPTION:Under 15 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-16-provinciali-a-72e9238f@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:ANCONA LUMIGNACCO 3-3 RIVE D ARCANO FLAIBANO (Under 16 provinciali 
+ — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-da0d0e76@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:NUOVO PORDENONE 2024 FC 2-2 ANCONA LUMIGNACCO (Under 17 regionali 
+ — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-937330fc@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:ANCONA LUMIGNACCO 2-0 TRIESTE VICTORY ACADEMY (Promozione — giron
+ e A)
+DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-dc102bca@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:SISTIANA SESLJAN 0-1 ANCONA LUMIGNACCO (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n10ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-d4680f74@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:NUOVO PORDENONE 2024 FC 1-0 ANCONA LUMIGNACCO (Under 15 regionali 
+ — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-16-provinciali-a-a11f2dbb@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:S.GOTTARDO 0-12 ANCONA LUMIGNACCO (Under 16 provinciali — girone 
+ A)
+DESCRIPTION:Under 16 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-3310d2c2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:ANCONA LUMIGNACCO 0-1 PRO GORIZIA (Under 17 regionali — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-20b06c70@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:ANCONA LUMIGNACCO 3-2 CENTRO SEDIA CALCIO NAT (Promozione — giron
+ e A)
+DESCRIPTION:Promozione — girone A\n11ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-7ccceb8b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ANCONA LUMIGNACCO 2-0 CJARLINS MUZANE (Under 15 regionali — giron
+ e A)
+DESCRIPTION:Under 15 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-16-provinciali-a-5ac31a64@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ANCONA LUMIGNACCO 4-0 BRIAN LIGNANO CALCIO (Under 16 provinciali 
+ — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-0d784342@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:MANZANESE CALCIO 3-1 ANCONA LUMIGNACCO (Under 17 regionali — giro
+ ne A)
+DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-093bf649@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:MANZANESE CALCIO 0-2 ANCONA LUMIGNACCO (Under 15 regionali — giro
+ ne A)
+DESCRIPTION:Under 15 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-31ccfc6f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:ANCONA LUMIGNACCO 3-4 SAN LUIGI CALCIO (Under 17 regionali — giro
+ ne A)
+DESCRIPTION:Under 17 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+END:VCALENDAR

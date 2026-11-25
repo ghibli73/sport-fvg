@@ -1,0 +1,82 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Cordovado Volley
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-b-caa8f05b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T103000
+DTEND;TZID=Europe/Rome:20261115T123000
+SUMMARY:CORDOVADO VOLLEY 0-3 U12 Farmacia di Nave (Coppa Autunno Under 12 m
+ isto CT Pordenone — girone B)
+LOCATION:Palestra Comunale\, Cordovado PN
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone B\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-b-91da0d89@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T180000
+DTEND;TZID=Europe/Rome:20261121T200000
+SUMMARY:AVIANO DRAGONFLIES 3-0 CORDOVADO VOLLEY (Coppa Autunno Under 12 mis
+ to CT Pordenone — girone B)
+LOCATION:Palasport\, Aviano (PN)
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone B\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-b-22fcea89@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T090000
+DTEND;TZID=Europe/Rome:20261129T110000
+SUMMARY:FUTURA WHITE – CORDOVADO VOLLEY (Coppa Autunno Under 12 misto CT 
+ Pordenone — girone B)
+LOCATION:Palestra Scuola Media Da Vinci\, Via Mazzini 88\, CORDENONS PN
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone B\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-b-176c9f00@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T103000
+DTEND;TZID=Europe/Rome:20261206T123000
+SUMMARY:CORDOVADO VOLLEY – POLISPORTIVA MONTEREALE (Coppa Autunno Under 1
+ 2 misto CT Pordenone — girone B)
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone B\n5ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-b
+END:VEVENT
+END:VCALENDAR

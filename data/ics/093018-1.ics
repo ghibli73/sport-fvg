@@ -1,0 +1,190 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. S.P.A.L. Cordovado
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-8dc21953@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:S.P.A.L.CORDOVADO 0-0 POLISPORTIVA TAMAI ASD (Under 19 regionali 
+ — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-4887c922@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:U.FINCANTIERI MONFALCONE 3-1 S.P.A.L.CORDOVADO (Under 19 regionali 
+ — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-e31db68f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:TRIESTE VICTORY ACADEMY 6-1 S.P.A.L.CORDOVADO (Under 17 regionali 
+ — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-0dd82117@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:S.P.A.L.CORDOVADO 1-1 RORAI PORCIA (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-91dab4e0@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:S.P.A.L.CORDOVADO 2-2 NUOVO PORDENONE 2024 FC (Under 19 regionali 
+ — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-7234373f@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CALCIO AVIANO 1-2 S.P.A.L.CORDOVADO (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n10ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-d0312ccd@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:S.P.A.L.CORDOVADO 0-1 FIUMICELLO 2004 (Under 16 regionali — giron
+ e A)
+DESCRIPTION:Under 16 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-5e345515@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:S.P.A.L.CORDOVADO 1-2 TOLMEZZO CARNIA (Under 17 regionali — giron
+ e A)
+DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-3030b936@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:FIUME VENETO -BANNIA 1-1 S.P.A.L.CORDOVADO (Under 19 regionali — 
+ girone A)
+DESCRIPTION:Under 19 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-9e0bb1b1@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:S.P.A.L.CORDOVADO 1-0 REANESE (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-8eaf07ea@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:S.P.A.L.CORDOVADO 0-0 VIGONOVO (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n11ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-3a370117@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:CJARLINS MUZANE 4-1 S.P.A.L.CORDOVADO (Under 16 regionali — giron
+ e A)
+DESCRIPTION:Under 16 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-797d3821@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:CUSSIGNACCO CALCIO 4-1 S.P.A.L.CORDOVADO (Under 17 regionali — gi
+ rone A)
+DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-15cc53db@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:S.P.A.L.CORDOVADO 0-2 SANVITESE (Under 17 regionali — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+END:VCALENDAR

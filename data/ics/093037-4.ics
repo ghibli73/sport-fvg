@@ -1,0 +1,388 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Humus Basket Sacile
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-a-ac443a83@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261026T210000
+DTEND;TZID=Europe/Rome:20261026T230000
+SUMMARY:HUMUS BASKET 75-66 DINAMO GORIZIA (Under 19 Maschile Gold — giron
+ e A)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-52da9013@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T203000
+DTEND;TZID=Europe/Rome:20261027T223000
+SUMMARY:HUMUS BASKET 87-58 VIS SPILIMBERGO (Under 17 Maschile Gold — giro
+ ne PN (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-37a948b1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T153000
+DTEND;TZID=Europe/Rome:20261031T173000
+SUMMARY:NUOVO BASKET 2000 61-42 HUMUS BASKET (Under 17 Maschile Gold — gi
+ rone PN (prima fase))
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-26706905@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T163000
+DTEND;TZID=Europe/Rome:20261031T183000
+SUMMARY:Humus Basket 105-58 Dinamo Gorizia (Under 14 Maschile Gold — giro
+ ne B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-7ee87c4f@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261031T200000
+DTEND;TZID=Europe/Rome:20261031T220000
+SUMMARY:HUMUS BASKET 81-87 AMICI PALLACANESTRO UDINESE (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-0b43fdaf@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T183000
+DTEND;TZID=Europe/Rome:20261101T203000
+SUMMARY:Humus Basket 48-44 Scuola Pallacanestro Porcia 2021 (Under 13 Masch
+ ile — girone PN A)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 13 Maschile — girone PN A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-907ff15d@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261101T190000
+DTEND;TZID=Europe/Rome:20261101T210000
+SUMMARY:Humus Basket Sacile 64-57 Spilibasket (Divisione Regionale 2 — gi
+ rone PN)
+LOCATION:Palazzetto dello Sport\, Fontanafredda
+DESCRIPTION:Divisione Regionale 2 — girone PN\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-e2b94f9e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:HUMUS BASKET BLU 70-77 HUMUS BASKET (Under 15 Maschile Regionale 
+ — girone PN)
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n2ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-2a176fa2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T210000
+DTEND;TZID=Europe/Rome:20261103T230000
+SUMMARY:SERVOLANA 79-83 HUMUS BASKET (Under 19 Maschile Gold — girone A)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 19 Maschile Gold — girone A\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-c38e0fd7@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA 86-62 HUMUS BASKET (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-697ce315@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T113000
+DTEND;TZID=Europe/Rome:20261108T133000
+SUMMARY:Humus Basket 26-92 Gemona Basket (Under 14 Maschile Regionale — g
+ irone PN/UD)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-b-f6fe9fd0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T153000
+DTEND;TZID=Europe/Rome:20261108T173000
+SUMMARY:HUMUS BASKET 40-37 U.S.D. DON BOSCO (Under 14 Femminile — girone 
+ B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-371d0012@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T183000
+DTEND;TZID=Europe/Rome:20261108T203000
+SUMMARY:HUMUS BASKET 62-85 BASKET MANIAGO (Under 17 Maschile Regionale — 
+ girone PN (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-34bd988c@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261108T190000
+DTEND;TZID=Europe/Rome:20261108T210000
+SUMMARY:Humus Basket Sacile 60-69 Aviano Basket (Divisione Regionale 2 — 
+ girone PN)
+LOCATION:Palazzetto dello Sport\, Fontanafredda
+DESCRIPTION:Divisione Regionale 2 — girone PN\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-86f4d654@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T193000
+DTEND;TZID=Europe/Rome:20261109T213000
+SUMMARY:APU Next Gen 81-67 Humus Basket (Under 14 Maschile Gold — girone 
+ B (prima fase))
+LOCATION:Palazzetto M. Benedetti\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-cda20255@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T203000
+DTEND;TZID=Europe/Rome:20261109T223000
+SUMMARY:HUMUS BASKET 92-82 VENEZIA GIULIA BASKETBALL (Under 19 Maschile Gol
+ d — girone A)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 19 Maschile Gold — girone A\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-0c54e7b9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T210000
+DTEND;TZID=Europe/Rome:20261110T230000
+SUMMARY:Humus Basket 86-47 Roraigrande (Under 19 Maschile Regionale — gir
+ one PN B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n2ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-76f279a2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T191500
+DTEND;TZID=Europe/Rome:20261111T211500
+SUMMARY:TORRE BASKET 67-57 HUMUS BASKET (Under 17 Maschile Regionale — gi
+ rone PN (prima fase))
+LOCATION:Palestra Istituto "Flora"\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-65a639ec@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T210000
+DTEND;TZID=Europe/Rome:20261111T230000
+SUMMARY:HUMUS BASKET 82-61 G.S. VALLENONCELLO (Under 17 Maschile Gold — g
+ irone PN (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-ccca3256@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261113T184500
+DTEND;TZID=Europe/Rome:20261113T204500
+SUMMARY:Humus Basket 66-45 Basket Pasiano (Under 13 Maschile — girone PN 
+ A)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 13 Maschile — girone PN A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-f9680866@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261113T191500
+DTEND;TZID=Europe/Rome:20261113T211500
+SUMMARY:Torre Basket 66-22 Humus Basket (Under 14 Maschile Regionale — gi
+ rone PN/UD)
+LOCATION:Palestra Istituto Flora\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-1fea33dc@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T211500
+DTEND;TZID=Europe/Rome:20261113T231500
+SUMMARY:Basket Pasiano 81-46 Humus Basket Sacile (Divisione Regionale 2 —
+  girone PN)
+LOCATION:Palazzetto Roberto Marson\, Pasiano di Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-b-016c5e4e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T153000
+DTEND;TZID=Europe/Rome:20261114T173000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO 39-43 HUMUS BASKET (Under 14 Femminile 
+ — girone B (prima fase))
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-a9f42517@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T163000
+DTEND;TZID=Europe/Rome:20261114T183000
+SUMMARY:Humus Basket 86-55 Basketrieste (Under 14 Maschile Gold — girone 
+ B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-4504138e@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261114T200000
+DTEND;TZID=Europe/Rome:20261114T220000
+SUMMARY:HUMUS BASKET 89-82 AKK BOR BASKET (Serie C maschile — girone D (p
+ rima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-6e8b3c2c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:HUMUS BASKET BLU 48-70 RORAIGRANDE (Under 15 Maschile Regionale —
+  girone PN)
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n4ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-eb015353@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T203000
+DTEND;TZID=Europe/Rome:20261116T223000
+SUMMARY:GEMONA BASKET 70-100 HUMUS BASKET (Under 19 Maschile Gold — giron
+ e A)
+LOCATION:Palestra IPSIA\, Gemona del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-b49665f7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T210000
+DTEND;TZID=Europe/Rome:20261116T230000
+SUMMARY:Torre Basket 64-72 Humus Basket (Under 19 Maschile Regionale — gi
+ rone PN B (prima fase))
+LOCATION:Palestra Istituto Flora\, Pordenone
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n3ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+END:VCALENDAR

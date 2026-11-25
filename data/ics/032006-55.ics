@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Basket 4 Trieste
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-5b1b05d4@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T211500
+DTEND;TZID=Europe/Rome:20261030T231500
+SUMMARY:BASKET 4 TRIESTE 79-46 OLIMPIA GORIZIA (Divisione Regionale 3 — g
+ irone GO/TS)
+LOCATION:Pal. Liceo "G. Oberdan"\, Trieste
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-755ad8e0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T200000
+DTEND;TZID=Europe/Rome:20261102T220000
+SUMMARY:U.S.D. DON BOSCO 68-62 BASKET 4 TRIESTE (Under 17 Maschile Regional
+ e — girone GO/TS (prima fase))
+LOCATION:Pal. Oratorio Don Bosco\, Trieste
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n2ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-99d582b4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T194500
+DTEND;TZID=Europe/Rome:20261104T214500
+SUMMARY:MB PAPER'S 43-61 BASKET 4 TRIESTE (Under 19 Maschile Regionale — 
+ girone GO/TS/UD (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n1
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-976a2482@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T211500
+DTEND;TZID=Europe/Rome:20261106T231500
+SUMMARY:BASKET 4 TRIESTE 82-60 LIBERTAS TRIESTE (Divisione Regionale 3 — 
+ girone GO/TS)
+LOCATION:Pal. Liceo "G. Oberdan"\, Trieste
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-99c23fbb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T113000
+DTEND;TZID=Europe/Rome:20261108T133000
+SUMMARY:BASKET 4 TRIESTE 45-39 BASKET CERVIGNANESE (Under 19 Maschile Regio
+ nale — girone GO/TS/UD (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n2
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-34f3a17c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T183000
+DTEND;TZID=Europe/Rome:20261108T203000
+SUMMARY:A.INT.BALONCESTO ISONTINA 47-45 BASKET 4 TRIESTE (Under 17 Maschile
+  Regionale — girone GO/TS (prima fase))
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n3ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-3a550dd3@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T210000
+DTEND;TZID=Europe/Rome:20261113T230000
+SUMMARY:OLD STARS 69-81 BASKET 4 TRIESTE (Divisione Regionale 3 — girone 
+ GO/TS)
+LOCATION:Centro "Stella Matutina"\, Gorizia
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-87b524a6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T150000
+DTEND;TZID=Europe/Rome:20261115T170000
+SUMMARY:BASKET 4 TRIESTE 48-53 DINAMO GORIZIA (Under 17 Maschile Regionale 
+ — girone GO/TS (prima fase))
+LOCATION:Pal. Liceo G. Oberdan\, Trieste
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n4ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+END:VCALENDAR

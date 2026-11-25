@@ -1,0 +1,139 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · P.A.F. (basket)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-ud-b-63e88b99@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261028T184500
+DTEND;TZID=Europe/Rome:20261028T204500
+SUMMARY:P.A.F. 52-70 GEMONA BASKET (Under 13 Maschile — girone UD B)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Under 13 Maschile — girone UD B\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-bed9c5c8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261028T190000
+DTEND;TZID=Europe/Rome:20261028T210000
+SUMMARY:POL LIB. PASIAN DI PRATO 33-72 P.A.F. (Under 17 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Palasport Mario Vecchiatto\, Pasian di Prato
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-bb13dafe@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T210000
+DTEND;TZID=Europe/Rome:20261030T230000
+SUMMARY:P.A.F. 70-84 Pall. Laipacco (Divisione Regionale 2 — girone UD)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Divisione Regionale 2 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-1b324b36@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T204500
+DTEND;TZID=Europe/Rome:20261106T224500
+SUMMARY:Collinare Basket 74-67 P.A.F. (Divisione Regionale 2 — girone UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Divisione Regionale 2 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-788fd4ef@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:P.A.F. 26-95 APU NEXTGEN BIANCA (Under 13 Maschile — girone UD B)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Under 13 Maschile — girone UD B\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-64772a16@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T163000
+DTEND;TZID=Europe/Rome:20261107T183000
+SUMMARY:OLYMPIA RIVIGNANO 73-51 P.A.F. (Under 17 Maschile Regionale — gir
+ one UD (prima fase))
+LOCATION:Palestra comunale\, Rivignano Teor
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-b8927f45@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T174500
+DTEND;TZID=Europe/Rome:20261114T194500
+SUMMARY:P.A.F. 83-66 Scuola Basket Miky Mian (Under 17 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Palestra scolastica\, Povoletto
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-c90b809f@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:P.A.F. 95-66 Pol. Libertas Cussignacco (Divisione Regionale 2 — g
+ irone UD)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Divisione Regionale 2 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-a09d0f68@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:P.A.F. 39-81 LIBERTAS GONARS (Under 13 Maschile — girone UD B)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Under 13 Maschile — girone UD B\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+END:VCALENDAR

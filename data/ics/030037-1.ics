@@ -1,0 +1,282 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · U.S. Pro Fagagna A.S.D.
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-ecf5f126@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:RIVE D ARCANO FLAIBANO 1-0 PRO FAGAGNA (Under 19 regionali — giro
+ ne A)
+DESCRIPTION:Under 19 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-968faeb9@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:U.FINCANTIERI MONFALCONE 2-1 PRO FAGAGNA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-33fee466@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:PRO FAGAGNA 1-1 TRIESTE VICTORY ACADEMY (Under 19 regionali — gir
+ one A)
+DESCRIPTION:Under 19 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-ab97527b@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:PRO FAGAGNA 1-0 UNION MARTIGNACCO (Under 14 provinciali — girone 
+ C)
+DESCRIPTION:Under 14 provinciali — girone C\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-3c929bfa@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:PRO FAGAGNA 4-3 TRIESTE VICTORY ACADEMY (Under 15 regionali — gir
+ one A)
+DESCRIPTION:Under 15 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-0c73c86a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:SANVITESE 3-1 PRO FAGAGNA (Under 17 regionali — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-68656f62@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:PRO FAGAGNA 2-1 ZARJA A.S.D. (Under 17 regionali — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-02fb35d7@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:PRO GORIZIA 1-2 PRO FAGAGNA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-ee5ad55e@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:PRO FAGAGNA 1-0 CASARSA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n10ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-47700733@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:TOLMEZZO CARNIA 0-2 PRO FAGAGNA (Under 14 provinciali — girone C)
+DESCRIPTION:Under 14 provinciali — girone C\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-80d0a81b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:OPICINA 1-4 PRO FAGAGNA (Under 15 regionali — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-8fd2f346@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:DONATELLO CALCIO A.S.D. 1-2 PRO FAGAGNA (Under 16 regionali — gir
+ one A)
+DESCRIPTION:Under 16 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-7f0fbe19@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:PRO FAGAGNA 9-1 A.C. CORDENONESE 3S ASD (Under 19 regionali — gir
+ one A)
+DESCRIPTION:Under 19 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-8d700f30@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:PRO FAGAGNA 5-1 CUSSIGNACCO CALCIO (Under 15 regionali — girone A
+ )
+DESCRIPTION:Under 15 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-0f8b5f69@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:PRO FAGAGNA 2-2 SAN LUIGI CALCIO (Under 16 regionali — girone A)
+DESCRIPTION:Under 16 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-62aba766@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:CORVA 0-2 PRO FAGAGNA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-6258f2ee@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SAN LUIGI CALCIO 2-0 PRO FAGAGNA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n11ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-ddfedb63@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:PRO FAGAGNA 7-1 OSOPPO RUSH SOCCER (Under 14 provinciali — girone
+  C)
+DESCRIPTION:Under 14 provinciali — girone C\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-827d41d9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:NUOVO PORDENONE 2024 FC 2-1 PRO FAGAGNA (Under 17 regionali — gir
+ one A)
+DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-e5949eb1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:DONATELLO CALCIO A.S.D. 5-1 PRO FAGAGNA (Under 15 regionali — gir
+ one A)
+DESCRIPTION:Under 15 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-93b5ed87@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:SANVITESE 3-1 PRO FAGAGNA (Under 16 regionali — girone A)
+DESCRIPTION:Under 16 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-ca47fcc2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:PRO FAGAGNA 2-1 PRO GORIZIA (Under 17 regionali — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+END:VCALENDAR

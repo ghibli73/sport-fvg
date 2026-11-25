@@ -1,0 +1,118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · U.S.D. Dom
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr1-est-5f820bbb@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T200000
+DTEND;TZID=Europe/Rome:20261030T220000
+SUMMARY:U.S.D. Dom 51-80 San Vito Trieste (Divisione Regionale 1 — girone
+  Est)
+LOCATION:Kulturni Dom\, Gorizia
+DESCRIPTION:Divisione Regionale 1 — girone Est\n5ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-3000b034@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T153000
+DTEND;TZID=Europe/Rome:20261031T173000
+SUMMARY:DOM 79-52 Servolana (Under 17 Maschile Gold — girone GO/TS (prima
+  fase))
+LOCATION:PalaBigot\, Gorizia
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n3ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-3a2a5481@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261107T180000
+DTEND;TZID=Europe/Rome:20261107T200000
+SUMMARY:S.S. SD Kontovel 82-60 U.S.D. Dom (Divisione Regionale 1 — girone
+  Est)
+LOCATION:Palestra M. Ervatti\, Sgonico
+DESCRIPTION:Divisione Regionale 1 — girone Est\n6ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-11749827@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T120000
+DTEND;TZID=Europe/Rome:20261108T140000
+SUMMARY:DOM 92-64 Falconstar Basket (Under 17 Maschile Gold — girone GO/T
+ S (prima fase))
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n4ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-dfd16ea7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T153000
+DTEND;TZID=Europe/Rome:20261114T173000
+SUMMARY:DOM 83-55 AKK Bor Basket (Under 17 Maschile Gold — girone GO/TS (
+ prima fase))
+LOCATION:PalaBigot\, Gorizia
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n5ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-5d97d8ea@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261115T200000
+DTEND;TZID=Europe/Rome:20261115T220000
+SUMMARY:U.S.D. Dom 78-86 Metamorfosi Gradisca (Divisione Regionale 1 — gi
+ rone Est)
+LOCATION:Kulturni Dom\, Gorizia
+DESCRIPTION:Divisione Regionale 1 — girone Est\n7ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-b6aa1a5b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261119T200000
+DTEND;TZID=Europe/Rome:20261119T220000
+SUMMARY:DOM 61-42 Basket Gradisca (Under 17 Maschile Gold — girone GO/TS 
+ (prima fase))
+LOCATION:PalaBigot\, Gorizia
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n6ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,252 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Farravolo
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-a5176a48@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261027T200000
+DTEND;TZID=Europe/Rome:20261027T220000
+SUMMARY:FARRAVOLO 3-0 COSELLI 2D BLU (Seconda Divisione femminile CT Triest
+ e-Gorizia — girone A)
+LOCATION:Palestra Comunale\, FARRA D'ISONZO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n1
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-c2dc7dd4@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261030T200000
+DTEND;TZID=Europe/Rome:20261030T220000
+SUMMARY:INTREPIDA 0-3 FARRAVOLO (Seconda Divisione femminile CT Trieste-Gor
+ izia — girone A)
+LOCATION:Palestra Comunale\, MARIANO DEL FRIULI
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n3
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-64b65669@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T180000
+DTEND;TZID=Europe/Rome:20261031T200000
+SUMMARY:EUROVOLLEYSCHOOL 0-3 FARRAVOLO (Serie D femminile — girone unico)
+LOCATION:Palestra Scuola Elementare Don Milani\, TRIESTE TS
+DESCRIPTION:Serie D femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-4d6158ff@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T203000
+DTEND;TZID=Europe/Rome:20261104T223000
+SUMMARY:FARRAVOLO 2-3 SOCA LOKANDA DEVETAK ZKB (Serie D femminile — giron
+ e unico)
+LOCATION:Palestra Comunale\, Farra d'Isonzo (GO)
+DESCRIPTION:Serie D femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-291f1a52@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:ASD OFP AZZURRA RDR CIELO 1-3 FARRAVOLO (Seconda Divisione femminil
+ e CT Trieste-Gorizia — girone A)
+LOCATION:Palestra CAMPUS Cittadella dello Sport\, TRIESTE TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n4
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-80af9369@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:ASD PALLAVOLO MOSSA 3-0 FARRAVOLO (Serie D femminile — girone uni
+ co)
+LOCATION:Palestra Comunale\, Mossa (GO)
+DESCRIPTION:Serie D femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-ba66ccbd@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T200000
+DTEND;TZID=Europe/Rome:20261113T220000
+SUMMARY:FARRAVOLO 3-1 UNICLIMA TSV (Seconda Divisione femminile CT Trieste-
+ Gorizia — girone A)
+LOCATION:Palestra Comunale\, FARRA D'ISONZO GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n5
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-5d5fa0aa@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:FARRAVOLO 3-0 PALLAVOLO BRUGNERA 96 (Serie D femminile — girone u
+ nico)
+LOCATION:Palestra Comunale\, Farra d'Isonzo (GO)
+DESCRIPTION:Serie D femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-ac151a0f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:UNICLIMA TSV 0-3 FARRAVOLO (Under 19 femminile CT Trieste-Gorizia 
+ — girone A)
+LOCATION:Palestra Liceo Galilei\, TRIESTE TS
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-f5abc8d4@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261124T200000
+DTEND;TZID=Europe/Rome:20261124T220000
+SUMMARY:FARRAVOLO 1-3 MAVRICA (Seconda Divisione femminile CT Trieste-Goriz
+ ia — girone A)
+LOCATION:Palestra Comunale\, Via dei Conventi 22\, FARRA D'ISONZO GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n6
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-a128c697@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261125T210000
+DTEND;TZID=Europe/Rome:20261125T230000
+SUMMARY:FARRAVOLO – VERO SRL MANIAGO (Serie D femminile — girone unico)
+LOCATION:Palestra Comunale\, Via dei Conventi 22\, Farra d'Isonzo (GO)
+DESCRIPTION:Serie D femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-e09a5ad9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261126T210000
+DTEND;TZID=Europe/Rome:20261126T230000
+SUMMARY:AURA TRIESTE VOLLEY – FARRAVOLO (Seconda Divisione femminile CT T
+ rieste-Gorizia — girone A)
+LOCATION:Palestra Stadio Rocco\, Via Dei Macelli 5/1\, TRIESTE TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n7
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-2cb2e0fc@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:FARRAVOLO – IMQ RIZZI UDINE (Serie D femminile — girone unico)
+LOCATION:Palestra Comunale\, Via dei Conventi 22\, Farra d'Isonzo (GO)
+DESCRIPTION:Serie D femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-6b9aed52@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:GEKO GOLD STARANZANO – FARRAVOLO (Under 19 femminile CT Trieste-G
+ orizia — girone A)
+LOCATION:Palestra Scuole Medie\, Piazzale Unicef 1\, STARANZANO GO
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-270c90e0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261201T200000
+DTEND;TZID=Europe/Rome:20261201T220000
+SUMMARY:FARRAVOLO – ZALET SLOGA U19 (Under 19 femminile CT Trieste-Gorizi
+ a — girone A)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-4e895fae@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T180000
+DTEND;TZID=Europe/Rome:20261205T200000
+SUMMARY:C.U.S. TRIESTE A.S.D. – FARRAVOLO (Serie D femminile — girone u
+ nico)
+DESCRIPTION:Serie D femminile — girone unico\n9ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-165cadba@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T200000
+DTEND;TZID=Europe/Rome:20261205T220000
+SUMMARY:COSELLI 2D BLU – FARRAVOLO (Seconda Divisione femminile CT Triest
+ e-Gorizia — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n8
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+END:VCALENDAR

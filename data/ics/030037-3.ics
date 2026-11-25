@@ -1,0 +1,156 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Collinare Basket
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr2-ud-60ab1a65@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T204500
+DTEND;TZID=Europe/Rome:20261030T224500
+SUMMARY:Danieli Sporting Club 87-85 Collinare Basket (Divisione Regionale 2
+  — girone UD)
+LOCATION:Palestra 'Buttrio'\, Buttrio
+DESCRIPTION:Divisione Regionale 2 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-de4f2827@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261031T193000
+DTEND;TZID=Europe/Rome:20261031T213000
+SUMMARY:POL. LIBERTAS ACLI 72-62 COLLINARE BASKET (Serie C maschile — gir
+ one D (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-2b498979@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T191500
+DTEND;TZID=Europe/Rome:20261102T211500
+SUMMARY:PALLACANESTRO FELETTO 26-51 COLLINARE BASKET (Under 13 Maschile —
+  girone UD A)
+LOCATION:Pal. Sc. Media Feletto Umberto\, Tavagnacco
+DESCRIPTION:Under 13 Maschile — girone UD A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-58e78a8f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261105T183000
+DTEND;TZID=Europe/Rome:20261105T203000
+SUMMARY:COLLINARE BASKET 34-68 PALL. CODROIPESE 'A' (Under 13 Maschile — 
+ girone UD A)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Under 13 Maschile — girone UD A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-1b324b36@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T204500
+DTEND;TZID=Europe/Rome:20261106T224500
+SUMMARY:Collinare Basket 74-67 P.A.F. (Divisione Regionale 2 — girone UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Divisione Regionale 2 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-cafa4960@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T150000
+DTEND;TZID=Europe/Rome:20261107T170000
+SUMMARY:Pol. Casarsa 51-47 Collinare Basket (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palasport Palarosa\, Casarsa della Delizia
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-07271281@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261107T193000
+DTEND;TZID=Europe/Rome:20261107T213000
+SUMMARY:COLLINARE BASKET 67-80 G.S. VALLENONCELLO (Serie C maschile — gir
+ one D (prima fase))
+LOCATION:Pal. Sc. Elementare\, Fagagna
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-953683fd@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261111T210000
+DTEND;TZID=Europe/Rome:20261111T230000
+SUMMARY:Pall. Laipacco 53-60 Collinare Basket (Divisione Regionale 2 — gi
+ rone UD)
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-3e9d5b34@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:BASKETRIESTE 72-81 COLLINARE BASKET (Serie C maschile — girone D 
+ (prima fase))
+LOCATION:Palarubini – Allianz Dome\, Trieste
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-7acacc47@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T163000
+DTEND;TZID=Europe/Rome:20261114T183000
+SUMMARY:Collinare Basket 69-42 BVO Annone (Under 14 Maschile Regionale — 
+ girone PN/UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+END:VCALENDAR

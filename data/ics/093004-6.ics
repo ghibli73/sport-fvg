@@ -1,0 +1,416 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Aviano Dragonflies
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-059e62e7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T150000
+DTEND;TZID=Europe/Rome:20261031T170000
+SUMMARY:ALTA RESA 3-1 RISTORANTE SAN GIORGIO (Under 14 femminile CT Pordeno
+ ne — girone A)
+LOCATION:Palestra Borgomeduna\, PORDENONE PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-ee5266c3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T190000
+DTEND;TZID=Europe/Rome:20261031T210000
+SUMMARY:AQUILA SPILIMBERGO GREEN 3-2 PANDAM SERRAMENTI (Under 14 femminile 
+ CT Pordenone — girone B)
+LOCATION:Palestra Scuole Medie\, SPILIMBERGO PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-40846cfe@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T200000
+DTEND;TZID=Europe/Rome:20261031T220000
+SUMMARY:AZ AGR. PANCIERA ZOPPOLA 3-0 MIDA AD AVIANO (Prima Divisione femmin
+ ile CT Pordenone — girone unico)
+LOCATION:Palestra Scuole Medie\, ZOPPOLA PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n3ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-a-ff4e0f9e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T103000
+DTEND;TZID=Europe/Rome:20261101T123000
+SUMMARY:SOL.E - SOLUZIONI ENERGIA 2-3 EIDOS U15 (Under 15 femminile CT Pord
+ enone — girone A)
+LOCATION:Palasport\, AVIANO PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone A\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-0006ebc9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261103T190000
+DTEND;TZID=Europe/Rome:20261103T210000
+SUMMARY:VPA 3-1 PANDAM SERRAMENTI (Under 14 femminile CT Pordenone — giro
+ ne B)
+LOCATION:Palestra Scuole Medie\, PRATA DI PORDENONE PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-64c1c20c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T153000
+DTEND;TZID=Europe/Rome:20261107T173000
+SUMMARY:RISTORANTE SAN GIORGIO 3-1 PORDENONE VOLLEY (Under 14 femminile CT 
+ Pordenone — girone A)
+LOCATION:Palasport\, AVIANO PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-a-3e6cc9b1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:FERRAMENTA LUCCHESE GIS 3-0 SOL.E - SOLUZIONI ENERGIA (Under 15 fem
+ minile CT Pordenone — girone A)
+LOCATION:Pal. Sport "Piccin"\, SACILE PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone A\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-ca05b6fe@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:MIDA AD AVIANO 1-3 CFV - FRIULTEX (Prima Divisione femminile CT Por
+ denone — girone unico)
+LOCATION:Palasport\, AVIANO PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n4ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-5ffe0e4c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T190000
+DTEND;TZID=Europe/Rome:20261108T210000
+SUMMARY:RISTORANTE SAN GIORGIO 0-3 AZ AG TEDESCO TAMARA ZOPP (Under 14 femm
+ inile CT Pordenone — girone A)
+LOCATION:Palasport\, AVIANO PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-010e0a6c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T210000
+DTEND;TZID=Europe/Rome:20261113T230000
+SUMMARY:APC LIFETIME CENTER CINTO 3-0 MIDA AD AVIANO (Prima Divisione femmi
+ nile CT Pordenone — girone unico)
+LOCATION:Palasport Trevisan\, Cinto Caomaggiore VE
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n5ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-4caebd99@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T180000
+DTEND;TZID=Europe/Rome:20261114T200000
+SUMMARY:PANDAM SERRAMENTI 0-3 LIBERTASU14 (Under 14 femminile CT Pordenone 
+ — girone B)
+LOCATION:Palasport\, Aviano PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-3855389a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:MIDA AD AVIANO 1-3 TECNECO (Prima Divisione femminile CT Pordenone 
+ — girone unico)
+LOCATION:Palasport\, Aviano PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n6ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-b-c3b649c3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T090000
+DTEND;TZID=Europe/Rome:20261115T110000
+SUMMARY:FUTURA WHITE 0-3 AVIANO DRAGONFLIES (Coppa Autunno Under 12 misto C
+ T Pordenone — girone B)
+LOCATION:Palestra Scuola Media Da Vinci\, Cordenons PN
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone B\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-a7c3b7a6@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T103000
+DTEND;TZID=Europe/Rome:20261115T123000
+SUMMARY:A.P. TRAVESIO 0-3 RISTORANTE SAN GIORGIO (Under 14 femminile CT Por
+ denone — girone A)
+LOCATION:Palestra Scuole Medie\, Travesio PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-a-343034c8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T103000
+DTEND;TZID=Europe/Rome:20261115T123000
+SUMMARY:SOL.E - SOLUZIONI ENERGIA 2-3 BLU VOLLEY PORDENONE (Under 15 femmin
+ ile CT Pordenone — girone A)
+LOCATION:Palasport\, Aviano PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone A\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-ec438c85@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T153000
+DTEND;TZID=Europe/Rome:20261121T173000
+SUMMARY:RISTORANTE SAN GIORGIO 0-3 AQUILA SPILIMBERGO (Under 14 femminile C
+ T Pordenone — girone A)
+LOCATION:Palasport\, Aviano (PN)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-b-91da0d89@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T180000
+DTEND;TZID=Europe/Rome:20261121T200000
+SUMMARY:AVIANO DRAGONFLIES 3-0 CORDOVADO VOLLEY (Coppa Autunno Under 12 mis
+ to CT Pordenone — girone B)
+LOCATION:Palasport\, Aviano (PN)
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone B\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-b-de5364fd@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T113000
+DTEND;TZID=Europe/Rome:20261122T133000
+SUMMARY:AVIANO DRAGONFLIES 3-0 POLISPORTIVA MONTEREALE (Coppa Autunno Under
+  12 misto CT Pordenone — girone B)
+LOCATION:Palasport\, Aviano (PN)
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone B\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-32882d34@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T160000
+DTEND;TZID=Europe/Rome:20261122T180000
+SUMMARY:PALLAVOLO BRUGNERA 96 0-3 PANDAM SERRAMENTI (Under 14 femminile CT 
+ Pordenone — girone B)
+LOCATION:Palestra Scuole Elementari\, Tamai\, Brugnera (PN)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-bbf3be95@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T190000
+DTEND;TZID=Europe/Rome:20261122T210000
+SUMMARY:MIDA AD AVIANO 3-0 PORDENONE VOLLEY (Prima Divisione femminile CT P
+ ordenone — girone unico)
+LOCATION:Palasport\, Aviano (PN)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n7ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-00b93014@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261127T193000
+DTEND;TZID=Europe/Rome:20261127T213000
+SUMMARY:PANDAM SERRAMENTI – PSG DOMOVIP PORCIA (Under 14 femminile CT Por
+ denone — girone B)
+LOCATION:Palasport\, via Colloredo 2\, AVIANO PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-26e2e95d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:A.P. TRAVESIO – MIDA AD AVIANO (Prima Divisione femminile CT Pord
+ enone — girone unico)
+LOCATION:Palestra Scuole Medie\, Via Rizzo\, TRAVESIO PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n8ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-c448712a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T103000
+DTEND;TZID=Europe/Rome:20261129T123000
+SUMMARY:GSD FAVRIA SAN VITO AL T. – RISTORANTE SAN GIORGIO (Under 14 femm
+ inile CT Pordenone — girone A)
+LOCATION:Palestra Liceo Scientifico\, Via Stazione\, SAN VITO AL TAGLIAMENT
+ O PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-a-2d46b044@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T103000
+DTEND;TZID=Europe/Rome:20261129T123000
+SUMMARY:SOL.E - SOLUZIONI ENERGIA – VPA (Under 15 femminile CT Pordenone 
+ — girone A)
+LOCATION:Palasport\, via Colloredo 2\, AVIANO PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone A\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-b-e6550473@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T150000
+DTEND;TZID=Europe/Rome:20261205T170000
+SUMMARY:U12 Farmacia di Nave – AVIANO DRAGONFLIES (Coppa Autunno Under 12
+  misto CT Pordenone — girone B)
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone B\n5ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-32e369c1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T170000
+DTEND;TZID=Europe/Rome:20261205T190000
+SUMMARY:VOLLEY MONTEREALE – PANDAM SERRAMENTI (Under 14 femminile CT Pord
+ enone — girone B)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-2d7d565c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T203000
+DTEND;TZID=Europe/Rome:20261205T223000
+SUMMARY:MIDA AD AVIANO – ALTA RESA (Prima Divisione femminile CT Pordenon
+ e — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n9ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-f26ef853@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T103000
+DTEND;TZID=Europe/Rome:20261206T123000
+SUMMARY:RISTORANTE SAN GIORGIO – AUTOFFICINA CORDENONESE (Under 14 femmin
+ ile CT Pordenone — girone A)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+END:VCALENDAR

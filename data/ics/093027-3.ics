@@ -1,0 +1,92 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Polisportiva Montereale
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr3-pn-0a9c2372@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261029T204500
+DTEND;TZID=Europe/Rome:20261029T224500
+SUMMARY:POLISPORTIVA MONTEREALE 72-66 POL. CASARSA 'B' (Divisione Regionale
+  3 — girone PN)
+LOCATION:Palestra Comunale\, Montereale Valcellina
+DESCRIPTION:Divisione Regionale 3 — girone PN\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-b60a7c13@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261105T204500
+DTEND;TZID=Europe/Rome:20261105T224500
+SUMMARY:POLISPORTIVA MONTEREALE 52-41 BALONSESTO (Divisione Regionale 3 —
+  girone PN)
+LOCATION:Palestra Comunale\, Montereale Valcellina
+DESCRIPTION:Divisione Regionale 3 — girone PN\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-433013a9@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261111T213000
+DTEND;TZID=Europe/Rome:20261111T233000
+SUMMARY:LIBERTAS FIUME VENETO 'B' 78-47 POLISPORTIVA MONTEREALE (Divisione 
+ Regionale 3 — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-dfc77508@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261125T211500
+DTEND;TZID=Europe/Rome:20261125T231500
+SUMMARY:JULIA CONCORDIA BASKET – POLISPORTIVA MONTEREALE (Divisione Regio
+ nale 3 — girone PN)
+LOCATION:Pal.tto Sport "L. Valerio"\, Concordia Sagittaria
+DESCRIPTION:Divisione Regionale 3 — girone PN\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-c2e83691@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261210T204500
+DTEND;TZID=Europe/Rome:20261210T224500
+SUMMARY:POLISPORTIVA MONTEREALE – BASKET VILLANOVA H.R.V (Divisione Regio
+ nale 3 — girone PN)
+LOCATION:Palestra Comunale\, Montereale Valcellina
+DESCRIPTION:Divisione Regionale 3 — girone PN\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+END:VCALENDAR

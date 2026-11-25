@@ -1,0 +1,224 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · UEB Gesteco Cividale
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-b5a1e22f@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;TZID=Europe/Rome:20261027T193000
+DTEND;TZID=Europe/Rome:20261027T213000
+SUMMARY:Umana Spa Reyer 80-81 UEB Cividale (Under 19 Maschile Eccellenza 
+ — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palasport 'Taliercio'\, Venezia
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n5ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-56bb6103@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Cento 64-74 Cividale (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-4f1b182a@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T203000
+DTEND;TZID=Europe/Rome:20261030T223000
+SUMMARY:BASKETRIESTE 56-76 UEB Cividale B (Serie C maschile — girone D (p
+ rima fase))
+LOCATION:Palarubini – Allianz Dome\, Trieste
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-04fffa7c@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261031T183000
+DTEND;TZID=Europe/Rome:20261031T203000
+SUMMARY:MEP Cividale 88-46 Economy Rent Cordenons (Under 17 Maschile Eccell
+ enza — girone unico)
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n5ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-21498d53@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;TZID=Europe/Rome:20261102T203000
+DTEND;TZID=Europe/Rome:20261102T223000
+SUMMARY:UEB Cividale 88-84 Amici Pallacanestro Udinese (Under 19 Maschile E
+ ccellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n6ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-9c3974cd@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:UEB Cividale B 70-58 PALL. PORTOGRUARO (Serie C maschile — girone
+  D (prima fase))
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-8780164f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Cividale 70-67 Sassari (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-7027b53f@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;TZID=Europe/Rome:20261110T210000
+DTEND;TZID=Europe/Rome:20261110T230000
+SUMMARY:Basket Mestre 1958 72-90 UEB Cividale (Under 19 Maschile Eccellenza
+  — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palazzetto di Trivignano (Pala Vega)\, Venezia
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n7ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-d42e0fc2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Mestre 79-81 Cividale (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-f49b2656@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261111T200000
+DTEND;TZID=Europe/Rome:20261111T220000
+SUMMARY:Amici Pallacanestro Udinese 86-64 MEP Cividale (Under 17 Maschile E
+ ccellenza — girone unico)
+LOCATION:Palasport Primo Carnera\, Udine
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n6ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-0ddee209@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261114T183000
+DTEND;TZID=Europe/Rome:20261114T203000
+SUMMARY:VIS SPILIMBERGO 71-64 UEB Cividale B (Serie C maschile — girone D
+  (prima fase))
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-c9739f5e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Rimini 88-79 Cividale (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-7cfb44fc@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;TZID=Europe/Rome:20261116T193000
+DTEND;TZID=Europe/Rome:20261116T213000
+SUMMARY:Universo Treviso Basket 67-101 UEB Cividale (Under 19 Maschile Ecce
+ llenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palestra S. Antonino\, Treviso
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n8ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-6bf742fc@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Cividale 78-72 Caserta (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n11ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-8fd03839@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261128T180000
+DTEND;TZID=Europe/Rome:20261128T200000
+SUMMARY:U.S.D. Jadran – MEP Cividale (Under 17 Maschile Eccellenza — gi
+ rone unico)
+LOCATION:Palestra Aldo Cova\, Trieste
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n4ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-b9339c12@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T200000
+DTEND;TZID=Europe/Rome:20261128T220000
+SUMMARY:Cividale – Sebastiani Rieti (Serie A2 — girone unico (regular s
+ eason))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n12ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Libertas Gym e Basket
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-069783d7@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261031T203000
+DTEND;TZID=Europe/Rome:20261031T223000
+SUMMARY:Libertas Gym E Basket 55-48 Nuova Basket Isonzo (Serie C femminile 
+ — girone unico (prima fase))
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n2ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-85d285dd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:LIBERTAS GYM E BASKET 46-95 PALL. INTERCLUB MUGGIA (Under 17 Femmin
+ ile — girone unico)
+LOCATION:Pal. I.T. Leonardo da Vinci\, Trieste
+DESCRIPTION:Under 17 Femminile — girone unico\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-7547faff@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T173000
+DTEND;TZID=Europe/Rome:20261107T193000
+SUMMARY:Sistema Rosa Pall. 67-49 Libertas Gym e Basket (Under 15 Femminile 
+ — girone unico)
+LOCATION:Palasport "Crisafulli"\, Pordenone
+DESCRIPTION:Under 15 Femminile — girone unico\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-6d8e2315@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:Libertas Gym E Basket 82-35 Pozzuolo Basket (Serie C femminile — 
+ girone unico (prima fase))
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-7658c38b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T190000
+DTEND;TZID=Europe/Rome:20261108T210000
+SUMMARY:POL. LIBERTAS ACLI 36-102 LIBERTAS GYM E BASKET (Under 17 Femminile
+  — girone unico)
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 17 Femminile — girone unico\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-86c0d6ca@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T120000
+DTEND;TZID=Europe/Rome:20261115T140000
+SUMMARY:Libertas Gym e Basket 68-48 U.S. Alba (Under 15 Femminile — giron
+ e unico)
+LOCATION:Pal. Liceo "G. Oberdan"\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-9fa94873@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:LIBERTAS GYM E BASKET 63-29 POZZUOLO BASKET (Under 17 Femminile —
+  girone unico)
+LOCATION:Pal. I.T. Leonardo da Vinci\, Trieste
+DESCRIPTION:Under 17 Femminile — girone unico\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-9de683ca@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261117T210000
+DTEND;TZID=Europe/Rome:20261117T230000
+SUMMARY:Polisportiva Concordia 60-91 Libertas Gym E Basket (Serie C femmini
+ le — girone unico (prima fase))
+LOCATION:Pal.tto Sport "L. Valerio"\, Concordia Sagittaria
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n4ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+END:VCALENDAR

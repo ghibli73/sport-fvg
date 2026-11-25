@@ -1,0 +1,209 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Basketrieste
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-gold-b-91fbbb2d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261028T193000
+DTEND;TZID=Europe/Rome:20261028T213000
+SUMMARY:APU Next Gen 127-26 Basketrieste (Under 14 Maschile Gold — girone
+  B (prima fase))
+LOCATION:Palazzetto M. Benedetti\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-8ee7d528@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261028T193000
+DTEND;TZID=Europe/Rome:20261028T213000
+SUMMARY:Basketrieste 66-87 Basket Gradisca (Under 17 Maschile Gold — giro
+ ne GO/TS (prima fase))
+LOCATION:Palarubini Allianz Dome\, Trieste
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n2ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-4f1b182a@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T203000
+DTEND;TZID=Europe/Rome:20261030T223000
+SUMMARY:BASKETRIESTE 56-76 UEB Cividale B (Serie C maschile — girone D (p
+ rima fase))
+LOCATION:Palarubini – Allianz Dome\, Trieste
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-3a762230@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T184500
+DTEND;TZID=Europe/Rome:20261103T204500
+SUMMARY:AKK BOR BASKET 26-91 BASKETRIESTE (Under 13 Maschile — girone GO/
+ TS B)
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n1ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-474c59b2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T193000
+DTEND;TZID=Europe/Rome:20261104T213000
+SUMMARY:Basketrieste 53-52 Pozzuolo Basket (Under 14 Maschile Gold — giro
+ ne B (prima fase))
+LOCATION:Palarubini Allianz Dome\, Trieste
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-f87efa8d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261106T204500
+DTEND;TZID=Europe/Rome:20261106T224500
+SUMMARY:AKK Bor Basket 69-71 Basketrieste (Under 17 Maschile Gold — giron
+ e GO/TS (prima fase))
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n4ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-1e9f3af3@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261107T190000
+DTEND;TZID=Europe/Rome:20261107T210000
+SUMMARY:CENTRO SEDIA BASKET 88-79 BASKETRIESTE (Serie C maschile — girone
+  D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-67e1722b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:Longobardi 77-60 Basketrieste (Under 14 Maschile Gold — girone B 
+ (prima fase))
+LOCATION:Palestra Sc. Ippolito Nievo\, Remanzacco
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-f2dff42f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T193000
+DTEND;TZID=Europe/Rome:20261111T213000
+SUMMARY:BASKETRIESTE 99-23 S.S. SD KONTOVEL (Under 13 Maschile — girone G
+ O/TS B)
+LOCATION:Palarubini Allianz Dome\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n2ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-3e9d5b34@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:BASKETRIESTE 72-81 COLLINARE BASKET (Serie C maschile — girone D 
+ (prima fase))
+LOCATION:Palarubini – Allianz Dome\, Trieste
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-a9f42517@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T163000
+DTEND;TZID=Europe/Rome:20261114T183000
+SUMMARY:Humus Basket 86-55 Basketrieste (Under 14 Maschile Gold — girone 
+ B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-1a933696@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T160000
+DTEND;TZID=Europe/Rome:20261115T180000
+SUMMARY:A.INT.BALONCESTO ISONTINA 64-86 BASKETRIESTE (Under 13 Maschile —
+  girone GO/TS B)
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n3ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-0e5c3d76@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T193000
+DTEND;TZID=Europe/Rome:20261118T213000
+SUMMARY:Basketrieste 64-55 O.F.P. Azzurra R.D.R. Basket Trieste (Under 17 M
+ aschile Gold — girone GO/TS (prima fase))
+LOCATION:Palarubini Allianz Dome\, Trieste
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n5ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-28b9f18c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T193000
+DTEND;TZID=Europe/Rome:20261125T213000
+SUMMARY:Basketrieste – Dinamo Gorizia (Under 14 Maschile Gold — girone 
+ B (prima fase))
+LOCATION:Palarubini Allianz Dome\, Trieste
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+END:VCALENDAR

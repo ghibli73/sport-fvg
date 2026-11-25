@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Neonis Basket GS Vallenoncello
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-b-2ac9fdbc@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261026T193000
+DTEND;TZID=Europe/Rome:20261026T213000
+SUMMARY:Ronchi Basket Club 72-58 G.S. Vallenoncello (Under 19 Maschile Gold
+  — girone B)
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 19 Maschile Gold — girone B\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-3d9a8e50@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261031T190000
+DTEND;TZID=Europe/Rome:20261031T210000
+SUMMARY:G.S. VALLENONCELLO 75-68 POLISPORTIVA VENEZIA GIULIA (Serie C masch
+ ile — girone D (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-07271281@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261107T193000
+DTEND;TZID=Europe/Rome:20261107T213000
+SUMMARY:COLLINARE BASKET 67-80 G.S. VALLENONCELLO (Serie C maschile — gir
+ one D (prima fase))
+LOCATION:Pal. Sc. Elementare\, Fagagna
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-352af52c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T211500
+DTEND;TZID=Europe/Rome:20261109T231500
+SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste 87-75 G.S. Vallenoncello (Unde
+ r 19 Maschile Gold — girone B)
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Under 19 Maschile Gold — girone B\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-65a639ec@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T210000
+DTEND;TZID=Europe/Rome:20261111T230000
+SUMMARY:HUMUS BASKET 82-61 G.S. VALLENONCELLO (Under 17 Maschile Gold — g
+ irone PN (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-89f459d8@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261114T190000
+DTEND;TZID=Europe/Rome:20261114T210000
+SUMMARY:G.S. VALLENONCELLO 73-67 POL. LIBERTAS ACLI (Serie C maschile — g
+ irone D (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-630d6fc6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:G.S. VALLENONCELLO 61-78 PALL. PORTOGRUARO (Under 17 Maschile Gold 
+ — girone PN (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-c9aa49aa@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T193000
+DTEND;TZID=Europe/Rome:20261125T213000
+SUMMARY:BASKET CORDOVADO – G.S. VALLENONCELLO (Under 17 Maschile Gold —
+  girone PN (prima fase))
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n6ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,261 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Pozzuolo Basket
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-61192ea8@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261027T204500
+DTEND;TZID=Europe/Rome:20261027T224500
+SUMMARY:Pozzuolo Basket 43-69 Pall. Interclub Muggia (Serie C femminile —
+  girone unico (prima fase))
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n1ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-0a64b234@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261029T180000
+DTEND;TZID=Europe/Rome:20261029T200000
+SUMMARY:PALL. CODROIPESE 'A' 55-36 POZZUOLO BASKET (Under 13 Maschile — g
+ irone UD A)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 13 Maschile — girone UD A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-84817382@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261030T190000
+DTEND;TZID=Europe/Rome:20261030T210000
+SUMMARY:POZZUOLO BASKET 44-28 POL. LIBERTAS ACLI (Under 13 Femminile — gi
+ rone PN/UD (prima fase))
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-7f39398f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T173000
+DTEND;TZID=Europe/Rome:20261031T193000
+SUMMARY:SISTEMA ROSA PALL. 96-30 POZZUOLO BASKET (Under 17 Femminile — gi
+ rone unico)
+LOCATION:Palasport "Crisafulli"\, Pordenone
+DESCRIPTION:Under 17 Femminile — girone unico\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-7fad1285@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261031T183000
+DTEND;TZID=Europe/Rome:20261031T203000
+SUMMARY:Pozzuolo Basket 44-75 APU Next Gen (Serie C femminile — girone un
+ ico (prima fase))
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n2ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-93b29a4e@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261102T210000
+DTEND;TZID=Europe/Rome:20261102T230000
+SUMMARY:POZZUOLO BASKET 75-41 POL. DIL. TRICESIMO 'C' (Divisione Regionale 
+ 3 — girone UD)
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Divisione Regionale 3 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-474c59b2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T193000
+DTEND;TZID=Europe/Rome:20261104T213000
+SUMMARY:Basketrieste 53-52 Pozzuolo Basket (Under 14 Maschile Gold — giro
+ ne B (prima fase))
+LOCATION:Palarubini Allianz Dome\, Trieste
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-5b02b31e@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T204500
+DTEND;TZID=Europe/Rome:20261106T224500
+SUMMARY:POL. DLF DI UDINE 64-78 POZZUOLO BASKET (Divisione Regionale 3 — 
+ girone UD)
+LOCATION:Pal. Sc. E. Ada Negri\, Udine
+DESCRIPTION:Divisione Regionale 3 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-169f3e17@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T163000
+DTEND;TZID=Europe/Rome:20261107T183000
+SUMMARY:POZZUOLO BASKET 85-44 UDINE BASKET CLUB (Under 13 Maschile — giro
+ ne UD A)
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Under 13 Maschile — girone UD A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-6d8e2315@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:Libertas Gym E Basket 82-35 Pozzuolo Basket (Serie C femminile — 
+ girone unico (prima fase))
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-52599562@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T094500
+DTEND;TZID=Europe/Rome:20261108T114500
+SUMMARY:Dinamo Gorizia 42-65 Pozzuolo Basket (Under 14 Maschile Gold — gi
+ rone B (prima fase))
+LOCATION:Centro Stella Matutina\, Gorizia
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-ade3edd0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:POZZUOLO BASKET 52-42 POL. CASARSA (Under 17 Femminile — girone u
+ nico)
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Under 17 Femminile — girone unico\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-2b99fdc4@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261109T210000
+DTEND;TZID=Europe/Rome:20261109T230000
+SUMMARY:POZZUOLO BASKET 68-50 PALL. TOLMEZZO (Divisione Regionale 3 — gir
+ one UD)
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Divisione Regionale 3 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-9f7926b6@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261114T183000
+DTEND;TZID=Europe/Rome:20261114T203000
+SUMMARY:Pozzuolo Basket 55-67 Nuova Basket Isonzo (Serie C femminile — gi
+ rone unico (prima fase))
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n4ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-c2846d2e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:Pozzuolo Basket 58-56 Longobardi (Under 14 Maschile Gold — girone
+  B (prima fase))
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-9fa94873@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:LIBERTAS GYM E BASKET 63-29 POZZUOLO BASKET (Under 17 Femminile —
+  girone unico)
+LOCATION:Pal. I.T. Leonardo da Vinci\, Trieste
+DESCRIPTION:Under 17 Femminile — girone unico\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-5f280465@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T170000
+DTEND;TZID=Europe/Rome:20261118T190000
+SUMMARY:POZZUOLO BASKET 77-68 PALL. CODROIPESE '2015' (Under 13 Maschile 
+ — girone UD A)
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Under 13 Maschile — girone UD A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-13033b66@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T193000
+DTEND;TZID=Europe/Rome:20261125T213000
+SUMMARY:APU Next Gen – Pozzuolo Basket (Under 14 Maschile Gold — girone
+  B (prima fase))
+LOCATION:Palazzetto M. Benedetti\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,351 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Polisportiva Casarsa
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-b-af7fe133@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261026T210000
+DTEND;TZID=Europe/Rome:20261026T230000
+SUMMARY:Sistema BK Pordenone - BCC Pordenonese 101-39 Pol. Casarsa (Under 1
+ 9 Maschile Gold — girone B)
+LOCATION:Palasport "Crisafulli"\, Pordenone
+DESCRIPTION:Under 19 Maschile Gold — girone B\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-ad0b2813@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261027T200000
+DTEND;TZID=Europe/Rome:20261027T220000
+SUMMARY:APU Next Gen 51-57 Pol. Casarsa (Serie C femminile — girone unico
+  (prima fase))
+LOCATION:Palazzetto "M. Benedetti"\, Udine
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n1ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-0a9c2372@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261029T204500
+DTEND;TZID=Europe/Rome:20261029T224500
+SUMMARY:POLISPORTIVA MONTEREALE 72-66 POL. CASARSA 'B' (Divisione Regionale
+  3 — girone PN)
+LOCATION:Palestra Comunale\, Montereale Valcellina
+DESCRIPTION:Divisione Regionale 3 — girone PN\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-980f15da@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T210000
+DTEND;TZID=Europe/Rome:20261030T230000
+SUMMARY:BCC Pordenonese e Monsile 70-86 Pol. Casarsa (Divisione Regionale 1
+  — girone Ovest)
+LOCATION:Palazzetto "Matteo Molent"\, Azzano Decimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-ca7205f6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T103000
+DTEND;TZID=Europe/Rome:20261101T123000
+SUMMARY:Gemona Basket 88-44 Pol. Casarsa (Under 14 Maschile Regionale — g
+ irone PN/UD)
+LOCATION:Palestra IPSIA\, Gemona del Friuli
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-f3cfc859@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T153000
+DTEND;TZID=Europe/Rome:20261101T173000
+SUMMARY:POL. CASARSA 57-63 APU NEXT GEN (Under 13 Femminile — girone PN/U
+ D (prima fase))
+LOCATION:Palasport Palarosa\, Casarsa della Delizia
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-bd31c441@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T210000
+DTEND;TZID=Europe/Rome:20261102T230000
+SUMMARY:Pol. Casarsa 56-54 Udine Basket Club (Under 19 Maschile Gold — gi
+ rone B)
+LOCATION:Palasport 'Palarosa'\, Casarsa della Delizia
+DESCRIPTION:Under 19 Maschile Gold — girone B\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-cafa4960@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T150000
+DTEND;TZID=Europe/Rome:20261107T170000
+SUMMARY:Pol. Casarsa 51-47 Collinare Basket (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palasport Palarosa\, Casarsa della Delizia
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-4a132a17@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T170000
+DTEND;TZID=Europe/Rome:20261107T190000
+SUMMARY:Pol. Casarsa 53-38 Pol Lib. Pasian di Prato (Under 15 Femminile —
+  girone unico)
+LOCATION:Palasport 'Palarosa'\, Casarsa della Delizia
+DESCRIPTION:Under 15 Femminile — girone unico\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-ade3edd0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:POZZUOLO BASKET 52-42 POL. CASARSA (Under 17 Femminile — girone u
+ nico)
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Under 17 Femminile — girone unico\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-8af55b7b@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261108T180000
+DTEND;TZID=Europe/Rome:20261108T200000
+SUMMARY:Pol. Casarsa 81-52 Feletto Basketball Academy (Divisione Regionale 
+ 1 — girone Ovest)
+LOCATION:Palasport "Palarosa"\, Casarsa della Delizia
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-8a67d896@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261108T200000
+DTEND;TZID=Europe/Rome:20261108T220000
+SUMMARY:WIS 1963 Woman Spilimbergo 65-50 Pol. Casarsa (Serie C femminile 
+ — girone unico (prima fase))
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-0dddf927@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261108T203000
+DTEND;TZID=Europe/Rome:20261108T223000
+SUMMARY:POL. CASARSA 'B' 53-83 SCUOLA PALLACANESTRO PORCIA 2021 (Divisione 
+ Regionale 3 — girone PN)
+LOCATION:Palasport "Palarosa"\, Casarsa della Delizia
+DESCRIPTION:Divisione Regionale 3 — girone PN\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-12e5dad4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T183000
+DTEND;TZID=Europe/Rome:20261109T203000
+SUMMARY:Pol. Casarsa 61-50 Libertas Fiume Veneto (Under 19 Maschile Regiona
+ le — girone PN A (prima fase))
+LOCATION:Palasport 'Palarosa'\, Casarsa della Delizia
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n1ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-f362de4d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T183000
+DTEND;TZID=Europe/Rome:20261111T203000
+SUMMARY:U.S. Alba 75-38 Pol. Casarsa (Under 15 Femminile — girone unico)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 15 Femminile — girone unico\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-f040d5fa@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T190000
+DTEND;TZID=Europe/Rome:20261111T210000
+SUMMARY:Basket Pasiano 59-46 Pol. Casarsa (Under 19 Maschile Gold — giron
+ e B)
+LOCATION:Palazzetto "Roberto Marson"\, Pasiano di Pordenone
+DESCRIPTION:Under 19 Maschile Gold — girone B\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-76b9357e@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T204500
+DTEND;TZID=Europe/Rome:20261113T224500
+SUMMARY:Pall. Tolmezzo 63-84 Pol. Casarsa (Divisione Regionale 1 — girone
+  Ovest)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-984891b4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T163000
+DTEND;TZID=Europe/Rome:20261114T183000
+SUMMARY:Pol. Casarsa 61-50 New Brugnera Basket (Under 14 Maschile Regionale
+  — girone PN/UD)
+LOCATION:Palasport Palarosa\, Casarsa della Delizia
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-b4c545ad@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T180000
+DTEND;TZID=Europe/Rome:20261114T200000
+SUMMARY:Polisportiva Concordia 85-49 Pol. Casarsa (Under 15 Femminile — g
+ irone unico)
+LOCATION:Pal.tto Sport "L. Valerio"\, Concordia Sagittaria
+DESCRIPTION:Under 15 Femminile — girone unico\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-d80a694a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T113000
+DTEND;TZID=Europe/Rome:20261115T133000
+SUMMARY:POL. CASARSA 59-52 POL. LIBERTAS ACLI (Under 17 Femminile — giron
+ e unico)
+LOCATION:Palasport 'Palarosa'\, Casarsa della Delizia
+DESCRIPTION:Under 17 Femminile — girone unico\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-d3e06676@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T150000
+DTEND;TZID=Europe/Rome:20261115T170000
+SUMMARY:Pol. Casarsa 67-59 New Brugnera Basket (Under 19 Maschile Regionale
+  — girone PN A (prima fase))
+LOCATION:Palasport 'Palarosa'\, Casarsa della Delizia
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n2ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-99d0b375@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:Pol. Casarsa 108-34 Pall. Portogruaro (Serie C femminile — girone
+  unico (prima fase))
+LOCATION:Palasport "Palarosa"\, Casarsa della Delizia
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n4ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-cbfec349@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T210000
+DTEND;TZID=Europe/Rome:20261116T230000
+SUMMARY:Pol. Casarsa 94-62 Ronchi Basket Club (Under 19 Maschile Gold — g
+ irone B)
+LOCATION:Palasport 'Palarosa'\, Casarsa della Delizia
+DESCRIPTION:Under 19 Maschile Gold — girone B\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-957cd6d4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261117T170000
+DTEND;TZID=Europe/Rome:20261117T190000
+SUMMARY:Polisportiva Concordia 42-44 Pol. Casarsa (Under 13 Maschile — gi
+ rone PN B)
+LOCATION:Pal.tto Sport "L. Valerio"\, Concordia Sagittaria
+DESCRIPTION:Under 13 Maschile — girone PN B\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-7f9a2f34@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270111T164500
+DTEND;TZID=Europe/Rome:20270111T184500
+SUMMARY:Basket Cordovado 96-26 Pol. Casarsa (Under 13 Maschile — girone P
+ N B)
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 13 Maschile — girone PN B\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,222 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · U.S.D. Pallavolo ACLI Ronchi
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-e9f6c48f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T173000
+DTEND;TZID=Europe/Rome:20261031T193000
+SUMMARY:SOCA PAOLA 2.0 3-0 TIGERS PALLAVOLO RONCHI (Under 15 femminile CT T
+ rieste-Gorizia — girone A)
+LOCATION:Palestra Comunale\, DOBERDO' DEL LAGO
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-e24735eb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:AUTOSCUOLA EDI STARANZANO 3-0 TIGERS RONCHI EVOLUTION (Prima Divisi
+ one femminile CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Scuole Medie\, STARANZANO
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 1ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-199a016d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T210000
+DTEND;TZID=Europe/Rome:20261104T230000
+SUMMARY:TIGERS RONCHI EVOLUTION 0-3 UNICLIMA TSV (Prima Divisione femminile
+  CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Polifunzionale\, VERMEGLIANO RONCHI DEI LEGIONARI GO
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 2ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-450b499b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T153000
+DTEND;TZID=Europe/Rome:20261107T173000
+SUMMARY:TIGERS PALLAVOLO RONCHI 1-3 CENTRO COSELLI U15 (Under 15 femminile 
+ CT Trieste-Gorizia — girone A)
+LOCATION:Palestra Polifunzionale\, VERMEGLIANO RONCHI DEI LEGIONARI GO
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-fa5aa71a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261111T203000
+DTEND;TZID=Europe/Rome:20261111T223000
+SUMMARY:PINETA CITY OLYMPIA TS 3-0 TIGERS RONCHI EVOLUTION (Prima Divisione
+  femminile CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Stadio Rocco\, TRIESTE TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 3ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-9d5414ae@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T153000
+DTEND;TZID=Europe/Rome:20261114T173000
+SUMMARY:UNICLIMA TSV CROSS 0-3 TIGERS PALLAVOLO RONCHI (Under 15 femminile 
+ CT Trieste-Gorizia — girone A)
+LOCATION:Palestra Liceo Galilei\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-18391b0f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261116T210000
+DTEND;TZID=Europe/Rome:20261116T230000
+SUMMARY:TIGERS RONCHI EVOLUTION 0-3 ASD OFP AZZURRA RDR ARIA (Prima Divisio
+ ne femminile CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Polifunzionale\, VERMEGLIANO RONCHI DEI LEGIONARI GO
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 4ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-b-bb7646a3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T180000
+DTEND;TZID=Europe/Rome:20261121T200000
+SUMMARY:ASDOFP AZZURRARDR FULMINE 3-1 TIGERS PALLAVOLO RONCHI (Under 14 fem
+ minile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Liceo Oberdan\, TRIESTE TS
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone B\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-2cd80fca@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T103000
+DTEND;TZID=Europe/Rome:20261122T123000
+SUMMARY:TIGERS PALLAVOLO RONCHI 3-0 A.S.D.TORRIANA (Under 15 femminile CT T
+ rieste-Gorizia — girone A)
+LOCATION:Palestra Polifunzionale\, VERMEGLIANO RONCHI DEI LEGIONARI GO
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-b41ee43e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:AL.MA. s.r.l. – TIGERS RONCHI EVOLUTION (Prima Divisione femminil
+ e CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra scuole medie\, Via Atleti Azzurri d'Italia\, PIERIS SAN C
+ ANZIAN D'ISONZO GO
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 5ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-b-cad72b40@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:TIGERS PALLAVOLO RONCHI – AZZURRA TOGETHER (Under 14 femminile CT
+  Trieste-Gorizia — girone B)
+LOCATION:Palestra Polifunzionale\, Via Zorutti\, VERMEGLIANO RONCHI DEI LEG
+ IONARI GO
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone B\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-f1cca646@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261202T210000
+DTEND;TZID=Europe/Rome:20261202T230000
+SUMMARY:TIGERS RONCHI EVOLUTION – PALLAVOLO ALTURA (Prima Divisione femmi
+ nile CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 6ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-bc65c88e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261203T174500
+DTEND;TZID=Europe/Rome:20261203T194500
+SUMMARY:ASD MOSSA – TIGERS PALLAVOLO RONCHI (Under 15 femminile CT Triest
+ e-Gorizia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n9ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-44f42e0f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T153000
+DTEND;TZID=Europe/Rome:20261205T173000
+SUMMARY:TIGERS PALLAVOLO RONCHI – VOLLEY CLUB TRIESTE (Under 15 femminile
+  CT Trieste-Gorizia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+END:VCALENDAR

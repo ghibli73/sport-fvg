@@ -1,0 +1,118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Santos Basket Trieste
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-a-6d92dba2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261026T211500
+DTEND;TZID=Europe/Rome:20261026T231500
+SUMMARY:SANTOS BASKET TRIESTE 71-79 VENEZIA GIULIA BASKETBALL (Under 19 Mas
+ chile Gold — girone A)
+LOCATION:Pal. Liceo 'G. Oberdan'\, Trieste
+DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-9296d3cf@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T211500
+DTEND;TZID=Europe/Rome:20261030T231500
+SUMMARY:Santos Basket Trieste 83-75 Servolana (Divisione Regionale 1 — gi
+ rone Est)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n5ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-fd62502d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T190000
+DTEND;TZID=Europe/Rome:20261102T210000
+SUMMARY:GP Engineering di Paron 73-80 SANTOS BASKET TRIESTE (Under 19 Masch
+ ile Gold — girone A)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 19 Maschile Gold — girone A\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-21d1ff4b@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T211500
+DTEND;TZID=Europe/Rome:20261106T231500
+SUMMARY:Santos Basket Trieste 72-100 Credifriuli Cervignano (Divisione Regi
+ onale 1 — girone Est)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n6ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-cc24d3ce@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T211500
+DTEND;TZID=Europe/Rome:20261109T231500
+SUMMARY:SANTOS BASKET TRIESTE 81-72 GEMONA BASKET (Under 19 Maschile Gold 
+ — girone A)
+LOCATION:Pal. Liceo 'G. Oberdan'\, Trieste
+DESCRIPTION:Under 19 Maschile Gold — girone A\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-ebd0cec7@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T211500
+DTEND;TZID=Europe/Rome:20261113T231500
+SUMMARY:Santos Basket Trieste 78-77 Pall. Interclub Muggia (Divisione Regio
+ nale 1 — girone Est)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n7ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-bdd66e95@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T190000
+DTEND;TZID=Europe/Rome:20261118T210000
+SUMMARY:CHIURLO CERVIGNANO 81-69 SANTOS BASKET TRIESTE (Under 19 Maschile G
+ old — girone A)
+LOCATION:Palasport Piazzale Lancieri d'Aosta\, Cervignano del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+END:VCALENDAR

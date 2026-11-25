@@ -1,0 +1,563 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Libertas Martignacco (pallavolo)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-8f75d8c4@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261030T193000
+DTEND;TZID=Europe/Rome:20261030T213000
+SUMMARY:LIBERTAS MARTIGNACCO 2-3 MAJANESE VOLLEY (Under 15 femminile CT Udi
+ ne — girone B)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-c5ab9026@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:FVG VOLLEY ACADEMY 3-0 LIBERTAS MARTIGNACCO (Under 14 femminile CT 
+ Udine — girone B)
+LOCATION:Palestra Scuole Medie\, LESTIZZA UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-d04c347f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T200000
+DTEND;TZID=Europe/Rome:20261031T220000
+SUMMARY:ITAS CECCARELLI GROUP 0-3 VILLADIES FARMADERBE (Serie C femminile 
+ — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Serie C femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-d22fe362@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T153000
+DTEND;TZID=Europe/Rome:20261107T173000
+SUMMARY:LIBERTAS MARTIGNACCO 3-1 AURORA VOLLEY UD ARANCIO (Under 15 femmini
+ le CT Udine — girone B)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-5ef1c13e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:MAJANESE VOLLEY 0-3 LIBERTAS MARTIGNACCO (Under 14 femminile CT Udi
+ ne — girone B)
+LOCATION:Palestra Centro Studi\, MAJANO UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-6b8d703d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:LIBERTAS MARTIGNACCO 3-0 LIBERTAS GONARS (Prima Divisione femminile
+  CT Udine — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n3ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-eba4a605@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:ROJALKENNEDY EMPORIO ADV 3-0 ITAS CECCARELLI GROUP (Serie C femmini
+ le — girone unico)
+LOCATION:Palestra Comunale\, Tavagnacco (UD)
+DESCRIPTION:Serie C femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-d2aead47@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T114500
+DTEND;TZID=Europe/Rome:20261108T134500
+SUMMARY:AURORA VOLLEY UD NI 0-3 LIBERTAS MARTIGNACCO (Under 17 femminile CT
+  Udine — girone C)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-e4414dc4@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261110T191500
+DTEND;TZID=Europe/Rome:20261110T211500
+SUMMARY:FVG VOLLEY ACADEMY 3-0 LIBERTAS MARTIGNACCO (Under 15 femminile CT 
+ Udine — girone B)
+LOCATION:Palestra Scuole Medie\, LESTIZZA UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-9ca28212@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:A.S.D. STELLA VOLLEY 3-2 LIBERTAS MARTIGNACCO (Prima Divisione femm
+ inile CT Udine — girone unico)
+LOCATION:Palestra Comunale di Teor\, Teor RIVIGNANO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n4ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-83d1ae6f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T153000
+DTEND;TZID=Europe/Rome:20261114T173000
+SUMMARY:LIBERTAS MARTIGNACCO 3-0 VOLLEY BALL CARNIA (Under 14 femminile CT 
+ Udine — girone B)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-653288b4@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T170000
+DTEND;TZID=Europe/Rome:20261114T190000
+SUMMARY:STELLA VOLLEY BIANCA 0-3 LIBERTAS MARTIGNACCO (Under 13 femminile C
+ T Udine — girone C)
+LOCATION:Palestra Comunale di Teor\, RIVIGNANO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-c923aab1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T200000
+DTEND;TZID=Europe/Rome:20261114T220000
+SUMMARY:ITAS CECCARELLI GROUP 0-3 OLYMPIA TRIESTE (Serie C femminile — gi
+ rone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, Martignacco (UD)
+DESCRIPTION:Serie C femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-95e31423@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:LIBERTAS MARTIGNACCO 3-1 VILLADIES (Under 17 femminile CT Udine —
+  girone C)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-36b70336@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T114500
+DTEND;TZID=Europe/Rome:20261115T134500
+SUMMARY:CLUB AURORA VOLLEY UDINE 0-3 LIBERTAS MARTIGNACCO (Under 19 femmini
+ le CT Udine — girone unico)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-26f6c65e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261118T180000
+DTEND;TZID=Europe/Rome:20261118T200000
+SUMMARY:LIBERTAS MARTIGNACCO 0-3 BLANC RIZZI UDINE FTV (Under 13 femminile 
+ CT Udine — girone C)
+LOCATION:Palazzetto dello Sport (campo A)\, MARTIGNACCO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-782ee3eb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261119T203000
+DTEND;TZID=Europe/Rome:20261119T223000
+SUMMARY:LIBERTAS MARTIGNACCO 3-2 ART_CENTO VOLLEY (Under 19 femminile CT Ud
+ ine — girone unico)
+LOCATION:Palazzetto dello Sport (campo A)\, MARTIGNACCO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-51918475@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T173000
+DTEND;TZID=Europe/Rome:20261120T193000
+SUMMARY:ASPA PALLAVOLO ARTEGNA 0-3 LIBERTAS MARTIGNACCO (Under 14 femminile
+  CT Udine — girone B)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-5fba557c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T193000
+DTEND;TZID=Europe/Rome:20261120T213000
+SUMMARY:A.S.D. STELLA VOLLEY 3-2 LIBERTAS MARTIGNACCO (Under 15 femminile C
+ T Udine — girone B)
+LOCATION:Palestra Comunale\, POCENIA UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-67cc12a0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T200000
+DTEND;TZID=Europe/Rome:20261120T220000
+SUMMARY:LIBERTAS MARTIGNACCO 3-0 ART_CENTO VOLLEY (Prima Divisione femminil
+ e CT Udine — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n5ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-a-c24e6626@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T150000
+DTEND;TZID=Europe/Rome:20261121T170000
+SUMMARY:VOLLEY BALL CARNIA 0-3 LIBERTAS MARTIGNACCO (Under 12 femminile CT 
+ Udine — girone A)
+LOCATION:Palestra Falcone\, TOLMEZZO UD
+DESCRIPTION:Under 12 femminile CT Udine — girone A\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-8d6aa012@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T180000
+DTEND;TZID=Europe/Rome:20261121T200000
+SUMMARY:LIBERTAS MARTIGNACCO 3-0 COLLI VOLLEY (Prima Divisione femminile CT
+  Udine — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n6ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-92ca8e15@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:LIBERTAS MARTIGNACCO 3-0 BLU TEAM (Under 17 femminile CT Udine — 
+ girone C)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-f43f53fc@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T180000
+DTEND;TZID=Europe/Rome:20261122T200000
+SUMMARY:DB CARR. DE BORTOLI 2-3 ITAS CECCARELLI GROUP (Serie C femminile 
+ — girone unico)
+LOCATION:Palasport\, Cordenons (PN)
+DESCRIPTION:Serie C femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-875d7ef2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261125T193000
+DTEND;TZID=Europe/Rome:20261125T213000
+SUMMARY:LIBERTAS MARTIGNACCO – APD SAN LEONARDO (Under 14 femminile CT Ud
+ ine — girone B)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, Via San Biagio\, MARTIGN
+ ACCO UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-2d7fce93@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261127T173000
+DTEND;TZID=Europe/Rome:20261127T193000
+SUMMARY:BLU TEAM – LIBERTAS MARTIGNACCO (Under 13 femminile CT Udine — 
+ girone C)
+LOCATION:Palestra comunale\, Via Carnia\, 10\, Lauzacco PAVIA DI UDINE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-128239ea@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261127T200000
+DTEND;TZID=Europe/Rome:20261127T220000
+SUMMARY:LIBERTAS MARTIGNACCO – LEGNOLANDIA VAL-BUT (Prima Divisione femmi
+ nile CT Udine — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, Via San Biagio\, MARTIGN
+ ACCO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n7ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-a-3530a4e0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T153000
+DTEND;TZID=Europe/Rome:20261128T173000
+SUMMARY:LIBERTAS MARTIGNACCO – FTV RIZZI UDINE BLU (Under 12 femminile CT
+  Udine — girone A)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, Via San Biagio\, MARTIGN
+ ACCO UD
+DESCRIPTION:Under 12 femminile CT Udine — girone A\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-dc0c7c0c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T190000
+DTEND;TZID=Europe/Rome:20261128T210000
+SUMMARY:ASFJR 1971 YOUNG – LIBERTAS MARTIGNACCO (Under 17 femminile CT Ud
+ ine — girone C)
+LOCATION:Palestra Martiri della Libertà\, Via Udine\, CIVIDALE DEL FRIULI 
+ UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-90f9282c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T200000
+DTEND;TZID=Europe/Rome:20261128T220000
+SUMMARY:ITAS CECCARELLI GROUP – TIKITAKA STARANZANO (Serie C femminile 
+ — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, Via San Biagio\, Martign
+ acco (UD)
+DESCRIPTION:Serie C femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-b957d9b9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:LIBERTAS MARTIGNACCO – L.W.V. LATISANA (Under 15 femminile CT Udi
+ ne — girone B)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, Via San Biagio\, MARTIGN
+ ACCO UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-4bfd18a1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:LIBERTAS MARTIGNACCO – A.S.D. STELLA VOLLEY (Under 19 femminile C
+ T Udine — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, Via San Biagio\, MARTIGN
+ ACCO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-a-5d33c42d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261201T190000
+DTEND;TZID=Europe/Rome:20261201T210000
+SUMMARY:RK BLU ROJALESE – LIBERTAS MARTIGNACCO (Under 12 femminile CT Udi
+ ne — girone A)
+DESCRIPTION:Under 12 femminile CT Udine — girone A\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-566874b0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261202T180000
+DTEND;TZID=Europe/Rome:20261202T200000
+SUMMARY:LIBERTAS MARTIGNACCO – VOLLEY TALMASSONS (Under 13 femminile CT U
+ dine — girone C)
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-7adfb589@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T203000
+DTEND;TZID=Europe/Rome:20261205T223000
+SUMMARY:CSI TARCENTO – ITAS CECCARELLI GROUP (Serie C femminile — giron
+ e unico)
+DESCRIPTION:Serie C femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-4a4fc121@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T210000
+DTEND;TZID=Europe/Rome:20261205T230000
+SUMMARY:ASD KENNEDY ADEGLIACCO – LIBERTAS MARTIGNACCO (Prima Divisione fe
+ mminile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n8ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-e08f20ce@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T094500
+DTEND;TZID=Europe/Rome:20261206T114500
+SUMMARY:CLUB AURORA VOLLEY UDINE – LIBERTAS MARTIGNACCO (Under 14 femmini
+ le CT Udine — girone B)
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-39967c5f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T110000
+DTEND;TZID=Europe/Rome:20261206T130000
+SUMMARY:LIBERTAS MARTIGNACCO – FTV RIZZI UDINE - BLU (Under 17 femminile 
+ CT Udine — girone C)
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-8acefacc@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T110000
+DTEND;TZID=Europe/Rome:20261206T130000
+SUMMARY:SIFA ROJALKENNEDY – LIBERTAS MARTIGNACCO (Under 19 femminile CT U
+ dine — girone unico)
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+END:VCALENDAR

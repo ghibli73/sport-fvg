@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. Sevegliano Fauglis
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-gor-under-15-provinciali-a-8e45dd97@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:UDINE UNITED RIZZI CORMOR 1-4 SEVEGLIANO FAUGLIS (Under 15 provinci
+ ali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-15-provinciali-a-175e4799@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SEVEGLIANO FAUGLIS 0-4 CORMONESE (Under 15 provinciali — girone A
+ )
+DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
+ -a
+END:VEVENT
+END:VCALENDAR

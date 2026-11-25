@@ -1,0 +1,402 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Pallacanestro Codroipese
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-a-1a9e9f6b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T190000
+DTEND;TZID=Europe/Rome:20261027T210000
+SUMMARY:VIS SPILIMBERGO 63-81 GP Engineering di Paron (Under 19 Maschile Go
+ ld — girone A)
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-0a64b234@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261029T180000
+DTEND;TZID=Europe/Rome:20261029T200000
+SUMMARY:PALL. CODROIPESE 'A' 55-36 POZZUOLO BASKET (Under 13 Maschile — g
+ irone UD A)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 13 Maschile — girone UD A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-8ee2b14a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:SPORT SYSTEM 25-96 PALL. CODROIPESE '2015' (Under 13 Maschile — g
+ irone UD A)
+LOCATION:Palestra Comunale\, Mortegliano
+DESCRIPTION:Under 13 Maschile — girone UD A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-ff64ba8e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:BVO Annone 27-58 Pall. Codroipese (Under 14 Maschile Regionale — 
+ girone PN/UD)
+LOCATION:Palazzetto dello Sport\, Annone Veneto
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-c3ed06bc@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261031T180000
+DTEND;TZID=Europe/Rome:20261031T200000
+SUMMARY:C.T.S. 73-76 Torre Basket (Divisione Regionale 1 — girone Ovest)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-2a150555@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261031T193000
+DTEND;TZID=Europe/Rome:20261031T213000
+SUMMARY:BCC Pordenonese Monsile 86-77 Gas Più Energie srl (Under 15 Maschi
+ le Eccellenza — girone unico)
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n5ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-cbeb9f2b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:LIBERTAS GONARS 53-86 GP Engineering di Paron (Under 17 Maschile Go
+ ld — girone UD (prima fase))
+LOCATION:Palazzetto dello Sport\, Gonars
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-a06f2aa9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T113000
+DTEND;TZID=Europe/Rome:20261101T133000
+SUMMARY:MONTGOMERY HAMBURGER HOUSE 44-98 OLYMPIA RIVIGNANO (Under 17 Maschi
+ le Regionale — girone UD (prima fase))
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-a9b2dc8a@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:MAJANESE 'B' 47-52 MONTGOMERY HAMBURGER HOUSE 'B' (Divisione Region
+ ale 3 — girone UD)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 3 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-fd62502d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T190000
+DTEND;TZID=Europe/Rome:20261102T210000
+SUMMARY:GP Engineering di Paron 73-80 SANTOS BASKET TRIESTE (Under 19 Masch
+ ile Gold — girone A)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 19 Maschile Gold — girone A\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-a93c51fb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T190000
+DTEND;TZID=Europe/Rome:20261104T210000
+SUMMARY:POL LIB. PASIAN DI PRATO 36-61 MONTGOMERY HAMBURGER HOUSE (Under 17
+  Maschile Regionale — girone UD (prima fase))
+LOCATION:Palasport Mario Vecchiatto\, Pasian di Prato
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-58e78a8f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261105T183000
+DTEND;TZID=Europe/Rome:20261105T203000
+SUMMARY:COLLINARE BASKET 34-68 PALL. CODROIPESE 'A' (Under 13 Maschile — 
+ girone UD A)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Under 13 Maschile — girone UD A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-eb441172@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:BCC Pordenonese e Monsile 75-59 C.T.S. (Divisione Regionale 1 — g
+ irone Ovest)
+LOCATION:Palazzetto "Matteo Molent"\, Azzano Decimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-a17d2689@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:OLYMPIA RIVIGNANO 94-58 PALL. CODROIPESE (Under 19 Maschile Regiona
+ le — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-cf46eda3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T153000
+DTEND;TZID=Europe/Rome:20261107T173000
+SUMMARY:PALL. CODROIPESE '2015' 53-52 BASKET PERTEOLE (Under 13 Maschile 
+ — girone UD A)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 13 Maschile — girone UD A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-54d0e8e5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T163000
+DTEND;TZID=Europe/Rome:20261107T183000
+SUMMARY:3 S Basket Cordenons 34-83 Pall. Codroipese (Under 14 Maschile Regi
+ onale — girone PN/UD)
+LOCATION:Palazzetto dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-635f110f@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:Gas Più Energie srl 45-87 APU Next Gen (Under 15 Maschile Eccellen
+ za — girone unico)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n6ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-66cb33c5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T113000
+DTEND;TZID=Europe/Rome:20261108T133000
+SUMMARY:GP Engineering di Paron 79-77 POL. LIBERTAS ACLI (Under 17 Maschile
+  Gold — girone UD (prima fase))
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-d49966e0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T190000
+DTEND;TZID=Europe/Rome:20261109T210000
+SUMMARY:PALL. CODROIPESE 33-77 POL LIB. PASIAN DI PRATO (Under 19 Maschile 
+ Regionale — girone UD (prima fase))
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-2207e9b9@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261109T193000
+DTEND;TZID=Europe/Rome:20261109T213000
+SUMMARY:POL. DIL. TRICESIMO 'C' 56-65 MONTGOMERY HAMBURGER HOUSE 'B' (Divis
+ ione Regionale 3 — girone UD)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-5aa57205@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T200000
+DTEND;TZID=Europe/Rome:20261109T220000
+SUMMARY:FALCONSTAR BASKET 93-63 GP Engineering di Paron (Under 19 Maschile 
+ Gold — girone A)
+LOCATION:Palestra Polifunzionale\, Monfalcone
+DESCRIPTION:Under 19 Maschile Gold — girone A\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-b6fd010c@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T210000
+DTEND;TZID=Europe/Rome:20261113T230000
+SUMMARY:Errebi Majano 78-64 C.T.S. (Divisione Regionale 1 — girone Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-2cddcd18@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T153000
+DTEND;TZID=Europe/Rome:20261114T173000
+SUMMARY:Pall. Codroipese 22-75 Majanese (Under 14 Maschile Regionale — gi
+ rone PN/UD)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-99333933@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:MAJANESE 57-73 GP Engineering di Paron (Under 17 Maschile Gold — 
+ girone UD (prima fase))
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-3e57a4f5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T113000
+DTEND;TZID=Europe/Rome:20261115T133000
+SUMMARY:PALL. CODROIPESE 'A' 71-25 PALLACANESTRO FELETTO (Under 13 Maschile
+  — girone UD A)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 13 Maschile — girone UD A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-59c7ed1e@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:MONTGOMERY HAMBURGER HOUSE 'B' 64-60 LIBERTAS GONARS 'B' (Divisione
+  Regionale 3 — girone UD)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-56475abf@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T190000
+DTEND;TZID=Europe/Rome:20261116T210000
+SUMMARY:GP Engineering di Paron 65-72 AUTOSCUOLA CORDENONESE CORDENONS (Und
+ er 19 Maschile Gold — girone A)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 19 Maschile Gold — girone A\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-5f280465@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T170000
+DTEND;TZID=Europe/Rome:20261118T190000
+SUMMARY:POZZUOLO BASKET 77-68 PALL. CODROIPESE '2015' (Under 13 Maschile 
+ — girone UD A)
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Under 13 Maschile — girone UD A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-e429237f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T190000
+DTEND;TZID=Europe/Rome:20261125T210000
+SUMMARY:BVO ANNONE – GP Engineering di Paron (Under 19 Maschile Gold — 
+ girone A)
+LOCATION:Palazzetto dello Sport\, Annone Veneto
+DESCRIPTION:Under 19 Maschile Gold — girone A\n8ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+END:VCALENDAR

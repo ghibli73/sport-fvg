@@ -1,0 +1,668 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ASD Centro Gioco Sport Coselli
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-a5176a48@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261027T200000
+DTEND;TZID=Europe/Rome:20261027T220000
+SUMMARY:FARRAVOLO 3-0 COSELLI 2D BLU (Seconda Divisione femminile CT Triest
+ e-Gorizia — girone A)
+LOCATION:Palestra Comunale\, FARRA D'ISONZO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n1
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-9f9ad35d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261028T204500
+DTEND;TZID=Europe/Rome:20261028T224500
+SUMMARY:CASSA RURALE FVG TURRIACO 0-3 COSELLI 2D ARANCIONE (Seconda Divisio
+ ne femminile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, TURRIACO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n3
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-ac34ede6@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T110000
+DTEND;TZID=Europe/Rome:20261031T130000
+SUMMARY:CENTRO COSELLI U15 3-0 UNICLIMA TSV CROSS (Under 15 femminile CT Tr
+ ieste-Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-433fcaca@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T170000
+DTEND;TZID=Europe/Rome:20261031T190000
+SUMMARY:MAVI SRL STARANZANO 3-0 CENTRO COSELLI U17Y (Under 17 femminile CT 
+ Trieste-Gorizia — girone B)
+LOCATION:Palestra Scuole Medie\, STARANZANO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-0459b252@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T163000
+DTEND;TZID=Europe/Rome:20261101T183000
+SUMMARY:MAVRICA 3-1 COSELLI 2D BLU (Seconda Divisione femminile CT Trieste-
+ Gorizia — girone A)
+LOCATION:Palestra Comunale S. Andrea\, GORIZIA
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n3
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-8e9763f9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261106T203000
+DTEND;TZID=Europe/Rome:20261106T223000
+SUMMARY:CENTRO COSELLI 1D 3-1 AUTOSCUOLA EDI STARANZANO (Prima Divisione fe
+ mminile CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 2ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-450b499b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T153000
+DTEND;TZID=Europe/Rome:20261107T173000
+SUMMARY:TIGERS PALLAVOLO RONCHI 1-3 CENTRO COSELLI U15 (Under 15 femminile 
+ CT Trieste-Gorizia — girone A)
+LOCATION:Palestra Polifunzionale\, VERMEGLIANO RONCHI DEI LEGIONARI GO
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-15250602@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T173000
+DTEND;TZID=Europe/Rome:20261107T193000
+SUMMARY:ZALET SLOGA 1-3 COSELLI 2D ARANCIONE (Seconda Divisione femminile C
+ T Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n4
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-b195d643@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:SOKOL ZALET 0-3 COSELLI 2D BLU (Seconda Divisione femminile CT Trie
+ ste-Gorizia — girone A)
+LOCATION:Palestra Comunale Savo Ušaj\, DUINO AURISINA TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n4
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-055e8c4a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:CENTRO COSELLI U17Y 0-3 PINETA CITY OLYMPIA TS (Under 17 femminile 
+ CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-a-a9c8072d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T170000
+DTEND;TZID=Europe/Rome:20261108T190000
+SUMMARY:CENTRO COSELLI U14 1-3 ASD OFP AZZURRARDR COMETA (Under 14 femminil
+ e CT Trieste-Gorizia — girone A)
+LOCATION:Palestra Scuola Media Stock\, TRIESTE TS
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone A\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-809929b4@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T170000
+DTEND;TZID=Europe/Rome:20261108T190000
+SUMMARY:CENTRO COSELLI U17X 3-0 ASD PALLAVOLO PIERIS (Under 17 femminile CT
+  Trieste-Gorizia — girone C)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-fff5b29a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:COSELLI 2D ARANCIONE 3-0 MAMACA TSV BOOMER (Seconda Divisione femmi
+ nile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n5
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-a-3a11a2f6@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T163000
+DTEND;TZID=Europe/Rome:20261114T183000
+SUMMARY:VOLLEY CLUB TRIESTE 3-2 CENTRO COSELLI U14 (Under 14 femminile CT T
+ rieste-Gorizia — girone A)
+LOCATION:Palestra Cobolli\, TRIESTE TS
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone A\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-3853d389@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T170000
+DTEND;TZID=Europe/Rome:20261114T190000
+SUMMARY:CENTRO COSELLI U15 3-1 ASD MOSSA (Under 15 femminile CT Trieste-Gor
+ izia — girone A)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-e425783b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T170000
+DTEND;TZID=Europe/Rome:20261114T190000
+SUMMARY:ASD MORARO VOLLEY 3-0 CENTRO COSELLI U17Y (Under 17 femminile CT Tr
+ ieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, MORARO GO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-9ed4523f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:UNICLIMA TSV 1-3 CENTRO COSELLI 1D (Prima Divisione femminile CT Tr
+ ieste-Gorizia — girone unico)
+LOCATION:Palestra Vascotto (ex Suvich)\, TRIESTE TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 3ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-c90a194a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T170000
+DTEND;TZID=Europe/Rome:20261115T190000
+SUMMARY:CENTRO COSELLI U19Y 0-3 F.LLI TAMBURIN S.n.c. (Under 19 femminile C
+ T Trieste-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-ad8b2f89@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:KRONOS IMMOB-FINCANTIERI 3-0 CENTRO COSELLI U17X (Under 17 femminil
+ e CT Trieste-Gorizia — girone C)
+LOCATION:Palasport\, MONFALCONE GO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-76fb27be@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T200000
+DTEND;TZID=Europe/Rome:20261115T220000
+SUMMARY:COSELLI 2D BLU 3-0 INTREPIDA (Seconda Divisione femminile CT Triest
+ e-Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n5
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-311ec720@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261118T204500
+DTEND;TZID=Europe/Rome:20261118T224500
+SUMMARY:ZALET SLOGA U19 3-0 CENTRO COSELLI U19X (Under 19 femminile CT Trie
+ ste-Gorizia — girone A)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO TS
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-460a817e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261119T203000
+DTEND;TZID=Europe/Rome:20261119T223000
+SUMMARY:FILO...VIA VOLLEY CLUB TS 0-3 CENTRO COSELLI 1D (Prima Divisione fe
+ mminile CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Cobolli\, TRIESTE TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 1ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-94448c20@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261119T203000
+DTEND;TZID=Europe/Rome:20261119T223000
+SUMMARY:ASD PALLAVOLO GRADO 2-3 COSELLI 2D ARANCIONE (Seconda Divisione fem
+ minile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Buda Dancevich\, GRADO GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n6
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-77fd81df@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T200000
+DTEND;TZID=Europe/Rome:20261120T220000
+SUMMARY:PALLAVOLO ALTURA 3-0 CENTRO COSELLI U19Y (Under 19 femminile CT Tri
+ este-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE TS
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-4e26c61c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T203000
+DTEND;TZID=Europe/Rome:20261120T223000
+SUMMARY:CENTRO COSELLI 1D 3-0 PINETA CITY OLYMPIA TS (Prima Divisione femmi
+ nile CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 4ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-6dff99be@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T170000
+DTEND;TZID=Europe/Rome:20261121T190000
+SUMMARY:CENTRO COSELLI U17Y 1-3 SOCA GRAFICA GORIZIANA (Under 17 femminile 
+ CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-74605fb7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T191500
+DTEND;TZID=Europe/Rome:20261121T211500
+SUMMARY:ASD OFP AZZURRA RDR CIELO 0-3 COSELLI 2D BLU (Seconda Divisione fem
+ minile CT Trieste-Gorizia — girone A)
+LOCATION:Palestra Don Marzari\, TRIESTE TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n6
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-ae4be0ad@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:PALLAVOLO ALTURA 2-3 CENTRO COSELLI U15 (Under 15 femminile CT Trie
+ ste-Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-a-333507de@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T170000
+DTEND;TZID=Europe/Rome:20261122T190000
+SUMMARY:CENTRO COSELLI U14 2-3 AZZURRA FOREVER (Under 14 femminile CT Tries
+ te-Gorizia — girone A)
+LOCATION:Palestra Scuola Media Stock\, TRIESTE TS
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-6d441fc3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T170000
+DTEND;TZID=Europe/Rome:20261122T190000
+SUMMARY:CENTRO COSELLI U17X 3-0 SOKOL ZALET (Under 17 femminile CT Trieste-
+ Gorizia — girone C)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-930c24a3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261124T203000
+DTEND;TZID=Europe/Rome:20261124T223000
+SUMMARY:UNICLIMA TSV 3-0 COSELLI 2D BLU (Seconda Divisione femminile CT Tri
+ este-Gorizia — girone A)
+LOCATION:Palestra Vascotto (ex Suvich)\, Via Giulia 52\, TRIESTE TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n7
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-bc674a3a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261125T190000
+DTEND;TZID=Europe/Rome:20261125T210000
+SUMMARY:SYSTEM VOLLEY U.17 – CENTRO COSELLI U17Y (Under 17 femminile CT T
+ rieste-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare Don Milani\, Via Alpi Giulie 31\, TRIES
+ TE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-efb5a5e9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261126T181500
+DTEND;TZID=Europe/Rome:20261126T201500
+SUMMARY:CENTRO COSELLI U15 – ASD LE VOLPI (Under 15 femminile CT Trieste-
+ Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare Morpurgo\, Scala Campi Elisi 4\, TRIEST
+ E TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-e985951e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261126T201500
+DTEND;TZID=Europe/Rome:20261126T221500
+SUMMARY:SOCA PRATICHE AUTO SARAH – CENTRO COSELLI U19Y (Under 19 femminil
+ e CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, Via 1° Maggio 118\, SAVOGNA D'ISONZO GO
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-0c681c70@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261127T203000
+DTEND;TZID=Europe/Rome:20261127T223000
+SUMMARY:COSELLI 2D ARANCIONE – ASD LE VOLPI (Seconda Divisione femminile 
+ CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare Morpurgo\, Scala Campi Elisi 4\, TRIEST
+ E TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n7
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-b4d8d66c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T153000
+DTEND;TZID=Europe/Rome:20261128T173000
+SUMMARY:UNICLIMA TSV CITY/CROSS – CENTRO COSELLI U17X (Under 17 femminile
+  CT Trieste-Gorizia — girone C)
+LOCATION:Palestra Liceo Oberdan\, VIA VERONESE 1\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-b90a0aa1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T183000
+DTEND;TZID=Europe/Rome:20261128T203000
+SUMMARY:ASD OFP AZZURRA RDR ARIA – CENTRO COSELLI 1D (Prima Divisione fem
+ minile CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra CAMPUS Cittadella dello Sport\, Via Locchi 28/1\, TRIESTE
+  TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 5ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-4919059c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T200000
+DTEND;TZID=Europe/Rome:20261129T220000
+SUMMARY:CENTRO COSELLI U19X – ASD OFP AZZURRA RDR ARIA (Under 19 femminil
+ e CT Trieste-Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare Morpurgo\, Scala Campi Elisi 4\, TRIEST
+ E TS
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-b77376a1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261201T180000
+DTEND;TZID=Europe/Rome:20261201T200000
+SUMMARY:CENTRO COSELLI U19Y – SALONE CARMEN-FINCANTIERI (Under 19 femmini
+ le CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-d1c33e35@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261202T203000
+DTEND;TZID=Europe/Rome:20261202T223000
+SUMMARY:GEKO GOLD STARANZANO – CENTRO COSELLI U19X (Under 19 femminile CT
+  Trieste-Gorizia — girone A)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-600a2942@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:CENTRO COSELLI 1D – AL.MA. s.r.l. (Prima Divisione femminile CT T
+ rieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 6ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-07f71bff@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:PALLAVOLO ALTURA – COSELLI 2D ARANCIONE (Seconda Divisione femmin
+ ile CT Trieste-Gorizia — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n8
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-a-ecc18bba@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T150000
+DTEND;TZID=Europe/Rome:20261205T170000
+SUMMARY:PALLAVOLO ALTURA – CENTRO COSELLI U14 (Under 14 femminile CT Trie
+ ste-Gorizia — girone A)
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone A\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-71aa95ae@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T170000
+DTEND;TZID=Europe/Rome:20261205T190000
+SUMMARY:CENTRO COSELLI U17Y – ASD OFP AZZURRA RDR ETERE (Under 17 femmini
+ le CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-165cadba@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T200000
+DTEND;TZID=Europe/Rome:20261205T220000
+SUMMARY:COSELLI 2D BLU – FARRAVOLO (Seconda Divisione femminile CT Triest
+ e-Gorizia — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n8
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-f329042a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T103000
+DTEND;TZID=Europe/Rome:20261206T123000
+SUMMARY:A.S.D.TORRIANA – CENTRO COSELLI U15 (Under 15 femminile CT Triest
+ e-Gorizia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+END:VCALENDAR

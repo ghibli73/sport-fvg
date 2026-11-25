@@ -1,0 +1,394 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · S.D. Pallavolo Sangiorgina
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-03e5edf4@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T180000
+DTEND;TZID=Europe/Rome:20261031T200000
+SUMMARY:L.W.V. LATISANA 3-2 PROJECTVOLLEY SANGIORGINA (Under 17 femminile C
+ T Udine — girone B)
+LOCATION:Palestra Scuole Medie\, LATISANA UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-a9ce5fde@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T203000
+DTEND;TZID=Europe/Rome:20261031T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA 3-0 PAV NATISONIA (Serie C femminile — 
+ girone unico)
+LOCATION:Palazzetto dello Sport\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Serie C femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-a2722806@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261103T200000
+DTEND;TZID=Europe/Rome:20261103T220000
+SUMMARY:SPORTING CLUB 3-0 PROJECTVOLLEY SANGIORGINA (Seconda Divisione femm
+ inile CT Udine — girone B)
+LOCATION:Palasport (principale)\, CERVIGNANO DEL FRIULI UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-2ac4f186@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T180000
+DTEND;TZID=Europe/Rome:20261104T200000
+SUMMARY:BLANC RIZZI UDINE FTV 0-3 PROJECTVOLLEY SANGIOWHITE (Under 13 femmi
+ nile CT Udine — girone C)
+LOCATION:Palestra Scuole Rodari\, UDINE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-4e9b8b08@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T170000
+DTEND;TZID=Europe/Rome:20261107T190000
+SUMMARY:PROJECTVOLLEY SANGIORGINA 3-0 MAJANESE VOLLEY (Under 17 femminile C
+ T Udine — girone B)
+LOCATION:Palazzetto dello Sport\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-d7767974@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:CSI TARCENTO 3-1 PROJECTVOLLEY SANGIORGINA (Serie C femminile — g
+ irone unico)
+LOCATION:Palasport\, Tarcento (UD)
+DESCRIPTION:Serie C femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-259bd5de@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261110T183000
+DTEND;TZID=Europe/Rome:20261110T203000
+SUMMARY:DOPOLAV. FERROV. UD. 0-3 PROJECTVOLLEY SANGIORED (Under 13 femminil
+ e CT Udine — girone D)
+LOCATION:Palestra Scuola Alberti\, UDINE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-68c38a24@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T173000
+DTEND;TZID=Europe/Rome:20261113T193000
+SUMMARY:BLU TEAM 0-3 PROJECTVOLLEY SANGIOWHITE (Under 13 femminile CT Udine
+  — girone C)
+LOCATION:Palestra comunale\, Lauzacco PAVIA DI UDINE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-af8022e3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA 2-3 HORIZON BEERÒ (Seconda Divisione fem
+ minile CT Udine — girone B)
+LOCATION:Palazzetto dello Sport\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-2bd4cfd0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:A.S.D. FUTURA PALMANOVA 2-1 PROJECTVOLLEY SANGIORED (Under 13 femmi
+ nile CT Udine — girone D)
+LOCATION:Palestra Scuola Media P. Zorutti\, PALMANOVA UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\nDati non ufficiali: f
+ a fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pallavolo-u
+ nder-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-90db03ad@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA 0-3 TIKITAKA STARANZANO (Serie C femminil
+ e — girone unico)
+LOCATION:Palazzetto dello Sport\, San Giorgio di Nogaro (UD)
+DESCRIPTION:Serie C femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-a23c43c5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:ZANIBONI SNACK TALMASSONS 3-1 PROJECTVOLLEY SANGIORGINA (Under 17 f
+ emminile CT Udine — girone B)
+LOCATION:Palestra Scuole Medie\, TALMASSONS UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-ecf6cb02@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261116T173000
+DTEND;TZID=Europe/Rome:20261116T193000
+SUMMARY:PROJECTVOLLEY SANGIORGINA 3-0 ART_CENTO VOLLEY WHITE (Under 17 femm
+ inile CT Udine — girone B)
+LOCATION:Palazzetto dello Sport\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-b6680411@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261119T193000
+DTEND;TZID=Europe/Rome:20261119T213000
+SUMMARY:VOLLEY TALMASSONS 3-0 PROJECTVOLLEY SANGIORGINA (Seconda Divisione 
+ femminile CT Udine — girone B)
+LOCATION:Palestra Scuole Medie\, TALMASSONS UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-065218b0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T160000
+DTEND;TZID=Europe/Rome:20261121T180000
+SUMMARY:PROJECTVOLLEY SANGIOWHITE 3-0 VOLLEY TALMASSONS (Under 13 femminile
+  CT Udine — girone C)
+LOCATION:Palazzetto dello Sport\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-16169be0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T183000
+DTEND;TZID=Europe/Rome:20261121T203000
+SUMMARY:HORIZON GAS & ENERGIE 0-3 PROJECTVOLLEY SANGIORED (Under 13 femmini
+ le CT Udine — girone D)
+LOCATION:Pal. Sc. Medie Bianchi\, CODROIPO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-9ea57be3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T203000
+DTEND;TZID=Europe/Rome:20261121T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA 3-1 ZALET ZKB (Serie C femminile — giro
+ ne unico)
+LOCATION:Palazzetto dello Sport\, San Giorgio di Nogaro (UD)
+DESCRIPTION:Serie C femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-ca91a00c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:HORIZON KREATIVA 3-0 PROJECTVOLLEY SANGIORGINA (Under 17 femminile 
+ CT Udine — girone B)
+LOCATION:Pal. Sc. Medie Bianchi\, CODROIPO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-226aa8e7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261125T204500
+DTEND;TZID=Europe/Rome:20261125T224500
+SUMMARY:CHIARVESIO CHEI DE VILE – PROJECTVOLLEY SANGIORGINA (Serie C femm
+ inile — girone unico)
+LOCATION:Palestra Comunale\, via del Cristo\, Ciconicco\, Fagagna (UD)
+DESCRIPTION:Serie C femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-f079cb71@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261127T173000
+DTEND;TZID=Europe/Rome:20261127T193000
+SUMMARY:PROJECTVOLLEY SANGIORGINA – VOLLEYBAS GREEN (Under 17 femminile C
+ T Udine — girone B)
+LOCATION:Palazzetto dello Sport\, Via Palladio\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-fdf6ff21@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:PROJECTVOLLEY SANGIORED – STELLA VOLLEY AZZURRA (Under 13 femmini
+ le CT Udine — girone D)
+LOCATION:Palazzetto dello Sport\, Via Palladio\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-8a5fdb80@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T173000
+DTEND;TZID=Europe/Rome:20261129T193000
+SUMMARY:PROJECTVOLLEY SANGIORGINA – APD CJASSA (Seconda Divisione femmini
+ le CT Udine — girone B)
+LOCATION:Palazzetto dello Sport\, Via Palladio\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-858bf4b0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261202T181500
+DTEND;TZID=Europe/Rome:20261202T201500
+SUMMARY:ST. DENTISTICO CIAN* – PROJECTVOLLEY SANGIOWHITE (Under 13 femmin
+ ile CT Udine — girone C)
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-1d2c7685@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T180000
+DTEND;TZID=Europe/Rome:20261204T200000
+SUMMARY:VILLADIES – PROJECTVOLLEY SANGIORED (Under 13 femminile CT Udine 
+ — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-29789d1f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:A.S.D. FUTURA PALMANOVA – PROJECTVOLLEY SANGIORGINA (Seconda Divi
+ sione femminile CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n6ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-b7b4e6be@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T170000
+DTEND;TZID=Europe/Rome:20261205T190000
+SUMMARY:PROJECTVOLLEY SANGIORGINA – AURORA VOLLEY UD AL (Under 17 femmini
+ le CT Udine — girone B)
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-af51be96@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T203000
+DTEND;TZID=Europe/Rome:20261205T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA – SERVIZI INDUSTRIALI GIS (Serie C femm
+ inile — girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+END:VCALENDAR

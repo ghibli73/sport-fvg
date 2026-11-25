@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. Pro Gorizia
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-dd032223@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:PRO GORIZIA 0-2 REANESE (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-73e512b3@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:SAN LUIGI CALCIO 0-0 PRO GORIZIA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-44962dd9@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:OPICINA 3-3 PRO GORIZIA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-998cc895@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:PRO GORIZIA 2-2 SAN LUIGI CALCIO (Under 17 regionali — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-02fb35d7@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:PRO GORIZIA 1-2 PRO FAGAGNA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-040b107b@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:PRO GORIZIA 0-1 FORUM JULII CALCIO (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n10ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-15-provinciali-e-39bd24ef@zuin-fvg
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:PRO GORIZIA 1-0 CORMONESE (Under 15 provinciali — girone E)
+DESCRIPTION:Under 15 provinciali — girone E\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-15-provinciali-e
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
+ -e
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-3310d2c2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:ANCONA LUMIGNACCO 0-1 PRO GORIZIA (Under 17 regionali — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-902a3871@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:SAN LUIGI CALCIO 8-0 PRO GORIZIA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-dbbabf36@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:PRO GORIZIA 2-2 MUGGIA 1967 (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-333a6d1a@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:CALCIO TEOR 2-0 PRO GORIZIA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n11ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-14-provinciali-e-07600ffe@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:BISIACA ROMANA 0-2 PRO GORIZIA (Under 14 provinciali — girone E)
+DESCRIPTION:Under 14 provinciali — girone E\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-14-provinciali-e
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-14-provinciali
+ -e
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-346e60e2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:PRO GORIZIA 2-1 DONATELLO CALCIO A.S.D. (Under 17 regionali — gir
+ one A)
+DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-ca47fcc2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:PRO FAGAGNA 2-1 PRO GORIZIA (Under 17 regionali — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,768 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Amici Pallacanestro Udinese S.S.D. a r.l. (APU Old Wi
+ ld West Udine)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-6f57f399@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;TZID=Europe/Rome:20261026T193000
+DTEND;TZID=Europe/Rome:20261026T213000
+SUMMARY:Universo Treviso Basket 74-89 Amici Pallacanestro Udinese (Under 19
+  Maschile Eccellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palestra S. Antonino\, Treviso
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n5ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-ad0b2813@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261027T200000
+DTEND;TZID=Europe/Rome:20261027T220000
+SUMMARY:APU Next Gen 51-57 Pol. Casarsa (Serie C femminile — girone unico
+  (prima fase))
+LOCATION:Palazzetto "M. Benedetti"\, Udine
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n1ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-a5c79be6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T200000
+DTEND;TZID=Europe/Rome:20261027T220000
+SUMMARY:Amici Pallacanestro Udinese 67-76 Feletto Basketball Academy (Under
+  19 Maschile Gold — girone B)
+LOCATION:Palasport 'Primo Carnera'\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone B\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-91fbbb2d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261028T193000
+DTEND;TZID=Europe/Rome:20261028T213000
+SUMMARY:APU Next Gen 127-26 Basketrieste (Under 14 Maschile Gold — girone
+  B (prima fase))
+LOCATION:Palazzetto M. Benedetti\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-80c6bf2e@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261028T200000
+DTEND;TZID=Europe/Rome:20261028T220000
+SUMMARY:Amici Pallacanestro Udinese 81-62 O.F.P. Azzurra R.D.R. Basket Trie
+ ste (Under 17 Maschile Eccellenza — girone unico)
+LOCATION:Palasport Primo Carnera\, Udine
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n4ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-4fdb8e78@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:APU NEXT GEN 92-42 Sonvilla Snc SBaMM (Under 15 Maschile Regionale 
+ — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n2ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-e70ff5fe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261030T193000
+DTEND;TZID=Europe/Rome:20261030T213000
+SUMMARY:UDINE BASKET CLUB 48-96 APU NEXT GEN (Under 17 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-8e4f9218@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:Pallacanestro Trieste 2004 76-95 Amici Pallacanestro Udinese (Under
+  17 Maschile Eccellenza — girone unico)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n5ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-7fad1285@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261031T183000
+DTEND;TZID=Europe/Rome:20261031T203000
+SUMMARY:Pozzuolo Basket 44-75 APU Next Gen (Serie C femminile — girone un
+ ico (prima fase))
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n2ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-7ee87c4f@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261031T200000
+DTEND;TZID=Europe/Rome:20261031T220000
+SUMMARY:HUMUS BASKET 81-87 AMICI PALLACANESTRO UDINESE (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-af71b4c6@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Udine 86-77 Tortona (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n6ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-a39c85a7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:Longobardi 42-62 APU Next Gen (Under 14 Maschile Gold — girone B 
+ (prima fase))
+LOCATION:Palestra Sc. Ippolito Nievo\, Remanzacco
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-66698a98@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:Udine Basket Club Pallacanestro 83-88 APU Next Gen (Under 15 Maschi
+ le Eccellenza — girone unico)
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n5ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-f3cfc859@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T153000
+DTEND;TZID=Europe/Rome:20261101T173000
+SUMMARY:POL. CASARSA 57-63 APU NEXT GEN (Under 13 Femminile — girone PN/U
+ D (prima fase))
+LOCATION:Palasport Palarosa\, Casarsa della Delizia
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-b17e1d83@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T193000
+DTEND;TZID=Europe/Rome:20261102T213000
+SUMMARY:U.S.D. Jadran 70-51 Amici Pallacanestro Udinese (Under 19 Maschile 
+ Gold — girone B)
+LOCATION:Palestra 'M. Ervatti'\, Sgonico
+DESCRIPTION:Under 19 Maschile Gold — girone B\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-21498d53@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;TZID=Europe/Rome:20261102T203000
+DTEND;TZID=Europe/Rome:20261102T223000
+SUMMARY:UEB Cividale 88-84 Amici Pallacanestro Udinese (Under 19 Maschile E
+ ccellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n6ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-41df5d41@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T211500
+DTEND;TZID=Europe/Rome:20261102T231500
+SUMMARY:MONRITZ TEAM SPORT 55-70 APU NEXT GEN (Under 19 Femminile Regionale
+  — girone unico)
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n1ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-3367631b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T193000
+DTEND;TZID=Europe/Rome:20261103T213000
+SUMMARY:APU NEXT GEN 90-39 FUTUROSA ROSA (Under 17 Femminile — girone uni
+ co)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 17 Femminile — girone unico\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-1cafc8d1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T173000
+DTEND;TZID=Europe/Rome:20261104T193000
+SUMMARY:U.S. BASKET TIME UDINE 24-81 APU NEXTGEN NERA (Under 13 Maschile 
+ — girone UD B)
+LOCATION:Pal. M. Vecchiatto\, Udine
+DESCRIPTION:Under 13 Maschile — girone UD B\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-b3143fab@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261104T200000
+DTEND;TZID=Europe/Rome:20261104T220000
+SUMMARY:APU Next Gen 77-79 BCC Pordenonese Monsile (Under 17 Maschile Eccel
+ lenza — girone unico)
+LOCATION:Palasport Primo Carnera\, Udine
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n5ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-68844bbb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:APU NEXT GEN 63-56 PALL. LAIPACCO (Under 15 Maschile Regionale — 
+ girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n3ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-a-1e5e2792@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261105T190000
+DTEND;TZID=Europe/Rome:20261105T210000
+SUMMARY:A.P.C. CHIONS 39-65 APU NEXT GEN (Under 14 Femminile — girone A (
+ prima fase))
+LOCATION:Palasport F. Villotta\, Chions
+DESCRIPTION:Under 14 Femminile — girone A (prima fase)\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-c17fcc0b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261106T181500
+DTEND;TZID=Europe/Rome:20261106T201500
+SUMMARY:CENTRO SEDIA BASKET 69-68 APU NEXTGEN NERA (Under 13 Maschile — g
+ irone UD B)
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Under 13 Maschile — girone UD B\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-57f432d1@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T200000
+DTEND;TZID=Europe/Rome:20261106T220000
+SUMMARY:AMICI PALLACANESTRO UDINESE 72-76 FIDEMA GROUP RONCHI (Serie C masc
+ hile — girone D (prima fase))
+LOCATION:Palasport "Primo Carnera"\, Udine
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-82b31895@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T203000
+DTEND;TZID=Europe/Rome:20261106T223000
+SUMMARY:APU Next Gen 59-71 Pall. Interclub Muggia (Serie C femminile — gi
+ rone unico (prima fase))
+LOCATION:Palazzetto "M. Benedetti"\, Udine
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-788fd4ef@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:P.A.F. 26-95 APU NEXTGEN BIANCA (Under 13 Maschile — girone UD B)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Under 13 Maschile — girone UD B\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-25eef7db@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:Pol. Libertas Acli 31-87 APU Next Gen (Under 15 Femminile — giron
+ e unico)
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 15 Femminile — girone unico\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-635f110f@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:Gas Più Energie srl 45-87 APU Next Gen (Under 15 Maschile Eccellen
+ za — girone unico)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n6ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-b6351929@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T193000
+DTEND;TZID=Europe/Rome:20261107T213000
+SUMMARY:Scuola Basket Miky Mian 40-72 APU NEXT GEN (Under 17 Maschile Regio
+ nale — girone UD (prima fase))
+LOCATION:Palestra I.S. F. Tomadini\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-0441f048@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Varese 81-84 Udine (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n7ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-944657d8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:APU NEXTGEN NERA 80-27 PALL. TOLMEZZO (Under 13 Maschile — girone
+  UD B)
+LOCATION:Palazzetto M. Benedetti\, Udine
+DESCRIPTION:Under 13 Maschile — girone UD B\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-e03447a6@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261108T120000
+DTEND;TZID=Europe/Rome:20261108T140000
+SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste 86-59 APU Next Gen (Under 17 M
+ aschile Eccellenza — girone unico)
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n6ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-43ee853c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T180000
+DTEND;TZID=Europe/Rome:20261108T200000
+SUMMARY:PALL. INTERCLUB MUGGIA 63-55 APU NEXT GEN (Under 17 Femminile — g
+ irone unico)
+LOCATION:Palestra Comunale 'G. Pacco'\, Muggia
+DESCRIPTION:Under 17 Femminile — girone unico\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-86f4d654@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T193000
+DTEND;TZID=Europe/Rome:20261109T213000
+SUMMARY:APU Next Gen 81-67 Humus Basket (Under 14 Maschile Gold — girone 
+ B (prima fase))
+LOCATION:Palazzetto M. Benedetti\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-f871b7d0@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;TZID=Europe/Rome:20261109T200000
+DTEND;TZID=Europe/Rome:20261109T220000
+SUMMARY:Amici Pallacanestro Udinese 70-79 Umana Spa Reyer (Under 19 Maschil
+ e Eccellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palasport 'Primo Carnera'\, Udine
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n7ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-43a35e45@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T200000
+DTEND;TZID=Europe/Rome:20261110T220000
+SUMMARY:APU NEXT GEN 46-75 SISTEMA ROSA PALL. (Under 19 Femminile Regionale
+  — girone unico)
+LOCATION:Palazzetto "M. Benedetti"\, Udine
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n2ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-e2a93847@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T200000
+DTEND;TZID=Europe/Rome:20261110T220000
+SUMMARY:Amici Pallacanestro Udinese 88-55 Libertas Trieste (Under 19 Maschi
+ le Gold — girone B)
+LOCATION:Palasport 'Primo Carnera'\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone B\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-f49b2656@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261111T200000
+DTEND;TZID=Europe/Rome:20261111T220000
+SUMMARY:Amici Pallacanestro Udinese 86-64 MEP Cividale (Under 17 Maschile E
+ ccellenza — girone unico)
+LOCATION:Palasport Primo Carnera\, Udine
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n6ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-a-349bf92c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261112T183000
+DTEND;TZID=Europe/Rome:20261112T203000
+SUMMARY:APU NEXT GEN 72-28 FUTUROSA ROSA (Under 14 Femminile — girone A (
+ prima fase))
+LOCATION:Palestra Sc. "Marconi"\, Udine
+DESCRIPTION:Under 14 Femminile — girone A (prima fase)\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-f9fd8f68@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:BASKET CERVIGNANESE 52-92 APU NEXT GEN (Under 15 Maschile Regionale
+  — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n4ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-7d9ef12a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:FALCONSTAR BASKET 64-54 APU NEXT GEN (Under 14 Maschile Regionale 
+ — girone GO/TS/UD)
+LOCATION:Palestra 'B' Marcon\, Monfalcone
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-74bdf65e@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Udine 70-83 Olimpia Milano (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n8ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-e9480fc3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:APU NEXT GEN 66-27 POL. LIBERTAS CUSSIGNACCO (Under 13 Femminile 
+ — girone PN/UD (prima fase))
+LOCATION:Palestra Sc. Marconi\, Udine
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-f2ab52e7@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261115T173000
+DTEND;TZID=Europe/Rome:20261115T193000
+SUMMARY:PALL. PORTOGRUARO 69-77 AMICI PALLACANESTRO UDINESE (Serie C maschi
+ le — girone D (prima fase))
+LOCATION:Palazzetto dello Sport\, Portogruaro
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-7cfd2385@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T184500
+DTEND;TZID=Europe/Rome:20261115T204500
+SUMMARY:APU NEXTGEN BIANCA 109-21 U.S. BASKET TIME UDINE (Under 13 Maschile
+  — girone UD B)
+LOCATION:Palasport Primo Carnera\, Udine
+DESCRIPTION:Under 13 Maschile — girone UD B\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-831dd14a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T193000
+DTEND;TZID=Europe/Rome:20261115T213000
+SUMMARY:Dinamo Gorizia 31-121 APU Next Gen (Under 14 Maschile Gold — giro
+ ne B (prima fase))
+LOCATION:PalaBigot\, Gorizia
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-70c1e285@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T193000
+DTEND;TZID=Europe/Rome:20261116T213000
+SUMMARY:APU NEXT GEN 42-67 OLYMPIA RIVIGNANO (Under 17 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Palazzetto M. Benedetti\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-9310a2f0@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;TZID=Europe/Rome:20261116T193000
+DTEND;TZID=Europe/Rome:20261116T213000
+SUMMARY:Pallacanestro Trieste 2004 79-96 Amici Pallacanestro Udinese (Under
+  19 Maschile Eccellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n8ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-dce6e31f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261117T190000
+DTEND;TZID=Europe/Rome:20261117T210000
+SUMMARY:LONGOBARDI 56-37 APU NEXTGEN NERA (Under 13 Maschile — girone UD 
+ B)
+LOCATION:Palestra Ippolito Nievo\, Remanzacco
+DESCRIPTION:Under 13 Maschile — girone UD B\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-959467a2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261117T193000
+DTEND;TZID=Europe/Rome:20261117T213000
+SUMMARY:APU NEXT GEN 50-94 FUTUROSA NERA (Under 17 Femminile — girone uni
+ co)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 17 Femminile — girone unico\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-66c43e72@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261117T200000
+DTEND;TZID=Europe/Rome:20261117T220000
+SUMMARY:Amici Pallacanestro Udinese 100-64 O.F.P. Azzurra R.D.R. Basket Tri
+ este (Under 19 Maschile Gold — girone B)
+LOCATION:Palasport 'Primo Carnera'\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone B\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-a-194d5477@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T193000
+DTEND;TZID=Europe/Rome:20261118T213000
+SUMMARY:APU NEXT GEN 43-62 FUTUROSA NERA (Under 14 Femminile — girone A (
+ prima fase))
+LOCATION:Palestra Sc. "Marconi"\, Udine
+DESCRIPTION:Under 14 Femminile — girone A (prima fase)\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-cfd9c202@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T200000
+DTEND;TZID=Europe/Rome:20261118T220000
+SUMMARY:FUTUROSA BASKET TRIESTE 67-74 APU NEXT GEN (Under 19 Femminile Regi
+ onale — girone unico)
+LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n3ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-daf03ca1@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Verona 97-89 Udine (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n9ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-13033b66@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T193000
+DTEND;TZID=Europe/Rome:20261125T213000
+SUMMARY:APU Next Gen – Pozzuolo Basket (Under 14 Maschile Gold — girone
+  B (prima fase))
+LOCATION:Palazzetto M. Benedetti\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-29fff6c2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261130T193000
+DTEND;TZID=Europe/Rome:20261130T213000
+SUMMARY:Fly Solartech Icarus – Amici Pallacanestro Udinese (Under 19 Masc
+ hile Gold — girone B)
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone B\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-a-f62507d5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261202T193000
+DTEND;TZID=Europe/Rome:20261202T213000
+SUMMARY:APU NEXT GEN – A.P.C. CHIONS (Under 14 Femminile — girone A (pr
+ ima fase))
+LOCATION:Palestra Sc. "Marconi"\, Udine
+DESCRIPTION:Under 14 Femminile — girone A (prima fase)\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-5709d3f0@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261206T190000
+DTEND;TZID=Europe/Rome:20261206T210000
+SUMMARY:Udine – Trieste (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n10ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+END:VCALENDAR

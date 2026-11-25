@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Danieli Sporting Club (basket)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr2-ud-60ab1a65@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T204500
+DTEND;TZID=Europe/Rome:20261030T224500
+SUMMARY:Danieli Sporting Club 87-85 Collinare Basket (Divisione Regionale 2
+  — girone UD)
+LOCATION:Palestra 'Buttrio'\, Buttrio
+DESCRIPTION:Divisione Regionale 2 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-db48f6ac@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:Udine Basket Club 96-51 Danieli Sporting Club (Divisione Regionale 
+ 2 — girone UD)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-5ac31fc6@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T211500
+DTEND;TZID=Europe/Rome:20261113T231500
+SUMMARY:Danieli Sporting Club 78-92 C.U.S. Udine (Divisione Regionale 2 —
+  girone UD)
+LOCATION:Palestra 'Buttrio'\, Buttrio
+DESCRIPTION:Divisione Regionale 2 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+END:VCALENDAR

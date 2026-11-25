@@ -1,0 +1,428 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Maniago Volley ASD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-4ba06d4e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T163000
+DTEND;TZID=Europe/Rome:20261031T183000
+SUMMARY:PORDENONE VOLLEY 0-3 MANIAGO VOLLEY (Under 14 femminile CT Pordenon
+ e — girone A)
+LOCATION:Palestra Gallini\, PORDENONE PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-30bab913@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T163000
+DTEND;TZID=Europe/Rome:20261031T183000
+SUMMARY:MANIAGO VOLLEY 3-0 LIBERTAS FIUME VENETO U15 (Under 15 femminile CT
+  Pordenone — girone B)
+LOCATION:Palasport\, MANIAGO PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-0c48b00c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T200000
+DTEND;TZID=Europe/Rome:20261031T220000
+SUMMARY:VERO SRL MANIAGO 3-0 CLUB AURORA VOLLEY UDINE (Serie D femminile 
+ — girone unico)
+LOCATION:Palazzetto dello Sport\, MONTEREALE VALCELLINA PN
+DESCRIPTION:Serie D femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-71a33622@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:MANIAGO VOLLEY 3-0 PORDENONE VOLLEY (Under 17 femminile CT Pordenon
+ e — girone B)
+LOCATION:Palasport\, MANIAGO PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-f8967350@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T203000
+DTEND;TZID=Europe/Rome:20261104T223000
+SUMMARY:CFV - MT ECOSERVICE 3-0 VERO SRL MANIAGO (Serie D femminile — gir
+ one unico)
+LOCATION:Palasport Villotta\, Chions (PN)
+DESCRIPTION:Serie D femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-13-femminile-pn-girone-a-58e74706@zuin-fv
+ g
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T153000
+DTEND;TZID=Europe/Rome:20261107T173000
+SUMMARY:MANIAGO VOLLEY 3-0 LIBERTAS FIUME V. U13 (Coppa Autunno Under 13 fe
+ mminile CT Pordenone — girone A)
+LOCATION:Palasport\, MANIAGO PN
+DESCRIPTION:Coppa Autunno Under 13 femminile CT Pordenone — girone A\n1ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-coppa-autunno-under-13-femminile-pn-girone-
+ a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 3-femminile-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-aa7d3c73@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:THE GAMMON U15 1-3 MANIAGO VOLLEY (Under 15 femminile CT Pordenone 
+ — girone B)
+LOCATION:Palazzetto dello Sport\, FONTANAFREDDA PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-0449e0b9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:VERO SRL MANIAGO 0-3 A.S.D. MORARO VOLLEY (Serie D femminile — gi
+ rone unico)
+LOCATION:Palazzetto dello Sport\, Montereale Valcellina (PN)
+DESCRIPTION:Serie D femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-2cb10a69@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T103000
+DTEND;TZID=Europe/Rome:20261108T123000
+SUMMARY:MANIAGO VOLLEY 1-3 GSD FAVRIA SAN VITO AL T. (Under 14 femminile CT
+  Pordenone — girone A)
+LOCATION:Palasport\, MANIAGO PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-47c55d28@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:FAROUT 3-0 MANIAGO VOLLEY (Under 17 femminile CT Pordenone — giro
+ ne B)
+LOCATION:Palestra G. Grizzo\, CORDENONS PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-b9f34409@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T150000
+DTEND;TZID=Europe/Rome:20261114T170000
+SUMMARY:ALTA RESA 0-3 MANIAGO VOLLEY (Under 14 femminile CT Pordenone — g
+ irone A)
+LOCATION:Palestra Borgomeduna\, Pordenone PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-13c68be3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T170000
+DTEND;TZID=Europe/Rome:20261114T190000
+SUMMARY:GSD FAVRIA SAN VITO AL T. 2-3 MANIAGO VOLLEY (Under 17 femminile CT
+  Pordenone — girone B)
+LOCATION:Palestra Comunale\, Bagnarola di Sesto al Reghena PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-523b2b70@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T173000
+DTEND;TZID=Europe/Rome:20261114T193000
+SUMMARY:MANIAGO VOLLEY 3-0 SERENISSIMA GOMME GIS (Under 15 femminile CT Por
+ denone — girone B)
+LOCATION:Palasport\, Maniago PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ccb84109@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:REVOLUTION SRL Trieste 3-0 VERO SRL MANIAGO (Serie D femminile — 
+ girone unico)
+LOCATION:Palestra Cobolli\, Trieste (TS)
+DESCRIPTION:Serie D femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-13-femminile-pn-girone-a-9d1f544f@zuin-fv
+ g
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261118T170000
+DTEND;TZID=Europe/Rome:20261118T190000
+SUMMARY:VIS ET VIRTUS ROVEREDO 2-1 MANIAGO VOLLEY (Coppa Autunno Under 13 f
+ emminile CT Pordenone — girone A)
+LOCATION:Palasport Steffanini\, Roveredo in Piano (PN)
+DESCRIPTION:Coppa Autunno Under 13 femminile CT Pordenone — girone A\n2ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-coppa-autunno-under-13-femminile-pn-girone-
+ a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 3-femminile-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-bdd4a937@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T163000
+DTEND;TZID=Europe/Rome:20261121T183000
+SUMMARY:MANIAGO VOLLEY 3-0 CFV - BIOBIM (Under 15 femminile CT Pordenone 
+ — girone B)
+LOCATION:Palasport\, Maniago (PN)
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-f1a02c81@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T103000
+DTEND;TZID=Europe/Rome:20261122T123000
+SUMMARY:MANIAGO VOLLEY 3-2 AUTOFFICINA CORDENONESE (Under 14 femminile CT P
+ ordenone — girone A)
+LOCATION:Palasport\, Maniago (PN)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-23761e2a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T170000
+DTEND;TZID=Europe/Rome:20261122T190000
+SUMMARY:MANIAGO VOLLEY 2-3 CFV - TENUTA POLVARO (Under 17 femminile CT Pord
+ enone — girone B)
+LOCATION:Palasport\, Maniago (PN)
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-a128c697@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261125T210000
+DTEND;TZID=Europe/Rome:20261125T230000
+SUMMARY:FARRAVOLO – VERO SRL MANIAGO (Serie D femminile — girone unico)
+LOCATION:Palestra Comunale\, Via dei Conventi 22\, Farra d'Isonzo (GO)
+DESCRIPTION:Serie D femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-13-femminile-pn-girone-a-3abdeb0d@zuin-fv
+ g
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T153000
+DTEND;TZID=Europe/Rome:20261128T173000
+SUMMARY:MANIAGO VOLLEY – CFV - VRC COSTRUZIONI (Coppa Autunno Under 13 fe
+ mminile CT Pordenone — girone A)
+LOCATION:Palasport\, via Marco Polo 37\, MANIAGO PN
+DESCRIPTION:Coppa Autunno Under 13 femminile CT Pordenone — girone A\n4ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-coppa-autunno-under-13-femminile-pn-girone-
+ a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 3-femminile-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-f6f2e76c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T163000
+DTEND;TZID=Europe/Rome:20261128T183000
+SUMMARY:PORDENONE VOLLEY – MANIAGO VOLLEY (Under 15 femminile CT Pordenon
+ e — girone B)
+LOCATION:Palestra Gallini\, Via Ungaresca 42\, PORDENONE PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-1e6407b8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:AZ AG TEDESCO TAMARA ZOPP – MANIAGO VOLLEY (Under 14 femminile CT
+  Pordenone — girone A)
+LOCATION:Palestra Scuole Medie\, Via Leonardo Da Vinci\, ZOPPOLA PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-bae9f938@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T150000
+DTEND;TZID=Europe/Rome:20261129T170000
+SUMMARY:AZ AGR. PANCIERA ZOPPOLA – MANIAGO VOLLEY (Under 17 femminile CT 
+ Pordenone — girone B)
+LOCATION:Palestra Scuole Medie\, Via Leonardo Da Vinci\, ZOPPOLA PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-5b66623f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T170000
+DTEND;TZID=Europe/Rome:20261129T190000
+SUMMARY:ROJALKENNEDY PRIMACASSA – VERO SRL MANIAGO (Serie D femminile —
+  girone unico)
+LOCATION:Palestra Comunale\, Via Stadio\, Remugnano\, Reana del Rojale (UD)
+DESCRIPTION:Serie D femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-13-femminile-pn-girone-a-7aa40205@zuin-fv
+ g
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T150000
+DTEND;TZID=Europe/Rome:20261205T170000
+SUMMARY:PARPINELLI – MANIAGO VOLLEY (Coppa Autunno Under 13 femminile CT 
+ Pordenone — girone A)
+DESCRIPTION:Coppa Autunno Under 13 femminile CT Pordenone — girone A\n5ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-coppa-autunno-under-13-femminile-pn-girone-
+ a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 3-femminile-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-7667832b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T150000
+DTEND;TZID=Europe/Rome:20261205T170000
+SUMMARY:MANIAGO VOLLEY – SAN QUIRINO UNION VOLLEY (Under 17 femminile CT 
+ Pordenone — girone B)
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-8d019d7c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T200000
+DTEND;TZID=Europe/Rome:20261205T220000
+SUMMARY:VERO SRL MANIAGO – GIOIELLI DI MAX ZOPPOLA (Serie D femminile —
+  girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n9ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-e9cd30e0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T103000
+DTEND;TZID=Europe/Rome:20261206T123000
+SUMMARY:MANIAGO VOLLEY – CFV - DAP (Under 14 femminile CT Pordenone — g
+ irone A)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-a9781f1b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T160000
+DTEND;TZID=Europe/Rome:20261206T180000
+SUMMARY:MANIAGO VOLLEY – AQUILA SPILIMBERGO (Under 15 femminile CT Porden
+ one — girone B)
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Basket Maniago
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-368eb542@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261030T183000
+DTEND;TZID=Europe/Rome:20261030T203000
+SUMMARY:BASKET MANIAGO 84-46 PALL. PORTOGRUARO (Under 17 Maschile Regionale
+  — girone PN (prima fase))
+LOCATION:Palazzetto dello Sport\, Maniago
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-53e257a5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T110000
+DTEND;TZID=Europe/Rome:20261031T130000
+SUMMARY:Basket Maniago 0-20 Sistema BK Pordenone (Under 13 Maschile — gir
+ one PN A)
+LOCATION:Palazzetto dello Sport\, Maniago
+DESCRIPTION:Under 13 Maschile — girone PN A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-48bbc60d@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261031T193000
+DTEND;TZID=Europe/Rome:20261031T213000
+SUMMARY:Basket Maniago 59-77 Basket Pasiano (Divisione Regionale 2 — giro
+ ne PN)
+LOCATION:Palazzetto dello Sport\, Maniago
+DESCRIPTION:Divisione Regionale 2 — girone PN\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-a96e61f5@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261107T193000
+DTEND;TZID=Europe/Rome:20261107T213000
+SUMMARY:Basket Maniago 68-75 A.P.C. Chions (Divisione Regionale 2 — giron
+ e PN)
+LOCATION:Palazzetto dello Sport\, Maniago
+DESCRIPTION:Divisione Regionale 2 — girone PN\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-371d0012@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T183000
+DTEND;TZID=Europe/Rome:20261108T203000
+SUMMARY:HUMUS BASKET 62-85 BASKET MANIAGO (Under 17 Maschile Regionale — 
+ girone PN (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-07f3a765@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T173000
+DTEND;TZID=Europe/Rome:20261109T193000
+SUMMARY:Nuovo Basket 2000 109-34 Basket Maniago (Under 13 Maschile — giro
+ ne PN A)
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-97928e30@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T150000
+DTEND;TZID=Europe/Rome:20261114T170000
+SUMMARY:Basket Maniago 36-99 Scuola Pallacanestro Porcia 2021 (Under 13 Mas
+ chile — girone PN A)
+LOCATION:Palazzetto dello Sport\, Maniago
+DESCRIPTION:Under 13 Maschile — girone PN A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-ed6fb258@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T113000
+DTEND;TZID=Europe/Rome:20261115T133000
+SUMMARY:BASKET MANIAGO 105-31 NUOVA PALLACANESTRO SANVITESE (Under 17 Masch
+ ile Regionale — girone PN (prima fase))
+LOCATION:Palazzetto dello Sport\, Maniago
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+END:VCALENDAR
