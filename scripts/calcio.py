@@ -59,11 +59,33 @@ def elenco_pdf():
 
 
 def pdf_righe(url):
+    """Testo riga per riga; nelle pagine a due colonne (es. girone A a sinistra, girone B a destra) le due colonne
+    vengono lette una dopo l'altra, mentre i titoli a tutta larghezza restano al loro posto."""
     import pdfplumber
     time.sleep(0.8)
     r = S.get(url, timeout=90); r.raise_for_status()
+    out = []
     with pdfplumber.open(io.BytesIO(r.content)) as pdf:
-        return [l.strip() for p in pdf.pages for l in (p.extract_text() or "").splitlines() if l.strip()]
+        for page in pdf.pages:
+            mid = page.width / 2
+            linee = {}
+            for w in page.extract_words(use_text_flow=False, keep_blank_chars=False):
+                linee.setdefault(round(w["top"] / 2.5), []).append(w)
+            L, R = [], []
+            def flush():
+                out.extend(L); out.extend(R); L.clear(); R.clear()
+            for k in sorted(linee):
+                ws = sorted(linee[k], key=lambda w: w["x0"])
+                attraversa = any(w["x0"] < mid - 2 and w["x1"] > mid + 2 for w in ws)
+                sx = [w["text"] for w in ws if w["x1"] <= mid + 2]
+                dx = [w["text"] for w in ws if w["x0"] >= mid - 2]
+                if attraversa:
+                    flush(); out.append(" ".join(w["text"] for w in ws))
+                else:
+                    if sx: L.append(" ".join(sx))
+                    if dx: R.append(" ".join(dx))
+            flush()
+    return [l.strip() for l in out if l.strip()]
 
 
 RX_DELEG = re.compile(r"DELEGAZIONE\s+(?:PROVINCIALE|DISTRETTUALE|TERRITORIALE)?\s*DI\s+([A-Z]+)", re.I)
