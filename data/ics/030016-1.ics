@@ -27,8 +27,8 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-udi-terza-categoria-b-57f1d197@zuin-fvg
 DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
 SUMMARY:TARCENTINA 0-2 UNIONE CALCIO 3 STELLE (Terza Categoria — girone B
  )
 DESCRIPTION:Terza Categoria — girone B\n6ª giornata\nDati non ufficiali:
@@ -37,16 +37,17 @@ DESCRIPTION:Terza Categoria — girone B\n6ª giornata\nDati non ufficiali:
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-udi-terza-categoria-b-04ba29b2@zuin-fvg
+UID:calcio-gor-under-15-provinciali-a-e99a2455@zuin-fvg
 DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:UNIONE CALCIO 3 STELLE 1-1 TREPPO GRANDE (Terza Categoria — giron
- e B)
-DESCRIPTION:Terza Categoria — girone B\n7ª giornata\nDati non ufficiali:
-  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
- i-terza-categoria-b
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SEVEGLIANO FAUGLIS 4-2 UNIONE CALCIO 3 STELLE (Under 15 provinciali
+  — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-15-provinciali-a-63979cc8@zuin-fvg
@@ -62,13 +63,13 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-udi-terza-categoria-b-c6a032df@zuin-fvg
+UID:calcio-udi-terza-categoria-b-04ba29b2@zuin-fvg
 DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:CENTRO ATLETICO RICREATIV 1-1 UNIONE CALCIO 3 STELLE (Terza Categor
- ia — girone B)
-DESCRIPTION:Terza Categoria — girone B\n8ª giornata\nDati non ufficiali:
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:UNIONE CALCIO 3 STELLE 1-1 TREPPO GRANDE (Terza Categoria — giron
+ e B)
+DESCRIPTION:Terza Categoria — girone B\n7ª giornata\nDati non ufficiali:
   fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
  i-terza-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
@@ -85,5 +86,17 @@ DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
  io-gor-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-c6a032df@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:CENTRO ATLETICO RICREATIV 1-1 UNIONE CALCIO 3 STELLE (Terza Categor
+ ia — girone B)
+DESCRIPTION:Terza Categoria — girone B\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
 END:VEVENT
 END:VCALENDAR

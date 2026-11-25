@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-85fafeda@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:DEPORTIVO JUNIOR 7-0 RAGOGNA (Under 19 provinciali — girone A)
@@ -35,6 +35,18 @@ DESCRIPTION:Under 19 provinciali — girone A\n6ª giornata\nDati non uffic
  io-udi-under-19-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-482712ad@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:DEPORTIVO JUNIOR 0-1 RIVE D ARCANO FLAIBANO (Promozione — girone 
+ A)
+DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-c-b16d918f@zuin-fvg
@@ -50,20 +62,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
  -c
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-promozione-a-482712ad@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:DEPORTIVO JUNIOR 0-1 RIVE D ARCANO FLAIBANO (Promozione — girone 
- A)
-DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
- ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
- one-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-be5786ae@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261119T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:COMUNALE GONARS 1-2 DEPORTIVO JUNIOR (Under 19 provinciali — giro
@@ -76,7 +76,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-0a6151db@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:TRICESIMO CALCIO 0-2 DEPORTIVO JUNIOR (Promozione — girone A)
@@ -99,8 +99,21 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
  -c
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-promozione-a-8417ce35@zuin-fvg
+UID:calcio-udi-under-19-provinciali-a-d468c8e6@zuin-fvg
 DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:DEPORTIVO JUNIOR 0-0 FORUM JULII CALCIO (Under 19 provinciali — g
+ irone A)
+DESCRIPTION:Under 19 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-8417ce35@zuin-fvg
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:DEPORTIVO JUNIOR 0-2 CUSSIGNACCO CALCIO (Promozione — girone A)
@@ -121,5 +134,17 @@ DESCRIPTION:Under 14 provinciali — girone C\n9ª giornata\nDati non uffic
  io-udi-under-14-provinciali-c
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
  -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-feb627f9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:TRIESTE VICTORY ACADEMY 2-0 DEPORTIVO JUNIOR (Promozione — girone
+  A)
+DESCRIPTION:Promozione — girone A\n12ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 END:VCALENDAR

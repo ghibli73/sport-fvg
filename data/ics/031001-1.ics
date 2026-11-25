@@ -25,8 +25,47 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-prima-categoria-b-1307ddf1@zuin-fvg
+UID:calcio-gor-under-14-provinciali-e-dd5d41fa@zuin-fvg
 DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:SANGIORGINA 1-0 UNIONE FRIULI ISONTINA (Under 14 provinciali — gi
+ rone E)
+DESCRIPTION:Under 14 provinciali — girone E\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-14-provinciali-e
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-14-provinciali
+ -e
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-19-provinciali-a-f7a45c28@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:ROIANESE 2-1 UNIONE FRIULI ISONTINA (Under 19 provinciali — giron
+ e A)
+DESCRIPTION:Under 19 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-034b1194@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:CAMPANELLE sq.B 2-4 UNIONE FRIULI ISONTINA (Under 17 provinciali 
+ — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-1307ddf1@zuin-fvg
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:UNIONE FRIULI ISONTINA 0-3 OPICINA (Prima Categoria — girone B)
@@ -36,15 +75,17 @@ DESCRIPTION:Prima Categoria — girone B\n9ª giornata\nDati non ufficiali:
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-prima-categoria-b-ea748ca7@zuin-fvg
+UID:calcio-gor-under-19-provinciali-a-bbffef02@zuin-fvg
 DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:POGGIO 0-1 UNIONE FRIULI ISONTINA (Prima Categoria — girone B)
-DESCRIPTION:Prima Categoria — girone B\n10ª giornata\nDati non ufficiali
- : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
- rima-categoria-b
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:UNIONE FRIULI ISONTINA 2-1 TORVISCOSA (Under 19 provinciali — gir
+ one A)
+DESCRIPTION:Under 19 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-15-provinciali-e-754046e9@zuin-fvg
@@ -60,15 +101,41 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
  -e
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-prima-categoria-b-e78594d9@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:UNIONE FRIULI ISONTINA 2-1 DOMIO (Prima Categoria — girone B)
-DESCRIPTION:Prima Categoria — girone B\n11ª giornata\nDati non ufficiali
+UID:calcio-prima-categoria-b-ea748ca7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:POGGIO 0-1 UNIONE FRIULI ISONTINA (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n10ª giornata\nDati non ufficiali
  : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
  rima-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-fc4843e6@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:UNIONE FRIULI ISONTINA 2-1 SAN GIOVANNI A.S.D. (Under 17 provincial
+ i — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-19-provinciali-a-2ba8efdc@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:MARANESE 5-1 UNIONE FRIULI ISONTINA (Under 19 provinciali — giron
+ e A)
+DESCRIPTION:Under 19 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-14-provinciali-e-4f2d3861@zuin-fvg
@@ -82,5 +149,40 @@ DESCRIPTION:Under 14 provinciali — girone E\n9ª giornata\nDati non uffic
  io-gor-under-14-provinciali-e
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-14-provinciali
  -e
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-e78594d9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:UNIONE FRIULI ISONTINA 2-1 DOMIO (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n11ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-277b2747@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:AUDAX SANROCCHESE 2-3 UNIONE FRIULI ISONTINA (Under 17 provinciali 
+ — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-de73bb38@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:UNIONE FRIULI ISONTINA 3-4 RISANESE (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n12ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
 END:VEVENT
 END:VCALENDAR

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-promozione-a-bae0a19d@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:PRO CERVIGNANO RUDA 2-3 SISTIANA SESLJAN (Promozione — girone A)
@@ -36,36 +36,51 @@ DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-gor-under-19-provinciali-e-afb481d3@zuin-fvg
-DTSTAMP:20261105T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:AMICI DELLO SPORT VISCO 0-2 PRO CERVIGNANO RUDA (Under 19 provincia
+UID:calcio-gor-under-14-provinciali-e-47d42936@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:AMICI DELLO SPORT VISCO 0-2 PRO CERVIGNANO RUDA (Under 14 provincia
  li — girone E)
-DESCRIPTION:Under 19 provinciali — girone E\n7ª giornata\nDati non uffic
+DESCRIPTION:Under 14 provinciali — girone E\n7ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-gor-under-19-provinciali-e
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ io-gor-under-14-provinciali-e
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-14-provinciali
  -e
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-promozione-a-64eca4f1@zuin-fvg
+UID:calcio-gor-under-16-provinciali-a-900032cc@zuin-fvg
 DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:CHIARBOLA PONZIANA CALCIO 2-2 PRO CERVIGNANO RUDA (Under 16 provinc
+ iali — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-16-provinciali-a-a5c8c327@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:ZARJA A.S.D. 1-0 PRO CERVIGNANO RUDA (Under 16 provinciali — giro
+ ne A)
+DESCRIPTION:Under 16 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-64eca4f1@zuin-fvg
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:UNION PASIANO 2-3 PRO CERVIGNANO RUDA (Promozione — girone A)
 DESCRIPTION:Promozione — girone A\n10ª giornata\nDati non ufficiali: fa 
- fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
- ione-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-promozione-a-b249b18c@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:PRO CERVIGNANO RUDA 0-1 MARANESE (Promozione — girone A)
-DESCRIPTION:Promozione — girone A\n11ª giornata\nDati non ufficiali: fa 
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
  ione-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
@@ -82,5 +97,41 @@ DESCRIPTION:Under 14 provinciali — girone E\n9ª giornata\nDati non uffic
  io-gor-under-14-provinciali-e
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-14-provinciali
  -e
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-16-provinciali-a-249a44e7@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:PRO CERVIGNANO RUDA 5-0 TORVISCOSA (Under 16 provinciali — girone
+  A)
+DESCRIPTION:Under 16 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-b249b18c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:PRO CERVIGNANO RUDA 0-1 MARANESE (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n11ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-368c1cf6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:CUSSIGNACCO CALCIO 1-0 PRO CERVIGNANO RUDA (Promozione — girone A
+ )
+DESCRIPTION:Promozione — girone A\n12ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 END:VCALENDAR

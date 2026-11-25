@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-9dbbc2ac@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:MUGGIA 1967 0-0 SAN LUIGI CALCIO (Under 19 regionali — girone A)
@@ -37,7 +37,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-eccellenza-a-73e512b3@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:SAN LUIGI CALCIO 0-0 PRO GORIZIA (Eccellenza — girone A)
@@ -48,7 +48,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-8fe1da35@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:SAN LUIGI CALCIO 2-4 RIVE D ARCANO FLAIBANO (Under 19 regionali —
@@ -57,6 +57,40 @@ DESCRIPTION:Under 19 regionali — girone A\n10ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-19-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-92812d2b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SAN LUIGI CALCIO 1-1 NUOVO PORDENONE 2024 FC (Under 15 regionali 
+ — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-9987819d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:OPICINA 3-1 SAN LUIGI CALCIO (Under 16 regionali — girone A)
+DESCRIPTION:Under 16 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-998cc895@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:PRO GORIZIA 2-2 SAN LUIGI CALCIO (Under 17 regionali — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-8b4bb3f0@zuin-fvg
@@ -72,31 +106,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-92812d2b@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:SAN LUIGI CALCIO 1-1 NUOVO PORDENONE 2024 FC (Under 15 regionali 
- — girone A)
-DESCRIPTION:Under 15 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-998cc895@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:PRO GORIZIA 2-2 SAN LUIGI CALCIO (Under 17 regionali — girone A)
-DESCRIPTION:Under 17 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-1208610c@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:TRIESTE VICTORY ACADEMY 2-2 SAN LUIGI CALCIO (Under 19 regionali 
@@ -108,7 +119,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-eccellenza-a-a0aa3f95@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:CHIONS 0-1 SAN LUIGI CALCIO (Eccellenza — girone A)
@@ -116,19 +127,6 @@ DESCRIPTION:Eccellenza — girone A\n10ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
  enza-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-tri-under-14-provinciali-a-ca0942c4@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:U.FINCANTIERI MONFALCONE 0-5 SAN LUIGI CALCIO (Under 14 provinciali
-  — girone A)
-DESCRIPTION:Under 14 provinciali — girone A\n6ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-tri-under-14-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
- -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-3650a3b9@zuin-fvg
@@ -167,8 +165,21 @@ DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-19-regionali-a-902a3871@zuin-fvg
+UID:calcio-tri-under-14-provinciali-a-ca0942c4@zuin-fvg
 DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:U.FINCANTIERI MONFALCONE 0-5 SAN LUIGI CALCIO (Under 14 provinciali
+  — girone A)
+DESCRIPTION:Under 14 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-14-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-902a3871@zuin-fvg
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:SAN LUIGI CALCIO 8-0 PRO GORIZIA (Under 19 regionali — girone A)
@@ -190,7 +201,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-03013505@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:A.C. CORDENONESE 3S ASD 1-1 SAN LUIGI CALCIO (Under 19 regionali 
@@ -202,7 +213,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-eccellenza-a-6258f2ee@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:SAN LUIGI CALCIO 2-0 PRO FAGAGNA (Eccellenza — girone A)
@@ -210,6 +221,18 @@ DESCRIPTION:Eccellenza — girone A\n11ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
  enza-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-81946497@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SAN LUIGI CALCIO 1-3 MANZANESE CALCIO (Under 15 regionali — giron
+ e A)
+DESCRIPTION:Under 15 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-c8b3dedf@zuin-fvg
@@ -225,16 +248,26 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-81946497@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:SAN LUIGI CALCIO 1-3 MANZANESE CALCIO (Under 15 regionali — giron
- e A)
-DESCRIPTION:Under 15 regionali — girone A\n11ª giornata\nDati non uffici
+UID:calcio-under-19-regionali-a-4b15ece4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:SAN LUIGI CALCIO 2-1 CORVA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n14ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-784f56e1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:SAN LUIGI CALCIO 3-2 CASARSA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n12ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-e2c0cd59@zuin-fvg

@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:calcio-prima-categoria-a-4ba2d337@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:TAGLIAMENTO 2-0 UNIONE S.M.T. CALCIO (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-udi-under-15-provinciali-a-a9174b6e@zuin-fvg
 DTSTAMP:20261119T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -38,19 +49,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-prima-categoria-a-4ba2d337@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:TAGLIAMENTO 2-0 UNIONE S.M.T. CALCIO (Prima Categoria — girone A)
-DESCRIPTION:Prima Categoria — girone A\n9ª giornata\nDati non ufficiali:
-  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
- ima-categoria-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-prima-categoria-a-20f07d3b@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:UNIONE S.M.T. CALCIO 2-0 CALCIO MANIAGO VAJONT (Prima Categoria —
@@ -75,7 +75,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-prima-categoria-a-c38be6c3@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:VALLENONCELLO 4-0 UNIONE S.M.T. CALCIO (Prima Categoria — girone 
@@ -97,5 +97,17 @@ DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
  io-udi-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-2807a901@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:UNIONE S.M.T. CALCIO 0-1 VIRTUS ROVEREDO (Prima Categoria — giron
+ e A)
+DESCRIPTION:Prima Categoria — girone A\n12ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
 END:VEVENT
 END:VCALENDAR

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-eccellenza-a-edc89985@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:N.K. KRAS REPEN 0-0 POLISPORTIVA CODROIPO (Eccellenza — girone A)
@@ -50,7 +50,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-eccellenza-a-4680bc2c@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:MUGGIA 1967 2-1 POLISPORTIVA CODROIPO (Eccellenza — girone A)
@@ -73,8 +73,21 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-eccellenza-a-0535e39c@zuin-fvg
+UID:calcio-udi-under-17-provinciali-b-ea3143b1@zuin-fvg
 DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:ASSOSANGIORGINA 2-3 POLISPORTIVA CODROIPO (Under 17 provinciali —
+  girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-0535e39c@zuin-fvg
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:POLISPORTIVA CODROIPO 1-3 NUOVO PORDENONE 2024 FC (Eccellenza — g
@@ -109,5 +122,16 @@ DESCRIPTION:Under 17 provinciali — girone B\n8ª giornata\nDati non uffic
  io-udi-under-17-provinciali-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
  -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-0ef13569@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:SANVITESE 2-0 POLISPORTIVA CODROIPO (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n12ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 END:VCALENDAR

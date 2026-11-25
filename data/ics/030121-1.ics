@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-3cc967fe@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:TOLMEZZO CARNIA 0-1 SANGIORGINA (Under 19 regionali — girone A)
@@ -36,8 +36,20 @@ DESCRIPTION:Under 19 regionali — girone A\n9ª giornata\nDati non ufficia
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-47d6205b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:TOLMEZZO CARNIA 1-7 COMUNALE FONTANAFREDDA (Under 17 regionali — 
+ girone A)
+DESCRIPTION:Under 17 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-c14730c7@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:MUGGIA 1967 5-0 TOLMEZZO CARNIA (Under 19 regionali — girone A)
@@ -45,6 +57,17 @@ DESCRIPTION:Under 19 regionali — girone A\n10ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-19-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-e7ac40d1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:FORUM JULII CALCIO 1-3 TOLMEZZO CARNIA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-c-ec8787d6@zuin-fvg
@@ -72,31 +95,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-eccellenza-a-e7ac40d1@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:FORUM JULII CALCIO 1-3 TOLMEZZO CARNIA (Eccellenza — girone A)
-DESCRIPTION:Eccellenza — girone A\n9ª giornata\nDati non ufficiali: fa f
- ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
- nza-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-47d6205b@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:TOLMEZZO CARNIA 1-7 COMUNALE FONTANAFREDDA (Under 17 regionali — 
- girone A)
-DESCRIPTION:Under 17 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-6aa8a077@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:TOLMEZZO CARNIA 2-2 CHIONS (Under 19 regionali — girone A)
@@ -107,7 +107,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-eccellenza-a-47acc202@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:TOLMEZZO CARNIA 1-0 N.K. KRAS REPEN (Eccellenza — girone A)
@@ -115,6 +115,18 @@ DESCRIPTION:Eccellenza — girone A\n10ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
  enza-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-5e345515@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:S.P.A.L.CORDOVADO 1-2 TOLMEZZO CARNIA (Under 17 regionali — giron
+ e A)
+DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-c-47700733@zuin-fvg
@@ -142,20 +154,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-5e345515@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:S.P.A.L.CORDOVADO 1-2 TOLMEZZO CARNIA (Under 17 regionali — giron
- e A)
-DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-e05088f4@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:RIVE D ARCANO FLAIBANO 3-1 TOLMEZZO CARNIA (Under 19 regionali — 
@@ -167,7 +167,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-fda66177@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:TOLMEZZO CARNIA 1-1 POLISPORTIVA TAMAI ASD (Under 19 regionali — 
@@ -179,7 +179,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-eccellenza-a-260b1b76@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:COMUNALE FONTANAFREDDA 0-0 TOLMEZZO CARNIA (Eccellenza — girone A
@@ -188,6 +188,18 @@ DESCRIPTION:Eccellenza — girone A\n11ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
  enza-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-143447b3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:TOLMEZZO CARNIA 0-0 CJARLINS MUZANE (Under 17 regionali — girone 
+ A)
+DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-c-b1b0ef22@zuin-fvg
@@ -215,15 +227,27 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-143447b3@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:TOLMEZZO CARNIA 0-0 CJARLINS MUZANE (Under 17 regionali — girone 
- A)
-DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
+UID:calcio-under-19-regionali-a-76d267d6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:TRIESTE VICTORY ACADEMY 3-0 TOLMEZZO CARNIA (Under 19 regionali —
+  girone A)
+DESCRIPTION:Under 19 regionali — girone A\n14ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-5a4da664@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:TOLMEZZO CARNIA 0-1 NUOVO PORDENONE 2024 FC (Eccellenza — girone 
+ A)
+DESCRIPTION:Eccellenza — girone A\n12ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 END:VCALENDAR

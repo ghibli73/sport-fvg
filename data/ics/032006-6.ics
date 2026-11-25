@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-24441585@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:TRIESTE VICTORY ACADEMY 3-1 OPICINA (Under 19 regionali — girone 
@@ -38,7 +38,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-44962dd9@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:OPICINA 3-3 PRO GORIZIA (Under 19 regionali — girone A)
@@ -49,7 +49,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-prima-categoria-b-1307ddf1@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:UNIONE FRIULI ISONTINA 0-3 OPICINA (Prima Categoria — girone B)
@@ -57,6 +57,29 @@ DESCRIPTION:Prima Categoria — girone B\n9ª giornata\nDati non ufficiali:
   fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
  ima-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-6dbfd6d3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:TRIESTINA CALCIO 1918 SRL 0-1 OPICINA (Under 15 regionali — giron
+ e A)
+DESCRIPTION:Under 15 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-9987819d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:OPICINA 3-1 SAN LUIGI CALCIO (Under 16 regionali — girone A)
+DESCRIPTION:Under 16 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-284de8cd@zuin-fvg
@@ -72,20 +95,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-6dbfd6d3@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:TRIESTINA CALCIO 1918 SRL 0-1 OPICINA (Under 15 regionali — giron
- e A)
-DESCRIPTION:Under 15 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-a67a8d19@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:A.C. CORDENONESE 3S ASD 3-0 OPICINA (Under 19 regionali — girone 
@@ -97,7 +108,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-prima-categoria-b-e7eb2e3a@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:OPICINA 5-0 SAVORGNANESE - FAEDIS (Prima Categoria — girone B)
@@ -105,19 +116,6 @@ DESCRIPTION:Prima Categoria — girone B\n10ª giornata\nDati non ufficiali
  : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
  rima-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-tri-under-14-provinciali-a-1ed6f437@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:OPICINA 2-2 TRIESTE VICTORY ACADEMY (Under 14 provinciali — giron
- e A)
-DESCRIPTION:Under 14 provinciali — girone A\n6ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-tri-under-14-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
- -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-80d0a81b@zuin-fvg
@@ -142,8 +140,21 @@ DESCRIPTION:Under 16 regionali — girone A\n10ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-19-regionali-a-ff02463c@zuin-fvg
+UID:calcio-tri-under-14-provinciali-a-1ed6f437@zuin-fvg
 DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:OPICINA 2-2 TRIESTE VICTORY ACADEMY (Under 14 provinciali — giron
+ e A)
+DESCRIPTION:Under 14 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-14-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-ff02463c@zuin-fvg
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:OPICINA 2-2 CORVA (Under 19 regionali — girone A)
@@ -154,7 +165,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-18179428@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:SANVITESE 2-2 OPICINA (Under 19 regionali — girone A)
@@ -165,7 +176,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-prima-categoria-b-4a3fbd62@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:RONCHI CALCIO 2-2 OPICINA (Prima Categoria — girone B)
@@ -173,18 +184,6 @@ DESCRIPTION:Prima Categoria — girone B\n11ª giornata\nDati non ufficiali
  : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
  rima-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-tri-under-14-provinciali-a-533380ca@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:ISONTINO CALCIO 1-3 OPICINA (Under 14 provinciali — girone A)
-DESCRIPTION:Under 14 provinciali — girone A\n7ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-tri-under-14-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
- -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-3d276599@zuin-fvg
@@ -207,6 +206,40 @@ DESCRIPTION:Under 16 regionali — girone A\n11ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-16-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-14-provinciali-a-533380ca@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ISONTINO CALCIO 1-3 OPICINA (Under 14 provinciali — girone A)
+DESCRIPTION:Under 14 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-14-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-eedbdf28@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:OPICINA 0-4 S.P.A.L.CORDOVADO (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n14ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-b2b12892@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:OPICINA 1-2 SAN GIOVANNI A.S.D. (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n12ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-e88be453@zuin-fvg

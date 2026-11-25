@@ -25,8 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-prima-categoria-b-1271f9a7@zuin-fvg
+UID:calcio-gor-under-19-provinciali-a-982245df@zuin-fvg
 DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:ISONZO 0-3 SAN GIOVANNI A.S.D. (Under 19 provinciali — girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-1271f9a7@zuin-fvg
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:SAN GIOVANNI A.S.D. 3-2 ISONZO (Prima Categoria — girone B)
@@ -62,8 +74,34 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-prima-categoria-b-f3e420e2@zuin-fvg
+UID:calcio-tri-under-17-provinciali-a-07fbca42@zuin-fvg
 DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SAN GIOVANNI A.S.D. 6-0 S.GIUSTO FOOTBALL ACADEMY (Under 17 provinc
+ iali — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-19-provinciali-a-e402219f@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:SAN GIOVANNI A.S.D. 3-0 FIUMICELLO 2004 (Under 19 provinciali — g
+ irone A)
+DESCRIPTION:Under 19 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-f3e420e2@zuin-fvg
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:TARCENTINA 3-2 SAN GIOVANNI A.S.D. (Prima Categoria — girone B)
@@ -99,8 +137,34 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-prima-categoria-b-b1da460f@zuin-fvg
+UID:calcio-tri-under-17-provinciali-a-fc4843e6@zuin-fvg
 DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:UNIONE FRIULI ISONTINA 2-1 SAN GIOVANNI A.S.D. (Under 17 provincial
+ i — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-19-provinciali-a-372a9686@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:AZZURRA PREMARIACCO 1-4 SAN GIOVANNI A.S.D. (Under 19 provinciali 
+ — girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-b1da460f@zuin-fvg
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:SAN GIOVANNI A.S.D. 3-2 AZZURRA (Prima Categoria — girone B)
@@ -134,6 +198,30 @@ DESCRIPTION:Under 15 provinciali — girone A\n9ª giornata\nDati non uffic
  io-tri-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-8b4fc611@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SAN GIOVANNI A.S.D. 4-3 CAMPANELLE (Under 17 provinciali — girone
+  A)
+DESCRIPTION:Under 17 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-b2b12892@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:OPICINA 1-2 SAN GIOVANNI A.S.D. (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n12ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-b825cc0e@zuin-fvg

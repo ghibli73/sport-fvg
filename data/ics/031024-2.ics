@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-a123e6e5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:ISONTINO CALCIO 2-1 SANVITESE (Under 16 regionali — girone A)
+DESCRIPTION:Under 16 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-8b4bb3f0@zuin-fvg
 DTSTAMP:20261119T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -49,6 +60,29 @@ DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
  io-tri-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-5583acc2@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:ISONTINO CALCIO 3-0 STUDENTI (Under 17 provinciali — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-7c4ee271@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CHIONS 1-1 ISONTINO CALCIO (Under 16 regionali — girone A)
+DESCRIPTION:Under 16 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-7fcf15bd@zuin-fvg
@@ -77,12 +111,26 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-7c4ee271@zuin-fvg
-DTSTAMP:20261124T000000Z
+UID:calcio-tri-under-17-provinciali-a-ea560de0@zuin-fvg
+DTSTAMP:20261119T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
-SUMMARY:CHIONS 1-1 ISONTINO CALCIO (Under 16 regionali — girone A)
-DESCRIPTION:Under 16 regionali — girone A\n10ª giornata\nDati non uffici
+SUMMARY:FIUMICELLO 2004 1-0 ISONTINO CALCIO (Under 17 provinciali — giron
+ e A)
+DESCRIPTION:Under 17 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-ce43db27@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ISONTINO CALCIO 1-6 SANT ANDREA SAN VITO (Under 16 regionali — gi
+ rone A)
+DESCRIPTION:Under 16 regionali — girone A\n11ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-16-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
@@ -112,13 +160,12 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-ce43db27@zuin-fvg
+UID:calcio-under-16-regionali-a-01969c54@zuin-fvg
 DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:ISONTINO CALCIO 1-6 SANT ANDREA SAN VITO (Under 16 regionali — gi
- rone A)
-DESCRIPTION:Under 16 regionali — girone A\n11ª giornata\nDati non uffici
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:ISONTINO CALCIO 0-1 RORAI PORCIA (Under 16 regionali — girone A)
+DESCRIPTION:Under 16 regionali — girone A\n12ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-16-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
@@ -135,16 +182,5 @@ DESCRIPTION:Under 15 provinciali — girone A\n10ª giornata\nDati non uffi
  cio-tri-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-01969c54@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:ISONTINO CALCIO 0-1 RORAI PORCIA (Under 16 regionali — girone A)
-DESCRIPTION:Under 16 regionali — girone A\n12ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 END:VCALENDAR

@@ -25,8 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-prima-categoria-b-1271f9a7@zuin-fvg
+UID:calcio-gor-under-19-provinciali-a-982245df@zuin-fvg
 DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:ISONZO 0-3 SAN GIOVANNI A.S.D. (Under 19 provinciali — girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-1271f9a7@zuin-fvg
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:SAN GIOVANNI A.S.D. 3-2 ISONZO (Prima Categoria — girone B)
@@ -36,8 +48,20 @@ DESCRIPTION:Prima Categoria — girone B\n9ª giornata\nDati non ufficiali:
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-prima-categoria-b-cf2ca18e@zuin-fvg
+UID:calcio-gor-under-19-provinciali-a-2e5ae10f@zuin-fvg
 DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:TORRE 6-0 ISONZO (Under 19 provinciali — girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-cf2ca18e@zuin-fvg
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:ISONZO 0-2 ROIANESE (Prima Categoria — girone B)
@@ -47,12 +71,35 @@ DESCRIPTION:Prima Categoria — girone B\n10ª giornata\nDati non ufficiali
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-prima-categoria-b-e0cf9969@zuin-fvg
+UID:calcio-gor-under-19-provinciali-a-9f9195b5@zuin-fvg
 DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:ISONZO 3-1 TORVISCOSA (Under 19 provinciali — girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-e0cf9969@zuin-fvg
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:LA FORTEZZA GRADISCA 3-2 ISONZO (Prima Categoria — girone B)
 DESCRIPTION:Prima Categoria — girone B\n11ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-58fcf9d3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:AZZURRA 2-3 ISONZO (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n12ª giornata\nDati non ufficiali
  : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
  rima-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b

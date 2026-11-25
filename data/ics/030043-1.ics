@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-prima-categoria-b-35cd0270@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:GEMONESE 3-0 UNION 91 (Prima Categoria — girone B)
@@ -49,7 +49,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-prima-categoria-b-31ce5c31@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:BISIACA ROMANA 0-0 GEMONESE (Prima Categoria — girone B)
@@ -59,8 +59,20 @@ DESCRIPTION:Prima Categoria — girone B\n10ª giornata\nDati non ufficiali
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-prima-categoria-b-e7f37f97@zuin-fvg
+UID:calcio-udi-under-17-provinciali-a-4e8a0ffc@zuin-fvg
 DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:GEMONESE 7-0 TORREANESE (Under 17 provinciali — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-e7f37f97@zuin-fvg
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:GEMONESE 5-0 TARCENTINA (Prima Categoria — girone B)
@@ -80,5 +92,16 @@ DESCRIPTION:Under 17 provinciali — girone A\n8ª giornata\nDati non uffic
  io-udi-under-17-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-bc397761@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:TORREANESE 0-2 GEMONESE (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n12ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
 END:VEVENT
 END:VCALENDAR

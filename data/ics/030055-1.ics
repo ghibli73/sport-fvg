@@ -25,15 +25,26 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-gor-under-19-provinciali-e-03c9d1f3@zuin-fvg
-DTSTAMP:20261105T000000Z
+UID:calcio-prima-categoria-a-bf174ec6@zuin-fvg
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
-SUMMARY:CORMONESE 1-7 MANZANESE CALCIO (Under 19 provinciali — girone E)
-DESCRIPTION:Under 19 provinciali — girone E\n7ª giornata\nDati non uffic
+SUMMARY:MANZANESE CALCIO 0-0 BERTIOLO (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-14-provinciali-e-d54d3d50@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:CORMONESE 1-7 MANZANESE CALCIO (Under 14 provinciali — girone E)
+DESCRIPTION:Under 14 provinciali — girone E\n7ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-gor-under-19-provinciali-e
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ io-gor-under-14-provinciali-e
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-14-provinciali
  -e
 END:VEVENT
 BEGIN:VEVENT
@@ -62,17 +73,6 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-prima-categoria-a-bf174ec6@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-SUMMARY:MANZANESE CALCIO 0-0 BERTIOLO (Prima Categoria — girone A)
-DESCRIPTION:Prima Categoria — girone A\n9ª giornata\nDati non ufficiali:
-  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
- ima-categoria-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-gor-under-15-provinciali-e-5687a497@zuin-fvg
 DTSTAMP:20261111T000000Z
 DTSTART;VALUE=DATE:20261107
@@ -87,7 +87,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-prima-categoria-a-e3bc13c5@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:RORAI PORCIA 0-1 MANZANESE CALCIO (Prima Categoria — girone A)
@@ -95,6 +95,18 @@ DESCRIPTION:Prima Categoria — girone A\n10ª giornata\nDati non ufficiali
  : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
  rima-categoria-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-04ded0d8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:SAN LUIGI CALCIO 3-2 MANZANESE CALCIO (Under 17 regionali — giron
+ e A)
+DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-7622a802@zuin-fvg
@@ -110,30 +122,6 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-04ded0d8@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:SAN LUIGI CALCIO 3-2 MANZANESE CALCIO (Under 17 regionali — giron
- e A)
-DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-prima-categoria-a-5b636092@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:MANZANESE CALCIO 1-0 CALCIO COMUNALE BASILIANO (Prima Categoria —
-  girone A)
-DESCRIPTION:Prima Categoria — girone A\n11ª giornata\nDati non ufficiali
- : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
- rima-categoria-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-gor-under-14-provinciali-e-09c6ffec@zuin-fvg
 DTSTAMP:20261119T000000Z
 DTSTART;VALUE=DATE:20261115
@@ -147,6 +135,18 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-14-provinciali
  -e
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-prima-categoria-a-5b636092@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:MANZANESE CALCIO 1-0 CALCIO COMUNALE BASILIANO (Prima Categoria —
+  girone A)
+DESCRIPTION:Prima Categoria — girone A\n11ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-81946497@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;VALUE=DATE:20261115
@@ -157,6 +157,18 @@ DESCRIPTION:Under 15 regionali — girone A\n11ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-15-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-0d784342@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:MANZANESE CALCIO 3-1 ANCONA LUMIGNACCO (Under 17 regionali — giro
+ ne A)
+DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-816a11a3@zuin-fvg
@@ -172,16 +184,15 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-0d784342@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:MANZANESE CALCIO 3-1 ANCONA LUMIGNACCO (Under 17 regionali — giro
- ne A)
-DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+UID:calcio-prima-categoria-a-4a5d358b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:VIGONOVO 2-1 MANZANESE CALCIO (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n12ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-093bf649@zuin-fvg
