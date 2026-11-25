@@ -684,7 +684,7 @@ window.addEventListener('hashchange',route);
 favLoad();favCloud();logoLoad();prov=st.get('prov')||'';sortBy=st.get('sort')||'az';if(!PROV[prov])prov='';
 Promise.all([fetch('data/comuni.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/data.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/risultati.json',{cache:'no-cache'}).then(r=>r.ok?r.json():[]).catch(()=>[])]).then(([c,d,rg])=>{
 G=rg||[];G.forEach(g=>GBY[g.gid]=g);$('main').removeAttribute('aria-busy');
-COM=c.comuni;AGG=c.aggiornato;C=d;C.forEach(k=>(BYC[k.codice]=BYC[k.codice]||[]).push(k));
+COM=c.comuni;AGG=c.aggiornato;C=d;const OLD={};C.forEach(k=>(k.id_vecchi||[]).forEach(o=>OLD[o]=k.id));if(FAV.c.some(i=>OLD[i])){FAV.c=[...new Set(FAV.c.map(i=>OLD[i]||i))];favSave()}if(location.hash.startsWith('#s-')&&OLD[location.hash.slice(3)])history.replaceState(null,'','#s-'+OLD[location.hash.slice(3)]);C.forEach(k=>(BYC[k.codice]=BYC[k.codice]||[]).push(k));
 $('cov').textContent=`${C.length} società · 215 comuni`;
 const h=location.hash.slice(1);if(h.startsWith('s-')){const id=h.slice(2);history.replaceState(null,'','#comuni');route();openClub(id)}else route();
 }).catch(()=>{$('main').removeAttribute('aria-busy');$('main').innerHTML=`<div class="err" role="alert">${navigator.onLine===false?'Sei senza connessione e i dati non sono ancora salvati su questo dispositivo. Riprova quando torni in linea.':'Non riesco a caricare i dati. Riprova tra qualche istante.'}</div><button class="more" onclick="location.reload()">Riprova</button>`});
