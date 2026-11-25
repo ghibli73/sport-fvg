@@ -170,6 +170,27 @@ def canon_cat(l):
     return t
 
 
+def classifica_cat(cat):
+    """Nome standard della categoria (stessa chiave anche se il comunicato la scrive in modi diversi), o None."""
+    c = " " + cat.upper() + " "
+    fem = " femminile" if "FEMMINIL" in c else ""
+    if re.search(r"CALCIO A 5|CINQUE|FUTSAL", c):
+        m = re.search(r"SERIE (C1|C2|D)", c)
+        base = f"Calcio a 5 Serie {m.group(1)}" if m else "Calcio a 5 regionale"
+        eta = re.search(r"\bU(?:NDER)?\s?(\d\d)\b", c)
+        return base + (f" Under {eta.group(1)}" if eta else "") + fem
+    for parola, nome in (("ECCELLENZA", "Eccellenza"), ("PROMOZIONE", "Promozione"), ("PRIMA CATEGORIA", "Prima Categoria"),
+                         ("SECONDA CATEGORIA", "Seconda Categoria"), ("TERZA CATEGORIA", "Terza Categoria")):
+        if parola in c and not re.search(r"\bU(?:NDER)?\s?\d\d\b|JUNIORES|ALLIEVI|GIOVANISSIMI", c):
+            return nome + fem
+    eta = re.search(r"\bU(?:NDER)?\s?(\d\d)\b", c)
+    eta = eta.group(1) if eta else "19" if "JUNIORES" in c else "17" if "ALLIEVI" in c else "15" if "GIOVANISSIMI" in c else None
+    if not eta:
+        return ("Serie C femminile" if "SERIE C" in c and fem else None)
+    ambito = " élite" if "ELITE" in c else " regionali" if "REGIONAL" in c else " provinciali" if re.search(r"PROVINCIAL|PROV ", c) else ""
+    return f"Under {eta}{ambito}{fem}"
+
+
 def calcio5(cat):
     return bool(re.search(r"CALCIO A (5|CINQUE)|C5|FUTSAL", cat, re.I))
 
@@ -190,8 +211,16 @@ def unifica_nomi(gare):
     for g in gare:
         c[g["casa"]] += 1; c[g["ospite"]] += 1
     scelto = {}
+    tolti = lambda x: re.sub(r"^(ASD|SSD|AC|US|USD|APD|POL|ACD)|(ASD|SSD|ARL|SRL|SSDARL|AC)$", "", x)
+    forme = {}
     for nome, _ in c.most_common():
-        scelto.setdefault(compatto(nome), nome)
+        k = compatto(nome)
+        # varianti dello stesso nome: con/senza sigla societaria, o una che è l'inizio dell'altra
+        uguale = next((f for f in forme if tolti(f) == tolti(k) or (len(k) >= 6 and len(f) >= 6 and (f.startswith(k) or k.startswith(f)))), None)
+        if uguale:
+            scelto[k] = forme[uguale]
+        else:
+            forme[k] = nome; scelto[k] = nome
     for g in gare:
         g["casa"] = scelto[compatto(g["casa"])]; g["ospite"] = scelto[compatto(g["ospite"])]
 
@@ -212,9 +241,8 @@ def costruisci(key, gare, comitato, ids_di, oggi):
     partite = [{"giornata": g["g_eff"], "data": g["data"], "casa": g["casa"], "ospite": g["ospite"],
                 "id_casa": ids_di(g["casa"]), "id_ospite": ids_di(g["ospite"]), "risultato": f"{g['gc']}-{g['go']}"}
                for g in sorted(gare, key=lambda g: (g["data"], g["g_eff"]))]
-    nome_cat = cat.title().replace("Under ", "Under ")
-    return {"gid": "", "sport": "calcio5" if calcio5(cat) else "calcio", "girone": f"{nome_cat} — girone {gir}",
-            "categoria": categoria_app(cat), "genere": "F" if re.search(r"FEMMINIL", cat, re.I) else "M",
+    return {"gid": "", "sport": "calcio5" if calcio5(cat) else "calcio", "girone": f"{cat} — girone {gir}",
+            "categoria": categoria_app(cat), "genere": "F" if "femminile" in cat else "M",
             "stagione": "2026/27", "comitato": f"LND FVG — {'Comitato Regionale' if comitato == 'Regionale' else 'Delegazione di ' + comitato}",
             "fonte": max(g["fonte"] for g in gare), "aggiornato": max(g["pubbl"] for g in gare),
             "giornata": max(g["g_eff"] for g in gare), "calcolata": True,
@@ -236,7 +264,7 @@ def main():
             if not m:
                 continue
             com = "Regionale" if "Regionale" in g["comitato"] else g["comitato"].rsplit(" ", 1)[-1]
-            k = [com, canon_cat(m.group(1)), m.group(2)]
+            k = [com, classifica_cat(canon_cat(m.group(1))), m.group(2)]
             for p in g["partite"]:
                 if not re.fullmatch(r"\d+-\d+", p.get("risultato") or ""):
                     continue
@@ -256,7 +284,12 @@ def main():
         except Exception as e:
             print(f"  ! {u}: {e}"); continue
         for cat, gir, n, ar, data, casa, osp, gc, go, _ in righe:
-            k = (comitato, cat.upper(), gir)
+            cs = classifica_cat(cat)
+            if not cs:
+                continue
+            if cs.startswith("Under") and not re.search(r"regionali|provinciali|élite", cs):
+                cs = cs.replace(f"Under {cs.split()[1]}", f"Under {cs.split()[1]} " + ("regionali" if comitato == "Regionale" else "provinciali"), 1)
+            k = (comitato, cs, gir)
             gare[(k, (n, ar), compatto(casa), compatto(osp))] = {"k": list(k), "giornata": n, "ar": ar, "data": data, "casa": casa,
                                                           "ospite": osp, "gc": gc, "go": go, "fonte": u, "pubbl": x["date"][:10]}
         letti.add(u)
@@ -291,7 +324,7 @@ def main():
     nuovi = []
     from collections import Counter
     for k, gs in sorted(per_k.items()):
-        if k[0] == "Regionale" and re.search(r"PROVINCIAL|PROV\b", k[1]):
+        if k[0] == "Regionale" and "provinciali" in k[1]:
             print(f"  scartato {k}: categoria provinciale senza delegazione riconosciuta"); continue
         n_sq = len({compatto(g["casa"]) for g in gs} | {compatto(g["ospite"]) for g in gs})
         doppie = [x for x, c in Counter((g["g_eff"], compatto(t)) for g in gs for t in (g["casa"], g["ospite"])).items() if c > 1]
