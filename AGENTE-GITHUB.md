@@ -14,7 +14,7 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
 4. **Pubblicare i risultati degli agenti** (basket, calcio, gironi giovanili): il coordinatore produce `risultati.json`; prima di ogni commit eseguire
    `python scripts/risultati_tools.py check <vecchio> <nuovo>` e committare solo se non segnala perdite.
 5. **Nuovi gironi pallavolo**: aggiungerli a `data/risultati.json` o a mano in `config/pallavolo.json` (host, cid, pid, comitato_id, alias), poi `python scripts/genera_config.py`.
-6. **Aggiornare l'app**: le modifiche a `index.html` (stesso codice dell'artifact, ma con `fetch('data/...')`) vanno provate in locale a 390 px senza errori prima del commit. Dopo modifiche a index.html incrementare `SHELL` in `sw.js` (`sportfvg-shell-vN`) così i telefoni scaricano la nuova versione.
+6. **Aggiornare l'app**: le modifiche a `index.html` (stesso codice dell'artifact, ma con `fetch('data/...')`) vanno provate in locale a 390 px senza errori prima del commit. Dopo modifiche a index.html incrementare `SHELL` in `sw.js` (`sportfvg-shell-vN`) così i telefoni scaricano la nuova versione, e aggiornare `VERSIONE` e `VERSIONE_DATA` in index.html (mostrate in piccolo nella pagina Info: 1.x.0 per novità, 1.1.x per correzioni).
 
 ## Regole
 - Mai cancellare dati esistenti per sostituirli con dati peggiori (meno squadre, date più vecchie).
