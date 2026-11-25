@@ -275,7 +275,16 @@ def costruisci(key, gare, comitato, ids_di, oggi):
     partite = [{"giornata": g["g_eff"], "data": g["data"], "casa": g["casa"], "ospite": g["ospite"],
                 "id_casa": ids_di(g["casa"]), "id_ospite": ids_di(g["ospite"]), "risultato": f"{g['gc']}-{g['go']}"}
                for g in sorted(gare, key=lambda g: (g["data"], g["g_eff"]))]
-    return {"gid": "", "sport": "calcio5" if calcio5(cat) else "calcio", "girone": f"{cat} — girone {gir}",
+    prima = min(g["g_eff"] for g in gare)
+    giorn = sorted({g["g_eff"] for g in gare})
+    mancano = [n for n in range(1, max(giorn) + 1) if n not in giorn]
+    nota = ""
+    if prima > 1 or mancano:
+        nota = (f"risultati disponibili dalla giornata {prima}" if prima > 1 else "") + \
+               (("; " if prima > 1 else "") + "mancano le giornate " + ", ".join(map(str, [n for n in mancano if n >= prima])) if [n for n in mancano if n >= prima] else "") + \
+               ". I comunicati più vecchi non sono nell'archivio online della LND."
+    out_nota = {"nota_parziale": nota} if nota else {}
+    return {**out_nota, "gid": "", "sport": "calcio5" if calcio5(cat) else "calcio", "girone": f"{cat} — girone {gir}",
             "categoria": categoria_app(cat), "genere": "F" if "femminile" in cat else "M",
             "stagione": "2026/27", "comitato": f"LND FVG — {'Comitato Regionale' if comitato == 'Regionale' else 'Delegazione di ' + comitato}",
             "fonte": max(g["fonte"] for g in gare), "aggiornato": max(g["pubbl"] for g in gare),

@@ -1,0 +1,136 @@
+[
+ {
+  "azione": "unisci",
+  "da": "030114-5",
+  "in": "030114-1",
+  "nome": "SSD Volley Talmassons a r.l. (CDA Volley Talmassons FVG)",
+  "motivo": "Stessa società: la SSD Volley Talmassons a r.l. con codice FIPAV 07.032.0128 (quello della voce 030114-5) è la società che disputa la Serie A1 femminile come CDA Volley Talmassons FVG.",
+  "fonte": "Regione FVG, amministrazione trasparente: relazione illustrativa della SSD Volley Talmassons a r.l. (P.IVA 01911420303, cod. FIPAV 070320128) sul Campionato di Serie A1 femminile, https://amministrazionetrasparente.regione.fvg.it/openadmin/p/files/d04a89e5-cd33-4385-8c4d-f8cc90fccb2a"
+ },
+ {
+  "azione": "modifica",
+  "id": "030114-1",
+  "campi": {
+   "note": "Fondata nel 1991, affiliata FIPAV dal 1993 (cod. FIPAV 07.032.0128, P.IVA 01911420303). Serie A1 femminile 2026/27 come \"CDA Talmassons\" (gare interne al Palasport di Latisana). Nei campionati FIPAV del CT Udine iscrive anche \"VOLLEY TALMASSONS\", \"CDA VOLLEY LIGNANO\" (U15 F, U14 F; Palestra comunale di Lignano Sabbiadoro, Viale Europa 144) e \"ZANIBONI SNACK TALMASSONS\" (U17 F). Palestra delle squadre regionali: Scuole Medie, Via Argilars 4, Talmassons; sede in Via Papa Giovanni, Talmassons.",
+   "indirizzo": "Sede: Via Papa Giovanni, 33030 Talmassons (Serie A1 al Palasport di Latisana; squadre regionali nella palestra Scuole Medie, Via Argilars 4)",
+   "categorie": [
+    "Prima squadra femminile (Serie A1)",
+    "Seconda squadra femminile",
+    "Under 17 F",
+    "Under 15 F",
+    "Under 14 F",
+    "Under 13 F",
+    "Under 12 F"
+   ]
+  },
+  "motivo": "Note e indirizzo riscritti dopo l'unione delle due voci.",
+  "fonte": "Regione FVG, amministrazione trasparente: relazione illustrativa della SSD Volley Talmassons a r.l. (P.IVA 01911420303, cod. FIPAV 070320128) sul Campionato di Serie A1 femminile, https://amministrazionetrasparente.regione.fvg.it/openadmin/p/files/d04a89e5-cd33-4385-8c4d-f8cc90fccb2a"
+ },
+ {
+  "azione": "cancella_social",
+  "id": "030129-58",
+  "campi": [
+   "facebook"
+  ],
+  "social_verifica": "non attribuito: profilo condiviso con Donatello S.S.D.",
+  "motivo": "Lo stesso profilo facebook era su due società diverse (Donatello S.S.D. S.r.l. e Donatello Calcio A.S.D.); resta su una sola voce.",
+  "fonte": "LND FVG CU (denominazioni 2025/26 e 2026/27); atoka.io; FIGC SGS FVG CU 68/2026"
+ },
+ {
+  "azione": "cancella_social",
+  "id": "030091-2",
+  "campi": [
+   "facebook",
+   "instagram"
+  ],
+  "social_verifica": "profili della UEB Cividale (società madre), non della sola Academy",
+  "motivo": "Profili uebcividale della UEB Gesteco Cividale, già attribuiti alla voce 030026-1; la voce stessa lo segnalava.",
+  "fonte": "Voce 030091-2 (fonte: ricerca web, profilo della società madre UEB); FIP CR FVG calendari"
+ },
+ {
+  "azione": "modifica",
+  "id": "030129-15",
+  "campi": {
+   "categorie": [
+    "Prima squadra (Serie A)",
+    "Seconda squadra",
+    "Under 19",
+    "Under 17"
+   ]
+  },
+  "motivo": "Le categorie femminili e le giovanili Under 15/14/13 sono della APU Next Gen S.S.D. (voce separata).",
+  "fonte": "FIP CR FVG calendari 2026/27: la squadra si chiama \"APU Next Gen\", società APU Next Gen S.S.D. a r.l. (registro imprese, atoka.io)"
+ },
+ {
+  "azione": "rimuovi_squadra",
+  "id": "030129-15",
+  "categoria": "Prima squadra",
+  "genere": "F",
+  "motivo": "Prima squadra F: squadra iscritta come \"APU Next Gen\", spostata sulla voce APU Next Gen S.S.D. a r.l.",
+  "fonte": "FIP CR FVG calendari 2026/27: la squadra si chiama \"APU Next Gen\", società APU Next Gen S.S.D. a r.l. (registro imprese, atoka.io)"
+ },
+ {
+  "azione": "rimuovi_squadra",
+  "id": "030129-15",
+  "categoria": "Under 19",
+  "genere": "F",
+  "motivo": "Under 19 F: squadra iscritta come \"APU Next Gen\", spostata sulla voce APU Next Gen S.S.D. a r.l.",
+  "fonte": "FIP CR FVG calendari 2026/27: la squadra si chiama \"APU Next Gen\", società APU Next Gen S.S.D. a r.l. (registro imprese, atoka.io)"
+ },
+ {
+  "azione": "rimuovi_squadra",
+  "id": "030129-15",
+  "categoria": "Under 17",
+  "genere": "F",
+  "motivo": "Under 17 F: squadra iscritta come \"APU Next Gen\", spostata sulla voce APU Next Gen S.S.D. a r.l.",
+  "fonte": "FIP CR FVG calendari 2026/27: la squadra si chiama \"APU Next Gen\", società APU Next Gen S.S.D. a r.l. (registro imprese, atoka.io)"
+ },
+ {
+  "azione": "rimuovi_squadra",
+  "id": "030129-15",
+  "categoria": "Under 15",
+  "genere": "F",
+  "motivo": "Under 15 F: squadra iscritta come \"APU Next Gen\", spostata sulla voce APU Next Gen S.S.D. a r.l.",
+  "fonte": "FIP CR FVG calendari 2026/27: la squadra si chiama \"APU Next Gen\", società APU Next Gen S.S.D. a r.l. (registro imprese, atoka.io)"
+ },
+ {
+  "azione": "rimuovi_squadra",
+  "id": "030129-15",
+  "categoria": "Under 14",
+  "genere": "F",
+  "motivo": "Under 14 F: squadra iscritta come \"APU Next Gen\", spostata sulla voce APU Next Gen S.S.D. a r.l.",
+  "fonte": "FIP CR FVG calendari 2026/27: la squadra si chiama \"APU Next Gen\", società APU Next Gen S.S.D. a r.l. (registro imprese, atoka.io)"
+ },
+ {
+  "azione": "rimuovi_squadra",
+  "id": "030129-15",
+  "categoria": "Under 13",
+  "genere": "F",
+  "motivo": "Under 13 F: squadra iscritta come \"APU Next Gen\", spostata sulla voce APU Next Gen S.S.D. a r.l.",
+  "fonte": "FIP CR FVG calendari 2026/27: la squadra si chiama \"APU Next Gen\", società APU Next Gen S.S.D. a r.l. (registro imprese, atoka.io)"
+ },
+ {
+  "azione": "rimuovi_squadra",
+  "id": "030129-15",
+  "categoria": "Under 13",
+  "genere": "M",
+  "motivo": "Under 13 M: squadra iscritta come \"APU Next Gen\", spostata sulla voce APU Next Gen S.S.D. a r.l.",
+  "fonte": "FIP CR FVG calendari 2026/27: la squadra si chiama \"APU Next Gen\", società APU Next Gen S.S.D. a r.l. (registro imprese, atoka.io)"
+ },
+ {
+  "azione": "rimuovi_squadra",
+  "id": "030129-15",
+  "categoria": "Under 14",
+  "genere": "M",
+  "motivo": "Under 14 M: squadra iscritta come \"APU Next Gen\", spostata sulla voce APU Next Gen S.S.D. a r.l.",
+  "fonte": "FIP CR FVG calendari 2026/27: la squadra si chiama \"APU Next Gen\", società APU Next Gen S.S.D. a r.l. (registro imprese, atoka.io)"
+ },
+ {
+  "azione": "rimuovi_squadra",
+  "id": "030129-15",
+  "categoria": "Under 15",
+  "genere": "M",
+  "motivo": "Under 15 M: squadra iscritta come \"APU Next Gen\", spostata sulla voce APU Next Gen S.S.D. a r.l.",
+  "fonte": "FIP CR FVG calendari 2026/27: la squadra si chiama \"APU Next Gen\", società APU Next Gen S.S.D. a r.l. (registro imprese, atoka.io)"
+ }
+]
