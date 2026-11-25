@@ -36,6 +36,12 @@ def compatto(s):
     return norm(s).replace(" ", "")
 
 
+def chiave(s):
+    """Nome per la chiave di una gara: senza spazi né sigla societaria iniziale/finale, così la stessa gara letta
+    con "POLISPORTIVA TAMAI" o "POLISPORTIVA TAMAI ASD" (o con un nome già unificato nello stato) è una sola."""
+    return re.sub(r"^(ASD|SSD|AC|US|USD|APD|POL|ACD)|(ASD|SSD|ARL|SRL|SSDARL|AC)$", "", compatto(s))
+
+
 def slugify(s):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", strip_acc(s.lower()))).strip("-")
 
@@ -282,7 +288,7 @@ def main():
     oggi = dt.date.today().isoformat()
     stato = {"letti": [], "gare": []} if tutto or not os.path.exists(STATO) else json.load(open(STATO))
     letti = set(stato["letti"])
-    gare = {(tuple(g["k"]), (g["giornata"], g.get("ar")), compatto(g["casa"]), compatto(g["ospite"])): g for g in stato["gare"]}
+    gare = {(tuple(g["k"]), (g["giornata"], g.get("ar")), chiave(g["casa"]), chiave(g["ospite"])): g for g in stato["gare"]}
     # punto di partenza: le gare già presenti nell'app (l'archivio online non contiene tutti i comunicati vecchi)
     if not stato["gare"]:
         for g in json.load(open(RIS)):
@@ -297,7 +303,7 @@ def main():
                 if not re.fullmatch(r"\d+-\d+", p.get("risultato") or ""):
                     continue
                 a, b = map(int, p["risultato"].split("-"))
-                gare[(tuple(k), (p["giornata"], "A"), compatto(p["casa"]), compatto(p["ospite"]))] = {
+                gare[(tuple(k), (p["giornata"], "A"), chiave(p["casa"]), chiave(p["ospite"]))] = {
                     "k": k, "giornata": p["giornata"], "ar": "A", "data": p.get("data") or "", "casa": p["casa"],
                     "ospite": p["ospite"], "gc": a, "go": b, "fonte": g["fonte"], "pubbl": g["aggiornato"]}
         print(f"gare di partenza dai dati attuali: {len(gare)}")
@@ -321,7 +327,7 @@ def main():
             if cs.startswith("Under") and not re.search(r"regionali|provinciali|élite", cs):
                 cs = cs.replace(f"Under {cs.split()[1]}", f"Under {cs.split()[1]} " + ("regionali" if comitato == "Regionale" else "provinciali"), 1)
             k = (comitato, cs, gir)
-            gare[(k, (n, ar), compatto(casa), compatto(osp))] = {"k": list(k), "giornata": n, "ar": ar, "data": data, "casa": casa,
+            gare[(k, (n, ar), chiave(casa), chiave(osp))] = {"k": list(k), "giornata": n, "ar": ar, "data": data, "casa": casa,
                                                           "ospite": osp, "gc": gc, "go": go, "fonte": u, "pubbl": x["date"][:10]}
         letti.add(u)
         if righe:
