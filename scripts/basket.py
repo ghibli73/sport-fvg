@@ -74,41 +74,65 @@ def dividi_squadre(testo, squadre):
     return (best[1], best[2]) if best else (None, None)
 
 
-def leggi_calendario(url, squadre):
-    righe = pdf_righe(url)
-    gare, gio, andata_max, fase_ritorno = [], None, 0, False
-    i = 0
-    while i < len(righe):
-        l = righe[i]
-        m = RX_GIORN.match(l)
-        if m:
-            n = int(m.group(1))
-            if m.group(2).lower() == "andata":
-                gio = n; andata_max = max(andata_max, n)
-            else:
-                gio = ("R", n)
-            i += 1; continue
-        m = RX_CAL.match(l)
-        if m and gio is not None:
-            num, testa = int(m.group(1)), m.group(2)
-            data = f"{m.group(6)}-{m.group(5)}-{m.group(4)}"; ora = m.group(7).replace(".", ":").zfill(5)
-            coda, campo = [], ""
-            j = i + 1
-            while j < len(righe) and not RX_CAL.match(righe[j]) and not RX_GIORN.match(righe[j]):
-                if re.search(r" - .*\(", righe[j]) or campo:
-                    campo = (campo + " " + righe[j]).strip()
-                elif re.match(r"^(Pagina|Data:|Ora:|CALENDARIO|Campionato|Fase|Girone|Gara N)", righe[j]):
-                    pass
-                else:
-                    coda.append(righe[j])
-                j += 1
-            casa, osp = dividi_squadre(" ".join([testa] + coda), squadre)
-            gare.append([num, gio, data, ora, casa, osp, sistema_campo(campo)])
-            i = j; continue
-        i += 1
+def leggi_calendario(url, gare_note):
+    """Legge il PDF del calendario usando la posizione delle parole: colonne Gara | Squadra A | Squadra B | Giorno/Data/Ora.
+    I nomi del PDF sono poi tradotti nei nomi della config grazie alle gare già note (stesso numero gara)."""
+    import pdfplumber
+    righe = []  # (tipo, dati)
+    with pdfplumber.open(io.BytesIO(get(url).content)) as pdf:
+        for page in pdf.pages:
+            words = page.extract_words(keep_blank_chars=False, use_text_flow=False)
+            xa = xb = xg = None
+            for i, w in enumerate(words):
+                if w["text"] == "Squadra" and i + 1 < len(words) and words[i + 1]["text"] in ("A", "B"):
+                    if words[i + 1]["text"] == "A": xa = w["x0"] - 2
+                    else: xb = w["x0"] - 2
+                if w["text"] == "Giorno": xg = w["x0"] - 2
+            if xa is None or xb is None or xg is None:
+                continue
+            linee = {}
+            for w in words:
+                linee.setdefault(round(w["top"] / 3), []).append(w)
+            for k in sorted(linee):
+                ws = sorted(linee[k], key=lambda w: w["x0"])
+                testo = " ".join(w["text"] for w in ws)
+                if RX_GIORN.match(testo):
+                    righe.append(("G", testo)); continue
+                if re.search(r" - .*\(|^\(?[A-Z' ]+\)$", testo):
+                    righe.append(("C", testo)); continue
+                A = " ".join(w["text"] for w in ws if xa <= w["x0"] < xb)
+                B = " ".join(w["text"] for w in ws if xb <= w["x0"] < xg)
+                pre = [w["text"] for w in ws if w["x0"] < xa]
+                dopo = " ".join(w["text"] for w in ws if w["x0"] >= xg)
+                m = re.search(r"(\d{2})/(\d{2})/(\d{4})\s+(\d{1,2}[:.]\d{2})", dopo)
+                if pre and re.fullmatch(r"\d{1,5}", pre[0]) and m:
+                    righe.append(("P", (int(pre[0]), A, B, f"{m.group(3)}-{m.group(2)}-{m.group(1)}", m.group(4).replace(".", ":").zfill(5))))
+                elif (A or B) and not pre and not dopo:
+                    righe.append(("X", (A, B)))
+    gare, gio, andata_max = [], None, 0
+    for tipo, d in righe:
+        if tipo == "G":
+            m = RX_GIORN.match(d); n = int(m.group(1))
+            if m.group(2).lower() == "andata": gio = n; andata_max = max(andata_max, n)
+            else: gio = ("R", n)
+        elif tipo == "P" and gio is not None:
+            gare.append([d[0], gio, d[3], d[4], d[1], d[2], ""])
+        elif tipo == "X" and gare and not gare[-1][6]:
+            gare[-1][4] = (gare[-1][4] + " " + d[0]).strip(); gare[-1][5] = (gare[-1][5] + " " + d[1]).strip()
+        elif tipo == "C" and gare:
+            gare[-1][6] = (gare[-1][6] + " " + d).strip()
     for g in gare:
-        if isinstance(g[1], tuple):
-            g[1] = andata_max + g[1][1]
+        if isinstance(g[1], tuple): g[1] = andata_max + g[1][1]
+        g[6] = sistema_campo(g[6])
+    # nomi PDF -> nomi della config, dalle gare con lo stesso numero
+    note = {g[0]: g for g in gare_note}
+    alias = {}
+    for g in gare:
+        k = note.get(g[0])
+        if k and k[4] and k[5]:
+            alias.setdefault(norm(g[4]), k[4]); alias.setdefault(norm(g[5]), k[5])
+    for g in gare:
+        g[4] = alias.get(norm(g[4])); g[5] = alias.get(norm(g[5]))
     return gare
 
 
@@ -223,7 +247,7 @@ def main():
         if not u.lower().endswith(".pdf") or u in stato["calendari_letti"]:
             continue
         try:
-            cal = leggi_calendario(u, s["squadre"])
+            cal = leggi_calendario(u, s["gare"])
         except Exception as e:
             print(f"{s['slug']}: calendario non letto ({e})"); continue
         note = [g for g in cal if not g[4]]
