@@ -128,6 +128,9 @@ VUOTE = {"BASKET", "PALL", "PALLACANESTRO", "ASD", "A", "S", "D", "U", "US", "US
          "DEL", "LIBERTAS", "TRIESTE", "UDINE", "PORDENONE", "GORIZIA", "BC", "CLUB", "SRL", "SNC", "NEXT", "GEN", "ROSA", "NERA"}
 
 
+CONTA = {"uguali": 0, "nuovi": 0, "diversi": 0, "scartate": 0}
+
+
 def elenco_omologazioni(base, filtro=None):
     out, pagina = [], 1
     while True:
@@ -266,9 +269,11 @@ def main():
                 t = set(toks(testo))
                 cand = [(s, g) for s, g in per_num.get(num, []) if t & (set(toks(g[4])) - VUOTE) and t & (set(toks(g[5])) - VUOTE)]
                 if len(cand) != 1:
+                    CONTA["scartate"] += 1
                     continue
                 s, g = cand[0]
                 nuovo = f"{a}-{b}"
+                CONTA["uguali" if g[7] == nuovo else "nuovi" if not g[7] else "diversi"] += 1
                 if g[7] and g[7] != nuovo:
                     print(f"  ! gara {num} ({s['slug']}): risultato già presente {g[7]}, letto {nuovo}: lasciato com'era")
                     continue
@@ -280,6 +285,7 @@ def main():
             stato["omologazioni_lette"].append(u)
             print(f"{u.rsplit('/', 1)[-1]}: {usate} risultati su {len(righe)} righe")
 
+    print("confronto con i risultati già presenti:", CONTA)
     if prova:
         print("prova: nessun file scritto"); return
     # 3. scrittura
