@@ -238,6 +238,23 @@ main{max-width:1100px;margin:0 auto;padding:14px 14px 24px}
 .icsl{display:grid;gap:8px;margin-top:8px}.icsl .act svg{flex:none}
 .icsl .act{justify-content:flex-start;text-align:left;padding:8px 12px;font-size:15px;line-height:1.25}
 .act.pri{background:var(--blue);border-color:var(--blue);color:#fff}.act.pri svg{color:var(--gold)}
+/* mappa (Leaflet caricato solo quando si apre) */
+.mapw{position:relative;height:min(58vh,520px);border-radius:16px;overflow:hidden;border:1px solid var(--line);background:var(--soft);margin-bottom:12px;z-index:0}
+#map{position:absolute;inset:0}
+.leaflet-container{font:14px/1.4 var(--f)}
+.mapw .leaflet-bar a,.mapw .leaflet-touch .leaflet-bar a{width:44px;height:44px;line-height:44px;font-size:22px}
+.mapw .leaflet-popup a.leaflet-popup-close-button{width:44px;height:44px;font:24px/44px var(--f)}
+.mapw .leaflet-popup-content{margin:14px 40px 14px 16px}
+.mk{width:44px;height:44px;display:grid;place-items:center;background:none;border:0}
+.mk i{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#123a6b;color:#f2b705;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)}
+.mk.cm i{border-style:dashed;background:#2a4f80}
+.mk svg{width:21px;height:21px}
+.mk b{display:grid;place-items:center;min-width:40px;height:40px;padding:0 6px;border-radius:999px;background:#f2b705;color:#123a6b;font:800 16px var(--fc);border:3px solid #fff;box-shadow:0 1px 5px rgba(0,0,0,.4)}
+.medot{width:20px;height:20px;border-radius:50%;background:#1a73e8;border:3px solid #fff;box-shadow:0 0 0 7px rgba(26,115,232,.25)}
+.mpop{display:grid;gap:4px;min-width:200px;max-height:260px;overflow:auto;color:#0f1c33}
+.mpop b{font-size:15px;line-height:1.25}.mpop small{color:#5a6780;font-size:13px}
+.mpop button{min-height:44px;border-radius:10px;border:1px solid #dde3ee;background:#fff;color:#123a6b;font-weight:600;text-align:left;padding:6px 10px;margin-top:4px}
+.mpop button small{display:block}
 /* avvisi ntfy */
 details.avv>summary{list-style:none;cursor:pointer}details.avv>summary::-webkit-details-marker{display:none}
 details.avv[open]>summary{border-color:var(--blue)}
@@ -347,12 +364,12 @@ function filters(){
 const sp=sport?`<button class="pill" data-s="" aria-pressed="true">${ico(sport)}${esc(NAMES[sport])}<span class="x" aria-hidden="true">×</span></button>`:`<button class="pill sp" data-go="sport"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Scegli sport</button>`;
 $('frow').innerHTML=sp+'<span class="sep"></span>'+[['','Tutta la regione'],...Object.entries(PROV)].map(([k,v])=>`<button class="pill" data-p="${k}" aria-pressed="${k===prov}">${v}</button>`).join('');
 }
-function nav(){document.querySelectorAll('.nb,.dtab').forEach(b=>b.setAttribute('aria-current',b.dataset.v===(girone?'risultati':comune?'comuni':view)))}
+function nav(){document.querySelectorAll('.nb,.dtab').forEach(b=>b.setAttribute('aria-current',b.dataset.v===(girone?'risultati':comune||view==='mappa'?'comuni':view)))}
 function vComuni(m){
 let L=COM.filter(c=>!prov||c.prov===prov).map(c=>{const ks=BYC[c.codice]||[];const f=ks.filter(match);return{c,f,all:ks}}).filter(r=>!sport||r.f.length);
 L.sort(sortBy==='n'?(a,b)=>b.f.length-a.f.length||a.c.nome.localeCompare(b.c.nome):(a,b)=>a.c.nome.localeCompare(b.c.nome));
 const tot=L.reduce((s,r)=>s+r.f.length,0);
-m.innerHTML=`<div class="hd"><h2>${prov?PROV[prov]:'Comuni'}</h2><div class="sort" role="group" aria-label="Ordina"><button data-sort="az" aria-pressed="${sortBy==='az'}">A–Z</button><button data-sort="n" aria-pressed="${sortBy==='n'}">Più società</button></div></div><p class="hd n" style="margin-top:-6px">${L.length} comuni · ${tot} società${sport?' di '+esc(NAMES[sport].toLowerCase()):''}</p>`+
+m.innerHTML=`<div class="hd"><h2>${prov?PROV[prov]:'Comuni'}</h2><button class="gstar" data-map="" style="margin:0 auto 0 0">${PIN}Mappa</button><div class="sort" role="group" aria-label="Ordina"><button data-sort="az" aria-pressed="${sortBy==='az'}">A–Z</button><button data-sort="n" aria-pressed="${sortBy==='n'}">Più società</button></div></div><p class="hd n" style="margin-top:-6px">${L.length} comuni · ${tot} società${sport?' di '+esc(NAMES[sport].toLowerCase()):''}</p>`+
 (L.length?`<div class="list">${L.slice(0,limit).map(({c,f})=>{const sp=[...new Set(f.map(k=>k.sport))];return `<button class="row" data-c="${c.codice}"><span><span class="t">${esc(c.nome)} <em>${c.prov}</em></span>${f.length?`<span class="mini" aria-hidden="true">${sp.slice(0,7).map(ico).join('')}</span>`:'<span class="s">Nessuna società trovata finora</span>'}</span><span class="cnt"><b${f.length?'':' class="z"'}>${f.length}</b>${CHEV}</span></button>`}).join('')}</div>${L.length>limit?`<button class="more" data-more>Mostra altri ${Math.min(60,L.length-limit)} comuni</button>`:''}`:'<div class="list"><p class="empty">Nessun comune con questi filtri.</p></div>');
 }
 function vComune(m){
@@ -360,7 +377,7 @@ const c=COM.find(x=>x.codice===comune);const all=(BYC[comune]||[]).filter(k=>!pr
 const cnt={};all.forEach(k=>cnt[k.sport]=(cnt[k.sport]||0)+1);const sps=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]);
 const f=all.filter(k=>!cSport||k.sport===cSport);
 const groups={};f.forEach(k=>(groups[k.sport]=groups[k.sport]||[]).push(k));
-m.innerHTML=`<button class="back" data-back>${BACK}Comuni</button><div class="chead"><h2>${esc(c.nome)}</h2><p>${PROV[c.prov]} · ${c.pop.toLocaleString('it-IT')} abitanti · CAP ${esc(c.cap)}</p>${sps.length>1?`<div class="chips">${`<button class="cp" data-cs="" aria-pressed="${!cSport}">Tutti · ${all.length}</button>`+sps.map(s=>`<button class="cp" data-cs="${s}" aria-pressed="${cSport===s}">${ico(s)}${esc(NAMES[s])} · ${cnt[s]}</button>`).join('')}</div>`:''}</div>`+
+m.innerHTML=`<button class="back" data-back>${BACK}Comuni</button><div class="chead"><h2>${esc(c.nome)}</h2><p>${PROV[c.prov]} · ${c.pop.toLocaleString('it-IT')} abitanti · CAP ${esc(c.cap)}</p>${all.length?`<div class="gacts"><button class="gstar" data-map="${c.codice}">${PIN}Vedi sulla mappa</button></div>`:''}${sps.length>1?`<div class="chips">${`<button class="cp" data-cs="" aria-pressed="${!cSport}">Tutti · ${all.length}</button>`+sps.map(s=>`<button class="cp" data-cs="${s}" aria-pressed="${cSport===s}">${ico(s)}${esc(NAMES[s])} · ${cnt[s]}</button>`).join('')}</div>`:''}</div>`+
 (f.length?Object.keys(groups).sort((a,b)=>groups[b].length-groups[a].length).map(s=>`<div class="grp">${ico(s)}${esc(NAMES[s])}<span>${groups[s].length}</span></div><div class="list">${groups[s].sort((a,b)=>a.nome.localeCompare(b.nome)).map(k=>clubRow(k,false)).join('')}</div>`).join(''):'<div class="list"><p class="empty">Per questo comune non abbiamo ancora trovato società sportive. La raccolta dati continua.</p></div>');
 }
 function vSocieta(m){
@@ -372,7 +389,7 @@ const cnt={};C.filter(k=>!prov||k.prov===prov).forEach(k=>{cnt[k.sport]=(cnt[k.s
 const ks=Object.keys(NAMES).filter(k=>cnt[k]).sort((a,b)=>cnt[b]-cnt[a]);
 m.innerHTML=`<div class="hd"><h2>Sport</h2><span class="n">${ks.length} discipline${prov?' · '+PROV[prov]:''}</span></div><div class="sgrid">${ks.map(k=>`<button class="stile" data-pick="${k}" aria-pressed="${sport===k}">${ico(k)}<b>${esc(NAMES[k])}</b><small>${cnt[k]} società</small></button>`).join('')}</div>`;
 }
-const VERSIONE='1.5.0',VERSIONE_DATA='2026-11-25';
+const VERSIONE='1.6.0',VERSIONE_DATA='2026-11-25';
 function vInfo(m){
 const done=COM.filter(c=>c.n>0).length;const cnt={};C.forEach(k=>cnt[k.sport]=(cnt[k.sport]||0)+1);const mx=Math.max(...Object.values(cnt));
 const ks=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]);
@@ -516,9 +533,49 @@ let file=null;try{file=new File([blob],nome,{type:'image/png'})}catch(e){}
 const txt=(kind==='m'&&x?`${x.casa} ${x.risultato} ${x.ospite} · `:'')+g.girone+' – '+SITO+'#g-'+g.gid;
 if(file&&navigator.canShare&&navigator.canShare({files:[file]})){navigator.share({files:[file],title:'Zuìn · Sport in FVG',text:txt}).catch(e=>{if(e&&e.name!=='AbortError'){scarica(blob,nome);toast('Immagine scaricata')}})}
 else{scarica(blob,nome);toast('Immagine scaricata')}}
+/* mappa: Leaflet 1.9 da unpkg caricato solo all'apertura, tessere OpenStreetMap, posizioni da data/luoghi.json */
+const PIN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>';
+const LF='https://unpkg.com/leaflet@1.9.4/dist/';
+let POP=false,LP=null,MAP=null,MAPEL=null,MK=null,MEM=null,LUO=null,mapSport='',mapCom='',ME=null;
+function leaflet(){return LP||(LP=new Promise((ok,ko)=>{const l=document.createElement('link');l.rel='stylesheet';l.href=LF+'leaflet.css';l.integrity='sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';l.crossOrigin='';document.head.appendChild(l);
+const s=document.createElement('script');s.src=LF+'leaflet.js';s.integrity='sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';s.crossOrigin='';s.onload=()=>ok(window.L);s.onerror=()=>{LP=null;s.remove();ko(new Error('leaflet'))};document.head.appendChild(s)}))}
+function kmDa(a,b){const r=Math.PI/180,dl=(b[0]-a[0])*r,dn=(b[1]-a[1])*r;const h=Math.sin(dl/2)**2+Math.cos(a[0]*r)*Math.cos(b[0]*r)*Math.sin(dn/2)**2;return 12742*Math.asin(Math.sqrt(h))}
+const mapOk=c=>!mapSport||c.sport===mapSport||c.altri_sport.includes(mapSport);
+function mapChips(){const e=$('mapf');if(!e||!LUO)return;const cnt={};C.forEach(c=>{if(LUO[c.id])cnt[c.sport]=(cnt[c.sport]||0)+1});const ks=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]);
+e.innerHTML=`<button class="cp" data-ms="" aria-pressed="${!mapSport}">Tutti</button>`+ks.map(k=>`<button class="cp" data-ms="${k}" aria-pressed="${mapSport===k}">${ico(k)}${esc(NAMES[k])} · ${cnt[k]}</button>`).join('');
+const n=C.filter(c=>LUO[c.id]&&mapOk(c)).length;$('mapn').textContent=`${n} società`}
+function vMappa(m){
+if(MAPEL){m.replaceChildren(MAPEL);if(MAP)setTimeout(()=>{MAP.invalidateSize();mapCenter();drawMarkers()},0);return}
+MAPEL=document.createElement('div');
+MAPEL.innerHTML=`<button class="back" data-back>${BACK}Comuni</button><div class="hd"><h2>Mappa</h2><span class="n" id="mapn"></span></div><div class="chips" id="mapf" style="margin:0 0 10px"></div><div class="mapw"><div id="map" role="region" aria-label="Mappa delle società sportive"></div></div><div class="tools"><button class="gstar" data-near>${PIN}Vicino a me</button></div><div class="card" id="wk"><h3>Partite del weekend vicino a te</h3><p class="small" style="margin:0">Tocca «Vicino a me» per vedere le partite di sabato e domenica delle società entro 15 km. La posizione serve solo a questo calcolo sul telefono: non viene salvata né inviata.</p></div><p class="small" style="margin:4px 2px">Posizioni ricavate dagli indirizzi con OpenStreetMap (Nominatim); i segnaposto tratteggiati sono al centro del comune perché l'indirizzo non è stato trovato.</p>`;
+m.replaceChildren(MAPEL);
+Promise.all([leaflet(),LUO?Promise.resolve(LUO):fetch('data/luoghi.json',{cache:'no-cache'}).then(r=>r.ok?r.json():{}).catch(()=>({}))]).then(([L,l])=>{LUO=l||{};
+MAP=L.map('map',{zoomControl:true,minZoom:7}).setView([46.08,13.1],9);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors'}).addTo(MAP);
+MK=L.layerGroup().addTo(MAP);MAP.on('moveend',drawMarkers);
+MAP.on('popupclose',()=>{POP=false;setTimeout(drawMarkers,0)});MAP.on('popupopen',e=>{POP=true;e.popup.getElement().querySelectorAll('[data-mid]').forEach(b=>b.onclick=()=>{MAP.closePopup();openClub(b.dataset.mid)})});
+mapChips();mapCenter();drawMarkers();if(!Object.keys(LUO).length)toast('Posizioni delle società non ancora disponibili')}).catch(()=>{const w=MAPEL.querySelector('.mapw');if(w)w.innerHTML='<p class="empty">Mappa non disponibile: controlla la connessione e riprova.</p>';MAPEL=null})}
+function mapCenter(){if(!MAP)return;if(mapCom){const ps=(BYC[mapCom]||[]).map(c=>LUO[c.id]).filter(Boolean);mapCom='';if(ps.length){MAP.fitBounds(ps.map(p=>[p[0],p[1]]),{padding:[40,40],maxZoom:14});return}}}
+function popClub(c){const p=LUO[c.id];return `<b>${esc(c.nome)}</b><small>${esc(NAMES[c.sport])} · ${esc(c.comune)}</small>${p&&p[2]==='comune'?'<small>Posizione approssimativa: centro del comune</small>':''}<button data-mid="${c.id}">Apri la scheda</button>`}
+function drawMarkers(){if(!MAP||!MK||!LUO||POP)return;const L=window.L;MK.clearLayers();const z=MAP.getZoom(),bb=MAP.getBounds().pad(.25),cells={};
+C.forEach(c=>{const p=LUO[c.id];if(!p||!mapOk(c)||!bb.contains([p[0],p[1]]))return;const q=MAP.latLngToLayerPoint([p[0],p[1]]);const k=z>=17?p[0]+','+p[1]:Math.floor(q.x/56)+':'+Math.floor(q.y/56);(cells[k]=cells[k]||[]).push(c)});
+Object.values(cells).forEach(cs=>{const ll=cs.map(c=>[LUO[c.id][0],LUO[c.id][1]]);
+if(cs.length===1){const c=cs[0];L.marker(ll[0],{title:c.nome,alt:c.nome,icon:L.divIcon({className:'mk'+(LUO[c.id][2]==='comune'?' cm':''),html:'<i>'+ico(mapSport||c.sport)+'</i>',iconSize:[44,44]})}).bindPopup(`<div class="mpop">${popClub(c)}</div>`).addTo(MK);return}
+const lat=ll.reduce((s,p)=>s+p[0],0)/ll.length,lon=ll.reduce((s,p)=>s+p[1],0)/ll.length;const same=ll.every(p=>p[0]===ll[0][0]&&p[1]===ll[0][1]);
+const mk=L.marker([lat,lon],{title:cs.length+' società',alt:cs.length+' società',icon:L.divIcon({className:'mk',html:'<b>'+cs.length+'</b>',iconSize:[44,44]})}).addTo(MK);
+if(same||z>=16)mk.bindPopup(`<div class="mpop">${cs.slice(0,40).sort((a,b)=>a.nome.localeCompare(b.nome)).map(c=>`<button data-mid="${c.id}">${esc(c.nome)}<small>${esc(NAMES[c.sport])} · ${esc(c.comune)}</small></button>`).join('')}${cs.length>40?`<small>e altre ${cs.length-40}: avvicina la mappa</small>`:''}</div>`);
+else mk.on('click',()=>{const b=L.latLngBounds(ll);let t=MAP.getBoundsZoom(b.pad(.2));if(t<=z)t=z+2;MAP.setView(b.getCenter(),Math.min(t,18))})})}
+function near(){if(!navigator.geolocation){toast('Posizione non disponibile su questo dispositivo');return}toast('Cerco la tua posizione…');
+navigator.geolocation.getCurrentPosition(pos=>{ME=[pos.coords.latitude,pos.coords.longitude];if(MAP&&window.L){if(MEM)MEM.remove();MEM=window.L.marker(ME,{title:'La tua posizione',alt:'La tua posizione',interactive:false,icon:window.L.divIcon({className:'medot',iconSize:[20,20]})}).addTo(MAP);MAP.setView(ME,12)}weekend()},
+()=>toast('Posizione non concessa: puoi sempre muovere la mappa a mano'),{enableHighAccuracy:false,timeout:15000,maximumAge:300000})}
+function weekend(){const e=$('wk');if(!e||!ME||!LUO)return;const t=new Date(),d=t.getDay();const sat=new Date(t.getFullYear(),t.getMonth(),t.getDate()+(d===0?-1:6-d));
+const iso=x=>`${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,'0')}-${String(x.getDate()).padStart(2,'0')}`;const days=[iso(sat),iso(new Date(sat.getFullYear(),sat.getMonth(),sat.getDate()+1))].filter(x=>x>=oggi());
+const L=[];G.forEach(g=>g.partite.forEach(x=>{if(x.risultato||!days.includes(x.data)||!x.id_casa)return;const p=LUO[x.id_casa];if(!p)return;const k=kmDa(ME,p);if(k<=15)L.push({g,x,k,p})}));
+L.sort((a,b)=>a.k-b.k||(a.x.data+(a.x.ora||'')).localeCompare(b.x.data+(b.x.ora||'')));const GG=['dom','lun','mar','mer','gio','ven','sab'];
+e.innerHTML=`<h3>Partite del weekend vicino a te</h3>`+(L.length?L.slice(0,40).map(({g,x,k,p})=>{const wd=GG[new Date(x.data+'T12:00:00').getDay()];return `<button class="rr" data-wg="${g.gid}"><b>${esc(x.casa)} – ${esc(x.ospite)}</b><span class="ps">${k<10?k.toFixed(1).replace('.',','):Math.round(k)}<span>km${p[2]==='comune'?' circa':''}</span></span><small>${wd} ${esc(dt(x.data))}${x.ora?' ore '+esc(x.ora):''} · ${esc(NAMES[g.sport]||g.sport)} · ${esc(g.girone)}${x.campo?' · '+esc(x.campo):''}</small></button>`}).join('')+(L.length>40?`<p class="small" style="margin:8px 0 0">e altre ${L.length-40} partite</p>`:''):`<p class="small" style="margin:0">Nessuna partita in calendario ${days.length>1?'sabato e domenica':'domenica'} entro 15 km tra quelle che conosciamo.</p>`)+`<p class="small" style="margin:8px 0 0">Distanza in linea d'aria dalla sede della squadra di casa.</p>`}
 function render(){
-nav();filters();document.body.classList.toggle('nofilt',!!girone||(!comune&&['risultati','preferiti','info'].includes(view)));const m=$('main');
-if(girone)vGirone(m);else if(comune)vComune(m);else if(view==='risultati')vRisultati(m);else if(view==='preferiti')vPreferiti(m);else if(view==='societa')vSocieta(m);else if(view==='sport')vSport(m);else if(view==='info')vInfo(m);else vComuni(m);
+nav();filters();document.body.classList.toggle('nofilt',!!girone||(!comune&&['risultati','preferiti','info','mappa'].includes(view)));const m=$('main');
+if(girone)vGirone(m);else if(comune)vComune(m);else if(view==='risultati')vRisultati(m);else if(view==='preferiti')vPreferiti(m);else if(view==='societa')vSocieta(m);else if(view==='sport')vSport(m);else if(view==='info')vInfo(m);else if(view==='mappa')vMappa(m);else vComuni(m);
 }
 function openClub(id,push=true){
 const c=C.find(x=>x.id===id);if(!c)return;
@@ -551,7 +608,7 @@ closeSheet();
 const prev=comune+girone;girone='';
 if(h.startsWith('g-')&&GBY[h.slice(2)]){comune='';girone=h.slice(2)}
 else if(h.startsWith('c-')&&COM.some(c=>c.codice===h.slice(2))){comune=h.slice(2);if(prev!==comune)cSport=''}
-else{comune='';if(['societa','sport','info','comuni','risultati','preferiti'].includes(h))view=h;else if(!h)view='comuni'}
+else{comune='';if(['societa','sport','info','comuni','risultati','preferiti','mappa'].includes(h))view=h;else if(!h)view='comuni'}
 limit=60;render();if(prev!==comune+girone)window.scrollTo(0,0);
 }
 /* ricerca */
@@ -598,6 +655,10 @@ if(b=t.closest('tr[data-id]')){openClub(b.dataset.id);return}
 if(b=t.closest('.row[data-c]')){go('c-'+b.dataset.c);return}
 if(b=t.closest('.row[data-id]')){openClub(b.dataset.id);return}
 if(b=t.closest('[data-close]')||t.id==='sheet'){history.back();return}
+if(b=t.closest('[data-map]')){mapCom=b.dataset.map;go('mappa');window.scrollTo(0,0);return}
+if(b=t.closest('[data-ms]')){mapSport=b.dataset.ms;mapChips();drawMarkers();return}
+if(b=t.closest('[data-near]')){near();return}
+if(b=t.closest('[data-wg]')){gTab='cal';gDay=null;go('g-'+b.dataset.wg);window.scrollTo(0,0);return}
 if(b=t.closest('[data-ics]')){icsScarica(b.dataset.ics,b.dataset.club||'');return}
 if(b=t.closest('[data-share]')){const g=GBY[girone];if(!g)return;condividi(b.dataset.share,g,b.dataset.share==='m'?g.partite[+b.dataset.i]:null);return}
 if(b=t.closest('[data-copy]')){const u=location.href;(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(()=>toast('Link copiato'),()=>toast('Copia non consentita qui'));return}
