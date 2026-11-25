@@ -88,7 +88,8 @@ def pdf_righe(url):
     return [l.strip() for l in out if l.strip()]
 
 
-RX_DELEG = re.compile(r"DELEGAZIONE\s+(?:PROVINCIALE|DISTRETTUALE|TERRITORIALE)?\s*DI\s+([A-Z]+)", re.I)
+RX_DELEG = re.compile(r"DELEGAZION[EI][^\n]{0,50}?(UDINE|PORDENONE|TRIESTE|GORIZIA|TOLMEZZO)", re.I)
+PREF_FILE = {"ts": "Trieste", "pn": "Pordenone", "go": "Gorizia", "ud": "Udine", "tol": "Tolmezzo"}
 RX_DATA = re.compile(r"RISULTATI UFFICIALI GARE DEL (\d{2})/(\d{2})/(\d{4})", re.I)
 RX_GIR = re.compile(r"^GIRONE\s+([A-Z0-9]{1,3})\s*-\s*(\d{1,2})\s*Giornata\s*-\s*([AR])", re.I)
 RX_RIS = re.compile(r"^(?:\(\d+\)\s*)?(.+?)\s+-\s+(.+?)\s+(\d{1,2})\s*-\s*(\d{1,2})\s*$")
@@ -101,9 +102,11 @@ NON_CATEG = re.compile(r"RISULTATI|Si trascrivono|GIRONE|Pag\.|COMUNICATO|^\(|DE
 def leggi_cu(url):
     """-> comitato, [(categoria, girone, giornata, AR, data, casa, ospite, gc, go, n_nota)]"""
     righe = pdf_righe(url)
-    testa = " ".join(righe[:15])
+    testa = " ".join(righe[:40])
     m = RX_DELEG.search(testa)
-    comitato = m.group(1).title() if m else "Regionale"
+    f = url.rsplit("/", 1)[-1].lower()
+    pf = re.match(r"^(ts|pn|go|ud|tol)[_-]", f)
+    comitato = PREF_FILE[pf.group(1)] if pf else m.group(1).title() if m else "Regionale"
     out, cat, gir, data, in_ris = [], None, None, None, False
     note_disp = {}
     for i, l in enumerate(righe):
@@ -224,6 +227,24 @@ def main():
     stato = {"letti": [], "gare": []} if tutto or not os.path.exists(STATO) else json.load(open(STATO))
     letti = set(stato["letti"])
     gare = {(tuple(g["k"]), (g["giornata"], g.get("ar")), compatto(g["casa"]), compatto(g["ospite"])): g for g in stato["gare"]}
+    # punto di partenza: le gare già presenti nell'app (l'archivio online non contiene tutti i comunicati vecchi)
+    if not stato["gare"]:
+        for g in json.load(open(RIS)):
+            if g["sport"] not in ("calcio", "calcio5"):
+                continue
+            m = re.match(r"(.+?) — girone ([A-Z0-9]+)$", g["girone"])
+            if not m:
+                continue
+            com = "Regionale" if "Regionale" in g["comitato"] else g["comitato"].rsplit(" ", 1)[-1]
+            k = [com, canon_cat(m.group(1)), m.group(2)]
+            for p in g["partite"]:
+                if not re.fullmatch(r"\d+-\d+", p.get("risultato") or ""):
+                    continue
+                a, b = map(int, p["risultato"].split("-"))
+                gare[(tuple(k), (p["giornata"], "A"), compatto(p["casa"]), compatto(p["ospite"]))] = {
+                    "k": k, "giornata": p["giornata"], "ar": "A", "data": p.get("data") or "", "casa": p["casa"],
+                    "ospite": p["ospite"], "gc": a, "go": b, "fonte": g["fonte"], "pubbl": g["aggiornato"]}
+        print(f"gare di partenza dai dati attuali: {len(gare)}")
     elenco = elenco_pdf()
     print(f"comunicati in archivio: {len(elenco)}, già letti: {len(letti & {x['source_url'] for x in elenco})}")
     for x in elenco:
@@ -268,9 +289,14 @@ def main():
         return next(iter(c)) if len(c) == 1 else None
 
     nuovi = []
+    from collections import Counter
     for k, gs in sorted(per_k.items()):
-        if len(gs) < 3:
-            continue
+        if k[0] == "Regionale" and re.search(r"PROVINCIAL|PROV\b", k[1]):
+            print(f"  scartato {k}: categoria provinciale senza delegazione riconosciuta"); continue
+        n_sq = len({compatto(g["casa"]) for g in gs} | {compatto(g["ospite"]) for g in gs})
+        doppie = [x for x, c in Counter((g["g_eff"], compatto(t)) for g in gs for t in (g["casa"], g["ospite"])).items() if c > 1]
+        if len(gs) < 4 or n_sq < 4 or n_sq > 22 or doppie:
+            print(f"  scartato {k}: {n_sq} squadre, {len(gs)} gare, {len(doppie)} squadre doppie nella stessa giornata"); continue
         g = costruisci(k, gs, k[0], ids_di, oggi)
         pref = "" if k[0] == "Regionale" else slugify(k[0])[:3] + "-"
         g["gid"] = f"{g['sport']}-{pref}{slugify(k[1])}-{k[2].lower()}"
