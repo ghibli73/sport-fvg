@@ -17,9 +17,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CFG_DIR = os.path.join(ROOT, "config", "basket")
 STATO = os.path.join(ROOT, "config", "basket_stato.json")
 RIS = os.path.join(ROOT, "data", "risultati.json")
-ARCHIVI = {  # comitato -> archivio media WordPress
-    "fvg": "https://friuliveneziagiulia.fip.it",
-    "veneto": "https://veneto.fip.it",
+ARCHIVI = {  # comitato -> (archivio media WordPress, filtro sul nome del file)
+    "fvg": ("https://friuliveneziagiulia.fip.it", None),
+    "veneto": ("https://veneto.fip.it", r"Interregionale"),  # dal Veneto solo la B Interregionale (girone con squadre FVG)
 }
 INIZIO = "2026-08-15T00:00:00"
 S = requests.Session()
@@ -124,7 +124,11 @@ def sistema_campo(c):
 RX_OMO = re.compile(r"^(\d{1,5}) (.+?) (\d{1,3}) ?- ?(\d{1,3})\s*$")
 
 
-def elenco_omologazioni(base):
+VUOTE = {"BASKET", "PALL", "PALLACANESTRO", "ASD", "A", "S", "D", "U", "US", "USD", "POL", "SSD", "SD", "SS", "ED", "E", "DI",
+         "DEL", "LIBERTAS", "TRIESTE", "UDINE", "PORDENONE", "GORIZIA", "BC", "CLUB", "SRL", "SNC", "NEXT", "GEN", "ROSA", "NERA"}
+
+
+def elenco_omologazioni(base, filtro=None):
     out, pagina = [], 1
     while True:
         r = S.get(f"{base}/wp-json/wp/v2/media", params={"search": "Omologazione", "per_page": 100, "page": pagina,
@@ -133,7 +137,7 @@ def elenco_omologazioni(base):
             break
         r.raise_for_status()
         js = r.json()
-        out += [x for x in js if x["source_url"].lower().endswith(".pdf")]
+        out += [x for x in js if x["source_url"].lower().endswith(".pdf") and (not filtro or re.search(filtro, x["source_url"], re.I))]
         if len(js) < 100:
             break
         pagina += 1
@@ -242,9 +246,9 @@ def main():
         for g in s["gare"]:
             per_num.setdefault(g[0], []).append((s, g))
     aggiornate = set()
-    for comitato, base in ARCHIVI.items():
+    for comitato, (base, filtro) in ARCHIVI.items():
         try:
-            elenco = elenco_omologazioni(base)
+            elenco = elenco_omologazioni(base, filtro)
         except Exception as e:
             print(f"archivio {comitato}: non letto ({e})"); continue
         for x in elenco:
@@ -257,14 +261,18 @@ def main():
                 print(f"  ! {u}: {e}"); continue
             usate = 0
             for num, testo, a, b in righe:
-                cand = per_num.get(num, [])
-                if len(cand) > 1:  # numero gara usato in più campionati: decide il nome delle squadre
-                    t = set(toks(testo))
-                    cand = [(s, g) for s, g in cand if t & set(toks((g[4] or "") + " " + (g[5] or ""))) - {"BASKET", "PALL", "PALLACANESTRO", "ASD", "A", "S", "D", "U", "POL", "SSD"}]
+                # i numeri gara si ripetono tra campionati e comitati: la gara va accettata solo se nella riga
+                # compaiono parole distintive di ENTRAMBE le squadre del calendario
+                t = set(toks(testo))
+                cand = [(s, g) for s, g in per_num.get(num, []) if t & (set(toks(g[4])) - VUOTE) and t & (set(toks(g[5])) - VUOTE)]
                 if len(cand) != 1:
                     continue
                 s, g = cand[0]
-                g[7] = f"{a}-{b}"
+                nuovo = f"{a}-{b}"
+                if g[7] and g[7] != nuovo:
+                    print(f"  ! gara {num} ({s['slug']}): risultato già presente {g[7]}, letto {nuovo}: lasciato com'era")
+                    continue
+                g[7] = nuovo
                 d = x["date"][:10]
                 if d > s.get("aggiornato", ""):
                     s["aggiornato"] = d; s["fonte"] = u
