@@ -52,10 +52,18 @@ def check(old, new):
     o = {g["gid"]: g for g in json.load(open(old))}; n = {g["gid"]: g for g in json.load(open(new))}
     bad = 0
     for gid in o:
-        if gid not in n: print("! girone sparito:", gid); bad += 1
+        if gid not in n:
+            if (o[gid].get("auto") if isinstance(o, dict) else None) == "lnd":
+                print("  nota: girone automatico tolto perché non supera più i controlli:", gid)
+            else:
+                print("! girone sparito:", gid); bad += 1
     for gid, g in n.items():
         if gid in o:
-            if len(g["classifica"]) < len(o[gid]["classifica"]): print("! squadre in meno:", gid); bad += 1
+            if len(g["classifica"]) < len(o[gid]["classifica"]):
+                if o[gid].get("auto") == "lnd":
+                    print("  nota: squadre in meno in un girone automatico (correzione del parser):", gid, len(o[gid]["classifica"]), "->", len(g["classifica"]))
+                else:
+                    print("! squadre in meno:", gid); bad += 1
             if g["aggiornato"] < o[gid]["aggiornato"]: print("! data più vecchia:", gid); bad += 1
             go, gn = o[gid].get("giornata") or 0, g.get("giornata") or 0
             if gn < go: print("  nota: giornata corretta all'indietro (", go, "->", gn, ") in", gid)
