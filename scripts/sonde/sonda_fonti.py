@@ -48,7 +48,9 @@ for x in [x[6:] for x in prove if x.startswith("media=")]:
         pagina_n, tot = 1, 0
         while pagina_n < 6:
             par = {"search": q.replace("+", " "), "per_page": 100, "page": pagina_n, "_fields": "date,source_url,title"}
-            if dopo: par["after"] = dopo[0] + "T00:00:00"
+            if not q: par.pop("search")
+            if dopo and dopo[0]: par["after"] = dopo[0] + "T00:00:00"
+            if len(dopo) > 1: par["mime_type"] = dopo[1]
             r = S.get(f"{base}/wp-json/wp/v2/media", params=par, timeout=30)
             if r.status_code == 400: break
             r.raise_for_status(); js = r.json()
@@ -74,6 +76,17 @@ for u in [x[6:] for x in prove if x.startswith("righe=")]:
         print("comitato:", com)
         for g in gare: print("   >", calcio.classifica_cat(g[0]), "| gir", g[1], g[2], g[3], "|", g[4], "|", g[5], "-", g[6], g[7], g[8])
     except Exception as e: print("ERRORE", e)
+# "html=<url>|<regex>": i pezzi dell'HTML grezzo che corrispondono (es. i valori delle <option> di un filtro)
+for x in [x[5:] for x in prove if x.startswith("html=")]:
+    u, rx = x.rsplit("|", 1)
+    titolo("HTML " + u + " /" + rx + "/")
+    try:
+        t = S.get(u, timeout=30).text
+        ms = list(re.finditer(rx, t, re.I | re.S))
+        print("corrispondenze:", len(ms))
+        for m in ms[:40]: print("   |", t[m.start():m.start() + 400].replace("\n", " ")[:400])
+    except Exception as e: print("ERRORE", e)
+    time.sleep(1.5)
 # "testo=<url PDF>": testo completo (tutte le pagine, al massimo 600 righe), per confrontare a mano dati e fonte
 for u in [x[6:] for x in prove if x.startswith("testo=")]:
     titolo("TESTO " + u)
