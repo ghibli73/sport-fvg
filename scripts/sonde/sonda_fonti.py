@@ -39,6 +39,23 @@ def pagina(url, n=1500, cerca=None):
         print("   ", t[:n])
 
 prove = sys.argv[1:] or ["basket", "calcio", "minori"]
+for u in [x for x in prove if x.startswith("http")]:
+    titolo(u)
+    try:
+        if u.lower().endswith(".zip"):
+            import zipfile
+            z = zipfile.ZipFile(io.BytesIO(S.get(u, timeout=60).content))
+            for n in z.namelist(): print("  file:", n, z.getinfo(n).file_size)
+            for n in [n for n in z.namelist() if n.lower().endswith(".pdf")][:2]:
+                import pdfplumber
+                with pdfplumber.open(io.BytesIO(z.read(n))) as pdf:
+                    t = "\n".join((pg.extract_text() or "") for pg in pdf.pages[:2])
+                print("---", n); print("\n".join("   | " + l for l in t.splitlines()[:60]))
+        elif u.lower().endswith(".pdf"):
+            pdf_testo(u, 90)
+        else:
+            pagina(u, 3000)
+    except Exception as e: print("ERRORE", e)
 if "basket" in prove:
     titolo("FIP FVG - ultime omologazioni")
     try:
