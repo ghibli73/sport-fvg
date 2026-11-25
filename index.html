@@ -342,6 +342,52 @@ a.gstar{color:var(--ink);text-decoration:none}.act.wide{grid-column:1/-1}
 @media(min-width:760px){.inst{bottom:16px;left:auto;right:16px;width:440px}}
 @media(prefers-reduced-motion:no-preference){.inst:not([hidden]){animation:up .25s ease-out}}
 .icard .ios{grid-template-columns:minmax(0,1fr) 112px}
+
+/* ===== prototipi della home ===== */
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.ib.lens{display:none}.hp .ib.lens{display:grid;margin-left:auto}.hp .brand .ib.lens+.ib{margin-left:6px}
+.hp .sbox{display:none}.hp.srch .sbox{display:block}.hp .brand{margin-bottom:0}.hp.srch .brand{margin-bottom:8px}
+.hinv{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}.hinv h2{display:flex;align-items:center;gap:8px;font-size:22px;font-weight:800}.hinv h2 svg{width:22px;height:22px;color:var(--gold);fill:var(--gold)}
+.hinv p{margin:8px 0 12px;color:var(--mute);font-size:15px}.hib{display:grid;gap:8px}.hib .more{margin:0}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tile{display:flex;flex-direction:column;align-items:flex-start;gap:4px;min-height:118px;padding:14px;border:0;border-radius:18px;background:var(--c);color:#fff;text-align:left;box-shadow:0 3px 10px rgba(0,0,0,.12)}
+@media(min-width:760px){.tiles{grid-template-columns:repeat(4,1fr)}}
+.tile .ti{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:rgba(255,255,255,.18);margin-bottom:auto}.tile .ti svg{width:24px;height:24px}
+.tile b{font:800 21px var(--fc)}.tile small{font-size:13px;line-height:1.25;color:#fff;opacity:.95}
+.tile:active{transform:scale(.98)}
+.sprow{display:flex;gap:6px;overflow-x:auto;margin:0 -14px;padding:2px 14px 8px;scroll-snap-type:x proximity;scrollbar-width:none}.sprow::-webkit-scrollbar{display:none}
+.sprow>div{flex:none}
+.spb{display:flex;flex-direction:column;align-items:center;gap:6px;width:78px;border:0;background:none;padding:4px 0;scroll-snap-align:start}
+.spc{display:grid;place-items:center;width:60px;height:60px;border-radius:50%;color:#fff;box-shadow:0 2px 6px rgba(0,0,0,.18)}.spc svg{width:32px;height:32px}
+.spl{font-size:13px;font-weight:600;line-height:1.2;text-align:center;color:var(--ink);overflow-wrap:anywhere}
+.wh{margin-top:4px}.whw{position:relative;width:100%;max-width:420px;margin:0 auto;aspect-ratio:360/192}
+.whs{position:absolute;inset:0;width:100%;height:100%}.wp{cursor:pointer;transform-origin:180px 186px}
+.whl{position:absolute;left:50%;bottom:2px;width:64px;height:64px;transform:translateX(-50%);border-radius:50%}
+.wb{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:2px;width:64px;min-height:56px;padding:4px 0;border:0;border-radius:12px;background:none;color:#fff;font:700 13px var(--f)}
+.wb svg{width:24px;height:24px}.wb:focus-visible{outline:3px solid var(--gold);outline-offset:1px;background:rgba(0,0,0,.18)}
+.dl{margin-top:18px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 14px 16px;overflow:hidden}.dl h2{font-size:20px;font-weight:800;margin:0 0 4px}
+.dlw{position:relative;height:178px}
+.dial{position:absolute;left:0;right:0;top:0;height:178px;touch-action:pan-y;cursor:grab;border-radius:12px}
+.dial:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.di{position:absolute;left:50%;top:164px;width:50px;height:50px;margin:-25px 0 0 -25px;border-radius:50%;display:grid;place-items:center;color:#fff;transition:transform .25s ease-out,opacity .25s;box-shadow:0 2px 6px rgba(0,0,0,.2)}
+.di svg{width:28px;height:28px}.di.on{box-shadow:0 0 0 4px var(--card),0 0 0 7px var(--gold)}
+.dlc{position:absolute;left:50%;bottom:8px;transform:translateX(-50%);text-align:center;pointer-events:none;width:52%}.dlc b{display:block;font:800 20px/1.1 var(--fc)}.dlc small{color:var(--mute);font-size:14px}
+.dlbtn{position:absolute;bottom:0;left:0;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--acc);display:grid;place-items:center}.dlbtn.r{left:auto;right:0}.dlbtn svg{width:20px;height:20px}
+.dl .more{margin-top:12px}
+@media(prefers-reduced-motion:no-preference){
+ [data-home=b] .wp{animation:whin .48s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--i)*30ms)}
+ [data-home=b] .wb{animation:whfade .3s ease-out both;animation-delay:calc(220ms + var(--i)*30ms)}
+ [data-home=b] .di{animation:whfade .35s ease-out both}
+}
+@keyframes whin{from{transform:rotate(-70deg) scale(.55);opacity:0}to{transform:none;opacity:1}}
+@keyframes whfade{from{opacity:0}to{opacity:1}}
+.intro{position:fixed;inset:0;z-index:100;background:var(--blue);display:grid;place-items:center;animation:ifade 1s linear forwards;pointer-events:none}
+.iw{position:relative;width:200px;height:200px;display:grid;place-items:center}.iw img{position:relative;width:104px;height:104px;border-radius:50%;animation:ipop .9s ease-out both}
+.isp{position:absolute;inset:0;border-radius:50%;background:conic-gradient(from -30deg,#f2b705 0 60deg,transparent 60deg 360deg);-webkit-mask:radial-gradient(circle,transparent 52px,#000 53px);mask:radial-gradient(circle,transparent 52px,#000 53px);animation:ispin .8s cubic-bezier(.15,.7,.2,1) both}
+@keyframes ispin{from{transform:rotate(-540deg);filter:hue-rotate(0)}to{transform:rotate(0);filter:hue-rotate(360deg)}}
+@keyframes ipop{0%,55%{transform:scale(.7)}80%{transform:scale(1.08)}100%{transform:scale(1)}}
+@keyframes ifade{0%,82%{opacity:1}100%{opacity:0}}
+.hsel summary{cursor:pointer;min-height:44px;display:flex;align-items:center}.hsel summary h3{margin:0}.hsr{display:grid;gap:4px}.hso{display:flex;align-items:center;gap:10px;min-height:44px;font-weight:600}.hso input{width:22px;height:22px;accent-color:var(--blue)}
 </style></head>
 <body>
 <header class="top">
@@ -351,7 +397,7 @@ a.gstar{color:var(--ink);text-decoration:none}.act.wide{grid-column:1/-1}
 <nav class="dtabs" aria-label="Sezioni">
 <button class="dtab" data-v="comuni">Comuni</button><button class="dtab" data-v="societa">Società</button><button class="dtab" data-v="risultati">Risultati</button><button class="dtab" data-v="sport">Sport</button><button class="dtab" data-v="preferiti">Preferiti</button><button class="dtab" data-v="info">Info</button>
 </nav>
-<span class="cov" id="cov"></span><button class="ib" data-v="info" aria-label="Informazioni"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg></button>
+<span class="cov" id="cov"></span><button class="ib lens" data-lens aria-label="Cerca" aria-expanded="false" aria-controls="sbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button><button class="ib" data-v="info" aria-label="Informazioni"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg></button>
 </div>
 <div class="sbox" id="sbox">
 <svg class="mag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
@@ -434,7 +480,7 @@ function filters(){
 const sp=sport?`<button class="pill" data-s="" aria-pressed="true" aria-label="Togli il filtro ${esc(NAMES[sport])}">${ico(sport)}${esc(NAMES[sport])}<span class="x" aria-hidden="true">×</span></button>`:`<button class="pill sp" data-go="sport"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Scegli sport</button>`;
 $('frow').innerHTML=sp+'<span class="sep"></span>'+[['','Tutta la regione'],...Object.entries(PROV)].map(([k,v])=>`<button class="pill" data-p="${k}" aria-pressed="${k===prov}">${v}</button>`).join('');
 }
-function nav(){document.querySelectorAll('.nb,.dtab').forEach(b=>b.setAttribute('aria-current',b.dataset.v===(girone?'risultati':comune||view==='mappa'?'comuni':view)))}
+function nav(){document.querySelectorAll('.nb,.dtab').forEach(b=>b.setAttribute('aria-current',b.dataset.v===(girone?'risultati':view==='elenco'?(HOME?'societa':'comuni'):comune||view==='mappa'?'comuni':view)))}
 function homeRis(){
 const fc=FAV.c.map(id=>C.find(x=>x.id===id)).filter(Boolean);const T=[];fc.forEach(c=>{const t=squadreRis(c)[0];if(t)T.push(t)});
 if(T.length)return `<section class="hr" aria-labelledby="hrT"><div class="hrh"><h2 id="hrT">${STAR}Le tue squadre</h2><button class="lnk" data-go="preferiti">Preferiti${CHEV}</button></div><div class="list">${T.slice(0,3).map(t=>teamRow(t,'data-gg',true)).join('')}</div><button class="more pri" data-go="risultati">${LIVE}Tutti i risultati e le classifiche</button></section>`;
@@ -444,11 +490,58 @@ L=L.filter(o=>o.x.data>=ls).sort((a,b)=>cidx(a.g.categoria)-cidx(b.g.categoria)|
 const seen=new Set(),bySp={};L.forEach(o=>{if(seen.has(o.g.gid))return;seen.add(o.g.gid);(bySp[o.g.sport]=bySp[o.g.sport]||[]).push(o)});
 const sps=Object.keys(bySp).sort((a,b)=>(a==='calcio'?-1:b==='calcio'?1:bySp[b].length-bySp[a].length));const P=[];for(let i=0;P.length<4&&i<4;i++)sps.forEach(k=>{if(P.length<4&&bySp[k][i])P.push(bySp[k][i])});
 return `<section class="hr" aria-labelledby="hrT"><div class="hrh"><h2 id="hrT">${LIVE}Ultimi risultati</h2><span class="small">fino al ${esc(dt(mx))}</span></div><div class="list">${P.map(({g,x})=>`<button class="mr" data-gg="${g.gid}"><span class="ico" aria-hidden="true">${ico(g.sport)}</span><span class="mrt"><span class="mrs">${esc(x.casa)} <b class="rs">${esc(x.risultato)}</b> ${esc(x.ospite)}</span><small>${esc(g.girone)} · ${esc(dt(x.data))}</small></span>${CHEV}</button>`).join('')}</div><button class="more pri" data-go="risultati">${LIVE}Tutti i risultati e le classifiche</button></section>`}
-function vComuni(m){
+
+/* ===== PROTOTIPI DELLA HOME: ?home=a (tre domande) · ?home=b (ruota) · ?home=0 (attuale). Predefinita: attuale ===== */
+const HOME=(()=>{try{const q=new URLSearchParams(location.search).get('home');if(q!=null)st.set('home',/^[ab]$/.test(q)?q:'')}catch(e){}const v=st.get('home');return v==='a'||v==='b'?v:''})();
+const RMOT=()=>{try{return matchMedia('(prefers-reduced-motion: reduce)').matches}catch(e){return false}};
+/* colori a ruota cromatica: tinta per indice, luminosità scelta per avere almeno 4,6:1 con il bianco */
+function hsl2rgb(h,s,l){const a=s*Math.min(l,1-l),f=n=>{const k=(n+h/30)%12;return l-a*Math.max(-1,Math.min(k-3,9-k,1))};return[f(0),f(8),f(4)]}
+const lum=([r,g,b])=>{const f=c=>c<=.03928?c/12.92:((c+.055)/1.055)**2.4;return .2126*f(r)+.7152*f(g)+.0722*f(b)};
+function ruota(i,n,off=210){const h=Math.round((off+i*360/n)%360);let l=.48;while(l>.2&&1.05/(lum(hsl2rgb(h,.62,l))+.05)<4.6)l-=.01;return `hsl(${h} 62% ${Math.round(l*100)}%)`}
+const SEZ={risultati:['Risultati','Classifiche, risultati, calendari','#1d4f8f',LIVE_I()],agenda:['Agenda','Eventi e manifestazioni','#6b3fa0',CAL_I()],societa:['Società','Cerca per nome o comune','#a3367a','<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3 8.5-7 10-4-1.5-7-5-7-10V6z"/></svg>'],mappa:['Mappa','Società vicino a te','#b4471f','<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>'],sport:['Sport','Tutte le discipline','#7a6200','<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3.5 9.5c5 1.5 12 1.5 17 0M3.5 14.5c5-1.5 12-1.5 17 0M12 3v18"/></svg>'],preferiti:['Preferiti','Le squadre che segui','#0f7a5c','<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>']};
+function LIVE_I(){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>'}
+function CAL_I(){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>'}
+/* dove porta ogni sezione: l'Agenda (#agenda) è in lavorazione, per ora porta agli Sport */
+const sezGo=k=>k==='agenda'?'sport':k==='societa'?'elenco':k;
+const SHORT={calcio5:'Calcio a 5',baseball:'Baseball',tennis:'Tennis',canottaggio:'Canottaggio',danza:'Danza',sci:'Sport invernali',judo:'Arti marziali',altro:'Altri sport'};
+function sportsList(){const cnt={};C.forEach(k=>{cnt[k.sport]=(cnt[k.sport]||0)+1});return Object.keys(NAMES).filter(k=>cnt[k]).sort((a,b)=>cnt[b]-cnt[a]).map((k,i,a)=>({k,n:cnt[k],col:ruota(i,a.length)}))}
+function homeFav(){const fc=FAV.c.map(id=>C.find(x=>x.id===id)).filter(Boolean);const T=[];fc.forEach(c=>{const t=squadreRis(c)[0];if(t)T.push(t)});
+if(T.length)return `<section class="hr" aria-labelledby="hfT"><div class="hrh"><h2 id="hfT">${STAR}Le tue squadre</h2><button class="lnk" data-go="preferiti">Tutte${CHEV}</button></div><div class="list">${T.slice(0,3).map(t=>teamRow(t,'data-gg',true)).join('')}</div></section>`;
+return `<section class="hr hinv" aria-labelledby="hfT"><h2 id="hfT">${STAR}Le tue squadre</h2><p>Segui la società di tuo figlio, della tua squadra o del tuo paese: qui vedrai subito l'ultimo risultato e la prossima partita.</p><div class="hib"><button class="more pri" data-lens>${'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>'}Cerca la tua società</button><button class="more" data-go="risultati">Sfoglia i risultati</button></div></section>`}
+function vHomeA(m){const S=sportsList();
+m.innerHTML=homeFav()+`<section aria-labelledby="haT"><h2 id="haT" class="vh">Sezioni</h2><div class="tiles">${['risultati','agenda','societa','mappa'].map(k=>{const[t,d,c,i]=SEZ[k];return `<button class="tile" data-go="${sezGo(k)}" style="--c:${c}"><span class="ti">${i}</span><b>${t}</b><small>${k==='agenda'?'In arrivo · intanto gli sport':d}</small></button>`}).join('')}</div></section>
+<section aria-labelledby="spT" style="margin-top:18px"><div class="hrh"><h2 id="spT">Sport</h2><button class="lnk" data-go="sport">Tutti${CHEV}</button></div><div class="sprow" role="list">${S.map(({k,n,col})=>`<div role="listitem"><button class="spb" data-pick="${k}" aria-label="${esc(NAMES[k])}, ${n} società"><span class="spc" style="background:${col}">${ico(k)}</span><span class="spl">${esc(SHORT[k]||NAMES[k])}</span></button></div>`).join('')}</div></section>`}
+/* variante B: mezza ruota delle sezioni + ruota degli sport */
+let dIdx=0;
+function wedge(cx,cy,R,r,a0,a1){const p=(rad,a)=>`${(cx+rad*Math.cos(a*Math.PI/180)).toFixed(1)} ${(cy+rad*Math.sin(a*Math.PI/180)).toFixed(1)}`;return `M${p(R,a0)}A${R} ${R} 0 0 1 ${p(R,a1)}L${p(r,a1)}A${r} ${r} 0 0 0 ${p(r,a0)}Z`}
+function vHomeB(m){const K=['risultati','agenda','societa','mappa','sport','preferiti'],W=360,H=192,cx=180,cy=186,R=178,r=56,step=180/K.length;
+const ws=K.map((k,i)=>{const a0=180+i*step+1,a1=180+(i+1)*step-1,am=(a0+a1)/2,lr=122;return{k,d:wedge(cx,cy,R,r,a0,a1),x:(cx+lr*Math.cos(am*Math.PI/180))/W*100,y:(cy+lr*Math.sin(am*Math.PI/180))/H*100,i}});
+const S=sportsList();if(dIdx>=S.length)dIdx=0;
+m.innerHTML=homeFav()+`<section class="wh" aria-labelledby="whT"><h2 id="whT" class="vh">Sezioni</h2><div class="whw"><svg class="whs" viewBox="0 0 ${W} ${H}" aria-hidden="true">${ws.map(w=>`<path class="wp" d="${w.d}" fill="${SEZ[w.k][2]}" data-go="${sezGo(w.k)}" style="--i:${w.i}"/>`).join('')}<circle cx="${cx}" cy="${cy}" r="${r-4}" fill="var(--card)" stroke="var(--line)"/></svg><img class="whl" src="icons/icon-192.png" alt="" width="64" height="64">
+<div class="whb" role="group" aria-label="Sezioni: usa le frecce per spostarti">${ws.map(w=>`<button class="wb" data-go="${sezGo(w.k)}" style="left:${w.x.toFixed(2)}%;top:${w.y.toFixed(2)}%;--i:${w.i}" ${w.i?'tabindex="-1"':''}>${SEZ[w.k][3]}<span>${SEZ[w.k][0]}</span></button>`).join('')}</div></div></section>
+<section class="dl" aria-labelledby="dlT"><h2 id="dlT">Scegli lo sport</h2><div class="dlw"><div class="dial" id="dial" role="slider" tabindex="0" aria-label="Sport: ruota con le frecce o trascinando, Invio per aprire" aria-valuemin="1" aria-valuemax="${S.length}">${S.map(({k,col},i)=>`<span class="di" data-di="${i}" style="background:${col}">${ico(k)}</span>`).join('')}</div>
+<div class="dlc"><b id="dlN"></b><small id="dlM"></small></div><button class="dlbtn" data-dstep="-1" aria-label="Sport precedente">${BACK}</button><button class="dlbtn r" data-dstep="1" aria-label="Sport successivo">${CHEV}</button></div><button class="more pri" id="dlGo" data-pick="">Vedi le società</button></section>`;
+dialSet(dIdx,true);const d=$('dial');let x0=null,i0=0;
+d.addEventListener('pointerdown',e=>{x0=e.clientX;i0=dIdx;try{d.setPointerCapture(e.pointerId)}catch(_){}});
+d.addEventListener('pointermove',e=>{if(x0==null)return;const k=Math.round((x0-e.clientX)/34);if(i0+k!==dIdx)dialSet(i0+k)});
+d.addEventListener('pointerup',e=>{const moved=x0!=null&&Math.abs(e.clientX-x0)>6;x0=null;if(moved)return;const t=e.target.closest('[data-di]');if(t){const i=+t.dataset.di;if(i===dIdx)go_pick(S[i].k);else dialSet(i)}});
+d.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();dialSet(dIdx+1)}else if(e.key==='ArrowLeft'||e.key==='ArrowUp'){e.preventDefault();dialSet(dIdx-1)}else if(e.key==='Home'){e.preventDefault();dialSet(0)}else if(e.key==='End'){e.preventDefault();dialSet(S.length-1)}else if(e.key==='Enter'||e.key===' '){e.preventDefault();go_pick(S[dIdx].k)}});
+const wb=[...m.querySelectorAll('.wb')];wb.forEach((b,i)=>b.addEventListener('keydown',e=>{let j=null;if(e.key==='ArrowRight'||e.key==='ArrowDown')j=(i+1)%wb.length;else if(e.key==='ArrowLeft'||e.key==='ArrowUp')j=(i-1+wb.length)%wb.length;else if(e.key==='Home')j=0;else if(e.key==='End')j=wb.length-1;if(j!=null){e.preventDefault();wb.forEach(x=>x.tabIndex=-1);wb[j].tabIndex=0;wb[j].focus()}}))}
+function go_pick(k){sport=k;go('societa');render();window.scrollTo(0,0)}
+function dialSet(i,first){const S=sportsList(),n=S.length;dIdx=((i%n)+n)%n;const R=128,step=26;
+document.querySelectorAll('#dial .di').forEach((e,j)=>{let o=j-dIdx;if(o>n/2)o-=n;if(o<-n/2)o+=n;const a=o*step,vis=Math.abs(a)<=70;const x=R*Math.sin(a*Math.PI/180),y=-R*Math.cos(a*Math.PI/180);e.style.transform=`translate(${x.toFixed(1)}px,${y.toFixed(1)}px) scale(${o?0.86:1.18})`;e.style.opacity=vis?(o?.9:1):0;e.classList.toggle('on',!o);e.style.visibility=vis?'visible':'hidden'});
+const s=S[dIdx],d=$('dial');if(!d)return;d.setAttribute('aria-valuenow',dIdx+1);d.setAttribute('aria-valuetext',`${NAMES[s.k]}, ${s.n} società`);$('dlN').textContent=NAMES[s.k];$('dlM').textContent=`${s.n} società`;$('dlGo').dataset.pick=s.k;$('dlGo').textContent=`Vedi le società di ${NAMES[s.k].toLowerCase()}`}
+/* elenco dei comuni (nei prototipi non sta più nella home) */
+function vElenco(m){vComuni(m,true)}
+/* animazione d'apertura facoltativa (< 1 s): uno spicchio colorato gira e si ferma sull'aquilotto */
+function intro(){if(!HOME||RMOT())return;try{if(sessionStorage.getItem('sfvg-intro'))return;sessionStorage.setItem('sfvg-intro','1')}catch(e){}
+const d=document.createElement('div');d.className='intro';d.setAttribute('aria-hidden','true');d.innerHTML='<div class="iw"><i class="isp"></i><img src="icons/icon-192.png" alt="" width="104" height="104"></div>';document.body.appendChild(d);setTimeout(()=>d.remove(),1000)}
+function homeSel(){return `<details class="card hsel"><summary><h3>Prototipi della home</h3></summary><p class="small">Prova le due proposte di home. Si può anche aprire l'app con <code>?home=a</code> o <code>?home=b</code>; <code>?home=0</code> torna alla home attuale.</p><div class="hsr" role="radiogroup" aria-label="Variante della home">${[['','Attuale'],['a','A · tre domande'],['b','B · ruota']].map(([k,l])=>`<label class="hso"><input type="radio" name="hsel" value="${k}" ${HOME===k?'checked':''}> ${l}</label>`).join('')}</div></details>`}
+function vComuni(m,lista){
 let L=COM.filter(c=>!prov||c.prov===prov).map(c=>{const ks=BYC[c.codice]||[];const f=ks.filter(match);return{c,f,all:ks}}).filter(r=>!sport||r.f.length);
 L.sort(sortBy==='n'?(a,b)=>b.f.length-a.f.length||a.c.nome.localeCompare(b.c.nome):(a,b)=>a.c.nome.localeCompare(b.c.nome));
 const tot=L.reduce((s,r)=>s+r.f.length,0);
-m.innerHTML=homeRis()+`<div class="hd"><h2>${prov?PROV[prov]:'Comuni'}</h2><button class="gstar" data-map="" style="margin:0 auto 0 0">${PIN}Mappa</button><div class="sort" role="group" aria-label="Ordina"><button data-sort="az" aria-pressed="${sortBy==='az'}">A–Z</button><button data-sort="n" aria-pressed="${sortBy==='n'}">Più società</button></div></div><p class="hd n" style="margin-top:-6px">${L.length} comuni · ${tot} società${sport?' di '+esc(NAMES[sport].toLowerCase()):''}</p>`+
+m.innerHTML=(lista?'':homeRis())+`<div class="hd"><h2>${lista&&!prov?'Società per comune':prov?PROV[prov]:'Comuni'}</h2><button class="gstar" data-map="" style="margin:0 auto 0 0">${PIN}Mappa</button><div class="sort" role="group" aria-label="Ordina"><button data-sort="az" aria-pressed="${sortBy==='az'}">A–Z</button><button data-sort="n" aria-pressed="${sortBy==='n'}">Più società</button></div></div><p class="hd n" style="margin-top:-6px">${L.length} comuni · ${tot} società${sport?' di '+esc(NAMES[sport].toLowerCase()):''}</p>`+
 (L.length?`<div class="list">${L.slice(0,limit).map(({c,f})=>{const sp=[...new Set(f.map(k=>k.sport))];return `<button class="row" data-c="${c.codice}"><span><span class="t">${esc(c.nome)} <em>${c.prov}</em></span>${f.length?`<span class="mini" aria-hidden="true">${sp.slice(0,7).map(ico).join('')}</span>`:'<span class="s">Nessuna società trovata finora</span>'}</span><span class="cnt"><b${f.length?'':' class="z"'}>${f.length}</b>${CHEV}</span></button>`}).join('')}</div>${L.length>limit?`<button class="more" data-more>Mostra altri ${Math.min(60,L.length-limit)} comuni</button>`:''}`:'<div class="list"><p class="empty">Nessun comune con questi filtri.</p></div>');
 }
 function vComune(m){
@@ -468,14 +561,14 @@ const cnt={};C.filter(k=>!prov||k.prov===prov).forEach(k=>{cnt[k.sport]=(cnt[k.s
 const ks=Object.keys(NAMES).filter(k=>cnt[k]).sort((a,b)=>cnt[b]-cnt[a]);
 m.innerHTML=`<div class="hd"><h2>Sport</h2><span class="n">${ks.length} discipline${prov?' · '+PROV[prov]:''}</span></div><div class="sgrid">${ks.map(k=>`<button class="stile" data-pick="${k}" aria-pressed="${sport===k}">${ico(k)}<b>${esc(NAMES[k])}</b><small>${cnt[k]} società</small></button>`).join('')}</div>`;
 }
-const VERSIONE='1.11.0 beta',VERSIONE_DATA='2026-11-25';
+const VERSIONE='1.11.1 beta (prototipi)',VERSIONE_DATA='2026-11-25';
 function vInfo(m){
 const done=COM.filter(c=>c.n>0).length;const cnt={};C.forEach(k=>cnt[k.sport]=(cnt[k.sport]||0)+1);const mx=Math.max(...Object.values(cnt));
 const ks=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]);
 m.innerHTML=`<div class="hd"><h2>Info</h2></div><div class="card"><div class="big">${C.length.toLocaleString('it-IT')}</div><div>società sportive in ${done} comuni su 215</div><div class="meter"><i style="width:${(done/215*100).toFixed(1)}%"></i></div><p class="small">Dati aggiornati al ${AGG.split('-').reverse().join('/')}. Con storico dei campionati: ${C.filter(k=>k.storico.length).length} società.</p></div>
 <div class="card"><h3>Società per sport</h3><div class="bars">${ks.map(k=>`<div class="bar">${ico(k)}<span>${esc(NAMES[k])}</span><span><i style="width:${(cnt[k]/mx*100).toFixed(1)}%"></i></span><span>${cnt[k]}</span></div>`).join('')}</div></div>
 <div class="card"><h3>Da dove vengono i dati</h3><p class="small" style="margin:0">Elenchi e classifiche pubblicati dalle federazioni e dai loro comitati regionali (LND FVG, FIP FVG, FIPAV, FIDAL, FIJLKAM, FISR, FITeT, FIV e altre), integrati da Wikipedia e dai siti delle società. Ogni scheda indica le sue fonti. "n.d." significa che il dato non è stato trovato. Applicazione non ufficiale, non collegata alle federazioni.</p><p class="small" style="margin:8px 0 0"><a href="note-legali.html" style="color:var(--acc)">Note legali e privacy</a> · Segnalazioni e correzioni: <a href="mailto:zuinsportfvg@gmail.com" style="color:var(--acc)">zuinsportfvg@gmail.com</a></p></div><div class="card"><h3>Avvisi dei risultati</h3><p class="small" style="margin:0">Gli avvisi passano dal servizio gratuito ntfy.sh: ogni società ha un argomento pubblico (zuin-fvg-…) a cui ci si iscrive dal browser o dall'app ntfy, senza account. Gli argomenti sono pubblici e chiunque li conosca può leggerli; Zuìn non raccoglie dati personali e non sa chi è iscritto. Gli avvisi contengono solo squadre, risultato e girone.</p></div><div class="card icard" id="instInfo"><h3>Installa l'app</h3>${instInfo()}</div><div class="card"><h3>Metti Zuìn sul tuo sito</h3><p class="small" style="margin:0 0 10px">Classifica, ultimo risultato e prossima partita della tua società o del tuo girone sul sito della società, del comitato o del giornale, sempre aggiornati. Gratis, senza cookie e senza tracciamento.</p><a class="act pri" href="widget.html">${CODE}Crea il widget per il tuo sito</a></div><p class="small" style="text-align:center;margin:14px 0 4px">Versione app ${VERSIONE} del ${dt(VERSIONE_DATA)}/${VERSIONE_DATA.slice(0,4)}${G.length?` · risultati aggiornati al ${(()=>{const a=G.map(g=>g.aggiornato||'').sort().pop();return a?a.split('-').reverse().join('/'):'n.d.'})()}`:''}</p>`;
-}
+m.insertAdjacentHTML('beforeend',homeSel())}
 const dt=s=>{if(!s)return'';const[y,m,d]=String(s).split('-');return d?`${+d}/${+m}`:s};
 // partita spostata o con orario cambiato (campo "variata" scritto dagli script): etichetta per 7 giorni dalla modifica
 const varTag=x=>{if(!x||x.risultato||!x.variata)return'';const g=(Date.parse(oggi()+'T12:00:00')-Date.parse(x.variata+'T12:00:00'))/864e5;if(!(g>=0&&g<7))return'';const sp=!!(x.data_prec&&x.data_prec!==x.data);const era=sp?`era il ${dt(x.data_prec)}`:x.ora_prec?`era alle ${x.ora_prec}`:'';return `<span class="vtag"${era?` title="${esc(era)}"`:''}>${sp?'Spostata':'Orario cambiato'}${era?`<span class="vh"> (${esc(era)})</span>`:''}</span>`};
@@ -684,8 +777,9 @@ const L=[];G.forEach(g=>g.partite.forEach(x=>{if(x.risultato||!days.includes(x.d
 L.sort((a,b)=>a.k-b.k||(a.x.data+(a.x.ora||'')).localeCompare(b.x.data+(b.x.ora||'')));const GG=['dom','lun','mar','mer','gio','ven','sab'];
 e.innerHTML=`<h3>Partite del weekend vicino a te</h3>`+(L.length?L.slice(0,40).map(({g,x,k,p})=>{const wd=GG[new Date(x.data+'T12:00:00').getDay()];return `<button class="rr" data-wg="${g.gid}"><b>${esc(x.casa)} – ${esc(x.ospite)}</b><span class="ps">${k<10?k.toFixed(1).replace('.',','):Math.round(k)}<span>km${p[2]==='comune'?' circa':''}</span></span><small>${wd} ${esc(dt(x.data))}${x.ora?' ore '+esc(x.ora):''}${varTag(x)} · ${esc(NAMES[g.sport]||g.sport)} · ${esc(g.girone)}${x.campo?' · '+esc(x.campo):''}</small></button>`}).join('')+(L.length>40?`<p class="small" style="margin:8px 0 0">e altre ${L.length-40} partite</p>`:''):`<p class="small" style="margin:0">Nessuna partita in calendario ${days.length>1?'sabato e domenica':'domenica'} entro 15 km tra quelle che conosciamo.</p>`)+`<p class="small" style="margin:8px 0 0">Distanza in linea d'aria dalla sede della squadra di casa.</p>`}
 function render(){
-nav();filters();document.body.classList.toggle('nofilt',!!girone||(!comune&&['risultati','preferiti','info','mappa'].includes(view)));const m=$('main');
-if(girone)vGirone(m);else if(comune)vComune(m);else if(view==='risultati')vRisultati(m);else if(view==='preferiti')vPreferiti(m);else if(view==='societa')vSocieta(m);else if(view==='sport')vSport(m);else if(view==='info')vInfo(m);else if(view==='mappa')vMappa(m);else vComuni(m);
+const hp=!!HOME&&!girone&&!comune&&view==='comuni';document.body.classList.toggle('hp',hp);if(!hp)document.body.classList.remove('srch');
+nav();filters();document.body.classList.toggle('nofilt',hp||!!girone||(!comune&&['risultati','preferiti','info','mappa'].includes(view)));const m=$('main');
+if(girone)vGirone(m);else if(comune)vComune(m);else if(view==='risultati')vRisultati(m);else if(view==='preferiti')vPreferiti(m);else if(view==='societa')vSocieta(m);else if(view==='sport')vSport(m);else if(view==='info')vInfo(m);else if(view==='mappa')vMappa(m);else if(view==='elenco')vElenco(m);else if(hp)(HOME==='a'?vHomeA:vHomeB)(m);else vComuni(m);
 }
 function openClub(id,push=true){
 const c=C.find(x=>x.id===id);if(!c)return;
@@ -725,7 +819,7 @@ closeSheet();
 const prev=comune+girone;girone='';
 if(h.startsWith('g-')&&GBY[h.slice(2)]){comune='';girone=h.slice(2)}
 else if(h.startsWith('c-')&&COM.some(c=>c.codice===h.slice(2))){comune=h.slice(2);if(prev!==comune)cSport=''}
-else{comune='';if(['societa','sport','info','comuni','risultati','preferiti','mappa'].includes(h))view=h;else if(!h)view='comuni'}
+else{comune='';if(['societa','sport','info','comuni','risultati','preferiti','mappa','elenco'].includes(h))view=h;else if(!h)view='comuni'}
 limit=60;render();if(prev!==comune+girone)window.scrollTo(0,0);
 }
 /* installa l'app: beforeinstallprompt (Android, Chrome/Edge su computer) o guida per iPhone/iPad; alla seconda visita o dopo 30 s; "Non ora" = 30 giorni */
@@ -798,12 +892,15 @@ if(b.dataset.c)go('c-'+b.dataset.c);else openClub(b.dataset.id)});
 /* eventi */
 document.addEventListener('click',e=>{
 const t=e.target;let b;
+if(b=t.closest('[data-lens]')){const on=!document.body.classList.contains('srch')||!b.classList.contains('lens');document.body.classList.toggle('srch',on);document.querySelector('.lens').setAttribute('aria-expanded',on);if(on){window.scrollTo(0,0);setTimeout(()=>$('q').focus(),30)}return}
+if(b=t.closest('[data-dstep]')){dialSet(dIdx+ +b.dataset.dstep);return}
+if(t.closest('#dial'))return;
 if(b=t.closest('[data-fav]')){const on=favToggle(b.dataset.fav,b.dataset.fid);b.setAttribute('aria-pressed',on);if(b.classList.contains('gstar'))b.lastChild.textContent=on?'Nei preferiti':'Segui il girone';else b.setAttribute('aria-label',on?'Togli dai preferiti':'Aggiungi ai preferiti');if(!$('sheet').classList.contains('on'))render();return}
 if(b=t.closest('.nb,.dtab,.ib')){go(b.dataset.v);window.scrollTo(0,0);return}
 if(b=t.closest('[data-p]')){prov=b.dataset.p;st.set('prov',prov);limit=60;render();return}
 if(b=t.closest('.pill[data-s]')){sport='';limit=60;render();return}
 if(b=t.closest('[data-go]')){go(b.dataset.go);return}
-if(b=t.closest('[data-pick]')){sport=sport===b.dataset.pick?'':b.dataset.pick;go(sport?'societa':'sport');render();window.scrollTo(0,0);return}
+if(b=t.closest('[data-pick]')){if(!b.dataset.pick)return;sport=sport===b.dataset.pick?'':b.dataset.pick;go(sport?'societa':'sport');render();window.scrollTo(0,0);return}
 if(b=t.closest('[data-sort]')){sortBy=b.dataset.sort;st.set('sort',sortBy);render();return}
 if(b=t.closest('[data-more]')){limit+=60;render();return}
 if(b=t.closest('[data-cs]')){cSport=b.dataset.cs;render();return}
@@ -830,6 +927,8 @@ if(b=t.closest('[data-copy]')){const u=location.href;(navigator.clipboard?naviga
 });
 document.addEventListener('keydown',e=>{if(e.key!=='Escape')return;if($('sheet').classList.contains('on'))history.back();else if(!$('inst').hidden){e.preventDefault();instClose(true)}});
 window.addEventListener('hashchange',route);
+document.addEventListener('change',e=>{if(e.target.name==='hsel'){st.set('home',e.target.value);location.replace(location.pathname+'?home='+(e.target.value||'0')+'#'+(e.target.value?'comuni':'info'))}});
+if(HOME){document.documentElement.dataset.home=HOME;const nb=document.querySelector('.nb[data-v=comuni]'),dt=document.querySelector('.dtab[data-v=comuni]');if(nb)nb.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>Home';if(dt)dt.textContent='Home';intro()}
 favLoad();favCloud();logoLoad();prov=st.get('prov')||'';sortBy=st.get('sort')||'az';if(!PROV[prov])prov='';
 Promise.all([fetch('data/comuni.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/data.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/risultati.json',{cache:'no-cache'}).then(r=>r.ok?r.json():[]).catch(()=>[])]).then(([c,d,rg])=>{
 G=rg||[];G.forEach(g=>GBY[g.gid]=g);$('main').removeAttribute('aria-busy');
