@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Prova del widget Zuìn in una pagina ospite ostile</title>
+<!-- Pagina di prova (non collegata dall'app): stili aggressivi che cercano di rompere il widget. -->
+<style>
+* { font: 30px serif !important; color: red }
+body { background: #ffe; margin: 8px; }
+div, section, table, td, th, a, span, b, img { padding: 20px !important; border: 4px dotted lime !important; background: yellow !important; display: inline !important; width: 150px !important; }
+.zuin-widget { display: none; width: 50px; height: 10px; overflow: hidden; margin: 100px; transform: rotate(5deg) }
+table { width: 50% }
+a { color: green !important; text-decoration: line-through !important }
+img { width: 300px !important; height: 300px !important }
+:root { --ink: red; --bg: black; --acc: lime }
+</style>
+</head>
+<body>
+<h1>Sito ospite con stili ostili</h1>
+<p>Società con più squadre:</p>
+<script src="../widget.js" data-societa="030129-53" data-squadre="4" async></script>
+<p>Girone, tema scuro:</p>
+<script src="../widget.js" data-girone="pallavolo-serie-c-femminile-fvg" data-tema="scuro" data-squadre="8" async></script>
+<p>Stessa società una seconda volta, tema auto, 1 squadra:</p>
+<script src="../widget.js" data-societa="030129-53" data-tema="auto" data-squadre="1" async></script>
+<p>Società inesistente (messaggio d'errore discreto):</p>
+<script src="../widget.js" data-societa="non-esiste" async></script>
+<p>Fine della pagina ospite.</p>
+</body>
+</html>
