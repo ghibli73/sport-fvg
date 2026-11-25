@@ -366,6 +366,8 @@ def main():
         o = vecchi.get(n["gid"]) or next((vecchi[v] for v in sostituiti if n["gid"].endswith("-" + v.split("-", 1)[1])), None)
         if o and len(n["classifica"]) < len(o.get("classifica") or []):
             print(f"  {n['gid']}: meno squadre del precedente, tenuto il vecchio"); tenuti.append(o); continue
+        if o:  # le gare future già note (giornata successiva) restano
+            n["partite"] += [p for p in o.get("partite", []) if not p.get("risultato") and (p.get("giornata") or 0) > n["giornata"]]
         tenuti.append(n)
     json.dump(tenuti, open(RIS, "w"), ensure_ascii=False, separators=(",", ":"))
     stato = {"letti": sorted(letti), "gare": list(gare.values())}
