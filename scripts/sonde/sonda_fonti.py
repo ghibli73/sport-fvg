@@ -112,6 +112,13 @@ for x in [x[6:] for x in prove if x.startswith("cerca=")]:
                 print("\n".join("   | " + l for l in lines[max(0, i - 2):i + 50])); print("   ..."); fatto = i + 50
     except Exception as e: print("ERRORE", e)
     time.sleep(1)
+# "pagina=<url>|<regex>": testo della pagina (senza tag) a partire dalla prima corrispondenza, 5000 caratteri
+for x in [x[7:] for x in prove if x.startswith("pagina=")]:
+    u, rx = x.split("|", 1)
+    titolo("PAGINA " + u)
+    try: pagina(u, 5000, rx)
+    except Exception as e: print("ERRORE", e)
+    time.sleep(1.5)
 # "testo=<url PDF>": testo completo (tutte le pagine, al massimo 600 righe), per confrontare a mano dati e fonte
 for u in [x[6:] for x in prove if x.startswith("testo=")]:
     titolo("TESTO " + u)
