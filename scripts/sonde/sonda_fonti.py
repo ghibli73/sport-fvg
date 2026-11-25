@@ -81,12 +81,37 @@ for x in [x[5:] for x in prove if x.startswith("html=")]:
     u, rx = x.rsplit("|", 1)
     titolo("HTML " + u + " /" + rx + "/")
     try:
-        t = S.get(u, timeout=30).text
+        t = S.get(u, timeout=60).text
         ms = list(re.finditer(rx, t, re.I | re.S))
-        print("corrispondenze:", len(ms))
+        print("byte:", len(t), "corrispondenze:", len(ms))
         for m in ms[:40]: print("   |", t[m.start():m.start() + 400].replace("\n", " ")[:400])
     except Exception as e: print("ERRORE", e)
     time.sleep(1.5)
+# "cerca=<url PDF o ZIP>|<regex>": nel PDF (o nei PDF dello ZIP il cui nome contiene la regex del file, dopo "@")
+# stampa le righe attorno a ogni corrispondenza, es. cerca=https://.../CU-50.pdf|VARIAZIONI GARE
+for x in [x[6:] for x in prove if x.startswith("cerca=")]:
+    u, rx = x.rsplit("|", 1)
+    rx, _, rxf = rx.partition("@")
+    titolo("CERCA " + u + " /" + rx + "/" + (" file /" + rxf + "/" if rxf else ""))
+    try:
+        import pdfplumber, zipfile
+        dati = S.get(u, timeout=90).content
+        files = [(u, dati)]
+        if u.lower().endswith(".zip"):
+            z = zipfile.ZipFile(io.BytesIO(dati))
+            for n in z.namelist(): print("  file:", n, z.getinfo(n).file_size)
+            files = [(n, z.read(n)) for n in z.namelist() if n.lower().endswith(".pdf") and (not rxf or re.search(rxf, n, re.I))]
+        for n, b in files[:6]:
+            with pdfplumber.open(io.BytesIO(b)) as pdf:
+                lines = [l for pg in pdf.pages for l in (pg.extract_text() or "").splitlines()]
+            idx = [i for i, l in enumerate(lines) if re.search(rx, l, re.I)]
+            print("---", n, "righe", len(lines), "corrispondenze", len(idx))
+            fatto = -1
+            for i in idx[:8]:
+                if i <= fatto: continue
+                print("\n".join("   | " + l for l in lines[max(0, i - 2):i + 30])); print("   ..."); fatto = i + 30
+    except Exception as e: print("ERRORE", e)
+    time.sleep(1)
 # "testo=<url PDF>": testo completo (tutte le pagine, al massimo 600 righe), per confrontare a mano dati e fonte
 for u in [x[6:] for x in prove if x.startswith("testo=")]:
     titolo("TESTO " + u)
@@ -124,7 +149,7 @@ for u in [x for x in prove if x.startswith("http")]:
             import zipfile
             z = zipfile.ZipFile(io.BytesIO(S.get(u, timeout=60).content))
             for n in z.namelist(): print("  file:", n, z.getinfo(n).file_size)
-            for n in [n for n in z.namelist() if n.lower().endswith(".pdf")][:2]:
+            for n in [n for n in z.namelist() if n.lower().endswith(".pdf") and re.search(r"calendar", n, re.I)][:2]:
                 import pdfplumber
                 with pdfplumber.open(io.BytesIO(z.read(n))) as pdf:
                     t = "\n".join((pg.extract_text() or "") for pg in pdf.pages[:2])
