@@ -67,6 +67,7 @@ jobs:
         run: python scripts/ics.py
         continue-on-error: true
       - name: Widget per i siti (data/widget)
+        if: env.PROVA != 'true'
         run: python scripts/widget_dati.py
         continue-on-error: true
       - name: Salva i dati aggiornati
