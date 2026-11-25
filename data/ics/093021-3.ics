@@ -1,0 +1,284 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Libertas Fiume Veneto
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-509a57c3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:LIBERTAS FIUME VENETO 77-63 POLISPORTIVA CONCORDIA (Under 15 Maschi
+ le Regionale — girone PN)
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n1ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-82748133@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261028T213000
+DTEND;TZID=Europe/Rome:20261028T233000
+SUMMARY:LIBERTAS FIUME VENETO 'B' 80-59 JULIA CONCORDIA BASKET (Divisione R
+ egionale 3 — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-7335fe01@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261030T180000
+DTEND;TZID=Europe/Rome:20261030T200000
+SUMMARY:Libertas Fiume Veneto 133-15 3 S Basket Cordenons (Under 14 Maschil
+ e Regionale — girone PN/UD)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-af1ea964@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T210000
+DTEND;TZID=Europe/Rome:20261030T230000
+SUMMARY:Errebi Majano 66-71 Libertas Fiume Veneto (Divisione Regionale 1 
+ — girone Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-aebd2cbb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T090000
+DTEND;TZID=Europe/Rome:20261101T110000
+SUMMARY:TORRE BASKET 65-73 LIBERTAS FIUME VENETO (Under 17 Maschile Regiona
+ le — girone PN (prima fase))
+LOCATION:Palestra Istituto "Flora"\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-c10e1016@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T190000
+DTEND;TZID=Europe/Rome:20261104T210000
+SUMMARY:BVO Annone 27-104 Libertas Fiume Veneto (Under 14 Maschile Regional
+ e — girone PN/UD)
+LOCATION:Palazzetto dello Sport\, Annone Veneto
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-26967b4d@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261104T213000
+DTEND;TZID=Europe/Rome:20261104T233000
+SUMMARY:LIBERTAS FIUME VENETO 'B' 96-51 BVO ANNONE (Divisione Regionale 3 
+ — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-81715530@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:AZZANO BASKET 72-51 LIBERTAS FIUME VENETO (Under 15 Maschile Region
+ ale — girone PN)
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n2ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-9ef98701@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T090000
+DTEND;TZID=Europe/Rome:20261108T110000
+SUMMARY:Libertas Fiume Veneto 90-23 Azzano Basket (Under 13 Maschile — gi
+ rone PN B)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 13 Maschile — girone PN B\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-55a94dbe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:LIBERTAS FIUME VENETO 65-39 PALL. PORTOGRUARO (Under 17 Maschile Re
+ gionale — girone PN (prima fase))
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-50bbf61f@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261108T180000
+DTEND;TZID=Europe/Rome:20261108T200000
+SUMMARY:Libertas Fiume Veneto 87-52 Gemona Basket (Divisione Regionale 1 
+ — girone Ovest)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-12e5dad4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T183000
+DTEND;TZID=Europe/Rome:20261109T203000
+SUMMARY:Pol. Casarsa 61-50 Libertas Fiume Veneto (Under 19 Maschile Regiona
+ le — girone PN A (prima fase))
+LOCATION:Palasport 'Palarosa'\, Casarsa della Delizia
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n1ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-3be66652@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:LIBERTAS FIUME VENETO 93-30 BVO ANNONE (Under 15 Maschile Regionale
+  — girone PN)
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n3ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-433013a9@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261111T213000
+DTEND;TZID=Europe/Rome:20261111T233000
+SUMMARY:LIBERTAS FIUME VENETO 'B' 78-47 POLISPORTIVA MONTEREALE (Divisione 
+ Regionale 3 — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-af9421a0@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T210000
+DTEND;TZID=Europe/Rome:20261113T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo 63-77 Libertas Fiume Veneto (Division
+ e Regionale 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-87ff1750@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:BVO ANNONE 54-61 LIBERTAS FIUME VENETO (Under 17 Maschile Regionale
+  — girone PN (prima fase))
+LOCATION:Palazzetto dello Sport\, Annone Veneto
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-b736a284@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T164500
+DTEND;TZID=Europe/Rome:20261116T184500
+SUMMARY:Basket Cordovado 66-58 Libertas Fiume Veneto (Under 13 Maschile —
+  girone PN B)
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 13 Maschile — girone PN B\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-e195237e@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261116T203000
+DTEND;TZID=Europe/Rome:20261116T223000
+SUMMARY:SCUOLA PALLACANESTRO PORCIA 2021 69-68 LIBERTAS FIUME VENETO 'B' (D
+ ivisione Regionale 3 — girone PN)
+LOCATION:Pal. Sc. Medie "F. Cornacchia"\, Porcia
+DESCRIPTION:Divisione Regionale 3 — girone PN\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-15057abf@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T210000
+DTEND;TZID=Europe/Rome:20261116T230000
+SUMMARY:Libertas Fiume Veneto 49-53 Pall. Portogruaro (Under 19 Maschile Re
+ gionale — girone PN A (prima fase))
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n2ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-681e9dfe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T193000
+DTEND;TZID=Europe/Rome:20261125T213000
+SUMMARY:RORAIGRANDE – LIBERTAS FIUME VENETO (Under 17 Maschile Regionale 
+ — girone PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n5ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+END:VCALENDAR

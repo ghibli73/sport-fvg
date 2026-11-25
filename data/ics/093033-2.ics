@@ -1,0 +1,138 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. Torre
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-92aa5551@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:TORRE 2-3 COMUNALE FONTANAFREDDA (Under 18 regionali — girone A)
+DESCRIPTION:Under 18 regionali — girone A\n8ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-fc24497e@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:TORRE 0-1 VIGONOVO (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-seconda-categoria-d-cc377ceb@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:ZARJA A.S.D. 1-1 TORRE (Seconda Categoria — girone D)
+DESCRIPTION:Seconda Categoria — girone D\n6ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ tri-seconda-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-59c76019@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:CHIONS 6-1 TORRE (Under 18 regionali — girone A)
+DESCRIPTION:Under 18 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-eb08f75e@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:RIVOLTO 0-4 TORRE (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n10ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-seconda-categoria-d-2d94410d@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:TORRE 4-0 CORMONESE (Seconda Categoria — girone D)
+DESCRIPTION:Seconda Categoria — girone D\n7ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ tri-seconda-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-d70d8af4@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:TORRE 1-2 POLISPORTIVA TAMAI ASD (Under 18 regionali — girone A)
+DESCRIPTION:Under 18 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-9656f67a@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:U.FINCANTIERI MONFALCONE 6-1 TORRE (Under 18 regionali — girone A
+ )
+DESCRIPTION:Under 18 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-f543d0bb@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:TORRE 0-0 A.C. CORDENONESE 3S ASD (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n11ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-seconda-categoria-d-bfb0bcfc@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:I.S.M. GRADISCA 2-2 TORRE (Seconda Categoria — girone D)
+DESCRIPTION:Seconda Categoria — girone D\n8ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ tri-seconda-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
+END:VEVENT
+END:VCALENDAR

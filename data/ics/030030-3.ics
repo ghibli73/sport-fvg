@@ -1,0 +1,105 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Centro Sedia Basket
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-ud-b-46d9b386@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261030T174500
+DTEND;TZID=Europe/Rome:20261030T194500
+SUMMARY:CENTRO SEDIA BASKET 0-30 LONGOBARDI (Under 13 Maschile — girone U
+ D B)
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Under 13 Maschile — girone UD B\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-7feb1869@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:INTERMEK CORDENONS 53-43 CENTRO SEDIA BASKET (Serie C maschile — 
+ girone D (prima fase))
+LOCATION:Palazzetto dello Sport\, Cordenons
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-c17fcc0b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261106T181500
+DTEND;TZID=Europe/Rome:20261106T201500
+SUMMARY:CENTRO SEDIA BASKET 69-68 APU NEXTGEN NERA (Under 13 Maschile — g
+ irone UD B)
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Under 13 Maschile — girone UD B\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-1e9f3af3@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261107T190000
+DTEND;TZID=Europe/Rome:20261107T210000
+SUMMARY:CENTRO SEDIA BASKET 88-79 BASKETRIESTE (Serie C maschile — girone
+  D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-00ce4dce@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:CENTRO SEDIA BASKET 97-57 GEMONA BASKET (Under 13 Maschile — giro
+ ne UD B)
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Under 13 Maschile — girone UD B\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-97e4ea6d@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261114T200000
+DTEND;TZID=Europe/Rome:20261114T220000
+SUMMARY:FIDEMA GROUP RONCHI 70-85 CENTRO SEDIA BASKET (Serie C maschile —
+  girone D (prima fase))
+LOCATION:Palestra Polifunzionale\, Ronchi dei Legionari
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+END:VCALENDAR

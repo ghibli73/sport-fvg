@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.P.D. Cassacco
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-b1c715f2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261106T203000
+DTEND;TZID=Europe/Rome:20261106T223000
+SUMMARY:VILLADIES 3-1 APD CJASSA (Seconda Divisione femminile CT Udine — 
+ girone B)
+LOCATION:Palestra Comunale\, VILLA VICENTINA UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-69086db7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:AURORA VOLLEY UDINE 0-3 APD CASSACCO (Seconda Divisione femminile C
+ T Udine — girone A)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-0299adf3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T210000
+DTEND;TZID=Europe/Rome:20261113T230000
+SUMMARY:APD CASSACCO 3-0 PALLAVOLO BUIA (Seconda Divisione femminile CT Udi
+ ne — girone A)
+LOCATION:Palestra scuole elementari\, CASSACCO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-40da2256@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261117T210000
+DTEND;TZID=Europe/Rome:20261117T230000
+SUMMARY:APD CJASSA 3-2 ASD AIELLO VOLLEY (Seconda Divisione femminile CT Ud
+ ine — girone B)
+LOCATION:Palestra scuole elementari\, CASSACCO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-ed5f4930@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T180000
+DTEND;TZID=Europe/Rome:20261122T200000
+SUMMARY:HORIZON BEERÒ 3-2 APD CJASSA (Seconda Divisione femminile CT Udine
+  — girone B)
+LOCATION:Pal. Sc. Medie Bianchi\, CODROIPO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-9e3cbafd@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261125T210000
+DTEND;TZID=Europe/Rome:20261125T230000
+SUMMARY:APD CASSACCO – ART_CENTO VOLLEY (Seconda Divisione femminile CT U
+ dine — girone A)
+LOCATION:Palestra scuole elementari\, via Divisione Julia 15\, CASSACCO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-8a5fdb80@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T173000
+DTEND;TZID=Europe/Rome:20261129T193000
+SUMMARY:PROJECTVOLLEY SANGIORGINA – APD CJASSA (Seconda Divisione femmini
+ le CT Udine — girone B)
+LOCATION:Palazzetto dello Sport\, Via Palladio\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-e6a44d8f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261202T210000
+DTEND;TZID=Europe/Rome:20261202T230000
+SUMMARY:APD CASSACCO – FVG VOLLEY ACADEMY (Seconda Divisione femminile CT
+  Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n6ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-5b51e306@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261203T210000
+DTEND;TZID=Europe/Rome:20261203T230000
+SUMMARY:APD CJASSA – L.W.V.OTTOGALLI LATISANA (Seconda Divisione femminil
+ e CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n6ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+END:VCALENDAR

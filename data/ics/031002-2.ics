@@ -1,0 +1,258 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · U.S. Alba
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr1-est-79749936@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T210000
+DTEND;TZID=Europe/Rome:20261030T230000
+SUMMARY:Geatti Idraulica ed Edilizia 80-72 U.S. Alba (Divisione Regionale 1
+  — girone Est)
+LOCATION:Pal. M. Vecchiatto\, Udine
+DESCRIPTION:Divisione Regionale 1 — girone Est\n5ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-e921b60a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T183000
+DTEND;TZID=Europe/Rome:20261104T203000
+SUMMARY:US ALBA PALLACANESTRO 65-50 PALL. LAIPACCO (Under 14 Maschile Regio
+ nale — girone GO/TS/UD)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n1ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-02d1772d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261105T190000
+DTEND;TZID=Europe/Rome:20261105T210000
+SUMMARY:US ALBA PALLACANESTRO 108-15 BREG (Under 13 Maschile — girone GO/
+ TS A)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n1ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-7dec78da@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:A.S.A.R.-A.S. AM.ROMANS 77-34 US ALBA PALLACANESTRO 'B' (Divisione 
+ Regionale 3 — girone GO/TS)
+LOCATION:Palestra Comunale\, Romans d'Isonzo
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-b0cbd8d0@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T211500
+DTEND;TZID=Europe/Rome:20261106T231500
+SUMMARY:Insureteach SRL Azzurra 53-61 U.S. Alba (Divisione Regionale 1 — 
+ girone Est)
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n6ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-732751b9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:US ALBA PALLACANESTRO 49-57 U.S.D. DON BOSCO (Under 15 Maschile Reg
+ ionale — girone GO/TS)
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-545b417d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T180000
+DTEND;TZID=Europe/Rome:20261107T200000
+SUMMARY:BASKET CERVIGNANESE 54-64 US ALBA PALLACANESTRO (Under 17 Maschile 
+ Regionale — girone GO/TS (prima fase))
+LOCATION:Pal. Scuole Elementari\, Cervignano del Friuli
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n3ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-841b8431@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T103000
+DTEND;TZID=Europe/Rome:20261108T123000
+SUMMARY:Dinamo Gorizia 97-15 US Alba Pallacanestro (Under 13 Femminile — 
+ girone GO/TS (prima fase))
+LOCATION:Palestra Comunale\, Romans d'Isonzo
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-103e3530@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:PALL. INTERCLUB MUGGIA 41-59 US ALBA PALLACANESTRO (Under 13 Maschi
+ le — girone GO/TS A)
+LOCATION:Palestra Comunale 'G. Pacco'\, Muggia
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n2ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-f362de4d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T183000
+DTEND;TZID=Europe/Rome:20261111T203000
+SUMMARY:U.S. Alba 75-38 Pol. Casarsa (Under 15 Femminile — girone unico)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 15 Femminile — girone unico\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-437d4ac3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261113T190000
+DTEND;TZID=Europe/Rome:20261113T210000
+SUMMARY:AKK BOR BASKET 51-67 US ALBA PALLACANESTRO (Under 14 Maschile Regio
+ nale — girone GO/TS/UD)
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-e8524c9c@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:US ALBA PALLACANESTRO 'B' 52-83 PALLACANESTRO GRADO (Divisione Regi
+ onale 3 — girone GO/TS)
+LOCATION:Palasport "R. Plet"\, Cormons
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-93c69bcf@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261114T200000
+DTEND;TZID=Europe/Rome:20261114T220000
+SUMMARY:U.S. Alba 56-65 San Vito Trieste (Divisione Regionale 1 — girone 
+ Est)
+LOCATION:Palasport R. Plet\, Cormons
+DESCRIPTION:Divisione Regionale 1 — girone Est\n7ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-4adb3528@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T100000
+DTEND;TZID=Europe/Rome:20261115T120000
+SUMMARY:US ALBA PALLACANESTRO 52-32 FALCONSTAR BASKET (Under 13 Maschile 
+ — girone GO/TS A)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n3ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-86c0d6ca@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T120000
+DTEND;TZID=Europe/Rome:20261115T140000
+SUMMARY:Libertas Gym e Basket 68-48 U.S. Alba (Under 15 Femminile — giron
+ e unico)
+LOCATION:Pal. Liceo "G. Oberdan"\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-7f0a9b9b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T170000
+DTEND;TZID=Europe/Rome:20261115T190000
+SUMMARY:US ALBA PALLACANESTRO 77-29 O.F.P. AZZURRA R.D.R. Basket Trieste (U
+ nder 17 Maschile Regionale — girone GO/TS (prima fase))
+LOCATION:Palasport R. Plet\, Cormons
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n4ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-a5343644@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:NAUTILUS ALLESTIMENTI 55-64 US ALBA PALLACANESTRO (Under 15 Maschil
+ e Regionale — girone GO/TS)
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-d916c95b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261203T190000
+DTEND;TZID=Europe/Rome:20261203T210000
+SUMMARY:U.S. Alba – Futurosa Basket Trieste (Under 15 Femminile — giron
+ e unico)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 15 Femminile — girone unico\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+END:VCALENDAR

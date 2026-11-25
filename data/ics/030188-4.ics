@@ -1,0 +1,246 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Olympia Rivignano
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr2-ud-efcf3bc0@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261028T210000
+DTEND;TZID=Europe/Rome:20261028T230000
+SUMMARY:Olympia Rivignano 66-37 Pol. Libertas Cussignacco (Divisione Region
+ ale 2 — girone UD)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Divisione Regionale 2 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-d1da0e40@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T153000
+DTEND;TZID=Europe/Rome:20261031T173000
+SUMMARY:BASKET PERTEOLE 116-53 OLYMPIA RIVIGNANO (Under 13 Maschile — gir
+ one UD A)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Under 13 Maschile — girone UD A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-a06f2aa9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T113000
+DTEND;TZID=Europe/Rome:20261101T133000
+SUMMARY:MONTGOMERY HAMBURGER HOUSE 44-98 OLYMPIA RIVIGNANO (Under 17 Maschi
+ le Regionale — girone UD (prima fase))
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-1d13a419@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:PALL. TOLMEZZO 27-69 OLYMPIA RIVIGNANO (Under 15 Maschile Regionale
+  — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n2ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-0adcc99f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T190000
+DTEND;TZID=Europe/Rome:20261104T210000
+SUMMARY:Majanese 67-53 Olympia Rivignano (Under 14 Maschile Regionale — g
+ irone PN/UD)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-a17d2689@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:OLYMPIA RIVIGNANO 94-58 PALL. CODROIPESE (Under 19 Maschile Regiona
+ le — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-64772a16@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T163000
+DTEND;TZID=Europe/Rome:20261107T183000
+SUMMARY:OLYMPIA RIVIGNANO 73-51 P.A.F. (Under 17 Maschile Regionale — gir
+ one UD (prima fase))
+LOCATION:Palestra comunale\, Rivignano Teor
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-e12b95ad@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:Olympia Rivignano 72-48 New Brugnera Basket (Under 14 Maschile Regi
+ onale — girone PN/UD)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-aebf13cc@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:Basket Perteole 68-72 Olympia Rivignano (Divisione Regionale 2 — 
+ girone UD)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Divisione Regionale 2 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-ba26f4cd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T093000
+DTEND;TZID=Europe/Rome:20261108T113000
+SUMMARY:OLYMPIA RIVIGNANO 30-0 SPORT SYSTEM (Under 13 Maschile — girone U
+ D A)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 13 Maschile — girone UD A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-a37e3aa8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T200000
+DTEND;TZID=Europe/Rome:20261110T220000
+SUMMARY:LIBERTAS GONARS 65-75 OLYMPIA RIVIGNANO (Under 19 Maschile Regional
+ e — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Santa Maria la Longa
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-cc4d3eb0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:OLYMPIA RIVIGNANO 65-59 POL. TRICESIMO (Under 15 Maschile Regionale
+  — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n3ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-6b1ffb07@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:Longobardi 66-59 Olympia Rivignano (Divisione Regionale 2 — giron
+ e UD)
+LOCATION:Pal. Com. Martiri Libertà\, Cividale del Friuli
+DESCRIPTION:Divisione Regionale 2 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-04af127c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T163000
+DTEND;TZID=Europe/Rome:20261114T183000
+SUMMARY:Olympia Rivignano 42-74 Gemona Basket (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-02eb71c9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T093000
+DTEND;TZID=Europe/Rome:20261115T113000
+SUMMARY:Scuola Basket Miky Mian 83-33 OLYMPIA RIVIGNANO (Under 13 Maschile 
+ — girone UD A)
+LOCATION:Palestra Ist. "F. Tomadini"\, Udine
+DESCRIPTION:Under 13 Maschile — girone UD A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-a34aaa73@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T163000
+DTEND;TZID=Europe/Rome:20261115T183000
+SUMMARY:OLYMPIA RIVIGNANO 77-67 POL LIB. PASIAN DI PRATO (Under 19 Maschile
+  Regionale — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-70c1e285@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T193000
+DTEND;TZID=Europe/Rome:20261116T213000
+SUMMARY:APU NEXT GEN 42-67 OLYMPIA RIVIGNANO (Under 17 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Palazzetto M. Benedetti\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+END:VCALENDAR

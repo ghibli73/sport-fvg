@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CUS Udine (pallamano)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallamano-u16-femminile-area-3-31bb1501@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:U16 CUS UDINE 24-23 PALLAMANO ODERZO NERA (Under 16 femminile Area 
+ 3 — girone unico)
+LOCATION:Udine
+DESCRIPTION:Under 16 femminile Area 3 — girone unico\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-pallamano-u16-femminile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-u16-femminile-area-3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-u16-femminile-area-3-2bd86d91@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261114T163000
+DTEND;TZID=Europe/Rome:20261114T183000
+SUMMARY:U16 CUS UDINE 42-23 ASD PALLAMANO GUERRIERE MALO (Under 16 femminil
+ e Area 3 — girone unico)
+LOCATION:Udine
+DESCRIPTION:Under 16 femminile Area 3 — girone unico\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-pallamano-u16-femminile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-u16-femminile-area-3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-u16-femminile-area-3-a80ae0ce@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261122T183000
+DTEND;TZID=Europe/Rome:20261122T203000
+SUMMARY:PALLAMANO ODERZO GIALLA 26-26 U16 CUS UDINE (Under 16 femminile Are
+ a 3 — girone unico)
+LOCATION:Oderzo
+DESCRIPTION:Under 16 femminile Area 3 — girone unico\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-pallamano-u16-femminile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-u16-femminile-area-3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-u16-femminile-area-3-b9a11eb8@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261128T180000
+DTEND;TZID=Europe/Rome:20261128T200000
+SUMMARY:U16 CUS UDINE – OLIMPICA DOSSOBUONO (Under 16 femminile Area 3 
+ — girone unico)
+LOCATION:Udine
+DESCRIPTION:Under 16 femminile Area 3 — girone unico\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-pallamano-u16-femminile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-u16-femminile-area-3
+END:VEVENT
+END:VCALENDAR

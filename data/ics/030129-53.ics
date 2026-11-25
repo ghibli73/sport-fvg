@@ -1,0 +1,1022 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Aurora Volley Udine
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-8250e70b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261028T203000
+DTEND;TZID=Europe/Rome:20261028T223000
+SUMMARY:ROJALKENNEDY 3-0 AURORA VOLLEY UD BA (Under 17 femminile CT Udine 
+ — girone A)
+LOCATION:Palestra Comunale\, REANA DEL ROIALE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-21308345@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261030T193000
+DTEND;TZID=Europe/Rome:20261030T213000
+SUMMARY:A.S.D. STELLA VOLLEY 3-0 AURORA VOLLEY UD ARANCIO (Under 15 femmini
+ le CT Udine — girone B)
+LOCATION:Palestra Comunale\, POCENIA UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-d-cd73988a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T153000
+DTEND;TZID=Europe/Rome:20261031T173000
+SUMMARY:CLUB AURORA VOLLEY UDINE 3-1 VILLADIES (Under 15 femminile CT Udine
+  — girone D)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 15 femminile CT Udine — girone D\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-f83b145b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T173000
+DTEND;TZID=Europe/Rome:20261031T193000
+SUMMARY:APD SAN LEONARDO 3-1 CLUB AURORA VOLLEY UDINE (Under 14 femminile C
+ T Udine — girone B)
+LOCATION:Palestra Scuole Medie San Leonardo\, SAN LEONARDO UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-38ecbb1f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T180000
+DTEND;TZID=Europe/Rome:20261031T200000
+SUMMARY:MAJANESE VOLLEY 3-2 AURORA VOLLEY UD AL (Under 17 femminile CT Udin
+ e — girone B)
+LOCATION:Palestra Centro Studi\, MAJANO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-0c48b00c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T200000
+DTEND;TZID=Europe/Rome:20261031T220000
+SUMMARY:VERO SRL MANIAGO 3-0 CLUB AURORA VOLLEY UDINE (Serie D femminile 
+ — girone unico)
+LOCATION:Palazzetto dello Sport\, MONTEREALE VALCELLINA PN
+DESCRIPTION:Serie D femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-6d36c8ef@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T201500
+DTEND;TZID=Europe/Rome:20261104T221500
+SUMMARY:CLUB AURORA VOLLEY UDINE 0-3 PALLAVOLO BRUGNERA 96 (Serie D femmini
+ le — girone unico)
+LOCATION:Palestra Scuola Media "Bellavitis"\, Udine (UD)
+DESCRIPTION:Serie D femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-d22fe362@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T153000
+DTEND;TZID=Europe/Rome:20261107T173000
+SUMMARY:LIBERTAS MARTIGNACCO 3-1 AURORA VOLLEY UD ARANCIO (Under 15 femmini
+ le CT Udine — girone B)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-a487876f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T153000
+DTEND;TZID=Europe/Rome:20261107T173000
+SUMMARY:CLUB AURORA VOLLEY UDINE 2-3 BLU TEAM (Under 17 femminile CT Udine 
+ — girone C)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-d-c5bb115d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T163000
+DTEND;TZID=Europe/Rome:20261107T183000
+SUMMARY:FABBROS' ROJALKENNEDY 1-3 CLUB AURORA VOLLEY UDINE (Under 15 femmin
+ ile CT Udine — girone D)
+LOCATION:Palestra scuole elementari\, CASSACCO UD
+DESCRIPTION:Under 15 femminile CT Udine — girone D\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-7071b560@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T174500
+DTEND;TZID=Europe/Rome:20261107T194500
+SUMMARY:AURORA VOLLEY UD AL 0-3 ZANIBONI SNACK TALMASSONS (Under 17 femmini
+ le CT Udine — girone B)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-69086db7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:AURORA VOLLEY UDINE 0-3 APD CASSACCO (Seconda Divisione femminile C
+ T Udine — girone A)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-52d9e8fb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:SOCA LOKANDA DEVETAK ZKB 3-1 CLUB AURORA VOLLEY UDINE (Serie D femm
+ inile — girone unico)
+LOCATION:Palestra Comunale\, Savogna d'Isonzo (GO)
+DESCRIPTION:Serie D femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-9ab67bb8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:APD SAN LEONARDO 3-1 AURORA VOLLEY UDINE (Prima Divisione maschile 
+ CT Udine — girone unico)
+LOCATION:Palestra Scuole Medie San Leonardo\, SAN LEONARDO UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-19679f8e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T094500
+DTEND;TZID=Europe/Rome:20261108T114500
+SUMMARY:CLUB AURORA VOLLEY UDINE 0-3 CSI TARCENTO (Under 14 femminile CT Ud
+ ine — girone B)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-a127673b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:A.S.D. STELLA VOLLEY 3-0 AURORA VOLLEY UDINE SI (Under 19 femminile
+  CT Udine — girone unico)
+LOCATION:Palestra Comunale di Teor\, RIVIGNANO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-efd66cda@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T113000
+DTEND;TZID=Europe/Rome:20261108T133000
+SUMMARY:ART_CENTO VOLLEY 3-0 CLUB AURORA VOLLEY UDINE (Under 19 femminile C
+ T Udine — girone unico)
+LOCATION:Palasport\, TARCENTO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-d2aead47@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T114500
+DTEND;TZID=Europe/Rome:20261108T134500
+SUMMARY:AURORA VOLLEY UD NI 0-3 LIBERTAS MARTIGNACCO (Under 17 femminile CT
+  Udine — girone C)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-4b352872@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261111T200000
+DTEND;TZID=Europe/Rome:20261111T220000
+SUMMARY:ASFJR 1971 YOUNG 0-3 CLUB AURORA VOLLEY UDINE (Under 17 femminile C
+ T Udine — girone C)
+LOCATION:Palestra Martiri della Libertà\, CIVIDALE DEL FRIULI UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-e0e1d6a8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T174500
+DTEND;TZID=Europe/Rome:20261113T194500
+SUMMARY:CLUB AURORA VOLLEY UDINE 2-3 BLANC RIZZI UDINE FTV (Under 14 femmin
+ ile CT Udine — girone B)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-2775a85e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T210000
+DTEND;TZID=Europe/Rome:20261113T230000
+SUMMARY:AURORA VOLLEY UDINE 3-0 ASDMUZZANAVOLLEY (Prima Divisione maschile 
+ CT Udine — girone unico)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-4c7bd5eb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:AURORA VOLLEY UD BA 0-3 FTV RIZZI UDINE - GIALLA (Under 17 femminil
+ e CT Udine — girone A)
+LOCATION:Palestra Scuola Mazzini\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-80d46aef@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T173000
+DTEND;TZID=Europe/Rome:20261114T193000
+SUMMARY:ART_CENTO VOLLEY WHITE 0-3 AURORA VOLLEY UD AL (Under 17 femminile 
+ CT Udine — girone B)
+LOCATION:Palasport\, TARCENTO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-5f53891b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T174500
+DTEND;TZID=Europe/Rome:20261114T194500
+SUMMARY:AURORA VOLLEY UDINE 2-1 POL COM LESTIZZA* (Under 13 femminile CT Ud
+ ine — girone B)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-fb88c426@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T190000
+DTEND;TZID=Europe/Rome:20261114T210000
+SUMMARY:BLU TEAM 3-0 AURORA VOLLEY UD NI (Under 17 femminile CT Udine — g
+ irone C)
+LOCATION:Palestra Scuole Medie\, LESTIZZA UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-392a8548@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:MASCHIO PALLAVOLO BUIA 2-3 CLUB AURORA VOLLEY UDINE (Serie D femmin
+ ile — girone unico)
+LOCATION:Palestra Olimpica\, Buja (UD)
+DESCRIPTION:Serie D femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-b6754350@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T094500
+DTEND;TZID=Europe/Rome:20261115T114500
+SUMMARY:AURORA VOLLEY UD ARANCIO 0-3 L.W.V. LATISANA (Under 15 femminile CT
+  Udine — girone B)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-36b70336@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T114500
+DTEND;TZID=Europe/Rome:20261115T134500
+SUMMARY:CLUB AURORA VOLLEY UDINE 0-3 LIBERTAS MARTIGNACCO (Under 19 femmini
+ le CT Udine — girone unico)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-d-46de77f3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T153000
+DTEND;TZID=Europe/Rome:20261115T173000
+SUMMARY:CLUB AURORA VOLLEY UDINE 3-0 VOLLEY TALMASSONS (Under 15 femminile 
+ CT Udine — girone D)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 15 femminile CT Udine — girone D\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-82178aaa@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T170000
+DTEND;TZID=Europe/Rome:20261115T190000
+SUMMARY:AURORA VOLLEY UDINE SI 0-3 SIFA ROJALKENNEDY (Under 19 femminile CT
+  Udine — girone unico)
+LOCATION:Palestra Scuola Mazzini\, UDINE UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-4f2d1573@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:INGEGNI PASIAN DI PRATO 3-0 AURORA VOLLEY UDINE (Seconda Divisione 
+ femminile CT Udine — girone A)
+LOCATION:Palestra ENAIP\, Pasian di Prato PASIAN DI PRATO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-78a49f0e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:SPORTING CLUB 2-3 AURORA VOLLEY UDINE (Under 15 maschile interterri
+ toriale PN-UD — girone B)
+LOCATION:Palasport (principale)\, CERVIGNANO DEL FRIULI UD
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-76d6ced9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261117T193000
+DTEND;TZID=Europe/Rome:20261117T213000
+SUMMARY:AURORA VOLLEY UD AL 0-3 HORIZON KREATIVA (Under 17 femminile CT Udi
+ ne — girone B)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-3cac9ff3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261117T200000
+DTEND;TZID=Europe/Rome:20261117T220000
+SUMMARY:ASD SPORTING CLUB 3-0 AURORA VOLLEY UDINE SI (Under 19 femminile CT
+  Udine — girone unico)
+LOCATION:Palasport (principale)\, CERVIGNANO DEL FRIULI UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-b89770aa@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T183000
+DTEND;TZID=Europe/Rome:20261120T203000
+SUMMARY:KENNEDY GIALLO 1-2 AURORA VOLLEY UDINE (Under 13 femminile CT Udine
+  — girone B)
+LOCATION:Palestra scuole elementari\, TAVAGNACCO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-f44fa73d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T201500
+DTEND;TZID=Europe/Rome:20261120T221500
+SUMMARY:GAIA VOLLEYBAS UDINE 3-0 AURORA VOLLEY UDINE (Prima Divisione masch
+ ile CT Udine — girone unico)
+LOCATION:Palestra Scuola Media Valussi\, UDINE UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-63f9ea54@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T153000
+DTEND;TZID=Europe/Rome:20261121T173000
+SUMMARY:CLUB AURORA VOLLEY UDINE 3-0 FTV RIZZI UDINE - BLU (Under 17 femmin
+ ile CT Udine — girone C)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-484fd728@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T163000
+DTEND;TZID=Europe/Rome:20261121T183000
+SUMMARY:ART_CENTO VOLLEY 3-0 AURORA VOLLEY UD BA (Under 17 femminile CT Udi
+ ne — girone A)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-0d54c902@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T174500
+DTEND;TZID=Europe/Rome:20261121T194500
+SUMMARY:AURORA VOLLEY UD AL 0-3 VOLLEYBAS GREEN (Under 17 femminile CT Udin
+ e — girone B)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-855b9893@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T200000
+DTEND;TZID=Europe/Rome:20261121T220000
+SUMMARY:AURORA VOLLEY UDINE 0-3 ROJALKENNEDY ASSICOOP (Seconda Divisione fe
+ mminile CT Udine — girone A)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-b4833da4@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T094500
+DTEND;TZID=Europe/Rome:20261122T114500
+SUMMARY:AURORA VOLLEY UD ARANCIO 0-3 FVG VOLLEY ACADEMY (Under 15 femminile
+  CT Udine — girone B)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-8a9f36c2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:A.S.D. STELLA VOLLEY 3-1 CLUB AURORA VOLLEY UDINE (Under 19 femmini
+ le CT Udine — girone unico)
+LOCATION:Palestra Comunale di Teor\, RIVIGNANO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-416cddd5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T114500
+DTEND;TZID=Europe/Rome:20261122T134500
+SUMMARY:AURORA VOLLEY UD NI 3-1 ASFJR 1971 YOUNG (Under 17 femminile CT Udi
+ ne — girone C)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-d-1787006f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T153000
+DTEND;TZID=Europe/Rome:20261122T173000
+SUMMARY:IL POZZO 1-3 CLUB AURORA VOLLEY UDINE (Under 15 femminile CT Udine 
+ — girone D)
+LOCATION:Palestra Comunale\, PRADAMANO UD
+DESCRIPTION:Under 15 femminile CT Udine — girone D\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-759e6e68@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T153000
+DTEND;TZID=Europe/Rome:20261122T173000
+SUMMARY:AURORA VOLLEY UDINE 3-0 ASD KENNEDY ADEGLIACCO (Under 15 maschile i
+ nterterritoriale PN-UD — girone B)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ee704ab1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T183000
+DTEND;TZID=Europe/Rome:20261122T203000
+SUMMARY:CLUB AURORA VOLLEY UDINE 0-3 PIZZA D'ORO PAV BRESSA (Serie D femmin
+ ile — girone unico)
+LOCATION:Palestra Scuola Media Bellavitis\, Udine (UD)
+DESCRIPTION:Serie D femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-15e8dd65@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261125T181500
+DTEND;TZID=Europe/Rome:20261125T201500
+SUMMARY:GESTECO VOLLEYBAS – AURORA VOLLEY UDINE (Under 13 femminile CT Ud
+ ine — girone B)
+LOCATION:Palestra Scuola G. Pascoli\, via Ampezzo\, UDINE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-7f115d3d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261126T200000
+DTEND;TZID=Europe/Rome:20261126T220000
+SUMMARY:CLUB AURORA VOLLEY UDINE – SIFA ROJALKENNEDY (Under 19 femminile 
+ CT Udine — girone unico)
+LOCATION:Palestra Scuola Media Bellavitis\, Viale XXV Aprile 7\, UDINE
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-43481b63@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261127T201500
+DTEND;TZID=Europe/Rome:20261127T221500
+SUMMARY:CSI TARCENTO AZZURRA – AURORA VOLLEY UDINE (Seconda Divisione fem
+ minile CT Udine — girone A)
+LOCATION:Palestra Scuole Medie\, Via Taviele\, TARCENTO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-d-372acdb8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T153000
+DTEND;TZID=Europe/Rome:20261128T173000
+SUMMARY:CLUB AURORA VOLLEY UDINE – ART_CENTO VOLLEY WHITE (Under 15 femmi
+ nile CT Udine — girone D)
+LOCATION:Palestra Scuola Media "Bellavitis"\, Viale XXV Aprile\, 7\, UDINE 
+ UD
+DESCRIPTION:Under 15 femminile CT Udine — girone D\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-751d6224@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T160000
+DTEND;TZID=Europe/Rome:20261128T180000
+SUMMARY:FVG VOLLEY ACADEMY – CLUB AURORA VOLLEY UDINE (Under 14 femminile
+  CT Udine — girone B)
+LOCATION:Palestra Scuole Medie\, via San Giusto\, LESTIZZA UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-7be2ce8b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T160000
+DTEND;TZID=Europe/Rome:20261128T180000
+SUMMARY:AURORA VOLLEY UD BA – PAV NATISONIA (Under 17 femminile CT Udine 
+ — girone A)
+LOCATION:Palestra Scuola Mazzini\, via Bariglaria 327\, UDINE
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-1f34d34a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T174500
+DTEND;TZID=Europe/Rome:20261128T194500
+SUMMARY:AURORA VOLLEY UD AL – PAV BRESSA ASD (Under 17 femminile CT Udine
+  — girone B)
+LOCATION:Palestra Scuola Media Bellavitis\, Viale XXV Aprile 7\, UDINE
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-162cdd40@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T180000
+DTEND;TZID=Europe/Rome:20261128T200000
+SUMMARY:MAJANESE VOLLEY – AURORA VOLLEY UD ARANCIO (Under 15 femminile CT
+  Udine — girone B)
+LOCATION:Palestra Centro Studi\, Via Zorutti\, MAJANO UD
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-6e4bf3f9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T190000
+DTEND;TZID=Europe/Rome:20261128T210000
+SUMMARY:CFV - MT ECOSERVICE – CLUB AURORA VOLLEY UDINE (Serie D femminile
+  — girone unico)
+LOCATION:Palasport Villotta\, Via Italia 1\, Villotta di Chions (PN)
+DESCRIPTION:Serie D femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-17cd1c9f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T190000
+DTEND;TZID=Europe/Rome:20261128T210000
+SUMMARY:FTV RIZZI UDINE - BLU – AURORA VOLLEY UD NI (Under 17 femminile C
+ T Udine — girone C)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, Via del Pioppo 57\, UDI
+ NE
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-85d8df3a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:LIBERTAS GONARS – CLUB AURORA VOLLEY UDINE (Under 17 femminile CT
+  Udine — girone C)
+LOCATION:Palestra Scuole Medie\, via Venezia 3\, GONARS UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-148dc136@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T153000
+DTEND;TZID=Europe/Rome:20261129T173000
+SUMMARY:GEMONA LA PERLA – AURORA VOLLEY UDINE (Under 15 maschile interter
+ ritoriale PN-UD — girone B)
+LOCATION:Palestra Comun. Porcians\, Via Liguria\, ARTEGNA UD
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-ff83f0ad@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T170000
+DTEND;TZID=Europe/Rome:20261129T190000
+SUMMARY:AURORA VOLLEY UDINE SI – VILLADIES SAFE MARINE (Under 19 femminil
+ e CT Udine — girone unico)
+LOCATION:Palestra Scuola Mazzini\, via Bariglaria 327\, UDINE
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-43bb515e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T210000
+DTEND;TZID=Europe/Rome:20261129T230000
+SUMMARY:A.S.D.ROJALESE – AURORA VOLLEY UDINE (Prima Divisione maschile CT
+  Udine — girone unico)
+LOCATION:Palestra Comunale\, Via Stadio\, Remugnano\, REANA DEL ROIALE UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-b5dcbe64@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261201T191500
+DTEND;TZID=Europe/Rome:20261201T211500
+SUMMARY:FVG VOLLEY ACADEMY JUNIOR – AURORA VOLLEY UD BA (Under 17 femmini
+ le CT Udine — girone A)
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-d-43859e93@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261201T193000
+DTEND;TZID=Europe/Rome:20261201T213000
+SUMMARY:VILLADIES – CLUB AURORA VOLLEY UDINE (Under 15 femminile CT Udine
+  — girone D)
+DESCRIPTION:Under 15 femminile CT Udine — girone D\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-21644966@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261201T193000
+DTEND;TZID=Europe/Rome:20261201T213000
+SUMMARY:AURORA VOLLEY UDINE – VOLLEYBAS UDINE (Under 15 maschile interter
+ ritoriale PN-UD — girone B)
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n5ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-abb0ba6e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261203T174500
+DTEND;TZID=Europe/Rome:20261203T194500
+SUMMARY:CLUB AURORA VOLLEY UDINE – VOLLEYBAS BLACK (Under 17 femminile CT
+  Udine — girone C)
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-b7b4e6be@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T170000
+DTEND;TZID=Europe/Rome:20261205T190000
+SUMMARY:PROJECTVOLLEY SANGIORGINA – AURORA VOLLEY UD AL (Under 17 femmini
+ le CT Udine — girone B)
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-dc8dc642@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T174500
+DTEND;TZID=Europe/Rome:20261205T194500
+SUMMARY:AURORA VOLLEY UDINE – FACTORY VOLLEY FAEDIS (Under 13 femminile C
+ T Udine — girone B)
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-05462932@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T200000
+DTEND;TZID=Europe/Rome:20261205T220000
+SUMMARY:AURORA VOLLEY UDINE – ART_CENTO VOLLEY (Seconda Divisione femmini
+ le CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n6ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-e08f20ce@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T094500
+DTEND;TZID=Europe/Rome:20261206T114500
+SUMMARY:CLUB AURORA VOLLEY UDINE – LIBERTAS MARTIGNACCO (Under 14 femmini
+ le CT Udine — girone B)
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-9ed8f863@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T110000
+DTEND;TZID=Europe/Rome:20261206T130000
+SUMMARY:CHEI DE VILE – AURORA VOLLEY UDINE SI (Under 19 femminile CT Udin
+ e — girone unico)
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-3f5f8a87@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T114500
+DTEND;TZID=Europe/Rome:20261206T134500
+SUMMARY:AURORA VOLLEY UD NI – LIBERTAS GONARS (Under 17 femminile CT Udin
+ e — girone C)
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-b-a7e94947@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T150000
+DTEND;TZID=Europe/Rome:20261206T170000
+SUMMARY:AURORA VOLLEY UD ARANCIO – A.S.D. STELLA VOLLEY (Under 15 femmini
+ le CT Udine — girone B)
+DESCRIPTION:Under 15 femminile CT Udine — girone B\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-8bf90353@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T183000
+DTEND;TZID=Europe/Rome:20261206T203000
+SUMMARY:CLUB AURORA VOLLEY UDINE – EUROVOLLEYSCHOOL (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n9ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-5ce4ca5e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T200000
+DTEND;TZID=Europe/Rome:20261206T220000
+SUMMARY:GEMONA LA PERLA – AURORA VOLLEY UDINE (Prima Divisione maschile C
+ T Udine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+END:VCALENDAR

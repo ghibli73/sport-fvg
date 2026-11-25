@@ -1,0 +1,183 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Intermek 3S Cordenons
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-a-8367282b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261026T184500
+DTEND;TZID=Europe/Rome:20261026T204500
+SUMMARY:Scuola Basket Miky Mian 81-71 AUTOSCUOLA CORDENONESE CORDENONS (Und
+ er 19 Maschile Gold — girone A)
+LOCATION:Palestra Mazzini\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-7335fe01@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261030T180000
+DTEND;TZID=Europe/Rome:20261030T200000
+SUMMARY:Libertas Fiume Veneto 133-15 3 S Basket Cordenons (Under 14 Maschil
+ e Regionale — girone PN/UD)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-04fffa7c@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261031T183000
+DTEND;TZID=Europe/Rome:20261031T203000
+SUMMARY:MEP Cividale 88-46 Economy Rent Cordenons (Under 17 Maschile Eccell
+ enza — girone unico)
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n5ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-7feb1869@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:INTERMEK CORDENONS 53-43 CENTRO SEDIA BASKET (Serie C maschile — 
+ girone D (prima fase))
+LOCATION:Palazzetto dello Sport\, Cordenons
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-e325227c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T203000
+DTEND;TZID=Europe/Rome:20261102T223000
+SUMMARY:AUTOSCUOLA CORDENONESE CORDENONS 85-73 BVO ANNONE (Under 19 Maschil
+ e Gold — girone A)
+LOCATION:Palazzetto dello Sport\, Cordenons
+DESCRIPTION:Under 19 Maschile Gold — girone A\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-54d0e8e5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T163000
+DTEND;TZID=Europe/Rome:20261107T183000
+SUMMARY:3 S Basket Cordenons 34-83 Pall. Codroipese (Under 14 Maschile Regi
+ onale — girone PN/UD)
+LOCATION:Palazzetto dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-c2efd0a3@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261107T193000
+DTEND;TZID=Europe/Rome:20261107T213000
+SUMMARY:POL. LIBERTAS ACLI 74-84 INTERMEK CORDENONS (Serie C maschile — g
+ irone D (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-e0ba0a82@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T203000
+DTEND;TZID=Europe/Rome:20261109T223000
+SUMMARY:AUTOSCUOLA CORDENONESE CORDENONS 72-86 SERVOLANA (Under 19 Maschile
+  Gold — girone A)
+LOCATION:Palazzetto dello Sport\, Cordenons
+DESCRIPTION:Under 19 Maschile Gold — girone A\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-0219a701@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:Azzano Basket 101-21 3 S Basket Cordenons (Under 14 Maschile Region
+ ale — girone PN/UD)
+LOCATION:Palazzetto Matteo Molent\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-9ec03ef8@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:INTERMEK CORDENONS 68-61 POLISPORTIVA VENEZIA GIULIA (Serie C masch
+ ile — girone D (prima fase))
+LOCATION:Palazzetto dello Sport\, Cordenons
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-56475abf@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T190000
+DTEND;TZID=Europe/Rome:20261116T210000
+SUMMARY:GP Engineering di Paron 65-72 AUTOSCUOLA CORDENONESE CORDENONS (Und
+ er 19 Maschile Gold — girone A)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 19 Maschile Gold — girone A\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-36489e2b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261130T173000
+DTEND;TZID=Europe/Rome:20261130T193000
+SUMMARY:Nuovo Basket 2000 – 3 S Basket Cordenons (Under 13 Maschile — g
+ irone PN A)
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+END:VCALENDAR

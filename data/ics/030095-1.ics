@@ -1,0 +1,274 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. Rive d'Arcano Flaibano
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-82147cc1@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:S.GOTTARDO 3-3 RIVE D ARCANO FLAIBANO (Under 18 regionali — giron
+ e A)
+DESCRIPTION:Under 18 regionali — girone A\n8ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-ecf5f126@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:RIVE D ARCANO FLAIBANO 1-0 PRO FAGAGNA (Under 19 regionali — giro
+ ne A)
+DESCRIPTION:Under 19 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-064492ea@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:RIVE D ARCANO FLAIBANO 2-2 MUGGIA 1967 (Under 18 regionali — giro
+ ne A)
+DESCRIPTION:Under 18 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-8fe1da35@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:SAN LUIGI CALCIO 2-4 RIVE D ARCANO FLAIBANO (Under 19 regionali —
+  girone A)
+DESCRIPTION:Under 19 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-b16d918f@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:RIVE D ARCANO FLAIBANO 9-1 DEPORTIVO JUNIOR (Under 14 provinciali 
+ — girone C)
+DESCRIPTION:Under 14 provinciali — girone C\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-16-provinciali-a-72e9238f@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:ANCONA LUMIGNACCO 3-3 RIVE D ARCANO FLAIBANO (Under 16 provinciali 
+ — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-2eab6e67@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:RIVE D ARCANO FLAIBANO 6-1 SERENISSIMA PRADAMANO (Under 17 provinci
+ ali — girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-482712ad@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:DEPORTIVO JUNIOR 0-1 RIVE D ARCANO FLAIBANO (Promozione — girone 
+ A)
+DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-dc08795e@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:RIVE D ARCANO FLAIBANO 3-1 MUGGIA 1967 (Under 19 regionali — giro
+ ne A)
+DESCRIPTION:Under 19 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-8c3e141b@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CUSSIGNACCO CALCIO 0-3 RIVE D ARCANO FLAIBANO (Promozione — giron
+ e A)
+DESCRIPTION:Promozione — girone A\n10ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-3e22f8fa@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:RIVE D ARCANO FLAIBANO 2-4 PALMARKET PAGNACCO (Under 14 provinciali
+  — girone C)
+DESCRIPTION:Under 14 provinciali — girone C\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-16-provinciali-a-d0715cbb@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:BRIAN LIGNANO CALCIO 1-2 RIVE D ARCANO FLAIBANO (Under 16 provincia
+ li — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-bccc9731@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:UNION MARTIGNACCO 1-0 RIVE D ARCANO FLAIBANO (Under 18 regionali 
+ — girone A)
+DESCRIPTION:Under 18 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-e05088f4@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:RIVE D ARCANO FLAIBANO 3-1 TOLMEZZO CARNIA (Under 19 regionali — 
+ girone A)
+DESCRIPTION:Under 19 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-da38bbde@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:RIVE D ARCANO FLAIBANO 1-1 SANT ANDREA SAN VITO (Under 18 regionali
+  — girone A)
+DESCRIPTION:Under 18 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-746eef69@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:TRIESTE VICTORY ACADEMY 2-5 RIVE D ARCANO FLAIBANO (Under 19 region
+ ali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-d4c2bde3@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:RIVE D ARCANO FLAIBANO 1-1 UNION PASIANO (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n11ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-6847bc15@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:DE AGOSTINI ACADEMY 10-1 RIVE D ARCANO FLAIBANO (Under 14 provincia
+ li — girone C)
+DESCRIPTION:Under 14 provinciali — girone C\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-16-provinciali-a-18c17404@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:RIVE D ARCANO FLAIBANO 3-0 FORUM JULII CALCIO (Under 16 provinciali
+  — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-33dace10@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:COMETAZZURRA 3-3 RIVE D ARCANO FLAIBANO (Under 17 provinciali — g
+ irone B)
+DESCRIPTION:Under 17 provinciali — girone B\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+END:VCALENDAR

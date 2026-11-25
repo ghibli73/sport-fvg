@@ -1,0 +1,242 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. C.S.D. Sokol (Sokol Zalet)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-8b2d92dc@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261029T210000
+DTEND;TZID=Europe/Rome:20261029T230000
+SUMMARY:AURA TRIESTE VOLLEY 3-0 SOKOL ZALET (Seconda Divisione femminile CT
+  Trieste-Gorizia — girone A)
+LOCATION:Palestra Stadio Rocco\, TRIESTE
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n3
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-eeaaf170@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T183000
+DTEND;TZID=Europe/Rome:20261031T203000
+SUMMARY:ZALET ZKB 0-3 OLYMPIA TRIESTE (Serie C femminile — girone unico)
+LOCATION:Centro Polisportivo Ervatti\, SGONICO TS
+DESCRIPTION:Serie C femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-c20dd05e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:ASD PALLAVOLO PIERIS 3-0 SOKOL ZALET (Under 17 femminile CT Trieste
+ -Gorizia — girone C)
+LOCATION:Palestra scuole medie\, SAN CANZIAN D'ISONZO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-b195d643@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:SOKOL ZALET 0-3 COSELLI 2D BLU (Seconda Divisione femminile CT Trie
+ ste-Gorizia — girone A)
+LOCATION:Palestra Comunale Savo Ušaj\, DUINO AURISINA TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n4
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-37063a7e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:TIKITAKA STARANZANO 3-0 ZALET ZKB (Serie C femminile — girone uni
+ co)
+LOCATION:Palasport\, Staranzano (GO)
+DESCRIPTION:Serie C femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-a2f62b71@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T180000
+DTEND;TZID=Europe/Rome:20261108T200000
+SUMMARY:SOKOL ZALET 3-0 UNICLIMA TSV CITY/CROSS (Under 17 femminile CT Trie
+ ste-Gorizia — girone C)
+LOCATION:Palestra Comunale Savo Ušaj\, DUINO AURISINA TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-3ed0acfb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T183000
+DTEND;TZID=Europe/Rome:20261114T203000
+SUMMARY:ZALET ZKB 0-3 CSI TARCENTO (Serie C femminile — girone unico)
+LOCATION:Centro Polisportivo Ervatti\, Sgonico (TS)
+DESCRIPTION:Serie C femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-0dd669ae@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T163000
+DTEND;TZID=Europe/Rome:20261115T183000
+SUMMARY:MAVRICA 3-1 SOKOL ZALET (Seconda Divisione femminile CT Trieste-Gor
+ izia — girone A)
+LOCATION:Palestra Comunale S. Andrea\, GORIZIA GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n5
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-d799708d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T210000
+DTEND;TZID=Europe/Rome:20261120T230000
+SUMMARY:INTREPIDA 1-3 SOKOL ZALET (Seconda Divisione femminile CT Trieste-G
+ orizia — girone A)
+LOCATION:Palestra Comunale\, MARIANO DEL FRIULI GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n6
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-9ea57be3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T203000
+DTEND;TZID=Europe/Rome:20261121T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA 3-1 ZALET ZKB (Serie C femminile — giro
+ ne unico)
+LOCATION:Palazzetto dello Sport\, San Giorgio di Nogaro (UD)
+DESCRIPTION:Serie C femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-6d441fc3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T170000
+DTEND;TZID=Europe/Rome:20261122T190000
+SUMMARY:CENTRO COSELLI U17X 3-0 SOKOL ZALET (Under 17 femminile CT Trieste-
+ Gorizia — girone C)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-970d6da6@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261125T190000
+DTEND;TZID=Europe/Rome:20261125T210000
+SUMMARY:SOKOL ZALET – U.S. AZZURRA (Under 17 femminile CT Trieste-Gorizia
+  — girone C)
+LOCATION:Palestra Comunale Savo Ušaj\, AURISINA CAVE 12\, DUINO AURISINA T
+ S
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-4c306bac@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T183000
+DTEND;TZID=Europe/Rome:20261128T203000
+SUMMARY:ZALET ZKB – PAV NATISONIA (Serie C femminile — girone unico)
+LOCATION:Centro Polisportivo Ervatti\, Località Borgo Grotta Gigante 67\, 
+ Sgonico (TS)
+DESCRIPTION:Serie C femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-71acbabd@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T191500
+DTEND;TZID=Europe/Rome:20261128T211500
+SUMMARY:ASD OFP AZZURRA RDR CIELO – SOKOL ZALET (Seconda Divisione femmin
+ ile CT Trieste-Gorizia — girone A)
+LOCATION:Palestra Don Marzari\, LARGO PAPA GIOVANNI XXIII 7\, TRIESTE TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n7
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-dad7c59d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T183000
+DTEND;TZID=Europe/Rome:20261205T203000
+SUMMARY:SOKOL ZALET – UNICLIMA TSV (Seconda Divisione femminile CT Triest
+ e-Gorizia — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n8
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-7ff52b81@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T203000
+DTEND;TZID=Europe/Rome:20261205T223000
+SUMMARY:ZALET ZKB – CHIARVESIO CHEI DE VILE (Serie C femminile — girone
+  unico)
+DESCRIPTION:Serie C femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+END:VCALENDAR

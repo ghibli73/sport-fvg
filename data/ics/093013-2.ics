@@ -1,0 +1,785 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Chions Fiume Volley ASD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-84163570@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T170000
+DTEND;TZID=Europe/Rome:20261031T190000
+SUMMARY:AZ AG TEDESCO TAMARA ZOPP 0-3 CFV - DAP (Under 14 femminile CT Pord
+ enone — girone A)
+LOCATION:Palestra Scuole Medie\, ZOPPOLA PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-18beb9f6@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T190000
+DTEND;TZID=Europe/Rome:20261031T210000
+SUMMARY:CFV - FRIULTEX 3-1 APC LIFETIME CENTER CINTO (Prima Divisione femmi
+ nile CT Pordenone — girone unico)
+LOCATION:Palasport Villotta\, Villotta CHIONS PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n3ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-df044e64@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T103000
+DTEND;TZID=Europe/Rome:20261101T123000
+SUMMARY:CFV - BIOBIM 3-0 PALLAVOLO BRUGNERA 96 (Under 15 femminile CT Porde
+ none — girone B)
+LOCATION:Palasport Villotta\, Villotta CHIONS PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-a-0f0bc452@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T150000
+DTEND;TZID=Europe/Rome:20261101T170000
+SUMMARY:CFV - FULL SERVICE 3-0 TREVISAN MET. JUNIOR (Under 15 femminile CT 
+ Pordenone — girone A)
+LOCATION:Palasport Villotta\, Villotta CHIONS PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone A\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-a-116b0912@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:CFV - AXA CAICCO 3-0 MAEG U17 (Under 17 femminile CT Pordenone — 
+ girone A)
+LOCATION:Palasport Villotta\, Villotta CHIONS PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone A\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-8c068e55@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T183000
+DTEND;TZID=Europe/Rome:20261101T203000
+SUMMARY:ROJALKENNEDY PRIMACASSA 0-3 CFV - MT ECOSERVICE (Serie D femminile 
+ — girone unico)
+LOCATION:Palestra Comunale\, REANA DEL ROIALE UD
+DESCRIPTION:Serie D femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-4af89273@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T200000
+DTEND;TZID=Europe/Rome:20261104T220000
+SUMMARY:CFV - TENUTA POLVARO 3-0 SAN QUIRINO UNION VOLLEY (Under 17 femmini
+ le CT Pordenone — girone B)
+LOCATION:Palestra Scuola Elementare "Cesare Battisti"\, FIUME VENETO PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-f8967350@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T203000
+DTEND;TZID=Europe/Rome:20261104T223000
+SUMMARY:CFV - MT ECOSERVICE 3-0 VERO SRL MANIAGO (Serie D femminile — gir
+ one unico)
+LOCATION:Palasport Villotta\, Chions (PN)
+DESCRIPTION:Serie D femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-13-femminile-pn-girone-a-24462fb4@zuin-fv
+ g
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T153000
+DTEND;TZID=Europe/Rome:20261107T173000
+SUMMARY:CFV - VRC COSTRUZIONI 3-0 VIS ET VIRTUS ROVEREDO (Coppa Autunno Und
+ er 13 femminile CT Pordenone — girone A)
+LOCATION:Palasport Villotta\, Villotta CHIONS PN
+DESCRIPTION:Coppa Autunno Under 13 femminile CT Pordenone — girone A\n1ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-coppa-autunno-under-13-femminile-pn-girone-
+ a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 3-femminile-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-a-744206d7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T153000
+DTEND;TZID=Europe/Rome:20261107T173000
+SUMMARY:BLU VOLLEY PORDENONE 0-3 CFV - FULL SERVICE (Under 15 femminile CT 
+ Pordenone — girone A)
+LOCATION:Palestra Borgomeduna\, PORDENONE PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone A\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-a-696b7cb8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T163000
+DTEND;TZID=Europe/Rome:20261107T183000
+SUMMARY:AQUILA SPILIMBERGO 0-3 CFV - AXA CAICCO (Under 17 femminile CT Pord
+ enone — girone A)
+LOCATION:Palestra Scuole Medie\, SPILIMBERGO PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone A\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-c311c015@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T170000
+DTEND;TZID=Europe/Rome:20261107T190000
+SUMMARY:PALLAVOLO BRUGNERA 96 3-2 CFV - TENUTA POLVARO (Under 17 femminile 
+ CT Pordenone — girone B)
+LOCATION:Palestra Scuole Elementari\, BRUGNERA PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-ca05b6fe@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:MIDA AD AVIANO 1-3 CFV - FRIULTEX (Prima Divisione femminile CT Por
+ denone — girone unico)
+LOCATION:Palasport\, AVIANO PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n4ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-829780c9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:PALLAVOLO BRUGNERA 96 0-3 CFV - MT ECOSERVICE (Serie D femminile 
+ — girone unico)
+LOCATION:Palestra Scuole Elementari\, Tamai di Brugnera (PN)
+DESCRIPTION:Serie D femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-858dbe64@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T103000
+DTEND;TZID=Europe/Rome:20261108T123000
+SUMMARY:CFV - DAP 3-0 A.P. TRAVESIO (Under 14 femminile CT Pordenone — gi
+ rone A)
+LOCATION:Palasport Villotta\, Villotta CHIONS PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-ec8609d0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T103000
+DTEND;TZID=Europe/Rome:20261108T123000
+SUMMARY:LIBERTAS FIUME VENETO U15 3-0 CFV - BIOBIM (Under 15 femminile CT P
+ ordenone — girone B)
+LOCATION:Palestra Scuola Elementare "Cesare Battisti"\, FIUME VENETO PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-13-femminile-pn-girone-b-dfe94567@zuin-fv
+ g
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T153000
+DTEND;TZID=Europe/Rome:20261108T173000
+SUMMARY:PSG DOMOVIP PORCIA 3-0 CFV - B.A. COSTRUZIONI (Coppa Autunno Under 
+ 13 femminile CT Pordenone — girone B)
+LOCATION:Palestra Comunale F. Cornacchia\, PORCIA PN
+DESCRIPTION:Coppa Autunno Under 13 femminile CT Pordenone — girone B\n1ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-coppa-autunno-under-13-femminile-pn-girone-
+ b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 3-femminile-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-266e9f02@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261110T203000
+DTEND;TZID=Europe/Rome:20261110T223000
+SUMMARY:PORDENONE VOLLEY 0-3 CFV - FRIULTEX (Prima Divisione femminile CT P
+ ordenone — girone unico)
+LOCATION:Palestra Borgomeduna\, Pordenone PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n5ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-pn-8ff04376@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261110T203000
+DTEND;TZID=Europe/Rome:20261110T223000
+SUMMARY:AUTOTORINO SPILIMBERGO 0-3 CFV - TREDI (Under 19 femminile CT Porde
+ none — girone unico)
+LOCATION:Palestra Scuole Medie\, Spilimbergo PN
+DESCRIPTION:Under 19 femminile CT Pordenone — girone unico\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-under-19-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-0a74aace@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261111T200000
+DTEND;TZID=Europe/Rome:20261111T220000
+SUMMARY:CFV - TENUTA POLVARO 3-0 PORDENONE VOLLEY (Under 17 femminile CT Po
+ rdenone — girone B)
+LOCATION:Palestra Scuola Elementare "Cesare Battisti"\, Fiume Veneto PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-13-femminile-pn-girone-b-9b286343@zuin-fv
+ g
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T153000
+DTEND;TZID=Europe/Rome:20261114T173000
+SUMMARY:CFV - B.A. COSTRUZIONI 1-2 U13 Degusto Wine bar (Coppa Autunno Unde
+ r 13 femminile CT Pordenone — girone B)
+LOCATION:Palestra Scuola Elementare "Cesare Battisti"\, Fiume Veneto PN
+DESCRIPTION:Coppa Autunno Under 13 femminile CT Pordenone — girone B\n2ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-coppa-autunno-under-13-femminile-pn-girone-
+ b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 3-femminile-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-b213dd20@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T163000
+DTEND;TZID=Europe/Rome:20261114T183000
+SUMMARY:CFV - BIOBIM 3-2 THE GAMMON U15 (Under 15 femminile CT Pordenone 
+ — girone B)
+LOCATION:Palasport Villotta\, Chions PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-a-f6838030@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T170000
+DTEND;TZID=Europe/Rome:20261114T190000
+SUMMARY:FERRAMENTA LUCCHESE GIS 0-3 CFV - FULL SERVICE (Under 15 femminile 
+ CT Pordenone — girone A)
+LOCATION:Pal. Sport "Piccin"\, Sacile PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone A\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-14041069@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T190000
+DTEND;TZID=Europe/Rome:20261114T210000
+SUMMARY:CFV - MT ECOSERVICE 1-3 SOCA LOKANDA DEVETAK ZKB (Serie D femminile
+  — girone unico)
+LOCATION:Palasport Villotta\, Chions (PN)
+DESCRIPTION:Serie D femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-13-femminile-pn-girone-a-934c9be9@zuin-fv
+ g
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T090000
+DTEND;TZID=Europe/Rome:20261115T110000
+SUMMARY:PARPINELLI 0-3 CFV - VRC COSTRUZIONI (Coppa Autunno Under 13 femmin
+ ile CT Pordenone — girone A)
+LOCATION:Palestra G. Grizzo\, Villa D'Arco Cordenons PN
+DESCRIPTION:Coppa Autunno Under 13 femminile CT Pordenone — girone A\n2ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-coppa-autunno-under-13-femminile-pn-girone-
+ a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 3-femminile-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-60b6e098@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T173000
+DTEND;TZID=Europe/Rome:20261115T193000
+SUMMARY:A.P. TRAVESIO 0-3 CFV - FRIULTEX (Prima Divisione femminile CT Pord
+ enone — girone unico)
+LOCATION:Palestra Scuole Medie\, Travesio PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n6ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-pn-7060ae81@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261117T191500
+DTEND;TZID=Europe/Rome:20261117T211500
+SUMMARY:CFV - TREDI 3-0 Union Volley Academy Pn (Under 19 femminile CT Pord
+ enone — girone unico)
+LOCATION:Palestra Scuola Elementare "Cesare Battisti"\, Fiume Veneto (PN)
+DESCRIPTION:Under 19 femminile CT Pordenone — girone unico\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-under-19-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-a-ad395264@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261118T200000
+DTEND;TZID=Europe/Rome:20261118T220000
+SUMMARY:CFV - AXA CAICCO 3-0 ECONOMY RENT (Under 17 femminile CT Pordenone 
+ — girone A)
+LOCATION:Palestra Scuola Elementare "Cesare Battisti"\, Fiume Veneto (PN)
+DESCRIPTION:Under 17 femminile CT Pordenone — girone A\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-bdd4a937@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T163000
+DTEND;TZID=Europe/Rome:20261121T183000
+SUMMARY:MANIAGO VOLLEY 3-0 CFV - BIOBIM (Under 15 femminile CT Pordenone 
+ — girone B)
+LOCATION:Palasport\, Maniago (PN)
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-dbd0ce25@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T200000
+DTEND;TZID=Europe/Rome:20261121T220000
+SUMMARY:ASD PALLAVOLO MOSSA 1-3 CFV - MT ECOSERVICE (Serie D femminile — 
+ girone unico)
+LOCATION:Palestra Comunale\, Mossa (GO)
+DESCRIPTION:Serie D femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-5130266a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T114500
+DTEND;TZID=Europe/Rome:20261122T134500
+SUMMARY:CFV - DAP 3-0 GSD FAVRIA SAN VITO AL T. (Under 14 femminile CT Pord
+ enone — girone A)
+LOCATION:Palasport Villotta\, Chions (PN)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-13-femminile-pn-girone-a-712eac7b@zuin-fv
+ g
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T150000
+DTEND;TZID=Europe/Rome:20261122T170000
+SUMMARY:LIBERTAS FIUME V. U13 0-3 CFV - VRC COSTRUZIONI (Coppa Autunno Unde
+ r 13 femminile CT Pordenone — girone A)
+LOCATION:Palazzetto dello Sport\, Fiume Veneto (PN)
+DESCRIPTION:Coppa Autunno Under 13 femminile CT Pordenone — girone A\n3ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-coppa-autunno-under-13-femminile-pn-girone-
+ a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 3-femminile-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-23761e2a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T170000
+DTEND;TZID=Europe/Rome:20261122T190000
+SUMMARY:MANIAGO VOLLEY 2-3 CFV - TENUTA POLVARO (Under 17 femminile CT Pord
+ enone — girone B)
+LOCATION:Palasport\, Maniago (PN)
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-31340a06@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T180000
+DTEND;TZID=Europe/Rome:20261122T200000
+SUMMARY:CFV - FRIULTEX 3-1 ALTA RESA (Prima Divisione femminile CT Pordenon
+ e — girone unico)
+LOCATION:Palasport Villotta\, Chions (PN)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n7ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-13-femminile-pn-girone-b-a2873686@zuin-fv
+ g
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261124T180000
+DTEND;TZID=Europe/Rome:20261124T200000
+SUMMARY:POLISPORTIVA MONTEREALE 0-3 CFV - B.A. COSTRUZIONI (Coppa Autunno U
+ nder 13 femminile CT Pordenone — girone B)
+LOCATION:Palazzetto dello Sport\, via Stazione\, MONTEREALE VALCELLINA PN
+DESCRIPTION:Coppa Autunno Under 13 femminile CT Pordenone — girone B\n3ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-coppa-autunno-under-13-femminile-pn-girone-
+ b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 3-femminile-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-pn-26a03ada@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261124T193000
+DTEND;TZID=Europe/Rome:20261124T213000
+SUMMARY:CFV - TREDI 3-0 PSG FB TANKS (Under 19 femminile CT Pordenone — g
+ irone unico)
+LOCATION:Palestra Scuola Elementare "Cesare Battisti"\, Via Conti Ricchieri
+  3\, FIUME VENETO PN
+DESCRIPTION:Under 19 femminile CT Pordenone — girone unico\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-under-19-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-6478b66e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261125T200000
+DTEND;TZID=Europe/Rome:20261125T220000
+SUMMARY:CFV - TENUTA POLVARO – GSD FAVRIA SAN VITO AL T. (Under 17 femmin
+ ile CT Pordenone — girone B)
+LOCATION:Palestra Scuola Elementare "Cesare Battisti"\, Via Conti Ricchieri
+  3\, FIUME VENETO PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-13-femminile-pn-girone-a-3abdeb0d@zuin-fv
+ g
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T153000
+DTEND;TZID=Europe/Rome:20261128T173000
+SUMMARY:MANIAGO VOLLEY – CFV - VRC COSTRUZIONI (Coppa Autunno Under 13 fe
+ mminile CT Pordenone — girone A)
+LOCATION:Palasport\, via Marco Polo 37\, MANIAGO PN
+DESCRIPTION:Coppa Autunno Under 13 femminile CT Pordenone — girone A\n4ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-coppa-autunno-under-13-femminile-pn-girone-
+ a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 3-femminile-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-13-femminile-pn-girone-b-d7d2ad5b@zuin-fv
+ g
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T153000
+DTEND;TZID=Europe/Rome:20261128T173000
+SUMMARY:CFV - B.A. COSTRUZIONI – AQUILA SPILIMBERGO GREEN (Coppa Autunno 
+ Under 13 femminile CT Pordenone — girone B)
+LOCATION:Palestra Scuola Elementare "Cesare Battisti"\, Via Conti Ricchieri
+  3\, FIUME VENETO PN
+DESCRIPTION:Coppa Autunno Under 13 femminile CT Pordenone — girone B\n4ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-coppa-autunno-under-13-femminile-pn-girone-
+ b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 3-femminile-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-b9e8ef64@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:ECOCOSTRUZIONI GSD FAVRIA – CFV - FRIULTEX (Prima Divisione femmi
+ nile CT Pordenone — girone unico)
+LOCATION:Palasport\, Via Roma\, SAN VITO AL TAGLIAMENTO PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n8ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-6e4bf3f9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T190000
+DTEND;TZID=Europe/Rome:20261128T210000
+SUMMARY:CFV - MT ECOSERVICE – CLUB AURORA VOLLEY UDINE (Serie D femminile
+  — girone unico)
+LOCATION:Palasport Villotta\, Via Italia 1\, Villotta di Chions (PN)
+DESCRIPTION:Serie D femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-c456ffba@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T103000
+DTEND;TZID=Europe/Rome:20261129T123000
+SUMMARY:CFV - BIOBIM – SERENISSIMA GOMME GIS (Under 15 femminile CT Porde
+ none — girone B)
+LOCATION:Palasport Villotta\, Via Italia 1\, Villotta\, CHIONS PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-a-9c902819@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T113000
+DTEND;TZID=Europe/Rome:20261129T133000
+SUMMARY:PSG DOMOVIP PORCIA – CFV - AXA CAICCO (Under 17 femminile CT Pord
+ enone — girone A)
+LOCATION:Palestra Comunale F. Cornacchia\, Via De Pellegrini 17\, PORCIA PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone A\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-63bdcbe8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T150000
+DTEND;TZID=Europe/Rome:20261129T170000
+SUMMARY:AUTOFFICINA CORDENONESE – CFV - DAP (Under 14 femminile CT Porden
+ one — girone A)
+LOCATION:Palasport\, Via Avellaneda 7\, CORDENONS PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-pn-c39c033c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261201T191500
+DTEND;TZID=Europe/Rome:20261201T211500
+SUMMARY:CFV - TREDI – PORDENONE VOLLEY (Under 19 femminile CT Pordenone 
+ — girone unico)
+DESCRIPTION:Under 19 femminile CT Pordenone — girone unico\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-under-19-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-56dfc93a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261202T200000
+DTEND;TZID=Europe/Rome:20261202T220000
+SUMMARY:CFV - TENUTA POLVARO – FAROUT (Under 17 femminile CT Pordenone 
+ — girone B)
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ff9088f7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261203T203000
+DTEND;TZID=Europe/Rome:20261203T223000
+SUMMARY:MASCHIO PALLAVOLO BUIA – CFV - MT ECOSERVICE (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n9ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-13-femminile-pn-girone-b-64a67b2b@zuin-fv
+ g
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T173000
+DTEND;TZID=Europe/Rome:20261204T193000
+SUMMARY:SAN QUIRINO VOLLEY – CFV - B.A. COSTRUZIONI (Coppa Autunno Under 
+ 13 femminile CT Pordenone — girone B)
+DESCRIPTION:Coppa Autunno Under 13 femminile CT Pordenone — girone B\n5ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-coppa-autunno-under-13-femminile-pn-girone-
+ b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 3-femminile-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-13-femminile-pn-girone-a-9be9478c@zuin-fv
+ g
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T153000
+DTEND;TZID=Europe/Rome:20261205T173000
+SUMMARY:CFV - VRC COSTRUZIONI – AQUILA SPILIMBERGO (Coppa Autunno Under 1
+ 3 femminile CT Pordenone — girone A)
+DESCRIPTION:Coppa Autunno Under 13 femminile CT Pordenone — girone A\n5ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-coppa-autunno-under-13-femminile-pn-girone-
+ a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 3-femminile-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-e1cf9caf@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T190000
+DTEND;TZID=Europe/Rome:20261205T210000
+SUMMARY:CFV - FRIULTEX – BIELECTRA (Prima Divisione femminile CT Pordenon
+ e — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n9ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-e9cd30e0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T103000
+DTEND;TZID=Europe/Rome:20261206T123000
+SUMMARY:MANIAGO VOLLEY – CFV - DAP (Under 14 femminile CT Pordenone — g
+ irone A)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-2dbf05d1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T103000
+DTEND;TZID=Europe/Rome:20261206T123000
+SUMMARY:CFV - BIOBIM – PORDENONE VOLLEY (Under 15 femminile CT Pordenone 
+ — girone B)
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-a-702eec39@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T150000
+DTEND;TZID=Europe/Rome:20261206T170000
+SUMMARY:CFV - FULL SERVICE – CASAMERCATO VOLLEY (Under 15 femminile CT Po
+ rdenone — girone A)
+DESCRIPTION:Under 15 femminile CT Pordenone — girone A\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-a-b07c724a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:CFV - AXA CAICCO – AUTOF DALLA VALLE ZOPPOLA (Under 17 femminile 
+ CT Pordenone — girone A)
+DESCRIPTION:Under 17 femminile CT Pordenone — girone A\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-a
+END:VEVENT
+END:VCALENDAR

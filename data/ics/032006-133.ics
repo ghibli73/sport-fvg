@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · C.M.B. Arcobaleno Trieste
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-gold-c-299e1c43@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:C.M.B. ARCOBALENO TRIESTE 88-73 WEB SBaMM (Under 14 Maschile Gold 
+ — girone C (prima fase))
+LOCATION:Pal. I.T. Leonardo da Vinci\, Trieste
+DESCRIPTION:Under 14 Maschile Gold — girone C (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-1db77ec2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T100000
+DTEND;TZID=Europe/Rome:20261101T120000
+SUMMARY:C.M.B. ARCOBALENO TRIESTE White 114-38 FALCONSTAR BASKET (Under 13 
+ Maschile — girone GO/TS A)
+LOCATION:Pal. I.T. Leonardo da Vinci\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n1ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-313b0278@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261106T180000
+DTEND;TZID=Europe/Rome:20261106T200000
+SUMMARY:BREG 11-105 C.M.B. ARCOBALENO TRIESTE Black (Under 13 Maschile — 
+ girone GO/TS A)
+LOCATION:Palestra 'S. Klabjan'\, San Dorligo della Valle
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n2ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-a44f3a4e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T090000
+DTEND;TZID=Europe/Rome:20261107T110000
+SUMMARY:C.M.B. ARCOBALENO TRIESTE 2015 47-113 C.M.B. ARCOBALENO TRIESTE Whi
+ te (Under 13 Maschile — girone GO/TS A)
+LOCATION:Pal. Liceo "G. Oberdan"\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n2ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-5b10f0dd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:U.S.D. DON BOSCO 67-58 C.M.B. ARCOBALENO TRIESTE 2015 (Under 13 Mas
+ chile — girone GO/TS A)
+LOCATION:Pal. Oratorio "Don Bosco"\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n3ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-78091351@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T193000
+DTEND;TZID=Europe/Rome:20261125T213000
+SUMMARY:U.S.D. DON BOSCO – C.M.B. ARCOBALENO TRIESTE White (Under 13 Masc
+ hile — girone GO/TS A)
+LOCATION:Pal. Oratorio "Don Bosco"\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n4ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-b9339dfd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261202T163000
+DTEND;TZID=Europe/Rome:20261202T183000
+SUMMARY:C.M.B. ARCOBALENO TRIESTE Black – PALL. INTERCLUB MUGGIA (Under 1
+ 3 Maschile — girone GO/TS A)
+LOCATION:Pal. Liceo "G. Oberdan"\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n3ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-fb982768@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261212T100000
+DTEND;TZID=Europe/Rome:20261212T120000
+SUMMARY:C.M.B. ARCOBALENO TRIESTE White – BREG (Under 13 Maschile — gir
+ one GO/TS A)
+LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n3ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,195 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Sistema Basket Pordenone
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-b-af7fe133@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261026T210000
+DTEND;TZID=Europe/Rome:20261026T230000
+SUMMARY:Sistema BK Pordenone - BCC Pordenonese 101-39 Pol. Casarsa (Under 1
+ 9 Maschile Gold — girone B)
+LOCATION:Palasport "Crisafulli"\, Pordenone
+DESCRIPTION:Under 19 Maschile Gold — girone B\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-ed1a80bd@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261028T201500
+DTEND;TZID=Europe/Rome:20261028T221500
+SUMMARY:Pallacanestro Trieste 2004 76-82 BCC Pordenonese Monsile (Under 17 
+ Maschile Eccellenza — girone unico)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n4ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-53e257a5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T110000
+DTEND;TZID=Europe/Rome:20261031T130000
+SUMMARY:Basket Maniago 0-20 Sistema BK Pordenone (Under 13 Maschile — gir
+ one PN A)
+LOCATION:Palazzetto dello Sport\, Maniago
+DESCRIPTION:Under 13 Maschile — girone PN A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-2a150555@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261031T193000
+DTEND;TZID=Europe/Rome:20261031T213000
+SUMMARY:BCC Pordenonese Monsile 86-77 Gas Più Energie srl (Under 15 Maschi
+ le Eccellenza — girone unico)
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n5ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-bfeb3f0e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:POLISPORTIVA CONCORDIA 76-43 SISTEMA BK PORDENONE - BCC (Under 15 M
+ aschile Regionale — girone PN)
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n2ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-75e3c74e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T201500
+DTEND;TZID=Europe/Rome:20261103T221500
+SUMMARY:Fly Solartech Icarus 83-89 Sistema BK Pordenone - BCC Pordenonese (
+ Under 19 Maschile Gold — girone B)
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone B\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-b3143fab@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261104T200000
+DTEND;TZID=Europe/Rome:20261104T220000
+SUMMARY:APU Next Gen 77-79 BCC Pordenonese Monsile (Under 17 Maschile Eccel
+ lenza — girone unico)
+LOCATION:Palasport Primo Carnera\, Udine
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n5ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-b-interregionale-girone-b-c37dec6e@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:SISTEMA Bk PORDENONE 80-73 ECOPROJECT TECHNOLOGIES (Serie B Interre
+ gionale — girone B)
+DESCRIPTION:Serie B Interregionale — girone B\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-b-interregionale-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-b-interregionale-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-feb40245@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T210000
+DTEND;TZID=Europe/Rome:20261109T230000
+SUMMARY:Sistema BK Pordenone - BCC Pordenonese 83-60 U.S.D. Jadran (Under 1
+ 9 Maschile Gold — girone B)
+LOCATION:Palasport "Crisafulli"\, Pordenone
+DESCRIPTION:Under 19 Maschile Gold — girone B\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-46dd656c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T204500
+DTEND;TZID=Europe/Rome:20261111T224500
+SUMMARY:Sistema BK Pordenone 73-67 Polisigma (Under 19 Maschile Regionale 
+ — girone PN B (prima fase))
+LOCATION:Pal. Sc. Medie Villanova\, Pordenone
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n1ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-74fe7b26@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T171500
+DTEND;TZID=Europe/Rome:20261116T191500
+SUMMARY:Nuovo Basket 2000 96-14 Sistema BK Pordenone (Under 13 Maschile —
+  girone PN A)
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-c27ecc17@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261117T204500
+DTEND;TZID=Europe/Rome:20261117T224500
+SUMMARY:Udine Basket Club 53-87 Sistema BK Pordenone - BCC Pordenonese (Und
+ er 19 Maschile Gold — girone B)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone B\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-eb534419@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T204500
+DTEND;TZID=Europe/Rome:20261125T224500
+SUMMARY:Sistema BK Pordenone – Torre Basket (Under 19 Maschile Regionale 
+ — girone PN B (prima fase))
+LOCATION:Pal. Sc. Medie Villanova\, Pordenone
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n4ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+END:VCALENDAR

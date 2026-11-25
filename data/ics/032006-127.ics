@@ -1,0 +1,737 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.P.S. Triestina Volley
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-9a3fcbb1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261029T203000
+DTEND;TZID=Europe/Rome:20261029T223000
+SUMMARY:ASD PALLAVOLO GRADO 2-3 MAMACA TSV BOOMER (Seconda Divisione femmin
+ ile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Buda Dancevich\, GRADO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n3
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-ac34ede6@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T110000
+DTEND;TZID=Europe/Rome:20261031T130000
+SUMMARY:CENTRO COSELLI U15 3-0 UNICLIMA TSV CROSS (Under 15 femminile CT Tr
+ ieste-Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-0c22f252@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T153000
+DTEND;TZID=Europe/Rome:20261031T173000
+SUMMARY:UNICLIMA TSV CITY/CROSS 0-3 U.S. AZZURRA (Under 17 femminile CT Tri
+ este-Gorizia — girone C)
+LOCATION:Palestra Liceo Oberdan\, TRIESTE
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-0105dfd0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T173000
+DTEND;TZID=Europe/Rome:20261031T193000
+SUMMARY:TRE MERLI VOLLEY 1-3 SIEL IL POZZO (Serie C maschile — girone uni
+ co)
+LOCATION:Palestra Vascotto (ex Suvich)\, TRIESTE TS
+DESCRIPTION:Serie C maschile — girone unico\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-a45b627e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T200000
+DTEND;TZID=Europe/Rome:20261031T220000
+SUMMARY:ARCOBALENO MAVRICA MUCCI 0-3 UNICLIMA TSV (Prima Divisione femminil
+ e CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Comunale S. Andrea\, GORIZIA
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 1ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-e75b2316@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T203000
+DTEND;TZID=Europe/Rome:20261031T223000
+SUMMARY:UNICLIMA TSV 3-1 ASD OFP AZZURRA RDR CIELO (Seconda Divisione femmi
+ nile CT Trieste-Gorizia — girone A)
+LOCATION:Palestra Vascotto (ex Suvich)\, TRIESTE
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n3
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-c6401e63@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:UNICLIMA TSV CITY 0-3 ASD OFP AZZURRA RDR LUCE (Under 15 femminile 
+ CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Liceo Galilei\, TRIESTE
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-b66a5780@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T203000
+DTEND;TZID=Europe/Rome:20261104T223000
+SUMMARY:MARCOLIN ARREDAMENTI SV 3-1 TRE MERLI VOLLEY (Serie C maschile — 
+ girone unico)
+LOCATION:Palasport\, San Vito al Tagliamento (PN)
+DESCRIPTION:Serie C maschile — girone unico\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-199a016d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T210000
+DTEND;TZID=Europe/Rome:20261104T230000
+SUMMARY:TIGERS RONCHI EVOLUTION 0-3 UNICLIMA TSV (Prima Divisione femminile
+  CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Polifunzionale\, VERMEGLIANO RONCHI DEI LEGIONARI GO
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 2ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-68b4f7a6@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T210000
+DTEND;TZID=Europe/Rome:20261104T230000
+SUMMARY:MAMACA TSV BOOMER 3-0 ASD LE VOLPI (Seconda Divisione femminile CT 
+ Trieste-Gorizia — girone B)
+LOCATION:Palestra Scuola Media De Tommasini\, TRIESTE TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n4
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-417c7197@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T173000
+DTEND;TZID=Europe/Rome:20261107T193000
+SUMMARY:TRE MERLI VOLLEY 0-3 SLOVOLLEY ZKB (Serie C maschile — girone uni
+ co)
+LOCATION:Palestra Vascotto (ex Suvich)\, Trieste (TS)
+DESCRIPTION:Serie C maschile — girone unico\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-46cb71cc@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:UNICLIMA TSV 2-3 MAVRICA (Seconda Divisione femminile CT Trieste-Go
+ rizia — girone A)
+LOCATION:Palestra Vascotto (ex Suvich)\, TRIESTE TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n4
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-aa06248d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T103000
+DTEND;TZID=Europe/Rome:20261108T123000
+SUMMARY:SOCA PAOLA 2.0 3-0 UNICLIMA TSV CROSS (Under 15 femminile CT Triest
+ e-Gorizia — girone A)
+LOCATION:Palestra Comunale\, DOBERDO' DEL LAGO GO
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-3dd23c78@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:UNICLIMA TSV CITY 1-3 CASSA RURALE FVG TURRIACO (Under 15 femminile
+  CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Liceo Galilei\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-a2f62b71@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T180000
+DTEND;TZID=Europe/Rome:20261108T200000
+SUMMARY:SOKOL ZALET 3-0 UNICLIMA TSV CITY/CROSS (Under 17 femminile CT Trie
+ ste-Gorizia — girone C)
+LOCATION:Palestra Comunale Savo Ušaj\, DUINO AURISINA TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-ba66ccbd@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T200000
+DTEND;TZID=Europe/Rome:20261113T220000
+SUMMARY:FARRAVOLO 3-1 UNICLIMA TSV (Seconda Divisione femminile CT Trieste-
+ Gorizia — girone A)
+LOCATION:Palestra Comunale\, FARRA D'ISONZO GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n5
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-fff5b29a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:COSELLI 2D ARANCIONE 3-0 MAMACA TSV BOOMER (Seconda Divisione femmi
+ nile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n5
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-9d5414ae@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T153000
+DTEND;TZID=Europe/Rome:20261114T173000
+SUMMARY:UNICLIMA TSV CROSS 0-3 TIGERS PALLAVOLO RONCHI (Under 15 femminile 
+ CT Trieste-Gorizia — girone A)
+LOCATION:Palestra Liceo Galilei\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-6b459f55@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T173000
+DTEND;TZID=Europe/Rome:20261114T193000
+SUMMARY:TRE MERLI VOLLEY 3-0 BUTTERFLY FINCANTIERI (Serie C maschile — gi
+ rone unico)
+LOCATION:Palestra Vascotto (ex Suvich)\, Trieste (TS)
+DESCRIPTION:Serie C maschile — girone unico\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-9ed4523f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:UNICLIMA TSV 1-3 CENTRO COSELLI 1D (Prima Divisione femminile CT Tr
+ ieste-Gorizia — girone unico)
+LOCATION:Palestra Vascotto (ex Suvich)\, TRIESTE TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 3ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-ac151a0f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:UNICLIMA TSV 0-3 FARRAVOLO (Under 19 femminile CT Trieste-Gorizia 
+ — girone A)
+LOCATION:Palestra Liceo Galilei\, TRIESTE TS
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-tsgo-fd12bce5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261116T200000
+DTEND;TZID=Europe/Rome:20261116T220000
+SUMMARY:GRUPPO DIMORE FINCANTIERI 3-0 TRE MERLI VOLLEY (Under 17 maschile C
+ T Trieste-Gorizia — girone unico)
+LOCATION:Palasport\, MONFALCONE GO
+DESCRIPTION:Under 17 maschile CT Trieste-Gorizia — girone unico\n1ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-17-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-2c42886f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261117T203000
+DTEND;TZID=Europe/Rome:20261117T223000
+SUMMARY:GEKO GOLD STARANZANO 3-0 UNICLIMA TSV (Under 19 femminile CT Triest
+ e-Gorizia — girone A)
+LOCATION:Palestra Scuole Medie\, STARANZANO GO
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-7135ca86@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T150000
+DTEND;TZID=Europe/Rome:20261121T170000
+SUMMARY:AR FINCANTIERI ASD 3-0 UNICLIMA TSV CITY (Under 15 femminile CT Tri
+ este-Gorizia — girone B)
+LOCATION:Palasport\, MONFALCONE GO
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-tsgo-8fa11325@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T153000
+DTEND;TZID=Europe/Rome:20261121T173000
+SUMMARY:TRE MERLI VOLLEY 3-0 VITALFRUTTA VOLLEYCLUB (Under 15 maschile CT T
+ rieste-Gorizia — girone unico)
+LOCATION:Palestra Vascotto (ex Suvich)\, TRIESTE TS
+DESCRIPTION:Under 15 maschile CT Trieste-Gorizia — girone unico\n1ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-15-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-56af662f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T153000
+DTEND;TZID=Europe/Rome:20261121T173000
+SUMMARY:UNICLIMA TSV CITY/CROSS 0-3 KRONOS IMMOB-FINCANTIERI (Under 17 femm
+ inile CT Trieste-Gorizia — girone C)
+LOCATION:Palestra Liceo Oberdan\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-b36cdce3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T190000
+DTEND;TZID=Europe/Rome:20261121T210000
+SUMMARY:U.S. AZZURRA 0-3 MAMACA TSV BOOMER (Seconda Divisione femminile CT 
+ Trieste-Gorizia — girone B)
+LOCATION:PalaBrumatti (Ex Pala Coni)\, GORIZIA GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n6
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-fdd82dce@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T203000
+DTEND;TZID=Europe/Rome:20261121T223000
+SUMMARY:ZALET SLOGA 3-1 UNICLIMA TSV (Prima Divisione femminile CT Trieste-
+ Gorizia — girone unico)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 4ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-02e5fa37@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T203000
+DTEND;TZID=Europe/Rome:20261121T223000
+SUMMARY:UNICLIMA TSV 3-2 AURA TRIESTE VOLLEY (Seconda Divisione femminile C
+ T Trieste-Gorizia — girone A)
+LOCATION:Palestra Vascotto (ex Suvich)\, TRIESTE TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n6
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-21f1c411@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T203000
+DTEND;TZID=Europe/Rome:20261121T223000
+SUMMARY:VPA AUSONIA 3-0 TRE MERLI VOLLEY (Serie C maschile — girone unico
+ )
+LOCATION:PalaPrata\, Prata di Pordenone (PN)
+DESCRIPTION:Serie C maschile — girone unico\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-930c24a3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261124T203000
+DTEND;TZID=Europe/Rome:20261124T223000
+SUMMARY:UNICLIMA TSV 3-0 COSELLI 2D BLU (Seconda Divisione femminile CT Tri
+ este-Gorizia — girone A)
+LOCATION:Palestra Vascotto (ex Suvich)\, Via Giulia 52\, TRIESTE TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n7
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-b81686a3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261127T210000
+DTEND;TZID=Europe/Rome:20261127T230000
+SUMMARY:INTREPIDA TEN03 – TRE MERLI VOLLEY (Prima Divisione maschile CT T
+ rieste-Gorizia — girone unico)
+LOCATION:Palestra Comunale\, Strada Da Beorchie 2\, MARIANO DEL FRIULI GO
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-6d713161@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T153000
+DTEND;TZID=Europe/Rome:20261128T173000
+SUMMARY:UNICLIMA TSV CROSS – ASD MOSSA (Under 15 femminile CT Trieste-Gor
+ izia — girone A)
+LOCATION:Palestra Liceo Galilei\, Via Mameli 4\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-b4d8d66c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T153000
+DTEND;TZID=Europe/Rome:20261128T173000
+SUMMARY:UNICLIMA TSV CITY/CROSS – CENTRO COSELLI U17X (Under 17 femminile
+  CT Trieste-Gorizia — girone C)
+LOCATION:Palestra Liceo Oberdan\, VIA VERONESE 1\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-f45e56a7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T173000
+DTEND;TZID=Europe/Rome:20261128T193000
+SUMMARY:TRE MERLI VOLLEY – PORDENONE VOLLEY (Serie C maschile — girone 
+ unico)
+LOCATION:Palestra Vascotto (ex Suvich)\, Via Giulia 52\, Trieste (TS)
+DESCRIPTION:Serie C maschile — girone unico\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-8839ae64@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T193000
+DTEND;TZID=Europe/Rome:20261128T213000
+SUMMARY:SLOVOLLEY VAL GORIZIANA – TNT PUB RUGGINE (Prima Divisione maschi
+ le CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Comunale S. Andrea\, Via San Michele 143\, GORIZIA GO
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-f6e6c050@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T193000
+DTEND;TZID=Europe/Rome:20261128T213000
+SUMMARY:CASSA RURALE FVG TURRIACO – MAMACA TSV BOOMER (Seconda Divisione 
+ femminile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, Piazzale Atleti Azzurri d'Italia\, TURRIACO GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n7
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-b656380d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:UNICLIMA TSV – FILO...VIA VOLLEY CLUB TS (Prima Divisione femmini
+ le CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Vascotto (ex Suvich)\, Via Giulia 52\, TRIESTE TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 5ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-c5da72f1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:UNICLIMA TSV CITY – EXCALIBUR OLYMPIA TRIESTE (Under 15 femminile
+  CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Liceo Galilei\, Via Mameli 4\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-tsgo-a3a7e071@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:TRE MERLI VOLLEY – SOCASLOVOLLEY ZKB TORREF (Under 17 maschile CT
+  Trieste-Gorizia — girone unico)
+LOCATION:Palestra San Giovanni campo 2\, Via San Cilino 99\, TRIESTE TS
+DESCRIPTION:Under 17 maschile CT Trieste-Gorizia — girone unico\n2ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-17-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-e07e7ef8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:UNICLIMA TSV – ZALET SLOGA U19 (Under 19 femminile CT Trieste-Gor
+ izia — girone A)
+LOCATION:Palestra Liceo Galilei\, Via Mameli 4\, TRIESTE TS
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-354c859d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261201T204500
+DTEND;TZID=Europe/Rome:20261201T224500
+SUMMARY:TRE MERLI VOLLEY – C.U.S. TRIESTE A.S.D. (Prima Divisione maschil
+ e CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n2
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-92f626ca@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261202T204500
+DTEND;TZID=Europe/Rome:20261202T224500
+SUMMARY:MAMACA TSV BOOMER – ZALET SLOGA (Seconda Divisione femminile CT T
+ rieste-Gorizia — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n8
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-c8aa8b19@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:TNT PUB RUGGINE – SLOVOLLEY - NAS PRAPOR (Prima Divisione maschil
+ e CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n2
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-tsgo-fbb64fb9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:ROSSO VOLLEYCLUB TRIESTE – TRE MERLI VOLLEY (Under 17 maschile CT
+  Trieste-Gorizia — girone unico)
+DESCRIPTION:Under 17 maschile CT Trieste-Gorizia — girone unico\n3ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-17-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-a-dad7c59d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T183000
+DTEND;TZID=Europe/Rome:20261205T203000
+SUMMARY:SOKOL ZALET – UNICLIMA TSV (Seconda Divisione femminile CT Triest
+ e-Gorizia — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone A\n8
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-b385a052@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T193000
+DTEND;TZID=Europe/Rome:20261205T213000
+SUMMARY:ROSSO VOLLEY C. TS – TRE MERLI VOLLEY (Serie C maschile — giron
+ e unico)
+DESCRIPTION:Serie C maschile — girone unico\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-57785b9f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T103000
+DTEND;TZID=Europe/Rome:20261206T123000
+SUMMARY:SYSTEM VOLLEY U.15 – UNICLIMA TSV CITY (Under 15 femminile CT Tri
+ este-Gorizia — girone B)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-d2abff27@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T110000
+DTEND;TZID=Europe/Rome:20261206T130000
+SUMMARY:PALLAVOLO ALTURA – UNICLIMA TSV CROSS (Under 15 femminile CT Trie
+ ste-Gorizia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-tsgo-9b5633d1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T113000
+DTEND;TZID=Europe/Rome:20261206T133000
+SUMMARY:AR FINCANTIERI ASD – TRE MERLI VOLLEY (Under 15 maschile CT Tries
+ te-Gorizia — girone unico)
+DESCRIPTION:Under 15 maschile CT Trieste-Gorizia — girone unico\n3ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-15-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-96f84e15@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:AUTOSCUOLA EDI STARANZANO – UNICLIMA TSV (Prima Divisione femmini
+ le CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 6ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-0743069f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T183000
+DTEND;TZID=Europe/Rome:20261206T203000
+SUMMARY:ASD OFP AZZURRA RDR ARIA – UNICLIMA TSV (Under 19 femminile CT Tr
+ ieste-Gorizia — girone A)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,248 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Falconstar Basket (Pontoni Falconstar Monfalcone)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-a-fa132fa2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261028T200000
+DTEND;TZID=Europe/Rome:20261028T220000
+SUMMARY:FALCONSTAR BASKET 98-68 GEMONA BASKET (Under 19 Maschile Gold — g
+ irone A)
+LOCATION:Palestra Polifunzionale\, Monfalcone
+DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-1db77ec2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T100000
+DTEND;TZID=Europe/Rome:20261101T120000
+SUMMARY:C.M.B. ARCOBALENO TRIESTE White 114-38 FALCONSTAR BASKET (Under 13 
+ Maschile — girone GO/TS A)
+LOCATION:Pal. I.T. Leonardo da Vinci\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n1ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-082d73c5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T200000
+DTEND;TZID=Europe/Rome:20261102T220000
+SUMMARY:FALCONSTAR BASKET 86-41 BASKET PERTEOLE (Under 19 Maschile Regional
+ e — girone GO/TS/UD (prima fase))
+LOCATION:Palestra 'B' Marcon\, Monfalcone
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n1
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-9e494646@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T190000
+DTEND;TZID=Europe/Rome:20261104T210000
+SUMMARY:CHIURLO CERVIGNANO 59-63 FALCONSTAR BASKET (Under 19 Maschile Gold 
+ — girone A)
+LOCATION:Palasport Piazzale Lancieri d'Aosta\, Cervignano del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-5d1cf128@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261105T183000
+DTEND;TZID=Europe/Rome:20261105T203000
+SUMMARY:FALCONSTAR BASKET 87-28 WEB SBaMM (Under 14 Maschile Regionale — 
+ girone GO/TS/UD)
+LOCATION:Palestra 'B' Marcon\, Monfalcone
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n1ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-70767d5c@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261107T180000
+DTEND;TZID=Europe/Rome:20261107T200000
+SUMMARY:Falconstar Basket 44-81 Pol. Libertas Acli (Under 15 Maschile Gold 
+ — girone unico)
+LOCATION:Palestra Polifunzionale\, Monfalcone
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n4ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-022b82c7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T190000
+DTEND;TZID=Europe/Rome:20261107T210000
+SUMMARY:FALCONSTAR BASKET 56-37 BASKET CERVIGNANESE (Under 14 Maschile Regi
+ onale — girone GO/TS/UD)
+LOCATION:Palestra 'B' Marcon\, Monfalcone
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n2ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-1143ba8a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T103000
+DTEND;TZID=Europe/Rome:20261108T123000
+SUMMARY:FALCONSTAR BASKET 46-65 U.S.D. DON BOSCO (Under 13 Maschile — gir
+ one GO/TS A)
+LOCATION:Palestra Comunale\, Staranzano
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n2ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-2b381849@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T120000
+DTEND;TZID=Europe/Rome:20261108T140000
+SUMMARY:Falconstar Basket 90-46 AKK Bor Basket (Under 17 Maschile Gold — 
+ girone GO/TS (prima fase))
+LOCATION:Palestra Polifunzionale\, Monfalcone
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n3ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-11749827@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T120000
+DTEND;TZID=Europe/Rome:20261108T140000
+SUMMARY:DOM 92-64 Falconstar Basket (Under 17 Maschile Gold — girone GO/T
+ S (prima fase))
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n4ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-5aa57205@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T200000
+DTEND;TZID=Europe/Rome:20261109T220000
+SUMMARY:FALCONSTAR BASKET 93-63 GP Engineering di Paron (Under 19 Maschile 
+ Gold — girone A)
+LOCATION:Palestra Polifunzionale\, Monfalcone
+DESCRIPTION:Under 19 Maschile Gold — girone A\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-d3639e3d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T211500
+DTEND;TZID=Europe/Rome:20261109T231500
+SUMMARY:SAN VITO TRIESTE 47-42 FALCONSTAR BASKET (Under 19 Maschile Regiona
+ le — girone GO/TS/UD (prima fase))
+LOCATION:Palazzetto 'Atleti Azzurri'\, Trieste
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n2
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-7d9ef12a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:FALCONSTAR BASKET 64-54 APU NEXT GEN (Under 14 Maschile Regionale 
+ — girone GO/TS/UD)
+LOCATION:Palestra 'B' Marcon\, Monfalcone
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-bb9e2102@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T193000
+DTEND;TZID=Europe/Rome:20261114T213000
+SUMMARY:Basket Gradisca 70-64 Falconstar Basket (Under 17 Maschile Gold —
+  girone GO/TS (prima fase))
+LOCATION:Pal. Ciro Zimolo\, Gradisca d'Isonzo
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n5ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-4adb3528@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T100000
+DTEND;TZID=Europe/Rome:20261115T120000
+SUMMARY:US ALBA PALLACANESTRO 52-32 FALCONSTAR BASKET (Under 13 Maschile 
+ — girone GO/TS A)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n3ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-ca44a7a1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261117T190000
+DTEND;TZID=Europe/Rome:20261117T210000
+SUMMARY:VIS SPILIMBERGO 42-93 FALCONSTAR BASKET (Under 19 Maschile Gold —
+  girone A)
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Under 19 Maschile Gold — girone A\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-338a80f1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T194500
+DTEND;TZID=Europe/Rome:20261118T214500
+SUMMARY:MB PAPER'S 39-75 FALCONSTAR BASKET (Under 19 Maschile Regionale —
+  girone GO/TS/UD (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n3
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+END:VCALENDAR

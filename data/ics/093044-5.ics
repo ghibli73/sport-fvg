@@ -1,0 +1,222 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Vis Spilimbergo
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-gold-a-83ce2488@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T173000
+DTEND;TZID=Europe/Rome:20261027T193000
+SUMMARY:Pall. Portogruaro 84-28 Vis Spilimbergo (Under 14 Maschile Gold —
+  girone A (prima fase))
+LOCATION:Palazzetto dello Sport\, Portogruaro
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-1a9e9f6b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T190000
+DTEND;TZID=Europe/Rome:20261027T210000
+SUMMARY:VIS SPILIMBERGO 63-81 GP Engineering di Paron (Under 19 Maschile Go
+ ld — girone A)
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-52da9013@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T203000
+DTEND;TZID=Europe/Rome:20261027T223000
+SUMMARY:HUMUS BASKET 87-58 VIS SPILIMBERGO (Under 17 Maschile Gold — giro
+ ne PN (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-0abf3767@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T153000
+DTEND;TZID=Europe/Rome:20261031T173000
+SUMMARY:Udine Basket Club 114-33 Vis Spilimbergo (Under 14 Maschile Gold 
+ — girone A (prima fase))
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-29662058@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261031T183000
+DTEND;TZID=Europe/Rome:20261031T203000
+SUMMARY:VIS SPILIMBERGO 68-74 PALL. PORTOGRUARO (Serie C maschile — giron
+ e D (prima fase))
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-0f9e0f09@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T103000
+DTEND;TZID=Europe/Rome:20261101T123000
+SUMMARY:PALL. PORTOGRUARO 71-46 VIS SPILIMBERGO (Under 17 Maschile Gold —
+  girone PN (prima fase))
+LOCATION:Palazzetto dello Sport\, Portogruaro
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-f02ee436@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T184500
+DTEND;TZID=Europe/Rome:20261104T204500
+SUMMARY:VENEZIA GIULIA BASKETBALL 94-58 VIS SPILIMBERGO (Under 19 Maschile 
+ Gold — girone A)
+LOCATION:Palasport Piazzale Menguzzato\, Muggia
+DESCRIPTION:Under 19 Maschile Gold — girone A\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-0a081197@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste 144-14 Vis Spilimbergo (Under 
+ 14 Maschile Gold — girone A (prima fase))
+LOCATION:Pal. I.T. Leonardo da Vinci\, Trieste
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-09a9dd32@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:AKK BOR BASKET 64-84 VIS SPILIMBERGO (Serie C maschile — girone D
+  (prima fase))
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-3a77e517@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:BASKET CORDOVADO 81-64 VIS SPILIMBERGO (Under 17 Maschile Gold — 
+ girone PN (prima fase))
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-a8006f40@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T200000
+DTEND;TZID=Europe/Rome:20261109T220000
+SUMMARY:DINAMO GORIZIA 64-79 VIS SPILIMBERGO (Under 19 Maschile Gold — gi
+ rone A)
+LOCATION:PalaBigot\, Gorizia
+DESCRIPTION:Under 19 Maschile Gold — girone A\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-06b510e0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261113T190000
+DTEND;TZID=Europe/Rome:20261113T210000
+SUMMARY:RORAIGRANDE 82-53 VIS SPILIMBERGO (Under 17 Maschile Gold — giron
+ e PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-55e2c16d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T150000
+DTEND;TZID=Europe/Rome:20261114T170000
+SUMMARY:Vis Spilimbergo 53-63 Pall. Interclub Muggia (Under 14 Maschile Gol
+ d — girone A (prima fase))
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-0ddee209@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261114T183000
+DTEND;TZID=Europe/Rome:20261114T203000
+SUMMARY:VIS SPILIMBERGO 71-64 UEB Cividale B (Serie C maschile — girone D
+  (prima fase))
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-ca44a7a1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261117T190000
+DTEND;TZID=Europe/Rome:20261117T210000
+SUMMARY:VIS SPILIMBERGO 42-93 FALCONSTAR BASKET (Under 19 Maschile Gold —
+  girone A)
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Under 19 Maschile Gold — girone A\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,645 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Pallavolo Altura
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-e232a905@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261028T203000
+DTEND;TZID=Europe/Rome:20261028T223000
+SUMMARY:PINETA CITY OLYMPIA TS 3-0 PALLAVOLO ALTURA (Prima Divisione femmin
+ ile CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Stadio Rocco\, TRIESTE
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 1ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-5d85b354@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261029T203000
+DTEND;TZID=Europe/Rome:20261029T223000
+SUMMARY:PALLAVOLO ALTURA 2-3 SLOVOLLEY STUDIO VEGLIACH (Serie D maschile 
+ — girone unico)
+LOCATION:Palestra Scuola Elementare Don Milani\, TRIESTE TS
+DESCRIPTION:Serie D maschile — girone unico\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-e546f87f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261030T203000
+DTEND;TZID=Europe/Rome:20261030T223000
+SUMMARY:PALLAVOLO ALTURA 0-3 U.S. AZZURRA (Seconda Divisione femminile CT T
+ rieste-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n3
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-a-8e220bf7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T150000
+DTEND;TZID=Europe/Rome:20261031T170000
+SUMMARY:PALLAVOLO ALTURA 1-3 ASD MOSSA (Under 17 femminile CT Trieste-Goriz
+ ia — girone A)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone A\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-ded5f170@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261103T203000
+DTEND;TZID=Europe/Rome:20261103T223000
+SUMMARY:A.P. TRAVESIO 0-3 PALLAVOLO ALTURA (Serie D maschile — girone uni
+ co)
+LOCATION:Palestra Scuole Medie\, Travesio (PN)
+DESCRIPTION:Serie D maschile — girone unico\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-a-76afad81@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T190000
+DTEND;TZID=Europe/Rome:20261104T210000
+SUMMARY:CARTUBI OLYMPIA TRIESTE 3-0 PALLAVOLO ALTURA (Under 17 femminile CT
+  Trieste-Gorizia — girone A)
+LOCATION:Palestra Stadio Rocco\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-88eb3791@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261105T190000
+DTEND;TZID=Europe/Rome:20261105T210000
+SUMMARY:PALLAVOLO ALTURA 3-0 ASD LE VOLPI (Under 15 femminile CT Trieste-Go
+ rizia — girone A)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-53647b83@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261105T203000
+DTEND;TZID=Europe/Rome:20261105T223000
+SUMMARY:ASD PALLAVOLO GRADO 1-3 PALLAVOLO ALTURA (Seconda Divisione femmini
+ le CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Buda Dancevich\, GRADO GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n4
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-a-5aec5046@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T150000
+DTEND;TZID=Europe/Rome:20261107T170000
+SUMMARY:PALLAVOLO ALTURA 0-3 OLYMPIA TRIESTE NEXT GEN (Under 14 femminile C
+ T Trieste-Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE TS
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone A\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-236c6321@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T180000
+DTEND;TZID=Europe/Rome:20261107T200000
+SUMMARY:PALLAVOLO ALTURA 0-3 ASD OFP AZZURRA RDR ARIA (Prima Divisione femm
+ inile CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 2ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-1d9313d0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:PALLAVOLO ALTURA 3-1 SPORTING CLUB (Serie D maschile — girone uni
+ co)
+LOCATION:Palestra Scuola Elementare Don Milani\, Trieste (TS)
+DESCRIPTION:Serie D maschile — girone unico\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-69b25490@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:PALLAVOLO ALTURA 3-1 A.S.D.TORRIANA (Under 15 femminile CT Trieste-
+ Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-04bb3427@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261112T201500
+DTEND;TZID=Europe/Rome:20261112T221500
+SUMMARY:SOCA PRATICHE AUTO SARAH 3-0 PALLAVOLO ALTURA (Under 19 femminile C
+ T Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, SAVOGNA D'ISONZO GO
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-8e488979@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:PALLAVOLO ALTURA 2-3 CASSA RURALE FVG TURRIACO (Seconda Divisione f
+ emminile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n5
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-a-95db73ae@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T150000
+DTEND;TZID=Europe/Rome:20261114T170000
+SUMMARY:PALLAVOLO ALTURA 0-3 RZ PELLETS - GLASMIK (Under 17 femminile CT Tr
+ ieste-Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone A\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-a-84c2245e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T171500
+DTEND;TZID=Europe/Rome:20261114T191500
+SUMMARY:ASD OFP AZZURRARDR COMETA 3-1 PALLAVOLO ALTURA (Under 14 femminile 
+ CT Trieste-Gorizia — girone A)
+LOCATION:Palestra Liceo Oberdan\, TRIESTE TS
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone A\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-6be2a377@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T190000
+DTEND;TZID=Europe/Rome:20261114T210000
+SUMMARY:FOX VOLLEY NOVASEI 3-1 PALLAVOLO ALTURA (Serie D maschile — giron
+ e unico)
+LOCATION:Palestra Scuole\, Fagnigola\, Azzano Decimo (PN)
+DESCRIPTION:Serie D maschile — girone unico\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-9a586055@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:AL.MA. s.r.l. 3-0 PALLAVOLO ALTURA (Prima Divisione femminile CT Tr
+ ieste-Gorizia — girone unico)
+LOCATION:Palestra scuole medie\, PIERIS SAN CANZIAN D'ISONZO GO
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 3ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-7db38aa8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:VOLLEY CLUB TRIESTE 0-3 PALLAVOLO ALTURA (Under 15 femminile CT Tri
+ este-Gorizia — girone A)
+LOCATION:Palestra Cobolli\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-tsgo-effe546c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T203000
+DTEND;TZID=Europe/Rome:20261115T223000
+SUMMARY:SCA MONTAGGI FINCANTIERI 3-1 TVA ACADEMY (Under 19 maschile CT Trie
+ ste-Gorizia — girone unico)
+LOCATION:Palasport\, MONFALCONE GO
+DESCRIPTION:Under 19 maschile CT Trieste-Gorizia — girone unico\n1ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-19-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-e9cce266@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261117T180000
+DTEND;TZID=Europe/Rome:20261117T200000
+SUMMARY:PALLAVOLO ALTURA 0-3 EDILADRIA-FINCANTIERI (Prima Divisione femmini
+ le CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 4ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-tsgo-839d45d5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261118T193000
+DTEND;TZID=Europe/Rome:20261118T213000
+SUMMARY:SLOVOLLEY 2-3 TVA ACADEMY (Under 19 maschile CT Trieste-Gorizia —
+  girone unico)
+LOCATION:Circ. Spor. Slov. - Pal. Mirko Spacapan\, GORIZIA GO
+DESCRIPTION:Under 19 maschile CT Trieste-Gorizia — girone unico\n2ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-19-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-de1c28b7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261119T203000
+DTEND;TZID=Europe/Rome:20261119T223000
+SUMMARY:PALLAVOLO ALTURA 3-0 ASD LE VOLPI (Seconda Divisione femminile CT T
+ rieste-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n6
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-77fd81df@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T200000
+DTEND;TZID=Europe/Rome:20261120T220000
+SUMMARY:PALLAVOLO ALTURA 3-0 CENTRO COSELLI U19Y (Under 19 femminile CT Tri
+ este-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE TS
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-a-428ace97@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T150000
+DTEND;TZID=Europe/Rome:20261121T170000
+SUMMARY:PALLAVOLO ALTURA 3-0 VOLLEY CLUB TRIESTE (Under 14 femminile CT Tri
+ este-Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE TS
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-a-0d89dd4b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T153000
+DTEND;TZID=Europe/Rome:20261121T173000
+SUMMARY:EUROVOLLEYSCHOOL U.17 3-0 PALLAVOLO ALTURA (Under 17 femminile CT T
+ rieste-Gorizia — girone A)
+LOCATION:Palestra Istituto Volta\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone A\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-1003a1dd@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T203000
+DTEND;TZID=Europe/Rome:20261121T223000
+SUMMARY:PALLAVOLO ALTURA 3-1 PIERA1899 VINI DEL FRIULI (Serie D maschile 
+ — girone unico)
+LOCATION:Palestra Scuola Elementare Don Milani\, Trieste (TS)
+DESCRIPTION:Serie D maschile — girone unico\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-ae4be0ad@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:PALLAVOLO ALTURA 2-3 CENTRO COSELLI U15 (Under 15 femminile CT Trie
+ ste-Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-tsgo-2e3e9ad1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261126T183000
+DTEND;TZID=Europe/Rome:20261126T203000
+SUMMARY:SOCASLOVOLLEY ZKBKORSIC – TVA ACADEMY (Under 19 maschile CT Tries
+ te-Gorizia — girone unico)
+LOCATION:Palestra Comunale\, via Osimo 2\, DOBERDO' DEL LAGO GO
+DESCRIPTION:Under 19 maschile CT Trieste-Gorizia — girone unico\n3ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-19-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-51790d8e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261126T210000
+DTEND;TZID=Europe/Rome:20261126T230000
+SUMMARY:SLOVOLLEY - NAS PRAPOR – CLIMATRIESTE ALTURA (Prima Divisione mas
+ chile CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Kulturni Dom\, Via I. Brass 20\, GORIZIA GO
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-e0a83324@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261127T210000
+DTEND;TZID=Europe/Rome:20261127T230000
+SUMMARY:SALONE CARMEN-FINCANTIERI – PALLAVOLO ALTURA (Under 19 femminile 
+ CT Trieste-Gorizia — girone B)
+LOCATION:Palasport\, Via Rossini 48\, MONFALCONE GO
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-a-b1c4edd7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T150000
+DTEND;TZID=Europe/Rome:20261128T170000
+SUMMARY:PALLAVOLO ALTURA – ASD OFP AZZURRA RDR ARIA (Under 17 femminile C
+ T Trieste-Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, VIA PETRACCO\, TRIEST
+ E TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone A\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-8dfb516c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T163000
+DTEND;TZID=Europe/Rome:20261128T183000
+SUMMARY:ZALET SLOGA – PALLAVOLO ALTURA (Seconda Divisione femminile CT Tr
+ ieste-Gorizia — girone B)
+LOCATION:Palestra Comunale Paolo Colja\, Repen 177\, MONRUPINO TS
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n7
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-7ef29c50@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T180000
+DTEND;TZID=Europe/Rome:20261128T200000
+SUMMARY:PALLAVOLO ALTURA – ARCOBALENO MAVRICA MUCCI (Prima Divisione femm
+ inile CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, VIA PETRACCO\, TRIEST
+ E TS
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 5ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-77c1f0cc@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:CREDIFRIULI ROJALESE – PALLAVOLO ALTURA (Serie D maschile — gir
+ one unico)
+LOCATION:Palestra Comunale\, Via Stadio\, Remugnano\, Reana del Rojale (UD)
+DESCRIPTION:Serie D maschile — girone unico\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-07adfe94@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T103000
+DTEND;TZID=Europe/Rome:20261129T123000
+SUMMARY:SOCA PAOLA 2.0 – PALLAVOLO ALTURA (Under 15 femminile CT Trieste-
+ Gorizia — girone A)
+LOCATION:Palestra Comunale\, via Osimo 2\, DOBERDO' DEL LAGO GO
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-a-4e9dd0f3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T153000
+DTEND;TZID=Europe/Rome:20261129T173000
+SUMMARY:AZZURRA FOREVER – PALLAVOLO ALTURA (Under 14 femminile CT Trieste
+ -Gorizia — girone A)
+LOCATION:Circ. Spor. Slov. - Pal. Mirko Spacapan\, Viale XX Settembre 91\, 
+ GORIZIA GO
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone A\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-31bed049@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261201T200000
+DTEND;TZID=Europe/Rome:20261201T220000
+SUMMARY:PALLAVOLO ALTURA – PINETA CITY OLYMPIA TS (Under 19 femminile CT 
+ Trieste-Gorizia — girone B)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-tsgo-f1cca646@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261202T210000
+DTEND;TZID=Europe/Rome:20261202T230000
+SUMMARY:TIGERS RONCHI EVOLUTION – PALLAVOLO ALTURA (Prima Divisione femmi
+ nile CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Trieste-Gorizia — girone unico\n
+ 6ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-26968688@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261202T210000
+DTEND;TZID=Europe/Rome:20261202T230000
+SUMMARY:CLIMATRIESTE ALTURA – INTREPIDA TEN03 (Prima Divisione maschile C
+ T Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n2
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-07f71bff@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:PALLAVOLO ALTURA – COSELLI 2D ARANCIONE (Seconda Divisione femmin
+ ile CT Trieste-Gorizia — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n8
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-a-ecc18bba@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T150000
+DTEND;TZID=Europe/Rome:20261205T170000
+SUMMARY:PALLAVOLO ALTURA – CENTRO COSELLI U14 (Under 14 femminile CT Trie
+ ste-Gorizia — girone A)
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone A\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-0a852ee0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T203000
+DTEND;TZID=Europe/Rome:20261205T223000
+SUMMARY:PALLAVOLO ALTURA – VPA BANCA360 FVG (Serie D maschile — girone 
+ unico)
+DESCRIPTION:Serie D maschile — girone unico\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-d2abff27@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T110000
+DTEND;TZID=Europe/Rome:20261206T130000
+SUMMARY:PALLAVOLO ALTURA – UNICLIMA TSV CROSS (Under 15 femminile CT Trie
+ ste-Gorizia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-tsgo-af9b1168@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:TVA ACADEMY – ROSSO VOLLEYCLUB TRIESTE (Under 19 maschile CT Trie
+ ste-Gorizia — girone unico)
+DESCRIPTION:Under 19 maschile CT Trieste-Gorizia — girone unico\n4ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-19-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-tsg
+ o
+END:VEVENT
+END:VCALENDAR

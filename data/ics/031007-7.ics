@@ -1,0 +1,300 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Dinamo Gorizia
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-a-ac443a83@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261026T210000
+DTEND;TZID=Europe/Rome:20261026T230000
+SUMMARY:HUMUS BASKET 75-66 DINAMO GORIZIA (Under 19 Maschile Gold — giron
+ e A)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-b-interregionale-girone-b-d8570f2a@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:DINAMICA Gorizia 82-83 MOTOMARINE Jadran Trieste (Serie B Interregi
+ onale — girone B)
+DESCRIPTION:Serie B Interregionale — girone B\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-b-interregionale-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-b-interregionale-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-b2093f39@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261031T153000
+DTEND;TZID=Europe/Rome:20261031T173000
+SUMMARY:Dinamo Gorizia 46-82 O.F.P. Azzurra R.D.R. Basket Trieste (Under 15
+  Maschile Eccellenza — girone unico)
+LOCATION:Centro Stella Matutina\, Gorizia
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n5ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-3697e14b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T153000
+DTEND;TZID=Europe/Rome:20261031T173000
+SUMMARY:SERVOLANA 84-49 DINAMO GORIZIA (Under 17 Maschile Regionale — gir
+ one GO/TS (prima fase))
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n2ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-26706905@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T163000
+DTEND;TZID=Europe/Rome:20261031T183000
+SUMMARY:Humus Basket 105-58 Dinamo Gorizia (Under 14 Maschile Gold — giro
+ ne B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-8e4454ee@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T210000
+DTEND;TZID=Europe/Rome:20261102T230000
+SUMMARY:DINAMO GORIZIA 72-59 UEB Academy Cividale (Under 19 Maschile Gold 
+ — girone A)
+LOCATION:PalaBigot\, Gorizia
+DESCRIPTION:Under 19 Maschile Gold — girone A\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-81f826d5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T160000
+DTEND;TZID=Europe/Rome:20261104T180000
+SUMMARY:A.INT.BALONCESTO ISONTINA 54-65 DINAMO GORIZIA (Under 13 Maschile 
+ — girone GO/TS B)
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n1ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-5ad13b56@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T200000
+DTEND;TZID=Europe/Rome:20261104T220000
+SUMMARY:FUTUROSA BASKET TRIESTE 79-64 DINAMO GORIZIA (Under 19 Femminile Re
+ gionale — girone unico)
+LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n1ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-3fc48fc9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:DINAMO GORIZIA 59-71 LIBERTAS TRIESTE (Under 17 Maschile Regionale 
+ — girone GO/TS (prima fase))
+LOCATION:PalaBigot\, Gorizia
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n3ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-290246b9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T163000
+DTEND;TZID=Europe/Rome:20261107T183000
+SUMMARY:Dinamo Gorizia 41-95 Polisportiva Concordia (Under 15 Femminile —
+  girone unico)
+LOCATION:Centro "Stella Matutina"\, Gorizia
+DESCRIPTION:Under 15 Femminile — girone unico\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-52599562@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T094500
+DTEND;TZID=Europe/Rome:20261108T114500
+SUMMARY:Dinamo Gorizia 42-65 Pozzuolo Basket (Under 14 Maschile Gold — gi
+ rone B (prima fase))
+LOCATION:Centro Stella Matutina\, Gorizia
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-841b8431@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T103000
+DTEND;TZID=Europe/Rome:20261108T123000
+SUMMARY:Dinamo Gorizia 97-15 US Alba Pallacanestro (Under 13 Femminile — 
+ girone GO/TS (prima fase))
+LOCATION:Palestra Comunale\, Romans d'Isonzo
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-c8dfe3ec@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:Udine Basket Club Pallacanestro 101-45 Dinamo Gorizia (Under 15 Mas
+ chile Eccellenza — girone unico)
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n6ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-a8006f40@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T200000
+DTEND;TZID=Europe/Rome:20261109T220000
+SUMMARY:DINAMO GORIZIA 64-79 VIS SPILIMBERGO (Under 19 Maschile Gold — gi
+ rone A)
+LOCATION:PalaBigot\, Gorizia
+DESCRIPTION:Under 19 Maschile Gold — girone A\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-3098201e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T180000
+DTEND;TZID=Europe/Rome:20261110T200000
+SUMMARY:DINAMO GORIZIA 52-75 PALL. INTERCLUB MUGGIA (Under 19 Femminile Reg
+ ionale — girone unico)
+LOCATION:Centro "Stella Matutina"\, Gorizia
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n2ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-fa786872@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261113T190000
+DTEND;TZID=Europe/Rome:20261113T210000
+SUMMARY:Futurosa Nera 30-36 Dinamo Gorizia (Under 13 Femminile — girone G
+ O/TS (prima fase))
+LOCATION:Pal. Sc. Rismondo\, Trieste
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-a8f132bf@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T113000
+DTEND;TZID=Europe/Rome:20261115T133000
+SUMMARY:Futurosa Basket Trieste 101-22 Dinamo Gorizia (Under 15 Femminile 
+ — girone unico)
+LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-87b524a6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T150000
+DTEND;TZID=Europe/Rome:20261115T170000
+SUMMARY:BASKET 4 TRIESTE 48-53 DINAMO GORIZIA (Under 17 Maschile Regionale 
+ — girone GO/TS (prima fase))
+LOCATION:Pal. Liceo G. Oberdan\, Trieste
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n4ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-831dd14a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T193000
+DTEND;TZID=Europe/Rome:20261115T213000
+SUMMARY:Dinamo Gorizia 31-121 APU Next Gen (Under 14 Maschile Gold — giro
+ ne B (prima fase))
+LOCATION:PalaBigot\, Gorizia
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-548fb519@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T190000
+DTEND;TZID=Europe/Rome:20261116T210000
+SUMMARY:SISTEMA ROSA PALL. 101-37 DINAMO GORIZIA (Under 19 Femminile Region
+ ale — girone unico)
+LOCATION:Palasport "Crisafulli"\, Pordenone
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n3ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-28b9f18c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T193000
+DTEND;TZID=Europe/Rome:20261125T213000
+SUMMARY:Basketrieste – Dinamo Gorizia (Under 14 Maschile Gold — girone 
+ B (prima fase))
+LOCATION:Palarubini Allianz Dome\, Trieste
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+END:VCALENDAR

@@ -11,6 +11,11 @@ on:
         description: "Opzioni per scripts/calcio.py (es. --tutto)"
         required: false
         default: ""
+      silenzioso:
+        description: "Non inviare gli avvisi ntfy dei risultati"
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -34,9 +39,17 @@ jobs:
         run: python scripts/calcio.py ${{ github.event.inputs.opzioni }}
       - name: Controlli prima di pubblicare
         run: python scripts/risultati_tools.py check /tmp/risultati_prima.json data/risultati.json
+      - name: Avvisi dei risultati (ntfy.sh)
+        run: python scripts/avvisi.py /tmp/risultati_prima.json data/risultati.json
+        continue-on-error: true
+        env:
+          SILENZIOSO: ${{ github.event.inputs.silenzioso }}
+      - name: Calendari delle società (data/ics)
+        run: python scripts/ics.py
+        continue-on-error: true
       - name: Salva i dati aggiornati
         run: |
-          if git diff --quiet data/ config/; then echo "Nessuna novità"; exit 0; fi
+          if [ -z "$(git status --porcelain data/ config/)" ]; then echo "Nessuna novità"; exit 0; fi
           git config user.name "sport-fvg-bot"
           git config user.email "sport-fvg-bot@users.noreply.github.com"
           git add data/ config/

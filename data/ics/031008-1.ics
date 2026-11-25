@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. La Fortezza Gradisca
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-1d27056c@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SANGIORGINA 0-0 LA FORTEZZA GRADISCA (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-9b77b383@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:UNION 91 4-2 LA FORTEZZA GRADISCA (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n10ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-e0cf9969@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:LA FORTEZZA GRADISCA 3-2 ISONZO (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n11ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+END:VCALENDAR

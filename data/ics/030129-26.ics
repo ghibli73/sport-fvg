@@ -1,0 +1,324 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Udine Basket Club
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-7d35317b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T180000
+DTEND;TZID=Europe/Rome:20261027T200000
+SUMMARY:UDINE BASKET CLUB 58-56 Scuola Basket Miky Mian (Under 17 Maschile 
+ Regionale — girone UD (prima fase))
+LOCATION:Palestra Sc. Marconi\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-dbd33dea@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T191500
+DTEND;TZID=Europe/Rome:20261027T211500
+SUMMARY:BASKET TERZO 61-71 UDINE BASKET CLUB (Under 17 Maschile Gold — gi
+ rone UD (prima fase))
+LOCATION:Palestra Scuole Elementari\, Cervignano del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-d8d0cb56@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T204500
+DTEND;TZID=Europe/Rome:20261027T224500
+SUMMARY:Udine Basket Club 64-72 U.S.D. Jadran (Under 19 Maschile Gold — g
+ irone B)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone B\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-e70ff5fe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261030T193000
+DTEND;TZID=Europe/Rome:20261030T213000
+SUMMARY:UDINE BASKET CLUB 48-96 APU NEXT GEN (Under 17 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-95aea836@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T203000
+DTEND;TZID=Europe/Rome:20261030T223000
+SUMMARY:Longobardi 70-65 Udine Basket Club (Divisione Regionale 2 — giron
+ e UD)
+LOCATION:Pal. Com. Martiri Libertà\, Cividale del Friuli
+DESCRIPTION:Divisione Regionale 2 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-aa48a371@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:PALL. LAIPACCO 94-38 UDINE BASKET CLUB (Under 15 Maschile Regionale
+  — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n2ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-0abf3767@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T153000
+DTEND;TZID=Europe/Rome:20261031T173000
+SUMMARY:Udine Basket Club 114-33 Vis Spilimbergo (Under 14 Maschile Gold 
+ — girone A (prima fase))
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-66698a98@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:Udine Basket Club Pallacanestro 83-88 APU Next Gen (Under 15 Maschi
+ le Eccellenza — girone unico)
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n5ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-bd31c441@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T210000
+DTEND;TZID=Europe/Rome:20261102T230000
+SUMMARY:Pol. Casarsa 56-54 Udine Basket Club (Under 19 Maschile Gold — gi
+ rone B)
+LOCATION:Palasport 'Palarosa'\, Casarsa della Delizia
+DESCRIPTION:Under 19 Maschile Gold — girone B\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-66684ddc@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T191500
+DTEND;TZID=Europe/Rome:20261103T211500
+SUMMARY:UDINE BASKET CLUB 40-56 Scuola Basket Miky Mian (Under 13 Maschile 
+ — girone UD A)
+LOCATION:Pal. Sc. Media "Divisione Julia"\, Udine
+DESCRIPTION:Under 13 Maschile — girone UD A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-db48f6ac@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:Udine Basket Club 96-51 Danieli Sporting Club (Divisione Regionale 
+ 2 — girone UD)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-169f3e17@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T163000
+DTEND;TZID=Europe/Rome:20261107T183000
+SUMMARY:POZZUOLO BASKET 85-44 UDINE BASKET CLUB (Under 13 Maschile — giro
+ ne UD A)
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Under 13 Maschile — girone UD A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-21857a0e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T163000
+DTEND;TZID=Europe/Rome:20261107T183000
+SUMMARY:Udine Basket Club 86-52 Nautilus Allestimenti (Under 14 Maschile Go
+ ld — girone A (prima fase))
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-c8dfe3ec@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:Udine Basket Club Pallacanestro 101-45 Dinamo Gorizia (Under 15 Mas
+ chile Eccellenza — girone unico)
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n6ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-c6a406f7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:UDINE BASKET CLUB 60-47 LIBERTAS GONARS (Under 17 Maschile Gold —
+  girone UD (prima fase))
+LOCATION:Palestra Mazzini\, Udine
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-079f8440@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:UDINE BASKET CLUB 66-39 PALL. TOLMEZZO (Under 15 Maschile Regionale
+  — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n3ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-e2704d4a@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T204500
+DTEND;TZID=Europe/Rome:20261113T224500
+SUMMARY:Udine Basket Club 86-50 Basket Perteole (Divisione Regionale 2 — 
+ girone UD)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-9540beac@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T163000
+DTEND;TZID=Europe/Rome:20261114T183000
+SUMMARY:Udine Basket Club 36-107 O.F.P. Azzurra R.D.R. Basket Trieste (Unde
+ r 14 Maschile Gold — girone A (prima fase))
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-50e7ebbe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:POL. LIBERTAS ACLI 54-75 UDINE BASKET CLUB (Under 17 Maschile Gold 
+ — girone UD (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-4895a21d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T180000
+DTEND;TZID=Europe/Rome:20261116T200000
+SUMMARY:UDINE BASKET CLUB 55-74 PALL. LAIPACCO (Under 17 Maschile Regionale
+  — girone UD (prima fase))
+LOCATION:Palestra Sc. Marconi\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-9972212f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261117T191500
+DTEND;TZID=Europe/Rome:20261117T211500
+SUMMARY:UDINE BASKET CLUB 29-76 BASKET PERTEOLE (Under 13 Maschile — giro
+ ne UD A)
+LOCATION:Pal. Sc. Media "Divisione Julia"\, Udine
+DESCRIPTION:Under 13 Maschile — girone UD A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-c27ecc17@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261117T204500
+DTEND;TZID=Europe/Rome:20261117T224500
+SUMMARY:Udine Basket Club 53-87 Sistema BK Pordenone - BCC Pordenonese (Und
+ er 19 Maschile Gold — girone B)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone B\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-1a273b39@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T190000
+DTEND;TZID=Europe/Rome:20261125T210000
+SUMMARY:Basket Pasiano – Udine Basket Club (Under 19 Maschile Gold — gi
+ rone B)
+LOCATION:Palazzetto "Roberto Marson"\, Pasiano di Pordenone
+DESCRIPTION:Under 19 Maschile Gold — girone B\n8ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+END:VCALENDAR

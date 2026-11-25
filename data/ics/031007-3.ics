@@ -1,0 +1,97 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · U.S. Azzurra
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-47a25450@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SAVORGNANESE - FAEDIS 1-0 AZZURRA (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-47114460@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:AZZURRA 0-2 FIUMICELLO 2004 (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-0f679e2b@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:AZZURRA 2-3 SANGIORGINA (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n10ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-68e94017@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:U.FINCANTIERI MONFALCONE 8-0 AZZURRA (Under 15 provinciali — giro
+ ne A)
+DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-b1da460f@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SAN GIOVANNI A.S.D. 3-2 AZZURRA (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n11ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-b825cc0e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:SAN GIOVANNI A.S.D. 3-0 AZZURRA (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+END:VCALENDAR

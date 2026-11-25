@@ -1,0 +1,92 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · New Brugnera Basket
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-e12b95ad@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:Olympia Rivignano 72-48 New Brugnera Basket (Under 14 Maschile Regi
+ onale — girone PN/UD)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-96adbda9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:BVO ANNONE 73-55 NEW BRUGNERA BASKET (Under 17 Maschile Regionale 
+ — girone PN (prima fase))
+LOCATION:Palazzetto dello Sport\, Annone Veneto
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-d34b7cc9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:New Brugnera Basket 114-50 Polisportiva Concordia (Under 19 Maschil
+ e Regionale — girone PN A (prima fase))
+LOCATION:Palasport Via Del Mas\, Brugnera
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n1ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-984891b4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T163000
+DTEND;TZID=Europe/Rome:20261114T183000
+SUMMARY:Pol. Casarsa 61-50 New Brugnera Basket (Under 14 Maschile Regionale
+  — girone PN/UD)
+LOCATION:Palasport Palarosa\, Casarsa della Delizia
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-d3e06676@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T150000
+DTEND;TZID=Europe/Rome:20261115T170000
+SUMMARY:Pol. Casarsa 67-59 New Brugnera Basket (Under 19 Maschile Regionale
+  — girone PN A (prima fase))
+LOCATION:Palasport 'Palarosa'\, Casarsa della Delizia
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n2ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+END:VCALENDAR

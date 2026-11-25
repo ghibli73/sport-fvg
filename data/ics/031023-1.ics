@@ -1,0 +1,134 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. Bisiaca Romana
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-gor-under-19-provinciali-e-97d8641d@zuin-fvg
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:BISIACA ROMANA 1-0 BUTTRIO CALCIO (Under 19 provinciali — girone 
+ E)
+DESCRIPTION:Under 19 provinciali — girone E\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-19-provinciali-e
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ -e
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-e544a4c8@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:RISANESE 0-2 BISIACA ROMANA (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-c-bfaea3c8@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:BISIACA ROMANA 2-0 POZZUOLO DEL FRIULI (Terza Categoria — girone 
+ C)
+DESCRIPTION:Terza Categoria — girone C\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-c-1d345a78@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:MERETO CALCIO 2-3 BISIACA ROMANA (Terza Categoria — girone C)
+DESCRIPTION:Terza Categoria — girone C\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-15-provinciali-e-5687a497@zuin-fvg
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:MANZANESE CALCIO 11-0 BISIACA ROMANA (Under 15 provinciali — giro
+ ne E)
+DESCRIPTION:Under 15 provinciali — girone E\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-15-provinciali-e
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
+ -e
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-31ce5c31@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:BISIACA ROMANA 0-0 GEMONESE (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n10ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-0667144c@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SAVORGNANESE - FAEDIS 0-1 BISIACA ROMANA (Prima Categoria — giron
+ e B)
+DESCRIPTION:Prima Categoria — girone B\n11ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-c-d43ea1cb@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:BISIACA ROMANA 2-1 DONATELLO CALCIO A.S.D. (Terza Categoria — gir
+ one C)
+DESCRIPTION:Terza Categoria — girone C\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-14-provinciali-e-07600ffe@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:BISIACA ROMANA 0-2 PRO GORIZIA (Under 14 provinciali — girone E)
+DESCRIPTION:Under 14 provinciali — girone E\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-14-provinciali-e
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-14-provinciali
+ -e
+END:VEVENT
+END:VCALENDAR

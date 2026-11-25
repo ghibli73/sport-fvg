@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Azzano Basket A.S.D.
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-2188b241@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:Azzano Basket 55-60 Torre Basket (Under 14 Maschile Regionale — g
+ irone PN/UD)
+LOCATION:Palazzetto Matteo Molent\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-81715530@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:AZZANO BASKET 72-51 LIBERTAS FIUME VENETO (Under 15 Maschile Region
+ ale — girone PN)
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n2ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-0a09910c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:Azzano Basket 77-62 Majanese (Under 14 Maschile Regionale — giron
+ e PN/UD)
+LOCATION:Palazzetto Matteo Molent\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-9ef98701@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T090000
+DTEND;TZID=Europe/Rome:20261108T110000
+SUMMARY:Libertas Fiume Veneto 90-23 Azzano Basket (Under 13 Maschile — gi
+ rone PN B)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 13 Maschile — girone PN B\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-0219a701@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:Azzano Basket 101-21 3 S Basket Cordenons (Under 14 Maschile Region
+ ale — girone PN/UD)
+LOCATION:Palazzetto Matteo Molent\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-6df5eeb5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:Azzano Basket 36-107 Pall. Portogruaro (Under 13 Maschile — giron
+ e PN B)
+LOCATION:Palazzetto 'Matteo Molent'\, Azzano Decimo
+DESCRIPTION:Under 13 Maschile — girone PN B\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+END:VCALENDAR

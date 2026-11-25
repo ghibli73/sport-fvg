@@ -1,0 +1,221 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Futura Palmanova A.S.D.
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-c-178f99d1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261029T180000
+DTEND;TZID=Europe/Rome:20261029T200000
+SUMMARY:FUTURA-LIBERTAS 3-0 PAV BRESSA BAR-ET (Under 15 femminile CT Udine 
+ — girone C)
+LOCATION:Palazzetto dello Sport\, PALMANOVA UD
+DESCRIPTION:Under 15 femminile CT Udine — girone C\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-9001e9df@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261106T203000
+DTEND;TZID=Europe/Rome:20261106T223000
+SUMMARY:A.S.D. FUTURA PALMANOVA 3-0 L.W.V.OTTOGALLI LATISANA (Seconda Divis
+ ione femminile CT Udine — girone B)
+LOCATION:Palestra Comunale\, TRIVIGNANO UDINESE UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-3e5b121d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261111T200000
+DTEND;TZID=Europe/Rome:20261111T220000
+SUMMARY:LIBERTAS GONARS 0-3 A.S.D. FUTURA PALMANOVA (Seconda Divisione femm
+ inile CT Udine — girone B)
+LOCATION:Palestra Scuole Medie\, GONARS UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-2bd4cfd0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:A.S.D. FUTURA PALMANOVA 2-1 PROJECTVOLLEY SANGIORED (Under 13 femmi
+ nile CT Udine — girone D)
+LOCATION:Palestra Scuola Media P. Zorutti\, PALMANOVA UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\nDati non ufficiali: f
+ a fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pallavolo-u
+ nder-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-c-75dfd3ae@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:PAV NATISONIA 3-2 FUTURA-LIBERTAS (Under 15 femminile CT Udine — 
+ girone C)
+LOCATION:Palazzetto dello Sport\, SAN GIOVANNI AL NATISONE UD
+DESCRIPTION:Under 15 femminile CT Udine — girone C\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-d20d5a70@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261116T190000
+DTEND;TZID=Europe/Rome:20261116T210000
+SUMMARY:STELLA VOLLEY AZZURRA 3-0 A.S.D. FUTURA PALMANOVA (Under 13 femmini
+ le CT Udine — girone D)
+LOCATION:Palestra Comunale\, POCENIA UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-b449fc80@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261119T203000
+DTEND;TZID=Europe/Rome:20261119T223000
+SUMMARY:A.S.D. FUTURA PALMANOVA 3-0 SPORTING CLUB (Seconda Divisione femmin
+ ile CT Udine — girone B)
+LOCATION:Palestra Comunale\, TRIVIGNANO UDINESE UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-c-7272846d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T173000
+DTEND;TZID=Europe/Rome:20261121T193000
+SUMMARY:ART_CENTO VOLLEY 3-0 FUTURA-LIBERTAS (Under 15 femminile CT Udine 
+ — girone C)
+LOCATION:Palasport\, TARCENTO UD
+DESCRIPTION:Under 15 femminile CT Udine — girone C\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-7fe44347@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261123T190000
+DTEND;TZID=Europe/Rome:20261123T210000
+SUMMARY:A.S.D. FUTURA PALMANOVA 3-0 DOPOLAV. FERROV. UD. (Under 13 femminil
+ e CT Udine — girone D)
+LOCATION:Palestra Scuola Media P. Zorutti\, Borgo Aquileia\, 1\, PALMANOVA 
+ UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-c-e1668d24@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261126T180000
+DTEND;TZID=Europe/Rome:20261126T200000
+SUMMARY:FUTURA-LIBERTAS – ASD PALLAVOLO PALUZZA (Under 15 femminile CT Ud
+ ine — girone C)
+LOCATION:Palazzetto dello Sport\, Piazzale Genova Cavalleria\, PALMANOVA UD
+DESCRIPTION:Under 15 femminile CT Udine — girone C\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-2ff6c51b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261126T200000
+DTEND;TZID=Europe/Rome:20261126T220000
+SUMMARY:VOLLEY TALMASSONS – A.S.D. FUTURA PALMANOVA (Seconda Divisione fe
+ mminile CT Udine — girone B)
+LOCATION:Palestra Scuole Medie\, Via Argilars 4\, TALMASSONS UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-c-9e5c3f39@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T181500
+DTEND;TZID=Europe/Rome:20261204T201500
+SUMMARY:PAV BRESSA BAR-ET – FUTURA-LIBERTAS (Under 15 femminile CT Udine 
+ — girone C)
+DESCRIPTION:Under 15 femminile CT Udine — girone C\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-29789d1f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:A.S.D. FUTURA PALMANOVA – PROJECTVOLLEY SANGIORGINA (Seconda Divi
+ sione femminile CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n6ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-f16c6bea@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T153000
+DTEND;TZID=Europe/Rome:20261205T173000
+SUMMARY:LIBERTAS GONARS – A.S.D. FUTURA PALMANOVA (Under 13 femminile CT 
+ Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Barcolana Basket Trieste
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-ae2ac01d@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T211500
+DTEND;TZID=Europe/Rome:20261030T231500
+SUMMARY:Barcolana Basket Trieste 46-77 Pallacanestro Bisiacca (Divisione Re
+ gionale 2 — girone GO/TS)
+LOCATION:Pal. I.T. Leonardo da Vinci\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-14c4ffb0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T110000
+DTEND;TZID=Europe/Rome:20261031T130000
+SUMMARY:SERVOLANA 50-62 BARCOLANA BASKET TRIESTE (Under 13 Maschile — gir
+ one GO/TS B)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n1ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-ddd51537@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T211500
+DTEND;TZID=Europe/Rome:20261106T231500
+SUMMARY:Baloncesto Triestino 60-50 Barcolana Basket Trieste (Divisione Regi
+ onale 2 — girone GO/TS)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-975c57e6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:SERVOLANA 56-38 BARCOLANA BASKET TRIESTE (Under 15 Maschile Regiona
+ le — girone GO/TS)
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-2aa5f7b8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T150000
+DTEND;TZID=Europe/Rome:20261108T170000
+SUMMARY:BARCOLANA BASKET TRIESTE 56-74 AKK BOR BASKET (Under 13 Maschile 
+ — girone GO/TS B)
+LOCATION:Pal. Comunale Luca Vascotto\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n2ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-fd0b8472@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:S.S. SD KONTOVEL 50-58 BARCOLANA BASKET TRIESTE (Under 13 Maschile 
+ — girone GO/TS B)
+LOCATION:Palestra M. Ervatti\, Sgonico
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n3ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+END:VCALENDAR

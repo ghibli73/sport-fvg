@@ -1,0 +1,219 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. Volley Ball Gemona
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-5347a2f3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261030T201500
+DTEND;TZID=Europe/Rome:20261030T221500
+SUMMARY:GAIA VOLLEYBAS UDINE 3-2 GEMONA LA PERLA (Prima Divisione maschile 
+ CT Udine — girone unico)
+LOCATION:Palestra Scuola Media Valussi\, UDINE UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-4093620e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T160000
+DTEND;TZID=Europe/Rome:20261108T180000
+SUMMARY:GEMONA LA PERLA 3-0 ASD KENNEDY ADEGLIACCO (Under 15 maschile inter
+ territoriale PN-UD — girone B)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-be6321b5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T150000
+DTEND;TZID=Europe/Rome:20261115T170000
+SUMMARY:GEMONA LA PERLA 3-0 VPA MCZ (Under 17 maschile interterritoriale PN
+ -UD — girone unico)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n2ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-0bc72fec@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T200000
+DTEND;TZID=Europe/Rome:20261115T220000
+SUMMARY:GEMONA LA PERLA 3-0 A.S.D.ROJALESE (Prima Divisione maschile CT Udi
+ ne — girone unico)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-09880edd@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T181500
+DTEND;TZID=Europe/Rome:20261120T201500
+SUMMARY:VOLLEYBAS UDINE 0-3 GEMONA LA PERLA (Under 15 maschile interterrito
+ riale PN-UD — girone B)
+LOCATION:Palestra Scuola G. Pascoli\, UDINE UD
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-maschile-tsgo-ud-pn-dfa270cf@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:FUTURA ESTENDE SRL 3-0 GEMONA LA PERLA (Under 14 maschile interterr
+ itoriale TSGO-UD-PN — girone unico)
+LOCATION:Palestra Scuola Media Da Vinci\, CORDENONS PN
+DESCRIPTION:Under 14 maschile interterritoriale TSGO-UD-PN — girone unico
+ \n1ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli
+ 73.github.io/sport-fvg/#g-pallavolo-under-14-maschile-tsgo-ud-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-maschile-tsg
+ o-ud-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-bf3d0dfc@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T150000
+DTEND;TZID=Europe/Rome:20261122T170000
+SUMMARY:ASD KENNEDY ADEGLIACCO 0-3 GEMONA LA PERLA (Under 17 maschile inter
+ territoriale PN-UD — girone unico)
+LOCATION:Palestra Comunale\, Cavalicco TAVAGNACCO UD
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n3ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-8e4953bf@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:IL POZZO – GEMONA LA PERLA (Prima Divisione maschile CT Udine —
+  girone unico)
+LOCATION:Palestra Comunale\, Via Renati 7\, PRADAMANO UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-148dc136@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T153000
+DTEND;TZID=Europe/Rome:20261129T173000
+SUMMARY:GEMONA LA PERLA – AURORA VOLLEY UDINE (Under 15 maschile interter
+ ritoriale PN-UD — girone B)
+LOCATION:Palestra Comun. Porcians\, Via Liguria\, ARTEGNA UD
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-b5fd965c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T190000
+DTEND;TZID=Europe/Rome:20261129T210000
+SUMMARY:GEMONA LA PERLA – FUTURA DREAM FIT (Under 17 maschile interterrit
+ oriale PN-UD — girone unico)
+LOCATION:Palestra Comun. Porcians\, Via Liguria\, ARTEGNA UD
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n4ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-9767d42a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T150000
+DTEND;TZID=Europe/Rome:20261206T170000
+SUMMARY:PASIAN DI PRATO AZZURRA – GEMONA LA PERLA (Under 17 maschile inte
+ rterritoriale PN-UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n5ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-maschile-tsgo-ud-pn-ad2023e6@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T153000
+DTEND;TZID=Europe/Rome:20261206T173000
+SUMMARY:VPA – GEMONA LA PERLA (Under 14 maschile interterritoriale TSGO-U
+ D-PN — girone unico)
+DESCRIPTION:Under 14 maschile interterritoriale TSGO-UD-PN — girone unico
+ \n3ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli
+ 73.github.io/sport-fvg/#g-pallavolo-under-14-maschile-tsgo-ud-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-maschile-tsg
+ o-ud-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-5f1a1534@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T183000
+DTEND;TZID=Europe/Rome:20261206T203000
+SUMMARY:SPORTING CLUB – GEMONA LA PERLA (Under 15 maschile interterritori
+ ale PN-UD — girone B)
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n5ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-5ce4ca5e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T200000
+DTEND;TZID=Europe/Rome:20261206T220000
+SUMMARY:GEMONA LA PERLA – AURORA VOLLEY UDINE (Prima Divisione maschile C
+ T Udine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+END:VCALENDAR

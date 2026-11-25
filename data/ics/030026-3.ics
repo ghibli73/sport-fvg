@@ -1,0 +1,164 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. Forum Julii Calcio
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-udi-under-19-provinciali-a-48fee851@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:TRICESIMO CALCIO 2-4 FORUM JULII CALCIO (Under 19 provinciali — g
+ irone A)
+DESCRIPTION:Under 19 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-d-840f6db8@zuin-fvg
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:FORUM JULII CALCIO 2-1 TORREANESE (Under 14 provinciali — girone 
+ D)
+DESCRIPTION:Under 14 provinciali — girone D\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-16-provinciali-a-e492170b@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:CHIAVRIS 0-0 FORUM JULII CALCIO (Under 16 provinciali — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-a-75910df0@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:PALMARKET PAGNACCO 1-4 FORUM JULII CALCIO (Under 17 provinciali —
+  girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-e7ac40d1@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:FORUM JULII CALCIO 1-3 TOLMEZZO CARNIA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-19-provinciali-a-c847ea5e@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:FORUM JULII CALCIO 2-0 BUTTRIO CALCIO (Under 19 provinciali — gir
+ one A)
+DESCRIPTION:Under 19 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-040b107b@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:PRO GORIZIA 0-1 FORUM JULII CALCIO (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n10ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-16-provinciali-a-7622a802@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:FORUM JULII CALCIO 2-4 MANZANESE CALCIO (Under 16 provinciali — g
+ irone A)
+DESCRIPTION:Under 16 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-92942e54@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:FORUM JULII CALCIO 1-1 POLISPORTIVA TAMAI ASD (Eccellenza — giron
+ e A)
+DESCRIPTION:Eccellenza — girone A\n11ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-16-provinciali-a-18c17404@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:RIVE D ARCANO FLAIBANO 3-0 FORUM JULII CALCIO (Under 16 provinciali
+  — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-a-bf63ca51@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:TORREANESE 0-7 FORUM JULII CALCIO (Under 17 provinciali — girone 
+ A)
+DESCRIPTION:Under 17 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -a
+END:VEVENT
+END:VCALENDAR

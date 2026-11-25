@@ -1,0 +1,274 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ASD Futurosa Basket Trieste
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u15-femminile-983ee87a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T153000
+DTEND;TZID=Europe/Rome:20261101T173000
+SUMMARY:Futurosa Basket Trieste 54-61 Polisportiva Concordia (Under 15 Femm
+ inile — girone unico)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-3367631b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T193000
+DTEND;TZID=Europe/Rome:20261103T213000
+SUMMARY:APU NEXT GEN 90-39 FUTUROSA ROSA (Under 17 Femminile — girone uni
+ co)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 17 Femminile — girone unico\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-a-b9d5788b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T190000
+DTEND;TZID=Europe/Rome:20261104T210000
+SUMMARY:FUTUROSA NERA 74-51 FUTUROSA ROSA (Under 14 Femminile — girone A 
+ (prima fase))
+LOCATION:Pal. Sc. Rismondo\, Trieste
+DESCRIPTION:Under 14 Femminile — girone A (prima fase)\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-5ad13b56@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T200000
+DTEND;TZID=Europe/Rome:20261104T220000
+SUMMARY:FUTUROSA BASKET TRIESTE 79-64 DINAMO GORIZIA (Under 19 Femminile Re
+ gionale — girone unico)
+LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n1ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-f57f14d8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T113000
+DTEND;TZID=Europe/Rome:20261108T133000
+SUMMARY:Futurosa Nera 47-78 BIN Tigrotte (Under 13 Femminile — girone GO/
+ TS (prima fase))
+LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-cb1da5d0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T193000
+DTEND;TZID=Europe/Rome:20261110T213000
+SUMMARY:FUTUROSA BASKET TRIESTE 103-37 MONRITZ TEAM SPORT (Under 19 Femmini
+ le Regionale — girone unico)
+LOCATION:Palestra "B" - Pala "C. Rubini"\, Trieste
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n2ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-a-349bf92c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261112T183000
+DTEND;TZID=Europe/Rome:20261112T203000
+SUMMARY:APU NEXT GEN 72-28 FUTUROSA ROSA (Under 14 Femminile — girone A (
+ prima fase))
+LOCATION:Palestra Sc. "Marconi"\, Udine
+DESCRIPTION:Under 14 Femminile — girone A (prima fase)\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-a-7e5af95d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261112T193000
+DTEND;TZID=Europe/Rome:20261112T213000
+SUMMARY:FUTUROSA NERA 68-40 A.P.C. CHIONS (Under 14 Femminile — girone A 
+ (prima fase))
+LOCATION:Palestra "B" Pala "C. Rubini"\, Trieste
+DESCRIPTION:Under 14 Femminile — girone A (prima fase)\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-fa786872@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261113T190000
+DTEND;TZID=Europe/Rome:20261113T210000
+SUMMARY:Futurosa Nera 30-36 Dinamo Gorizia (Under 13 Femminile — girone G
+ O/TS (prima fase))
+LOCATION:Pal. Sc. Rismondo\, Trieste
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-a8f132bf@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T113000
+DTEND;TZID=Europe/Rome:20261115T133000
+SUMMARY:Futurosa Basket Trieste 101-22 Dinamo Gorizia (Under 15 Femminile 
+ — girone unico)
+LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-f36054a7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T153000
+DTEND;TZID=Europe/Rome:20261115T173000
+SUMMARY:FUTUROSA ROSA 41-119 SISTEMA ROSA PALL. (Under 17 Femminile — gir
+ one unico)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 17 Femminile — girone unico\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-959467a2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261117T193000
+DTEND;TZID=Europe/Rome:20261117T213000
+SUMMARY:APU NEXT GEN 50-94 FUTUROSA NERA (Under 17 Femminile — girone uni
+ co)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 17 Femminile — girone unico\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-a-194d5477@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T193000
+DTEND;TZID=Europe/Rome:20261118T213000
+SUMMARY:APU NEXT GEN 43-62 FUTUROSA NERA (Under 14 Femminile — girone A (
+ prima fase))
+LOCATION:Palestra Sc. "Marconi"\, Udine
+DESCRIPTION:Under 14 Femminile — girone A (prima fase)\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-cfd9c202@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T200000
+DTEND;TZID=Europe/Rome:20261118T220000
+SUMMARY:FUTUROSA BASKET TRIESTE 67-74 APU NEXT GEN (Under 19 Femminile Regi
+ onale — girone unico)
+LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n3ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-822f0de9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261119T183000
+DTEND;TZID=Europe/Rome:20261119T203000
+SUMMARY:PALL. INTERCLUB MUGGIA 116-29 FUTUROSA ROSA (Under 17 Femminile —
+  girone unico)
+LOCATION:Palestra Comunale 'G. Pacco'\, Muggia
+DESCRIPTION:Under 17 Femminile — girone unico\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-d96a2476@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T200000
+DTEND;TZID=Europe/Rome:20261125T220000
+SUMMARY:FUTUROSA BASKET TRIESTE – PALL. INTERCLUB MUGGIA (Under 19 Femmin
+ ile Regionale — girone unico)
+LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n4ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-a5f60d03@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261126T193000
+DTEND;TZID=Europe/Rome:20261126T213000
+SUMMARY:U.S.D. Don Bosco – Futurosa Nera (Under 13 Femminile — girone G
+ O/TS (prima fase))
+LOCATION:Pal. Oratorio "Don Bosco"\, Trieste
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-d916c95b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261203T190000
+DTEND;TZID=Europe/Rome:20261203T210000
+SUMMARY:U.S. Alba – Futurosa Basket Trieste (Under 15 Femminile — giron
+ e unico)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 15 Femminile — girone unico\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-a-d081aa4a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261209T200000
+DTEND;TZID=Europe/Rome:20261209T220000
+SUMMARY:FUTUROSA ROSA – FUTUROSA NERA (Under 14 Femminile — girone A (p
+ rima fase))
+LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+DESCRIPTION:Under 14 Femminile — girone A (prima fase)\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-a
+END:VEVENT
+END:VCALENDAR

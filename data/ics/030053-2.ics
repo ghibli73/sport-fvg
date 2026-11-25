@@ -1,0 +1,234 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Majanese (pallacanestro)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr3-ud-143778bc@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261028T204500
+DTEND;TZID=Europe/Rome:20261028T224500
+SUMMARY:ZIO PINO BASKIN UDINE 61-36 MAJANESE 'B' (Divisione Regionale 3 —
+  girone UD)
+LOCATION:Palestra Don Bosco\, Udine
+DESCRIPTION:Divisione Regionale 3 — girone UD\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-af1ea964@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T210000
+DTEND;TZID=Europe/Rome:20261030T230000
+SUMMARY:Errebi Majano 66-71 Libertas Fiume Veneto (Divisione Regionale 1 
+ — girone Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-e74b41f4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:MAJANESE 48-39 FELETTO BASKETBALL ACADEMY (Under 17 Maschile Gold 
+ — girone UD (prima fase))
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-a9b2dc8a@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:MAJANESE 'B' 47-52 MONTGOMERY HAMBURGER HOUSE 'B' (Divisione Region
+ ale 3 — girone UD)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 3 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-0adcc99f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T190000
+DTEND;TZID=Europe/Rome:20261104T210000
+SUMMARY:Majanese 67-53 Olympia Rivignano (Under 14 Maschile Regionale — g
+ irone PN/UD)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-b0d407d3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T210000
+DTEND;TZID=Europe/Rome:20261104T230000
+SUMMARY:POL LIB. PASIAN DI PRATO 51-61 MAJANESE (Under 19 Maschile Regional
+ e — girone UD (prima fase))
+LOCATION:Palasport Mario Vecchiatto\, Pasian di Prato
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-5ded579c@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T203000
+DTEND;TZID=Europe/Rome:20261106T223000
+SUMMARY:MAJANESE 'B' 51-59 POL. DIL. TRICESIMO 'B' (Divisione Regionale 3 
+ — girone UD)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 3 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-4740747e@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T204500
+DTEND;TZID=Europe/Rome:20261106T224500
+SUMMARY:Torre Basket 76-89 Errebi Majano (Divisione Regionale 1 — girone 
+ Ovest)
+LOCATION:Palestra Istituto "Flora"\, Pordenone
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-0a09910c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:Azzano Basket 77-62 Majanese (Under 14 Maschile Regionale — giron
+ e PN/UD)
+LOCATION:Palazzetto Matteo Molent\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-f3eeb5b7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T190000
+DTEND;TZID=Europe/Rome:20261111T210000
+SUMMARY:MAJANESE 66-62 PALL. LAIPACCO (Under 19 Maschile Regionale — giro
+ ne UD (prima fase))
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-b6fd010c@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T210000
+DTEND;TZID=Europe/Rome:20261113T230000
+SUMMARY:Errebi Majano 78-64 C.T.S. (Divisione Regionale 1 — girone Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-2cddcd18@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T153000
+DTEND;TZID=Europe/Rome:20261114T173000
+SUMMARY:Pall. Codroipese 22-75 Majanese (Under 14 Maschile Regionale — gi
+ rone PN/UD)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-f0ec6699@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261114T173000
+DTEND;TZID=Europe/Rome:20261114T193000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO 'B' 41-53 MAJANESE 'B' (Divisione Regiona
+ le 3 — girone UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Divisione Regionale 3 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-99333933@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:MAJANESE 57-73 GP Engineering di Paron (Under 17 Maschile Gold — 
+ girone UD (prima fase))
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-77023a0c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T183000
+DTEND;TZID=Europe/Rome:20261118T203000
+SUMMARY:POL. DLF DI UDINE 41-58 MAJANESE (Under 19 Maschile Regionale — g
+ irone UD (prima fase))
+LOCATION:Pal. Sc. E. Ada Negri\, Udine
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-109357e2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T190000
+DTEND;TZID=Europe/Rome:20261125T210000
+SUMMARY:MAJANESE – LIBERTAS GONARS (Under 19 Maschile Regionale — giron
+ e UD (prima fase))
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Basket Villanova H.R.V.
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr3-pn-0bdd6f48@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261104T211500
+DTEND;TZID=Europe/Rome:20261104T231500
+SUMMARY:JULIA CONCORDIA BASKET 43-58 BASKET VILLANOVA H.R.V (Divisione Regi
+ onale 3 — girone PN)
+LOCATION:Pal.tto Sport "L. Valerio"\, Concordia Sagittaria
+DESCRIPTION:Divisione Regionale 3 — girone PN\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-484db49b@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T204500
+DTEND;TZID=Europe/Rome:20261106T224500
+SUMMARY:BASKET VILLANOVA H.R.V 60-59 BVO ANNONE (Divisione Regionale 3 — 
+ girone PN)
+LOCATION:Pal. Sc. Medie Villanova\, Pordenone
+DESCRIPTION:Divisione Regionale 3 — girone PN\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-c2e83691@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261210T204500
+DTEND;TZID=Europe/Rome:20261210T224500
+SUMMARY:POLISPORTIVA MONTEREALE – BASKET VILLANOVA H.R.V (Divisione Regio
+ nale 3 — girone PN)
+LOCATION:Palestra Comunale\, Montereale Valcellina
+DESCRIPTION:Divisione Regionale 3 — girone PN\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+END:VCALENDAR

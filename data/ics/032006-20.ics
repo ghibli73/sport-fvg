@@ -1,0 +1,92 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. S. Giusto Football Academy
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-be89216a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:S.GIUSTO FOOTBALL ACADEMY 6-2 SAN GIOVANNI A.S.D. (Under 15 provinc
+ iali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-dd913f40@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:ISONTINO CALCIO 3-0 S.GIUSTO FOOTBALL ACADEMY (Under 15 provinciali
+  — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-10feff29@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:S.GIUSTO FOOTBALL ACADEMY 1-4 ZARJA A.S.D. (Under 15 provinciali 
+ — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-744b94d2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:STUDENTI 1-1 S.GIUSTO FOOTBALL ACADEMY (Under 15 provinciali — gi
+ rone A)
+DESCRIPTION:Under 15 provinciali — girone A\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-88498da0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:S.GIUSTO FOOTBALL ACADEMY 4-1 FANI OLIMPIA (Under 15 provinciali 
+ — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+END:VCALENDAR

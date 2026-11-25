@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Feletto Basketball Academy ASD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-b-a5c79be6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T200000
+DTEND;TZID=Europe/Rome:20261027T220000
+SUMMARY:Amici Pallacanestro Udinese 67-76 Feletto Basketball Academy (Under
+  19 Maschile Gold — girone B)
+LOCATION:Palasport 'Primo Carnera'\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone B\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-7192884e@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261031T194500
+DTEND;TZID=Europe/Rome:20261031T214500
+SUMMARY:Feletto Basketball Academy 52-59 Pall. Tolmezzo (Divisione Regional
+ e 1 — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-08c4968b@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:Feletto Basketball Academy 69-90 ZKB Jadran (Under 15 Maschile Gold
+  — girone unico)
+LOCATION:Palestra F. Cavalicco\, Tavagnacco
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n3ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-e74b41f4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:MAJANESE 48-39 FELETTO BASKETBALL ACADEMY (Under 17 Maschile Gold 
+ — girone UD (prima fase))
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-d4ec8f46@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T190000
+DTEND;TZID=Europe/Rome:20261103T210000
+SUMMARY:Feletto Basketball Academy 80-74 O.F.P. Azzurra R.D.R. Basket Tries
+ te (Under 19 Maschile Gold — girone B)
+LOCATION:Palestra F. Cavalicco - V. S. Bernardo\, Tavagnacco
+DESCRIPTION:Under 19 Maschile Gold — girone B\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-d05341b0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261106T190000
+DTEND;TZID=Europe/Rome:20261106T210000
+SUMMARY:FELETTO BASKETBALL ACADEMY 69-59 Uattzy SBaMM (Under 17 Maschile Go
+ ld — girone UD (prima fase))
+LOCATION:Palestra Cavalicco\, Tavagnacco
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-09407575@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261107T173000
+DTEND;TZID=Europe/Rome:20261107T193000
+SUMMARY:Longobardi 47-51 Feletto Basketball Academy (Under 15 Maschile Gold
+  — girone unico)
+LOCATION:Palestra Sc. I. Nievo\, Remanzacco
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n4ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-8af55b7b@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261108T180000
+DTEND;TZID=Europe/Rome:20261108T200000
+SUMMARY:Pol. Casarsa 81-52 Feletto Basketball Academy (Divisione Regionale 
+ 1 — girone Ovest)
+LOCATION:Palasport "Palarosa"\, Casarsa della Delizia
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-8e9d4820@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T190000
+DTEND;TZID=Europe/Rome:20261110T210000
+SUMMARY:Feletto Basketball Academy 77-92 Fly Solartech Icarus (Under 19 Mas
+ chile Gold — girone B)
+LOCATION:Palestra F. Cavalicco - V. S. Bernardo\, Tavagnacco
+DESCRIPTION:Under 19 Maschile Gold — girone B\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-f0278435@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261113T190000
+DTEND;TZID=Europe/Rome:20261113T210000
+SUMMARY:FELETTO BASKETBALL ACADEMY 68-67 UEB Academy Cividale (Under 17 Mas
+ chile Gold — girone UD (prima fase))
+LOCATION:Palestra Cavalicco\, Tavagnacco
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-97338be5@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261114T194500
+DTEND;TZID=Europe/Rome:20261114T214500
+SUMMARY:Feletto Basketball Academy 68-66 Pol. Polisigma (Divisione Regional
+ e 1 — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+END:VCALENDAR

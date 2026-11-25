@@ -1,0 +1,599 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Centro Sportivo Italiano Tarcento
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-6987ee22@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T173000
+DTEND;TZID=Europe/Rome:20261031T193000
+SUMMARY:CSI TARCENTO 3-0 MAJANESE VOLLEY (Under 14 femminile CT Udine — g
+ irone B)
+LOCATION:Palasport\, TARCENTO UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-341c0780@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T173000
+DTEND;TZID=Europe/Rome:20261031T193000
+SUMMARY:ART_CENTO VOLLEY WHITE 0-3 HORIZON KREATIVA (Under 17 femminile CT 
+ Udine — girone B)
+LOCATION:Palestra Scuole Medie\, TARCENTO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-24b84b65@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T200000
+DTEND;TZID=Europe/Rome:20261031T220000
+SUMMARY:TIKITAKA STARANZANO 1-3 CSI TARCENTO (Serie C femminile — girone 
+ unico)
+LOCATION:Palasport\, STARANZANO GO
+DESCRIPTION:Serie C femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-638edf40@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261106T201500
+DTEND;TZID=Europe/Rome:20261106T221500
+SUMMARY:CSI TARCENTO AZZURRA 1-3 FVG VOLLEY ACADEMY (Seconda Divisione femm
+ inile CT Udine — girone A)
+LOCATION:Palestra Scuole Medie\, TARCENTO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-c-d45d1d9a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:ART_CENTO VOLLEY 3-1 ASD PALLAVOLO PALUZZA (Under 15 femminile CT U
+ dine — girone C)
+LOCATION:Palasport\, TARCENTO UD
+DESCRIPTION:Under 15 femminile CT Udine — girone C\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-51e4c14c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:VOLLEYBAS GREEN 3-1 ART_CENTO VOLLEY WHITE (Under 17 femminile CT U
+ dine — girone B)
+LOCATION:Palestra Scuola Media Valussi\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-d7767974@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:CSI TARCENTO 3-1 PROJECTVOLLEY SANGIORGINA (Serie C femminile — g
+ irone unico)
+LOCATION:Palasport\, Tarcento (UD)
+DESCRIPTION:Serie C femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-19679f8e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T094500
+DTEND;TZID=Europe/Rome:20261108T114500
+SUMMARY:CLUB AURORA VOLLEY UDINE 0-3 CSI TARCENTO (Under 14 femminile CT Ud
+ ine — girone B)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-efd66cda@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T113000
+DTEND;TZID=Europe/Rome:20261108T133000
+SUMMARY:ART_CENTO VOLLEY 3-0 CLUB AURORA VOLLEY UDINE (Under 19 femminile C
+ T Udine — girone unico)
+LOCATION:Palasport\, TARCENTO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-95b1f1c5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T180000
+DTEND;TZID=Europe/Rome:20261108T200000
+SUMMARY:FTV RIZZI UDINE 2-3 ART_CENTO VOLLEY (Prima Divisione femminile CT 
+ Udine — girone unico)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, UDINE UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n3ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-a1a0a2a1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261111T203000
+DTEND;TZID=Europe/Rome:20261111T223000
+SUMMARY:ROJALKENNEDY ASSICOOP 3-2 CSI TARCENTO AZZURRA (Seconda Divisione f
+ emminile CT Udine — girone A)
+LOCATION:Palestra Comunale\, Remugnano REANA DEL ROIALE UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-a-d8dc46a5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261112T183000
+DTEND;TZID=Europe/Rome:20261112T203000
+SUMMARY:SEVEROLI BUIA* 3-0 CSI TARCENTO (Under 13 femminile CT Udine — gi
+ rone A)
+LOCATION:Palestra Olimpica\, BUJA UD
+DESCRIPTION:Under 13 femminile CT Udine — girone A\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-c-c365617c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T181500
+DTEND;TZID=Europe/Rome:20261113T201500
+SUMMARY:PAV BRESSA BAR-ET 0-3 ART_CENTO VOLLEY (Under 15 femminile CT Udine
+  — girone C)
+LOCATION:Palestra Scuole Elementari\, Basaldella CAMPOFORMIDO UD
+DESCRIPTION:Under 15 femminile CT Udine — girone C\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-11bbd302@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:ART_CENTO VOLLEY 1-3 ASDMUZZANAVOLLEY (Prima Divisione femminile CT
+  Udine — girone unico)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n4ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-80d46aef@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T173000
+DTEND;TZID=Europe/Rome:20261114T193000
+SUMMARY:ART_CENTO VOLLEY WHITE 0-3 AURORA VOLLEY UD AL (Under 17 femminile 
+ CT Udine — girone B)
+LOCATION:Palasport\, TARCENTO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-3ed0acfb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T183000
+DTEND;TZID=Europe/Rome:20261114T203000
+SUMMARY:ZALET ZKB 0-3 CSI TARCENTO (Serie C femminile — girone unico)
+LOCATION:Centro Polisportivo Ervatti\, Sgonico (TS)
+DESCRIPTION:Serie C femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-b5f2b4ee@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:CHEI DE VILE 3-1 ART_CENTO VOLLEY (Under 19 femminile CT Udine — 
+ girone unico)
+LOCATION:Palestra Comunale\, Ciconicco FAGAGNA UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-ecf6cb02@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261116T173000
+DTEND;TZID=Europe/Rome:20261116T193000
+SUMMARY:PROJECTVOLLEY SANGIORGINA 3-0 ART_CENTO VOLLEY WHITE (Under 17 femm
+ inile CT Udine — girone B)
+LOCATION:Palazzetto dello Sport\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-139669c5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261118T190000
+DTEND;TZID=Europe/Rome:20261118T210000
+SUMMARY:CSI TARCENTO 3-0 APD SAN LEONARDO (Under 14 femminile CT Udine — 
+ girone B)
+LOCATION:Palasport\, TARCENTO UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-a-47bfb6e9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261119T170000
+DTEND;TZID=Europe/Rome:20261119T190000
+SUMMARY:CSI TARCENTO 0-3 KENNEDY ROSSO (Under 13 femminile CT Udine — gir
+ one A)
+LOCATION:Palestra Scuole Medie\, TARCENTO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone A\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-782ee3eb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261119T203000
+DTEND;TZID=Europe/Rome:20261119T223000
+SUMMARY:LIBERTAS MARTIGNACCO 3-2 ART_CENTO VOLLEY (Under 19 femminile CT Ud
+ ine — girone unico)
+LOCATION:Palazzetto dello Sport (campo A)\, MARTIGNACCO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-67cc12a0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T200000
+DTEND;TZID=Europe/Rome:20261120T220000
+SUMMARY:LIBERTAS MARTIGNACCO 3-0 ART_CENTO VOLLEY (Prima Divisione femminil
+ e CT Udine — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n5ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-c-7272846d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T173000
+DTEND;TZID=Europe/Rome:20261121T193000
+SUMMARY:ART_CENTO VOLLEY 3-0 FUTURA-LIBERTAS (Under 15 femminile CT Udine 
+ — girone C)
+LOCATION:Palasport\, TARCENTO UD
+DESCRIPTION:Under 15 femminile CT Udine — girone C\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-d615d85f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T200000
+DTEND;TZID=Europe/Rome:20261121T220000
+SUMMARY:ART_CENTO VOLLEY 3-1 FACTORY VOLLEY FAEDIS (Prima Divisione femmini
+ le CT Udine — girone unico)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n6ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-48e51105@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T203000
+DTEND;TZID=Europe/Rome:20261121T223000
+SUMMARY:CSI TARCENTO 0-3 CHIARVESIO CHEI DE VILE (Serie C femminile — gir
+ one unico)
+LOCATION:Palasport\, Tarcento (UD)
+DESCRIPTION:Serie C femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-c-8601a7c9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:ART_CENTO VOLLEY 3-1 PAV NATISONIA (Under 15 femminile CT Udine —
+  girone C)
+LOCATION:Palasport\, TARCENTO UD
+DESCRIPTION:Under 15 femminile CT Udine — girone C\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-72a453cb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T180000
+DTEND;TZID=Europe/Rome:20261122T200000
+SUMMARY:INGEGNI PASIAN DI PRATO 3-0 CSI TARCENTO AZZURRA (Seconda Divisione
+  femminile CT Udine — girone A)
+LOCATION:Palestra ENAIP\, Pasian di Prato PASIAN DI PRATO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-311cc196@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261123T183000
+DTEND;TZID=Europe/Rome:20261123T203000
+SUMMARY:BLANC RIZZI UDINE FTV 0-3 CSI TARCENTO (Under 14 femminile CT Udine
+  — girone B)
+LOCATION:Palestra Scuole Rodari\, via Val d'Aupa\, UDINE UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-43481b63@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261127T201500
+DTEND;TZID=Europe/Rome:20261127T221500
+SUMMARY:CSI TARCENTO AZZURRA – AURORA VOLLEY UDINE (Seconda Divisione fem
+ minile CT Udine — girone A)
+LOCATION:Palestra Scuole Medie\, Via Taviele\, TARCENTO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-a-4a8bcec9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T153000
+DTEND;TZID=Europe/Rome:20261128T173000
+SUMMARY:CSI TARCENTO – MAJANESE VOLLEY (Under 13 femminile CT Udine — g
+ irone A)
+LOCATION:Palasport\, Via Sottocolle Verzan\, TARCENTO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone A\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-c-b7659b69@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:PAV NATISONIA – ART_CENTO VOLLEY (Under 15 femminile CT Udine —
+  girone C)
+LOCATION:Palazzetto dello Sport\, Via Antica 14\, SAN GIOVANNI AL NATISONE 
+ UD
+DESCRIPTION:Under 15 femminile CT Udine — girone C\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-b419af2c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:FARMACIA DA RE E CANOVA – ART_CENTO VOLLEY WHITE (Under 17 femmin
+ ile CT Udine — girone B)
+LOCATION:Palestra Olimpica\, Via Fornasate 47\, BUJA UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-9dd325dc@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T173000
+DTEND;TZID=Europe/Rome:20261128T193000
+SUMMARY:CSI TARCENTO – VOLLEY BALL CARNIA (Under 14 femminile CT Udine 
+ — girone B)
+LOCATION:Palasport\, Via Sottocolle Verzan\, TARCENTO UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-16273a67@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T200000
+DTEND;TZID=Europe/Rome:20261128T220000
+SUMMARY:FVG VOLLEY ACADEMY – ART_CENTO VOLLEY (Prima Divisione femminile 
+ CT Udine — girone unico)
+LOCATION:Palestra comunale\, Via Carnia 10\, Lauzacco\, PAVIA DI UDINE UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n7ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-a6d199bf@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:SERVIZI INDUSTRIALI GIS – CSI TARCENTO (Serie C femminile — gir
+ one unico)
+LOCATION:Pal. Sport "Piccin"\, Via Piccin 2\, Sacile (PN)
+DESCRIPTION:Serie C femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-f0197228@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:PAV NATISONIA - IL POZZO – ART_CENTO VOLLEY (Under 19 femminile C
+ T Udine — girone unico)
+LOCATION:Palazzetto dello Sport\, Via Antica 14\, SAN GIOVANNI AL NATISONE 
+ UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-c-cf3079b3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261203T180000
+DTEND;TZID=Europe/Rome:20261203T200000
+SUMMARY:ASD PALLAVOLO PALUZZA – ART_CENTO VOLLEY (Under 15 femminile CT U
+ dine — girone C)
+DESCRIPTION:Under 15 femminile CT Udine — girone C\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-0fc81d7e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T210000
+DTEND;TZID=Europe/Rome:20261204T230000
+SUMMARY:LIBERTAS GONARS – ART_CENTO VOLLEY (Prima Divisione femminile CT 
+ Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n9ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-4ceb313a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T173000
+DTEND;TZID=Europe/Rome:20261205T193000
+SUMMARY:ART_CENTO VOLLEY WHITE – FVG VOLLEY ACADEMY SENIOR (Under 17 femm
+ inile CT Udine — girone B)
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-7ceed79b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T200000
+DTEND;TZID=Europe/Rome:20261205T220000
+SUMMARY:ART_CENTO VOLLEY – VILLADIES SAFE MARINE (Prima Divisione femmini
+ le CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n8ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-7adfb589@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T203000
+DTEND;TZID=Europe/Rome:20261205T223000
+SUMMARY:CSI TARCENTO – ITAS CECCARELLI GROUP (Serie C femminile — giron
+ e unico)
+DESCRIPTION:Serie C femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-4783135d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T113000
+DTEND;TZID=Europe/Rome:20261206T133000
+SUMMARY:ART_CENTO VOLLEY – A.S.D. STELLA VOLLEY (Under 19 femminile CT Ud
+ ine — girone unico)
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+END:VCALENDAR

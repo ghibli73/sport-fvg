@@ -1,0 +1,623 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. Vivil
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-d-6fbd0312@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261027T193000
+DTEND;TZID=Europe/Rome:20261027T213000
+SUMMARY:VILLADIES 3-1 FABBROS' ROJALKENNEDY (Under 15 femminile CT Udine 
+ — girone D)
+LOCATION:Palestra Comunale\, VILLA VICENTINA UD
+DESCRIPTION:Under 15 femminile CT Udine — girone D\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-d-cd73988a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T153000
+DTEND;TZID=Europe/Rome:20261031T173000
+SUMMARY:CLUB AURORA VOLLEY UDINE 3-1 VILLADIES (Under 15 femminile CT Udine
+  — girone D)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 15 femminile CT Udine — girone D\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-d04c347f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T200000
+DTEND;TZID=Europe/Rome:20261031T220000
+SUMMARY:ITAS CECCARELLI GROUP 0-3 VILLADIES FARMADERBE (Serie C femminile 
+ — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Serie C femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-a-5a6945cb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:CDA VOLLEY LIGNANO 1-3 VILLADIES (Under 14 femminile CT Udine — g
+ irone A)
+LOCATION:Palestra Comunale (campo B)\, LIGNANO SABBIADORO UD
+DESCRIPTION:Under 14 femminile CT Udine — girone A\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-d-f63b35e3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261103T193000
+DTEND;TZID=Europe/Rome:20261103T213000
+SUMMARY:VILLADIES 3-0 ART_CENTO VOLLEY WHITE (Under 15 femminile CT Udine 
+ — girone D)
+LOCATION:Palestra Comunale\, VILLA VICENTINA UD
+DESCRIPTION:Under 15 femminile CT Udine — girone D\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-a8632103@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261106T203000
+DTEND;TZID=Europe/Rome:20261106T223000
+SUMMARY:ASDMUZZANAVOLLEY 1-3 VILLADIES SAFE MARINE (Prima Divisione femmini
+ le CT Udine — girone unico)
+LOCATION:Palestra Comunale\, MUZZANA DEL TURGNANO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n3ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-b1c715f2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261106T203000
+DTEND;TZID=Europe/Rome:20261106T223000
+SUMMARY:VILLADIES 3-1 APD CJASSA (Seconda Divisione femminile CT Udine — 
+ girone B)
+LOCATION:Palestra Comunale\, VILLA VICENTINA UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-4f9cdd44@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:VILLADIES 3-1 LIBERTAS GONARS (Under 17 femminile CT Udine — giro
+ ne C)
+LOCATION:Palestra Comunale\, VILLA VICENTINA UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-597daa92@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:VILLADIES FARMADERBE 3-1 UNION VOLLEY ACADEMY PN (Serie C femminile
+  — girone unico)
+LOCATION:Palestra Comunale\, Villa Vicentina (UD)
+DESCRIPTION:Serie C femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-a-45919b4f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:ROJALKENNEDY ASSICOOP 3-0 VILLADIES (Under 14 femminile CT Udine 
+ — girone A)
+LOCATION:Palestra Comunale\, Cavalicco TAVAGNACCO UD
+DESCRIPTION:Under 14 femminile CT Udine — girone A\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-e25cd07c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:VILLADIES SAFE MARINE 2-3 CHEI DE VILE (Under 19 femminile CT Udine
+  — girone unico)
+LOCATION:Palestra Polifunzionale Comunale\, FIUMICELLO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-acc7066a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T180000
+DTEND;TZID=Europe/Rome:20261113T200000
+SUMMARY:VILLADIES 3-0 HORIZON GAS & ENERGIE (Under 13 femminile CT Udine 
+ — girone D)
+LOCATION:Palestra Comunale\, VILLA VICENTINA UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-b9522b90@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:VILLADIES SAFE MARINE 3-0 FACTORY VOLLEY FAEDIS (Prima Divisione fe
+ mminile CT Udine — girone unico)
+LOCATION:Palestra Comunale\, VILLA VICENTINA UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n4ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-a-6ac0c459@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:VILLADIES 3-0 PAV BRESSA - Multiservice (Under 14 femminile CT Udin
+ e — girone A)
+LOCATION:Palestra Comunale\, VILLA VICENTINA UD
+DESCRIPTION:Under 14 femminile CT Udine — girone A\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-79d73fac@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:A.S.D. STELLA VOLLEY 0-3 VILLADIES FARMADERBE (Serie C femminile 
+ — girone unico)
+LOCATION:Palestra Comunale di Rivignano\, Rivignano (UD)
+DESCRIPTION:Serie C femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-d-8a0cbe82@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:IL POZZO 1-3 VILLADIES (Under 15 femminile CT Udine — girone D)
+LOCATION:Palestra Comunale\, PRADAMANO UD
+DESCRIPTION:Under 15 femminile CT Udine — girone D\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-95e31423@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:LIBERTAS MARTIGNACCO 3-1 VILLADIES (Under 17 femminile CT Udine —
+  girone C)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-a5dffa14@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:PAV NATISONIA - IL POZZO 0-3 VILLADIES SAFE MARINE (Under 19 femmin
+ ile CT Udine — girone unico)
+LOCATION:Palazzetto dello Sport\, SAN GIOVANNI AL NATISONE UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-6e2eacfc@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:L.W.V.OTTOGALLI LATISANA 3-1 VILLADIES (Seconda Divisione femminile
+  CT Udine — girone B)
+LOCATION:Palestra Scuole Medie\, LATISANA UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-58ae8912@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261118T210000
+DTEND;TZID=Europe/Rome:20261118T230000
+SUMMARY:FVG VOLLEY ACADEMY 0-3 VILLADIES SAFE MARINE (Prima Divisione femmi
+ nile CT Udine — girone unico)
+LOCATION:Palestra comunale\, Lauzacco PAVIA DI UDINE UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n5ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-f0cfc769@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T203000
+DTEND;TZID=Europe/Rome:20261120T223000
+SUMMARY:CHEI DE VILE 0-3 VILLADIES SAFE MARINE (Prima Divisione femminile C
+ T Udine — girone unico)
+LOCATION:Palestra Comunale\, Ciconicco FAGAGNA UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n6ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-214207d4@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261120T203000
+DTEND;TZID=Europe/Rome:20261120T223000
+SUMMARY:VILLADIES 3-1 LIBERTAS GONARS (Seconda Divisione femminile CT Udine
+  — girone B)
+LOCATION:Palestra Comunale\, VILLA VICENTINA UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-e73b7035@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T153000
+DTEND;TZID=Europe/Rome:20261121T173000
+SUMMARY:LIBERTAS GONARS 0-3 VILLADIES (Under 13 femminile CT Udine — giro
+ ne D)
+LOCATION:Palestra Scuole Medie\, GONARS UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-d-5c74ea09@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T160000
+DTEND;TZID=Europe/Rome:20261121T180000
+SUMMARY:FABBROS' ROJALKENNEDY 3-2 VILLADIES (Under 15 femminile CT Udine 
+ — girone D)
+LOCATION:Palestra scuole elementari\, CASSACCO UD
+DESCRIPTION:Under 15 femminile CT Udine — girone D\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-838ddbf9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T200000
+DTEND;TZID=Europe/Rome:20261121T220000
+SUMMARY:TIKITAKA STARANZANO 1-3 VILLADIES FARMADERBE (Serie C femminile —
+  girone unico)
+LOCATION:Palasport\, Staranzano (GO)
+DESCRIPTION:Serie C femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-a-d11cb97f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:SPORTING CLUB 0-3 VILLADIES (Under 14 femminile CT Udine — girone
+  A)
+LOCATION:Palasport (principale)\, CERVIGNANO DEL FRIULI UD
+DESCRIPTION:Under 14 femminile CT Udine — girone A\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-7d4c02c2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:VILLADIES SAFE MARINE 3-1 BLU TEAM (Under 19 femminile CT Udine —
+  girone unico)
+LOCATION:Palestra Comunale\, VILLA VICENTINA UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-a-ce29191c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261123T180000
+DTEND;TZID=Europe/Rome:20261123T200000
+SUMMARY:VILLADIES 3-1 HORIZON ANTARTIK (Under 14 femminile CT Udine — gir
+ one A)
+LOCATION:Palestra Comunale\, Via Duca d'Aosta\, VILLA VICENTINA UD
+DESCRIPTION:Under 14 femminile CT Udine — girone A\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-7b194c91@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261123T200000
+DTEND;TZID=Europe/Rome:20261123T220000
+SUMMARY:SPORTING CLUB 1-3 VILLADIES (Seconda Divisione femminile CT Udine 
+ — girone B)
+LOCATION:Palasport (principale)\, Piazzale Lancieri d'Aosta\, CERVIGNANO DE
+ L FRIULI UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-2b8c7e60@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261127T183000
+DTEND;TZID=Europe/Rome:20261127T203000
+SUMMARY:VILLADIES – DOPOLAV. FERROV. UD. (Under 13 femminile CT Udine —
+  girone D)
+LOCATION:Palestra Comunale\, Via Duca d'Aosta\, VILLA VICENTINA UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-5f77de51@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261127T203000
+DTEND;TZID=Europe/Rome:20261127T223000
+SUMMARY:VILLADIES SAFE MARINE – LIBERTAS GONARS (Prima Divisione femminil
+ e CT Udine — girone unico)
+LOCATION:Palestra Comunale\, Via Duca d'Aosta\, VILLA VICENTINA UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n7ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-d-662dffdd@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T160000
+DTEND;TZID=Europe/Rome:20261128T180000
+SUMMARY:VOLLEY TALMASSONS – VILLADIES (Under 15 femminile CT Udine — gi
+ rone D)
+LOCATION:Palestra Scuole Medie\, Via Argilars 4\, TALMASSONS UD
+DESCRIPTION:Under 15 femminile CT Udine — girone D\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-683f4962@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:BLU TEAM – VILLADIES (Under 17 femminile CT Udine — girone C)
+LOCATION:Palestra comunale\, Via Carnia 10\, Lauzacco\, PAVIA DI UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-bd2056bf@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:VILLADIES FARMADERBE – DB CARR. DE BORTOLI (Serie C femminile —
+  girone unico)
+LOCATION:Palestra Comunale\, Via Duca d'Aosta\, Villa Vicentina (UD)
+DESCRIPTION:Serie C femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-ff83f0ad@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T170000
+DTEND;TZID=Europe/Rome:20261129T190000
+SUMMARY:AURORA VOLLEY UDINE SI – VILLADIES SAFE MARINE (Under 19 femminil
+ e CT Udine — girone unico)
+LOCATION:Palestra Scuola Mazzini\, via Bariglaria 327\, UDINE
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-ud-girone-d-43859e93@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261201T193000
+DTEND;TZID=Europe/Rome:20261201T213000
+SUMMARY:VILLADIES – CLUB AURORA VOLLEY UDINE (Under 15 femminile CT Udine
+  — girone D)
+DESCRIPTION:Under 15 femminile CT Udine — girone D\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-15-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-f38488e7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261202T200000
+DTEND;TZID=Europe/Rome:20261202T220000
+SUMMARY:VILLADIES – VOLLEYBAS BLACK (Under 17 femminile CT Udine — giro
+ ne C)
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-a-2b82eea8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261203T183000
+DTEND;TZID=Europe/Rome:20261203T203000
+SUMMARY:FUTURA-LIBERTAS – VILLADIES (Under 14 femminile CT Udine — giro
+ ne A)
+DESCRIPTION:Under 14 femminile CT Udine — girone A\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-1d2c7685@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T180000
+DTEND;TZID=Europe/Rome:20261204T200000
+SUMMARY:VILLADIES – PROJECTVOLLEY SANGIORED (Under 13 femminile CT Udine 
+ — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-d261d6e6@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:VILLADIES – VOLLEY TALMASSONS (Seconda Divisione femminile CT Udi
+ ne — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n6ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-c-6b03c309@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T160000
+DTEND;TZID=Europe/Rome:20261205T180000
+SUMMARY:VILLADIES – ROJALKENNEDY EMPORIO ADV (Under 17 femminile CT Udine
+  — girone C)
+DESCRIPTION:Under 17 femminile CT Udine — girone C\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-7ceed79b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T200000
+DTEND;TZID=Europe/Rome:20261205T220000
+SUMMARY:ART_CENTO VOLLEY – VILLADIES SAFE MARINE (Prima Divisione femmini
+ le CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n8ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-a520ea9f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T203000
+DTEND;TZID=Europe/Rome:20261205T223000
+SUMMARY:ROJALKENNEDY EMPORIO ADV – VILLADIES FARMADERBE (Serie C femminil
+ e — girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-5bb141c0@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:VILLADIES SAFE MARINE – A.S.D. STELLA VOLLEY (Prima Divisione fem
+ minile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n9ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,271 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.D. Basket Cervignanese (Credifriuli Cervignano)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-a-15c2782a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261026T203000
+DTEND;TZID=Europe/Rome:20261026T223000
+SUMMARY:UEB Academy Cividale 35-96 CHIURLO CERVIGNANO (Under 19 Maschile Go
+ ld — girone A)
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-bdde1f07@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T210000
+DTEND;TZID=Europe/Rome:20261030T230000
+SUMMARY:Credifriuli Cervignano 73-77 S.S. SD Kontovel (Divisione Regionale 
+ 1 — girone Est)
+LOCATION:Palasport\, Cervignano del Friuli
+DESCRIPTION:Divisione Regionale 1 — girone Est\n5ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-fd44cbdb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:BASKET CERVIGNANESE 51-47 LIGNANO BASKET (Under 14 Maschile Regiona
+ le — girone GO/TS/UD)
+LOCATION:Pal. Scuole Elementari\, Cervignano del Friuli
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n1ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-006e527f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T180000
+DTEND;TZID=Europe/Rome:20261031T200000
+SUMMARY:BASKET CERVIGNANESE 60-70 A.INT.BALONCESTO ISONTINA (Under 17 Masch
+ ile Regionale — girone GO/TS (prima fase))
+LOCATION:Pal. Scuole Elementari\, Cervignano del Friuli
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n2ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-e8217a48@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T191500
+DTEND;TZID=Europe/Rome:20261103T211500
+SUMMARY:BASKET CERVIGNANESE 73-76 BREG (Under 19 Maschile Regionale — gir
+ one GO/TS/UD (prima fase))
+LOCATION:Pal. Scuole Elementari\, Cervignano del Friuli
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n1
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-9e494646@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T190000
+DTEND;TZID=Europe/Rome:20261104T210000
+SUMMARY:CHIURLO CERVIGNANO 59-63 FALCONSTAR BASKET (Under 19 Maschile Gold 
+ — girone A)
+LOCATION:Palasport Piazzale Lancieri d'Aosta\, Cervignano del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-21d1ff4b@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T211500
+DTEND;TZID=Europe/Rome:20261106T231500
+SUMMARY:Santos Basket Trieste 72-100 Credifriuli Cervignano (Divisione Regi
+ onale 1 — girone Est)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n6ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-9fc74050@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:LIBERTAS GONARS 67-59 BASKET CERVIGNANESE (Under 15 Maschile Region
+ ale — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n2ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-545b417d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T180000
+DTEND;TZID=Europe/Rome:20261107T200000
+SUMMARY:BASKET CERVIGNANESE 54-64 US ALBA PALLACANESTRO (Under 17 Maschile 
+ Regionale — girone GO/TS (prima fase))
+LOCATION:Pal. Scuole Elementari\, Cervignano del Friuli
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n3ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-022b82c7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T190000
+DTEND;TZID=Europe/Rome:20261107T210000
+SUMMARY:FALCONSTAR BASKET 56-37 BASKET CERVIGNANESE (Under 14 Maschile Regi
+ onale — girone GO/TS/UD)
+LOCATION:Palestra 'B' Marcon\, Monfalcone
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n2ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-99c23fbb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T113000
+DTEND;TZID=Europe/Rome:20261108T133000
+SUMMARY:BASKET 4 TRIESTE 45-39 BASKET CERVIGNANESE (Under 19 Maschile Regio
+ nale — girone GO/TS/UD (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n2
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-e1e390ac@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T190000
+DTEND;TZID=Europe/Rome:20261111T210000
+SUMMARY:BVO ANNONE 82-88 CHIURLO CERVIGNANO (Under 19 Maschile Gold — gir
+ one A)
+LOCATION:Palazzetto dello Sport\, Annone Veneto
+DESCRIPTION:Under 19 Maschile Gold — girone A\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-5c64f894@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:COLLEDANI SRL 48-58 BASKET CERVIGNANESE (Under 15 Maschile Regional
+ e — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n3ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-f9fd8f68@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:BASKET CERVIGNANESE 52-92 APU NEXT GEN (Under 15 Maschile Regionale
+  — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n4ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-989a159c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T150000
+DTEND;TZID=Europe/Rome:20261114T170000
+SUMMARY:POL LIB. PASIAN DI PRATO 32-57 BASKET CERVIGNANESE (Under 14 Maschi
+ le Regionale — girone GO/TS/UD)
+LOCATION:Palasport "Mario Vecchiatto"\, Pasian di Prato
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-go-ts-82d0782e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T200000
+DTEND;TZID=Europe/Rome:20261114T220000
+SUMMARY:U.S.D. DON BOSCO 0-0 BASKET CERVIGNANESE (Under 17 Maschile Regiona
+ le — girone GO/TS (prima fase))
+LOCATION:Pal. Oratorio Don Bosco\, Trieste
+DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n4ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u17-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-58b12155@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261117T191500
+DTEND;TZID=Europe/Rome:20261117T211500
+SUMMARY:BASKET CERVIGNANESE 98-23 BASKET PERTEOLE (Under 19 Maschile Region
+ ale — girone GO/TS/UD (prima fase))
+LOCATION:Pal. Scuole Elementari\, Cervignano del Friuli
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n3
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-bdd66e95@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T190000
+DTEND;TZID=Europe/Rome:20261118T210000
+SUMMARY:CHIURLO CERVIGNANO 81-69 SANTOS BASKET TRIESTE (Under 19 Maschile G
+ old — girone A)
+LOCATION:Palasport Piazzale Lancieri d'Aosta\, Cervignano del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-d7cc7a8c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T194500
+DTEND;TZID=Europe/Rome:20261125T214500
+SUMMARY:MB PAPER'S – BASKET CERVIGNANESE (Under 19 Maschile Regionale —
+  girone GO/TS/UD (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n4
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+END:VCALENDAR

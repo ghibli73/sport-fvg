@@ -1,0 +1,245 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Pol. Tricesimo (basket)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr3-ud-1be47d86@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261026T193000
+DTEND;TZID=Europe/Rome:20261026T213000
+SUMMARY:POL. DIL. TRICESIMO 'C' 71-77 LIBERTAS GONARS 'B' (Divisione Region
+ ale 3 — girone UD)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-30e703ae@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261029T204500
+DTEND;TZID=Europe/Rome:20261029T224500
+SUMMARY:PALL. TOLMEZZO 55-53 POL. DIL. TRICESIMO 'B' (Divisione Regionale 3
+  — girone UD)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-b4bae33b@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T210000
+DTEND;TZID=Europe/Rome:20261030T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo 52-62 Pol. Lib. Pasian di Prato (Divi
+ sione Regionale 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-cee87d83@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:POL. TRICESIMO 52-54 COLLEDANI SRL (Under 15 Maschile Regionale —
+  girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n2ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-93b29a4e@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261102T210000
+DTEND;TZID=Europe/Rome:20261102T230000
+SUMMARY:POZZUOLO BASKET 75-41 POL. DIL. TRICESIMO 'C' (Divisione Regionale 
+ 3 — girone UD)
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Divisione Regionale 3 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-5659bd01@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261102T211500
+DTEND;TZID=Europe/Rome:20261102T231500
+SUMMARY:POL. DIL. TRICESIMO 'B' 61-30 POL LIB. PASIAN DI PRATO 'B' (Divisio
+ ne Regionale 3 — girone UD)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-f213a659@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T193000
+DTEND;TZID=Europe/Rome:20261103T213000
+SUMMARY:POL. TRICESIMO 70-46 Scuola Basket Miky Mian (Under 17 Maschile Reg
+ ionale — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-5ded579c@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T203000
+DTEND;TZID=Europe/Rome:20261106T223000
+SUMMARY:MAJANESE 'B' 51-59 POL. DIL. TRICESIMO 'B' (Divisione Regionale 3 
+ — girone UD)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 3 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-9a1325d7@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261106T204500
+DTEND;TZID=Europe/Rome:20261106T224500
+SUMMARY:Pall. Tolmezzo 65-80 Tecno 2 Commerciale Tricesimo (Divisione Regio
+ nale 1 — girone Ovest)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-a326a426@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:PALL. LAIPACCO 75-83 POL. TRICESIMO (Under 17 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Pal. Sc. Ezio Cernich\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-2207e9b9@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261109T193000
+DTEND;TZID=Europe/Rome:20261109T213000
+SUMMARY:POL. DIL. TRICESIMO 'C' 56-65 MONTGOMERY HAMBURGER HOUSE 'B' (Divis
+ ione Regionale 3 — girone UD)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-cc4d3eb0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:OLYMPIA RIVIGNANO 65-59 POL. TRICESIMO (Under 15 Maschile Regionale
+  — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n3ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-af9421a0@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261113T210000
+DTEND;TZID=Europe/Rome:20261113T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo 63-77 Libertas Fiume Veneto (Division
+ e Regionale 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-788c4eae@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:POL. TRICESIMO 50-63 Sonvilla Snc SBaMM (Under 15 Maschile Regional
+ e — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n4ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-f59549aa@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:POL. TRICESIMO 89-39 POL LIB. PASIAN DI PRATO (Under 17 Maschile Re
+ gionale — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-0984c3a4@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261116T204500
+DTEND;TZID=Europe/Rome:20261116T224500
+SUMMARY:ZIO PINO BASKIN UDINE 70-53 POL. DIL. TRICESIMO 'C' (Divisione Regi
+ onale 3 — girone UD)
+LOCATION:Palestra Don Bosco\, Udine
+DESCRIPTION:Divisione Regionale 3 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-78965c76@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20270111T211500
+DTEND;TZID=Europe/Rome:20270111T231500
+SUMMARY:POL. DIL. TRICESIMO 'B' – LIBERTAS GONARS 'B' (Divisione Regional
+ e 3 — girone UD)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+END:VCALENDAR

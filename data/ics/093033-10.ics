@@ -1,0 +1,195 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Nord Caravan (Roraigrande Basket)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-24241e7f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261028T171500
+DTEND;TZID=Europe/Rome:20261028T191500
+SUMMARY:RORAIGRANDE 77-79 BASKET CORDOVADO (Under 17 Maschile Gold — giro
+ ne PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-0761fca7@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261030T203000
+DTEND;TZID=Europe/Rome:20261030T223000
+SUMMARY:Nordcaravan 82-54 Nuova Pallacanestro Sanvitese (Divisione Regional
+ e 2 — girone PN)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-4c183ae3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T150000
+DTEND;TZID=Europe/Rome:20261031T170000
+SUMMARY:Roraigrande 51-62 Torre Basket (Under 19 Maschile Regionale — gir
+ one PN B (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n1ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-83ac9e9c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T180000
+DTEND;TZID=Europe/Rome:20261103T200000
+SUMMARY:Roraigrande Basket 14-57 Basket Pasiano (Under 13 Maschile — giro
+ ne PN A)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-8666c35b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:RORAIGRANDE 49-56 TORRE BASKET (Under 17 Maschile Regionale — gir
+ one PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-0c54e7b9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T210000
+DTEND;TZID=Europe/Rome:20261110T230000
+SUMMARY:Humus Basket 86-47 Roraigrande (Under 19 Maschile Regionale — gir
+ one PN B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n2ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-d94277a0@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;TZID=Europe/Rome:20261112T203000
+DTEND;TZID=Europe/Rome:20261112T223000
+SUMMARY:Nordcaravan 80-78 Aviano Basket (Divisione Regionale 2 — girone P
+ N)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-06b510e0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261113T190000
+DTEND;TZID=Europe/Rome:20261113T210000
+SUMMARY:RORAIGRANDE 82-53 VIS SPILIMBERGO (Under 17 Maschile Gold — giron
+ e PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-19d415ea@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T150000
+DTEND;TZID=Europe/Rome:20261114T170000
+SUMMARY:Aviano Basket 55-28 Roraigrande Basket (Under 13 Maschile — giron
+ e PN A)
+LOCATION:Palazzetto dello Sport\, Aviano
+DESCRIPTION:Under 13 Maschile — girone PN A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-db14b82e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T100000
+DTEND;TZID=Europe/Rome:20261115T120000
+SUMMARY:PALL. PORTOGRUARO 46-41 RORAIGRANDE (Under 17 Maschile Regionale 
+ — girone PN (prima fase))
+LOCATION:Palazzetto dello Sport\, Portogruaro
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-4d689983@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:Roraigrande 66-78 Polisigma (Under 19 Maschile Regionale — girone
+  PN B (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n3ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-6e8b3c2c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:HUMUS BASKET BLU 48-70 RORAIGRANDE (Under 15 Maschile Regionale —
+  girone PN)
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n4ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-681e9dfe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T193000
+DTEND;TZID=Europe/Rome:20261125T213000
+SUMMARY:RORAIGRANDE – LIBERTAS FIUME VENETO (Under 17 Maschile Regionale 
+ — girone PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n5ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+END:VCALENDAR

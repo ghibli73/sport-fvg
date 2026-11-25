@@ -1,0 +1,464 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. Pallavolo Brugnera 96
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-b7cff810@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T170000
+DTEND;TZID=Europe/Rome:20261031T190000
+SUMMARY:GSD FAVRIA SAN VITO AL T. 0-3 PALLAVOLO BRUGNERA 96 (Under 17 femmi
+ nile CT Pordenone — girone B)
+LOCATION:Palestra Comunale\, Bagnarola SESTO AL REGHENA PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-29af2da7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261031T203000
+DTEND;TZID=Europe/Rome:20261031T223000
+SUMMARY:PALLAVOLO BRUGNERA 96 2-3 IMQ RIZZI UDINE (Serie D femminile — gi
+ rone unico)
+LOCATION:Palestra Scuole Elementari\, BRUGNERA PN
+DESCRIPTION:Serie D femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-df044e64@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T103000
+DTEND;TZID=Europe/Rome:20261101T123000
+SUMMARY:CFV - BIOBIM 3-0 PALLAVOLO BRUGNERA 96 (Under 15 femminile CT Porde
+ none — girone B)
+LOCATION:Palasport Villotta\, Villotta CHIONS PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-61a802bc@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261101T183000
+DTEND;TZID=Europe/Rome:20261101T203000
+SUMMARY:PALLAVOLO BRUGNERA 96 3-2 PSG FB TANKS (Seconda Divisione femminile
+  CT Pordenone — girone unico)
+LOCATION:Palestra Scuole Elementari\, Tamai BRUGNERA PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n3ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-c5571778@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T184500
+DTEND;TZID=Europe/Rome:20261104T204500
+SUMMARY:PALLAVOLO BRUGNERA 96 0-3 P.C.A. AUTOMAZIONI (Under 14 femminile CT
+  Pordenone — girone B)
+LOCATION:Palestra Scuole Elementari\, BRUGNERA PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-6d36c8ef@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261104T201500
+DTEND;TZID=Europe/Rome:20261104T221500
+SUMMARY:CLUB AURORA VOLLEY UDINE 0-3 PALLAVOLO BRUGNERA 96 (Serie D femmini
+ le — girone unico)
+LOCATION:Palestra Scuola Media "Bellavitis"\, Udine (UD)
+DESCRIPTION:Serie D femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-c311c015@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T170000
+DTEND;TZID=Europe/Rome:20261107T190000
+SUMMARY:PALLAVOLO BRUGNERA 96 3-2 CFV - TENUTA POLVARO (Under 17 femminile 
+ CT Pordenone — girone B)
+LOCATION:Palestra Scuole Elementari\, BRUGNERA PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-829780c9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:PALLAVOLO BRUGNERA 96 0-3 CFV - MT ECOSERVICE (Serie D femminile 
+ — girone unico)
+LOCATION:Palestra Scuole Elementari\, Tamai di Brugnera (PN)
+DESCRIPTION:Serie D femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-20c41663@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:PALLAVOLO BRUGNERA 96 0-3 PORDENONE VOLLEY (Under 15 femminile CT P
+ ordenone — girone B)
+LOCATION:Palestra Scuole Elementari\, BRUGNERA PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-4ed4472e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261112T190000
+DTEND;TZID=Europe/Rome:20261112T210000
+SUMMARY:PALLAVOLO BRUGNERA 96 3-0 CARR. F.LLI CARNELOS GIS (Seconda Divisio
+ ne femminile CT Pordenone — girone unico)
+LOCATION:Palestra Scuole Elementari\, Tamai di Brugnera PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n5ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-cb5ed2db@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T163000
+DTEND;TZID=Europe/Rome:20261114T183000
+SUMMARY:AQUILA SPILIMBERGO 3-0 PALLAVOLO BRUGNERA 96 (Under 15 femminile CT
+  Pordenone — girone B)
+LOCATION:Palestra Scuole Medie\, Spilimbergo PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-39698f55@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T190000
+DTEND;TZID=Europe/Rome:20261114T210000
+SUMMARY:AQUILA SPILIMBERGO GREEN 3-0 PALLAVOLO BRUGNERA 96 (Under 14 femmin
+ ile CT Pordenone — girone B)
+LOCATION:Palestra Scuole Medie\, Spilimbergo PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-3be82325@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261114T200000
+DTEND;TZID=Europe/Rome:20261114T220000
+SUMMARY:AZ AGR. PANCIERA ZOPPOLA 3-0 PALLAVOLO BRUGNERA 96 (Under 17 femmin
+ ile CT Pordenone — girone B)
+LOCATION:Palestra Scuole Medie\, Zoppola PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-a-f4b1dbd2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T150000
+DTEND;TZID=Europe/Rome:20261115T170000
+SUMMARY:SNOOPY PUB 3-0 PALLAVOLO BRUGNERA 96 (Coppa Autunno Under 12 misto 
+ CT Pordenone — girone A)
+LOCATION:Palestra G. Grizzo\, Villa D'Arco Cordenons PN
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone A\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-5d5fa0aa@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:FARRAVOLO 3-0 PALLAVOLO BRUGNERA 96 (Serie D femminile — girone u
+ nico)
+LOCATION:Palestra Comunale\, Farra d'Isonzo (GO)
+DESCRIPTION:Serie D femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-40fc3a15@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T171500
+DTEND;TZID=Europe/Rome:20261121T191500
+SUMMARY:PALLAVOLO BRUGNERA 96 0-3 CENTRO GOMME (Under 15 femminile CT Porde
+ none — girone B)
+LOCATION:Palestra Scuole Elementari\, Tamai\, Brugnera (PN)
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-3da8475e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261121T203000
+DTEND;TZID=Europe/Rome:20261121T223000
+SUMMARY:PALLAVOLO BRUGNERA 96 0-3 REVOLUTION SRL Trieste (Serie D femminile
+  — girone unico)
+LOCATION:Palestra Scuole Elementari\, Brugnera (PN)
+DESCRIPTION:Serie D femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-32882d34@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T160000
+DTEND;TZID=Europe/Rome:20261122T180000
+SUMMARY:PALLAVOLO BRUGNERA 96 0-3 PANDAM SERRAMENTI (Under 14 femminile CT 
+ Pordenone — girone B)
+LOCATION:Palestra Scuole Elementari\, Tamai\, Brugnera (PN)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-132800b1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261122T173000
+DTEND;TZID=Europe/Rome:20261122T193000
+SUMMARY:A.P. TRAVESIO 0-3 PALLAVOLO BRUGNERA 96 (Seconda Divisione femminil
+ e CT Pordenone — girone unico)
+LOCATION:Palestra Scuole Medie\, Travesio (PN)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n6ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-94e75144@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261124T190000
+DTEND;TZID=Europe/Rome:20261124T210000
+SUMMARY:VPA 3-0 PALLAVOLO BRUGNERA 96 (Under 14 femminile CT Pordenone — 
+ girone B)
+LOCATION:Palestra Scuole Medie\, Via Martiri della Libertà\, PRATA DI PORD
+ ENONE PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-802ee208@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261126T190000
+DTEND;TZID=Europe/Rome:20261126T210000
+SUMMARY:PALLAVOLO BRUGNERA 96 – SAN QUIRINO UNION VOLLEY (Under 17 femmin
+ ile CT Pordenone — girone B)
+LOCATION:Palestra Scuole Elementari\, Via De Gasperi\, Tamai\, BRUGNERA PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-a-44b0c891@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T150000
+DTEND;TZID=Europe/Rome:20261128T170000
+SUMMARY:RAMINELLI ZOPPOLA – PALLAVOLO BRUGNERA 96 (Coppa Autunno Under 12
+  misto CT Pordenone — girone A)
+LOCATION:Palestra Scuole Medie\, Via Leonardo Da Vinci\, ZOPPOLA PN
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone A\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-183ba992@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:GSD FAVRIA SAN VITO AL T. – PALLAVOLO BRUGNERA 96 (Under 15 femmi
+ nile CT Pordenone — girone B)
+LOCATION:Palestra Comunale\, Via Vissignano\, Bagnarola\, SESTO AL REGHENA 
+ PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-4ec89b53@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T193000
+DTEND;TZID=Europe/Rome:20261128T213000
+SUMMARY:PALLAVOLO BRUGNERA 96 – ALTA RESA (Seconda Divisione femminile CT
+  Pordenone — girone unico)
+LOCATION:Palestra Scuole Elementari\, Via De Gasperi\, Tamai\, BRUGNERA PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n7ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-55ff394b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:A.S.D. MORARO VOLLEY – PALLAVOLO BRUGNERA 96 (Serie D femminile 
+ — girone unico)
+LOCATION:Palestra Comunale\, Via dello Sport 1\, Mossa (GO)
+DESCRIPTION:Serie D femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-62cba329@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:FAROUT – PALLAVOLO BRUGNERA 96 (Under 17 femminile CT Pordenone 
+ — girone B)
+LOCATION:Palestra G. Grizzo\, Via G. Grizzo\, Villa D'Arco\, CORDENONS PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-a-887b8760@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T150000
+DTEND;TZID=Europe/Rome:20261205T170000
+SUMMARY:PALLAVOLO BRUGNERA 96 – FUTURA BLACK (Coppa Autunno Under 12 mist
+ o CT Pordenone — girone A)
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone A\n5ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-d606f426@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T160000
+DTEND;TZID=Europe/Rome:20261205T180000
+SUMMARY:SERENISSIMA GOMME GIS – PALLAVOLO BRUGNERA 96 (Under 15 femminile
+  CT Pordenone — girone B)
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-056b4f5d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T200000
+DTEND;TZID=Europe/Rome:20261205T220000
+SUMMARY:ABRAWORD FAVRIA S.VITO – PALLAVOLO BRUGNERA 96 (Seconda Divisione
+  femminile CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n8ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-619c8ec2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261205T203000
+DTEND;TZID=Europe/Rome:20261205T223000
+SUMMARY:PALLAVOLO BRUGNERA 96 – ROJALKENNEDY PRIMACASSA (Serie D femminil
+ e — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n9ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-483e5298@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T110000
+DTEND;TZID=Europe/Rome:20261206T130000
+SUMMARY:PALLAVOLO BRUGNERA 96 – LIBERTASU14 (Under 14 femminile CT Porden
+ one — girone B)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-32fcea8f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T163000
+DTEND;TZID=Europe/Rome:20261206T183000
+SUMMARY:PORDENONE VOLLEY – PALLAVOLO BRUGNERA 96 (Under 17 femminile CT P
+ ordenone — girone B)
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+END:VCALENDAR
