@@ -92,7 +92,18 @@ RX_DELEG = re.compile(r"DELEGAZION[EI][^\n]{0,50}?(UDINE|PORDENONE|TRIESTE|GORIZ
 PREF_FILE = {"ts": "Trieste", "pn": "Pordenone", "go": "Gorizia", "ud": "Udine", "tol": "Tolmezzo"}
 RX_DATA = re.compile(r"RISULTATI UFFICIALI GARE DEL (\d{2})/(\d{2})/(\d{4})", re.I)
 RX_GIR = re.compile(r"^GIRONE\s+([A-Z0-9]{1,3})\s*-\s*(\d{1,2})\s*Giornata\s*-\s*([AR])", re.I)
-RX_RIS = re.compile(r"^(?:\(\d+\)\s*)?(.+?)\s+-\s+(.+?)\s+(\d{1,2})\s*-\s*(\d{1,2})\s*$")
+RX_RIS = re.compile(r"^(?:\(\d+\)\s*)?(.+?\s+-\s+.+?)\s+(\d{1,2})\s*-\s*(\d{1,2})\s*$")
+NOTI = set()  # nomi squadra già conosciuti (forma compatta), per dividere "A - B - C" nel punto giusto
+
+
+def dividi(testo):
+    parti = re.split(r"\s+-\s+", testo)
+    scelte = []
+    for i in range(1, len(parti)):
+        a, b = " - ".join(parti[:i]), " - ".join(parti[i:])
+        scelte.append(((compatto(a) in NOTI) + (compatto(b) in NOTI), -abs(len(a) - len(b)), a, b))
+    sc = max(scelte)
+    return sc[2].strip(), sc[3].strip()
 RX_DISP = re.compile(r"^\((\d+)\)\s*-\s*disputata il (\d{2})/(\d{2})/(\d{4})", re.I)
 RX_CAT_OK = re.compile(r"ECCELLENZA|PROMOZIONE|PRIMACATEGORIA|SECONDACATEGORIA|TERZACATEGORIA|UNDER\d\d|JUNIORES|ALLIEVI|GIOVANISSIMI|CALCIOA(5|CINQUE)|SERIEC[12]|SERIED|FEMMINILE|AMATORI")
 RX_CAT_NO = re.compile(r"COPPA|TORNEO|TROFEO|MEMORIAL|FASEFINALE|SPAREGGI|PLAYOFF|PLAYOUT")
@@ -137,8 +148,9 @@ def leggi_cu(url):
         mr = RX_RIS.match(l)
         if mr and cat and gir and data:
             nota = re.match(r"^\((\d+)\)", l)
-            out.append([cat, gir[0], gir[1], gir[2], data, mr.group(1).strip(), mr.group(2).strip(),
-                        int(mr.group(3)), int(mr.group(4)), nota.group(1) if nota else None])
+            casa, osp = dividi(mr.group(1))
+            out.append([cat, gir[0], gir[1], gir[2], data, casa, osp,
+                        int(mr.group(2)), int(mr.group(3)), nota.group(1) if nota else None])
     for r in out:  # data effettiva delle gare con nota "(1) - disputata il ..."
         if r[9] and r[9] in note_disp:
             r[4] = note_disp[r[9]]
@@ -273,6 +285,9 @@ def main():
                     "k": k, "giornata": p["giornata"], "ar": "A", "data": p.get("data") or "", "casa": p["casa"],
                     "ospite": p["ospite"], "gc": a, "go": b, "fonte": g["fonte"], "pubbl": g["aggiornato"]}
         print(f"gare di partenza dai dati attuali: {len(gare)}")
+    for g in gare.values():
+        NOTI.add(compatto(g["casa"])); NOTI.add(compatto(g["ospite"]))
+    NOTI.update(compatto(k) for k in (json.load(open(ALIAS)) if os.path.exists(ALIAS) else {}))
     elenco = elenco_pdf()
     print(f"comunicati in archivio: {len(elenco)}, già letti: {len(letti & {x['source_url'] for x in elenco})}")
     for x in elenco:
