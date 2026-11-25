@@ -109,7 +109,7 @@ for x in [x[6:] for x in prove if x.startswith("cerca=")]:
             fatto = -1
             for i in idx[:8]:
                 if i <= fatto: continue
-                print("\n".join("   | " + l for l in lines[max(0, i - 2):i + 30])); print("   ..."); fatto = i + 30
+                print("\n".join("   | " + l for l in lines[max(0, i - 2):i + 50])); print("   ..."); fatto = i + 50
     except Exception as e: print("ERRORE", e)
     time.sleep(1)
 # "testo=<url PDF>": testo completo (tutte le pagine, al massimo 600 righe), per confrontare a mano dati e fonte
