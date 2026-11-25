@@ -36,6 +36,12 @@ def compatto(s):
     return norm(s).replace(" ", "")
 
 
+def chiave(s):
+    """Nome per la chiave di una gara: senza spazi né sigla societaria iniziale/finale, così la stessa gara letta
+    con "POLISPORTIVA TAMAI" o "POLISPORTIVA TAMAI ASD" (o con un nome già unificato nello stato) è una sola."""
+    return re.sub(r"^(ASD|SSD|AC|US|USD|APD|POL|ACD)|(ASD|SSD|ARL|SRL|SSDARL|AC)$", "", compatto(s))
+
+
 def slugify(s):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", strip_acc(s.lower()))).strip("-")
 
@@ -90,7 +96,8 @@ def pdf_righe(url):
 
 RX_DELEG = re.compile(r"DELEGAZION[EI][^\n]{0,50}?(UDINE|PORDENONE|TRIESTE|GORIZIA|TOLMEZZO)", re.I)
 PREF_FILE = {"ts": "Trieste", "pn": "Pordenone", "go": "Gorizia", "ud": "Udine", "tol": "Tolmezzo"}
-RX_DATA = re.compile(r"RISULTATI UFFICIALI GARE DEL (\d{2})/(\d{2})/(\d{4})", re.I)
+# "GARE DEL 15/11/2026" ma anche "GARE DEL L'8/11/2026" / "DELL'8/11/2026" (giorno con una cifra)
+RX_DATA = re.compile(r"RISULTATI UFFICIALI GARE DEL\S*\s*(?:L\s*['’]\s*)?(\d{1,2})/(\d{1,2})/(\d{4})", re.I)
 RX_GIR = re.compile(r"^GIRONE\s+([A-Z0-9]{1,3})\s*-\s*(\d{1,2})\s*Giornata\s*-\s*([AR])", re.I)
 RX_RIS = re.compile(r"^(?:\(\d+\)\s*)?(.+?\s+-\s+.+?)\s+(\d{1,2})\s*-\s*(\d{1,2})\s*$")
 NOTI = set()  # nomi squadra già conosciuti (forma compatta), per dividere "A - B - C" nel punto giusto
@@ -107,6 +114,8 @@ def dividi(testo):
 RX_DISP = re.compile(r"^\((\d+)\)\s*-\s*disputata il (\d{2})/(\d{2})/(\d{4})", re.I)
 RX_CAT_OK = re.compile(r"ECCELLENZA|PROMOZIONE|PRIMACATEGORIA|SECONDACATEGORIA|TERZACATEGORIA|UNDER\d\d|JUNIORES|ALLIEVI|GIOVANISSIMI|CALCIOA(5|CINQUE)|SERIEC[12]|SERIED|FEMMINILE|AMATORI")
 RX_CAT_NO = re.compile(r"COPPA|TORNEO|TROFEO|MEMORIAL|FASEFINALE|SPAREGGI|PLAYOFF|PLAYOUT")
+# titoli di attività che non sono campionati gestiti dall'app: chiudono la categoria precedente
+RX_CAT_ALTRO = re.compile(r"ESORDIENTI|PULCINI|PICCOLIAMICI|PRIMICALCI|AMICHEVOL")
 NON_CATEG = re.compile(r"RISULTATI|Si trascrivono|GIRONE|Pag\.|COMUNICATO|^\(|DECISIONI|GIUDICE", re.I)
 
 
@@ -119,7 +128,7 @@ def leggi_cu(url):
     pf = re.match(r"^(ts|pn|go|ud|tol)[_-]", f)
     comitato = PREF_FILE[pf.group(1)] if pf else m.group(1).title() if m else "Regionale"
     out, cat, gir, data, in_ris = [], None, None, None, False
-    note_disp = {}
+    note_disp = {}  # id(riga) -> nota già applicata
     for i, l in enumerate(righe):
         if l.upper().startswith("RISULTATI GARE"):
             in_ris = True; continue
@@ -129,31 +138,44 @@ def leggi_cu(url):
             in_ris = False; continue
         md = RX_DATA.search(l)
         if md:
-            data = f"{md.group(3)}-{md.group(2)}-{md.group(1)}"
-            # la categoria è la riga precedente (es. "UNDER 17 ALLIEVI REGIONALI")
-            j, cat = i - 1, None
+            data = f"{md.group(3)}-{int(md.group(2)):02d}-{int(md.group(1)):02d}"
+            gir = None  # ogni blocco di data ha la sua riga "GIRONE ..."; mai riusare il girone del blocco precedente
+            # la categoria è la riga precedente (es. "UNDER 17 ALLIEVI REGIONALI"). Se nelle 3 righe prima non c'è
+            # nessun titolo, è un secondo blocco di data della stessa categoria (es. recuperi della giornata
+            # precedente seguiti dalla giornata corrente): la categoria resta quella del blocco prima.
+            j, trovata = i - 1, False
             while j >= 0 and i - j <= 3:
                 comp = re.sub(r"[^A-Z0-9]", "", strip_acc(righe[j].upper()))
                 if RX_CAT_OK.search(comp):
-                    cat = None if RX_CAT_NO.search(comp) else canon_cat(righe[j])
+                    cat = None if RX_CAT_NO.search(comp) else canon_cat(righe[j]); trovata = True
+                    break
+                if RX_CAT_NO.search(comp) or RX_CAT_ALTRO.search(comp):
+                    cat = None; trovata = True
                     break
                 j -= 1
+            if not trovata:
+                # si continua la categoria precedente solo se subito prima c'era un blocco di gare
+                vicino = righe[max(0, i - 5):i]
+                if not any(RX_GIR.match(x) or RX_RIS.match(x) or RX_DISP.match(x) for x in vicino):
+                    cat = None
             continue
         mg = RX_GIR.match(l)
         if mg:
             gir = (mg.group(1).upper(), int(mg.group(2)), mg.group(3).upper()); continue
         mn = RX_DISP.match(l)
         if mn:
-            note_disp[mn.group(1)] = f"{mn.group(4)}-{mn.group(3)}-{mn.group(2)}"; continue
+            # la nota "(1) - disputata il ..." vale per le gare del SUO blocco, scritte subito prima: i numeri
+            # delle note ripartono da (1) in ogni blocco, quindi non si può usare un'unica tabella per tutto il CU
+            for r in out:
+                if r[9] == mn.group(1) and r[9] not in note_disp.get(id(r), ()):
+                    r[4] = f"{mn.group(4)}-{mn.group(3)}-{mn.group(2)}"; note_disp[id(r)] = (r[9],)
+            continue
         mr = RX_RIS.match(l)
         if mr and cat and gir and data:
             nota = re.match(r"^\((\d+)\)", l)
             casa, osp = dividi(mr.group(1))
             out.append([cat, gir[0], gir[1], gir[2], data, casa, osp,
                         int(mr.group(2)), int(mr.group(3)), nota.group(1) if nota else None])
-    for r in out:  # data effettiva delle gare con nota "(1) - disputata il ..."
-        if r[9] and r[9] in note_disp:
-            r[4] = note_disp[r[9]]
     return comitato, out
 
 
@@ -266,7 +288,7 @@ def main():
     oggi = dt.date.today().isoformat()
     stato = {"letti": [], "gare": []} if tutto or not os.path.exists(STATO) else json.load(open(STATO))
     letti = set(stato["letti"])
-    gare = {(tuple(g["k"]), (g["giornata"], g.get("ar")), compatto(g["casa"]), compatto(g["ospite"])): g for g in stato["gare"]}
+    gare = {(tuple(g["k"]), (g["giornata"], g.get("ar")), chiave(g["casa"]), chiave(g["ospite"])): g for g in stato["gare"]}
     # punto di partenza: le gare già presenti nell'app (l'archivio online non contiene tutti i comunicati vecchi)
     if not stato["gare"]:
         for g in json.load(open(RIS)):
@@ -281,7 +303,7 @@ def main():
                 if not re.fullmatch(r"\d+-\d+", p.get("risultato") or ""):
                     continue
                 a, b = map(int, p["risultato"].split("-"))
-                gare[(tuple(k), (p["giornata"], "A"), compatto(p["casa"]), compatto(p["ospite"]))] = {
+                gare[(tuple(k), (p["giornata"], "A"), chiave(p["casa"]), chiave(p["ospite"]))] = {
                     "k": k, "giornata": p["giornata"], "ar": "A", "data": p.get("data") or "", "casa": p["casa"],
                     "ospite": p["ospite"], "gc": a, "go": b, "fonte": g["fonte"], "pubbl": g["aggiornato"]}
         print(f"gare di partenza dai dati attuali: {len(gare)}")
@@ -305,7 +327,7 @@ def main():
             if cs.startswith("Under") and not re.search(r"regionali|provinciali|élite", cs):
                 cs = cs.replace(f"Under {cs.split()[1]}", f"Under {cs.split()[1]} " + ("regionali" if comitato == "Regionale" else "provinciali"), 1)
             k = (comitato, cs, gir)
-            gare[(k, (n, ar), compatto(casa), compatto(osp))] = {"k": list(k), "giornata": n, "ar": ar, "data": data, "casa": casa,
+            gare[(k, (n, ar), chiave(casa), chiave(osp))] = {"k": list(k), "giornata": n, "ar": ar, "data": data, "casa": casa,
                                                           "ospite": osp, "gc": gc, "go": go, "fonte": u, "pubbl": x["date"][:10]}
         letti.add(u)
         if righe:
@@ -345,7 +367,9 @@ def main():
         doppie = [x for x, c in Counter((g["g_eff"], compatto(t)) for g in gs for t in (g["casa"], g["ospite"])).items() if c > 1]
         if len(gs) < 4 or n_sq < 4 or n_sq > 22 or doppie:
             print(f"  scartato {k}: {n_sq} squadre, {len(gs)} gare, {len(doppie)} squadre doppie nella stessa giornata"); continue
-        g = costruisci(k, gs, k[0], ids_di, oggi)
+        # copie: unifica_nomi cambia i nomi solo nel girone costruito, non nelle gare salvate in calcio_stato.json
+        # (altrimenti una scelta sbagliata, es. "CAMPANELLE" -> "CAMPANELLE sq.B", resterebbe per sempre nello stato)
+        g = costruisci(k, [dict(x) for x in gs], k[0], ids_di, oggi)
         if any(c > 1 for c in Counter((p["giornata"], t) for p in g["partite"] for t in (p["casa"], p["ospite"])).values()):
             print(f"  scartato {k}: squadre doppie nella stessa giornata dopo l'unificazione dei nomi"); continue
         pref = "" if k[0] == "Regionale" else slugify(k[0])[:3] + "-"
