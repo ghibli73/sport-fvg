@@ -326,6 +326,21 @@ details.avv[open]>summary{border-color:var(--blue)}
 .mf{margin-top:8px}.mf>summary,.trs .evm>summary{min-height:44px;display:flex;align-items:center;color:var(--acc);font-weight:700;cursor:pointer}
 .nb.nr svg{color:var(--acc)}
 @media(hover:hover){.tm:hover .tmb,.trw:hover,.mr:hover{background:var(--soft)}}
+a.gstar{color:var(--ink);text-decoration:none}.act.wide{grid-column:1/-1}
+/* invito a installare l'app */
+.inst{position:fixed;left:8px;right:8px;bottom:calc(76px + var(--safe-b));z-index:30;max-width:560px;margin:0 auto;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 28px rgba(5,12,25,.28);padding:12px 12px 12px 14px;display:grid;grid-template-columns:44px minmax(0,1fr);gap:10px 12px;align-items:center}
+.inst[hidden],#instIos:empty{display:none}.inst>img{width:44px;height:44px;border-radius:12px}
+.inst #instT{display:block;font:700 17px/1.2 var(--fc)}.inst p{margin:2px 0 0;font-size:14px;color:var(--mute);line-height:1.35}
+.ina{grid-column:1/-1;display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.ina button{min-height:44px;padding:0 18px;border-radius:12px;font-weight:700;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.ina .pri{background:var(--blue);border-color:var(--blue);color:#fff}
+.ios{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) 112px;gap:10px;align-items:center}
+.ios ol{margin:0;padding-left:20px;font-size:15px;line-height:1.4}.ios li{margin:2px 0}.ios li svg{width:18px;height:18px;vertical-align:-3px;color:var(--acc)}
+.ios>svg{width:112px;height:auto}
+@media(max-width:359px){.ios{grid-template-columns:1fr}.ios>svg{display:none}}
+@media(min-width:760px){.inst{bottom:16px;left:auto;right:16px;width:440px}}
+@media(prefers-reduced-motion:no-preference){.inst:not([hidden]){animation:up .25s ease-out}}
+.icard .ios{grid-template-columns:minmax(0,1fr) 112px}
 </style></head>
 <body>
 <header class="top">
@@ -355,6 +370,8 @@ details.avv[open]>summary{border-color:var(--blue)}
 </nav>
 <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="dName"><div class="panel" id="panel" tabindex="-1"></div></div>
 <div class="toast" id="toast" role="status"></div>
+<div class="inst" id="inst" role="dialog" aria-modal="false" aria-labelledby="instT" aria-describedby="instD" hidden><img src="icons/icon-192.png" alt="" width="44" height="44"><div><b id="instT">Installa Zuìn sul telefono</b><p id="instD">Si apre come un'app, a tutto schermo e con la sua icona.</p></div><div id="instIos"></div><div class="ina"><button type="button" id="instNo">Non ora</button><button type="button" class="pri" id="instOk">Installa</button></div></div>
+<div class="vh" role="status" id="instA"></div>
 <script>
 {
 const I={
@@ -450,13 +467,13 @@ const cnt={};C.filter(k=>!prov||k.prov===prov).forEach(k=>{cnt[k.sport]=(cnt[k.s
 const ks=Object.keys(NAMES).filter(k=>cnt[k]).sort((a,b)=>cnt[b]-cnt[a]);
 m.innerHTML=`<div class="hd"><h2>Sport</h2><span class="n">${ks.length} discipline${prov?' · '+PROV[prov]:''}</span></div><div class="sgrid">${ks.map(k=>`<button class="stile" data-pick="${k}" aria-pressed="${sport===k}">${ico(k)}<b>${esc(NAMES[k])}</b><small>${cnt[k]} società</small></button>`).join('')}</div>`;
 }
-const VERSIONE='1.8.1 beta',VERSIONE_DATA='2026-11-25';
+const VERSIONE='1.10.0 beta',VERSIONE_DATA='2026-11-25';
 function vInfo(m){
 const done=COM.filter(c=>c.n>0).length;const cnt={};C.forEach(k=>cnt[k.sport]=(cnt[k.sport]||0)+1);const mx=Math.max(...Object.values(cnt));
 const ks=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]);
 m.innerHTML=`<div class="hd"><h2>Info</h2></div><div class="card"><div class="big">${C.length.toLocaleString('it-IT')}</div><div>società sportive in ${done} comuni su 215</div><div class="meter"><i style="width:${(done/215*100).toFixed(1)}%"></i></div><p class="small">Dati aggiornati al ${AGG.split('-').reverse().join('/')}. Con storico dei campionati: ${C.filter(k=>k.storico.length).length} società.</p></div>
 <div class="card"><h3>Società per sport</h3><div class="bars">${ks.map(k=>`<div class="bar">${ico(k)}<span>${esc(NAMES[k])}</span><span><i style="width:${(cnt[k]/mx*100).toFixed(1)}%"></i></span><span>${cnt[k]}</span></div>`).join('')}</div></div>
-<div class="card"><h3>Da dove vengono i dati</h3><p class="small" style="margin:0">Elenchi e classifiche pubblicati dalle federazioni e dai loro comitati regionali (LND FVG, FIP FVG, FIPAV, FIDAL, FIJLKAM, FISR, FITeT, FIV e altre), integrati da Wikipedia e dai siti delle società. Ogni scheda indica le sue fonti. "n.d." significa che il dato non è stato trovato. Applicazione non ufficiale, non collegata alle federazioni.</p><p class="small" style="margin:8px 0 0"><a href="note-legali.html" style="color:var(--acc)">Note legali e privacy</a> · Segnalazioni e correzioni: <a href="mailto:zuinsportfvg@gmail.com" style="color:var(--acc)">zuinsportfvg@gmail.com</a></p></div><div class="card"><h3>Avvisi dei risultati</h3><p class="small" style="margin:0">Gli avvisi passano dal servizio gratuito ntfy.sh: ogni società ha un argomento pubblico (zuin-fvg-…) a cui ci si iscrive dal browser o dall'app ntfy, senza account. Gli argomenti sono pubblici e chiunque li conosca può leggerli; Zuìn non raccoglie dati personali e non sa chi è iscritto. Gli avvisi contengono solo squadre, risultato e girone.</p></div><p class="small" style="text-align:center;margin:14px 0 4px">Versione app ${VERSIONE} del ${dt(VERSIONE_DATA)}/${VERSIONE_DATA.slice(0,4)}${G.length?` · risultati aggiornati al ${(()=>{const a=G.map(g=>g.aggiornato||'').sort().pop();return a?a.split('-').reverse().join('/'):'n.d.'})()}`:''}</p>`;
+<div class="card"><h3>Da dove vengono i dati</h3><p class="small" style="margin:0">Elenchi e classifiche pubblicati dalle federazioni e dai loro comitati regionali (LND FVG, FIP FVG, FIPAV, FIDAL, FIJLKAM, FISR, FITeT, FIV e altre), integrati da Wikipedia e dai siti delle società. Ogni scheda indica le sue fonti. "n.d." significa che il dato non è stato trovato. Applicazione non ufficiale, non collegata alle federazioni.</p><p class="small" style="margin:8px 0 0"><a href="note-legali.html" style="color:var(--acc)">Note legali e privacy</a> · Segnalazioni e correzioni: <a href="mailto:zuinsportfvg@gmail.com" style="color:var(--acc)">zuinsportfvg@gmail.com</a></p></div><div class="card"><h3>Avvisi dei risultati</h3><p class="small" style="margin:0">Gli avvisi passano dal servizio gratuito ntfy.sh: ogni società ha un argomento pubblico (zuin-fvg-…) a cui ci si iscrive dal browser o dall'app ntfy, senza account. Gli argomenti sono pubblici e chiunque li conosca può leggerli; Zuìn non raccoglie dati personali e non sa chi è iscritto. Gli avvisi contengono solo squadre, risultato e girone.</p></div><div class="card icard" id="instInfo"><h3>Installa l'app</h3>${instInfo()}</div><div class="card"><h3>Metti Zuìn sul tuo sito</h3><p class="small" style="margin:0 0 10px">Classifica, ultimo risultato e prossima partita della tua società o del tuo girone sul sito della società, del comitato o del giornale, sempre aggiornati. Gratis, senza cookie e senza tracciamento.</p><a class="act pri" href="widget.html">${CODE}Crea il widget per il tuo sito</a></div><p class="small" style="text-align:center;margin:14px 0 4px">Versione app ${VERSIONE} del ${dt(VERSIONE_DATA)}/${VERSIONE_DATA.slice(0,4)}${G.length?` · risultati aggiornati al ${(()=>{const a=G.map(g=>g.aggiornato||'').sort().pop();return a?a.split('-').reverse().join('/'):'n.d.'})()}`:''}</p>`;
 }
 const dt=s=>{if(!s)return'';const[y,m,d]=String(s).split('-');return d?`${+d}/${+m}`:s};
 const CORD=['Prima squadra','Seconda squadra','Terza squadra','Juniores','Under 21','Under 20','Under 19','Under 18','Under 17','Under 16','Under 15','Under 14','Under 13','Under 12'];
@@ -495,7 +512,7 @@ if(gTab==='cl')body=g.classifica.length?`<div class="card"><table class="cl"><th
 else if(gTab==='ris'){const ms=gDay==null?played.slice().reverse():played.filter(x=>x.giornata===gDay);const i=days.indexOf(gDay);
 body=played.length?`<div class="card">${days.length?`<div class="dnav"><button data-day="${days[i-1]??''}" ${i>0?'':'disabled'} aria-label="Giornata precedente">${BACK}</button><b>${gDay}ª giornata</b><button data-day="${days[i+1]??''}" ${i<days.length-1?'':'disabled'} aria-label="Giornata successiva">${CHEV}</button></div>`:''}${matchRows(ms,'',g)}</div><div class="tools"><button class="gstar" data-share="day">${SHARE}${gDay==null?'Condividi i risultati':'Condividi la giornata'}</button></div>${days.length&&days.length<(g.giornata||0)?`<p class="small" style="margin:0 2px 10px">Disponibili le giornate ${days[0]}–${days[days.length-1]}.</p>`:''}`:'<div class="card"><p class="small" style="margin:0">Nessun risultato disponibile.</p></div>';}
 else{const nxt=fut.filter(futura),old=fut.filter(x=>!futura(x));body=(nxt.length?`<div class="card">${matchRows(nxt,'')}</div>`:'<div class="card"><p class="small" style="margin:0">Nessuna partita in programma: il calendario delle prossime giornate non è ancora pubblicato.</p></div>')+(old.length?`<div class="card"><h3>Senza risultato</h3><p class="small" style="margin:0 0 6px">Partite con data già passata ma senza risultato pubblicato (rinviate o in attesa del comunicato).</p>${matchRows(old,'')}</div>`:'')}
-m.innerHTML=`<button class="back" data-go="risultati">${BACK}Risultati</button><div class="chead"><h2>${esc(g.girone)}</h2><p>${esc(NAMES[g.sport]||g.sport)} · ${esc(g.categoria||'')}${g.genere?' '+esc(g.genere):''} · ${esc(g.comitato)} · ${esc(g.stagione)}</p><div class="gacts"><button class="gstar" data-fav="g" data-fid="${g.gid}" aria-pressed="${isFav('g',g.gid)}">${STAR}${isFav('g',g.gid)?'Nei preferiti':'Segui il girone'}</button>${g.partite.some(futura)?`<button class="gstar" data-ics="${g.gid}">${CAL}Aggiungi al calendario</button>`:''}</div>${gironeAvvisi(g)}</div>
+m.innerHTML=`<button class="back" data-go="risultati">${BACK}Risultati</button><div class="chead"><h2>${esc(g.girone)}</h2><p>${esc(NAMES[g.sport]||g.sport)} · ${esc(g.categoria||'')}${g.genere?' '+esc(g.genere):''} · ${esc(g.comitato)} · ${esc(g.stagione)}</p><div class="gacts"><button class="gstar" data-fav="g" data-fid="${g.gid}" aria-pressed="${isFav('g',g.gid)}">${STAR}${isFav('g',g.gid)?'Nei preferiti':'Segui il girone'}</button>${g.partite.some(futura)?`<button class="gstar" data-ics="${g.gid}">${CAL}Aggiungi al calendario</button>`:''}<a class="gstar" href="widget.html#g-${encodeURIComponent(g.gid)}">${CODE}Metti sul tuo sito</a></div>${gironeAvvisi(g)}</div>
 <div class="seg" role="tablist"><button role="tab" data-gt="cl" aria-selected="${gTab==='cl'}">Classifica</button><button role="tab" data-gt="ris" aria-selected="${gTab==='ris'}">Risultati</button><button role="tab" data-gt="cal" aria-selected="${gTab==='cal'}">Calendario</button></div>
 ${body}<p class="small" style="margin:4px 2px">Aggiornato al ${dt(g.aggiornato)}${g.giornata?` · ${g.giornata}ª giornata`:''} · <a href="${esc(g.fonte)}" target="_blank" rel="noopener" style="color:var(--acc)">fonte ufficiale</a></p>`;
 }
@@ -679,7 +696,7 @@ $('panel').innerHTML=`<div class="ph"><button class="bk" data-close aria-label="
 <div class="pb">
 ${top}
 ${c.attuale?`<div class="now"><small>Stagione in corso</small><b>${esc(c.attuale)}</b></div>`:''}
-<div class="acts"><a class="act" href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Mappa</a><button class="act" data-copy><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>Copia link</button></div>
+<div class="acts"><a class="act" href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Mappa</a><button class="act" data-copy><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>Copia link</button>${ris?`<a class="act wide" href="widget.html#s-${encodeURIComponent(c.id)}">${CODE}Metti i risultati sul tuo sito</a>`:''}</div>
 ${soc}
 <div class="card"><h3>Dove</h3><div>${esc(c.indirizzo||'Indirizzo non pubblicato')}</div><div class="small">${esc(c.comune)} (${c.prov})${c.fondata?' · fondata nel '+esc(c.fondata):''}</div></div>
 ${sq.length?fold('Squadre 2026/27',`<div class="tl">${sq.map(q=>`<div class="tli sq"><span class="y">${esc(q.categoria)}${q.genere&&q.genere!=='misto'?' '+esc(q.genere):''}</span><span class="c">${esc(q.campionato||'')}</span></div>`).join('')}</div>`,sq.length):(c.categorie.length?fold('Squadre e categorie',`<div class="tags">${c.categorie.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>`,c.categorie.length):'')}
@@ -689,12 +706,12 @@ ${c.note?`<div class="card"><h3>Note</h3><p style="margin:0">${esc(c.note)}</p><
 ${top?'':`<div class="live"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M5.6 5.6a9 9 0 0 0 0 12.8M18.4 5.6a9 9 0 0 1 0 12.8"/></svg>Per questa società non abbiamo ancora risultati, classifiche o piazzamenti.</div>`}
 ${c.fonte?`<p class="small" style="margin:14px 2px 0">Fonti: ${esc(c.fonte)}</p>`:''}
 </div>`;
-if(!$('sheet').classList.contains('on'))OPENER=document.activeElement;$('sheet').classList.add('on');document.body.style.overflow='hidden';document.querySelectorAll('.top,.filt,main,.nav').forEach(e=>e.inert=true);$('panel').scrollTop=0;
+if(!$('sheet').classList.contains('on'))OPENER=document.activeElement;$('sheet').classList.add('on');document.body.style.overflow='hidden';document.querySelectorAll('.top,.filt,main,.nav,#inst').forEach(e=>e.inert=true);$('panel').scrollTop=0;
 if(push&&location.hash!=='#s-'+id){location.hash='s-'+id}
 setTimeout(()=>{$('panel').focus({preventScroll:true})},50);
 }
 let OPENER=null;
-function closeSheet(){if(!$('sheet').classList.contains('on'))return;$('sheet').classList.remove('on');document.body.style.overflow='';document.querySelectorAll('.top,.filt,main,.nav').forEach(e=>e.inert=false);const oc=OPENER&&OPENER.closest?OPENER.closest('[data-id]'):null,id=oc?oc.dataset.id:'';const op=OPENER;OPENER=null;render();
+function closeSheet(){if(!$('sheet').classList.contains('on'))return;$('sheet').classList.remove('on');document.body.style.overflow='';document.querySelectorAll('.top,.filt,main,.nav,#inst').forEach(e=>e.inert=false);const oc=OPENER&&OPENER.closest?OPENER.closest('[data-id]'):null,id=oc?oc.dataset.id:'';const op=OPENER;OPENER=null;render();
 setTimeout(()=>{const f=op&&op!==document.body&&document.contains(op)?op:(id?document.querySelector(`main button[data-id="${CSS.escape(id)}"],main tr[data-id="${CSS.escape(id)}"] a`):null);if(f)f.focus({preventScroll:true})},0)}
 function go(h){if(location.hash!=='#'+h)location.hash=h;else route()}
 let NAVS=-1;
@@ -708,6 +725,52 @@ else if(h.startsWith('c-')&&COM.some(c=>c.codice===h.slice(2))){comune=h.slice(2
 else{comune='';if(['societa','sport','info','comuni','risultati','preferiti','mappa'].includes(h))view=h;else if(!h)view='comuni'}
 limit=60;render();if(prev!==comune+girone)window.scrollTo(0,0);
 }
+/* installa l'app: beforeinstallprompt (Android, Chrome/Edge su computer) o guida per iPhone/iPad; alla seconda visita o dopo 30 s; "Non ora" = 30 giorni */
+const CODE='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4M14 4l-4 16"/></svg>';
+const INST={ev:null,t0:Date.now(),h:null,vis:0};
+const instStd=()=>{try{return matchMedia('(display-mode: standalone)').matches||navigator.standalone===true}catch(e){return false}};
+const instIOS=()=>/iPad|iPhone|iPod/.test(navigator.userAgent)||(/Macintosh/.test(navigator.userAgent)&&navigator.maxTouchPoints>1);
+const instNo=()=>{const v=+st.get('inst-no')||0;return v>0&&Date.now()-v<30*864e5};
+const IOS_SH='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>';
+const IOS_ADD='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M12 8v8M8 12h8"/></svg>';
+const IOS_ART='<svg viewBox="0 0 112 96" aria-hidden="true" focusable="false"><rect x="2" y="2" width="50" height="92" rx="9" fill="#eef2f8" stroke="#123a6b" stroke-width="2.5"/><rect x="8" y="12" width="38" height="56" rx="3" fill="#fff" stroke="#dde3ee"/><rect x="8" y="74" width="38" height="12" rx="3" fill="#fff" stroke="#dde3ee"/><circle cx="27" cy="80" r="8" fill="#f2b705"/><path d="M27 84.5v-8M24 79l3-3 3 3" fill="none" stroke="#123a6b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M54 48h8" stroke="#123a6b" stroke-width="2.5" stroke-linecap="round"/><path d="M60 44l4 4-4 4" fill="none" stroke="#123a6b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="66" y="26" width="44" height="44" rx="8" fill="#fff" stroke="#123a6b" stroke-width="2.5"/><rect x="77" y="37" width="22" height="22" rx="5" fill="none" stroke="#123a6b" stroke-width="2.5"/><path d="M88 42v12M82 48h12" stroke="#123a6b" stroke-width="2.5" stroke-linecap="round"/><circle cx="104" cy="30" r="5" fill="#f2b705"/></svg>';
+const iosSteps=()=>`<div class="ios"><ol><li>Tocca <b>Condividi</b> ${IOS_SH} nella barra di Safari.</li><li>Scegli <b>Aggiungi alla schermata Home</b> ${IOS_ADD}.</li></ol>${IOS_ART}</div>`;
+function instInfo(){
+const ua=navigator.userAgent;
+if(instStd())return '<p class="small" style="margin:0">Zuìn è già installata su questo dispositivo: aprila dalla sua icona.</p>';
+if(INST.ev)return `<p class="small" style="margin:0 0 10px">Con l'app Zuìn si apre a tutto schermo dalla sua icona, come le altre app, e funziona anche con poca connessione.</p><button class="act pri" data-inst style="width:100%">Installa Zuìn</button>`;
+let s;
+if(instIOS())s=`<p class="small" style="margin:0 0 8px">Su iPhone e iPad, in Safari:</p>`+iosSteps();
+else if(/Android/.test(ua))s=/Firefox/.test(ua)?'<p class="small" style="margin:0">In Firefox apri il menu <b>⋮</b> e scegli <b>Installa</b>.</p>':'<p class="small" style="margin:0">In Chrome apri il menu <b>⋮</b> in alto a destra e scegli <b>Installa app</b> (o <b>Aggiungi a schermata Home</b>). Con Samsung Internet: menu <b>≡</b> → <b>Aggiungi pagina a</b> → <b>Schermata Home</b>.</p>';
+else if(/Edg\//.test(ua))s='<p class="small" style="margin:0">In Edge apri il menu <b>…</b> e scegli <b>App</b> → <b>Installa questo sito come app</b>.</p>';
+else if(/Chrome\//.test(ua))s='<p class="small" style="margin:0">In Chrome tocca l\'icona di installazione a destra nella barra degli indirizzi, oppure apri il menu <b>⋮</b> → <b>Trasmetti, salva e condividi</b> → <b>Installa pagina come app</b>.</p>';
+else if(/Safari\//.test(ua)&&/Macintosh/.test(ua))s='<p class="small" style="margin:0">In Safari su Mac scegli <b>File</b> → <b>Aggiungi al Dock</b>.</p>';
+else s='<p class="small" style="margin:0">Questo browser non installa le app web: apri Zuìn con Chrome, Edge o Safari, oppure aggiungilo ai segnalibri.</p>';
+return `<p class="small" style="margin:0 0 8px">Con l'app Zuìn si apre a tutto schermo dalla sua icona, come le altre app.</p>`+s}
+function instCan(){return !instStd()&&!instNo()&&(INST.ev||instIOS())}
+function instShow(){
+if(!instCan()||!$('inst').hidden)return;
+if($('sheet').classList.contains('on')||document.hidden){clearTimeout(INST.h);INST.h=setTimeout(instShow,4000);return}
+const ios=!INST.ev;const tel=ios||/Android|Mobi/.test(navigator.userAgent);
+$('instT').textContent=`Installa Zuìn sul ${tel?'telefono':'computer'}`;
+$('instD').textContent=ios?'Si apre come un\'app: bastano due passi.':'Si apre come un\'app, a tutto schermo e con la sua icona.';
+$('instIos').innerHTML=ios?iosSteps():'';$('instIos').style.display=ios?'contents':'none';
+$('instOk').textContent=ios?'Ho capito':'Installa';
+$('inst').hidden=false;$('instA').textContent='Puoi installare Zuìn: l\'invito è in fondo alla pagina.'}
+function instPlan(){
+if(!instCan())return;clearTimeout(INST.h);
+const wait=INST.vis>=2?1500:Math.max(0,30000-(Date.now()-INST.t0));INST.h=setTimeout(instShow,wait)}
+function instClose(no){const had=$('inst').contains(document.activeElement);$('inst').hidden=true;$('instA').textContent='';if(no)st.set('inst-no',String(Date.now()));
+if(had){const f=[...document.querySelectorAll('.nb[aria-current=true],.dtab[aria-current=true]')].find(x=>x.offsetParent);if(f)f.focus()}}
+function instGo(){const e=INST.ev;if(!e){instClose(true);return}INST.ev=null;instClose(false);
+try{e.prompt();e.userChoice.then(c=>{if(c&&c.outcome!=='accepted')st.set('inst-no',String(Date.now()));if(view==='info')render()}).catch(()=>{})}catch(x){}}
+$('instNo').addEventListener('click',()=>instClose(true));
+$('instOk').addEventListener('click',()=>{if(INST.ev)instGo();else instClose(true)});
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();INST.ev=e;if(view==='info'&&!girone&&!comune)render();instPlan()});
+window.addEventListener('appinstalled',()=>{INST.ev=null;instClose(false);toast('Zuìn è installata');if(view==='info')render()});
+try{if(!sessionStorage.getItem('sfvg-vis')){sessionStorage.setItem('sfvg-vis','1');st.set('visite',String((+st.get('visite')||0)+1))}}catch(e){}
+INST.vis=+st.get('visite')||0;
+if(instIOS())instPlan();
 /* ricerca */
 let sel=-1;
 function suggest(){
@@ -759,9 +822,10 @@ if(b=t.closest('[data-near]')){near();return}
 if(b=t.closest('[data-wg]')){gTab='cal';gDay=null;go('g-'+b.dataset.wg);window.scrollTo(0,0);return}
 if(b=t.closest('[data-ics]')){icsScarica(b.dataset.ics,b.dataset.club||'');return}
 if(b=t.closest('[data-share]')){const g=GBY[girone];if(!g)return;condividi(b.dataset.share,g,b.dataset.share==='m'?g.partite[+b.dataset.i]:null);return}
+if(b=t.closest('[data-inst]')){instGo();return}
 if(b=t.closest('[data-copy]')){const u=location.href;(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(()=>toast('Link copiato'),()=>toast('Copia non consentita qui'));return}
 });
-document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('sheet').classList.contains('on'))history.back()});
+document.addEventListener('keydown',e=>{if(e.key!=='Escape')return;if($('sheet').classList.contains('on'))history.back();else if(!$('inst').hidden){e.preventDefault();instClose(true)}});
 window.addEventListener('hashchange',route);
 favLoad();favCloud();logoLoad();prov=st.get('prov')||'';sortBy=st.get('sort')||'az';if(!PROV[prov])prov='';
 Promise.all([fetch('data/comuni.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/data.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/risultati.json',{cache:'no-cache'}).then(r=>r.ok?r.json():[]).catch(()=>[])]).then(([c,d,rg])=>{

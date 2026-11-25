@@ -44,6 +44,9 @@ jobs:
       - name: Calendari delle società (data/ics)
         run: python scripts/ics.py
         continue-on-error: true
+      - name: Widget per i siti (data/widget)
+        run: python scripts/widget_dati.py
+        continue-on-error: true
       - name: Salva i dati aggiornati
         run: |
           if [ -z "$(git status --porcelain data/)" ]; then echo "Nessuna novità"; exit 0; fi
