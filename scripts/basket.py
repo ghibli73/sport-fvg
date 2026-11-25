@@ -302,7 +302,7 @@ def aggiorna_da_calendario(s, cal, fonte):
             continue
         if g[4] != c[4] or g[5] != c[5]:
             continue  # stesso numero ma altre squadre: non è la stessa gara
-        nuovo = (c[2], c[3], c[6] or g[6])
+        nuovo = (c[2], c[3], c[6] if c[6] and "," in c[6] else g[6])
         if (g[2], g[3], g[6]) != nuovo:
             print(f"  gara {g[0]} ({s['slug']}): {g[2]} {g[3]} {g[6]} -> {nuovo[0]} {nuovo[1]} {nuovo[2]} [{fonte.rsplit('/', 1)[-1]}]")
             g[2], g[3], g[6] = nuovo
@@ -314,7 +314,7 @@ def aggiorna_da_calendario(s, cal, fonte):
 MESI = {m: i for i, m in enumerate(["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto",
                                      "settembre", "ottobre", "novembre", "dicembre"], 1)}
 RX_FIP = re.compile(r"(\d{1,2}) (" + "|".join(MESI) + r") (\d{4}) (\d{1,2}[:.]\d{2}) (\d{3,7}) .*?Squadra di casa (.+?) "
-                    r"Squadra ospite (.+?) Campo di gioco (.+?) Arbitri", re.I)
+                    r"Squadra ospite (.+?) Campo di gioco (.+?) (?:Arbitri|\d\W{0,2} Arbitro|Designazione)", re.I)
 _fip_t = [0.0]
 
 
@@ -332,6 +332,7 @@ def fip_testo(html):
     t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", html, flags=re.S | re.I)
     t = re.sub(r"<[^>]+>", " ", t)
     t = t.replace("&nbsp;", " ").replace("&#039;", "'").replace("&amp;", "&").replace("&quot;", '"')
+    t = re.sub(r"[ЇїЄє]", "'", t)  # virgolette tipografiche lette con la codifica sbagliata dal portale
     return re.sub(r"\s+", " ", t)
 
 
@@ -347,6 +348,8 @@ def fip_gare(html):
     out = []
     for m in RX_FIP.finditer(fip_testo(html)):
         d = f"{m.group(3)}-{MESI[m.group(2).lower()]:02d}-{int(m.group(1)):02d}"
+        if d[5:] == "06-30":
+            d = None  # 30 giugno = data segnaposto del portale per le gare rinviate "da definire"
         out.append((int(m.group(5)), m.group(6).strip(), m.group(7).strip(), d, m.group(4).replace(".", ":").zfill(5),
                     fip_campo(m.group(8))))
     return out
@@ -457,6 +460,8 @@ def variazioni_fip(specs, cfg, oggi, completo):
                     continue
                 if not (set(toks(casa)) - VUOTE) & (set(toks(g[4])) - VUOTE):
                     continue  # stesso numero, altra squadra di casa: non è la stessa gara
+                if not data:
+                    continue  # rinviata a data da definire: resta la data del calendario
                 if (g[2], g[3]) != (data, ora) or (campo and campo != g[6]):
                     if (g[2], g[3]) != (data, ora):
                         print(f"  gara {num} ({slug}): {g[2]} {g[3]} -> {data} {ora}" + (f" campo {campo}" if campo != g[6] else ""))
