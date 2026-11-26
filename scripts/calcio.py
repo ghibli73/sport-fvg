@@ -53,6 +53,12 @@ def slugify(s):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", strip_acc(s.lower()))).strip("-")
 
 
+# nome file di un Comunicato Ufficiale: "CU-50.pdf", "go_cu_25_2026_-_2027.pdf", "ts_cu_42_...", "CU_09.pdf",
+# "Comunicato-Ufficiale-nr-21-...", e quelli della Delegazione di Pordenone "2026-C.U.-N.-40-Delegazione-PN-2026-2027.pdf"
+# (con i punti e la "N." prima del numero: il vecchio filtro "cu[-_ ]?\d+" non li riconosceva e i provinciali PN mancavano)
+RX_FILE_CU = re.compile(r"(^|[/_-])c\.?u\.?[-_ ]?(?:n(?:r|°)?\.?[-_ ]?)?\d+|comunicato", re.I)
+
+
 def elenco_pdf():
     out, pagina = [], 1
     while True:
@@ -62,7 +68,7 @@ def elenco_pdf():
             break
         r.raise_for_status()
         js = r.json()
-        out += [x for x in js if re.search(r"(^|[/_-])cu[-_ ]?\d+|comunicato", x["source_url"].rsplit("/", 1)[-1], re.I)
+        out += [x for x in js if RX_FILE_CU.search(x["source_url"].rsplit("/", 1)[-1])
                 and not re.search(r"allegat", x["source_url"], re.I)]
         if len(js) < 100:
             break
@@ -87,7 +93,8 @@ def scarica(url):
 def comitato_cu(url, righe):
     testa = " ".join(righe[:40])
     m = RX_DELEG.search(testa)
-    pf = re.match(r"^(ts|pn|go|ud|tol)[_-]", url.rsplit("/", 1)[-1].lower())
+    nome = url.rsplit("/", 1)[-1].lower()
+    pf = re.match(r"^(ts|pn|go|ud|tol)[_-]", nome) or re.search(r"delegazione[-_ ]?(ts|pn|go|ud|tol)\b", nome)
     return PREF_FILE[pf.group(1)] if pf else m.group(1).title() if m else "Regionale"
 
 
