@@ -1,0 +1,50 @@
+name: Aggiorna agenda eventi
+
+on:
+  schedule:
+    # una volta al giorno, di notte (UTC), lontano dagli aggiornamenti dei risultati
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+    inputs:
+      opzioni:
+        description: "Opzioni per scripts/agenda.py (--prova = legge le fonti e stampa, senza salvare; --debug; --solo fidal,fisi)"
+        required: false
+        default: ""
+  # nelle pull request che toccano l'agenda: solo prova (legge le fonti, non salva)
+  pull_request:
+    paths:
+      - "scripts/agenda.py"
+      - "config/agenda_manuale.json"
+      - ".github/workflows/aggiorna-agenda.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aggiorna-dati
+  cancel-in-progress: false
+
+jobs:
+  agenda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Calendari delle federazioni -> data/agenda.json
+        env:
+          OPZIONI: ${{ github.event_name == 'pull_request' && '--prova' || github.event.inputs.opzioni }}
+        run: python scripts/agenda.py $OPZIONI
+      - name: Salva i dati aggiornati
+        if: ${{ github.event_name != 'pull_request' && !contains(github.event.inputs.opzioni, '--prova') && !contains(github.event.inputs.opzioni, '--debug') }}
+        run: |
+          if [ -z "$(git status --porcelain data/ config/)" ]; then echo "Nessuna novità"; exit 0; fi
+          git config user.name "sport-fvg-bot"
+          git config user.email "sport-fvg-bot@users.noreply.github.com"
+          git add data/ config/
+          git commit -m "Agenda: aggiornamento automatico $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

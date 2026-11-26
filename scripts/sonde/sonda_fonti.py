@@ -1,6 +1,7 @@
 """Sonda: verifica da GitHub Actions quali fonti ufficiali sono leggibili senza AI e stampa un estratto nel log.
 Non modifica nessun dato."""
 import io, re, sys, json, time
+import html as html_mod
 import requests
 S = requests.Session(); S.headers["User-Agent"] = "SportFVG/1.0 (app non ufficiale; sonda fonti)"
 
@@ -148,6 +149,72 @@ for u in [x[6:] for x in prove if x.startswith("loghi=")]:
             m = re.search(r"Societa/img/(\d+)/", riga)
             t = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", riga)).strip()
             if m or "no-image" in riga: print("   |", m.group(1) if m else "-", "|", t[:90])
+    except Exception as e: print("ERRORE", e)
+# "grezzo=<url>": HTML grezzo (prime 6000 battute dopo <body>, poi i link), "~" nell'URL sta per "&" (la shell del workflow non lo vuole nudo)
+# "cercah=<regex>@@<url>": righe HTML grezze che contengono la regex (al massimo 60), sempre con "~" per "&"; nella regex ",," sta per "|" e "LT" per "<"
+for u in [x[7:] for x in prove if x.startswith("grezzo=")]:
+    u = u.replace("~", "&"); titolo("GREZZO " + u)
+    try:
+        r = S.get(u, timeout=40); print("HTTP", r.status_code, "byte", len(r.content), "tipo", r.headers.get("content-type"), "url finale", r.url)
+        h = r.text; i = max(0, h.lower().find("<body"))
+        print(h[i:i + 6000])
+        links = re.findall(r'href="([^"#]+)"', h)
+        print("LINK (", len(links), "):"); print("\n".join("   " + l for l in links[:150]))
+    except Exception as e: print("ERRORE", e)
+for x in [x[7:] for x in prove if x.startswith("cercah=")]:
+    rx, u = x.split("@@", 1); u = u.replace("~", "&"); rx = rx.replace(",,", "|").replace("LT", "<"); titolo("CERCA " + rx + " IN " + u)
+    try:
+        h = S.get(u, timeout=40).text
+        L = [l.strip() for l in re.split(r"\n|(?=<tr)|(?=<li)|(?=<div class)", h) if re.search(rx, l, re.I)]
+        print("righe:", len(L)); print("\n".join("   | " + l[:400] for l in L[:60]))
+    except Exception as e: print("ERRORE", e)
+# "da=<regex>@@<url>": 5000 battute di HTML grezzo a partire dal primo punto che corrisponde alla regex (stessi segnaposto di cerca=)
+for x in [x[3:] for x in prove if x.startswith("da=")]:
+    rx, u = x.split("@@", 1); u = u.replace("~", "&"); rx = rx.replace(",,", "|").replace("LT", "<"); titolo("DA " + rx + " IN " + u)
+    try:
+        h = S.get(u, timeout=40).text; m = re.search(rx, h, re.I)
+        print("NON trovato" if not m else h[m.start():m.start() + 5000])
+    except Exception as e: print("ERRORE", e)
+# "agenda=<opzioni>": esegue scripts/agenda.py in prova (le opzioni separate da virgola, es. agenda=--debug,--solo,fisi)
+for x in [x[7:] for x in prove if x.startswith("agenda=")]:
+    import subprocess
+    titolo("AGENDA " + x)
+    ops = [o for o in x.split(",") if o] or ["--prova"]
+    if "--debug" not in ops and "--prova" not in ops: ops.append("--prova")
+    subprocess.run([sys.executable, "scripts/agenda.py", *ops])
+# "agendajson": rigenera data/agenda.json nel runner (non salva nel repository) e lo stampa tra due marcatori
+if "agendajson" in prove:
+    import subprocess
+    titolo("AGENDA JSON")
+    subprocess.run([sys.executable, "scripts/agenda.py"])
+    print("@@INIZIO_AGENDA@@"); print(open("data/agenda.json", encoding="utf-8").read()); print("@@FINE_AGENDA@@")
+# "date=<url>": testo della pagina attorno alle date (2026/2027 o mesi) e link a pagine evento; "~" per "&"
+MESI_RX = r"(\d{1,2}(?:\s*[-–]\s*\d{1,2})?\s+(?:gen|feb|mar|apr|mag|giu|lug|ago|set|ott|nov|dic)[a-z]*\.?\s+20(?:26|27)|\d{1,2}[./]\d{1,2}[./]20(?:26|27)|20(?:26|27)-\d\d-\d\d)"
+for u in [x[5:] for x in prove if x.startswith("date=")]:
+    u = u.replace("~", "&"); titolo("DATE " + u)
+    try:
+        h = S.get(u, timeout=40).text
+        t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", h, flags=re.S | re.I)
+        t = html_mod.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " | ", t)))
+        t = re.sub(r"(\s*\|\s*)+", " | ", t)
+        ms = list(re.finditer(MESI_RX, t, re.I))
+        print("date trovate:", len(ms))
+        last = -1
+        for m in ms[:40]:
+            if m.start() < last: continue
+            print("   >", t[max(0, m.start() - 220):m.end() + 260]); last = m.end() + 260
+        ev = sorted(set(re.findall(r'href="([^"]*/even[a-z]*/[^"#?]+)"', h)))
+        print("link evento:", len(ev)); print("\n".join("   " + l for l in ev[:80]))
+    except Exception as e: print("ERRORE", e)
+# "testo2=<regex>@@<url>": 7000 battute di testo (senza tag) a partire dalla regex (",," = "|"), "~" per "&"
+for x in [x[7:] for x in prove if x.startswith("testo2=")]:
+    rx, u = x.split("@@", 1); u = u.replace("~", "&"); rx = rx.replace(",,", "|"); titolo("TESTO2 " + rx + " IN " + u)
+    try:
+        h = S.get(u, timeout=40).text
+        t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", h, flags=re.S | re.I)
+        t = html_mod.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " | ", t))); t = re.sub(r"(\s*\|\s*)+", " | ", t)
+        m = re.search(rx, t, re.I); print(t[m.start():m.start() + 7000] if m else "NON trovato")
+        ev = sorted(set(re.findall(r'href="([^"]*/even[a-z]*/[^"#?]+)"', h))); print("link evento:", " ".join(ev[:120]))
     except Exception as e: print("ERRORE", e)
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
