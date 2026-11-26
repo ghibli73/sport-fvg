@@ -149,6 +149,24 @@ for u in [x[6:] for x in prove if x.startswith("loghi=")]:
             t = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", riga)).strip()
             if m or "no-image" in riga: print("   |", m.group(1) if m else "-", "|", t[:90])
     except Exception as e: print("ERRORE", e)
+# "grezzo=<url>": HTML grezzo (prime 6000 battute dopo <body>, poi i link), "~" nell'URL sta per "&" (la shell del workflow non lo vuole nudo)
+# "cerca=<regex>@@<url>": righe HTML grezze che contengono la regex (al massimo 60), sempre con "~" per "&"
+for u in [x[7:] for x in prove if x.startswith("grezzo=")]:
+    u = u.replace("~", "&"); titolo("GREZZO " + u)
+    try:
+        r = S.get(u, timeout=40); print("HTTP", r.status_code, "byte", len(r.content), "tipo", r.headers.get("content-type"), "url finale", r.url)
+        h = r.text; i = max(0, h.lower().find("<body"))
+        print(h[i:i + 6000])
+        links = re.findall(r'href="([^"#]+)"', h)
+        print("LINK (", len(links), "):"); print("\n".join("   " + l for l in links[:150]))
+    except Exception as e: print("ERRORE", e)
+for x in [x[6:] for x in prove if x.startswith("cerca=")]:
+    rx, u = x.split("@@", 1); u = u.replace("~", "&"); titolo("CERCA " + rx + " IN " + u)
+    try:
+        h = S.get(u, timeout=40).text
+        L = [l.strip() for l in re.split(r"\n|(?=<tr)|(?=<li)|(?=<div class)", h) if re.search(rx, l, re.I)]
+        print("righe:", len(L)); print("\n".join("   | " + l[:400] for l in L[:60]))
+    except Exception as e: print("ERRORE", e)
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:
