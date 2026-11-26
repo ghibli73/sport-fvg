@@ -87,6 +87,17 @@ for x in [x[6:] for x in prove if x.startswith("tutte=")]:
         i0 = next((i for i, l in enumerate(righe) if re.search(rx.replace(",,", "|"), l, re.I)), 0) if rx else 0
         for l in righe[i0:i0 + int(n or 400)]: print("   |", l)
     except Exception as e: print("ERRORE", e)
+# "pagpdf=<url PDF>@@<n>": pagina n (da 1) del PDF: testo di extract_text e parole con la posizione x (per le colonne)
+for x in [x[7:] for x in prove if x.startswith("pagpdf=")]:
+    u, n = x.split("@@"); titolo("PAGPDF " + u + " pagina " + n)
+    try:
+        import pdfplumber
+        r = S.get(u, timeout=60); r.raise_for_status()
+        with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+            pg = pdf.pages[int(n) - 1]; print("larghezza", pg.width)
+            print(pg.extract_text())
+            for w in pg.extract_words(): print("   w", round(w["top"]), round(w["x0"]), round(w["x1"]), w["text"])
+    except Exception as e: print("ERRORE", e)
 # "html=<url>|<regex>": i pezzi dell'HTML grezzo che corrispondono (es. i valori delle <option> di un filtro)
 for x in [x[5:] for x in prove if x.startswith("html=")]:
     u, rx = x.split("|", 1)
