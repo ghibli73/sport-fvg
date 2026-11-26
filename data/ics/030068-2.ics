@@ -1,0 +1,183 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.P.D. Principe
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-1ba30791@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261204T164500
+DTEND;TZID=Europe/Rome:20261204T184500
+SUMMARY:A.S.DIL. LIGNANO BASKET – APD PRINCIPE (Trofeo Esordienti Under 1
+ 2 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-2d524494@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261215T173000
+DTEND;TZID=Europe/Rome:20261215T193000
+SUMMARY:APD PRINCIPE – ASD POL LIB. PASIAN DI PRATO (Trofeo Esordienti Un
+ der 12 — girone UD B)
+LOCATION:Palestra Scuola Media Non Om\, Pagnacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-5eb5f9dc@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270119T170000
+DTEND;TZID=Europe/Rome:20270119T190000
+SUMMARY:FELETTO – APD PRINCIPE (Trofeo Esordienti Under 12 — girone UD 
+ B)
+LOCATION:Pal. Sc. Media Feletto Umbeto\, Tavagnacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-14652cdf@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270126T163000
+DTEND;TZID=Europe/Rome:20270126T183000
+SUMMARY:APD PRINCIPE – POL. LIBERTAS ASD ACLI (Trofeo Esordienti Under 12
+  — girone UD B)
+LOCATION:Palestra Scuola Media Non Om\, Pagnacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-c808452f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270201T174500
+DTEND;TZID=Europe/Rome:20270201T194500
+SUMMARY:UDINE BASKET CLUB ASD – APD PRINCIPE (Trofeo Esordienti Under 12 
+ — girone UD B)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-16202b64@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270221T093000
+DTEND;TZID=Europe/Rome:20270221T113000
+SUMMARY:A.DIL.PALL. CODROIPESE – APD PRINCIPE (Trofeo Esordienti Under 12
+  — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-5d7b8bd5@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270301T180000
+DTEND;TZID=Europe/Rome:20270301T200000
+SUMMARY:POL. DIL. TRICESIMO – APD PRINCIPE (Trofeo Esordienti Under 12 
+ — girone UD B)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-37e814c9@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270309T173000
+DTEND;TZID=Europe/Rome:20270309T193000
+SUMMARY:APD PRINCIPE – A.S.DIL. LIGNANO BASKET (Trofeo Esordienti Under 1
+ 2 — girone UD B)
+LOCATION:Palestra Scuola Media Non Om\, Pagnacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-1896a845@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270320T153000
+DTEND;TZID=Europe/Rome:20270320T173000
+SUMMARY:ASD POL LIB. PASIAN DI PRATO – APD PRINCIPE (Trofeo Esordienti Un
+ der 12 — girone UD B)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n11ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-29cb564a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270413T173000
+DTEND;TZID=Europe/Rome:20270413T193000
+SUMMARY:APD PRINCIPE – FELETTO (Trofeo Esordienti Under 12 — girone UD 
+ B)
+LOCATION:Palestra Scuola Media Non Om\, Pagnacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n12ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-650fd6cd@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270420T170000
+DTEND;TZID=Europe/Rome:20270420T190000
+SUMMARY:POL. LIBERTAS ASD ACLI – APD PRINCIPE (Trofeo Esordienti Under 12
+  — girone UD B)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n13ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-4c84227c@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270504T173000
+DTEND;TZID=Europe/Rome:20270504T193000
+SUMMARY:APD PRINCIPE – UDINE BASKET CLUB ASD (Trofeo Esordienti Under 12 
+ — girone UD B)
+LOCATION:Palestra Scuola Media Non Om\, Pagnacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n14ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+END:VCALENDAR
