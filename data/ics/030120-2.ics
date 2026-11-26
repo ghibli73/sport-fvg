@@ -212,7 +212,7 @@ DTSTART;TZID=Europe/Rome:20270115T203000
 DTEND;TZID=Europe/Rome:20270115T223000
 SUMMARY:Athletismo – Basket Terzo (Divisione Regionale 2 — girone GO/TS
  )
-LOCATION:Palestra "Pino Brumatti"\, Gorizia
+LOCATION:Palestra 'Pino Brumatti'\, Gorizia
 DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n12ª giornata\nDati non
   ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
  g-basket-dr2-go-ts
@@ -277,7 +277,7 @@ DTSTART;TZID=Europe/Rome:20270129T211500
 DTEND;TZID=Europe/Rome:20270129T231500
 SUMMARY:Baloncesto Triestino – Basket Terzo (Divisione Regionale 2 — gi
  rone GO/TS)
-LOCATION:Palarubini\, Trieste
+LOCATION:Palarubini - Allianz Dome\, Trieste
 DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n14ª giornata\nDati non
   ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
  g-basket-dr2-go-ts
@@ -413,6 +413,19 @@ DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n20ª giornata\nDati non
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr2-go-ts-cf54b6bd@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270317T210000
+DTEND;TZID=Europe/Rome:20270317T230000
+SUMMARY:Basket Terzo – Circolo Sportivo Sokol (Divisione Regionale 2 — 
+ girone GO/TS)
+LOCATION:Pal. Comunale\, Terzo D'Aquileia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n22ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-dr2-go-ts-60318898@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20270322T193000
@@ -421,19 +434,6 @@ SUMMARY:Baloncesto Isontina – Basket Terzo (Divisione Regionale 2 — gir
  one GO/TS)
 LOCATION:Palasport\, Fogliano Redipuglia
 DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n21ª giornata\nDati non
-  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
- g-basket-dr2-go-ts
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-dr2-go-ts-cf54b6bd@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20270402T210000
-DTEND;TZID=Europe/Rome:20270402T230000
-SUMMARY:Basket Terzo – Circolo Sportivo Sokol (Divisione Regionale 2 — 
- girone GO/TS)
-LOCATION:Pal. Comunale\, Terzo D'Aquileia
-DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n22ª giornata\nDati non
   ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
  g-basket-dr2-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts

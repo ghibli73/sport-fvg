@@ -395,7 +395,7 @@ DTSTART;TZID=Europe/Rome:20261219T170000
 DTEND;TZID=Europe/Rome:20261219T190000
 SUMMARY:POL. CASARSA – A.INT.BALONCESTO ISONTINA (Under 17 Femminile — 
  girone unico)
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Under 17 Femminile — girone unico\n10ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
@@ -499,7 +499,7 @@ DTSTART;TZID=Europe/Rome:20270116T200000
 DTEND;TZID=Europe/Rome:20270116T220000
 SUMMARY:Breg – Baloncesto Isontina (Divisione Regionale 2 — girone GO/T
  S)
-LOCATION:(Trieste)
+LOCATION:Palestra 'S.Klabjan'\, San Dorligo Della Valle
 DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n12ª giornata\nDati non
   ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
  g-basket-dr2-go-ts
@@ -577,7 +577,7 @@ DTSTART;TZID=Europe/Rome:20270124T150000
 DTEND;TZID=Europe/Rome:20270124T170000
 SUMMARY:BASKET 4 TRIESTE – A.INT.BALONCESTO ISONTINA (Under 17 Maschile R
  egionale — girone GO/TS (prima fase))
-LOCATION:Pal. Liceo "G. Oberdan"\, Trieste
+LOCATION:Pal. Liceo 'G. Oberdan'\, Trieste
 DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n12ª
   giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
  thub.io/sport-fvg/#g-basket-u17-regionale-go-ts
@@ -590,7 +590,7 @@ DTSTART;TZID=Europe/Rome:20270129T203000
 DTEND;TZID=Europe/Rome:20270129T223000
 SUMMARY:Athletismo – Baloncesto Isontina (Divisione Regionale 2 — giron
  e GO/TS)
-LOCATION:Palestra "Pino Brumatti"\, Gorizia
+LOCATION:Palestra 'Pino Brumatti'\, Gorizia
 DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n14ª giornata\nDati non
   ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
  g-basket-dr2-go-ts
@@ -720,7 +720,7 @@ DTSTART;TZID=Europe/Rome:20270223T193000
 DTEND;TZID=Europe/Rome:20270223T213000
 SUMMARY:APU NEXT GEN – A.INT.BALONCESTO ISONTINA (Under 17 Femminile — 
  girone unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 17 Femminile — girone unico\n17ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
@@ -818,6 +818,19 @@ DESCRIPTION:Under 17 Femminile — girone unico\n20ª giornata\nDati non uf
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr2-go-ts-6a184a7d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270317T211500
+DTEND;TZID=Europe/Rome:20270317T231500
+SUMMARY:Barcolana Basket Trieste – Baloncesto Isontina (Divisione Regiona
+ le 2 — girone GO/TS)
+LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n22ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u17-femminile-f9884a6f@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270321T110000
@@ -844,26 +857,13 @@ DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n21ª giornata\nDati non
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-dr2-go-ts-6a184a7d@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20270402T211500
-DTEND;TZID=Europe/Rome:20270402T231500
-SUMMARY:Barcolana Basket Trieste – Baloncesto Isontina (Divisione Regiona
- le 2 — girone GO/TS)
-LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
-DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n22ª giornata\nDati non
-  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
- g-basket-dr2-go-ts
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u17-femminile-c68dc0c3@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270404T150000
 DTEND;TZID=Europe/Rome:20270404T170000
 SUMMARY:POLISPORTIVA CONCORDIA – A.INT.BALONCESTO ISONTINA (Under 17 Femm
  inile — girone unico)
-LOCATION:Pal.Tto Sport "L. Valerio"\, Concordia Sagittaria
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
 DESCRIPTION:Under 17 Femminile — girone unico\n22ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile

@@ -173,7 +173,7 @@ DTSTART;TZID=Europe/Rome:20261219T200000
 DTEND;TZID=Europe/Rome:20261219T220000
 SUMMARY:Breg – Barcolana Basket Trieste (Divisione Regionale 2 — girone
   GO/TS)
-LOCATION:(Trieste)
+LOCATION:Palestra 'S.Klabjan'\, San Dorligo Della Valle
 DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n10ª giornata\nDati non
   ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
  g-basket-dr2-go-ts
@@ -299,8 +299,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr2-go-ts-55d93ff6@zuin-fvg
 DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20270205T211500
-DTEND;TZID=Europe/Rome:20270205T231500
+DTSTART;TZID=Europe/Rome:20270203T211500
+DTEND;TZID=Europe/Rome:20270203T231500
 SUMMARY:Barcolana Basket Trieste – Baloncesto Triestino (Divisione Region
  ale 2 — girone GO/TS)
 LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
@@ -375,6 +375,19 @@ DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n20ª giornata\nDati non
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr2-go-ts-6a184a7d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270317T211500
+DTEND;TZID=Europe/Rome:20270317T231500
+SUMMARY:Barcolana Basket Trieste – Baloncesto Isontina (Divisione Regiona
+ le 2 — girone GO/TS)
+LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n22ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-dr2-go-ts-ab5c26e1@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20270319T211500
@@ -383,19 +396,6 @@ SUMMARY:Barcolana Basket Trieste – Breg (Divisione Regionale 2 — girone
   GO/TS)
 LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
 DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n21ª giornata\nDati non
-  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
- g-basket-dr2-go-ts
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-dr2-go-ts-6a184a7d@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20270402T211500
-DTEND;TZID=Europe/Rome:20270402T231500
-SUMMARY:Barcolana Basket Trieste – Baloncesto Isontina (Divisione Regiona
- le 2 — girone GO/TS)
-LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
-DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n22ª giornata\nDati non
   ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
  g-basket-dr2-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts

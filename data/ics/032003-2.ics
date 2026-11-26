@@ -473,7 +473,7 @@ DTSTART;TZID=Europe/Rome:20261212T163000
 DTEND;TZID=Europe/Rome:20261212T183000
 SUMMARY:Pall. Portogruaro – Pall. Interclub Muggia (Under 14 Maschile Gol
  d — girone A (prima fase))
-LOCATION:Portogruaro - (Venezia)
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
 DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n8ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-gold-a
@@ -564,24 +564,11 @@ DTSTART;TZID=Europe/Rome:20261220T100000
 DTEND;TZID=Europe/Rome:20261220T120000
 SUMMARY:FUTUROSA NERA – PALL. INTERCLUB MUGGIA (Under 17 Femminile — gi
  rone unico)
-LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+LOCATION:Pal. Comunale 'Luca Vascott\, Trieste
 DESCRIPTION:Under 17 Femminile — girone unico\n10ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u13-go-ts-a-38d9c9c4@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261220T110000
-DTEND;TZID=Europe/Rome:20261220T130000
-SUMMARY:PALL. INTERCLUB MUGGIA – U.S.D. DON BOSCO (Under 13 Maschile — 
- girone GO/TS A)
-LOCATION:Palestra Comunale 'G. Pacco'\, Muggia
-DESCRIPTION:Under 13 Maschile — girone GO/TS A\n8ª giornata\nDati non uf
- ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
- asket-u13-go-ts-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-serie-c-femminile-8ee2255e@zuin-fvg
@@ -590,7 +577,7 @@ DTSTART;TZID=Europe/Rome:20261220T200000
 DTEND;TZID=Europe/Rome:20261220T220000
 SUMMARY:Polisportiva Concordia – Pall. Interclub Muggia (Serie C femminil
  e — girone unico (prima fase))
-LOCATION:Pal.Tto Sport "L. Valerio"\, Concordia Sagittaria
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
 DESCRIPTION:Serie C femminile — girone unico (prima fase)\n9ª giornata\n
  Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
  rt-fvg/#g-basket-serie-c-femminile
@@ -608,6 +595,19 @@ DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n6ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u13-femminile-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-38d9c9c4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261222T180000
+DTEND;TZID=Europe/Rome:20261222T200000
+SUMMARY:PALL. INTERCLUB MUGGIA – U.S.D. DON BOSCO (Under 13 Maschile — 
+ girone GO/TS A)
+LOCATION:Palestra Comunale 'G. Pacco'\, Muggia
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n8ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-go-ts-a-2d93b3ef@zuin-fvg
@@ -647,6 +647,19 @@ DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n7ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u13-femminile-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-femminile-af99ba02@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T160000
+DTEND;TZID=Europe/Rome:20270109T180000
+SUMMARY:APU NEXT GEN – PALL. INTERCLUB MUGGIA (Under 17 Femminile — gir
+ one unico)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 17 Femminile — girone unico\n15ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-gold-a-9d8fe497@zuin-fvg
@@ -785,7 +798,7 @@ DTSTART;TZID=Europe/Rome:20270119T200000
 DTEND;TZID=Europe/Rome:20270119T220000
 SUMMARY:APU NEXT GEN – PALL. INTERCLUB MUGGIA (Under 19 Femminile Regiona
  le — girone unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 19 Femminile Regionale — girone unico\n10ª giornata\nD
  ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
  t-fvg/#g-basket-u19-femminile
@@ -798,7 +811,7 @@ DTSTART;TZID=Europe/Rome:20270122T180000
 DTEND;TZID=Europe/Rome:20270122T200000
 SUMMARY:BREG – PALL. INTERCLUB MUGGIA (Under 13 Maschile — girone GO/TS
   A)
-LOCATION:(Trieste)
+LOCATION:Palestra 'S.Klabjan'\, San Dorligo Della Valle
 DESCRIPTION:Under 13 Maschile — girone GO/TS A\n11ª giornata\nDati non u
  fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
  basket-u13-go-ts-a
@@ -807,8 +820,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-est-6d9e3aa8@zuin-fvg
 DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20270122T211500
-DTEND;TZID=Europe/Rome:20270122T231500
+DTSTART;TZID=Europe/Rome:20270122T210000
+DTEND;TZID=Europe/Rome:20270122T230000
 SUMMARY:San Vito Trieste – Pall. Interclub Muggia (Divisione Regionale 1 
  — girone Est)
 LOCATION:Palazzetto 'Atleti Azzurri'\, Trieste
@@ -850,7 +863,7 @@ DTSTART;TZID=Europe/Rome:20270128T190000
 DTEND;TZID=Europe/Rome:20270128T210000
 SUMMARY:SISTEMA ROSA PALL. – PALL. INTERCLUB MUGGIA (Under 17 Femminile 
  — girone unico)
-LOCATION:Palasport "Crisafulli"\, Pordenone
+LOCATION:Palasport 'Crisafulli'\, Pordenone
 DESCRIPTION:Under 17 Femminile — girone unico\n13ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
@@ -928,7 +941,7 @@ DTSTART;TZID=Europe/Rome:20270206T090000
 DTEND;TZID=Europe/Rome:20270206T110000
 SUMMARY:C.M.B. ARCOBALENO TRIESTE 2015 – PALL. INTERCLUB MUGGIA (Under 13
   Maschile — girone GO/TS A)
-LOCATION:Pal. Liceo "G. Oberdan"\, Trieste
+LOCATION:Pal. Liceo 'G. Oberdan'\, Trieste
 DESCRIPTION:Under 13 Maschile — girone GO/TS A\n13ª giornata\nDati non u
  fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
  basket-u13-go-ts-a
@@ -946,19 +959,6 @@ DESCRIPTION:Divisione Regionale 1 — girone Est\n17ª giornata\nDati non u
  fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
  basket-dr1-est
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u17-femminile-af99ba02@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270207T110000
-DTEND;TZID=Europe/Rome:20270207T130000
-SUMMARY:APU NEXT GEN – PALL. INTERCLUB MUGGIA (Under 17 Femminile — gir
- one unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
-DESCRIPTION:Under 17 Femminile — girone unico\n15ª giornata\nDati non uf
- ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
- asket-u17-femminile
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-serie-c-femminile-d9368f36@zuin-fvg
@@ -1032,7 +1032,7 @@ DTSTART;TZID=Europe/Rome:20270224T200000
 DTEND;TZID=Europe/Rome:20270224T220000
 SUMMARY:FUTUROSA ROSA – PALL. INTERCLUB MUGGIA (Under 17 Femminile — gi
  rone unico)
-LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+LOCATION:Pal. Comunale 'Luca Vascott\, Trieste
 DESCRIPTION:Under 17 Femminile — girone unico\n17ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
@@ -1175,7 +1175,7 @@ DTSTART;TZID=Europe/Rome:20270404T113000
 DTEND;TZID=Europe/Rome:20270404T133000
 SUMMARY:POL. CASARSA – PALL. INTERCLUB MUGGIA (Under 17 Femminile — gir
  one unico)
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Under 17 Femminile — girone unico\n22ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile

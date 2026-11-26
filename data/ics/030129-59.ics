@@ -805,24 +805,11 @@ DTSTART;TZID=Europe/Rome:20261211T200000
 DTEND;TZID=Europe/Rome:20261211T220000
 SUMMARY:APU Next Gen – Polisportiva Concordia (Serie C femminile — giro
  ne unico (prima fase))
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Serie C femminile — girone unico (prima fase)\n8ª giornata\n
  Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
  rt-fvg/#g-basket-serie-c-femminile
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u14-regionale-go-ts-ud-46e5fd9e@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261212T150000
-DTEND;TZID=Europe/Rome:20261212T170000
-SUMMARY:APU NEXT GEN – O.F.P. AZZURRA R.D.R. Basket Trieste (Under 14 Mas
- chile Regionale — girone GO/TS/UD)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
-DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n7ª giornata\n
- Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
- rt-fvg/#g-basket-u14-regionale-go-ts-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-femminile-pn-ud-1e976a53@zuin-fvg
@@ -836,6 +823,19 @@ DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n8ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u13-femminile-pn-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-38eca1cf@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261212T163000
+DTEND;TZID=Europe/Rome:20261212T183000
+SUMMARY:APU Next Gen – Economy Rent Cordenons (Under 17 Maschile Eccellen
+ za — girone unico)
+LOCATION:Palasport 'Primo Carnera'\, Udine
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n11ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-ud-b-3c4a10d6@zuin-fvg
@@ -857,7 +857,7 @@ DTSTART;TZID=Europe/Rome:20261213T110000
 DTEND;TZID=Europe/Rome:20261213T130000
 SUMMARY:APU NEXT GEN – POLISPORTIVA CONCORDIA (Under 17 Femminile — gir
  one unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 17 Femminile — girone unico\n9ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-u17-femminile
@@ -896,7 +896,7 @@ DTSTART;TZID=Europe/Rome:20261214T190000
 DTEND;TZID=Europe/Rome:20261214T210000
 SUMMARY:SISTEMA ROSA PALL. – APU NEXT GEN (Under 19 Femminile Regionale 
  — girone unico)
-LOCATION:Palasport "Crisafulli"\, Pordenone
+LOCATION:Palasport 'Crisafulli'\, Pordenone
 DESCRIPTION:Under 19 Femminile Regionale — girone unico\n7ª giornata\nDa
  ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
  -fvg/#g-basket-u19-femminile
@@ -909,24 +909,24 @@ DTSTART;TZID=Europe/Rome:20261216T193000
 DTEND;TZID=Europe/Rome:20261216T213000
 SUMMARY:APU Next Gen – Libertas Gym e Basket (Under 15 Femminile — giro
  ne unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 15 Femminile — girone unico\n6ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-u15-femminile
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u17-eccellenza-38eca1cf@zuin-fvg
-DTSTAMP:20261112T000000Z
-DTSTART;TZID=Europe/Rome:20261216T200000
-DTEND;TZID=Europe/Rome:20261216T220000
-SUMMARY:APU Next Gen – Economy Rent Cordenons (Under 17 Maschile Eccellen
- za — girone unico)
-LOCATION:Palasport 'Primo Carnera'\, Udine
-DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n11ª giornata\nD
- ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
- t-fvg/#g-basket-u17-eccellenza
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+UID:basket-u14-regionale-go-ts-ud-46e5fd9e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261217T173000
+DTEND;TZID=Europe/Rome:20261217T193000
+SUMMARY:APU NEXT GEN – O.F.P. AZZURRA R.D.R. Basket Trieste (Under 14 Mas
+ chile Regionale — girone GO/TS/UD)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n7ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-gold-b-3c7c4cbe@zuin-fvg
@@ -948,7 +948,7 @@ DTSTART;TZID=Europe/Rome:20261217T210000
 DTEND;TZID=Europe/Rome:20261217T230000
 SUMMARY:BCC Pordenonese Monsile – APU Next Gen (Under 17 Maschile Eccelle
  nza — girone unico)
-LOCATION:Palasport "Crisafulli"\, Pordenone
+LOCATION:Palasport 'Crisafulli'\, Pordenone
 DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n12ª giornata\nD
  ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
  t-fvg/#g-basket-u17-eccellenza
@@ -961,7 +961,7 @@ DTSTART;TZID=Europe/Rome:20261219T170000
 DTEND;TZID=Europe/Rome:20261219T190000
 SUMMARY:APU Next Gen – Polisportiva Concordia (Under 15 Femminile — gir
  one unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 15 Femminile — girone unico\n7ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-u15-femminile
@@ -1065,7 +1065,7 @@ DTSTART;TZID=Europe/Rome:20261222T200000
 DTEND;TZID=Europe/Rome:20261222T220000
 SUMMARY:APU NEXT GEN – FUTUROSA BASKET TRIESTE (Under 19 Femminile Region
  ale — girone unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 19 Femminile Regionale — girone unico\n8ª giornata\nDa
  ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
  -fvg/#g-basket-u19-femminile
@@ -1091,24 +1091,24 @@ DTSTART;TZID=Europe/Rome:20270108T210000
 DTEND;TZID=Europe/Rome:20270108T230000
 SUMMARY:Pol. Casarsa – APU Next Gen (Serie C femminile — girone unico (
  prima fase))
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Serie C femminile — girone unico (prima fase)\n10ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-serie-c-femminile
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u14-regionale-go-ts-ud-c174d818@zuin-fvg
+UID:basket-u17-femminile-af99ba02@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270109T150000
-DTEND;TZID=Europe/Rome:20270109T170000
-SUMMARY:APU NEXT GEN – WEB SBaMM (Under 14 Maschile Regionale — girone 
- GO/TS/UD)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
-DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n9ª giornata\n
- Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
- rt-fvg/#g-basket-u14-regionale-go-ts-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+DTSTART;TZID=Europe/Rome:20270109T160000
+DTEND;TZID=Europe/Rome:20270109T180000
+SUMMARY:APU NEXT GEN – PALL. INTERCLUB MUGGIA (Under 17 Femminile — gir
+ one unico)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 17 Femminile — girone unico\n15ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u17-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-regionale-ud-b56d8245@zuin-fvg
@@ -1129,11 +1129,24 @@ DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270109T170000
 DTEND;TZID=Europe/Rome:20270109T190000
 SUMMARY:Pol. Casarsa – APU Next Gen (Under 15 Femminile — girone unico)
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Under 15 Femminile — girone unico\n8ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-u15-femminile
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-c174d818@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T183000
+DTEND;TZID=Europe/Rome:20270109T203000
+SUMMARY:APU NEXT GEN – WEB SBaMM (Under 14 Maschile Regionale — girone 
+ GO/TS/UD)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n9ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-ud-b-de1ab9cc@zuin-fvg
@@ -1160,6 +1173,19 @@ DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n10ª giornata
  \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
  port-fvg/#g-basket-u14-gold-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-5f812928@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20270110T150000
+DTEND;TZID=Europe/Rome:20270110T170000
+SUMMARY:APU Next Gen – O.F.P. Azzurra R.D.R. Basket Trieste (Under 17 Mas
+ chile Eccellenza — girone unico)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n13ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u15-eccellenza-052f555e@zuin-fvg
@@ -1201,17 +1227,17 @@ DESCRIPTION:Under 13 Maschile — girone UD B\n9ª giornata\nDati non uffic
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u17-eccellenza-5f812928@zuin-fvg
-DTSTAMP:20261112T000000Z
-DTSTART;TZID=Europe/Rome:20270113T200000
-DTEND;TZID=Europe/Rome:20270113T220000
-SUMMARY:APU Next Gen – O.F.P. Azzurra R.D.R. Basket Trieste (Under 17 Mas
- chile Eccellenza — girone unico)
-LOCATION:Palasport 'Primo Carnera'\, Udine
-DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n13ª giornata\nD
- ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
- t-fvg/#g-basket-u17-eccellenza
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+UID:basket-u15-femminile-efa06984@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270113T193000
+DTEND;TZID=Europe/Rome:20270113T213000
+SUMMARY:APU Next Gen – Pol Lib. Pasian di Prato (Under 15 Femminile — g
+ irone unico)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 15 Femminile — girone unico\n9ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-femminile-pn-ud-f647758c@zuin-fvg
@@ -1233,7 +1259,7 @@ DTSTART;TZID=Europe/Rome:20270116T160000
 DTEND;TZID=Europe/Rome:20270116T180000
 SUMMARY:POL LIB. PASIAN DI PRATO – APU NEXT GEN (Under 14 Maschile Region
  ale — girone GO/TS/UD)
-LOCATION:(Udine)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
 DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n10ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-regionale-go-ts-ud
@@ -1258,7 +1284,7 @@ DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270116T170000
 DTEND;TZID=Europe/Rome:20270116T190000
 SUMMARY:POL. CASARSA – APU NEXT GEN (Under 17 Femminile — girone unico)
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Under 17 Femminile — girone unico\n12ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
@@ -1271,24 +1297,11 @@ DTSTART;TZID=Europe/Rome:20270117T100000
 DTEND;TZID=Europe/Rome:20270117T120000
 SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste – APU Next Gen (Under 15 Mas
  chile Eccellenza — girone unico)
-LOCATION:Trieste - (Trieste)
+LOCATION:Palestra Comunale Di San Giova\, Trieste
 DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n14ª giornata\nD
  ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
  t-fvg/#g-basket-u15-eccellenza
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u15-femminile-efa06984@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270117T110000
-DTEND;TZID=Europe/Rome:20270117T130000
-SUMMARY:APU Next Gen – Pol Lib. Pasian di Prato (Under 15 Femminile — g
- irone unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
-DESCRIPTION:Under 15 Femminile — girone unico\n9ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-u15-femminile
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-ud-b-8b753c72@zuin-fvg
@@ -1310,24 +1323,11 @@ DTSTART;TZID=Europe/Rome:20270119T200000
 DTEND;TZID=Europe/Rome:20270119T220000
 SUMMARY:APU NEXT GEN – PALL. INTERCLUB MUGGIA (Under 19 Femminile Regiona
  le — girone unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 19 Femminile Regionale — girone unico\n10ª giornata\nD
  ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
  t-fvg/#g-basket-u19-femminile
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u14-regionale-go-ts-ud-5fa6ecbe@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270123T150000
-DTEND;TZID=Europe/Rome:20270123T170000
-SUMMARY:APU NEXT GEN – BASKET CERVIGNANESE (Under 14 Maschile Regionale 
- — girone GO/TS/UD)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
-DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n11ª giornata\
- nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
- ort-fvg/#g-basket-u14-regionale-go-ts-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-serie-c-femminile-2164301a@zuin-fvg
@@ -1374,7 +1374,7 @@ DTSTART;TZID=Europe/Rome:20270124T110000
 DTEND;TZID=Europe/Rome:20270124T130000
 SUMMARY:APU NEXT GEN – POL. LIBERTAS ACLI (Under 17 Femminile — girone 
  unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 17 Femminile — girone unico\n13ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
@@ -1394,13 +1394,26 @@ DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n12ª gi
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-5fa6ecbe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270125T193000
+DTEND;TZID=Europe/Rome:20270125T213000
+SUMMARY:APU NEXT GEN – BASKET CERVIGNANESE (Under 14 Maschile Regionale 
+ — girone GO/TS/UD)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n11ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u15-femminile-19a46ef1@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270127T193000
 DTEND;TZID=Europe/Rome:20270127T213000
 SUMMARY:APU Next Gen – Pol. Libertas Acli (Under 15 Femminile — girone 
  unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 15 Femminile — girone unico\n10ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u15-femminile
@@ -1439,7 +1452,7 @@ DTSTART;TZID=Europe/Rome:20270131T100000
 DTEND;TZID=Europe/Rome:20270131T120000
 SUMMARY:Sistema Rosa Pall. – APU Next Gen (Under 15 Femminile — girone 
  unico)
-LOCATION:Palasport "Crisafulli"\, Pordenone
+LOCATION:Palasport 'Crisafulli'\, Pordenone
 DESCRIPTION:Under 15 Femminile — girone unico\n11ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u15-femminile
@@ -1452,7 +1465,7 @@ DTSTART;TZID=Europe/Rome:20270131T110000
 DTEND;TZID=Europe/Rome:20270131T130000
 SUMMARY:APU Next Gen – Pozzuolo Basket (Serie C femminile — girone unic
  o (prima fase))
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Serie C femminile — girone unico (prima fase)\n11ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-serie-c-femminile
@@ -1503,7 +1516,7 @@ DTSTART;TZID=Europe/Rome:20270203T200000
 DTEND;TZID=Europe/Rome:20270203T220000
 SUMMARY:FUTUROSA ROSA – APU NEXT GEN (Under 17 Femminile — girone unico
  )
-LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+LOCATION:Pal. Comunale 'Luca Vascott\, Trieste
 DESCRIPTION:Under 17 Femminile — girone unico\n14ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
@@ -1516,7 +1529,7 @@ DTSTART;TZID=Europe/Rome:20270205T200000
 DTEND;TZID=Europe/Rome:20270205T220000
 SUMMARY:APU Next Gen – Nuova Basket Isonzo (Serie C femminile — girone 
  unico (prima fase))
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Serie C femminile — girone unico (prima fase)\n14ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-serie-c-femminile
@@ -1525,11 +1538,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-regionale-go-ts-ud-16404be6@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270206T150000
-DTEND;TZID=Europe/Rome:20270206T170000
+DTSTART;TZID=Europe/Rome:20270206T173000
+DTEND;TZID=Europe/Rome:20270206T193000
 SUMMARY:APU NEXT GEN – POL. LIBERTAS CUSSIGNACCO (Under 14 Maschile Regio
  nale — girone GO/TS/UD)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n13ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-regionale-go-ts-ud
@@ -1554,24 +1567,11 @@ DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270207T110000
 DTEND;TZID=Europe/Rome:20270207T130000
 SUMMARY:APU Next Gen – U.S. Alba (Under 15 Femminile — girone unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 15 Femminile — girone unico\n12ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u15-femminile
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u17-femminile-af99ba02@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270207T110000
-DTEND;TZID=Europe/Rome:20270207T130000
-SUMMARY:APU NEXT GEN – PALL. INTERCLUB MUGGIA (Under 17 Femminile — gir
- one unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
-DESCRIPTION:Under 17 Femminile — girone unico\n15ª giornata\nDati non uf
- ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
- asket-u17-femminile
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-femminile-pn-ud-0a722911@zuin-fvg
@@ -1606,7 +1606,7 @@ DTSTART;TZID=Europe/Rome:20270211T193000
 DTEND;TZID=Europe/Rome:20270211T213000
 SUMMARY:Pall. Portogruaro – APU Next Gen (Serie C femminile — girone un
  ico (prima fase))
-LOCATION:Portogruaro - (Venezia)
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
 DESCRIPTION:Serie C femminile — girone unico (prima fase)\n15ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-serie-c-femminile
@@ -1644,7 +1644,7 @@ DTSTART;TZID=Europe/Rome:20270217T200000
 DTEND;TZID=Europe/Rome:20270217T220000
 SUMMARY:FUTUROSA NERA – APU NEXT GEN (Under 17 Femminile — girone unico
  )
-LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+LOCATION:Pal. Comunale 'Luca Vascott\, Trieste
 DESCRIPTION:Under 17 Femminile — girone unico\n16ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
@@ -1683,7 +1683,7 @@ DTSTART;TZID=Europe/Rome:20270221T110000
 DTEND;TZID=Europe/Rome:20270221T130000
 SUMMARY:APU Next Gen – Futurosa Basket Trieste (Under 15 Femminile — gi
  rone unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 15 Femminile — girone unico\n14ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u15-femminile
@@ -1696,7 +1696,7 @@ DTSTART;TZID=Europe/Rome:20270223T193000
 DTEND;TZID=Europe/Rome:20270223T213000
 SUMMARY:APU NEXT GEN – A.INT.BALONCESTO ISONTINA (Under 17 Femminile — 
  girone unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 17 Femminile — girone unico\n17ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
@@ -1709,21 +1709,8 @@ DTSTART;TZID=Europe/Rome:20270224T193000
 DTEND;TZID=Europe/Rome:20270224T213000
 SUMMARY:U.S.D. DON BOSCO – APU NEXT GEN (Under 14 Maschile Regionale — 
  girone GO/TS/UD)
-LOCATION:Pal. Oratorio "Don Bosco"\, Trieste
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
 DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n15ª giornata\
- nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
- ort-fvg/#g-basket-u14-regionale-go-ts-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u14-regionale-go-ts-ud-4033d73e@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270227T150000
-DTEND;TZID=Europe/Rome:20270227T170000
-SUMMARY:APU NEXT GEN – FALCONSTAR BASKET (Under 14 Maschile Regionale —
-  girone GO/TS/UD)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
-DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n16ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-regionale-go-ts-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
@@ -1787,11 +1774,24 @@ DTSTART;TZID=Europe/Rome:20270228T200000
 DTEND;TZID=Europe/Rome:20270228T220000
 SUMMARY:Polisportiva Concordia – APU Next Gen (Serie C femminile — giro
  ne unico (prima fase))
-LOCATION:Pal.Tto Sport "L. Valerio"\, Concordia Sagittaria
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
 DESCRIPTION:Serie C femminile — girone unico (prima fase)\n17ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-serie-c-femminile
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-4033d73e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270301T193000
+DTEND;TZID=Europe/Rome:20270301T213000
+SUMMARY:APU NEXT GEN – FALCONSTAR BASKET (Under 14 Maschile Regionale —
+  girone GO/TS/UD)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n16ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-femminile-50cc1aa5@zuin-fvg
@@ -1800,11 +1800,24 @@ DTSTART;TZID=Europe/Rome:20270302T173000
 DTEND;TZID=Europe/Rome:20270302T193000
 SUMMARY:SISTEMA ROSA PALL. – APU NEXT GEN (Under 17 Femminile — girone 
  unico)
-LOCATION:Palasport "Crisafulli"\, Pordenone
+LOCATION:Palasport 'Crisafulli'\, Pordenone
 DESCRIPTION:Under 17 Femminile — girone unico\n18ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-2cdfbf6d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270304T190000
+DTEND;TZID=Europe/Rome:20270304T210000
+SUMMARY:LIGNANO BASKET – APU NEXT GEN (Under 14 Maschile Regionale — gi
+ rone GO/TS/UD)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n17ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-ud-b-f569c1f2@zuin-fvg
@@ -1820,26 +1833,13 @@ DESCRIPTION:Under 13 Maschile — girone UD B\n17ª giornata\nDati non uffi
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u14-regionale-go-ts-ud-2cdfbf6d@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270305T190000
-DTEND;TZID=Europe/Rome:20270305T210000
-SUMMARY:LIGNANO BASKET – APU NEXT GEN (Under 14 Maschile Regionale — gi
- rone GO/TS/UD)
-LOCATION:(Udine)
-DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n17ª giornata\
- nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
- ort-fvg/#g-basket-u14-regionale-go-ts-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-serie-c-femminile-af7e5d7e@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20270305T200000
 DTEND;TZID=Europe/Rome:20270305T220000
 SUMMARY:APU Next Gen – WIS 1963 Woman Spilimbergo (Serie C femminile — 
  girone unico (prima fase))
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Serie C femminile — girone unico (prima fase)\n18ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-serie-c-femminile
@@ -1852,7 +1852,7 @@ DTSTART;TZID=Europe/Rome:20270306T180000
 DTEND;TZID=Europe/Rome:20270306T200000
 SUMMARY:Polisportiva Concordia – APU Next Gen (Under 15 Femminile — gir
  one unico)
-LOCATION:Pal.Tto Sport "L. Valerio"\, Concordia Sagittaria
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
 DESCRIPTION:Under 15 Femminile — girone unico\n16ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u15-femminile
@@ -1891,7 +1891,7 @@ DTSTART;TZID=Europe/Rome:20270307T110000
 DTEND;TZID=Europe/Rome:20270307T130000
 SUMMARY:APU NEXT GEN – POZZUOLO BASKET (Under 17 Femminile — girone uni
  co)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 17 Femminile — girone unico\n19ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
@@ -1904,7 +1904,7 @@ DTSTART;TZID=Europe/Rome:20270313T150000
 DTEND;TZID=Europe/Rome:20270313T170000
 SUMMARY:APU NEXT GEN – PALL. LAIPACCO (Under 14 Maschile Regionale — gi
  rone GO/TS/UD)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n18ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-regionale-go-ts-ud
@@ -1942,7 +1942,7 @@ DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270314T110000
 DTEND;TZID=Europe/Rome:20270314T130000
 SUMMARY:APU Next Gen – Pol. Casarsa (Under 15 Femminile — girone unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 15 Femminile — girone unico\n17ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u15-femminile
@@ -1955,7 +1955,7 @@ DTSTART;TZID=Europe/Rome:20270314T150000
 DTEND;TZID=Europe/Rome:20270314T170000
 SUMMARY:POLISPORTIVA CONCORDIA – APU NEXT GEN (Under 17 Femminile — gir
  one unico)
-LOCATION:Pal.Tto Sport "L. Valerio"\, Concordia Sagittaria
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
 DESCRIPTION:Under 17 Femminile — girone unico\n20ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
@@ -1968,7 +1968,7 @@ DTSTART;TZID=Europe/Rome:20270316T193000
 DTEND;TZID=Europe/Rome:20270316T213000
 SUMMARY:APU NEXT GEN – LIBERTAS GYM E BASKET (Under 17 Femminile — giro
  ne unico)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 17 Femminile — girone unico\n21ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
@@ -1981,7 +1981,7 @@ DTSTART;TZID=Europe/Rome:20270320T150000
 DTEND;TZID=Europe/Rome:20270320T170000
 SUMMARY:APU NEXT GEN – LIBERTAS GONARS (Under 14 Maschile Regionale — g
  irone GO/TS/UD)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n19ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-regionale-go-ts-ud
@@ -1994,7 +1994,7 @@ DTSTART;TZID=Europe/Rome:20270321T110000
 DTEND;TZID=Europe/Rome:20270321T130000
 SUMMARY:Pol Lib. Pasian di Prato – APU Next Gen (Under 15 Femminile — g
  irone unico)
-LOCATION:(Udine)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
 DESCRIPTION:Under 15 Femminile — girone unico\n18ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u15-femminile
@@ -2020,7 +2020,7 @@ DTSTART;TZID=Europe/Rome:20270410T150000
 DTEND;TZID=Europe/Rome:20270410T170000
 SUMMARY:APU NEXT GEN – AKK BOR BASKET (Under 14 Maschile Regionale — gi
  rone GO/TS/UD)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n21ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-regionale-go-ts-ud
@@ -2033,7 +2033,7 @@ DTSTART;TZID=Europe/Rome:20270417T153000
 DTEND;TZID=Europe/Rome:20270417T173000
 SUMMARY:WEB SBaMM – APU NEXT GEN (Under 14 Maschile Regionale — girone 
  GO/TS/UD)
-LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
 DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n22ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-regionale-go-ts-ud
@@ -2046,7 +2046,7 @@ DTSTART;TZID=Europe/Rome:20270424T150000
 DTEND;TZID=Europe/Rome:20270424T170000
 SUMMARY:APU NEXT GEN – POL LIB. PASIAN DI PRATO (Under 14 Maschile Region
  ale — girone GO/TS/UD)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n23ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-regionale-go-ts-ud
@@ -2055,11 +2055,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-regionale-go-ts-ud-3cb2d7b9@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270501T160000
-DTEND;TZID=Europe/Rome:20270501T180000
+DTSTART;TZID=Europe/Rome:20270503T170000
+DTEND;TZID=Europe/Rome:20270503T190000
 SUMMARY:BASKET CERVIGNANESE – APU NEXT GEN (Under 14 Maschile Regionale 
  — girone GO/TS/UD)
-LOCATION:Friuli - (Udine)
+LOCATION:Pal. Scuole Elementari\, Cervignano Del Friuli
 DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n24ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-regionale-go-ts-ud
@@ -2072,7 +2072,7 @@ DTSTART;TZID=Europe/Rome:20270508T150000
 DTEND;TZID=Europe/Rome:20270508T170000
 SUMMARY:APU NEXT GEN – US ALBA PALLACANESTRO (Under 14 Maschile Regionale
   — girone GO/TS/UD)
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n25ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-regionale-go-ts-ud

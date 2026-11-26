@@ -285,13 +285,26 @@ DESCRIPTION:Under 13 Maschile — girone PN A\n7ª giornata\nDati non uffic
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u17-eccellenza-38eca1cf@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261212T163000
+DTEND;TZID=Europe/Rome:20261212T183000
+SUMMARY:APU Next Gen – Economy Rent Cordenons (Under 17 Maschile Eccellen
+ za — girone unico)
+LOCATION:Palasport 'Primo Carnera'\, Udine
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n11ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-serie-c-girone-d-f3afc319@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261212T200000
 DTEND;TZID=Europe/Rome:20261212T220000
 SUMMARY:FIDEMA GROUP RONCHI – INTERMEK CORDENONS (Serie C maschile — gi
  rone D (prima fase))
-LOCATION:(Gorizia)
+LOCATION:Palestra Polifunzionale 'O. Pe\, Ronchi Dei Legionari
 DESCRIPTION:Serie C maschile — girone D (prima fase)\n12ª giornata\nDati
   non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
  vg/#g-basket-serie-c-girone-d
@@ -309,19 +322,6 @@ DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n7ª giornata\nDat
  i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
  fvg/#g-basket-u14-regionale-pn-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u17-eccellenza-38eca1cf@zuin-fvg
-DTSTAMP:20261112T000000Z
-DTSTART;TZID=Europe/Rome:20261216T200000
-DTEND;TZID=Europe/Rome:20261216T220000
-SUMMARY:APU Next Gen – Economy Rent Cordenons (Under 17 Maschile Eccellen
- za — girone unico)
-LOCATION:Palasport 'Primo Carnera'\, Udine
-DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n11ª giornata\nD
- ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
- t-fvg/#g-basket-u17-eccellenza
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-aaa42f91@zuin-fvg
@@ -759,7 +759,7 @@ DTSTART;TZID=Europe/Rome:20270319T203000
 DTEND;TZID=Europe/Rome:20270319T223000
 SUMMARY:BASKETRIESTE – INTERMEK CORDENONS (Serie C maschile — girone D 
  (prima fase))
-LOCATION:Palarubini\, Trieste
+LOCATION:Palarubini - Allianz Dome\, Trieste
 DESCRIPTION:Serie C maschile — girone D (prima fase)\n24ª giornata\nDati
   non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
  vg/#g-basket-serie-c-girone-d
