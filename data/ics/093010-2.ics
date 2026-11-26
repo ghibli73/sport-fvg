@@ -368,7 +368,7 @@ DTSTART;TZID=Europe/Rome:20261124T201500
 DTEND;TZID=Europe/Rome:20261124T221500
 SUMMARY:Fly Solartech Icarus 85-42 Pol. Casarsa (Under 19 Maschile Gold —
   girone B)
-LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
 DESCRIPTION:Under 19 Maschile Gold — girone B\n8ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-u19-gold-b
@@ -381,7 +381,7 @@ DTSTART;TZID=Europe/Rome:20261128T150000
 DTEND;TZID=Europe/Rome:20261128T170000
 SUMMARY:Pol. Casarsa – Olympia Rivignano (Under 14 Maschile Regionale —
   girone PN/UD)
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n5ª giornata\nDat
  i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
  fvg/#g-basket-u14-regionale-pn-ud
@@ -420,7 +420,7 @@ DTSTART;TZID=Europe/Rome:20261129T180000
 DTEND;TZID=Europe/Rome:20261129T200000
 SUMMARY:Pol. Casarsa – Pol. Polisigma (Divisione Regionale 1 — girone O
  vest)
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Divisione Regionale 1 — girone Ovest\n9ª giornata\nDati non 
  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
  -basket-dr1-ovest
@@ -432,7 +432,7 @@ DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261201T183000
 DTEND;TZID=Europe/Rome:20261201T203000
 SUMMARY:Pol. Casarsa – Azzano Basket (Under 13 Maschile — girone PN B)
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Under 13 Maschile — girone PN B\n6ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
  et-u13-pn-b
@@ -445,7 +445,7 @@ DTSTART;TZID=Europe/Rome:20261202T210000
 DTEND;TZID=Europe/Rome:20261202T230000
 SUMMARY:NAONIS BASKET – POL. CASARSA 'B' (Divisione Regionale 3 — giron
  e PN)
-LOCATION:(Pordenone)
+LOCATION:Palazzetto Roraigrande\, Pordenone
 DESCRIPTION:Divisione Regionale 3 — girone PN\n6ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-dr3-pn
@@ -458,7 +458,7 @@ DTSTART;TZID=Europe/Rome:20261204T173000
 DTEND;TZID=Europe/Rome:20261204T193000
 SUMMARY:POL. CASARSA – POL. LIBERTAS ACLI (Under 13 Femminile — girone 
  PN/UD (prima fase))
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n8ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u13-femminile-pn-ud
@@ -523,7 +523,7 @@ DTSTART;TZID=Europe/Rome:20261206T203000
 DTEND;TZID=Europe/Rome:20261206T223000
 SUMMARY:POL. CASARSA 'B' – TORRE BASKET 'B' (Divisione Regionale 3 — gi
  rone PN)
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Divisione Regionale 3 — girone PN\n7ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-dr3-pn
@@ -967,6 +967,19 @@ DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n11ª giornata
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u13-pn-b-a3a1ade0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270119T183000
+DTEND;TZID=Europe/Rome:20270119T203000
+SUMMARY:Pol. Casarsa – Basket Cordovado (Under 13 Maschile — girone PN 
+ B)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Under 13 Maschile — girone PN B\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-dr3-pn-f0532948@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20270120T211500
@@ -1090,7 +1103,7 @@ DTSTART;TZID=Europe/Rome:20270126T183000
 DTEND;TZID=Europe/Rome:20270126T203000
 SUMMARY:Pol. Casarsa – Libertas Fiume Veneto (Under 13 Maschile — giron
  e PN B)
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Under 13 Maschile — girone PN B\n10ª giornata\nDati non uffi
  ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
  ket-u13-pn-b
@@ -1264,6 +1277,19 @@ DESCRIPTION:Serie C femminile — girone unico (prima fase)\n14ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-serie-c-femminile
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-abfba89c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270208T183000
+DTEND;TZID=Europe/Rome:20270208T203000
+SUMMARY:Libertas Fiume Veneto – Pol. Casarsa (Under 14 Maschile Regionale
+  — girone PN/UD)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-pn-82d54120@zuin-fvg

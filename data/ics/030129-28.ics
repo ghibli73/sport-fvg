@@ -197,7 +197,7 @@ DTSTART;TZID=Europe/Rome:20261125T203000
 DTEND;TZID=Europe/Rome:20261125T223000
 SUMMARY:POL LIB. PASIAN DI PRATO 50-55 PALL. LAIPACCO (Under 19 Maschile Re
  gionale — girone UD (prima fase))
-LOCATION:Palasport Mario Vecchiatto\, Pasian di Prato
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
 DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n4ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u19-regionale-ud
@@ -249,7 +249,7 @@ DTSTART;TZID=Europe/Rome:20261203T193000
 DTEND;TZID=Europe/Rome:20261203T213000
 SUMMARY:APU NEXT GEN – PALL. LAIPACCO (Under 17 Maschile Regionale — gi
  rone UD (prima fase))
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n7ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u17-regionale-ud
@@ -288,7 +288,7 @@ DTSTART;TZID=Europe/Rome:20261207T194500
 DTEND;TZID=Europe/Rome:20261207T214500
 SUMMARY:PALL. LAIPACCO – POL. DLF DI UDINE (Under 19 Maschile Regionale 
  — girone UD (prima fase))
-LOCATION:Pal. Sc. 'Ezio Cernich"\, Udine
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
 DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n6ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u19-regionale-ud
@@ -314,7 +314,7 @@ DTSTART;TZID=Europe/Rome:20261212T180000
 DTEND;TZID=Europe/Rome:20261212T200000
 SUMMARY:PALL. LAIPACCO – Scuola Basket Miky Mian (Under 17 Maschile Regio
  nale — girone UD (prima fase))
-LOCATION:Pal. Sc. 'Ezio Cernich"\, Udine
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
 DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n8ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u17-regionale-ud
@@ -460,6 +460,19 @@ DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n4ª giornata\nDati
  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
  g/#g-basket-esordienti-ud-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-5d794b9f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270113T190000
+DTEND;TZID=Europe/Rome:20270113T210000
+SUMMARY:POL LIB. PASIAN DI PRATO – PALL. LAIPACCO (Under 17 Maschile Regi
+ onale — girone UD (prima fase))
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n6ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr2-ud-5eaa4a7a@zuin-fvg

@@ -418,7 +418,7 @@ DTSTART;TZID=Europe/Rome:20261123T190000
 DTEND;TZID=Europe/Rome:20261123T210000
 SUMMARY:PALL. CODROIPESE 64-68 POL. DLF DI UDINE (Under 19 Maschile Regiona
  le — girone UD (prima fase))
-LOCATION:Palazzetto dello Sport\, Codroipo
+LOCATION:Palazzetto Dello Sport\, Codroipo
 DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n4ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u19-regionale-ud
@@ -431,7 +431,7 @@ DTSTART;TZID=Europe/Rome:20261124T190000
 DTEND;TZID=Europe/Rome:20261124T210000
 SUMMARY:Gemona Basket 92-32 Pall. Codroipese (Under 14 Maschile Regionale 
  — girone PN/UD)
-LOCATION:Palestra IPSIA\, Gemona del Friuli
+LOCATION:Palestra Ipsia\, Gemona Del Friuli
 DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n4ª giornata\nDat
  i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
  fvg/#g-basket-u14-regionale-pn-ud
@@ -607,19 +607,6 @@ DESCRIPTION:Under 19 Maschile Gold — girone A\n8ª giornata\nDati non uff
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u14-regionale-pn-ud-37c9a277@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261205T163000
-DTEND;TZID=Europe/Rome:20261205T183000
-SUMMARY:Collinare Basket – Pall. Codroipese (Under 14 Maschile Regionale 
- — girone PN/UD)
-LOCATION:Palestra\, Fagagna
-DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n6ª giornata\nDat
- i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
- fvg/#g-basket-u14-regionale-pn-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u17-gold-ud-0f993c8a@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261205T183000
@@ -657,6 +644,19 @@ DESCRIPTION:Under 13 Maschile — girone UD A\n6ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
  et-u13-ud-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-37c9a277@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261206T100000
+DTEND;TZID=Europe/Rome:20261206T120000
+SUMMARY:Collinare Basket – Pall. Codroipese (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u15-eccellenza-13ceb2e0@zuin-fvg

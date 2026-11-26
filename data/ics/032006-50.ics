@@ -200,7 +200,7 @@ DTSTART;TZID=Europe/Rome:20261125T193000
 DTEND;TZID=Europe/Rome:20261125T213000
 SUMMARY:Basketrieste 66-57 Dinamo Gorizia (Under 14 Maschile Gold — giron
  e B (prima fase))
-LOCATION:Palarubini Allianz Dome\, Trieste
+LOCATION:Palarubini - Allianz Dome\, Trieste
 DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n5ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-gold-b
@@ -213,24 +213,11 @@ DTSTART;TZID=Europe/Rome:20261129T093000
 DTEND;TZID=Europe/Rome:20261129T113000
 SUMMARY:BASKETRIESTE – SAN VITO TRIESTE (Under 13 Maschile — girone GO/
  TS B)
-LOCATION:Palarubini\, Trieste
+LOCATION:Palarubini - Allianz Dome\, Trieste
 DESCRIPTION:Under 13 Maschile — girone GO/TS B\n5ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u13-go-ts-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u14-gold-b-3ce4efb3@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261202T193000
-DTEND;TZID=Europe/Rome:20261202T213000
-SUMMARY:Basketrieste – APU Next Gen (Under 14 Maschile Gold — girone B 
- (prima fase))
-LOCATION:Palarubini\, Trieste
-DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n6ª giornata\
- nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
- ort-fvg/#g-basket-u14-gold-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-gold-go-ts-0f73ade8@zuin-fvg
@@ -244,6 +231,19 @@ DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n7ª giorn
  ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
  o/sport-fvg/#g-basket-u17-gold-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-3ce4efb3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261203T190000
+DTEND;TZID=Europe/Rome:20261203T210000
+SUMMARY:Basketrieste – APU Next Gen (Under 14 Maschile Gold — girone B 
+ (prima fase))
+LOCATION:Palestra Comunale 'Trieste Cam\, Trieste
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n6ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-go-ts-b-d263fe1a@zuin-fvg
@@ -381,7 +381,7 @@ DTSTART;TZID=Europe/Rome:20261220T093000
 DTEND;TZID=Europe/Rome:20261220T113000
 SUMMARY:BASKETRIESTE – AKK BOR BASKET (Under 13 Maschile — girone GO/TS
   B)
-LOCATION:Palarubini\, Trieste
+LOCATION:Palarubini - Allianz Dome\, Trieste
 DESCRIPTION:Under 13 Maschile — girone GO/TS B\n8ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u13-go-ts-b

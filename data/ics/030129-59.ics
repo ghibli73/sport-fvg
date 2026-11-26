@@ -534,7 +534,7 @@ DTSTART;TZID=Europe/Rome:20261125T193000
 DTEND;TZID=Europe/Rome:20261125T213000
 SUMMARY:APU Next Gen 72-36 Pozzuolo Basket (Under 14 Maschile Gold — giro
  ne B (prima fase))
-LOCATION:Palazzetto M. Benedetti\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n5ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-gold-b
@@ -682,19 +682,6 @@ DESCRIPTION:Under 14 Femminile — girone A (prima fase)\n4ª giornata\nDat
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-a
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u14-gold-b-3ce4efb3@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261202T193000
-DTEND;TZID=Europe/Rome:20261202T213000
-SUMMARY:Basketrieste – APU Next Gen (Under 14 Maschile Gold — girone B 
- (prima fase))
-LOCATION:Palarubini\, Trieste
-DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n6ª giornata\
- nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
- ort-fvg/#g-basket-u14-gold-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u17-eccellenza-61a498c8@zuin-fvg
 DTSTAMP:20261112T000000Z
 DTSTART;TZID=Europe/Rome:20261202T200000
@@ -714,11 +701,24 @@ DTSTART;TZID=Europe/Rome:20261203T183000
 DTEND;TZID=Europe/Rome:20261203T203000
 SUMMARY:APU NEXT GEN – WIS 1963 WOMAN SPILIMBERGO (Under 13 Femminile —
   girone PN/UD (prima fase))
-LOCATION:Palestra Sc. "Marconi"\, Udine
+LOCATION:Palestra Sc. 'Marconi'\, Udine
 DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n7ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u13-femminile-pn-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-3ce4efb3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261203T190000
+DTEND;TZID=Europe/Rome:20261203T210000
+SUMMARY:Basketrieste – APU Next Gen (Under 14 Maschile Gold — girone B 
+ (prima fase))
+LOCATION:Palestra Comunale 'Trieste Cam\, Trieste
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n6ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-regionale-ud-15901ae6@zuin-fvg
@@ -727,7 +727,7 @@ DTSTART;TZID=Europe/Rome:20261203T193000
 DTEND;TZID=Europe/Rome:20261203T213000
 SUMMARY:APU NEXT GEN – PALL. LAIPACCO (Under 17 Maschile Regionale — gi
  rone UD (prima fase))
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n7ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u17-regionale-ud
@@ -805,7 +805,7 @@ DTSTART;TZID=Europe/Rome:20261209T190000
 DTEND;TZID=Europe/Rome:20261209T210000
 SUMMARY:POL LIB. PASIAN DI PRATO – APU NEXT GEN (Under 17 Maschile Region
  ale — girone UD (prima fase))
-LOCATION:(Udine)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
 DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n8ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u17-regionale-ud
@@ -818,7 +818,7 @@ DTSTART;TZID=Europe/Rome:20261209T193000
 DTEND;TZID=Europe/Rome:20261209T213000
 SUMMARY:APU Next Gen – Longobardi (Under 14 Maschile Gold — girone B (p
  rima fase))
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n7ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-gold-b
@@ -870,7 +870,7 @@ DTSTART;TZID=Europe/Rome:20261212T153000
 DTEND;TZID=Europe/Rome:20261212T173000
 SUMMARY:SISTEMA ROSA PALL. – APU NEXT GEN (Under 13 Femminile — girone 
  PN/UD (prima fase))
-LOCATION:Palasport "Crisafulli"\, Pordenone
+LOCATION:Palasport 'Crisafulli'\, Pordenone
 DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n8ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u13-femminile-pn-ud
