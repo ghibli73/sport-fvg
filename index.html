@@ -349,8 +349,9 @@ a.gstar{color:var(--ink);text-decoration:none}.act.wide{grid-column:1/-1}
 .ard b{font:800 21px var(--fc);color:var(--acc)}.ard small{font-size:12px;font-weight:700;color:var(--mute);text-transform:uppercase;letter-spacing:.3px}
 .ard.lg{background:var(--blue)}.ard.lg b{color:var(--gold)}.ard.lg small{color:#c9d6ea}
 .art b{display:block;font-weight:700;font-size:15px;line-height:1.25;overflow-wrap:anywhere}
-.art small{display:flex;align-items:center;gap:5px;flex-wrap:wrap;color:var(--mute);font-size:13px;line-height:1.35;margin-top:2px}
-.art small svg{width:16px;height:16px;color:var(--acc);flex:none}
+.art small{display:block;color:var(--mute);font-size:13px;line-height:1.45;margin-top:2px}
+.art small svg{display:inline-block;width:16px;height:16px;color:var(--acc);vertical-align:-3px;margin-right:4px}
+.hrh .lnk{white-space:nowrap}
 .art .km{font-weight:700;color:var(--acc)}
 .lv{display:inline-block;font-size:12px;font-weight:700;border-radius:6px;padding:0 6px;background:var(--soft);color:var(--ink)}
 .lv.internazionale{background:#fde9b0;color:#5c4200}.lv.nazionale{background:#d9e6f7;color:#123a6b}
@@ -497,7 +498,7 @@ const F=evFut(),ne={};F.forEach(e=>ne[e.sport]=(ne[e.sport]||0)+1);const sc=senz
 m.innerHTML=`<div class="hd"><h2>Sport</h2><span class="n">${ks.length} discipline${prov?' · '+PROV[prov]:''}</span></div>${F.length?`<button class="more pri" data-go="agenda" style="margin:0 0 14px">${CAL}Agenda eventi · ${F.length} in programma</button>`:''}<div class="sgrid">${ks.map(k=>`<button class="stile" data-pick="${k}" aria-pressed="${sport===k}">${ico(k)}<b>${esc(NAMES[k])}</b><small>${cnt[k]} società${ne[k]&&sc.includes(k)?` · ${ne[k]} eventi`:''}</small></button>`).join('')}</div>`+
 (sc.length?`<div class="hd" style="margin-top:22px"><h2>Prossimi eventi</h2><span class="n">sport senza campionato</span></div>${sc.map(k=>{const L=F.filter(e=>e.sport===k);return `<div class="agsp"><div class="grp">${ico(k)}${esc(NAMES[k]||k)}<span>${L.length}</span><button class="lnk" data-agsp="${k}">Tutti${CHEV}</button></div><div class="list">${L.slice(0,2).map(e=>evRow(e,{noSport:1})).join('')}</div></div>`}).join('')}`:'');
 }
-const VERSIONE='1.12.0 beta',VERSIONE_DATA='2026-11-25';
+const VERSIONE='1.12.0 beta',VERSIONE_DATA='2026-11-26';
 function vInfo(m){
 const done=COM.filter(c=>c.n>0).length;const cnt={};C.forEach(k=>cnt[k.sport]=(cnt[k.sport]||0)+1);const mx=Math.max(...Object.values(cnt));
 const ks=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]);
