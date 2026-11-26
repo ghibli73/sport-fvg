@@ -32,6 +32,7 @@ SALTA = re.compile(r"COPPA|ESORDIENTI|PULCINI|TORNEO|FASE|SUPERCOPPA|PRIMI CALCI
 S = requests.Session()
 S.headers["User-Agent"] = os.environ.get("SPORTFVG_UA", "SportFVG/1.0 (app non ufficiale di consultazione)")
 _t = [0.0]
+GIORNATE = {}
 LETTE = [0]
 
 
@@ -95,23 +96,41 @@ def scopri(data, cfg):
         if LETTE[0] >= MAX_PAGINE * 2:
             print("  limite di pagine raggiunto: il resto alla prossima scoperta"); break
         try:
-            sq = squadre_props(pagina({"campionato": camp, "girone": gir}))
+            pr = pagina({"campionato": camp, "girone": gir})
         except Exception as e:
             print(f"  ! {camp}/{gir}: {e}"); continue
+        sq = squadre_props(pr)
+        GIORNATE[(camp, gir)] = [[m.get("number"), m.get("leg"), m.get("startDate"), m.get("endDate")] for m in pr.get("matchdays") or []]
+        migliore = (0, "")
         for gid, nomi in nostri.items():
             if not nomi:
                 continue
             ok = sum(1 for n in sq if abbina_nome(n, nomi))
+            migliore = max(migliore, (ok, gid))
             if ok >= max(4, 0.6 * len(nomi)):
                 voti.setdefault(gid, []).append((ok, camp, gir, nome, deleg))
+        print(f"    {camp}/{gir} {nome.strip()[:40]}: {len(sq)} squadre, giornate {len(GIORNATE[(camp, gir)])}, più simile {migliore[1]} ({migliore[0]})")
     cfg.setdefault("gironi", {})
+    scelti = {}
     for gid, vv in voti.items():
         vv.sort(reverse=True)
         if len(vv) > 1 and vv[0][0] == vv[1][0]:
             print(f"  {gid}: abbinamento ambiguo {vv[:2]}"); continue
-        ok, camp, gir, nome, deleg = vv[0]
-        cfg["gironi"][gid] = {"campionato": camp, "girone": gir, "nome": nome.strip(), "delegazione": deleg, "uguali": ok}
-        print(f"  {gid} = {nome.strip()} ({deleg}, campionato {camp}, girone {gir}, {ok} squadre uguali)")
+        scelti.setdefault(vv[0][1:3], []).append((gid, vv[0]))
+    eta = lambda t: (re.search(r"under[- ](\d+)", t, re.I) or [None, None])[1]
+    for (camp, gir), lista in scelti.items():
+        if len(lista) > 1:
+            # due gironi dell'app con le stesse squadre (es. U14 e U15 della stessa Delegazione): vale la categoria
+            giusti = [x for x in lista if eta(x[0]) and eta(x[0]) == eta(x[1][3])]
+            print(f"  {camp}/{gir} somiglia a {[x[0] for x in lista]}: " + (f"tenuto {giusti[0][0]}" if len(giusti) == 1 else "nessuno tenuto"))
+            lista = giusti if len(giusti) == 1 else []
+            for x in scelti[(camp, gir)]:
+                if x not in lista:
+                    cfg["gironi"].pop(x[0], None)
+        for gid, (ok, camp, gir, nome, deleg) in lista:
+            cfg["gironi"][gid] = {"campionato": camp, "girone": gir, "nome": nome.strip(), "delegazione": deleg, "uguali": ok,
+                                  "giornate": GIORNATE.get((camp, gir), [])}
+            print(f"  {gid} = {nome.strip()} ({deleg}, campionato {camp}, girone {gir}, {ok} squadre uguali)")
     cfg["scoperta"] = dt.date.today().isoformat()
     print(f"gironi abbinati {len(cfg['gironi'])}; senza abbinamento: {sorted(set(nostri) - set(cfg['gironi']))}")
 
@@ -130,18 +149,32 @@ def leggi(data, cfg, live, oggi):
         andata = n_sq - 1 if n_sq % 2 == 0 else n_sq
         attese = [x for x in g.get("partite") or [] if not x.get("risultato") and da <= (x.get("data") or "") <= oggi
                   and TR.finita(x.get("data"), x.get("ora") or "14:30", DURATA) and TR.chiave_partita(x) not in voci]
-        giornate = sorted({x.get("giornata") for x in attese if x.get("giornata")})
+        def pagina_di(x):
+            """(numero, leg) della giornata del Quadro gare: dalla data (giornate salvate alla scoperta), se no dal numero."""
+            d = x.get("data") or ""
+            for num, leg, a, b in p.get("giornate") or []:
+                if a and b and a <= d <= b:
+                    return num, leg
+            gio = x.get("giornata")
+            return (("first", gio) if gio <= andata else ("second", gio - andata))[::-1] if gio else None
+        pagine = {}
+        for x in attese:
+            pg = pagina_di(x)
+            if pg:
+                pagine.setdefault(pg, set()).add(x.get("giornata"))
         # girone senza calendario in app (nessuna partita futura nota): la giornata è quella dopo l'ultima giocata
         if not g.get("partite") or not any(not x.get("risultato") for x in g["partite"]):
             ultima = max([x.get("giornata") or 0 for x in g.get("partite") or []] + [0])
             if dt.date.fromisoformat(oggi).weekday() in (5, 6, 0):
-                giornate = sorted(set(giornate) | {ultima + 1})
+                for num, leg, a, b in p.get("giornate") or []:
+                    if a and b and a <= oggi and b >= da:
+                        pagine.setdefault((num, leg), set()).add(ultima + 1)
         nomi = [r["squadra"] for r in g.get("classifica") or []]
         ids = {r["squadra"]: r.get("id") for r in g.get("classifica") or []}
-        for gio in giornate:
+        for (n, leg), gg in sorted(pagine.items(), key=lambda z: (z[0][1] != "first", z[0][0])):
+            gio = max(gg)
             if LETTE[0] >= MAX_PAGINE:
                 print("  limite di pagine raggiunto"); return nuovi
-            leg, n = ("first", gio) if gio <= andata else ("second", gio - andata)
             try:
                 props = pagina({"campionato": p["campionato"], "girone": p["girone"], "giornata": n, "leg": leg})
             except Exception as e:
@@ -150,7 +183,7 @@ def leggi(data, cfg, live, oggi):
             if cm.get("number") != n or cm.get("leg") != leg:
                 print(f"  ! {gid}: il Quadro gare ha risposto con la giornata {cm.get('number')} {cm.get('leg')}, attesa {n} {leg}")
                 continue
-            per = {(TR.k(x["casa"]), TR.k(x["ospite"])): x for x in g["partite"] if x.get("giornata") == gio}
+            per = {(TR.k(x["casa"]), TR.k(x["ospite"])): x for x in g["partite"] if x.get("giornata") in gg}
             for m in props.get("matches") or []:
                 if m.get("isRest") or m.get("isLive") or not m.get("isPlayed"):
                     continue
