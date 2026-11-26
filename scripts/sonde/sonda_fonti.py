@@ -174,6 +174,13 @@ for x in [x[3:] for x in prove if x.startswith("da=")]:
         h = S.get(u, timeout=40).text; m = re.search(rx, h, re.I)
         print("NON trovato" if not m else h[m.start():m.start() + 5000])
     except Exception as e: print("ERRORE", e)
+# "agenda=<opzioni>": esegue scripts/agenda.py in prova (le opzioni separate da virgola, es. agenda=--debug,--solo,fisi)
+for x in [x[7:] for x in prove if x.startswith("agenda=")]:
+    import subprocess
+    titolo("AGENDA " + x)
+    ops = [o for o in x.split(",") if o] or ["--prova"]
+    if "--debug" not in ops and "--prova" not in ops: ops.append("--prova")
+    subprocess.run([sys.executable, "scripts/agenda.py", *ops])
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:
