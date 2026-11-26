@@ -221,6 +221,9 @@ def leggi(data, cfg, live, oggi, verifica=False):
             for m in props.get("matches") or []:
                 if m.get("isRest") or m.get("isLive") or not m.get("isPlayed"):
                     continue
+                # gare rinviate, sospese, non disputate o da ripetere: il Quadro gare le mostra con 0-0, non sono risultati
+                if re.search(r"rinviat|sospes|non disputat|da recuperare|da ripetere|annullat|impraticab", str(m.get("outcome") or "") + " " + str(m.get("resultState") or ""), re.I):
+                    continue
                 if m.get("homeGoals") is None or m.get("awayGoals") is None:
                     continue
                 casa, osp = abbina_nome(m.get("home"), nomi), abbina_nome(m.get("away"), nomi)
