@@ -77,6 +77,16 @@ for u in [x[6:] for x in prove if x.startswith("righe=")]:
         print("comitato:", com)
         for g in gare: print("   >", calcio.classifica_cat(g[0]), "| gir", g[1], g[2], g[3], "|", g[4], "|", g[5], "-", g[6], g[7], g[8])
     except Exception as e: print("ERRORE", e)
+# "tutte=<url PDF>[@@<regex>[@@<n>]]": righe come le legge scripts/calcio.py (colonne separate), tutte o <n> (predefinito
+# 400) a partire dalla prima riga che corrisponde alla regex (",," = "|"): per vedere il formato di un CU nuovo
+for x in [x[6:] for x in prove if x.startswith("tutte=")]:
+    u, rx, n = (x.split("@@") + ["", ""])[:3]; titolo("TUTTE " + u + " " + rx)
+    try:
+        sys.path.insert(0, "scripts"); import calcio
+        righe = calcio.pdf_righe(u); print("righe:", len(righe))
+        i0 = next((i for i, l in enumerate(righe) if re.search(rx.replace(",,", "|"), l, re.I)), 0) if rx else 0
+        for l in righe[i0:i0 + int(n or 400)]: print("   |", l)
+    except Exception as e: print("ERRORE", e)
 # "html=<url>|<regex>": i pezzi dell'HTML grezzo che corrispondono (es. i valori delle <option> di un filtro)
 for x in [x[5:] for x in prove if x.startswith("html=")]:
     u, rx = x.split("|", 1)
