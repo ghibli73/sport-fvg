@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:calcio-promozione-a-19424bda@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:CORVA 1-1 FIUMICELLO 2004 (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-gor-under-19-provinciali-a-909c0937@zuin-fvg
 DTSTAMP:20261119T000000Z
 DTSTART;VALUE=DATE:20261031
@@ -36,17 +47,6 @@ DESCRIPTION:Under 19 provinciali — girone A\n6ª giornata\nDati non uffic
  io-gor-under-19-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
  -a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-promozione-a-19424bda@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:CORVA 1-1 FIUMICELLO 2004 (Promozione — girone A)
-DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
- ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
- one-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-14-provinciali-e-bc8e3b9d@zuin-fvg
@@ -62,17 +62,6 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-14-provinciali
  -e
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-562684cb@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:FIUMICELLO 2004 3-1 SACILESE (Under 16 regionali — girone A)
-DESCRIPTION:Under 16 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-47114460@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -85,6 +74,17 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-562684cb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:FIUMICELLO 2004 3-1 SACILESE (Under 16 regionali — girone A)
+DESCRIPTION:Under 16 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-gor-under-19-provinciali-a-e402219f@zuin-fvg
 DTSTAMP:20261119T000000Z
 DTSTART;VALUE=DATE:20261107
@@ -95,6 +95,29 @@ DESCRIPTION:Under 19 provinciali — girone A\n7ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
  io-gor-under-19-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-9ee97c58@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:FIUMICELLO 2004 1-2 SANT ANDREA SAN VITO (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n10ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-d401f389@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:FIUMICELLO 2004 1-1 MUGGIA 1967 (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
@@ -111,17 +134,6 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
  -e
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-promozione-a-9ee97c58@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:FIUMICELLO 2004 1-2 SANT ANDREA SAN VITO (Promozione — girone A)
-DESCRIPTION:Promozione — girone A\n10ª giornata\nDati non ufficiali: fa 
- fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
- ione-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-d0312ccd@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;VALUE=DATE:20261108
@@ -132,18 +144,6 @@ DESCRIPTION:Under 16 regionali — girone A\n10ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-16-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-tri-under-15-provinciali-a-d401f389@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:FIUMICELLO 2004 1-1 MUGGIA 1967 (Under 15 provinciali — girone A)
-DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-tri-under-15-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
- -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-ea560de0@zuin-fvg
@@ -171,6 +171,17 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-promozione-a-992e27d7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:BUJESE CALCIO 3-2 FIUMICELLO 2004 (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n11ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-gor-under-14-provinciali-e-09c6ffec@zuin-fvg
 DTSTAMP:20261119T000000Z
 DTSTART;VALUE=DATE:20261115
@@ -184,15 +195,16 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-14-provinciali
  -e
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-promozione-a-992e27d7@zuin-fvg
-DTSTAMP:20261125T000000Z
+UID:calcio-tri-under-15-provinciali-a-89e4be77@zuin-fvg
+DTSTAMP:20261124T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-SUMMARY:BUJESE CALCIO 3-2 FIUMICELLO 2004 (Promozione — girone A)
-DESCRIPTION:Promozione — girone A\n11ª giornata\nDati non ufficiali: fa 
- fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
- ione-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+SUMMARY:DOMIO 0-17 FIUMICELLO 2004 (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-a7ec5ed1@zuin-fvg
@@ -205,18 +217,6 @@ DESCRIPTION:Under 16 regionali — girone A\n11ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-16-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-tri-under-15-provinciali-a-89e4be77@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:DOMIO 0-17 FIUMICELLO 2004 (Under 15 provinciali — girone A)
-DESCRIPTION:Under 15 provinciali — girone A\n9ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-tri-under-15-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
- -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-5bc2267a@zuin-fvg
@@ -333,18 +333,6 @@ DESCRIPTION:Promozione — girone A\n14ª giornata\nDati non ufficiali: fa
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-6826db39@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20261206T103000
-DTEND;TZID=Europe/Rome:20261206T123000
-SUMMARY:FIUMICELLO 2004 – CHIONS (Under 16 regionali — girone A)
-LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
-DESCRIPTION:Under 16 regionali — girone A\n15ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-2a16cbc7@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20261206T103000
@@ -357,6 +345,18 @@ DESCRIPTION:Under 15 provinciali — girone A\n13ª giornata\nDati non uffi
  cio-tri-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-6826db39@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261206T103000
+DTEND;TZID=Europe/Rome:20261206T123000
+SUMMARY:FIUMICELLO 2004 – CHIONS (Under 16 regionali — girone A)
+LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
+DESCRIPTION:Under 16 regionali — girone A\n15ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-db8dc039@zuin-fvg
@@ -410,19 +410,6 @@ DESCRIPTION:Promozione — girone A\n16ª giornata\nDati non ufficiali: fa
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-f2809097@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20261220T103000
-DTEND;TZID=Europe/Rome:20261220T123000
-SUMMARY:FIUMICELLO 2004 – ISONTINO CALCIO (Under 16 regionali — girone 
- A)
-LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
-DESCRIPTION:Under 16 regionali — girone A\n17ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-64383669@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20261220T103000
@@ -437,6 +424,19 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-f2809097@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261220T103000
+DTEND;TZID=Europe/Rome:20261220T123000
+SUMMARY:FIUMICELLO 2004 – ISONTINO CALCIO (Under 16 regionali — girone 
+ A)
+LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
+DESCRIPTION:Under 16 regionali — girone A\n17ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-promozione-a-614e4472@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261220T143000
@@ -447,18 +447,6 @@ DESCRIPTION:Promozione — girone A\n17ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
  ione-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-64c569c9@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20270110T103000
-DTEND;TZID=Europe/Rome:20270110T123000
-SUMMARY:FIUMICELLO 2004 – OPICINA (Under 16 regionali — girone A)
-LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
-DESCRIPTION:Under 16 regionali — girone A\n18ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-f1e1074e@zuin-fvg
@@ -473,6 +461,18 @@ DESCRIPTION:Under 15 provinciali — girone A\n16ª giornata\nDati non uffi
  cio-tri-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-64c569c9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20270110T103000
+DTEND;TZID=Europe/Rome:20270110T123000
+SUMMARY:FIUMICELLO 2004 – OPICINA (Under 16 regionali — girone A)
+LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
+DESCRIPTION:Under 16 regionali — girone A\n18ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-e3c9a0d9@zuin-fvg
@@ -501,18 +501,6 @@ DESCRIPTION:Promozione — girone A\n18ª giornata\nDati non ufficiali: fa
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-7f26a9d1@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20270117T103000
-DTEND;TZID=Europe/Rome:20270117T123000
-SUMMARY:MAGNANO IN RIVIERA – FIUMICELLO 2004 (Under 16 regionali — giro
- ne A)
-DESCRIPTION:Under 16 regionali — girone A\n19ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-df0aef32@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270117T103000
@@ -525,6 +513,18 @@ DESCRIPTION:Under 15 provinciali — girone A\n17ª giornata\nDati non uffi
  cio-tri-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-7f26a9d1@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20270117T103000
+DTEND;TZID=Europe/Rome:20270117T123000
+SUMMARY:MAGNANO IN RIVIERA – FIUMICELLO 2004 (Under 16 regionali — giro
+ ne A)
+DESCRIPTION:Under 16 regionali — girone A\n19ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-7a1ce66e@zuin-fvg
@@ -552,18 +552,6 @@ DESCRIPTION:Promozione — girone A\n19ª giornata\nDati non ufficiali: fa
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-bc46b47b@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20270124T103000
-DTEND;TZID=Europe/Rome:20270124T123000
-SUMMARY:FIUMICELLO 2004 – PRO FAGAGNA (Under 16 regionali — girone A)
-LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
-DESCRIPTION:Under 16 regionali — girone A\n20ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-36a8085d@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270124T103000
@@ -576,6 +564,18 @@ DESCRIPTION:Under 15 provinciali — girone A\n18ª giornata\nDati non uffi
  cio-tri-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-bc46b47b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20270124T103000
+DTEND;TZID=Europe/Rome:20270124T123000
+SUMMARY:FIUMICELLO 2004 – PRO FAGAGNA (Under 16 regionali — girone A)
+LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
+DESCRIPTION:Under 16 regionali — girone A\n20ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-3272fc57@zuin-fvg
@@ -656,18 +656,6 @@ DESCRIPTION:Promozione — girone A\n21ª giornata\nDati non ufficiali: fa
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-e9c9e564@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20270207T103000
-DTEND;TZID=Europe/Rome:20270207T123000
-SUMMARY:FIUMICELLO 2004 – RORAI PORCIA (Under 16 regionali — girone A)
-LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
-DESCRIPTION:Under 16 regionali — girone A\n22ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-18a6a418@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270207T103000
@@ -679,6 +667,18 @@ DESCRIPTION:Under 15 provinciali — girone A\n20ª giornata\nDati non uffi
  cio-tri-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-e9c9e564@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20270207T103000
+DTEND;TZID=Europe/Rome:20270207T123000
+SUMMARY:FIUMICELLO 2004 – RORAI PORCIA (Under 16 regionali — girone A)
+LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
+DESCRIPTION:Under 16 regionali — girone A\n22ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-05005260@zuin-fvg
@@ -760,18 +760,6 @@ DESCRIPTION:Promozione — girone A\n23ª giornata\nDati non ufficiali: fa
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-18a45a8a@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20270221T103000
-DTEND;TZID=Europe/Rome:20270221T123000
-SUMMARY:REANESE – FIUMICELLO 2004 (Under 16 regionali — girone A)
-LOCATION:Comunale A Reana Del Roiale\, Via Stadio 10
-DESCRIPTION:Under 16 regionali — girone A\n24ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-0ed2c665@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270221T103000
@@ -783,6 +771,18 @@ DESCRIPTION:Under 15 provinciali — girone A\n22ª giornata\nDati non uffi
  cio-tri-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-18a45a8a@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20270221T103000
+DTEND;TZID=Europe/Rome:20270221T123000
+SUMMARY:REANESE – FIUMICELLO 2004 (Under 16 regionali — girone A)
+LOCATION:Comunale A Reana Del Roiale\, Via Stadio 10
+DESCRIPTION:Under 16 regionali — girone A\n24ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-f99c023a@zuin-fvg
@@ -811,19 +811,6 @@ DESCRIPTION:Promozione — girone A\n24ª giornata\nDati non ufficiali: fa
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-2195f674@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20270228T103000
-DTEND;TZID=Europe/Rome:20270228T123000
-SUMMARY:FIUMICELLO 2004 – TRIESTE VICTORY ACADEMY (Under 16 regionali —
-  girone A)
-LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
-DESCRIPTION:Under 16 regionali — girone A\n25ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-33e8b892@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270228T103000
@@ -835,6 +822,19 @@ DESCRIPTION:Under 15 provinciali — girone A\n23ª giornata\nDati non uffi
  cio-tri-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-2195f674@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20270228T103000
+DTEND;TZID=Europe/Rome:20270228T123000
+SUMMARY:FIUMICELLO 2004 – TRIESTE VICTORY ACADEMY (Under 16 regionali —
+  girone A)
+LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
+DESCRIPTION:Under 16 regionali — girone A\n25ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-0fd39eae@zuin-fvg
@@ -939,19 +939,6 @@ DESCRIPTION:Promozione — girone A\n27ª giornata\nDati non ufficiali: fa
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-4565eab9@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20270321T103000
-DTEND;TZID=Europe/Rome:20270321T123000
-SUMMARY:UDINE UNITED RIZZI CORMOR – FIUMICELLO 2004 (Under 16 regionali 
- — girone A)
-LOCATION:Parrocchiale Dei Rizzi Udine\, Via Delle Scuole 15
-DESCRIPTION:Under 16 regionali — girone A\n28ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-316db12e@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270321T103000
@@ -964,6 +951,19 @@ DESCRIPTION:Under 15 provinciali — girone A\n26ª giornata\nDati non uffi
  cio-tri-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-4565eab9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20270321T103000
+DTEND;TZID=Europe/Rome:20270321T123000
+SUMMARY:UDINE UNITED RIZZI CORMOR – FIUMICELLO 2004 (Under 16 regionali 
+ — girone A)
+LOCATION:Parrocchiale Dei Rizzi Udine\, Via Delle Scuole 15
+DESCRIPTION:Under 16 regionali — girone A\n28ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-6cff2ead@zuin-fvg
@@ -1030,19 +1030,6 @@ DESCRIPTION:Promozione — girone A\n29ª giornata\nDati non ufficiali: fa
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-9e8626cb@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20270411T103000
-DTEND;TZID=Europe/Rome:20270411T123000
-SUMMARY:SAN LUIGI CALCIO – FIUMICELLO 2004 (Under 16 regionali — girone
-  A)
-LOCATION:Vesna Santa Croce Santa Croce\, Santa Croce 768
-DESCRIPTION:Under 16 regionali — girone A\n30ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-7528f6ff@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270411T103000
@@ -1057,6 +1044,19 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-9e8626cb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20270411T103000
+DTEND;TZID=Europe/Rome:20270411T123000
+SUMMARY:SAN LUIGI CALCIO – FIUMICELLO 2004 (Under 16 regionali — girone
+  A)
+LOCATION:Vesna Santa Croce Santa Croce\, Santa Croce 768
+DESCRIPTION:Under 16 regionali — girone A\n30ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-promozione-a-0a3ebaca@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20270411T160000
@@ -1067,18 +1067,6 @@ DESCRIPTION:Promozione — girone A\n30ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
  ione-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-de31a825@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20270418T103000
-DTEND;TZID=Europe/Rome:20270418T123000
-SUMMARY:FIUMICELLO 2004 – SANVITESE (Under 16 regionali — girone A)
-LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
-DESCRIPTION:Under 16 regionali — girone A\n31ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-679aa9ec@zuin-fvg
@@ -1095,6 +1083,18 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-de31a825@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20270418T103000
+DTEND;TZID=Europe/Rome:20270418T123000
+SUMMARY:FIUMICELLO 2004 – SANVITESE (Under 16 regionali — girone A)
+LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
+DESCRIPTION:Under 16 regionali — girone A\n31ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-promozione-a-4bf0cf58@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20270418T160000
@@ -1106,18 +1106,6 @@ DESCRIPTION:Promozione — girone A\n31ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
  ione-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-9cd20058@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20270425T103000
-DTEND;TZID=Europe/Rome:20270425T123000
-SUMMARY:CHIONS – FIUMICELLO 2004 (Under 16 regionali — girone A)
-LOCATION:Facca Azzano Decimo\, Via Dello Stadio
-DESCRIPTION:Under 16 regionali — girone A\n32ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-008a7a6a@zuin-fvg
@@ -1132,6 +1120,18 @@ DESCRIPTION:Under 15 provinciali — girone A\n30ª giornata\nDati non uffi
  cio-tri-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-9cd20058@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20270425T103000
+DTEND;TZID=Europe/Rome:20270425T123000
+SUMMARY:CHIONS – FIUMICELLO 2004 (Under 16 regionali — girone A)
+LOCATION:Facca Azzano Decimo\, Via Dello Stadio
+DESCRIPTION:Under 16 regionali — girone A\n32ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-768573b4@zuin-fvg
