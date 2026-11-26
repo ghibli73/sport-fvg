@@ -278,7 +278,7 @@ for x in [x[5:] for x in prove if x.startswith("giro=")]:
     sport = [s for s in x.split(",") if s] or ["pallavolo", "basket", "calcio"]
     t0 = time.time()
     for s, cmd in (("pallavolo", ["scripts/volley.py", "--rapido"]), ("basket", ["scripts/basket.py", "--rapido"]),
-                   ("calcio", ["scripts/calcio_live.py"] + (["--scopri"] if "scopri" in sport else []))):
+                   ("calcio", ["scripts/calcio_live.py"] + (["--scopri"] if "scopri" in sport else []) + (["--verifica"] if "verifica" in sport else []))):
         if s in sport:
             t = time.time(); titolo("giro: " + s)
             subprocess.run([sys.executable, *cmd]); print(f"durata {s}: {time.time() - t:.0f} s", flush=True)

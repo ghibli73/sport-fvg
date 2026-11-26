@@ -155,9 +155,13 @@ def scopri(data, cfg):
     print(f"gironi abbinati {len(cfg['gironi'])}; senza abbinamento: {sorted(set(nostri) - set(cfg['gironi']))}")
 
 
-def leggi(data, cfg, live, oggi):
-    """-> risultati nuovi. Solo i gironi con partite finite da poco e senza risultato ufficiale."""
-    da = (dt.date.fromisoformat(oggi) - dt.timedelta(days=3)).isoformat()
+VERIFICA = {"uguali": 0, "diversi": 0}
+
+
+def leggi(data, cfg, live, oggi, verifica=False):
+    """-> risultati nuovi. Solo i gironi con partite finite da poco e senza risultato ufficiale.
+    verifica=True: rilegge le partite degli ultimi 7 giorni GIÀ nel Comunicato e confronta i gol (non scrive nulla)."""
+    da = (dt.date.fromisoformat(oggi) - dt.timedelta(days=7 if verifica else 3)).isoformat()
     by = {g["gid"]: g for g in data}
     nuovi = 0
     for gid, p in sorted((cfg.get("gironi") or {}).items()):
@@ -167,7 +171,7 @@ def leggi(data, cfg, live, oggi):
         voci = live.setdefault("gironi", {}).setdefault(gid, {})
         n_sq = len(g.get("classifica") or [])
         andata = n_sq - 1 if n_sq % 2 == 0 else n_sq
-        attese = [x for x in g.get("partite") or [] if not x.get("risultato") and da <= (x.get("data") or "") <= oggi
+        attese = [x for x in g.get("partite") or [] if (verifica == bool(x.get("risultato")) and not x.get("provvisorio")) and da <= (x.get("data") or "") <= oggi
                   and TR.finita(x.get("data"), x.get("ora") or "14:30", DURATA) and TR.chiave_partita(x) not in voci]
         def pagina_di(x):
             """(numero, leg) della giornata del Quadro gare: dalla data (giornate salvate alla scoperta), se no dal numero."""
@@ -215,6 +219,13 @@ def leggi(data, cfg, live, oggi):
                 if not casa or not osp or casa == osp:
                     continue
                 x = per.get((TR.k(casa), TR.k(osp)))
+                if verifica:
+                    if x is not None and x.get("risultato"):
+                        r = f"{int(m['homeGoals'])}-{int(m['awayGoals'])}"
+                        VERIFICA["uguali" if r == x["risultato"] else "diversi"] += 1
+                        if r != x["risultato"]:
+                            print(f"  DIVERSO {gid} g{x.get('giornata')}: {casa} - {osp} Quadro gare {r}, Comunicato {x['risultato']}")
+                    continue
                 if x is not None and x.get("risultato"):
                     continue  # c'è già (ufficiale o provvisorio)
                 d = m.get("date") or (x or {}).get("data")
@@ -261,6 +272,9 @@ def main():
     live = TR.carica_live()
     conf, div = TR.pulisci(data, live, oggi)
     print(f"provvisori confermati dal Comunicato: {conf}, diversi: {div}")
+    if "--verifica" in sys.argv:
+        leggi(data, cfg, live, oggi, verifica=True)
+        print(f"verifica Quadro gare / Comunicati (ultimi 7 giorni): {VERIFICA}, pagine lette {LETTE[0]}"); return
     try:
         n = leggi(data, cfg, live, oggi)
     except Exception as e:
