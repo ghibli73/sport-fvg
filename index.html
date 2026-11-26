@@ -557,8 +557,10 @@ const spCol=k=>{const s=sportsList().find(x=>x.k===k);return s?s.col:'#33415c'};
 function tickerItems(){const d0=oggi(),t=new Date(d0+'T12:00:00');t.setDate(t.getDate()-3);const lim=t.toISOString().slice(0,10);const P=[];
 G.forEach(g=>g.partite.forEach(x=>{if(x.risultato&&x.data&&x.data<=d0&&(x.id_casa||x.id_ospite))P.push({g,x})}));
 const fav=o=>FAV.c.includes(o.x.id_casa)||FAV.c.includes(o.x.id_ospite)||FAV.g.includes(o.g.gid)?1:0;
+/* 1.13.1: le partite delle squadre FVG nei campionati nazionali (gironi "naz") subito dopo i preferiti */
+const naz=o=>/-naz-/.test(o.g.gid)?1:0;
 let R=P.filter(o=>o.x.data>=lim);if(!R.length)R=P;
-R.sort((a,b)=>fav(b)-fav(a)||(a.x.data<b.x.data?1:a.x.data>b.x.data?-1:0)||cidx(a.g.categoria)-cidx(b.g.categoria)||lidx(a.g.girone)-lidx(b.g.girone));return R.slice(0,24)}
+R.sort((a,b)=>fav(b)-fav(a)||naz(b)-naz(a)||(a.x.data<b.x.data?1:a.x.data>b.x.data?-1:0)||cidx(a.g.categoria)-cidx(b.g.categoria)||lidx(a.g.girone)-lidx(b.g.girone));return R.slice(0,24)}
 const PAUSA='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>',PLAY='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg>';
 function homeTicker(){const L=tickerItems();if(!L.length)return'';const it=L.map(({g,x})=>`<li><button class="tk" data-gg="${g.gid}" style="--c:${spCol(g.sport)}"><span class="tki" aria-hidden="true">${ico(g.sport)}</span><span class="tkt">${esc(x.casa)} <b>${esc(x.risultato)}</b> ${esc(x.ospite)}${provTag(x)}</span><span class="vh">, ${esc(NAMES[g.sport]||g.sport)}, ${esc(g.girone)}, ${esc(dt(x.data))}</span></button></li>`).join('');
 return `<section class="tkr" id="tkr" aria-labelledby="tkT"><div class="tkh"><h2 id="tkT" class="tkl">Risultati</h2>${AGGT?`<span class="tka" data-aggb title="${esc(aggTesto())}"><span class="vh">${esc(aggTesto())}</span><span aria-hidden="true">${esc(aggBreve())}</span></span>`:''}<button class="tkp" id="tkp" aria-pressed="false" aria-label="Ferma lo scorrimento dei risultati">${PAUSA}</button></div><div class="tkv" id="tkv"><div class="tkm" id="tkm"><ul class="tkg" aria-label="Ultime partite: usa le frecce per scorrere">${it}</ul><ul class="tkg" aria-hidden="true" inert>${it}</ul></div></div></section>`}
