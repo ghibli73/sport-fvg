@@ -411,16 +411,19 @@ def scopri_fip(specs, cfg):
             # gli altri gironi dello stesso campionato hanno quasi sempre codici vicini (DR1 Est 85168, Ovest 85169):
             # la pagina predefinita mostra solo il primo, quindi si provano i codici fino a 3 prima e dopo
             gia = {p.get("codice_girone") for p in cfg["gironi"].values()}
-            for _, gir in list(link):
-                for d in (-3, -2, -1, 1, 2, 3):
-                    c = str(int(gir) + d)
-                    if c not in gia and (fase0, c) not in link:
-                        link[(fase0, c)] = set()
+            vicini = set()
+            if set(specs) - set(cfg["gironi"]):
+                for _, gir in list(link):
+                    for d in (-3, -2, -1, 1, 2, 3):
+                        c = str(int(gir) + d)
+                        if c not in gia and (fase0, c) not in link:
+                            link[(fase0, c)] = set(); vicini.add(c)
             for (fase, gir), giornate in link.items():
                 p = {**base, "sesso": sesso, "codice_campionato": codice, "codice_fase": fase, "codice_girone": gir}
                 andata = max([g for ar, g in giornate if ar == 1] or [0])
                 gare = []
-                for ar, n in ((0, 1), (1, andata), (1, 1)):
+                prove = ((1, 1),) if gir in vicini else ((0, 1), (1, andata), (1, 1))  # codici vicini: una pagina sola
+                for ar, n in prove:
                     if not n:
                         continue
                     try:

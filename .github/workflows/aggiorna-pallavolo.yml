@@ -29,6 +29,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
+  PYTHONUNBUFFERED: "1"  # log in ordine e completi anche se il passo va in timeout
   # opzioni del lancio manuale (--prova: nessun file del repository viene modificato, nessun commit,
   # gli avvisi sono solo stampati; il risultato è in /tmp/risultati_prova.json)
   OPZIONI: ${{ github.event.inputs.opzioni }}

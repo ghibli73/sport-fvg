@@ -32,6 +32,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
+  PYTHONUNBUFFERED: "1"  # log in ordine e completi anche se il passo va in timeout
   OPZIONI: ${{ github.event.inputs.opzioni }}
 
 jobs:
