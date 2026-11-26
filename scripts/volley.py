@@ -256,7 +256,9 @@ def aggiorna(g, cfg, oggi, dump, completo=False):
     if cfg.get("pid"):
         for x in gare_comitato(cfg, oggi, dump, completo):
             # solo le gare della sezione di questo girone (le stesse squadre giocano anche in Coppa)
-            if x["cid"] != str(cfg["cid"]):
+            # sezioni senza link "classifica" (es. Under 12 Misto Udine): riconosciute dal titolo, campo "sezione" (regex)
+            sez = cfg.get("sezione")
+            if x["cid"] != str(cfg["cid"]) and not (sez and x["cid"] is None and re.search(sez, x.get("campionato") or "", re.I)):
                 continue
             if key(x["casa"]) in nomi and key(x["ospite"]) in nomi:
                 nuove.append(x)
