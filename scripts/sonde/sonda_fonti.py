@@ -1,6 +1,7 @@
 """Sonda: verifica da GitHub Actions quali fonti ufficiali sono leggibili senza AI e stampa un estratto nel log.
 Non modifica nessun dato."""
 import io, re, sys, json, time
+import html as html_mod
 import requests
 S = requests.Session(); S.headers["User-Agent"] = "SportFVG/1.0 (app non ufficiale; sonda fonti)"
 
@@ -187,6 +188,24 @@ if "agendajson" in prove:
     titolo("AGENDA JSON")
     subprocess.run([sys.executable, "scripts/agenda.py"])
     print("@@INIZIO_AGENDA@@"); print(open("data/agenda.json", encoding="utf-8").read()); print("@@FINE_AGENDA@@")
+# "date=<url>": testo della pagina attorno alle date (2026/2027 o mesi) e link a pagine evento; "~" per "&"
+MESI_RX = r"(\d{1,2}(?:\s*[-–]\s*\d{1,2})?\s+(?:gen|feb|mar|apr|mag|giu|lug|ago|set|ott|nov|dic)[a-z]*\.?\s+20(?:26|27)|\d{1,2}[./]\d{1,2}[./]20(?:26|27)|20(?:26|27)-\d\d-\d\d)"
+for u in [x[5:] for x in prove if x.startswith("date=")]:
+    u = u.replace("~", "&"); titolo("DATE " + u)
+    try:
+        h = S.get(u, timeout=40).text
+        t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", h, flags=re.S | re.I)
+        t = html_mod.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " | ", t)))
+        t = re.sub(r"(\s*\|\s*)+", " | ", t)
+        ms = list(re.finditer(MESI_RX, t, re.I))
+        print("date trovate:", len(ms))
+        last = -1
+        for m in ms[:40]:
+            if m.start() < last: continue
+            print("   >", t[max(0, m.start() - 220):m.end() + 260]); last = m.end() + 260
+        ev = sorted(set(re.findall(r'href="([^"]*/even[a-z]*/[^"#?]+)"', h)))
+        print("link evento:", len(ev)); print("\n".join("   " + l for l in ev[:80]))
+    except Exception as e: print("ERRORE", e)
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:
