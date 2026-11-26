@@ -19,6 +19,15 @@ App: artefatto slug `bcd5f4b7-0208-4f42-9b8a-48f566922058` (https://claude.ai/ar
 5. Pubblica solo risultati.json sull'artefatto (publish_files, modalità patch, base_version dall'ultima get_artifact). Non toccare index.html né data.json salvo correzioni d'abbinamento.
 6. Aggiorna nel progetto i manuali cambiati e il registro qui sotto (data, gironi aggiornati per sport, problemi).
 
+## Controllo serale: gironi nazionali "agente"
+I gironi nazionali automatici (`auto: "naz"`, Serie A e SuperLega) si aggiornano da soli con il workflow "Aggiorna nazionali".
+Nel controllo serale (domenica e lunedì sera, e dopo i turni infrasettimanali) aggiornare i gironi nazionali `auto: "agente"`
+secondo `pipeline/agenti/nazionali.md`: Serie D girone C (Sonda `testo2=Round@@...betexplorer.../results/` e `/fixtures/`, poi
+`scripts/nazionali_manuale.py serie_d_c ...`), e secondo `pipeline/agenti/sport-altri-nazionali.md` basket LBA/A2/A2 femminile,
+A1 femminile pallavolo, rugby, pallamano, hockey, bocce. Dopo ogni girone: `python scripts/risultati_tools.py check`, ics.py,
+widget_dati.py. Controllare che nessuna squadra compaia due volte nella stessa giornata e che nessuna partita futura abbia un risultato
+(`scripts/variazioni.py prima dopo --prova` stampa entrambi i controlli).
+
 ## Copertura attuale (24/11/2026)
 - Pallavolo: 4 gironi regionali (C e D M/F) + gironi CT Udine e altri territoriali in caricamento; obiettivo 63 gironi.
 - Basket: Serie C girone D; in corso DR1, DR2, DR3, C femminile, giovanili; B Interregionale dal CR Veneto.

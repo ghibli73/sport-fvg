@@ -75,6 +75,12 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
   - Cron inaffidabili (misurati ritardi di 4–6 ore il 25–26/11): pronto l'avvio esterno di `giro-rapido.yml` (workflow_dispatch) da cron-job.org con un token fine-grained "Actions: Read and write" solo su sport-fvg — istruzioni nel manuale, da attivare a cura dell'utente.
   - Prova da un branch: Sonda fonti `giro=pallavolo,basket,calcio[,scopri]` (il dispatch di un workflow nuovo funziona solo dopo l'unione su main). Nuove modalità della Sonda: `testa=`, `giri=`, `inertia=`, `html=...@@n`.
 
+- **Campionati nazionali** — dalla 1.13.1. Manuale: `pipeline/agenti/nazionali.md`.
+  - `scripts/nazionali.py [--prova] [--solo ...]`: Serie A (API pubblica api-sdp.legaseriea.it) e SuperLega (pagine legavolley.it) → gironi `calcio-naz-serie-a`, `pallavolo-naz-superlega` con `auto: "naz"`; config in `config/nazionali.json`.
+  - `scripts/nazionali_manuale.py`: gironi `auto: "agente"` da testo letto con la Sonda (Serie D girone C, fonte non ufficiale).
+  - Workflow `.github/workflows/aggiorna-nazionali.yml`: ogni 2 ore ven-lun, una volta mar-gio, gruppo `aggiorna-dati`, push con 4 tentativi; input `opzioni` (`--prova`) e `silenzioso`.
+  - Sonda fonti: modi `trova=`, `json=`, `nazionali=`. In app il nastro dei risultati mette le partite dei gironi `-naz-` dopo i preferiti (SHELL v20).
+
 ## Registro
 (una riga per intervento: data — cosa — esito)
 - 2026-11-25 — Repository ghibli73/sport-fvg creato dall'utente e caricato; volley.py validato sui portali reali: la pagina risultati è divisa in sezioni con link classifica.aspx?CId (le Coppe non hanno link) e ha la colonna "G" = giornata. Prima esecuzione: 60/60 gironi, partite 1184 → 1398, classifiche e partite coerenti in tutti i gironi. Restano 4 doppioni di giornata ereditati (U13 F UD gir. D, U12 F UD gir. C). Limiti del collegamento: niente API Pages/impostazioni Actions né download degli artifact (proxy); i log dei job si leggono con gh api .../actions/jobs/<id>/logs.
@@ -83,3 +89,4 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
 - 2026-11-26 — Agenda eventi (1.12.0 beta, branch funzioni/agenda): 78 eventi automatici (sci 70, atletica 5, judo 2, bocce 1); FCI, FIV e FISR senza gare future pubblicate; file manuale ancora vuoto.
 - 2026-11-26 — Agenda: 16 eventi manuali in config/agenda_manuale.json, finestra fino a fine maggio; data/agenda.json 94 eventi (sci 70, atletica 12, judo 4, scherma 2, ciclismo 2, vela 1, nuoto 1, bocce 1, altro 1).
 - 2026-11-26 — Tempo reale (1.13.1 beta, branch funzioni/tempo-reale): misure (cron in ritardo di 4–6 h, Pages 45 s, max-age 600, basket 4–5 giorni, calcio 3 giorni), giro rapido ogni 15 min, provvisori basket (fip.it) e calcio (Quadro gare LND), ricarica in app; prova giro: 90 s, 38 punteggi basket da omologare (40 gironi FIP su 49), calcio 30 gironi su 31 abbinati al Quadro gare LND e 47/47 gol uguali ai Comunicati, check OK.
+- 2026-11-26 — Campionati nazionali (1.13.1 beta, branch dati/nazionali): Serie A (Udinese) e SuperLega (Prata) automatiche dalle leghe; Serie D girone C (Triestina, Cjarlins Muzane, Brian Lignano, LME) manuale da betexplorer perché lnd.it vieta TDM e agenti AI; calcio a 5, volley B, pallanuoto ancora da caricare.
