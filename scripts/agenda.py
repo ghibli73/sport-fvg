@@ -148,7 +148,7 @@ def centro(cod):
 
 GENERICHE = set("""asd a s d ssd sd ad as srl arl r l dilettantistica dilettantistico dilettantistiche associazione ass ne
 sportiva sportivo societa soc unione gruppo g c onlus di del della dei e la il lo le aps ets coop cooperativa
-sezione sez""".split())
+sezione sez ss""".split())
 ESPANDI = {"us": "unione sportiva", "sc": "sci club", "gs": "gruppo sportivo", "sk": "sk", "vc": "velo club",
            "cv": "circolo velico", "yc": "yacht club", "pol": "polisportiva", "atl": "atletica"}
 
@@ -156,7 +156,7 @@ ESPANDI = {"us": "unione sportiva", "sc": "sci club", "gs": "gruppo sportivo", "
 def nucleo(nome):
     t = norm(nome)
     # sigle con i punti: "s.c." -> "s c" -> "sc"
-    t = re.sub(r"\b([a-z]) ([a-z])\b(?! [a-z]\b)", r"\1\2", t)
+    t = re.sub(r"\b(?:[a-z] )+[a-z]\b", lambda m: m.group(0).replace(" ", ""), t)
     out = []
     for w in t.split():
         w = ESPANDI.get(w, w)
@@ -173,6 +173,8 @@ def organizzatore(nome, sport=None):
     nome = pulisci(nome)
     if not nome or nome in ("-", "Da definire"):
         return None
+    if re.search(r"\s[-/]\s", nome):  # più organizzatori insieme: nessun abbinamento automatico
+        return nome
     if _NUC is None:
         _NUC = [(s, nucleo(s["nome"])) for s in SOC]
     n = nucleo(nome)
@@ -193,7 +195,7 @@ def organizzatore(nome, sport=None):
 
 def evento(**k):
     e = {x: v for x, v in k.items() if v not in (None, "", [])}
-    if e.get("comune") is None and e.get("luogo"):
+    if e.get("comune") is None and e.get("luogo") and not e["luogo"].startswith("Provincia di"):
         c = comune_da(e["luogo"])
         if c:
             e["comune"] = c
@@ -365,8 +367,12 @@ def mod_fisi():
                 loc = g("loc")
                 if not loc or norm(loc) in ("da definire", "-"):
                     loc = loc or ""
-                den, spec = g("den"), g("spec")
+                den = g("den")
+                spec = " / ".join(dict.fromkeys(x.strip() for x in re.split(r"\s+|/", g("spec")) if x.strip() and x.strip() != "-"))
                 tit = den if den and den not in ("-",) else ""
+                tit = re.split(r"\s+-\s+(?:gara\s+)?valid[ao]\b", tit, flags=re.I)[0].strip()
+                if re.match(r"(?i)(gara\s+)?valid[ao]\b", tit):
+                    tit = ""
                 cat_tit = re.sub(r"(?i)^calendario[- ]+(gare[- ]+)?sci[- ]+alpino[- ]+", "", chiave.replace("-", " "))
                 cat_tit = re.sub(r"\s*\d{4}\s*\d{4}.*$", "", cat_tit).strip()
                 base = f"Gara {disciplina.lower()}"
@@ -533,46 +539,72 @@ def mod_fijlkam():
     return out
 
 
+MESI_LUNGHI = {m: i + 1 for i, m in enumerate("gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre".split())}
+
+
 def mod_fib():
-    """FIB FVG (bocce): elenco gare del comitato (modulo POST: calendario, mese, specialità tutte)."""
+    """FIB FVG (bocce): elenco gare del comitato. Il calendario va da ottobre a settembre ("Calendario 2027" =
+    stagione 2026/27): si sceglie con il modulo (POST, il filtro resta nella sessione) e si scorrono le pagine
+    con ?start=100, 200... Ogni gara è un blocco: data, provincia, titolo (link), specialità, livello, società, categorie."""
     u = "https://www.federbocce.it/friuliveneziagiulia/gare.html"
-    out = []
-    for y, m in mesi():
-        h = get(u, "POST", data={"calendario": str(y)[2:], "mese": str(m), "anno": str(y), "provincie": "",
+    rx_data = re.compile(r"(\d{1,2})\s+(" + "|".join(MESI_LUNGHI) + r")\s+(\d{4})", re.I)
+    out, viste = [], set()
+    for cal in sorted({OGGI.year + (OGGI.month >= 10), FINE.year + (FINE.month >= 10)}):
+        h = get(u, "POST", data={"calendario": str(cal)[2:], "mese": "", "anno": "", "provincie": "",
                                  "specialita": "all", "tipo": "", "cerca-gare": "Cerca"}).text
-        i = h.find('id="component"')
-        corpo = h[i:] if i >= 0 else h
-        righe = re.findall(r"<tr[^>]*>(.*?)</tr>", corpo, re.S)
-        n0 = len(out)
-        for r in righe:
-            c = [pulisci(x) for x in re.findall(r"<td[^>]*>(.*?)</td>", r, re.S)]
-            if len(c) < 3:
-                continue
-            d = next((data_dmy(x, y) for x in c if re.search(r"\d{1,2}[/.-]\d{1,2}", x)), None)
-            if not d:
-                continue
-            link = re.search(r'href="([^"]+)"', r)
-            testo = [x for x in c if x and not re.search(r"^\d{1,2}[/.-]\d{1,2}", x)]
-            out.append({"_c": testo, "data": d, "link": link.group(1) if link else None, "fonte": u})
-        if len(out) == n0:
-            grezzo(f"fib {y}-{m}", corpo[corpo.find("</form>"):][:4000] if "</form>" in corpo else corpo[:4000])
+        for pag in range(0, 15):
+            if pag:
+                h = get(f"{u}?start={pag * 100}").text
+            i = h.find("</form>")
+            corpo = h[i:] if i >= 0 else h
+            corpo = corpo[:corpo.find('<footer')] if '<footer' in corpo else corpo
+            pos = [m for m in rx_data.finditer(re.sub(r"<[^>]+>", lambda t: " " * len(t.group(0)), corpo))]
+            if pag == 0 and DEBUG and pos:
+                print("   [debug fib blocco]", corpo[max(0, pos[0].start() - 300):pos[0].start() + 1500].replace("\n", " "))
+            nuove = 0
+            for k, m in enumerate(pos):
+                pezzo = corpo[m.start():pos[k + 1].start() if k + 1 < len(pos) else len(corpo)]
+                righe = [pulisci(x) for x in re.split(r"<[^>]+>", pezzo)]
+                righe = [x for x in righe if x]
+                link = re.search(r'href="([^"]+)"[^>]*>(.*?)</a>', pezzo, re.S)
+                d = dt.date(int(m.group(3)), MESI_LUNGHI[m.group(2).lower()], int(m.group(1))).isoformat()
+                chiave = (d, tuple(righe[:6]))
+                if chiave in viste:
+                    continue
+                viste.add(chiave)
+                nuove += 1
+                out.append({"data": d, "righe": righe[1:], "link": link.group(1) if link else None,
+                            "titolo": pulisci(link.group(2)) if link else None})
+            if not nuove:
+                if pag == 0:
+                    grezzo(f"fib calendario {cal}", corpo[:4000])
+                break
     res = []
     for x in out:
-        c = x["_c"]
-        # colonne attese: gara, società organizzatrice, località/specialità/categoria (stampate in --prova)
-        if DEBUG:
-            print("   fib riga:", x["data"], c)
-        tit = c[0] if c else "Gara di bocce"
-        soc = c[1] if len(c) > 1 else None
-        luogo = next((t for t in c[1:] if comune_da(t)), None)
+        r = x["righe"]
+        if DEBUG and len(res) < 5:
+            print("   fib righe:", x["data"], r[:8])
+        liv = next((t for t in r if re.fullmatch(r"(?i)(inter)?regionale|provinciale|nazionale|internazionale", t)), "")
+        spec = next((t for t in r if re.fullmatch(r"(?i)volo|raffa|petanque|boccia paralimpica", t)), "")
+        tit = x["titolo"] or (r[1] if len(r) > 1 else "Gara di bocce")
+        dopo = r[r.index(liv) + 1:] if liv in r else []
+        soc = dopo[0] if dopo else None
+        cat = dopo[1] if len(dopo) > 1 else None
+        prov = r[0] if r else ""
+        livello = {"internazionale": "internazionale", "nazionale": "nazionale", "provinciale": "provinciale"}.get(liv.lower(), "regionale")
         link = x["link"]
         if link and link.startswith("/"):
             link = "https://www.federbocce.it" + link
-        e = evento(data=x["data"], titolo=tit, sport="bocce", livello="regionale",
-                   luogo=luogo or (soc or ""), organizzatore=organizzatore(soc, "bocce") if soc else None,
-                   link=link or u, fonte=u, origine="fib")
-        if in_fvg(e):
-            res.append(e)
+        org = organizzatore(soc, "bocce") if soc else None
+        sig = {"udine": "UD", "pordenone": "PN", "gorizia": "GO", "trieste": "TS"}.get(norm(prov))
+        # la fonte indica solo la provincia: il comune non si deduce (l'impianto può non essere quello della società)
+        e = evento(data=x["data"], titolo=tit, sport="bocce", disciplina=spec.title() or None,
+                   livello="nazionale" if liv.lower() == "interregionale" else livello,
+                   luogo=f"Provincia di {prov.title()}" if sig else (prov.title() or "Friuli Venezia Giulia"),
+                   comune=None, prov=sig, organizzatore=org, categorie=cat, link=link or u, fonte=u, origine="fib")
+        e.pop("comune", None)
+        e.pop("pos", None)
+        res.append(e)
     return res
 
 
