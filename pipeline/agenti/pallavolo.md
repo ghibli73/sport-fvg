@@ -21,10 +21,10 @@ Prompt WebFetch efficace: "Riporta il titolo del girone e, per ogni squadra in c
 
 ### CId dei gironi 2026/27
 Regionale (CR FVG): Serie C F girone unico 92843; Serie C M girone unico 92844; Serie D F girone unico 92845; Serie D M girone unico 92846. (Nel filtro compaiono anche Coppa Regionale F/M e Supercoppa B2 FVG, senza classifica.)
-Udine: 1ª Div F 92400; 1ª Div M 92402; 2ª Div F gir. A 92405, gir. B 92406; U19 F 92410; U17 F gir. A 92414, B 92415, C 92416; U15 F gir. A 93676, B 93677, C 93678, D 93679; U14 F gir. A 92422, B 92423; U13 F gir. A 92432, B 92433, C 94276, D 94330; U12 F gir. A 94277, B 94278, C 94279; U12 Misto Udine: solo calendario (c=B386B3AEAABCAABCA2AEBA8CB6FEE3E1F1E4F6), nessuna classifica.
+Udine: 1ª Div F 92400; 1ª Div M 92402; 2ª Div F gir. A 92405, gir. B 92406; U19 F 92410; U17 F gir. A 92414, B 92415, C 92416; U15 F gir. A 93676, B 93677, C 93678, D 93679; U14 F gir. A 92422, B 92423; U13 F gir. A 92432, B 92433, C 94276, D 94330; U12 F gir. A 94277, B 94278, C 94279; U12 Misto Udine 94465 (dal 27/11/2026; nelle pagine risultati la sezione non ha link classifica: config "sezione" = titolo della tabella).
 Interterritoriali (stesse classifiche sui portali UD/PN/TS): U19 M PN-UD 94136; U17 M PN-UD 93940; U15 M PN-UD gir. A 93944, gir. B 93945; U14 M TSGO-UD-PN 93759.
 Pordenone: 1ª Div M 93936; 1ª Div F 93614; 2ª Div F 93615; U19 F 93710; U17 F gir. A 93617, B 93618; U15 F gir. A 93619, B 93620; U14 F gir. A 93621, B 93622; Coppa Autunno U13 F gir. A 94207, B 94208; Coppa Autunno U12 Misto gir. A 94211, B 94212. "Campionati Nazionali": nessun CId (solo calendario c=3B0E3B26223422342A2632043E766B6F796C72).
-Trieste-Gorizia: 1ª Div M 93458; 1ª Div F 93451; 2ª Div F gir. A 93456, gir. B 93457; U19 M 93582; U19 F gir. A 93459, B 93460; U17 M 93583; U17 F gir. A 93462, B 93463, C 93464; U15 M 93584; U15 F gir. A 93466, B 93467; U14 F gir. A 93468, B 93469.
+Trieste-Gorizia (nessun Under 12 al 27/11/2026; nuovi U13 F 6vs6 gir. A 94888, B 94889 non configurati): 1ª Div M 93458; 1ª Div F 93451; 2ª Div F gir. A 93456, gir. B 93457; U19 M 93582; U19 F gir. A 93459, B 93460; U17 M 93583; U17 F gir. A 93462, B 93463, C 93464; U15 M 93584; U15 F gir. A 93466, B 93467; U14 F gir. A 93468, B 93469.
 Nessuna Terza Divisione né Under 16/18 nei 4 comitati nel 2026/27 (al 24/11/2026). Udine e TS-GO non hanno sezione nazionali.
 
 ### ID società (logo) -> società (abbinamenti usati nella patch volley-squadre)

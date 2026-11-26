@@ -325,6 +325,43 @@ for x in [x[10:] for x in prove if x.startswith("nazionali=")]:
     if "--json" in x or True:
         G = [g for g in json.load(open("/tmp/risultati_prova.json")) if g.get("auto") == "naz"]
         print("@@INIZIO_NAZ@@"); print(json.dumps(G, ensure_ascii=False)); print("@@FINE_NAZ@@")
+# "fipscan=<campionato>,<sesso>,<da codice girone>,<a codice girone>[,<fasi separate da :>]": portale fip.it/risultati,
+# 1ª giornata di andata di ogni codice girone del FVG nell'intervallo; stampa le gare trovate (minibasket: ES, TFE, ...)
+for x in [x[8:] for x in prove if x.startswith("fipscan=")]:
+    sys.path.insert(0, "scripts")
+    import basket as BK
+    camp, sesso, da, a, *fasi = x.split(",")
+    fasi = (fasi[0].split(":") if fasi else ["1", "2"])
+    titolo(f"FIPSCAN {camp} {sesso} {da}-{a} fasi {fasi}")
+    base = {"group": "campionati-regionali", "regione_codice": "RFR", "comitato_codice": "RFR", "sesso": sesso, "codice_campionato": camp}
+    for gir in range(int(da), int(a) + 1):
+        for f in fasi:
+            try:
+                h = BK.fip_get({**base, "codice_fase": f, "codice_girone": str(gir), "codice_ar": 1, "giornata": 1})
+            except Exception as e:
+                print(gir, f, "ERRORE", e); continue
+            gare = BK.fip_gare(h); link = BK.fip_link(h)
+            if gare or link:
+                print(gir, "fase", f, "gare", len(gare), "giornate", sorted(link.get((f, str(gir)), set())), "|",
+                      "; ".join(f"{g[0]} {g[1]} - {g[2]} {g[3]} [{g[5]}]" for g in gare)[:900], flush=True)
+# "basketprova=<opzioni separate da virgola>": esegue scripts/basket.py --prova --mostra-minibasket con le opzioni
+# (es. basketprova=--scopri-minibasket,--completo) e i controlli; stampa i gironi minibasket tra @@MINI@@
+for x in [x[12:] for x in prove if x.startswith("basketprova=")]:
+    import subprocess, shutil
+    titolo("BASKET (prova) " + x)
+    shutil.copy("data/risultati.json", "/tmp/risultati_prima.json")
+    subprocess.run([sys.executable, "scripts/basket.py", "--prova", "--mostra-minibasket", *[o for o in x.split(",") if o]])
+    subprocess.run([sys.executable, "scripts/variazioni.py", "/tmp/risultati_prima.json", "/tmp/risultati_prova.json", "--prova"])
+    r = subprocess.run([sys.executable, "scripts/risultati_tools.py", "check", "/tmp/risultati_prima.json", "/tmp/risultati_prova.json"])
+    print("check:", "OK" if r.returncode == 0 else f"ERRORE {r.returncode}")
+# "volleyprova=<slug>[,--completo]": esegue scripts/volley.py --prova --solo <slug> e stampa il girone tra @@VOLLEY@@
+for x in [x[12:] for x in prove if x.startswith("volleyprova=")]:
+    import subprocess
+    slug, *ops = x.split(",")
+    titolo("PALLAVOLO (prova) " + x)
+    subprocess.run([sys.executable, "scripts/volley.py", "--prova", "--solo", slug, *ops])
+    G = [g for g in json.load(open("/tmp/risultati_prova.json")) if g.get("gid") == "pallavolo-" + slug]
+    print("@@VOLLEY@@" + json.dumps(G, ensure_ascii=False) + "@@VOLLEY@@")
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:

@@ -34,6 +34,9 @@ Tutto il sito friuliveneziagiulia.lnd.it va letto SOLO con WebFetch (curl -> 403
 - Classifiche ufficiali 2022/23: /wp-content/uploads/2023/06/all_tscu103_Classifiche-Ufficiali.pdf
 - Divisione Calcio a 5: classifiche serie nazionali della stagione in corso.
 
+## Esordienti e Pulcini (Under 12/Under 10)
+Attività di base LND/SGS: nei CU delle Delegazioni compaiono solo come gare "DISP." (disputate) senza punteggio né classifica; i calendari stanno solo negli allegati ZIP non leggibili. Non caricati (verifica del 27/11/2026).
+
 ## Non funzionano / non contengono quanto serve
 - Tuttocampo, FriuliGol, web.archive.org, tabelle classifica di Wikipedia.
 - Allegati ZIP (Calendari-AdB.zip, CU-xx-Allegati.zip, Allegati_tscuNN.zip, cu_N_allegati.zip): contengono i calendari di Seconda/Terza, femminile, Esordienti ma non sono leggibili.

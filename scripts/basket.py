@@ -18,7 +18,13 @@ Le omologazioni lette sono ricordate in config/basket_stato.json, così ogni ese
      FIP le pagine delle giornate con gare finite da poco e senza omologazione, prende i punteggi (referto elettronico)
      e li salva in config/live.json; in app compaiono con "non_omologato": true finché l'omologazione del Giudice non li
      conferma (se omologazione e portale non coincidono vale l'omologazione).
-Uso: python scripts/basket.py [--tutto] [--solo <slug>] [--prova] [--completo] [--scopri-fip] [--rapido]
+  7. minibasket Under 12 (Trofeo Esordienti, Esordienti Femminile): gironi con "minibasket": true e "portale" (parametri del
+     girone su fip.it/risultati). Il Comitato non pubblica i calendari in PDF e omologa queste gare a blocchi (a gennaio
+     nel 2025/26): calendario, date, ore, campi e punteggi si leggono dal portale FIP (le gare non ancora omologate restano
+     in "ris_portale" e in app hanno "non_omologato": true), le omologazioni "Esordienti" li confermano quando escono.
+     Nessuna classifica (minibasket: punteggio per periodi, 3 punti al periodo vinto, 2 al pareggiato, 1 al perso; il
+     Comitato non pubblica classifiche); i gironi nuovi si cercano sul portale una volta alla settimana (--scopri-minibasket).
+Uso: python scripts/basket.py [--tutto] [--solo <slug>] [--prova] [--completo] [--scopri-fip] [--rapido] [--scopri-minibasket]
      --tutto  rilegge tutte le omologazioni della stagione;  --prova  non scrive config né data/risultati.json
      (il risultato va in /tmp/risultati_prova.json);  --completo  legge sul portale FIP tutte le giornate future.
 """
@@ -213,28 +219,66 @@ def leggi_omologazione(url):
     """-> [(numero gara, testo squadre, punti A, punti B, data effettiva o None)].
     La riga sotto la gara può dire "giocata il 09/11/2026": è la data vera (anticipi, posticipi, inversioni di campo).
     Le righe "0 - 0" (es. sezione "RIPETIZIONE GARE ... Motivo della ripetizione") non sono un risultato: nel basket
-    non esiste il pareggio, quindi una riga con punteggi uguali viene ignorata."""
+    non esiste il pareggio, quindi una riga con punteggi uguali viene ignorata. Eccezione: nel minibasket (punteggio per
+    periodi, es. 8 - 8) il pareggio esiste, quindi le righe pari diverse da 0 - 0 sono restituite e scartate dopo per
+    i gironi che non sono minibasket."""
     ris, righe = [], pdf_righe(url)
     for i, l in enumerate(righe):
         m = RX_OMO.match(l)
         if not m:
             continue
         a, b = int(m.group(3)), int(m.group(4))
-        if a == b:
+        if a == b == 0:
             continue
         d = RX_GIOCATA.search(righe[i + 1]) if i + 1 < len(righe) else None
         ris.append((int(m.group(1)), m.group(2), a, b, f"{d.group(3)}-{d.group(2)}-{d.group(1)}" if d else None))
     return ris
 
 
-def pari(ris):
-    """True per un punteggio con i due numeri uguali (es. "0-0" di una gara da ripetere): non è un risultato."""
+def pari(ris, mini=False):
+    """True per un punteggio con i due numeri uguali (es. "0-0" di una gara da ripetere): non è un risultato.
+    Minibasket (mini=True): il pareggio per periodi (es. "8-8") è un risultato, solo "0-0" non lo è."""
     m = re.fullmatch(r"(\d+)-(\d+)", ris or "")
-    return bool(m) and m.group(1) == m.group(2)
+    return bool(m) and m.group(1) == m.group(2) and (not mini or m.group(1) == "0")
 
 
 # ---------------------------------------------------------------- girone
+NOTA_MINI = ("Minibasket Under 12: il punteggio non è la somma dei canestri ma dei periodi di gioco (3 punti a chi vince "
+             "il periodo, 2 a testa se è pari, 1 a chi lo perde: 12-4 = tutti e quattro i periodi vinti), quindi può "
+             "finire pari. Nessuna classifica: il Comitato FIP FVG non ne pubblica per il minibasket. Calendario e "
+             "punteggi dal portale fip.it/risultati; \"da omologare\" finché il Giudice Sportivo non pubblica "
+             "l'omologazione.")
+
+
+def costruisci_mini(spec, oggi):
+    """Girone minibasket: calendario e risultati, senza classifica (vedi NOTA_MINI)."""
+    ids, rp = spec.get("ids", {}), spec.get("ris_portale", {})
+    partite, per_g = [], {}
+    for num, gio, data, ora, casa, osp, campo, ris in spec["gare"]:
+        uff = "" if pari(ris, True) else (ris or "")
+        r = uff or rp.get(str(num), "")
+        p = {"giornata": gio, "gara": num}
+        if data: p["data"] = data
+        if ora: p["ora"] = ora
+        p.update(casa=casa, ospite=osp, id_casa=ids.get(casa), id_ospite=ids.get(osp), risultato=r)
+        if r and not uff:
+            p["non_omologato"] = True
+        if campo: p["campo"] = campo
+        partite.append(p)
+        per_g.setdefault(gio, [0, 0])[1] += 1
+        if r:
+            per_g[gio][0] += 1
+    partite.sort(key=lambda m: (m.get("data") or "9999", m.get("ora") or "", m["gara"]))
+    ultima = max([g for g, (gi, tot) in per_g.items() if gi * 2 >= tot] or [0])
+    return {"gid": "basket-" + spec["slug"], "sport": "basket", "girone": spec["girone"], "categoria": spec["categoria"],
+            "genere": spec["genere"], "stagione": "2026/27", "comitato": spec.get("comitato", "FIP CR Friuli Venezia Giulia"),
+            "fonte": spec["fonte"], "aggiornato": spec["aggiornato"], "giornata": ultima, "calcolata": False,
+            "minibasket": True, "nota": spec.get("nota") or NOTA_MINI, "classifica": [], "partite": partite}
+
+
 def costruisci(spec, oggi):
+    if spec.get("minibasket"):
+        return costruisci_mini(spec, oggi)
     ids = spec.get("ids", {})
     tab = {n: dict(squadra=n, g=0, v=0, p=0, f=0, s=0) for n in spec["squadre"]}
     giocate_per_g = {}
@@ -470,6 +514,159 @@ def fip_punteggi(html):
     return out
 
 
+# ---------------------------------------------------------------- minibasket Under 12 dal portale FIP
+FIP_BASE = {"group": "campionati-regionali", "regione_codice": "RFR", "comitato_codice": "RFR"}
+# (codice campionato sul portale, sesso, nome del campionato, prefisso degli slug, genere in app)
+CAMPI_MINI = [("ES", "M", "Trofeo Esordienti", "esordienti", "M"), ("TFE", "F", "Esordienti femminile", "esordienti-f", "F")]
+PROV_FVG = ("GO", "PN", "TS", "UD")
+MINI_GIORNI_SCOPERTA = 7
+
+
+def fip_gare_mini(html):
+    """Gare di una pagina giornata (minibasket) -> [dict(num, casa, osp, data, ora, campo, prov, ris, omologata)].
+    ris = "a-b" se la gara ha un punteggio (anche pari, ma non 0-0), altrimenti ""."""
+    t = fip_testo(html)
+    out = []
+    for m in RX_FIP.finditer(t):
+        d = f"{m.group(3)}-{MESI[m.group(2).lower()]:02d}-{int(m.group(1)):02d}"
+        casa, osp = m.group(6).strip(), m.group(7).strip()
+        prima = t[max(0, m.start() - 300):m.start()]
+        r = re.search(re.escape(casa) + r"\s+(\d{1,3})\s+" + re.escape(osp) + r"\s+(\d{1,3})\s*$", prima)
+        ris = ""
+        if r and (int(r.group(1)) or int(r.group(2))):
+            ris = f"{int(r.group(1))}-{int(r.group(2))}"
+        pv = re.search(r"\(\s*([A-Z]{2})\s*\)\s*$", m.group(8).strip())
+        out.append({"num": int(m.group(5)), "casa": casa, "osp": osp, "data": None if d[5:] == "06-30" else d,
+                    "ora": m.group(4).replace(".", ":").zfill(5), "campo": fip_campo(m.group(8)),
+                    "prov": pv.group(1) if pv else "", "ris": ris,
+                    "omologata": bool(re.search(r"omologat", m.group(0)[:200], re.I))})
+    return out
+
+
+def url_portale(p):
+    q = "&".join(f"{k}={v}" for k, v in p.items() if k not in ("andata", "ritorno"))
+    return f"{FIP_URL}?{q}"
+
+
+def aggiorna_minibasket(s, oggi, completo=False):
+    """Legge sul portale FIP le giornate del girone minibasket: tutte la prima volta e con --completo, altrimenti quelle
+    con gare senza omologazione fino a FIP_GIORNI giorni da oggi. Aggiunge le gare nuove, aggiorna data, ora e campo
+    delle gare non omologate e i punteggi (omologati sul portale -> risultato; gli altri -> "ris_portale").
+    -> (pagine lette, gare o punteggi cambiati)."""
+    p = s["portale"]
+    q = {k: v for k, v in p.items() if k not in ("andata", "ritorno")}
+    rp = s.setdefault("ris_portale", {})
+    pagine = cambiati = 0
+    if not p.get("andata") or not s["gare"]:
+        html = fip_get({**q, "codice_ar": 1, "giornata": 1}); pagine += 1
+        gg = fip_link(html).get((str(q["codice_fase"]), str(q["codice_girone"])), set())
+        p["andata"] = max([n for ar, n in gg if ar == 1] or [0])
+        p["ritorno"] = max([n for ar, n in gg if ar == 0] or [0])
+        completo = True
+    tutte = list(range(1, p["andata"] + p.get("ritorno", 0) + 1))
+    if completo:
+        giornate = tutte
+    else:
+        fino = (dt.date.fromisoformat(oggi) + dt.timedelta(days=FIP_GIORNI)).isoformat()
+        aperte = {g[1] for g in s["gare"] if (not g[7] or pari(g[7], True)) and (g[2] or "") <= fino}
+        giornate = sorted(aperte | (set(tutte) - {g[1] for g in s["gare"]}))  # e le giornate mai lette
+    per_num = {g[0]: g for g in s["gare"]}
+    for gio in giornate:
+        ar, n = (1, gio) if gio <= p["andata"] else (0, gio - p["andata"])
+        try:
+            html = fip_get({**q, "codice_ar": ar, "giornata": n}); pagine += 1
+        except Exception as e:
+            print(f"  ! FIP {s['slug']} giornata {gio}: {e}"); continue
+        for x in fip_gare_mini(html):
+            g = per_num.get(x["num"])
+            if g is None:
+                g = [x["num"], gio, x["data"], x["ora"], x["casa"], x["osp"], x["campo"], ""]
+                s["gare"].append(g); per_num[x["num"]] = g; cambiati += 1
+            elif not g[7] or pari(g[7], True):
+                nuovo = [gio, x["data"] or g[2], x["ora"] if x["data"] else g[3], x["casa"], x["osp"], x["campo"] or g[6]]
+                if g[1:7] != nuovo:
+                    if (g[2], g[3]) != tuple(nuovo[1:3]):
+                        print(f"  gara {g[0]} ({s['slug']}): {g[2]} {g[3]} -> {nuovo[1]} {nuovo[2]}")
+                    g[1:7] = nuovo; cambiati += 1
+            if not x["ris"] or (g[7] and not pari(g[7], True)):
+                continue  # nessun punteggio, oppure c'è già l'omologazione del Giudice
+            if x["omologata"]:
+                g[7] = x["ris"]; rp.pop(str(x["num"]), None); cambiati += 1
+            elif rp.get(str(x["num"])) != x["ris"]:
+                rp[str(x["num"])] = x["ris"]; cambiati += 1
+    s["squadre"] = sorted({g[4] for g in s["gare"]} | {g[5] for g in s["gare"]})
+    s["gare"].sort(key=lambda g: (g[1], g[0]))
+    if cambiati:
+        s["aggiornato"] = max(s.get("aggiornato", ""), oggi)
+    s["fonte"] = s["id_fonte"] = url_portale(q)
+    print(f"{s['slug']}: portale FIP, pagine {pagine}, gare {len(s['gare'])}, cambiamenti {cambiati}")
+    return pagine, cambiati
+
+
+def scopri_minibasket(specs, oggi):
+    """Cerca sul portale FIP i gironi Esordienti (maschile e femminile) del FVG non ancora in config/basket: il portale
+    mostra un girone solo per campionato, gli altri hanno codici vicini (es. 87019-87026), quindi si provano i codici
+    da 5 prima del più basso noto a 15 dopo il più alto. -> lista dei nuovi gironi (spec)."""
+    nuovi = []
+    nomi_ids = {}
+    for s in specs.values():
+        for nome, i in (s.get("ids") or {}).items():
+            if i: nomi_ids.setdefault(norm(nome), i)
+    for camp, sesso, nome_camp, pref, genere in CAMPI_MINI:
+        base = {**FIP_BASE, "sesso": sesso, "codice_campionato": camp}
+        try:
+            link = fip_link(fip_get(base))
+        except Exception as e:
+            print(f"minibasket {camp}: portale non letto ({e})"); continue
+        noti = {int(s["portale"]["codice_girone"]): str(s["portale"]["codice_fase"]) for s in specs.values()
+                if s.get("minibasket") and s["portale"].get("codice_campionato") == camp}
+        cod = set(noti) | {int(g) for _, g in link}
+        fasi = sorted(set(noti.values()) | {f for f, _ in link}) or ["1", "2"]
+        if not cod:
+            print(f"minibasket {camp}: nessun girone sul portale"); continue
+        trovati = []
+        for gir in range(min(cod) - 5, max(cod) + 16):
+            if gir in noti:
+                continue
+            for f in fasi:
+                p = {**base, "codice_fase": f, "codice_girone": str(gir)}
+                try:
+                    h = fip_get({**p, "codice_ar": 1, "giornata": 1})
+                except Exception as e:
+                    print(f"minibasket {camp} {gir}: {e}"); continue
+                gare = fip_gare_mini(h)
+                if gare and fip_link(h).get((f, str(gir))):
+                    pv = [x["prov"] for x in gare if x["prov"] in PROV_FVG]
+                    prov = max(set(pv), key=pv.count) if pv else "FVG"
+                    trovati.append((gir, p, prov))
+                    print(f"minibasket {camp}: nuovo girone {gir} (fase {f}, {prov}): "
+                          + "; ".join(f"{x['casa']} - {x['osp']}" for x in gare))
+                    break
+        def stessa(s, prov):
+            return s.get("minibasket") and s["portale"].get("codice_campionato") == camp and s.get("provincia") == prov
+        for gir, p, prov in trovati:
+            prima = sum(1 for s in specs.values() if stessa(s, prov))  # gironi della provincia già in config
+            tot = prima + sum(1 for t in trovati if t[2] == prov)
+            lettera = "" if tot == 1 else "ABCDEFGHIJKLMNOP"[prima + sum(1 for s in nuovi if stessa(s, prov))]
+            slug = f"{pref}-{prov.lower()}" + (f"-{lettera.lower()}" if lettera else "")
+            while slug in specs or any(n["slug"] == slug for n in nuovi):
+                slug += "-" + str(gir)
+            s = {"slug": slug, "girone": f"{nome_camp} Under 12 — girone {prov}" + (f" {lettera}" if lettera else ""),
+                 "categoria": "Under 12", "genere": genere, "minibasket": True, "provincia": prov,
+                 "fonte": url_portale(p), "id_fonte": url_portale(p), "aggiornato": oggi, "portale": p,
+                 "ids": {}, "ris_portale": {}, "gare": [], "squadre": [],
+                 "_file": os.path.join(CFG_DIR, slug + ".json"), "_nuovo": True}
+            try:
+                aggiorna_minibasket(s, oggi, completo=True)
+            except Exception as e:
+                print(f"minibasket {slug}: calendario non letto ({e})"); continue
+            s["ids"] = {n: nomi_ids[norm(n)] for n in s["squadre"] if norm(n) in nomi_ids}
+            s["note"] = (f"{nome_camp} (minibasket Under 12), portale fip.it/risultati campionato {camp} girone {gir}. "
+                         "Squadre da abbinare alle società in ids.")
+            nuovi.append(s)
+    return nuovi
+
+
 def risultati_fip(specs, cfg, live, oggi):
     """Giro rapido: punteggi delle gare finite (inizio + 105 minuti) negli ultimi 3 giorni e non ancora omologate.
     -> (pagine lette, risultati nuovi)."""
@@ -612,6 +809,8 @@ def main():
         u = x["source_url"]
         usato = False
         for s in specs.values():
+            if s.get("minibasket"):
+                continue  # calendario dal portale FIP
             try:
                 cal = leggi_calendario(u, s["gare"])
             except Exception as e:
@@ -633,8 +832,9 @@ def main():
     # 1c. portale risultati FIP: date, ore e campi aggiornati delle gare non giocate
     fip = json.load(open(FIP_CFG)) if os.path.exists(FIP_CFG) else {"gironi": {}}
     fip.setdefault("gironi", {})
+    non_mini = {k for k, s in specs.items() if not s.get("minibasket")}
     if "--scopri-fip" in sys.argv or not fip.get("scoperta") or \
-            (dt.date.fromisoformat(oggi) - dt.date.fromisoformat(fip["scoperta"])).days >= 7 and set(specs) - set(fip["gironi"]):
+            (dt.date.fromisoformat(oggi) - dt.date.fromisoformat(fip["scoperta"])).days >= 7 and non_mini - set(fip["gironi"]):
         try:
             scopri_fip(specs, fip)
         except Exception as e:
@@ -643,6 +843,23 @@ def main():
         variazioni_fip(specs, fip, oggi, completo)
     except Exception as e:
         print(f"FIP: lettura non riuscita ({e})")
+
+    # 1d. minibasket Under 12 (Esordienti): gironi nuovi (una volta alla settimana) e calendario/punteggi dal portale FIP
+    ultima = stato.get("minibasket_scoperta") or "2000-01-01"
+    if "--scopri-minibasket" in sys.argv or (not solo and (dt.date.fromisoformat(oggi) - dt.date.fromisoformat(ultima)).days
+                                             >= MINI_GIORNI_SCOPERTA):
+        try:
+            for s in scopri_minibasket(specs, oggi):
+                specs[s["slug"]] = s
+            stato["minibasket_scoperta"] = oggi
+        except Exception as e:
+            print(f"minibasket: ricerca dei gironi non riuscita ({e})")
+    for s in specs.values():
+        if s.get("minibasket") and not s.pop("_nuovo", False):  # i gironi appena trovati sono già stati letti
+            try:
+                aggiorna_minibasket(s, oggi, completo)
+            except Exception as e:
+                print(f"{s['slug']}: portale FIP non letto ({e})")
 
     # 2. omologazioni nuove
     per_num = {}
@@ -668,13 +885,16 @@ def main():
                 # i numeri gara si ripetono tra campionati e comitati: la gara va accettata solo se nella riga
                 # compaiono parole distintive di ENTRAMBE le squadre del calendario
                 t = set(toks(testo))
-                cand = [(s, g) for s, g in per_num.get(num, []) if t & (set(toks(g[4])) - VUOTE) and t & (set(toks(g[5])) - VUOTE)]
+                cand = [(s, g) for s, g in per_num.get(num, []) if t & (set(toks(g[4])) - VUOTE) and t & (set(toks(g[5])) - VUOTE)
+                        and (a != b or s.get("minibasket"))]  # pareggio solo nel minibasket
                 if len(cand) != 1:
                     CONTA["scartate"] += 1
                     continue
                 s, g = cand[0]
-                if pari(g[7]):
+                if pari(g[7], s.get("minibasket")):
                     g[7] = ""  # un vecchio "0-0" (gara da ripetere) non blocca il risultato vero
+                if s.get("minibasket"):
+                    s.get("ris_portale", {}).pop(str(num), None)  # il punteggio del portale ora è omologato
                 if giocata and g[2] != giocata:
                     print(f"  gara {num} ({s['slug']}): giocata il {giocata} (calendario {g[2]})")
                     g[2] = giocata
@@ -714,6 +934,9 @@ def main():
     print("provvisori (non omologati) applicati:", TR.applica(data, solo_sport={"basket"}))
     if prova:
         json.dump(data, open(PROVA, "w"), ensure_ascii=False, separators=(",", ":"))
+        mini = [s for s in specs.values() if s.get("minibasket")]
+        if mini and "--mostra-minibasket" in sys.argv:  # per copiare i gironi letti da GitHub Actions (Sonda fonti)
+            print("@@MINI@@" + json.dumps(mini, ensure_ascii=False) + "@@MINI@@")
         if "--scopri-fip" in sys.argv:
             print("@@FIP@@" + json.dumps(fip, ensure_ascii=False) + "@@FIP@@")
         print("prova: config e data/risultati.json non modificati, risultato in", PROVA); return

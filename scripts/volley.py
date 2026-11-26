@@ -118,7 +118,7 @@ def parse_gare(html):
     soup = BeautifulSoup(html, "html.parser")
     pos = lambda t: (t.sourceline or 0, t.sourcepos or 0)
     links = [(pos(a), RX_CID.search(a["href"]).group(1)) for a in soup.find_all("a", href=True) if RX_CID.search(a["href"])]
-    gare, cid, camp, ultima_gara = [], None, "", (0, 0)
+    gare, cid, camp, titolo, ultima_gara = [], None, "", "", (0, 0)
     for tr in soup.find_all("tr"):
         c = [x for x in cells(tr) if x != ""]
         if not c:
@@ -130,6 +130,8 @@ def parse_gare(html):
                 # l'ultima gara della sezione precedente e questa intestazione; nessun link = Coppa/altro
                 tra = [x for p, x in links if ultima_gara < p < pos(tr)]
                 cid = tra[-1] if tra else None
+                t = tr.find_parent("table")
+                titolo = norm(t.caption.get_text(" ")) if t is not None and t.caption else ""
             else:
                 camp = " ".join(c)[:120]
             continue
@@ -144,7 +146,7 @@ def parse_gare(html):
         y = d.group(3); y = ("20" + y) if len(y) == 2 else y
         g = {"num": pre[0] if pre else "", "giornata": int(pre[1]) if len(pre) > 1 else None, "cid": cid,
              "data": f"{y}-{d.group(2)}-{d.group(1)}", "ora": (d.group(4) or "").replace(".", ":"),
-             "casa": teams[0], "ospite": teams[1], "risultato": "", "parziali": "", "campo": "", "campionato": camp}
+             "casa": teams[0], "ospite": teams[1], "risultato": "", "parziali": "", "campo": "", "campionato": camp, "titolo": titolo}
         after = rest[ri + 1:] if ri is not None else rest[2:]
         if ri is not None:
             m = RX_RIS.match(rest[ri]); g["risultato"] = f"{m.group(1)}-{m.group(2)}"
@@ -256,7 +258,9 @@ def aggiorna(g, cfg, oggi, dump, completo=False):
     if cfg.get("pid"):
         for x in gare_comitato(cfg, oggi, dump, completo):
             # solo le gare della sezione di questo girone (le stesse squadre giocano anche in Coppa)
-            if x["cid"] != str(cfg["cid"]):
+            # sezioni senza link "classifica" (es. Under 12 Misto Udine): riconosciute dal titolo, campo "sezione" (regex)
+            sez = cfg.get("sezione")
+            if x["cid"] != str(cfg["cid"]) and not (sez and x["cid"] is None and re.search(sez, x.get("titolo") or "", re.I)):
                 continue
             if key(x["casa"]) in nomi and key(x["ospite"]) in nomi:
                 nuove.append(x)
