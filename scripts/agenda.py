@@ -40,7 +40,8 @@ GIORNI = 183
 PAUSA = 0.8
 UA = os.environ.get("SPORTFVG_UA", "SportFVG/1.0 (app non ufficiale di consultazione)")
 OGGI = dt.date.fromisoformat(os.environ["AGENDA_OGGI"]) if os.environ.get("AGENDA_OGGI") else dt.date.today()
-FINE = OGGI + dt.timedelta(days=GIORNI)
+_F = OGGI + dt.timedelta(days=GIORNI)
+FINE = dt.date(_F.year + (_F.month == 12), _F.month % 12 + 1, 1) - dt.timedelta(days=1)  # fino a fine mese
 DEBUG = "--debug" in sys.argv
 
 _S = None

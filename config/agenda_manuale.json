@@ -1,5 +1,192 @@
 {
-  "nota": "Eventi aggiunti a mano (fonti non automatizzabili). Stesso formato di data/agenda.json; 'id' facoltativo (lo calcola scripts/agenda.py), 'organizzatore' = id di data/data.json solo se certo. Ogni evento deve avere 'fonte' (URL letto) e 'link' (pagina ufficiale). Procedura mensile in pipeline/agenti/agenda.md.",
-  "aggiornato": "2026-11-25",
-  "eventi": []
+ "nota": "Eventi aggiunti a mano (fonti non automatizzabili). Stesso formato di data/agenda.json; 'id' facoltativo (lo calcola scripts/agenda.py), 'organizzatore' = id di data/data.json solo se certo. Ogni evento deve avere 'fonte' (URL letto) e 'link' (pagina ufficiale). Procedura mensile in pipeline/agenti/agenda.md.",
+ "aggiornato": "2026-11-26",
+ "eventi": [
+  {
+   "data": "2026-11-08",
+   "data_fine": "2026-11-28",
+   "titolo": "37° Campionato autunnale della laguna",
+   "sport": "vela",
+   "disciplina": "Regata",
+   "livello": "regionale",
+   "luogo": "Lignano Sabbiadoro",
+   "comune": "030049",
+   "link": "https://lignanosabbiadoro.it/it/eventi/campionato-autunnale-della-laguna/",
+   "fonte": "https://lignanosabbiadoro.it/eventi/"
+  },
+  {
+   "data": "2026-11-27",
+   "titolo": "60° Alpe Adria Weightlifting – Memorial Marcello Zoratti",
+   "sport": "altro",
+   "disciplina": "Pesistica",
+   "livello": "internazionale",
+   "luogo": "Lignano Sabbiadoro",
+   "comune": "030049",
+   "link": "https://lignanosabbiadoro.it/it/eventi/60-alpe-adria-weightlifting-memorial-marcello-zoratti/",
+   "fonte": "https://lignanosabbiadoro.it/eventi/"
+  },
+  {
+   "data": "2026-11-28",
+   "ora": "16:00",
+   "titolo": "14ª SLA 6x1 di Frisanco",
+   "sport": "atletica",
+   "disciplina": "Corsa in montagna (non FIDAL)",
+   "livello": "promozionale",
+   "luogo": "Frisanco",
+   "comune": "093024",
+   "link": "https://gotrail.run/it/evento/sla-6x1-di-frisanco",
+   "fonte": "https://www.turismofvg.it/eventi/manifestazioni-sportive"
+  },
+  {
+   "data": "2026-11-28",
+   "titolo": "39° Trofeo Velocità Soranzio – 27° Memorial Marini",
+   "sport": "nuoto",
+   "disciplina": "Nuoto in vasca",
+   "livello": "regionale",
+   "luogo": "Trieste",
+   "comune": "032006",
+   "link": "https://www.natatoria.com/",
+   "fonte": "https://www.natatoria.com/"
+  },
+  {
+   "data": "2026-12-08",
+   "titolo": "2ª prova di qualificazione GPG fioretto (interregionale)",
+   "sport": "scherma",
+   "disciplina": "Fioretto",
+   "livello": "regionale",
+   "luogo": "Udine",
+   "comune": "030129",
+   "categorie": "Gran Premio Giovanissimi (Under 14)",
+   "link": "https://friuliveneziagiulia.federscherma.it/wp-content/uploads/2026/11/8-26-2a-prova-Qualificazione-GPG-fioretto-interregionale-Udine-08.12.2026.pdf",
+   "fonte": "https://friuliveneziagiulia.federscherma.it/wp-json/wp/v2/media?per_page=30"
+  },
+  {
+   "data": "2026-12-12",
+   "data_fine": "2026-12-13",
+   "titolo": "2ª prova di qualificazione GPG spada (interregionale)",
+   "sport": "scherma",
+   "disciplina": "Spada",
+   "livello": "regionale",
+   "luogo": "Udine",
+   "comune": "030129",
+   "categorie": "Gran Premio Giovanissimi (Under 14)",
+   "link": "https://friuliveneziagiulia.federscherma.it/wp-content/uploads/2026/11/9-26-2a-prova-Qualificazione-GPG-spada-interregionale-Udine-12-13.12.2026.pdf",
+   "fonte": "https://friuliveneziagiulia.federscherma.it/wp-json/wp/v2/media?per_page=30"
+  },
+  {
+   "data": "2026-12-12",
+   "titolo": "Campionato Italiano Assoluto judo – A1",
+   "sport": "judo",
+   "disciplina": "Judo",
+   "livello": "nazionale",
+   "luogo": "Lignano Sabbiadoro",
+   "comune": "030049",
+   "categorie": "Assoluti",
+   "link": "https://www.fijlkam.it/fvg/judo/comunicati-e-circolari-judo/par-2026/1894-03-par-2026/file.html",
+   "fonte": "https://www.fijlkam.it/fvg/judo/comunicati-e-circolari-judo/par-2026/1894-03-par-2026/file.html"
+  },
+  {
+   "data": "2026-12-13",
+   "titolo": "Campionato Italiano Esordienti judo – A1",
+   "sport": "judo",
+   "disciplina": "Judo",
+   "livello": "nazionale",
+   "luogo": "Lignano Sabbiadoro",
+   "comune": "030049",
+   "categorie": "Esordienti",
+   "link": "https://www.fijlkam.it/fvg/judo/comunicati-e-circolari-judo/par-2026/1894-03-par-2026/file.html",
+   "fonte": "https://www.fijlkam.it/fvg/judo/comunicati-e-circolari-judo/par-2026/1894-03-par-2026/file.html"
+  },
+  {
+   "data": "2026-12-20",
+   "titolo": "Marcia di Babbo Natale",
+   "sport": "atletica",
+   "disciplina": "Corsa su strada (non FIDAL)",
+   "livello": "promozionale",
+   "luogo": "Spilimbergo",
+   "comune": "093044",
+   "link": "https://gotrail.run/it/evento/marcia-di-babbo-natale-spilimbergo",
+   "fonte": "https://gotrail.run/it/evento/marcia-di-babbo-natale-spilimbergo"
+  },
+  {
+   "data": "2027-01-09",
+   "data_fine": "2027-01-10",
+   "titolo": "S1 Trail – La Corsa della Bora",
+   "sport": "atletica",
+   "disciplina": "Trail (non FIDAL)",
+   "livello": "promozionale",
+   "luogo": "Sistiana",
+   "comune": "032001",
+   "categorie": "4, 14,5, 23, 36, 55, 61 e 116 km",
+   "link": "https://gotrail.run/it/evento/s1-trail-la-corsa-della-bora",
+   "fonte": "https://www.finishers.com/it/d/europa/italia/friuli-venezia-giulia"
+  },
+  {
+   "data": "2027-01-24",
+   "titolo": "Lanaro Granfondo",
+   "sport": "atletica",
+   "disciplina": "Trail (non FIDAL)",
+   "livello": "promozionale",
+   "luogo": "Sgonico",
+   "comune": "032005",
+   "link": "https://gotrail.run/it/evento/lanaro-granfondo",
+   "fonte": "https://gotrail.run/it/evento/lanaro-granfondo"
+  },
+  {
+   "data": "2027-02-07",
+   "titolo": "Alpe Adria Winter Trail",
+   "sport": "atletica",
+   "disciplina": "Trail (non FIDAL)",
+   "livello": "promozionale",
+   "luogo": "Malga Saisera (Valbruna)",
+   "comune": "030054",
+   "categorie": "8, 10, 18 e 25 km",
+   "link": "https://www.finishers.com/it/evento/alpe-adria-winter-trail",
+   "fonte": "https://www.finishers.com/it/d/europa/italia/friuli-venezia-giulia"
+  },
+  {
+   "data": "2027-02-28",
+   "titolo": "Eurotrail Segui l'Orso",
+   "sport": "atletica",
+   "disciplina": "Trail (non FIDAL)",
+   "livello": "promozionale",
+   "luogo": "San Pietro al Natisone",
+   "comune": "030103",
+   "link": "https://gotrail.run/it/evento/eurotrail-segui-lorso",
+   "fonte": "https://gotrail.run/it/evento/eurotrail-segui-lorso"
+  },
+  {
+   "data": "2027-04-11",
+   "titolo": "Maunìk Trail",
+   "sport": "atletica",
+   "disciplina": "Trail (non FIDAL)",
+   "livello": "promozionale",
+   "luogo": "Faedis",
+   "comune": "030036",
+   "link": "https://gotrail.run/it/evento/maunik-trail",
+   "fonte": "https://gotrail.run/it/evento/maunik-trail"
+  },
+  {
+   "data": "2027-05-08",
+   "titolo": "Giro d'Italia 2027 – Grande Partenza e 1ª tappa",
+   "sport": "ciclismo",
+   "disciplina": "Strada",
+   "livello": "internazionale",
+   "luogo": "Trieste",
+   "comune": "032006",
+   "link": "https://www.ilnordest.it/storie-di-sport/giro-italia-2027-nordest-protagonista-tappe-veneto-friuli-venezia-giulia-percorso-anticipazioni-hg5j0ncr",
+   "fonte": "https://www.ilnordest.it/storie-di-sport/giro-italia-2027-nordest-protagonista-tappe-veneto-friuli-venezia-giulia-percorso-anticipazioni-hg5j0ncr"
+  },
+  {
+   "data": "2027-05-29",
+   "titolo": "Giro d'Italia 2027 – tappa Pordenone–Zoncolan",
+   "sport": "ciclismo",
+   "disciplina": "Strada",
+   "livello": "internazionale",
+   "luogo": "Pordenone",
+   "comune": "093033",
+   "link": "https://www.ilnordest.it/storie-di-sport/giro-italia-2027-nordest-protagonista-tappe-veneto-friuli-venezia-giulia-percorso-anticipazioni-hg5j0ncr",
+   "fonte": "https://www.ilnordest.it/storie-di-sport/giro-italia-2027-nordest-protagonista-tappe-veneto-friuli-venezia-giulia-percorso-anticipazioni-hg5j0ncr"
+  }
+ ]
 }
