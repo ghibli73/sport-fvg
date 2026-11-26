@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-30c3f1c2@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:COLLOREDO DI MONTE ALBANO 0-0 ARTENIESE (Seconda Categoria — giro
@@ -38,7 +38,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-c-a1f523db@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:PALMARKET PAGNACCO 8-0 ARTENIESE (Under 14 provinciali — girone C
@@ -51,7 +51,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-867ed486@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:ARTENIESE 6-0 SERENISSIMA PRADAMANO (Under 19 provinciali — giron
@@ -64,7 +64,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-949510e7@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:ARTENIESE 3-0 COSEANO (Seconda Categoria — girone B)
@@ -75,7 +75,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-5957670e@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:VALNATISONE CALCIO 2-3 ARTENIESE (Under 19 provinciali — girone A
@@ -88,7 +88,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-c-b82762d8@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:UNION MARTIGNACCO 7-1 ARTENIESE (Under 14 provinciali — girone C)
@@ -100,7 +100,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-dc4c8b19@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:ARTENIESE 1-1 RAGOGNA (Under 19 provinciali — girone A)
@@ -112,7 +112,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-9166a64c@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:CAPORIACCO 3-4 ARTENIESE (Seconda Categoria — girone B)
@@ -123,7 +123,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-c-b1b0ef22@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:ARTENIESE 0-6 TOLMEZZO CARNIA (Under 14 provinciali — girone C)
@@ -132,5 +132,53 @@ DESCRIPTION:Under 14 provinciali — girone C\n9ª giornata\nDati non uffic
  io-udi-under-14-provinciali-c
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
  -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-19-provinciali-a-74cf78ef@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:UDINE UNITED RIZZI CORMOR 3-1 ARTENIESE (Under 19 provinciali — g
+ irone A)
+DESCRIPTION:Under 19 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-b-89505ef4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:ARTENIESE 2-1 CHIAVRIS (Seconda Categoria — girone B)
+DESCRIPTION:Seconda Categoria — girone B\n9ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-66f7a6f3@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:OSOPPO RUSH SOCCER 2-1 ARTENIESE (Under 14 provinciali — girone C
+ )
+DESCRIPTION:Under 14 provinciali — girone C\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-b-1522dd21@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261128T150000
+DTEND;TZID=Europe/Rome:20261128T170000
+SUMMARY:MAGNANO IN RIVIERA – ARTENIESE (Seconda Categoria — girone B)
+DESCRIPTION:Seconda Categoria — girone B\n10ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
 END:VEVENT
 END:VCALENDAR

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-gor-terza-categoria-d-79c83253@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:MLADOST A.S.D. 3-1 CAMPANELLE (Terza Categoria — girone D)
@@ -37,7 +37,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-034b1194@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:CAMPANELLE sq.B 2-4 UNIONE FRIULI ISONTINA (Under 17 provinciali 
@@ -50,7 +50,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-81aa74b8@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:CORMONESE 1-1 CAMPANELLE (Seconda Categoria — girone D)
@@ -61,7 +61,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-f79bd11c@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:CAMPANELLE 2-2 U.FINCANTIERI MONFALCONE (Under 14 provinciali — g
@@ -74,7 +74,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-300aa8ab@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:MUGGIA 1967 4-0 CAMPANELLE (Under 15 provinciali — girone A)
@@ -86,7 +86,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-10a74829@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:SANT ANDREA SAN VITO 11-1 CAMPANELLE (Under 17 provinciali — giro
@@ -98,19 +98,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-tri-seconda-categoria-d-0a97ce7f@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:CAMPANELLE 1-5 I.S.M. GRADISCA (Seconda Categoria — girone D)
-DESCRIPTION:Seconda Categoria — girone D\n7ª giornata\nDati non ufficial
- i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
- tri-seconda-categoria-d
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-gor-terza-categoria-d-0494b2e4@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:CAMPANELLE 2-1 DOMIO (Terza Categoria — girone D)
@@ -120,8 +109,19 @@ DESCRIPTION:Terza Categoria — girone D\n7ª giornata\nDati non ufficiali:
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-tri-seconda-categoria-d-0a97ce7f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CAMPANELLE 1-5 I.S.M. GRADISCA (Seconda Categoria — girone D)
+DESCRIPTION:Seconda Categoria — girone D\n7ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ tri-seconda-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-6aeef8af@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:SAN GIOVANNI A.S.D. 1-3 CAMPANELLE (Under 14 provinciali — girone
@@ -134,7 +134,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-a54490d7@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:CAMPANELLE 4-2 DOMIO (Under 15 provinciali — girone A)
@@ -146,7 +146,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-a1fa4c07@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:CAMPANELLE 12-5 CAMPANELLE sq.B (Under 17 provinciali — girone A)
@@ -158,7 +158,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-9ac57eca@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:CAMPANELLE sq.B 2-4 STUDENTI (Under 17 provinciali — girone A)
@@ -169,19 +169,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-tri-seconda-categoria-d-db4e3774@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:TURRIACO 1922 0-1 CAMPANELLE (Seconda Categoria — girone D)
-DESCRIPTION:Seconda Categoria — girone D\n8ª giornata\nDati non ufficial
- i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
- tri-seconda-categoria-d
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-gor-terza-categoria-d-e9630ff7@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:ARIS SAN POLO CALCIO 2-0 CAMPANELLE (Terza Categoria — girone D)
@@ -191,8 +180,19 @@ DESCRIPTION:Terza Categoria — girone D\n8ª giornata\nDati non ufficiali:
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-tri-seconda-categoria-d-db4e3774@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:TURRIACO 1922 0-1 CAMPANELLE (Seconda Categoria — girone D)
+DESCRIPTION:Seconda Categoria — girone D\n8ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ tri-seconda-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-4325f82a@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:CAMPANELLE 3-0 MUGGIA 1967 (Under 14 provinciali — girone A)
@@ -204,7 +204,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-8b4fc611@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:SAN GIOVANNI A.S.D. 4-3 CAMPANELLE (Under 17 provinciali — girone
@@ -216,8 +216,43 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-32b2dde4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:CAMPANELLE 2-3 CALCIO PIERIS 1925 (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-seconda-categoria-d-15e002e4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:CAMPANELLE 1-2 STUDENTI (Seconda Categoria — girone D)
+DESCRIPTION:Seconda Categoria — girone D\n9ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ tri-seconda-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-14-provinciali-a-6e18ff82@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:TRIESTE VICTORY ACADEMY 11-0 CAMPANELLE (Under 14 provinciali — g
+ irone A)
+DESCRIPTION:Under 14 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-14-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-acc60cae@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:CAMPANELLE 2-0 JUVENTINA S.ANDREA (Under 15 provinciali — girone 
@@ -229,8 +264,34 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-97e6099e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:CAMPANELLE 8-0 AUDAX SANROCCHESE (Under 17 provinciali — girone A
+ )
+DESCRIPTION:Under 17 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-4f6cdb98@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:FIUMICELLO 2004 12-0 CAMPANELLE sq.B (Under 17 provinciali — giro
+ ne A)
+DESCRIPTION:Under 17 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-2556be69@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261129T103000
 DTEND;TZID=Europe/Rome:20261129T123000
 SUMMARY:CAMPANELLE – ZARJA A.S.D. (Under 14 provinciali — girone A)
@@ -243,7 +304,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-ddc32c8b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261129T103000
 DTEND;TZID=Europe/Rome:20261129T123000
 SUMMARY:FIUMICELLO 2004 – CAMPANELLE (Under 15 provinciali — girone A)
@@ -256,7 +317,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-9db8bd51@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261129T103000
 DTEND;TZID=Europe/Rome:20261129T123000
 SUMMARY:TORRE – CAMPANELLE (Under 17 provinciali — girone A)
@@ -269,7 +330,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-e44a7a8d@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261129T143000
 DTEND;TZID=Europe/Rome:20261129T163000
 SUMMARY:MOSSA – CAMPANELLE (Seconda Categoria — girone D)
@@ -280,8 +341,21 @@ DESCRIPTION:Seconda Categoria — girone D\n10ª giornata\nDati non ufficia
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-tri-under-14-provinciali-a-6b90d6c0@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261204T173000
+DTEND;TZID=Europe/Rome:20261204T193000
+SUMMARY:OPICINA – CAMPANELLE (Under 14 provinciali — girone A)
+LOCATION:Nereo Rocco Opicina\, Via Degli Alpini 128/1
+DESCRIPTION:Under 14 provinciali — girone A\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-14-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-4324f2e2@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261206T090000
 DTEND;TZID=Europe/Rome:20261206T110000
 SUMMARY:CAMPANELLE – U.FINCANTIERI MONFALCONE (Under 15 provinciali — g
@@ -294,21 +368,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-tri-under-14-provinciali-a-6b90d6c0@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;TZID=Europe/Rome:20261206T093000
-DTEND;TZID=Europe/Rome:20261206T113000
-SUMMARY:OPICINA – CAMPANELLE (Under 14 provinciali — girone A)
-LOCATION:Nereo Rocco Opicina\, Via Degli Alpini 128/1
-DESCRIPTION:Under 14 provinciali — girone A\n10ª giornata\nDati non uffi
- ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
- cio-tri-under-14-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
- -a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-efa83425@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261206T143000
 DTEND;TZID=Europe/Rome:20261206T163000
 SUMMARY:TORRE – CAMPANELLE (Seconda Categoria — girone D)
@@ -320,7 +381,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-f7e9ec23@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261213T103000
 DTEND;TZID=Europe/Rome:20261213T123000
 SUMMARY:CAMPANELLE – SAN LUIGI CALCIO (Under 14 provinciali — girone A)
@@ -333,7 +394,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-d79ea8f9@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261213T103000
 DTEND;TZID=Europe/Rome:20261213T123000
 SUMMARY:I.S.M. GRADISCA – CAMPANELLE (Under 15 provinciali — girone A)
@@ -346,7 +407,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-5fca91bf@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261213T143000
 DTEND;TZID=Europe/Rome:20261213T163000
 SUMMARY:CAMPANELLE – PRO-SECCO PRIMORJE (Seconda Categoria — girone D)
@@ -358,7 +419,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-a88caa22@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261220T090000
 DTEND;TZID=Europe/Rome:20261220T110000
 SUMMARY:SANT ANDREA SAN VITO – CAMPANELLE (Under 14 provinciali — giron
@@ -372,7 +433,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-2d9bac34@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261220T090000
 DTEND;TZID=Europe/Rome:20261220T110000
 SUMMARY:CAMPANELLE – SAN GIOVANNI A.S.D. (Under 15 provinciali — girone
@@ -386,7 +447,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-41609e8c@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261220T143000
 DTEND;TZID=Europe/Rome:20261220T163000
 SUMMARY:COSTALUNGA – CAMPANELLE (Seconda Categoria — girone D)
@@ -398,7 +459,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-e7f19020@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270110T090000
 DTEND;TZID=Europe/Rome:20270110T110000
 SUMMARY:CAMPANELLE – ISONTINO CALCIO (Under 15 provinciali — girone A)
@@ -411,7 +472,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-33f56aba@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270110T110000
 DTEND;TZID=Europe/Rome:20270110T130000
 SUMMARY:CAMPANELLE – STUDENTI (Under 17 provinciali — girone A)
@@ -424,7 +485,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-1b978707@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270117T103000
 DTEND;TZID=Europe/Rome:20270117T123000
 SUMMARY:ZARJA A.S.D. – CAMPANELLE (Under 15 provinciali — girone A)
@@ -437,7 +498,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-7a1ce66e@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270117T103000
 DTEND;TZID=Europe/Rome:20270117T123000
 SUMMARY:FIUMICELLO 2004 – CAMPANELLE (Under 17 provinciali — girone A)
@@ -450,7 +511,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-f972b67f@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270124T090000
 DTEND;TZID=Europe/Rome:20270124T110000
 SUMMARY:CAMPANELLE – S.GIUSTO FOOTBALL ACADEMY (Under 15 provinciali — 
@@ -463,22 +524,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-tri-under-17-provinciali-a-b6e799ed@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;TZID=Europe/Rome:20270124T110000
-DTEND;TZID=Europe/Rome:20270124T130000
-SUMMARY:CAMPANELLE – AUDAX SANROCCHESE (Under 17 provinciali — girone A
- )
-LOCATION:Campanelle Trieste\, Via Campanelle 300
-DESCRIPTION:Under 17 provinciali — girone A\n14ª giornata\nDati non uffi
- ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
- cio-tri-under-17-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
- -a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-a0a180e6@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270131T103000
 DTEND;TZID=Europe/Rome:20270131T123000
 SUMMARY:CAMPANELLE – ISONTINO CALCIO (Under 14 provinciali — girone A)
@@ -491,7 +538,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-02762d7f@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270131T103000
 DTEND;TZID=Europe/Rome:20270131T123000
 SUMMARY:ISONTINO CALCIO – CAMPANELLE (Under 17 provinciali — girone A)
@@ -504,7 +551,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-e1c8cd5b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270131T121500
 DTEND;TZID=Europe/Rome:20270131T141500
 SUMMARY:STUDENTI – CAMPANELLE (Under 15 provinciali — girone A)
@@ -517,7 +564,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-de9a284c@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270131T143000
 DTEND;TZID=Europe/Rome:20270131T163000
 SUMMARY:SOVODNJE – CAMPANELLE (Seconda Categoria — girone D)
@@ -529,7 +576,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-d4553a31@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270207T090000
 DTEND;TZID=Europe/Rome:20270207T110000
 SUMMARY:CAMPANELLE – CHIARBOLA PONZIANA CALCIO (Under 15 provinciali — 
@@ -543,7 +590,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-7a808f50@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270207T093000
 DTEND;TZID=Europe/Rome:20270207T113000
 SUMMARY:U.FINCANTIERI MONFALCONE – CAMPANELLE (Under 14 provinciali — g
@@ -557,7 +604,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-c1588785@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270207T110000
 DTEND;TZID=Europe/Rome:20270207T130000
 SUMMARY:CAMPANELLE – SANT ANDREA SAN VITO (Under 17 provinciali — giron
@@ -571,7 +618,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-5798168f@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270207T143000
 DTEND;TZID=Europe/Rome:20270207T163000
 SUMMARY:CAMPANELLE – PRO ROMANS 1921 (Seconda Categoria — girone D)
@@ -583,7 +630,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-d25930fd@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270214T103000
 DTEND;TZID=Europe/Rome:20270214T123000
 SUMMARY:CAMPANELLE – SAN GIOVANNI A.S.D. (Under 14 provinciali — girone
@@ -597,7 +644,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-4e41b8a7@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270214T103000
 DTEND;TZID=Europe/Rome:20270214T123000
 SUMMARY:AZZURRA – CAMPANELLE (Under 15 provinciali — girone A)
@@ -610,7 +657,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-8eb80c11@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270214T103000
 DTEND;TZID=Europe/Rome:20270214T123000
 SUMMARY:ARIS SAN POLO CALCIO – CAMPANELLE (Under 17 provinciali — giron
@@ -624,7 +671,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-ad6b4115@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270214T143000
 DTEND;TZID=Europe/Rome:20270214T163000
 SUMMARY:VESNA – CAMPANELLE (Seconda Categoria — girone D)
@@ -636,7 +683,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-37bf5656@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270221T090000
 DTEND;TZID=Europe/Rome:20270221T110000
 SUMMARY:CAMPANELLE – MUGGIA 1967 (Under 15 provinciali — girone A)
@@ -649,7 +696,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-1cab081a@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270221T103000
 DTEND;TZID=Europe/Rome:20270221T123000
 SUMMARY:MUGGIA 1967 – CAMPANELLE (Under 14 provinciali — girone A)
@@ -662,7 +709,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-8819f221@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270221T110000
 DTEND;TZID=Europe/Rome:20270221T130000
 SUMMARY:CAMPANELLE – SAN GIOVANNI A.S.D. (Under 17 provinciali — girone
@@ -676,7 +723,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-fb729d8e@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270221T143000
 DTEND;TZID=Europe/Rome:20270221T163000
 SUMMARY:CAMPANELLE – TRIVIGNANO (Seconda Categoria — girone D)
@@ -688,7 +735,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-8314c6e2@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270228T103000
 DTEND;TZID=Europe/Rome:20270228T123000
 SUMMARY:CAMPANELLE – TRIESTE VICTORY ACADEMY (Under 14 provinciali — gi
@@ -702,7 +749,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-df91bc1a@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270228T103000
 DTEND;TZID=Europe/Rome:20270228T123000
 SUMMARY:DOMIO – CAMPANELLE (Under 15 provinciali — girone A)
@@ -715,7 +762,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-92845fea@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270228T150000
 DTEND;TZID=Europe/Rome:20270228T170000
 SUMMARY:ZARJA A.S.D. – CAMPANELLE (Seconda Categoria — girone D)
@@ -727,7 +774,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-8e49bb43@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270307T103000
 DTEND;TZID=Europe/Rome:20270307T123000
 SUMMARY:ZARJA A.S.D. – CAMPANELLE (Under 14 provinciali — girone A)
@@ -740,7 +787,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-fcb50886@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270307T110000
 DTEND;TZID=Europe/Rome:20270307T130000
 SUMMARY:CAMPANELLE – S.GIUSTO FOOTBALL ACADEMY (Under 17 provinciali — 
@@ -754,7 +801,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-160abed4@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270307T150000
 DTEND;TZID=Europe/Rome:20270307T170000
 SUMMARY:CAMPANELLE – CORMONESE (Seconda Categoria — girone D)
@@ -766,7 +813,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-c54a6d86@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270314T093000
 DTEND;TZID=Europe/Rome:20270314T113000
 SUMMARY:JUVENTINA S.ANDREA – CAMPANELLE (Under 15 provinciali — girone 
@@ -780,7 +827,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-c7724b64@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270314T103000
 DTEND;TZID=Europe/Rome:20270314T123000
 SUMMARY:UNIONE FRIULI ISONTINA – CAMPANELLE (Under 17 provinciali — gir
@@ -794,7 +841,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-89ee66d4@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270314T150000
 DTEND;TZID=Europe/Rome:20270314T170000
 SUMMARY:I.S.M. GRADISCA – CAMPANELLE (Seconda Categoria — girone D)
@@ -806,7 +853,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-0df1c81a@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270321T090000
 DTEND;TZID=Europe/Rome:20270321T110000
 SUMMARY:CAMPANELLE – FANI OLIMPIA (Under 15 provinciali — girone A)
@@ -819,7 +866,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-f3be72b7@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270321T110000
 DTEND;TZID=Europe/Rome:20270321T130000
 SUMMARY:CAMPANELLE – TORRE (Under 17 provinciali — girone A)
@@ -832,7 +879,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-147fdc09@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270321T150000
 DTEND;TZID=Europe/Rome:20270321T170000
 SUMMARY:CAMPANELLE – TURRIACO 1922 (Seconda Categoria — girone D)
@@ -844,7 +891,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-259f13e5@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270404T090000
 DTEND;TZID=Europe/Rome:20270404T110000
 SUMMARY:CAMPANELLE – FIUMICELLO 2004 (Under 15 provinciali — girone A)
@@ -857,7 +904,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-85a72a4b@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270404T160000
 DTEND;TZID=Europe/Rome:20270404T180000
 SUMMARY:STUDENTI – CAMPANELLE (Seconda Categoria — girone D)
@@ -869,7 +916,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-bda1ef6a@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270411T113000
 DTEND;TZID=Europe/Rome:20270411T133000
 SUMMARY:U.FINCANTIERI MONFALCONE – CAMPANELLE (Under 15 provinciali — g
@@ -883,7 +930,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-8debf581@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270411T160000
 DTEND;TZID=Europe/Rome:20270411T180000
 SUMMARY:CAMPANELLE – MOSSA (Seconda Categoria — girone D)
@@ -895,7 +942,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-359b80c3@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270418T090000
 DTEND;TZID=Europe/Rome:20270418T110000
 SUMMARY:CAMPANELLE – I.S.M. GRADISCA (Under 15 provinciali — girone A)
@@ -908,7 +955,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-97c243b1@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270418T160000
 DTEND;TZID=Europe/Rome:20270418T180000
 SUMMARY:CAMPANELLE – TORRE (Seconda Categoria — girone D)
@@ -920,7 +967,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-82c14c27@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270425T111500
 DTEND;TZID=Europe/Rome:20270425T131500
 SUMMARY:SAN GIOVANNI A.S.D. – CAMPANELLE (Under 15 provinciali — girone
@@ -934,7 +981,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-e168e00b@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270425T160000
 DTEND;TZID=Europe/Rome:20270425T180000
 SUMMARY:PRO-SECCO PRIMORJE – CAMPANELLE (Seconda Categoria — girone D)
@@ -946,7 +993,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-seconda-categoria-d-35156fe2@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270502T160000
 DTEND;TZID=Europe/Rome:20270502T180000
 SUMMARY:CAMPANELLE – COSTALUNGA (Seconda Categoria — girone D)

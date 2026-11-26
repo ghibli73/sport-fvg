@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-7a81eae7@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:TRICESIMO CALCIO 3-2 RAGOGNA (Under 19 provinciali — girone A)
@@ -49,7 +49,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-48fee851@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:TRICESIMO CALCIO 2-4 FORUM JULII CALCIO (Under 19 provinciali — g
@@ -62,7 +62,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-17-provinciali-a-9dc4893f@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:TRICESIMO CALCIO 1-1 SAN DANIELE CALCIO (Under 17 provinciali — g
@@ -75,7 +75,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-b34bf3df@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:MAGNANO IN RIVIERA 3-3 TRICESIMO CALCIO (Under 19 provinciali — g
@@ -99,7 +99,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-17-provinciali-a-cc69832a@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:BUJESE CALCIO 2-1 TRICESIMO CALCIO (Under 17 provinciali — girone
@@ -112,7 +112,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-5fc2aec8@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:TRICESIMO CALCIO 0-3 CAVAZZO (Under 19 provinciali — girone A)
@@ -135,7 +135,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-17-provinciali-a-24da457f@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:TRICESIMO CALCIO 2-6 VALNATISONE CALCIO (Under 17 provinciali — g
@@ -144,6 +144,19 @@ DESCRIPTION:Under 17 provinciali — girone A\n8ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
  io-udi-under-17-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-19-provinciali-a-e7845c36@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:VALNATISONE CALCIO 1-2 TRICESIMO CALCIO (Under 19 provinciali — g
+ irone A)
+DESCRIPTION:Under 19 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
@@ -158,6 +171,18 @@ DESCRIPTION:Promozione — girone A\n12ª giornata\nDati non ufficiali: fa
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-a-76fca79a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:RIVOLTO 3-0 TRICESIMO CALCIO (Under 17 provinciali — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-promozione-a-494a5acf@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261129T143000
@@ -169,6 +194,18 @@ DESCRIPTION:Promozione — girone A\n13ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
  ione-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-a-bdff4d8c@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261130T190000
+DTEND;TZID=Europe/Rome:20261130T210000
+SUMMARY:GEMONESE – TRICESIMO CALCIO (Under 17 provinciali — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-udi-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-8616fa39@zuin-fvg

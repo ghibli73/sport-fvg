@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-c-744ce065@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:PALAZZOLO 1-1 TERZO (Seconda Categoria — girone C)
@@ -37,7 +37,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-c-5fb1b39f@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:TERZO 3-2 VILLANOVA CALCIO (Seconda Categoria — girone C)
@@ -48,13 +48,35 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-c-0a838a22@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:POLISPORTIVA FLAMBRO 2-0 TERZO (Seconda Categoria — girone C)
 DESCRIPTION:Seconda Categoria — girone C\n8ª giornata\nDati non ufficial
  i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
  udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-d6f0d125@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:TERZO 2-1 UNIONE BASSO FRIULI (Seconda Categoria — girone C)
+DESCRIPTION:Seconda Categoria — girone C\n9ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-9366728b@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261128T150000
+DTEND;TZID=Europe/Rome:20261128T170000
+SUMMARY:SANTAMARIA – TERZO (Seconda Categoria — girone C)
+DESCRIPTION:Seconda Categoria — girone C\n10ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -udi-seconda-categoria-c
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
 END:VEVENT
 END:VCALENDAR

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-85fafeda@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:DEPORTIVO JUNIOR 7-0 RAGOGNA (Under 19 provinciali — girone A)
@@ -50,7 +50,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-c-b16d918f@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:RIVE D ARCANO FLAIBANO 9-1 DEPORTIVO JUNIOR (Under 14 provinciali 
@@ -63,7 +63,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-be5786ae@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:COMUNALE GONARS 1-2 DEPORTIVO JUNIOR (Under 19 provinciali — giro
@@ -87,7 +87,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-c-b21079ab@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:DEPORTIVO JUNIOR 1-16 DE AGOSTINI ACADEMY (Under 14 provinciali —
@@ -100,7 +100,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-d468c8e6@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:DEPORTIVO JUNIOR 0-0 FORUM JULII CALCIO (Under 19 provinciali — g
@@ -124,7 +124,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-c-009fe122@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:DONATELLO CALCIO A.S.D. 21-0 DEPORTIVO JUNIOR (Under 14 provinciali
@@ -134,6 +134,19 @@ DESCRIPTION:Under 14 provinciali — girone C\n9ª giornata\nDati non uffic
  io-udi-under-14-provinciali-c
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
  -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-19-provinciali-a-7d7278de@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:MAGNANO IN RIVIERA 1-3 DEPORTIVO JUNIOR (Under 19 provinciali — g
+ irone A)
+DESCRIPTION:Under 19 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-feb627f9@zuin-fvg
@@ -146,6 +159,31 @@ DESCRIPTION:Promozione — girone A\n12ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
  ione-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-71cf4185@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:DEPORTIVO JUNIOR 2-19 UDINE UNITED RIZZI CORMOR (Under 14 provincia
+ li — girone C)
+DESCRIPTION:Under 14 provinciali — girone C\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-19-provinciali-a-faa17746@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261128T160000
+DTEND;TZID=Europe/Rome:20261128T180000
+SUMMARY:DEPORTIVO JUNIOR – CAVAZZO (Under 19 provinciali — girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-udi-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-c1bff20b@zuin-fvg
