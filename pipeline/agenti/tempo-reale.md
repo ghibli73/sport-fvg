@@ -41,8 +41,17 @@ I cron sono in UTC e coprono ora solare e legale (`giro-rapido.yml`: sab `13-22`
   - calcio: gare del 21–22/11 nei CU del 24/11 16:25 (CR CU-53), 24/11 12:02 (Trieste) e 25/11 16:18 (CR CU-54),
     in app il 25/11 alle 22:40 UTC: **3 giorni e 7 ore** dalla fine della gara (di cui 6 h 20 di attesa del cron).
 
-### Dopo (stima, con le prove del 26/11 sul branch `funzioni/tempo-reale`)
-- Giro rapido: durata della lettura vedi "Prove" più sotto; con checkout, pip in cache e commit circa 1–2 minuti.
+### Dopo (prove del 26/11 sul branch `funzioni/tempo-reale`, giovedì mattina)
+- Giro rapido (Sonda `giro=`): pallavolo **11 s** (4 pagine, nessun risultato nuovo: nessuna classifica riletta),
+  basket **27 s** (10 pagine FIP, **18 punteggi "da omologare"** delle gare del 23–25/11 trovati), calcio **7–35 s**
+  (11 pagine; la scoperta dei gironi, 40 pagine a 3 s, si fa nel workflow del calcio). Totale della lettura 45–80 s;
+  con checkout, pip in cache, controlli e commit circa **1,5–2 minuti**. `risultati_tools.py check`: OK.
+- Verifica del calcio (`calcio_live.py --verifica`): **47 partite su 47** degli ultimi 7 giorni con gli stessi gol del
+  Quadro gare e del Comunicato Ufficiale. Abbinati al Quadro gare **30 gironi su 31** (manca
+  `calcio-gor-under-15-provinciali-e`, che ha le stesse squadre dell'Under 14 girone E: probabile doppione dell'app).
+- Pallavolo normale in prova: 60/60 gironi, lettura 2 min 4 s, nessun problema al `check`.
+- Controlli: nessuna partita futura con risultato; 10 "squadre due volte nella stessa giornata", tutte già presenti su
+  main prima di questo lavoro (U13 F UD girone D e U12 F UD girone C, numerazione delle gare del portale; vedi calendari.md).
 - Ritardo atteso dalla pubblicazione sulla fonte al telefono = attesa del giro (in media 7–8 min, al massimo 15) +
   durata del giro (1–2 min) + Pages (1 min) + controllo dell'app (in media 1,5 min, al massimo 3; la CDN non pesa perché
   `data/stato.json` si chiede con `?t=<minuto>` e `data/risultati.json` con `?v=<impronta>`, due indirizzi nuovi a ogni

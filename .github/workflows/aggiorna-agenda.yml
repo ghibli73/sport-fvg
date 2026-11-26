@@ -21,7 +21,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: aggiorna-agenda  # gruppo proprio: non annulla gli aggiornamenti dei risultati in coda
+  group: aggiorna-agenda-${{ github.ref_name }}  # gruppo proprio: non annulla gli aggiornamenti dei risultati in coda
   cancel-in-progress: false
 
 jobs:
