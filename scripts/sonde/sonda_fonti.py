@@ -246,6 +246,29 @@ for x in [x[5:] for x in prove if x.startswith("giri=")]:
                   r.headers.get("last-modified"), hashlib.md5(r.content).hexdigest()[:10], flush=True)
         except Exception as e: print("ERRORE", e)
         if i + 1 < int(n): time.sleep(max(60, int(sec)))
+# "inertia=<url>[|<regex>]": pagine Inertia (es. gare.lnd.it, Quadro gare LND): stampa componente, chiavi delle props
+# e il JSON compatto (o solo i pezzi attorno alla regex), più gli header X-Inertia-Version per le richieste successive
+for x in [x[8:] for x in prove if x.startswith("inertia=")]:
+    u, _, rx = x.partition("|")
+    titolo("INERTIA " + u)
+    try:
+        r = S.get(u, timeout=30)
+        h = r.text
+        m = re.search(r'data-page="app" type="application/json">(.*?)</script>', h, re.S) or re.search(r'data-page="([^"]+)"', h)
+        if not m: print("HTTP", r.status_code, "nessun data-page"); continue
+        import html as _h
+        js = json.loads(_h.unescape(m.group(1)))
+        print("HTTP", r.status_code, "componente", js.get("component"), "url", js.get("url"), "versione", js.get("version"))
+        props = js.get("props", {})
+        print("props:", list(props))
+        dump = json.dumps(props, ensure_ascii=False)
+        if rx:
+            for mm in list(re.finditer(rx, dump, re.I))[:12]:
+                print("   |", dump[max(0, mm.start() - 300):mm.start() + 900])
+        else:
+            print(dump[:9000])
+    except Exception as e: print("ERRORE", e)
+    time.sleep(1.5)
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:
