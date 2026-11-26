@@ -344,6 +344,16 @@ for x in [x[8:] for x in prove if x.startswith("fipscan=")]:
             if gare or link:
                 print(gir, "fase", f, "gare", len(gare), "giornate", sorted(link.get((f, str(gir)), set())), "|",
                       "; ".join(f"{g[0]} {g[1]} - {g[2]} {g[3]} [{g[5]}]" for g in gare)[:900], flush=True)
+# "basketprova=<opzioni separate da virgola>": esegue scripts/basket.py --prova --mostra-minibasket con le opzioni
+# (es. basketprova=--scopri-minibasket,--completo) e i controlli; stampa i gironi minibasket tra @@MINI@@
+for x in [x[12:] for x in prove if x.startswith("basketprova=")]:
+    import subprocess, shutil
+    titolo("BASKET (prova) " + x)
+    shutil.copy("data/risultati.json", "/tmp/risultati_prima.json")
+    subprocess.run([sys.executable, "scripts/basket.py", "--prova", "--mostra-minibasket", *[o for o in x.split(",") if o]])
+    subprocess.run([sys.executable, "scripts/variazioni.py", "/tmp/risultati_prima.json", "/tmp/risultati_prova.json", "--prova"])
+    r = subprocess.run([sys.executable, "scripts/risultati_tools.py", "check", "/tmp/risultati_prima.json", "/tmp/risultati_prova.json"])
+    print("check:", "OK" if r.returncode == 0 else f"ERRORE {r.returncode}")
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:
