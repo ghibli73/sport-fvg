@@ -167,6 +167,13 @@ for x in [x[6:] for x in prove if x.startswith("cerca=")]:
         L = [l.strip() for l in re.split(r"\n|(?=<tr)|(?=<li)|(?=<div class)", h) if re.search(rx, l, re.I)]
         print("righe:", len(L)); print("\n".join("   | " + l[:400] for l in L[:60]))
     except Exception as e: print("ERRORE", e)
+# "da=<regex>@@<url>": 5000 battute di HTML grezzo a partire dal primo punto che corrisponde alla regex (stessi segnaposto di cerca=)
+for x in [x[3:] for x in prove if x.startswith("da=")]:
+    rx, u = x.split("@@", 1); u = u.replace("~", "&"); rx = rx.replace(",,", "|").replace("LT", "<"); titolo("DA " + rx + " IN " + u)
+    try:
+        h = S.get(u, timeout=40).text; m = re.search(rx, h, re.I)
+        print("NON trovato" if not m else h[m.start():m.start() + 5000])
+    except Exception as e: print("ERRORE", e)
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:
