@@ -82,6 +82,8 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
   - Sonda fonti: modi `trova=`, `json=`, `nazionali=`. In app il nastro dei risultati mette le partite dei gironi `-naz-` dopo i preferiti (SHELL v20).
 - **Partite a settimane** — dalla 1.15.0 (prototipo, manuale: `pipeline/agenti/partite-settimana.md`).
   - Risultati e calendario uniti nella vista "Partite" (lun–dom, Europe/Rome) in pagina girone, scheda società, Preferiti e sezione `#risultati` (voce rinominata "Partite"). Anticipi/recuperi dalla mediana delle date della giornata e da `data_prec`; rinviate = senza risultato da più di 7 giorni (o `rinviata`/`stato`/`note`), riquadro "Da recuperare". Nessun cambio ai dati né agli script; SHELL `sportfvg-shell-v25`.
+- **Barra dei campionati** — dalla 1.16.0 (prototipo, manuale: `pipeline/agenti/barra-campionati.md`).
+  - In `#risultati` la riga dei comitati diventa la barra dei campionati (tabella `CAMP` in index.html), con genere e zona come filtri compatti; stato in `#risultati?sport=…&camp=…&genere=…&zona=…` e in `sfvg-ris`. Controllo `node tests/campionati.test.js` (nessun girone in "Altro"); SHELL `sportfvg-shell-v27`.
 
 ## Registro
 (una riga per intervento: data — cosa — esito)
@@ -95,3 +97,4 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
 - 2026-11-26 — Società mancanti (branch dati/societa-mancanti): codici società del portale fip.it/risultati; 12 squadre basket, 1 calcio, 2 pallavolo, 1 bocce, 2 softball agganciate; 8 società nuove nel registro (937); id_mancante 281 → 259 righe (restano quasi solo squadre fuori regione).
 - 2026-11-27 — Under 12 (1.14.2 beta, SHELL v25, branch dati/under-12): basket 9 gironi Esordienti (7 Trofeo Esordienti PN A-D, GO, UD A-B; 2 Esordienti F TS, UD) dal portale fip.it/risultati, senza classifica; pallavolo Under 12 misto CT Udine (CId 94465, sezione senza link classifica); calcio Esordienti/Pulcini non disponibili (solo "DISP."). Sonda fonti: modi fipscan=, basketprova=, volleyprova=.
 - 2026-11-26 — Prototipo "Partite" a settimane (1.15.0 beta, branch design/partite-settimana, PR in bozza): axe-core 0 violazioni a 320/390/1280 px, schermate in design/screenshot/partite.
+- 2026-11-26 — Prototipo barra dei campionati (1.16.0 beta, SHELL v27, branch design/barra-campionati, PR in bozza): 175/175 gironi assegnati, 0 in "Altro"; axe-core 0 violazioni a 320/390/1280 px chiaro e scuro (corretto anche il contrasto di "Aggiornato alle" nel tema scuro).
