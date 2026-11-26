@@ -269,6 +269,30 @@ for x in [x[8:] for x in prove if x.startswith("inertia=")]:
             print(dump[:9000])
     except Exception as e: print("ERRORE", e)
     time.sleep(1.5)
+# "giro=<sport,...>": esegue nel runner gli stessi passi del Giro rapido (.github/workflows/giro-rapido.yml) sulla copia
+# del repository, senza commit: serve a provarlo da un branch (workflow_dispatch funziona solo per i workflow già su main)
+for x in [x[5:] for x in prove if x.startswith("giro=")]:
+    import subprocess, shutil
+    titolo("GIRO RAPIDO (prova) " + x)
+    shutil.copy("data/risultati.json", "/tmp/risultati_prima.json")
+    sport = [s for s in x.split(",") if s] or ["pallavolo", "basket", "calcio"]
+    t0 = time.time()
+    for s, cmd in (("pallavolo", ["scripts/volley.py", "--rapido"]), ("basket", ["scripts/basket.py", "--rapido"]),
+                   ("calcio", ["scripts/calcio_live.py"] + (["--scopri"] if "scopri" in sport else []))):
+        if s in sport:
+            t = time.time(); titolo("giro: " + s)
+            subprocess.run([sys.executable, *cmd]); print(f"durata {s}: {time.time() - t:.0f} s", flush=True)
+    titolo("giro: controlli")
+    subprocess.run([sys.executable, "scripts/variazioni.py", "/tmp/risultati_prima.json", "data/risultati.json"])
+    r = subprocess.run([sys.executable, "scripts/risultati_tools.py", "check", "/tmp/risultati_prima.json", "data/risultati.json"])
+    print("check:", "OK" if r.returncode == 0 else f"ERRORE {r.returncode}")
+    subprocess.run([sys.executable, "scripts/avvisi.py", "/tmp/risultati_prima.json", "data/risultati.json", "--prova"])
+    subprocess.run([sys.executable, "scripts/tempo_reale.py", "stato", *sport])
+    print(open("data/stato.json").read())
+    for f in ("config/live.json", "config/calcio_lnd.json"):
+        try: print("@@" + f + "@@" + open(f).read().replace("\n", " ") + "@@")
+        except OSError: print(f, "assente")
+    print(f"durata totale del giro: {time.time() - t0:.0f} s")
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:
