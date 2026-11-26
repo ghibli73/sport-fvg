@@ -176,9 +176,17 @@ def leggi(data, cfg, live, oggi, verifica=False):
         def pagina_di(x):
             """(numero, leg) della giornata del Quadro gare: dalla data (giornate salvate alla scoperta), se no dal numero."""
             d = x.get("data") or ""
+            cand = []
             for num, leg, a, b in p.get("giornate") or []:
-                if a and b and a <= d <= b:
-                    return num, leg
+                if not b:
+                    continue
+                if not a or a < "1900":  # inizio sconosciuto ("0001-01-01"): la settimana prima della fine
+                    a = (dt.date.fromisoformat(b) - dt.timedelta(days=6)).isoformat()
+                if a <= d <= b:
+                    cand.append((b, num, leg))
+            if cand:
+                _, num, leg = min(cand)
+                return num, leg
             gio = x.get("giornata")
             return (("first", gio) if gio <= andata else ("second", gio - andata))[::-1] if gio else None
         pagine = {}
@@ -191,7 +199,7 @@ def leggi(data, cfg, live, oggi, verifica=False):
             ultima = max([x.get("giornata") or 0 for x in g.get("partite") or []] + [0])
             if dt.date.fromisoformat(oggi).weekday() in (5, 6, 0):
                 for num, leg, a, b in p.get("giornate") or []:
-                    if a and b and a <= oggi and b >= da:
+                    if b and (a or "") <= oggi and da <= b <= oggi:
                         pagine.setdefault((num, leg), set()).add(ultima + 1)
         nomi = [r["squadra"] for r in g.get("classifica") or []]
         ids = {r["squadra"]: r.get("id") for r in g.get("classifica") or []}

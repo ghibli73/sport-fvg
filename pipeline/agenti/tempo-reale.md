@@ -42,10 +42,13 @@ I cron sono in UTC e coprono ora solare e legale (`giro-rapido.yml`: sab `13-22`
     in app il 25/11 alle 22:40 UTC: **3 giorni e 7 ore** dalla fine della gara (di cui 6 h 20 di attesa del cron).
 
 ### Dopo (prove del 26/11 sul branch `funzioni/tempo-reale`, giovedì mattina)
-- Giro rapido (Sonda `giro=`): pallavolo **11 s** (4 pagine, nessun risultato nuovo: nessuna classifica riletta),
-  basket **27 s** (10 pagine FIP, **18 punteggi "da omologare"** delle gare del 23–25/11 trovati), calcio **7–35 s**
-  (11 pagine; la scoperta dei gironi, 40 pagine a 3 s, si fa nel workflow del calcio). Totale della lettura 45–80 s;
-  con checkout, pip in cache, controlli e commit circa **1,5–2 minuti**. `risultati_tools.py check`: OK.
+- Giro rapido (Sonda `giro=`), ultima prova con 40 gironi di basket abbinati: pallavolo **10 s** (4 pagine, nessun
+  risultato nuovo: nessuna classifica riletta), basket **67 s** (27 pagine FIP, **38 punteggi "da omologare"** delle
+  gare del 23–25/11), calcio **12 s** (4 pagine; la scoperta dei gironi, 40 pagine a 3 s, si fa nel workflow del calcio).
+  Totale **90 s**; con checkout, pip in cache, controlli e commit circa **2 minuti**. `risultati_tools.py check`: OK.
+  (Prima prova con 21 gironi di basket: 117 s compresa la scoperta del calcio, 18 punteggi.)
+- Basket: con i codici girone vicini la scoperta abbina **40 gironi su 49** al portale FIP (prima 21). Restano fuori
+  B Interregionale (Veneto), DR3 UD, U13 UD A/B, U15 regionali (3) e U19 regionali PN A/B.
 - Verifica del calcio (`calcio_live.py --verifica`): **47 partite su 47** degli ultimi 7 giorni con gli stessi gol del
   Quadro gare e del Comunicato Ufficiale. Abbinati al Quadro gare **30 gironi su 31** (manca
   `calcio-gor-under-15-provinciali-e`, che ha le stesse squadre dell'Under 14 girone E: probabile doppione dell'app).
