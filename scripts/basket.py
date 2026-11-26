@@ -14,13 +14,18 @@ Calendario aggiornato (spostamenti, anticipi, cambi di campo, recuperi): vedi pi
      (tutte con --completo) e aggiorna per numero gara data, ora e campo. L'abbinamento girone FIP -> slug viene
      cercato in automatico (--scopri-fip, oppure da solo una volta alla settimana) confrontando i numeri gara.
 Le omologazioni lette sono ricordate in config/basket_stato.json, così ogni esecuzione legge solo le nuove.
-Uso: python scripts/basket.py [--tutto] [--solo <slug>] [--prova] [--completo] [--scopri-fip]
+  6. giro rapido (--rapido, nelle fasce di gara: pipeline/agenti/tempo-reale.md): per i gironi abbinati legge sul portale
+     FIP le pagine delle giornate con gare finite da poco e senza omologazione, prende i punteggi (referto elettronico)
+     e li salva in config/live.json; in app compaiono con "non_omologato": true finché l'omologazione del Giudice non li
+     conferma (se omologazione e portale non coincidono vale l'omologazione).
+Uso: python scripts/basket.py [--tutto] [--solo <slug>] [--prova] [--completo] [--scopri-fip] [--rapido]
      --tutto  rilegge tutte le omologazioni della stagione;  --prova  non scrive config né data/risultati.json
      (il risultato va in /tmp/risultati_prova.json);  --completo  legge sul portale FIP tutte le giornate future.
 """
 import io, json, os, re, sys, time, glob, datetime as dt
 import requests
 from abbinamenti import applica_comuni  # scripts/abbinamenti.py
+import tempo_reale as TR  # scripts/tempo_reale.py
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CFG_DIR = os.path.join(ROOT, "config", "basket")
@@ -403,11 +408,22 @@ def scopri_fip(specs, cfg):
             fase0 = next(iter(link))[0] if link else "1"
             for gir in set(re.findall(r'value="(\d{5,6})"', html)) - {g for _, g in link}:
                 link[(fase0, gir)] = set()
+            # gli altri gironi dello stesso campionato hanno quasi sempre codici vicini (DR1 Est 85168, Ovest 85169):
+            # la pagina predefinita mostra solo il primo, quindi si provano i codici fino a 3 prima e dopo
+            gia = {p.get("codice_girone") for p in cfg["gironi"].values()}
+            vicini = set()
+            if set(specs) - set(cfg["gironi"]):
+                for _, gir in list(link):
+                    for d in (-3, -2, -1, 1, 2, 3):
+                        c = str(int(gir) + d)
+                        if c not in gia and (fase0, c) not in link:
+                            link[(fase0, c)] = set(); vicini.add(c)
             for (fase, gir), giornate in link.items():
                 p = {**base, "sesso": sesso, "codice_campionato": codice, "codice_fase": fase, "codice_girone": gir}
                 andata = max([g for ar, g in giornate if ar == 1] or [0])
                 gare = []
-                for ar, n in ((0, 1), (1, andata), (1, 1)):
+                prove = ((1, 1),) if gir in vicini else ((0, 1), (1, andata), (1, 1))  # codici vicini: una pagina sola
+                for ar, n in prove:
                     if not n:
                         continue
                     try:
@@ -433,6 +449,78 @@ def scopri_fip(specs, cfg):
                         print(f"FIP: {slug} = {nome.strip()} (campionato {codice}, fase {fase}, girone {gir}, {n} gare uguali)")
     cfg["scoperta"] = dt.date.today().isoformat()
     print(f"FIP: gironi abbinati {trovati}; senza abbinamento: {sorted(set(specs) - set(cfg['gironi']))}")
+
+
+def fip_punteggi(html):
+    """Punteggi di una pagina giornata: {numero gara: (punti casa, punti ospite, omologata sul portale)}.
+    Il testo è "CASA 80 OSPITE 71 20 Novembre 2026 21:15 000225 [Gara omologata ...] Info Squadra di casa CASA ...":
+    i nomi letti dopo "Squadra di casa"/"Squadra ospite" servono a riconoscere i due numeri prima della data."""
+    t = fip_testo(html)
+    out = {}
+    for m in RX_FIP.finditer(t):
+        casa, osp = m.group(6).strip(), m.group(7).strip()
+        prima = t[max(0, m.start() - 300):m.start()]
+        r = re.search(re.escape(casa) + r"\s+(\d{1,3})\s+" + re.escape(osp) + r"\s+(\d{1,3})\s*$", prima)
+        if not r:
+            continue
+        a, b = int(r.group(1)), int(r.group(2))
+        if a == b:
+            continue  # nessun pareggio nel basket: 0-0 = da giocare
+        out[int(m.group(5))] = (a, b, bool(re.search(r"omologat", m.group(0)[:200], re.I)))
+    return out
+
+
+def risultati_fip(specs, cfg, live, oggi):
+    """Giro rapido: punteggi delle gare finite (inizio + 105 minuti) negli ultimi 3 giorni e non ancora omologate.
+    -> (pagine lette, risultati nuovi)."""
+    da = (dt.date.fromisoformat(oggi) - dt.timedelta(days=3)).isoformat()
+    pagine = nuovi = 0
+    for slug, p in sorted(cfg.get("gironi", {}).items()):
+        s = specs.get(slug)
+        if not s or not p.get("andata"):
+            continue
+        voci = live.setdefault("gironi", {}).setdefault("basket-" + slug, {})
+        attese = [g for g in s["gare"] if (not g[7] or pari(g[7])) and da <= (g[2] or "") <= oggi
+                  and TR.finita(g[2], g[3], 105) and f"gara:{g[0]}" not in voci]
+        per_num = {g[0]: g for g in s["gare"]}
+        for gio in sorted({g[1] for g in attese}):
+            ar, n = (1, gio) if gio <= p["andata"] else (0, gio - p["andata"])
+            q = {k: v for k, v in p.items() if k not in ("andata", "nome", "uguali")}
+            try:
+                html = fip_get({**q, "codice_ar": ar, "giornata": n}); pagine += 1
+            except Exception as e:
+                print(f"  ! FIP {slug} giornata {gio}: {e}"); continue
+            punti = fip_punteggi(html)
+            for num, (a, b, omo) in punti.items():
+                g = per_num.get(num)
+                if not g or g not in attese:
+                    continue
+                voci[f"gara:{num}"] = {"r": f"{a}-{b}", "data": g[2], "omologata_portale": omo,
+                                       "letto": TR.adesso().isoformat(timespec="minutes"),
+                                       "fonte": f"{FIP_URL}?codice_campionato={q.get('codice_campionato')}&codice_girone={q.get('codice_girone')}"}
+                nuovi += 1
+                print(f"  {slug} gara {num}: {g[4]} - {g[5]} {a}-{b} (da omologare)")
+        if not voci:
+            live["gironi"].pop("basket-" + slug, None)
+    print(f"FIP risultati: pagine lette {pagine}, risultati nuovi {nuovi}")
+    return pagine, nuovi
+
+
+def rapido(specs, prova, oggi):
+    """--rapido: solo risultati del portale FIP -> config/live.json -> data/risultati.json (nessun PDF)."""
+    fip = json.load(open(FIP_CFG)) if os.path.exists(FIP_CFG) else {"gironi": {}}
+    live = TR.carica_live()
+    data = json.load(open(RIS))
+    conf, div = TR.pulisci(data, live, oggi)
+    print(f"provvisori confermati dalle omologazioni: {conf}, diversi: {div}")
+    risultati_fip(specs, fip, live, oggi)
+    n = TR.applica(data, live, solo_sport={"basket"})
+    print(f"partite aggiornate in app: {n}")
+    if prova:
+        json.dump(data, open(PROVA, "w"), ensure_ascii=False, separators=(",", ":"))
+        print("prova: config/live.json e data/risultati.json non modificati, risultato in", PROVA); return
+    TR.salva_live(live)
+    json.dump(data, open(RIS, "w"), ensure_ascii=False, separators=(",", ":"))
 
 
 def variazioni_fip(specs, cfg, oggi, completo):
@@ -484,6 +572,8 @@ def main():
             continue
         s["_file"] = f
         specs[s["slug"]] = s
+    if "--rapido" in sys.argv:
+        return rapido(specs, prova, oggi)
     stato = json.load(open(STATO)) if os.path.exists(STATO) and not tutto else {"omologazioni_lette": [], "calendari_letti": []}
     prima_fut = sum(1 for s in specs.values() for g in s["gare"] if not g[7] and (g[2] or "") >= oggi)
 
@@ -620,8 +710,12 @@ def main():
         else:
             data.append(g)
     applica_comuni(data)  # comune delle squadre senza id (config/squadre_comune.json)
+    # risultati del portale FIP non ancora omologati (giro rapido): restano finché l'omologazione non arriva
+    print("provvisori (non omologati) applicati:", TR.applica(data, solo_sport={"basket"}))
     if prova:
         json.dump(data, open(PROVA, "w"), ensure_ascii=False, separators=(",", ":"))
+        if "--scopri-fip" in sys.argv:
+            print("@@FIP@@" + json.dumps(fip, ensure_ascii=False) + "@@FIP@@")
         print("prova: config e data/risultati.json non modificati, risultato in", PROVA); return
     json.dump(data, open(RIS, "w"), ensure_ascii=False, separators=(",", ":"))
     json.dump(stato, open(STATO, "w"), ensure_ascii=False, indent=0)

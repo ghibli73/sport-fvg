@@ -80,12 +80,14 @@ for u in [x[6:] for x in prove if x.startswith("righe=")]:
 # "html=<url>|<regex>": i pezzi dell'HTML grezzo che corrispondono (es. i valori delle <option> di un filtro)
 for x in [x[5:] for x in prove if x.startswith("html=")]:
     u, rx = x.split("|", 1)
+    rx, _, lung = rx.partition("@@")  # "html=<url>|<regex>@@<caratteri>": estratti più lunghi (default 400)
+    lung = int(lung or 400)
     titolo("HTML " + u + " /" + rx + "/")
     try:
         t = S.get(u, timeout=60).text
         ms = list(re.finditer(rx, t, re.I | re.S))
         print("byte:", len(t), "corrispondenze:", len(ms))
-        for m in ms[:40]: print("   |", t[m.start():m.start() + 400].replace("\n", " ")[:400])
+        for m in ms[:40 if lung <= 400 else 3]: print("   |", t[m.start():m.start() + lung].replace("\n", " ")[:lung])
     except Exception as e: print("ERRORE", e)
     time.sleep(1.5)
 # "cerca=<url PDF o ZIP>|<regex>": nel PDF (o nei PDF dello ZIP il cui nome contiene la regex del file, dopo "@")
@@ -216,6 +218,81 @@ for x in [x[7:] for x in prove if x.startswith("testo2=")]:
         m = re.search(rx, t, re.I); print(t[m.start():m.start() + 7000] if m else "NON trovato")
         ev = sorted(set(re.findall(r'href="([^"]*/even[a-z]*/[^"#?]+)"', h))); print("link evento:", " ".join(ev[:120]))
     except Exception as e: print("ERRORE", e)
+# "testa=<url>": intestazioni HTTP (cache-control, age, last-modified, etag...) e due richieste a distanza, per
+# misurare la cache di GitHub Pages o capire se una pagina dichiara quando è cambiata
+for u in [x[6:] for x in prove if x.startswith("testa=")]:
+    titolo("TESTA " + u)
+    try:
+        for i in range(2):
+            r = S.get(u, timeout=30, headers={"Cache-Control": "no-cache"} if i else {})
+            print(f"  richiesta {i + 1}: HTTP", r.status_code, "byte", len(r.content))
+            for k, v in r.headers.items():
+                if k.lower() in ("cache-control", "age", "last-modified", "etag", "expires", "date", "x-cache", "x-cache-hits",
+                                 "x-served-by", "via", "access-control-allow-origin", "content-type", "vary", "x-github-request-id",
+                                 "x-fastly-request-id", "server"):
+                    print("   ", k, ":", v)
+            time.sleep(2)
+    except Exception as e: print("ERRORE", e)
+# "giri=<url>|<n>|<secondi>": legge la stessa pagina n volte a distanza di <secondi> (minimo 60) e stampa per ogni
+# lettura l'ora, l'etag/last-modified e un'impronta del contenuto: dice dopo quanto un cambiamento si vede
+for x in [x[5:] for x in prove if x.startswith("giri=")]:
+    u, n, sec = (x.split("|") + ["3", "60"])[:3]
+    titolo("GIRI " + u)
+    import hashlib
+    for i in range(min(int(n), 15)):
+        try:
+            r = S.get(u, timeout=30)
+            print(time.strftime("%H:%M:%S"), r.status_code, r.headers.get("age"), r.headers.get("etag"),
+                  r.headers.get("last-modified"), hashlib.md5(r.content).hexdigest()[:10], flush=True)
+        except Exception as e: print("ERRORE", e)
+        if i + 1 < int(n): time.sleep(max(60, int(sec)))
+# "inertia=<url>[|<regex>]": pagine Inertia (es. gare.lnd.it, Quadro gare LND): stampa componente, chiavi delle props
+# e il JSON compatto (o solo i pezzi attorno alla regex), più gli header X-Inertia-Version per le richieste successive
+for x in [x[8:] for x in prove if x.startswith("inertia=")]:
+    u, _, rx = x.partition("|")
+    titolo("INERTIA " + u)
+    try:
+        r = S.get(u, timeout=30)
+        h = r.text
+        m = re.search(r'data-page="app" type="application/json">(.*?)</script>', h, re.S) or re.search(r'data-page="([^"]+)"', h)
+        if not m: print("HTTP", r.status_code, "nessun data-page"); continue
+        import html as _h
+        js = json.loads(_h.unescape(m.group(1)))
+        print("HTTP", r.status_code, "componente", js.get("component"), "url", js.get("url"), "versione", js.get("version"))
+        props = js.get("props", {})
+        print("props:", list(props))
+        dump = json.dumps(props, ensure_ascii=False)
+        if rx:
+            for mm in list(re.finditer(rx, dump, re.I))[:12]:
+                print("   |", dump[max(0, mm.start() - 300):mm.start() + 900])
+        else:
+            print(dump[:9000])
+    except Exception as e: print("ERRORE", e)
+    time.sleep(1.5)
+# "giro=<sport,...>": esegue nel runner gli stessi passi del Giro rapido (.github/workflows/giro-rapido.yml) sulla copia
+# del repository, senza commit: serve a provarlo da un branch (workflow_dispatch funziona solo per i workflow già su main)
+for x in [x[5:] for x in prove if x.startswith("giro=")]:
+    import subprocess, shutil
+    titolo("GIRO RAPIDO (prova) " + x)
+    shutil.copy("data/risultati.json", "/tmp/risultati_prima.json")
+    sport = [s for s in x.split(",") if s] or ["pallavolo", "basket", "calcio"]
+    t0 = time.time()
+    for s, cmd in (("pallavolo", ["scripts/volley.py", "--rapido"]), ("basket", ["scripts/basket.py", "--rapido"]),
+                   ("calcio", ["scripts/calcio_live.py"] + (["--scopri"] if "scopri" in sport else []) + (["--verifica"] if "verifica" in sport else []))):
+        if s in sport:
+            t = time.time(); titolo("giro: " + s)
+            subprocess.run([sys.executable, *cmd]); print(f"durata {s}: {time.time() - t:.0f} s", flush=True)
+    titolo("giro: controlli")
+    subprocess.run([sys.executable, "scripts/variazioni.py", "/tmp/risultati_prima.json", "data/risultati.json"])
+    r = subprocess.run([sys.executable, "scripts/risultati_tools.py", "check", "/tmp/risultati_prima.json", "data/risultati.json"])
+    print("check:", "OK" if r.returncode == 0 else f"ERRORE {r.returncode}")
+    subprocess.run([sys.executable, "scripts/avvisi.py", "/tmp/risultati_prima.json", "data/risultati.json", "--prova"])
+    subprocess.run([sys.executable, "scripts/tempo_reale.py", "stato", *sport])
+    print(open("data/stato.json").read())
+    for f in ("config/live.json", "config/calcio_lnd.json"):
+        try: print("@@" + f + "@@" + open(f).read().replace("\n", " ") + "@@")
+        except OSError: print(f, "assente")
+    print(f"durata totale del giro: {time.time() - t0:.0f} s")
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:

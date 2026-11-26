@@ -20,7 +20,8 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
 - Mai cancellare dati esistenti per sostituirli con dati peggiori (meno squadre, date più vecchie).
 - Mai forzare push (`--force`) né riscrivere la storia di `main`.
 - Messaggi di commit in italiano, chiari ("Pallavolo: corretto parser classifiche CT Udine").
-- Ritmo di lettura dei portali: lasciare la pausa di `PAUSA` in volley.py, non aumentare la frequenza dei cron oltre quella attuale.
+- Ritmo di lettura dei portali: almeno 1,5 s tra le pagine (`PAUSA` in volley.py, `FIP_PAUSA` in basket.py, `PAUSA` in calcio_live.py) e ogni pagina al massimo una volta ogni 15 minuti: non aumentare la frequenza dei cron oltre quella attuale (giro rapido ogni 15 minuti solo nelle fasce di gara).
+- Salvare i dati sempre con `scripts/salva_dati.sh` (niente commit senza novità, push ritentato con unione per girone); un gruppo di concorrenza per workflow, mai più un gruppo unico.
 - Dati personali: nessun nome di atleti; solo società, squadre, risultati.
 
 ## Funzioni
@@ -66,6 +67,13 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
   - Workflow `.github/workflows/aggiorna-agenda.yml`: ogni giorno 3:17 UTC, gruppo `aggiorna-dati`, input `opzioni` (con `--prova`/`--debug` non salva); sulle PR che toccano lo script gira in prova.
   - Sonda fonti: nuovi modi `grezzo=`, `cercah=`, `da=`, `date=`, `testo2=`, `agenda=<opzioni>`, `agendajson` (vedi il manuale dell'agenda).
   - In app: vista `#agenda`, scheda evento `#e-<id>`, blocchi "Prossimi eventi" in Home, Sport, scheda società; SHELL `sportfvg-shell-v18`.
+- **Tempo reale** — dalla 1.13.1 (manuale: `pipeline/agenti/tempo-reale.md`).
+  - `giro-rapido.yml`: ogni 15 minuti nelle fasce di gara (sab 15–23:30, dom 15–21:30, lun–ven 20–23:30, ora italiana; il primo passo esce subito fuori fascia). Pallavolo `volley.py --rapido` (solo pagine settimanali, classifiche solo dei gironi con risultati nuovi, `classifica_provvisoria`), basket `basket.py --rapido` (punteggi di `fip.it/risultati`, `non_omologato`), calcio `scripts/calcio_live.py` (Quadro gare LND `gare.lnd.it`, `provvisorio`; abbinamento dei gironi in `config/calcio_lnd.json`).
+  - Provvisori in `config/live.json` (scritto solo dal giro rapido), applicati da `scripts/tempo_reale.py` anche dopo `basket.py`/`calcio.py`; spariscono quando arriva l'omologazione o il Comunicato (vale l'ufficiale).
+  - `data/stato.json` (`versione` = impronta di risultati.json, `aggiornato`): scritto da `salva_dati.sh`; l'app lo controlla ogni 3 min in fascia (15 fuori) e riscarica `risultati.json?v=<versione>` solo se cambia; "Aggiornato alle HH:MM" in Risultati e nel nastro; etichette "da omologare"/"provvisorio". sw.js v20: copia offline di `data/` senza parametri.
+  - Workflow: gruppi `aggiorna-pallavolo|basket|calcio|agenda` e `giro-rapido`; `cache: pip`; `.ics` e widget solo se `data/risultati.json` cambia; pallavolo senza i giri orari del weekend (`17 11 * * *` + notturno).
+  - Cron inaffidabili (misurati ritardi di 4–6 ore il 25–26/11): pronto l'avvio esterno di `giro-rapido.yml` (workflow_dispatch) da cron-job.org con un token fine-grained "Actions: Read and write" solo su sport-fvg — istruzioni nel manuale, da attivare a cura dell'utente.
+  - Prova da un branch: Sonda fonti `giro=pallavolo,basket,calcio[,scopri]` (il dispatch di un workflow nuovo funziona solo dopo l'unione su main). Nuove modalità della Sonda: `testa=`, `giri=`, `inertia=`, `html=...@@n`.
 
 ## Registro
 (una riga per intervento: data — cosa — esito)
@@ -74,3 +82,4 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
 - 2026-11-25 — Widget per i siti e invito a installare l'app (1.10.0 beta, SHELL v16) — branch funzioni/widget-installa: 391 file società e 163 gironi in data/widget; provati con playwright a 320/390/1280 px anche in una pagina ospite con stili ostili, axe-core senza violazioni.
 - 2026-11-26 — Agenda eventi (1.12.0 beta, branch funzioni/agenda): 78 eventi automatici (sci 70, atletica 5, judo 2, bocce 1); FCI, FIV e FISR senza gare future pubblicate; file manuale ancora vuoto.
 - 2026-11-26 — Agenda: 16 eventi manuali in config/agenda_manuale.json, finestra fino a fine maggio; data/agenda.json 94 eventi (sci 70, atletica 12, judo 4, scherma 2, ciclismo 2, vela 1, nuoto 1, bocce 1, altro 1).
+- 2026-11-26 — Tempo reale (1.13.1 beta, branch funzioni/tempo-reale): misure (cron in ritardo di 4–6 h, Pages 45 s, max-age 600, basket 4–5 giorni, calcio 3 giorni), giro rapido ogni 15 min, provvisori basket (fip.it) e calcio (Quadro gare LND), ricarica in app; prova giro: 90 s, 38 punteggi basket da omologare (40 gironi FIP su 49), calcio 30 gironi su 31 abbinati al Quadro gare LND e 47/47 gol uguali ai Comunicati, check OK.
