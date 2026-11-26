@@ -80,6 +80,8 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
   - `scripts/nazionali_manuale.py`: gironi `auto: "agente"` da testo letto con la Sonda (Serie D girone C, fonte non ufficiale).
   - Workflow `.github/workflows/aggiorna-nazionali.yml`: ogni 2 ore ven-lun, una volta mar-gio, gruppo `aggiorna-dati`, push con 4 tentativi; input `opzioni` (`--prova`) e `silenzioso`.
   - Sonda fonti: modi `trova=`, `json=`, `nazionali=`. In app il nastro dei risultati mette le partite dei gironi `-naz-` dopo i preferiti (SHELL v20).
+- **Partite a settimane** — dalla 1.15.0 (prototipo, manuale: `pipeline/agenti/partite-settimana.md`).
+  - Risultati e calendario uniti nella vista "Partite" (lun–dom, Europe/Rome) in pagina girone, scheda società, Preferiti e sezione `#risultati` (voce rinominata "Partite"). Anticipi/recuperi dalla mediana delle date della giornata e da `data_prec`; rinviate = senza risultato da più di 7 giorni (o `rinviata`/`stato`/`note`), riquadro "Da recuperare". Nessun cambio ai dati né agli script; SHELL `sportfvg-shell-v25`.
 
 ## Registro
 (una riga per intervento: data — cosa — esito)
@@ -92,3 +94,4 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
 - 2026-11-26 — Campionati nazionali (1.13.1 beta, branch dati/nazionali): Serie A (Udinese) e SuperLega (Prata) automatiche dalle leghe; Serie D girone C (Triestina, Cjarlins Muzane, Brian Lignano, LME) manuale da betexplorer perché lnd.it vieta TDM e agenti AI; calcio a 5, volley B, pallanuoto ancora da caricare.
 - 2026-11-26 — Società mancanti (branch dati/societa-mancanti): codici società del portale fip.it/risultati; 12 squadre basket, 1 calcio, 2 pallavolo, 1 bocce, 2 softball agganciate; 8 società nuove nel registro (937); id_mancante 281 → 259 righe (restano quasi solo squadre fuori regione).
 - 2026-11-27 — Under 12 (1.14.2 beta, SHELL v25, branch dati/under-12): basket 9 gironi Esordienti (7 Trofeo Esordienti PN A-D, GO, UD A-B; 2 Esordienti F TS, UD) dal portale fip.it/risultati, senza classifica; pallavolo Under 12 misto CT Udine (CId 94465, sezione senza link classifica); calcio Esordienti/Pulcini non disponibili (solo "DISP."). Sonda fonti: modi fipscan=, basketprova=, volleyprova=.
+- 2026-11-26 — Prototipo "Partite" a settimane (1.15.0 beta, branch design/partite-settimana, PR in bozza): axe-core 0 violazioni a 320/390/1280 px, schermate in design/screenshot/partite.

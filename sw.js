@@ -1,5 +1,5 @@
 // Service worker: app shell in cache, dati sempre dalla rete se disponibile (così i risultati sono freschi), cache come riserva offline.
-const SHELL = 'sportfvg-shell-v25';
+const SHELL = 'sportfvg-shell-v26';
 const DATA = 'sportfvg-data';
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(SHELL).then(c => c.addAll(['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png'].map(u => new Request(u, {cache: 'reload'})))).then(() => self.skipWaiting()));
