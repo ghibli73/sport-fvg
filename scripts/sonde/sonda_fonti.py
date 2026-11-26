@@ -80,12 +80,14 @@ for u in [x[6:] for x in prove if x.startswith("righe=")]:
 # "html=<url>|<regex>": i pezzi dell'HTML grezzo che corrispondono (es. i valori delle <option> di un filtro)
 for x in [x[5:] for x in prove if x.startswith("html=")]:
     u, rx = x.split("|", 1)
+    rx, _, lung = rx.partition("@@")  # "html=<url>|<regex>@@<caratteri>": estratti più lunghi (default 400)
+    lung = int(lung or 400)
     titolo("HTML " + u + " /" + rx + "/")
     try:
         t = S.get(u, timeout=60).text
         ms = list(re.finditer(rx, t, re.I | re.S))
         print("byte:", len(t), "corrispondenze:", len(ms))
-        for m in ms[:40]: print("   |", t[m.start():m.start() + 400].replace("\n", " ")[:400])
+        for m in ms[:40 if lung <= 400 else 3]: print("   |", t[m.start():m.start() + lung].replace("\n", " ")[:lung])
     except Exception as e: print("ERRORE", e)
     time.sleep(1.5)
 # "cerca=<url PDF o ZIP>|<regex>": nel PDF (o nei PDF dello ZIP il cui nome contiene la regex del file, dopo "@")
