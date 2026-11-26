@@ -181,6 +181,12 @@ for x in [x[7:] for x in prove if x.startswith("agenda=")]:
     ops = [o for o in x.split(",") if o] or ["--prova"]
     if "--debug" not in ops and "--prova" not in ops: ops.append("--prova")
     subprocess.run([sys.executable, "scripts/agenda.py", *ops])
+# "agendajson": rigenera data/agenda.json nel runner (non salva nel repository) e lo stampa tra due marcatori
+if "agendajson" in prove:
+    import subprocess
+    titolo("AGENDA JSON")
+    subprocess.run([sys.executable, "scripts/agenda.py"])
+    print("@@INIZIO_AGENDA@@"); print(open("data/agenda.json", encoding="utf-8").read()); print("@@FINE_AGENDA@@")
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:

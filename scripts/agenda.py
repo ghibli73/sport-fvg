@@ -88,6 +88,23 @@ def pulisci(s):
     return re.sub(r"\s+", " ", s).strip(" -–·")
 
 
+def ammorbidisci(t):
+    """Titoli tutti in maiuscolo -> iniziale maiuscola; restano maiuscole le sigle corte (BC, CD, U18, FVG)."""
+    t = re.sub(r"\s+-\s+(0|\d{1,2}/\d{1,2}/\d{2,4})\s*$", "", pulisci(t))
+    if not t or not t.isupper():
+        return t
+    out = []
+    for i, w in enumerate(t.split()):
+        if w in ("A", "E", "O", "DI", "DA", "DEL", "DELLA", "DEI", "LA", "IL", "LO", "LE", "IN", "CON", "PER", "AL", "ALLA"):
+            out.append(w.lower())
+        elif re.fullmatch(r"\(?[A-Z]{1,3}\d*\)?|[A-Z]*\d+[A-Z\d]*|FVG|FIB|FISI|FIDAL|FCI|XCO|ASD|A\.S\.D\.|[IVXL]+", w) and w not in ("LUI", "LEI"):
+            out.append(w)
+        else:
+            out.append(re.sub(r"[A-ZÀ-Ý]+", lambda m: m.group(0)[0] + m.group(0)[1:].lower(), w))
+    r = " ".join(out)
+    return r[:1].upper() + r[1:]
+
+
 def ev_id(e):
     return "ag-" + fnv("|".join([e.get("data", ""), e.get("titolo", ""), e.get("luogo", "")]))
 
@@ -153,14 +170,19 @@ ESPANDI = {"us": "unione sportiva", "sc": "sci club", "gs": "gruppo sportivo", "
            "cv": "circolo velico", "yc": "yacht club", "pol": "polisportiva", "atl": "atletica"}
 
 
-def nucleo(nome):
+GENERICHE_SPORT = {"bocce": {"bocce", "bocciofila", "bocc", "sb", "bc", "club", "boccia", "bocciodromo"},
+                   "atletica": {"atletica", "atl", "podistica", "podismo", "gruppo", "team"},
+                   "ciclismo": {"ciclistica", "ciclismo", "velo", "club", "team", "cycling"}}
+
+
+def nucleo(nome, sport=None):
     t = norm(nome)
     # sigle con i punti: "s.c." -> "s c" -> "sc"
     t = re.sub(r"\b(?:[a-z] )+[a-z]\b", lambda m: m.group(0).replace(" ", ""), t)
     out = []
     for w in t.split():
         w = ESPANDI.get(w, w)
-        out.extend(x for x in w.split() if x not in GENERICHE)
+        out.extend(x for x in w.split() if x not in GENERICHE and x not in GENERICHE_SPORT.get(sport, ()))
     return out
 
 
@@ -176,11 +198,13 @@ def organizzatore(nome, sport=None):
     if re.search(r"\s[-/]\s", nome):  # più organizzatori insieme: nessun abbinamento automatico
         return nome
     if _NUC is None:
-        _NUC = [(s, nucleo(s["nome"])) for s in SOC]
-    n = nucleo(nome)
+        _NUC = {}
+    if sport not in _NUC:
+        _NUC[sport] = [(s, nucleo(s["nome"], sport)) for s in SOC]
+    n = nucleo(nome, sport)
     if not n:
         return nome
-    cand = [(s, k) for s, k in _NUC if not sport or s["sport"] == sport or sport in s.get("altri_sport", [])]
+    cand = [(s, k) for s, k in _NUC[sport] if not sport or s["sport"] == sport or sport in s.get("altri_sport", [])]
     pari = [s for s, k in cand if k == n]
     if len(pari) == 1:
         return pari[0]["id"]
@@ -379,6 +403,7 @@ def mod_fisi():
                 if spec and spec != "-":
                     base += f" {spec}"
                 titolo = tit or f"{base} – {loc}" if loc else (tit or base)
+                tit = ammorbidisci(tit) if tit.isupper() else tit
                 if tit and spec and spec not in tit:
                     titolo = f"{tit} ({spec})"
                 comune = comune_da(loc)
@@ -420,7 +445,7 @@ def mod_fci():
         k = (d, norm(nome), norm(loc))
         e = grp.get(k)
         if not e:
-            e = grp[k] = {"data": d, "titolo": nome.title() if nome.isupper() else nome, "settore": sett,
+            e = grp[k] = {"data": d, "titolo": ammorbidisci(nome), "settore": sett,
                           "spec": spec, "soc": soc, "luogo": loc.title() if loc.isupper() else loc, "cat": []}
         if cat and cat not in e["cat"]:
             e["cat"].append(cat)
@@ -459,7 +484,7 @@ def mod_fiv():
         livello = ("internazionale" if re.search(r"internaz|mondial|europe", tip + tit, re.I) else
                    "nazionale" if re.search(r"nazional|italian", tip + tit, re.I) else "regionale")
         out.append(evento(data=at.get("di"), data_fine=at.get("df") if at.get("df") != at.get("di") else None,
-                          titolo=tit, sport="vela", disciplina=tip or None, livello=livello, luogo=luogo,
+                          titolo=ammorbidisci(tit), sport="vela", disciplina=tip or None, livello=livello, luogo=luogo,
                           comune=comune_da(loc.split(" - ")[-1]) or comune_da(luogo), categorie=at.get("cla") or None,
                           link=at.get("li") or u, fonte=u, origine="fiv"))
     if not righe:
@@ -586,7 +611,7 @@ def mod_fib():
             print("   fib righe:", x["data"], r[:8])
         liv = next((t for t in r if re.fullmatch(r"(?i)(inter)?regionale|provinciale|nazionale|internazionale", t)), "")
         spec = next((t for t in r if re.fullmatch(r"(?i)volo|raffa|petanque|boccia paralimpica", t)), "")
-        tit = x["titolo"] or (r[1] if len(r) > 1 else "Gara di bocce")
+        tit = ammorbidisci(x["titolo"] or (r[1] if len(r) > 1 else "Gara di bocce"))
         dopo = r[r.index(liv) + 1:] if liv in r else []
         soc = dopo[0] if dopo else None
         cat = dopo[1] if len(dopo) > 1 else None
