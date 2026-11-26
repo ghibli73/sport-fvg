@@ -216,6 +216,34 @@ for x in [x[7:] for x in prove if x.startswith("testo2=")]:
         m = re.search(rx, t, re.I); print(t[m.start():m.start() + 7000] if m else "NON trovato")
         ev = sorted(set(re.findall(r'href="([^"]*/even[a-z]*/[^"#?]+)"', h))); print("link evento:", " ".join(ev[:120]))
     except Exception as e: print("ERRORE", e)
+# "testa=<url>": intestazioni HTTP (cache-control, age, last-modified, etag...) e due richieste a distanza, per
+# misurare la cache di GitHub Pages o capire se una pagina dichiara quando è cambiata
+for u in [x[6:] for x in prove if x.startswith("testa=")]:
+    titolo("TESTA " + u)
+    try:
+        for i in range(2):
+            r = S.get(u, timeout=30, headers={"Cache-Control": "no-cache"} if i else {})
+            print(f"  richiesta {i + 1}: HTTP", r.status_code, "byte", len(r.content))
+            for k, v in r.headers.items():
+                if k.lower() in ("cache-control", "age", "last-modified", "etag", "expires", "date", "x-cache", "x-cache-hits",
+                                 "x-served-by", "via", "access-control-allow-origin", "content-type", "vary", "x-github-request-id",
+                                 "x-fastly-request-id", "server"):
+                    print("   ", k, ":", v)
+            time.sleep(2)
+    except Exception as e: print("ERRORE", e)
+# "giri=<url>|<n>|<secondi>": legge la stessa pagina n volte a distanza di <secondi> (minimo 60) e stampa per ogni
+# lettura l'ora, l'etag/last-modified e un'impronta del contenuto: dice dopo quanto un cambiamento si vede
+for x in [x[5:] for x in prove if x.startswith("giri=")]:
+    u, n, sec = (x.split("|") + ["3", "60"])[:3]
+    titolo("GIRI " + u)
+    import hashlib
+    for i in range(min(int(n), 15)):
+        try:
+            r = S.get(u, timeout=30)
+            print(time.strftime("%H:%M:%S"), r.status_code, r.headers.get("age"), r.headers.get("etag"),
+                  r.headers.get("last-modified"), hashlib.md5(r.content).hexdigest()[:10], flush=True)
+        except Exception as e: print("ERRORE", e)
+        if i + 1 < int(n): time.sleep(max(60, int(sec)))
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:
