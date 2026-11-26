@@ -25,17 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-gor-terza-categoria-d-47d8a75d@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:DOMIO 3-1 CALCIO PIERIS 1925 (Terza Categoria — girone D)
-DESCRIPTION:Terza Categoria — girone D\n6ª giornata\nDati non ufficiali:
-  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
- r-terza-categoria-d
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-prima-categoria-b-c1363b68@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -45,6 +34,17 @@ DESCRIPTION:Prima Categoria — girone B\n9ª giornata\nDati non ufficiali:
   fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
  ima-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-47d8a75d@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:DOMIO 3-1 CALCIO PIERIS 1925 (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-dbdd61d4@zuin-fvg
@@ -59,17 +59,6 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-gor-terza-categoria-d-0494b2e4@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:CAMPANELLE 2-1 DOMIO (Terza Categoria — girone D)
-DESCRIPTION:Terza Categoria — girone D\n7ª giornata\nDati non ufficiali:
-  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
- r-terza-categoria-d
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-prima-categoria-b-acf585c4@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261108
@@ -79,6 +68,17 @@ DESCRIPTION:Prima Categoria — girone B\n10ª giornata\nDati non ufficiali
  : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
  rima-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-0494b2e4@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CAMPANELLE 2-1 DOMIO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-a54490d7@zuin-fvg
@@ -93,17 +93,6 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-gor-terza-categoria-d-3ac346f6@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:DOMIO 8-0 MARIANO (Terza Categoria — girone D)
-DESCRIPTION:Terza Categoria — girone D\n8ª giornata\nDati non ufficiali:
-  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
- r-terza-categoria-d
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-prima-categoria-b-e78594d9@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261115
@@ -113,6 +102,17 @@ DESCRIPTION:Prima Categoria — girone B\n11ª giornata\nDati non ufficiali
  : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
  rima-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-3ac346f6@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:DOMIO 8-0 MARIANO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-89e4be77@zuin-fvg

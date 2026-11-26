@@ -25,6 +25,30 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-fc5fea10@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Schio 0-1 Cjarlins Muzane (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n10ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-d-9db48d9f@zuin-fvg
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:NUOVA PASIANESE ACADEMY 1-14 CJARLINS MUZANE (Under 14 provinciali 
+ — girone D)
+DESCRIPTION:Under 14 provinciali — girone D\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -d
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-ee2149cd@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -61,13 +85,24 @@ DESCRIPTION:Under 17 regionali — girone A\n9ª giornata\nDati non ufficia
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-udi-under-14-provinciali-d-9db48d9f@zuin-fvg
+UID:calcio-naz-serie-d-girone-c-727ddeac@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Cjarlins Muzane 0-0 Union Clodiense (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n11ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-d-feb8db93@zuin-fvg
 DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:NUOVA PASIANESE ACADEMY 1-14 CJARLINS MUZANE (Under 14 provinciali 
- — girone D)
-DESCRIPTION:Under 14 provinciali — girone D\n5ª giornata\nDati non uffic
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CJARLINS MUZANE 4-1 FORUM JULII CALCIO (Under 14 provinciali — gi
+ rone D)
+DESCRIPTION:Under 14 provinciali — girone D\n6ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
  io-udi-under-14-provinciali-d
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
@@ -109,17 +144,15 @@ DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-udi-under-14-provinciali-d-feb8db93@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:CJARLINS MUZANE 4-1 FORUM JULII CALCIO (Under 14 provinciali — gi
- rone D)
-DESCRIPTION:Under 14 provinciali — girone D\n6ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-udi-under-14-provinciali-d
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
- -d
+UID:calcio-naz-serie-d-girone-c-78862576@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Brian Lignano 0-2 Cjarlins Muzane (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n12ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-d-d0e37f64@zuin-fvg
@@ -168,6 +201,17 @@ DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-17-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-2f872fb4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Cjarlins Muzane 2-1 Luparense (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n13ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-758cd372@zuin-fvg
@@ -243,6 +287,17 @@ DESCRIPTION:Under 17 regionali — girone A\n14ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-3fddc594@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261129T143000
+DTEND;TZID=Europe/Rome:20261129T163000
+SUMMARY:Sandona – Cjarlins Muzane (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n14ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-8e2165c1@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20261206T103000
@@ -281,6 +336,17 @@ DESCRIPTION:Under 17 regionali — girone A\n15ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-4ca1d443@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261206T143000
+DTEND;TZID=Europe/Rome:20261206T163000
+SUMMARY:Cjarlins Muzane – Calvi Noale (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n15ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-a28157be@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20261213T103000
@@ -315,6 +381,17 @@ DESCRIPTION:Under 17 regionali — girone A\n16ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-17-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-fb8dcc15@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261213T143000
+DTEND;TZID=Europe/Rome:20261213T163000
+SUMMARY:Bassano – Cjarlins Muzane (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n16ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-ebba817b@zuin-fvg
@@ -356,6 +433,39 @@ DESCRIPTION:Under 15 regionali — girone A\n17ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-c106fcb3@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261220T143000
+DTEND;TZID=Europe/Rome:20261220T163000
+SUMMARY:Cjarlins Muzane – Altavilla (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n17ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-4544ca73@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Cjarlins Muzane – FC Obermais (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n18ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-ec888852@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Campodarsego – Cjarlins Muzane (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n19ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-7e4ef0aa@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270110T103000
@@ -395,6 +505,17 @@ DESCRIPTION:Under 17 regionali — girone A\n18ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-2fbba670@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Conegliano – Cjarlins Muzane (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n20ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-559c1756@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270117T103000
@@ -430,6 +551,17 @@ DESCRIPTION:Under 17 regionali — girone A\n19ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-17-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-f13e9e69@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Cjarlins Muzane – Este (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n21ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-f513a034@zuin-fvg
@@ -471,6 +603,17 @@ DESCRIPTION:Under 17 regionali — girone A\n20ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-84be4376@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Triestina – Cjarlins Muzane (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n22ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-3d83dbeb@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270131T103000
@@ -506,6 +649,17 @@ DESCRIPTION:Under 17 regionali — girone A\n21ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-17-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-ca78c50e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Cjarlins Muzane – LME (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n23ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-1a74521f@zuin-fvg
@@ -547,6 +701,17 @@ DESCRIPTION:Under 17 regionali — girone A\n22ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-a2fa9f10@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Legnago Salus – Cjarlins Muzane (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n24ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-f0e8e805@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270214T103000
@@ -586,6 +751,17 @@ DESCRIPTION:Under 17 regionali — girone A\n23ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-93521e9e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Cjarlins Muzane – Mestre (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n25ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-b9aa9483@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270221T103000
@@ -623,6 +799,17 @@ DESCRIPTION:Under 15 regionali — girone A\n24ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-15-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-bda1ff93@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Virtus Bolzano – Cjarlins Muzane (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n26ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-2038b254@zuin-fvg
@@ -676,6 +863,17 @@ DESCRIPTION:Under 17 regionali — girone A\n26ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-f6c440ea@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Cjarlins Muzane – Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n27ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-698a888a@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270314T103000
@@ -712,6 +910,17 @@ DESCRIPTION:Under 15 regionali — girone A\n27ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-15-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-f6aa4fe0@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:Union Clodiense – Cjarlins Muzane (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n28ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-2519092f@zuin-fvg
@@ -753,6 +962,28 @@ DESCRIPTION:Under 17 regionali — girone A\n28ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-8cc74550@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Cjarlins Muzane – Brian Lignano (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n29ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-08abd2cd@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Luparense – Cjarlins Muzane (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n30ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-cbef7c6c@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270404T103000
@@ -789,6 +1020,17 @@ DESCRIPTION:Under 17 regionali — girone A\n29ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-17-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-2420d8e7@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Cjarlins Muzane – Sandona (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n31ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-bd023ffc@zuin-fvg
@@ -829,6 +1071,17 @@ DESCRIPTION:Under 17 regionali — girone A\n30ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-78f4496e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Calvi Noale – Cjarlins Muzane (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n32ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-4d363ad0@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270418T100000
@@ -867,6 +1120,17 @@ DESCRIPTION:Under 17 regionali — girone A\n31ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-a199a81e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Cjarlins Muzane – Bassano (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n33ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-4727b728@zuin-fvg
 DTSTAMP:20261124T000000Z
 DTSTART;TZID=Europe/Rome:20270425T103000
@@ -903,6 +1167,17 @@ DESCRIPTION:Under 17 regionali — girone A\n32ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-17-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-77335852@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Altavilla – Cjarlins Muzane (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n34ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-6923e115@zuin-fvg

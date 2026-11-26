@@ -1,0 +1,387 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Udinese Calcio S.p.A.
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-b37639cc@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261028T183000
+DTEND;TZID=Europe/Rome:20261028T203000
+SUMMARY:Parma 0-0 Udinese (Serie A — girone unico)
+LOCATION:Ennio Tardini\, Parma
+DESCRIPTION:Serie A — girone unico\n9ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-526de5b2@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261031T180000
+DTEND;TZID=Europe/Rome:20261031T200000
+SUMMARY:Udinese 2-5 Roma (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n10ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-4dcd4054@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261106T204500
+DTEND;TZID=Europe/Rome:20261106T224500
+SUMMARY:Venezia 2-1 Udinese (Serie A — girone unico)
+LOCATION:Pier Luigi Penzo\, Venezia
+DESCRIPTION:Serie A — girone unico\n11ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-1d22426d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261122T150000
+DTEND;TZID=Europe/Rome:20261122T170000
+SUMMARY:Bologna 1-1 Udinese (Serie A — girone unico)
+LOCATION:Renato Dall'Ara\, Bologna
+DESCRIPTION:Serie A — girone unico\n12ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-4e4aa763@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261129T123000
+DTEND;TZID=Europe/Rome:20261129T143000
+SUMMARY:Udinese – Fiorentina (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n13ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-5ec95e93@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:Juventus – Udinese (Serie A — girone unico)
+LOCATION:Allianz Stadium\, Torino
+DESCRIPTION:Serie A — girone unico\n14ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-ec8f31e7@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261211T204500
+DTEND;TZID=Europe/Rome:20261211T224500
+SUMMARY:Udinese – Frosinone (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n15ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-e9f225d1@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261220T180000
+DTEND;TZID=Europe/Rome:20261220T200000
+SUMMARY:Genoa – Udinese (Serie A — girone unico)
+LOCATION:Luigi Ferraris\, Genova
+DESCRIPTION:Serie A — girone unico\n16ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-867147f2@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270103T150000
+DTEND;TZID=Europe/Rome:20270103T170000
+SUMMARY:Udinese – Atalanta (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n17ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-7a57ac6a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270107T183000
+DTEND;TZID=Europe/Rome:20270107T203000
+SUMMARY:Sassuolo – Udinese (Serie A — girone unico)
+LOCATION:Mapei Stadium\, Reggio Emilia
+DESCRIPTION:Serie A — girone unico\n18ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-23459d67@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270111T204500
+DTEND;TZID=Europe/Rome:20270111T224500
+SUMMARY:Udinese – Napoli (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n19ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-13c26a64@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Lecce – Udinese (Serie A — girone unico)
+LOCATION:Ettore Giardiniero - Via Del Mare\, Lecce
+DESCRIPTION:Serie A — girone unico\n20ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-7c8c7f7c@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Roma – Udinese (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n21ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-8a4b40d4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Udinese – Bologna (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n22ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-af1624fa@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Fiorentina – Udinese (Serie A — girone unico)
+LOCATION:Artemio Franchi\, Firenze
+DESCRIPTION:Serie A — girone unico\n23ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-06190080@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Udinese – Venezia (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n24ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-f1bec828@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Udinese – Parma (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n25ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-62809b60@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Cagliari – Udinese (Serie A — girone unico)
+LOCATION:Unipol Domus\, Cagliari
+DESCRIPTION:Serie A — girone unico\n26ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-ed413a25@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Udinese – Inter (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n27ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-cacd0a68@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Como – Udinese (Serie A — girone unico)
+LOCATION:Giuseppe Sinigaglia\, Como
+DESCRIPTION:Serie A — girone unico\n28ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-572e34e0@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:Udinese – Torino (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n29ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-a2f01da4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Frosinone – Udinese (Serie A — girone unico)
+LOCATION:Benito Stirpe\, Frosinone
+DESCRIPTION:Serie A — girone unico\n30ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-0e54eb51@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Udinese – Monza (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n31ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-f7e44c39@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Atalanta – Udinese (Serie A — girone unico)
+LOCATION:New Balance Arena\, Bergamo
+DESCRIPTION:Serie A — girone unico\n32ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-3758c39d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Napoli – Udinese (Serie A — girone unico)
+LOCATION:Diego Armando Maradona\, Napoli
+DESCRIPTION:Serie A — girone unico\n33ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-731adae5@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Udinese – Genoa (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n34ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-386e37bc@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Udinese – Juventus (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n35ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-e18f08ea@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:Lazio – Udinese (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n36ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-73e422fb@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:Udinese – Sassuolo (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n37ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-5bb6690a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:Milan – Udinese (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n38ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+END:VCALENDAR

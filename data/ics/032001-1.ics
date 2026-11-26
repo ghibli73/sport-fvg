@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:calcio-promozione-a-bae0a19d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:PRO CERVIGNANO RUDA 2-3 SISTIANA SESLJAN (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-gor-under-19-provinciali-a-239aa444@zuin-fvg
 DTSTAMP:20261119T000000Z
 DTSTART;VALUE=DATE:20261031
@@ -35,17 +46,6 @@ DESCRIPTION:Under 19 provinciali — girone A\n6ª giornata\nDati non uffic
  io-gor-under-19-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
  -a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-promozione-a-bae0a19d@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:PRO CERVIGNANO RUDA 2-3 SISTIANA SESLJAN (Promozione — girone A)
-DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
- ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
- one-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-19-provinciali-a-cd0bd867@zuin-fvg
