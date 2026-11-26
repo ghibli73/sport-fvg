@@ -80,6 +80,8 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
   - `scripts/nazionali_manuale.py`: gironi `auto: "agente"` da testo letto con la Sonda (Serie D girone C, fonte non ufficiale).
   - Workflow `.github/workflows/aggiorna-nazionali.yml`: ogni 2 ore ven-lun, una volta mar-gio, gruppo `aggiorna-dati`, push con 4 tentativi; input `opzioni` (`--prova`) e `silenzioso`.
   - Sonda fonti: modi `trova=`, `json=`, `nazionali=`. In app il nastro dei risultati mette le partite dei gironi `-naz-` dopo i preferiti (SHELL v20).
+- **Partite a settimane** — dalla 1.15.0 (prototipo, manuale: `pipeline/agenti/partite-settimana.md`).
+  - Risultati e calendario uniti nella vista "Partite" (lun–dom, Europe/Rome) in pagina girone, scheda società, Preferiti e sezione `#risultati` (voce rinominata "Partite"). Anticipi/recuperi dalla mediana delle date della giornata e da `data_prec`; rinviate = senza risultato da più di 7 giorni (o `rinviata`/`stato`/`note`), riquadro "Da recuperare". Nessun cambio ai dati né agli script; SHELL `sportfvg-shell-v25`.
 
 ## Registro
 (una riga per intervento: data — cosa — esito)
@@ -90,3 +92,4 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
 - 2026-11-26 — Agenda: 16 eventi manuali in config/agenda_manuale.json, finestra fino a fine maggio; data/agenda.json 94 eventi (sci 70, atletica 12, judo 4, scherma 2, ciclismo 2, vela 1, nuoto 1, bocce 1, altro 1).
 - 2026-11-26 — Tempo reale (1.13.1 beta, branch funzioni/tempo-reale): misure (cron in ritardo di 4–6 h, Pages 45 s, max-age 600, basket 4–5 giorni, calcio 3 giorni), giro rapido ogni 15 min, provvisori basket (fip.it) e calcio (Quadro gare LND), ricarica in app; prova giro: 90 s, 38 punteggi basket da omologare (40 gironi FIP su 49), calcio 30 gironi su 31 abbinati al Quadro gare LND e 47/47 gol uguali ai Comunicati, check OK.
 - 2026-11-26 — Campionati nazionali (1.13.1 beta, branch dati/nazionali): Serie A (Udinese) e SuperLega (Prata) automatiche dalle leghe; Serie D girone C (Triestina, Cjarlins Muzane, Brian Lignano, LME) manuale da betexplorer perché lnd.it vieta TDM e agenti AI; calcio a 5, volley B, pallanuoto ancora da caricare.
+- 2026-11-26 — Prototipo "Partite" a settimane (1.15.0 beta, branch design/partite-settimana, PR in bozza): axe-core 0 violazioni a 320/390/1280 px, schermate in design/screenshot/partite.
