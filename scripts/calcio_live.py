@@ -12,8 +12,11 @@ contiene nei dati della pagina (Inertia, attributo data-page) le partite della g
             senza risultato del Comunicato, salva i gol in config/live.json e li applica a data/risultati.json con
             "provvisorio": true (la classifica calcolata dell'app li somma e il girone ha "classifica_provvisoria");
             il risultato del Comunicato Ufficiale li sostituisce (scripts/calcio.py), e se è diverso vale il Comunicato.
+  --solo-scoperta  solo la scoperta, se serve (gironi senza abbinamento da più di 7 giorni o scoperta interrotta): la
+            chiama aggiorna-calcio.yml, fuori dalle fasce di gara
   --prova   non scrive config né data/risultati.json (risultato in /tmp/risultati_prova.json)
-Ritmo: 1,5 s tra le pagine; mai più di MAX_PAGINE pagine per esecuzione.
+Ritmo: 3 s tra le pagine (con 1,5 s il servizio dopo circa 25 pagine risponde con pagine vuote); al massimo MAX_PAGINE
+pagine per esecuzione; alla prima risposta vuota o d'errore la lettura si ferma e riprende al giro successivo.
 """
 import datetime as dt, html as H, json, os, re, sys, time
 import requests
@@ -24,8 +27,8 @@ RIS = os.path.join(ROOT, "data", "risultati.json")
 CFG = os.path.join(ROOT, "config", "calcio_lnd.json")
 BASE = "https://gare.lnd.it/"
 CR = "07"  # Comitato Regionale Friuli Venezia Giulia
-PAUSA = 1.5
-MAX_PAGINE = 60
+PAUSA = 3.0      # il Quadro gare rallenta dopo circa 25 pagine lette a 1,5 s: qui 3 s tra le pagine
+MAX_PAGINE = 40
 DURATA = 115  # minuti dall'inizio prima di cercare il risultato
 PROVA = "/tmp/risultati_prova.json"
 SALTA = re.compile(r"COPPA|ESORDIENTI|PULCINI|TORNEO|FASE|SUPERCOPPA|PRIMI CALCI|PICCOLI", re.I)
@@ -46,7 +49,14 @@ def pagina(params):
     m = re.search(r'data-page="app" type="application/json">(.*?)</script>', r.text, re.S) or re.search(r'data-page="([^"]+)"', r.text)
     if not m:
         raise ValueError("pagina senza dati (data-page)")
-    return json.loads(H.unescape(m.group(1))).get("props", {})
+    props = json.loads(H.unescape(m.group(1))).get("props", {})
+    if props.get("step") == "error" or (params.get("campionato") and not props.get("matchdays") and not props.get("standings")):
+        raise Rallentato(f"risposta vuota o d'errore ({props.get('step')}: {str(props.get('message') or '')[:120]})")
+    return props
+
+
+class Rallentato(Exception):
+    """Il Quadro gare non dà dati (troppe richieste o errore): ci si ferma fino al giro successivo."""
 
 
 def chiave(s):
@@ -91,12 +101,19 @@ def scopri(data, cfg):
               for c in props.get("championships") or [] for gr in c.get("groups") or [] if not SALTA.search(c.get("name", ""))]
     print(f"Quadro gare: {len(gironi)} gironi di campionato nel Comitato {CR}")
     nostri = {g["gid"]: {r["squadra"] for r in g.get("classifica") or []} for g in data if g.get("sport") in ("calcio", "calcio5")}
+    # solo i gironi del Quadro gare non ancora abbinati e solo per i gironi dell'app senza abbinamento
+    gia = {(v["campionato"], v["girone"]) for v in (cfg.get("gironi") or {}).values()}
+    nostri = {gid: n for gid, n in nostri.items() if gid not in (cfg.get("gironi") or {})}
+    gironi = [x for x in gironi if (x[0], x[1]) not in gia]
+    completa = True
     voti = {}
     for camp, gir, nome, deleg in gironi:
         if LETTE[0] >= MAX_PAGINE * 2:
             print("  limite di pagine raggiunto: il resto alla prossima scoperta"); break
         try:
             pr = pagina({"campionato": camp, "girone": gir})
+        except Rallentato as e:
+            print(f"  ! {camp}/{gir}: {e}: scoperta interrotta, riprende al prossimo giro"); completa = False; break
         except Exception as e:
             print(f"  ! {camp}/{gir}: {e}"); continue
         sq = squadre_props(pr)
@@ -131,7 +148,10 @@ def scopri(data, cfg):
             cfg["gironi"][gid] = {"campionato": camp, "girone": gir, "nome": nome.strip(), "delegazione": deleg, "uguali": ok,
                                   "giornate": GIORNATE.get((camp, gir), [])}
             print(f"  {gid} = {nome.strip()} ({deleg}, campionato {camp}, girone {gir}, {ok} squadre uguali)")
-    cfg["scoperta"] = dt.date.today().isoformat()
+    if completa:
+        cfg["scoperta"] = dt.date.today().isoformat()
+    else:
+        cfg["scoperta_parziale"] = dt.date.today().isoformat()
     print(f"gironi abbinati {len(cfg['gironi'])}; senza abbinamento: {sorted(set(nostri) - set(cfg['gironi']))}")
 
 
@@ -177,6 +197,8 @@ def leggi(data, cfg, live, oggi):
                 print("  limite di pagine raggiunto"); return nuovi
             try:
                 props = pagina({"campionato": p["campionato"], "girone": p["girone"], "giornata": n, "leg": leg})
+            except Rallentato as e:
+                print(f"  ! {gid} giornata {n} {leg}: {e}: lettura interrotta fino al prossimo giro"); return nuovi
             except Exception as e:
                 print(f"  ! {gid} giornata {gio}: {e}"); continue
             cm = props.get("currentMatchday") or {}
@@ -224,11 +246,18 @@ def main():
     cfg = json.load(open(CFG)) if os.path.exists(CFG) else {"gironi": {}}
     nostri = {g["gid"] for g in data if g.get("sport") in ("calcio", "calcio5")}
     vecchia = not cfg.get("scoperta") or (dt.date.fromisoformat(oggi) - dt.date.fromisoformat(cfg["scoperta"])).days >= 7
-    if "--scopri" in sys.argv or not cfg.get("scoperta") or (vecchia and nostri - set(cfg.get("gironi") or {})):
+    # la scoperta (circa 40 pagine) si fa nel workflow del calcio, fuori dalle fasce di gara (--solo-scoperta);
+    # il giro rapido la fa solo se non c'è ancora nessun abbinamento
+    serve = (vecchia and nostri - set(cfg.get("gironi") or {})) or cfg.get("scoperta_parziale", "") > cfg.get("scoperta", "")
+    if "--scopri" in sys.argv or not cfg.get("gironi") or ("--solo-scoperta" in sys.argv and serve):
         try:
             scopri(data, cfg)
         except Exception as e:
             print(f"scoperta dei gironi non riuscita ({e})")
+    if "--solo-scoperta" in sys.argv:
+        if prova:
+            print("@@LND@@" + json.dumps(cfg, ensure_ascii=False) + "@@LND@@"); return
+        json.dump(cfg, open(CFG, "w"), ensure_ascii=False, indent=1); return
     live = TR.carica_live()
     conf, div = TR.pulisci(data, live, oggi)
     print(f"provvisori confermati dal Comunicato: {conf}, diversi: {div}")

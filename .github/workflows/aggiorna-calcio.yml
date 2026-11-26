@@ -53,6 +53,10 @@ jobs:
         run: |
           EXTRA=""; if [ "$NOTTE" = "true" ]; then EXTRA=""; fi
           python scripts/calcio.py $OPZIONI $EXTRA
+      - name: Abbinamento dei gironi al Quadro gare LND (risultati in tempo reale, solo se serve)
+        run: |
+          if [ "$PROVA" = "true" ]; then python scripts/calcio_live.py --solo-scoperta --prova; else python scripts/calcio_live.py --solo-scoperta; fi
+        continue-on-error: true
       - name: Partite spostate (campo "variata") e rapporto
         run: python scripts/variazioni.py /tmp/risultati_prima.json "$OUT"
       - name: Controlli prima di pubblicare
