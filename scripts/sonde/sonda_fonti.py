@@ -354,6 +354,14 @@ for x in [x[12:] for x in prove if x.startswith("basketprova=")]:
     subprocess.run([sys.executable, "scripts/variazioni.py", "/tmp/risultati_prima.json", "/tmp/risultati_prova.json", "--prova"])
     r = subprocess.run([sys.executable, "scripts/risultati_tools.py", "check", "/tmp/risultati_prima.json", "/tmp/risultati_prova.json"])
     print("check:", "OK" if r.returncode == 0 else f"ERRORE {r.returncode}")
+# "volleyprova=<slug>[,--completo]": esegue scripts/volley.py --prova --solo <slug> e stampa il girone tra @@VOLLEY@@
+for x in [x[12:] for x in prove if x.startswith("volleyprova=")]:
+    import subprocess
+    slug, *ops = x.split(",")
+    titolo("PALLAVOLO (prova) " + x)
+    subprocess.run([sys.executable, "scripts/volley.py", "--prova", "--solo", slug, *ops])
+    G = [g for g in json.load(open("/tmp/risultati_prova.json")) if g.get("gid") == "pallavolo-" + slug]
+    print("@@VOLLEY@@" + json.dumps(G, ensure_ascii=False) + "@@VOLLEY@@")
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:
