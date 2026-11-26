@@ -505,6 +505,8 @@ def mod_fisr():
                 if not dd:
                     continue
                 tit, loc, spec = pulisci(tit), pulisci(loc), pulisci(spec)
+                if re.search(r"(?i)premiazion|assemblea|riunione|corso |esami|stage|raduno", tit):
+                    continue  # non sono gare
                 livello = ("internazionale" if re.search(r"internaz", tit, re.I) else
                            "nazionale" if re.search(r"italian|nazional", tit, re.I) else
                            "provinciale" if re.search(r"provincial", tit, re.I) else
