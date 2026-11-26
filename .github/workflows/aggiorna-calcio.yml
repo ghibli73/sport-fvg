@@ -20,8 +20,10 @@ on:
 permissions:
   contents: write
 
+# un gruppo per sport: pallavolo, basket, calcio e giro rapido non si annullano più a vicenda (prima un unico gruppo
+# "aggiorna-dati" faceva annullare le esecuzioni in coda); se due salvano insieme, scripts/salva_dati.sh unisce i gironi
 concurrency:
-  group: aggiorna-dati
+  group: aggiorna-calcio
   cancel-in-progress: false
 
 env:
@@ -39,6 +41,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
       - run: pip install -r requirements.txt
       - name: Copia dei dati attuali
         run: |
@@ -61,21 +64,13 @@ jobs:
         continue-on-error: true
         env:
           SILENZIOSO: ${{ github.event.inputs.silenzioso }}
-      - name: Calendari delle società (data/ics)
-        if: env.PROVA != 'true'
-        run: python scripts/ics.py
-        continue-on-error: true
-      - name: Widget per i siti (data/widget)
-        if: env.PROVA != 'true'
-        run: python scripts/widget_dati.py
-        continue-on-error: true
-      - name: Salva i dati aggiornati
+      - name: Calendari delle società (data/ics) e widget (data/widget), solo se i dati sono cambiati
         if: env.PROVA != 'true'
         run: |
-          if [ -z "$(git status --porcelain data/ config/)" ]; then echo "Nessuna novità"; exit 0; fi
-          git config user.name "sport-fvg-bot"
-          git config user.email "sport-fvg-bot@users.noreply.github.com"
-          git add data/ config/
-          git commit -m "Calcio: aggiornamento automatico $(date -u +'%Y-%m-%d %H:%M') UTC"
-          git pull --rebase origin main
-          git push
+          if cmp -s /tmp/risultati_prima.json data/risultati.json; then echo "dati invariati: ics e widget non rigenerati"; exit 0; fi
+          python scripts/ics.py || true
+          python scripts/widget_dati.py || true
+      - name: Salva i dati aggiornati (nessun commit se non ci sono novità; push con unione per girone)
+        if: env.PROVA != 'true'
+        run: |
+          bash scripts/salva_dati.sh "Calcio: aggiornamento automatico $(date -u +'%Y-%m-%d %H:%M') UTC" "calcio" data/ config/

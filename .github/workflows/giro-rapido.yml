@@ -1,0 +1,115 @@
+name: Giro rapido (risultati in tempo reale)
+
+# Manuale: pipeline/agenti/tempo-reale.md
+# Ogni 15 minuti nelle fasce di gara (ora italiana): sabato 15-23:30, domenica 15-21:30, lunedì-venerdì 20-23:30.
+# I cron sono in UTC e coprono sia l'ora solare sia l'ora legale; il primo passo controlla l'ora italiana e,
+# fuori fascia, chiude il giro in pochi secondi senza leggere nessun portale.
+# Legge: pallavolo (pagine settimanali dei risultati dei 4 portali FIPAV), basket (portale fip.it/risultati, punteggi
+# non ancora omologati), calcio (Quadro gare LND, risultati prima del Comunicato Ufficiale).
+on:
+  schedule:
+    - cron: "4,19,34,49 13-22 * * 6"     # sabato
+    - cron: "4,19,34,49 13-20 * * 0"     # domenica
+    - cron: "4,19,34,49 18-22 * * 1-5"   # dal lunedì al venerdì
+  workflow_dispatch:
+    # avviabile anche da un servizio esterno (es. cron-job.org) con un token a permessi minimi: vedi il manuale
+    inputs:
+      opzioni:
+        description: "--prova (nessun commit, avvisi solo stampati), --forza (anche fuori fascia), --solo pallavolo|basket|calcio"
+        required: false
+        default: ""
+      silenzioso:
+        description: "Non inviare gli avvisi ntfy"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: giro-rapido
+  cancel-in-progress: false
+
+env:
+  OPZIONI: ${{ github.event.inputs.opzioni }}
+
+jobs:
+  giro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - name: Fascia di gara?
+        id: fascia
+        run: |
+          # senza checkout: basta Python per l'ora italiana
+          case " $OPZIONI " in *" --prova "*|*" --forza "*) echo "lancio forzato"; echo "via=true" >> "$GITHUB_OUTPUT"; exit 0;; esac
+          if python3 -c "
+          import datetime as d, zoneinfo as z, sys
+          t = d.datetime.now(z.ZoneInfo('Europe/Rome')); hm = t.strftime('%H:%M')
+          a, b = {5: ('15:00', '23:45'), 6: ('15:00', '21:45')}.get(t.weekday(), ('20:00', '23:45'))
+          print('ora italiana', t.strftime('%a %H:%M')); sys.exit(0 if a <= hm <= b else 1)"; then
+            echo "via=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "fuori fascia: nessuna lettura"; echo "via=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.fascia.outputs.via == 'true'
+      - uses: actions/setup-python@v5
+        if: steps.fascia.outputs.via == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Dipendenze
+        if: steps.fascia.outputs.via == 'true'
+        run: pip install -r requirements.txt
+      - name: Copia dei dati attuali
+        if: steps.fascia.outputs.via == 'true'
+        run: |
+          cp data/risultati.json /tmp/risultati_prima.json
+          PROVA=false; case " $OPZIONI " in *" --prova "*) PROVA=true;; esac
+          SOLO=""; case " $OPZIONI " in *" --solo "*) SOLO=$(echo " $OPZIONI " | sed -E 's/.* --solo ([a-z]+).*/\1/');; esac
+          echo "PROVA=$PROVA" >> "$GITHUB_ENV"; echo "SOLO=$SOLO" >> "$GITHUB_ENV"
+      # in prova gli script lavorano sulla copia del runner (nessun commit): così i tre sport si sommano come nel giro vero
+      - name: Pallavolo (FIPAV, settimana corrente)
+        if: steps.fascia.outputs.via == 'true' && (env.SOLO == '' || env.SOLO == 'pallavolo')
+        run: python scripts/volley.py --rapido
+        continue-on-error: true
+      - name: Basket (portale FIP, da omologare)
+        if: steps.fascia.outputs.via == 'true' && (env.SOLO == '' || env.SOLO == 'basket')
+        run: python scripts/basket.py --rapido
+        continue-on-error: true
+      - name: Calcio (Quadro gare LND, prima del Comunicato)
+        if: steps.fascia.outputs.via == 'true' && (env.SOLO == '' || env.SOLO == 'calcio')
+        run: python scripts/calcio_live.py
+        continue-on-error: true
+      - name: Partite spostate e rapporto
+        if: steps.fascia.outputs.via == 'true'
+        run: python scripts/variazioni.py /tmp/risultati_prima.json data/risultati.json
+      - name: Controlli prima di pubblicare
+        if: steps.fascia.outputs.via == 'true'
+        run: python scripts/risultati_tools.py check /tmp/risultati_prima.json data/risultati.json
+      - name: Avvisi dei risultati (ntfy.sh)
+        if: steps.fascia.outputs.via == 'true'
+        run: |
+          if [ "$PROVA" = "true" ]; then python scripts/avvisi.py /tmp/risultati_prima.json data/risultati.json --prova
+          else python scripts/avvisi.py /tmp/risultati_prima.json data/risultati.json; fi
+        continue-on-error: true
+        env:
+          SILENZIOSO: ${{ github.event.inputs.silenzioso }}
+      - name: Calendari e widget (solo se i dati sono cambiati)
+        if: steps.fascia.outputs.via == 'true' && env.PROVA != 'true'
+        run: |
+          if cmp -s /tmp/risultati_prima.json data/risultati.json; then echo "dati invariati"; exit 0; fi
+          python scripts/ics.py || true
+          python scripts/widget_dati.py || true
+      - name: Prova - copia del risultato
+        if: steps.fascia.outputs.via == 'true' && env.PROVA == 'true'
+        run: |
+          cp data/risultati.json /tmp/risultati_prova.json
+          python scripts/tempo_reale.py stato pallavolo basket calcio
+          cat data/stato.json; git status --short | head -20
+      - name: Salva i dati aggiornati
+        if: steps.fascia.outputs.via == 'true' && env.PROVA != 'true'
+        run: |
+          bash scripts/salva_dati.sh "Giro rapido: risultati $(date -u +'%Y-%m-%d %H:%M') UTC" "pallavolo basket calcio" data/ config/

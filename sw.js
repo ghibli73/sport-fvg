@@ -1,5 +1,5 @@
 // Service worker: app shell in cache, dati sempre dalla rete se disponibile (così i risultati sono freschi), cache come riserva offline.
-const SHELL = 'sportfvg-shell-v19';
+const SHELL = 'sportfvg-shell-v20';
 const DATA = 'sportfvg-data';
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(SHELL).then(c => c.addAll(['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png'].map(u => new Request(u, {cache: 'reload'})))).then(() => self.skipWaiting()));
@@ -15,8 +15,10 @@ self.addEventListener('fetch', e => {
   // Sui siti terzi il service worker non è attivo; qui vale per widget.html e per l'app: lo gestisce il browser.
   if (url.pathname.endsWith('/widget.js')) return;
   if (url.pathname.includes('/data/')) {
-    e.respondWith(fetch(e.request).then(r => { const c = r.clone(); caches.open(DATA).then(x => x.put(e.request, c)); return r; })
-      .catch(() => caches.match(e.request)));
+    // chiave senza parametri: data/stato.json?t=... e data/risultati.json?v=<impronta> (1.13.1) tengono una sola copia
+    const key = url.origin + url.pathname;
+    e.respondWith(fetch(e.request).then(r => { if (r.ok) { const c = r.clone(); caches.open(DATA).then(x => x.put(key, c)); } return r; })
+      .catch(() => caches.match(key)));
   } else {
     e.respondWith(caches.match(e.request).then(m => m || fetch(e.request)));
   }

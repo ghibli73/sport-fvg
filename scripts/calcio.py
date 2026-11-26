@@ -16,6 +16,7 @@ import io, json, os, re, sys, time, datetime as dt, unicodedata
 import requests
 from abbinamenti import applica_comuni  # scripts/abbinamenti.py
 import calcio_calendari as CAL
+import tempo_reale as TR  # scripts/tempo_reale.py
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RIS = os.path.join(ROOT, "data", "risultati.json")
@@ -355,8 +356,8 @@ def main():
             com = "Regionale" if "Regionale" in g["comitato"] else g["comitato"].rsplit(" ", 1)[-1]
             k = [com, classifica_cat(canon_cat(m.group(1))), m.group(2)]
             for p in g["partite"]:
-                if not re.fullmatch(r"\d+-\d+", p.get("risultato") or ""):
-                    continue
+                if not re.fullmatch(r"\d+-\d+", p.get("risultato") or "") or p.get("provvisorio"):
+                    continue  # i risultati provvisori (Quadro gare LND) non sono una fonte del Comunicato
                 a, b = map(int, p["risultato"].split("-"))
                 gare[(tuple(k), (p["giornata"], "A"), chiave(p["casa"]), chiave(p["ospite"]))] = {
                     "k": k, "giornata": p["giornata"], "ar": "A", "data": p.get("data") or "", "casa": p["casa"],
@@ -460,6 +461,8 @@ def main():
             n["partite"] += [p for p in o.get("partite", []) if not p.get("risultato") and (p.get("giornata") or 0) > n["giornata"]]
         tenuti.append(n)
     applica_comuni(tenuti)  # comune delle squadre senza id (config/squadre_comune.json)
+    # risultati del Quadro gare LND non ancora nel Comunicato (giro rapido): restano "provvisorio" finché il CU non li riporta
+    print("provvisori applicati:", TR.applica(tenuti, solo_sport={"calcio", "calcio5"}))
     if prova:
         json.dump(tenuti, open(PROVA, "w"), ensure_ascii=False, separators=(",", ":"))
         print("prova: config e data/risultati.json non modificati, risultato in", PROVA); return

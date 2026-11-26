@@ -18,11 +18,18 @@ Uso:  python scripts/volley.py            (aggiorna data/risultati.json)
       python scripts/volley.py --solo <slug>
       python scripts/volley.py --completo (calendario completo: tutte le settimane con gare)
       python scripts/volley.py --prova    (non tocca data/risultati.json: scrive /tmp/risultati_prova.json)
+      python scripts/volley.py --rapido   (giro rapido delle fasce di gara, vedi pipeline/agenti/tempo-reale.md: solo le
+                                           pagine settimanali dei risultati, settimana corrente e, il lunedì e il martedì,
+                                           la precedente; la classifica si rilegge solo nei gironi con risultati nuovi)
+Classifica provvisoria: se la classifica ufficiale non conta ancora tutte le gare con risultato (il portale aggiorna la
+classifica dopo i risultati), le gare mancanti vengono sommate alla classifica ufficiale (3-0/3-1: 3 punti, 3-2: 2 e 1)
+e il girone riceve "classifica_provvisoria": true, finché la classifica ufficiale non le conta.
 """
 import json, os, re, sys, time, datetime as dt
 import requests
 from abbinamenti import applica_comuni  # scripts/abbinamenti.py
 from bs4 import BeautifulSoup
+import tempo_reale as TR  # scripts/tempo_reale.py
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RIS = os.path.join(ROOT, "data", "risultati.json")
@@ -173,7 +180,10 @@ def gare_comitato(cfg, oggi, dump, completo):
     if chiave in _comitati:
         return _comitati[chiave]
     out, vuote, lette = [], 0, 0
-    settimane = range(-1, MAX_SETTIMANE + 1) if completo else (-1, 0, 1)
+    if completo == "rapido":
+        settimane = (-1, 0) if oggi.weekday() <= 1 else (0,)  # al massimo 2 pagine per comitato
+    else:
+        settimane = range(-1, MAX_SETTIMANE + 1) if completo else (-1, 0, 1)
     for k in settimane:
         try:
             gare = parse_gare(get(url_settimana(cfg, lunedi(oggi) + dt.timedelta(days=7 * k)), dump))
@@ -183,23 +193,64 @@ def gare_comitato(cfg, oggi, dump, completo):
             continue
         out += gare
         vuote = 0 if gare else vuote + 1
-        if completo and k > 1 and vuote >= SETTIMANE_VUOTE:
+        if completo is True and k > 1 and vuote >= SETTIMANE_VUOTE:
             break
     print(f"   [{cfg['host']} {cfg['pid']}] pagine lette {lette}, gare {len(out)}")
     _comitati[chiave] = out
     return out
 
 
+def classifica_provvisoria(g):
+    """Se la classifica ufficiale conta meno gare di quelle con risultato, somma le gare mancanti (le più recenti) e
+    segna "classifica_provvisoria". Lo fa solo se i conti tornano squadra per squadra; altrimenti lascia l'ufficiale."""
+    g.pop("classifica_provvisoria", None)
+    cl = g.get("classifica") or []
+    giocate = [p for p in g.get("partite") or [] if RX_RIS.match(p.get("risultato") or "")]
+    k_manc = len(giocate) - sum(r.get("g") or 0 for r in cl) // 2
+    if k_manc <= 0 or not cl:
+        return 0
+    manca = {key(r["squadra"]): -(r.get("g") or 0) for r in cl}
+    for p in giocate:
+        for t in (key(p["casa"]), key(p["ospite"])):
+            if t not in manca:
+                return 0
+            manca[t] += 1
+    if any(v < 0 for v in manca.values()) or sum(manca.values()) != 2 * k_manc:
+        return 0
+    scelte = []
+    for p in sorted(giocate, key=lambda m: (m.get("data") or "", m.get("ora") or ""), reverse=True):
+        a, b = key(p["casa"]), key(p["ospite"])
+        if manca[a] > 0 and manca[b] > 0:
+            scelte.append(p); manca[a] -= 1; manca[b] -= 1
+        if len(scelte) == k_manc:
+            break
+    if len(scelte) != k_manc or any(manca.values()):
+        return 0
+    for p in scelte:
+        TR.somma_partita(g, p, p["risultato"])
+    TR.riordina(g)
+    g["classifica_provvisoria"] = True
+    return k_manc
+
+
 def aggiorna(g, cfg, oggi, dump, completo=False):
-    cl = parse_classifica(get(f"https://{cfg['host']}/classifica.aspx?CId={cfg['cid']}", dump))
-    if not cl:
-        return "classifica non letta: girone invariato"
-    if len(cl) < len(g.get("classifica") or []):
-        return f"classifica con meno squadre ({len(cl)} < {len(g['classifica'])}): girone invariato"
+    rapido = completo == "rapido"
     alias = {key(k): v for k, v in (cfg.get("alias") or {}).items()}
-    nomi = {key(r["squadra"]) for r in cl}
-    for r in cl:
-        r["id"] = alias.get(key(r["squadra"]))
+    if rapido:
+        # giro rapido: prima le gare, la classifica solo se ci sono risultati nuovi
+        cl = None
+        nomi = {key(r["squadra"]) for r in g.get("classifica") or []}
+        if not nomi:
+            return "ok: girone senza classifica, saltato nel giro rapido"
+    else:
+        cl = parse_classifica(get(f"https://{cfg['host']}/classifica.aspx?CId={cfg['cid']}", dump))
+        if not cl:
+            return "classifica non letta: girone invariato"
+        if len(cl) < len(g.get("classifica") or []):
+            return f"classifica con meno squadre ({len(cl)} < {len(g['classifica'])}): girone invariato"
+        nomi = {key(r["squadra"]) for r in cl}
+        for r in cl:
+            r["id"] = alias.get(key(r["squadra"]))
     # gare delle settimane lette (vedi gare_comitato)
     nuove = []
     if cfg.get("pid"):
@@ -214,6 +265,7 @@ def aggiorna(g, cfg, oggi, dump, completo=False):
     per_num = {str(m["gara"]): m for m in old if m.get("gara")}
     giorn_max = max([m.get("giornata") or 0 for m in old] + [0])
     settimane = {}
+    ris_nuovi = 0
     for x in sorted(nuove, key=lambda m: (m["data"], m["ora"])):
         k2 = (key(x["casa"]), key(x["ospite"]))
         # prima per numero gara (una gara spostata resta la stessa gara), poi per squadre
@@ -238,22 +290,43 @@ def aggiorna(g, cfg, oggi, dump, completo=False):
             m["giornata"] = x["giornata"]  # la giornata scritta dal portale prevale su quella ricostruita
         if x["num"]:
             m["gara"] = x["num"]
+        if x["risultato"] and x["risultato"] != m.get("risultato"):
+            ris_nuovi += 1
         m.update({"data": x["data"], "ora": x["ora"], "casa": x["casa"], "ospite": x["ospite"],
                   "id_casa": alias.get(k2[0]), "id_ospite": alias.get(k2[1]),
                   "risultato": x["risultato"] or m.get("risultato", ""), "parziali": x["parziali"] or m.get("parziali", ""),
                   "campo": x["campo"] or m.get("campo", "")})
+    if rapido:
+        if not ris_nuovi:
+            return "ok: nessun risultato nuovo"
+        try:
+            cl = parse_classifica(get(f"https://{cfg['host']}/classifica.aspx?CId={cfg['cid']}", dump))
+        except Exception as e:
+            print(f"   ! classifica {cfg['slug']}: {e}"); cl = None
+        if not cl or len(cl) < len(g.get("classifica") or []):
+            # classifica non letta: si tiene la precedente (ufficiale, senza le somme provvisorie di prima)
+            cl = g.get("classifica_ufficiale") or g.get("classifica") or []
+            cl = [dict(r) for r in cl]
+        for r in cl:
+            r["id"] = alias.get(key(r["squadra"]), r.get("id"))
     g["classifica"] = cl
     g["partite"] = sorted(old, key=lambda m: (m.get("giornata") or 0, m.get("data") or "", m.get("ora") or ""))
     giocate = [m.get("giornata") or 0 for m in g["partite"] if m.get("risultato")]
     g["giornata"] = max(giocate) if giocate else g.get("giornata")
     g["aggiornato"] = oggi.isoformat()
     g["calcolata"] = False
-    return f"ok: {len(cl)} squadre, {len(nuove)} gare lette"
+    g["classifica_ufficiale"] = [dict(r) for r in cl]
+    somme = classifica_provvisoria(g)
+    if not somme:
+        g.pop("classifica_ufficiale", None)  # serve solo quando la classifica in app è provvisoria
+    return f"ok: {len(cl)} squadre, {len(nuove)} gare lette, {ris_nuovi} risultati nuovi" + (f", classifica provvisoria (+{somme} gare)" if somme else "")
 
 
 def main():
     dump = "--dump" in sys.argv
     completo, prova = "--completo" in sys.argv, "--prova" in sys.argv
+    if "--rapido" in sys.argv:
+        completo = "rapido"
     solo = sys.argv[sys.argv.index("--solo") + 1] if "--solo" in sys.argv else None
     oggi = dt.date.today()
     data = json.load(open(RIS))
