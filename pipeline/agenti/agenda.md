@@ -21,10 +21,12 @@ Ruolo: tiene aggiornata l'agenda delle gare e manifestazioni degli sport individ
 
 Il workflow `.github/workflows/aggiorna-agenda.yml` gira ogni giorno alle 3:17 UTC (gruppo di concorrenza `aggiorna-dati`), committa `data/` come gli altri; lancio manuale con `opzioni` (`--prova`, `--debug`, `--solo fidal,fisi`). Nelle pull request che toccano lo script gira da solo in `--prova`. Se un modulo va in errore o non trova niente mentre prima aveva eventi, restano quelli già presenti (avviso nel log).
 
-Prova dal proprio branch senza workflow sul main: `Sonda fonti` con `prove=agenda=--debug` (opzioni separate da virgola) oppure `prove=agendajson` (rigenera e stampa il JSON tra `@@INIZIO_AGENDA@@` e `@@FINE_AGENDA@@`). Altri modi della sonda per esplorare una pagina: `grezzo=<url>`, `cercah=<regex>@@<url>`, `da=<regex>@@<url>`; nell'URL `~` sta per `&`, nella regex `,,` per `|` e `LT` per `<`.
+Prova dal proprio branch senza workflow sul main: `Sonda fonti` con `prove=agenda=--debug` (opzioni separate da virgola) oppure `prove=agendajson` (rigenera e stampa il JSON tra `@@INIZIO_AGENDA@@` e `@@FINE_AGENDA@@`). Altri modi della sonda per esplorare una pagina: `grezzo=<url>`, `cercah=<regex>@@<url>`, `da=<regex>@@<url>`, `date=<url>` (testo attorno alle date 2026/2027 e link a pagine evento), `testo2=<regex>@@<url>` (testo senza tag da un punto); nell'URL `~` sta per `&`, nella regex `,,` per `|` e `LT` per `<`.
 
 ## Fonti manuali (config/agenda_manuale.json, controllo mensile)
-Al 25/11/2026 il file è vuoto: il giro di ricerca si è fermato per il limite d'uso. Fonti da controllare ogni mese:
+Al 26/11/2026 il file contiene 16 eventi verificati: trail e corse non FIDAL (gotrail.run, finishers.com, turismofvg.it), judo (PAR FIJLKAM FVG n.3: Campionati Italiani A1 a Lignano), scherma (PDF delle prove GPG sul sito Federscherma FVG, trovati con `wp-json/wp/v2/media`), nuoto (natatoria.com, "Prossime manifestazioni"), vela e pesistica (lignanosabbiadoro.it/eventi), Giro d'Italia 2027 (Grande Partenza a Trieste l'8 maggio, tappa Pordenone–Zoncolan il 29 maggio, da ilnordest.it). Le gare non federali hanno livello "promozionale".
+Non trovati: pugilato e kickboxing, ciclocross (il PDF FCI dei campionati regionali non si scarica fuori dal browser), triathlon (fitri.it risponde 503), orienteering in FVG, tennistavolo e tennis (tornei 2027 non ancora pubblicati), ginnastica, danza, canottaggio (canottaggio.org chiede l'accesso all'API), tiro.
+Fonti da controllare ogni mese:
 - Pugilato e kickboxing: comitato FPI FVG (nessun calendario pubblico trovato), federkombat.it (sezione FVG).
 - Ciclocross: federciclismo.it, PDF "campionati regionali e top class regionali ciclocross 2026 2027" (download/5469/calendari-ciclocross) e comunicati FCI FVG (download/5797).
 - Sci di fondo, scialpinismo: PDF "CALENDARIO-FONDO-FVG-AAAA-AA" sul sito FISI FVG (di solito a dicembre; il modulo `fisi` lo legge da solo se il nome contiene la stagione).
