@@ -25,19 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-dr3-ud-1be47d86@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20261026T193000
-DTEND;TZID=Europe/Rome:20261026T213000
-SUMMARY:POL. DIL. TRICESIMO 'C' 71-77 LIBERTAS GONARS 'B' (Divisione Region
- ale 3 — girone UD)
-LOCATION:Palestra Comunale\, Tricesimo
-DESCRIPTION:Divisione Regionale 3 — girone UD\n2ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-dr3-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u15-regionale-ud-140ec49a@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;VALUE=DATE:20261029
@@ -304,19 +291,6 @@ DESCRIPTION:Divisione Regionale 1 — girone Est\n8ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr1-est
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u19-regionale-ud-109357e2@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261125T190000
-DTEND;TZID=Europe/Rome:20261125T210000
-SUMMARY:MAJANESE – LIBERTAS GONARS (Under 19 Maschile Regionale — giron
- e UD (prima fase))
-LOCATION:Centro Studi\, Majano
-DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n4ª gio
- rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
- .io/sport-fvg/#g-basket-u19-regionale-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-ud-b-79b0fa65@zuin-fvg
