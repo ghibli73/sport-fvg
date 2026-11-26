@@ -344,6 +344,42 @@ for x in [x[8:] for x in prove if x.startswith("fipscan=")]:
             if gare or link:
                 print(gir, "fase", f, "gare", len(gare), "giornate", sorted(link.get((f, str(gir)), set())), "|",
                       "; ".join(f"{g[0]} {g[1]} - {g[2]} {g[3]} [{g[5]}]" for g in gare)[:900], flush=True)
+# "fipdiag=<slug,...|tutti>[@<giorni>]": per i gironi abbinati in config/basket_fip.json legge sul portale fip.it/risultati
+# le giornate con gare passate (ultimi <giorni>, predefinito 21) senza risultato e confronta config e portale per numero
+# gara: data, squadre, punteggio letto da fip_punteggi e testo grezzo prima della gara (per capire perché manca)
+for x in [x[8:] for x in prove if x.startswith("fipdiag=")]:
+    sys.path.insert(0, "scripts")
+    import basket as BK, glob as _gl, datetime as _dt
+    sl, _, gg = x.partition("@")
+    fip = json.load(open("config/basket_fip.json"))["gironi"]
+    oggi = _dt.date.today().isoformat(); da = (_dt.date.today() - _dt.timedelta(days=int(gg or 21))).isoformat()
+    titolo(f"FIPDIAG {sl} da {da}")
+    for f in sorted(_gl.glob("config/basket/*.json")):
+        s = json.load(open(f))
+        if s.get("minibasket") or (sl != "tutti" and s["slug"] not in sl.split(",")):
+            continue
+        p = fip.get(s["slug"])
+        att = [g for g in s["gare"] if (not g[7] or BK.pari(g[7])) and da <= (g[2] or "") < oggi]
+        if not p:
+            print(f"\n## {s['slug']}: NON abbinato al portale ({len(att)} gare passate senza risultato)"); continue
+        print(f"\n## {s['slug']}: {p.get('codice_campionato')} girone {p.get('codice_girone')} andata {p.get('andata')}, "
+              f"{len(att)} gare passate senza risultato", flush=True)
+        q = {k: v for k, v in p.items() if k not in ("andata", "nome", "uguali")}
+        for gio in sorted({g[1] for g in att}):
+            ar, n = (1, gio) if gio <= p["andata"] else (0, gio - p["andata"])
+            try:
+                h = BK.fip_get({**q, "codice_ar": ar, "giornata": n})
+            except Exception as e:
+                print("  giornata", gio, "ERRORE", e); continue
+            t = BK.fip_testo(h); gare = {g[0]: g for g in BK.fip_gare(h)}; punti = BK.fip_punteggi(h)
+            print(f"  giornata {gio} (ar {ar} n {n}): portale {len(gare)} gare, {len(punti)} punteggi; numeri {sorted(gare)}")
+            for g in [g for g in att if g[1] == gio]:
+                pg = gare.get(g[0])
+                print(f"   gara {g[0]} cfg {g[2]} {g[3]} {g[4]} - {g[5]} | portale: "
+                      + (f"{pg[3]} {pg[4]} {pg[1]} - {pg[2]} punti {punti.get(g[0])}" if pg else "ASSENTE"))
+                m = re.search(r"\b0*%d\b" % g[0], t)
+                if m:
+                    print("     |", t[max(0, m.start() - 260):m.start() + 120])
 # "basketprova=<opzioni separate da virgola>": esegue scripts/basket.py --prova --mostra-minibasket con le opzioni
 # (es. basketprova=--scopri-minibasket,--completo) e i controlli; stampa i gironi minibasket tra @@MINI@@
 for x in [x[12:] for x in prove if x.startswith("basketprova=")]:
