@@ -1,0 +1,53 @@
+{
+ "_nota": "Gironi nazionali aggiornati da scripts/nazionali.py. alias: nome della squadra sulla fonte -> id di data/data.json (solo società FVG). Manuale: pipeline/agenti/nazionali.md",
+ "serie_a": {
+  "gid": "calcio-naz-serie-a",
+  "stagione": "2026/27",
+  "season_id": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+  "alias": {
+   "Udinese": "030129-1"
+  }
+ },
+ "manuali": {
+  "serie_d_c": {
+   "gid": "calcio-naz-serie-d-girone-c",
+   "sport": "calcio",
+   "girone": "Serie D — girone C",
+   "stagione": "2026/27",
+   "squadre": 18,
+   "comitato": "LND Dipartimento Interregionale (nazionale)",
+   "fonte": "Fonte NON ufficiale: https://www.betexplorer.com/football/italy/serie-d-group-c/results/ e /fixtures/ (composizione del girone: LND, agosto 2026). La fonte ufficiale lnd.it riserva il text and data mining e vieta gli agenti AI nel robots.txt: non è letta.",
+   "nota": "classifica calcolata dai risultati (3-1-0, poi differenza e gol fatti): eventuali penalizzazioni non sono considerate. Orari solo per le partite fino a dicembre.",
+   "ora_fino_a": "2026-12-31",
+   "alias": {
+    "Triestina": "032006-1",
+    "Cjarlins Muzane": "030018-1",
+    "Brian Lignano": "030049-1",
+    "LME": "030062-1"
+   }
+  }
+ },
+ "superlega": {
+  "gid": "pallavolo-naz-superlega",
+  "girone": "SuperLega (Serie A1 maschile) — regular season",
+  "stagione": "2026/27",
+  "squadre": 12,
+  "id_campionato": 999,
+  "alias": {
+   "Tinet Prata di Pordenone": "093034-1"
+  }
+ },
+ "alias_gironi": {
+  "_nota": "id delle squadre FVG nei gironi 'agente' aggiornati a mano: applicati a ogni esecuzione di nazionali.py",
+  "basket-naz-serie-a": {
+   "Trieste": "032006-21",
+   "Udine": "030129-15"
+  },
+  "basket-naz-serie-a2": {
+   "Cividale": "030026-1"
+  },
+  "pallavolo-naz-a1-femminile": {
+   "Talmassons": "030114-1"
+  }
+ }
+}

@@ -1,0 +1,84 @@
+name: Aggiorna nazionali
+
+on:
+  schedule:
+    # giorni di gara (ven-lun): ogni 2 ore dalle 12 alle 24 ora italiana; altri giorni: una volta (orari UTC)
+    - cron: "37 11-23/2 * * 5,6,0,1"
+    - cron: "37 22 * * 2-4"
+  workflow_dispatch:
+    inputs:
+      opzioni:
+        description: "Opzioni per scripts/nazionali.py (es. --prova, --solo serie_a)"
+        required: false
+        default: ""
+      silenzioso:
+        description: "Non inviare gli avvisi ntfy (risultati e partite spostate)"
+        type: boolean
+        required: false
+        default: false
+  pull_request:
+    paths:
+      - "scripts/nazionali.py"
+      - "config/nazionali.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aggiorna-dati
+  cancel-in-progress: false
+
+env:
+  # --prova: nessun file del repository viene modificato, nessun commit, avvisi solo stampati
+  OPZIONI: ${{ github.event_name == 'pull_request' && '--prova' || github.event.inputs.opzioni }}
+
+jobs:
+  nazionali:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Copia dei dati attuali
+        run: |
+          cp data/risultati.json /tmp/risultati_prima.json
+          OUT=data/risultati.json; PROVA=false
+          case " $OPZIONI " in *" --prova "*) OUT=/tmp/risultati_prova.json; PROVA=true;; esac
+          echo "OUT=$OUT" >> "$GITHUB_ENV"; echo "PROVA=$PROVA" >> "$GITHUB_ENV"
+      - name: Leghe nazionali (Serie A e altre fonti ufficiali)
+        run: python scripts/nazionali.py $OPZIONI
+      - name: Partite spostate (campo "variata") e rapporto
+        run: python scripts/variazioni.py /tmp/risultati_prima.json "$OUT"
+      - name: Controlli prima di pubblicare
+        run: python scripts/risultati_tools.py check /tmp/risultati_prima.json "$OUT"
+      - name: Avvisi dei risultati e delle partite spostate (ntfy.sh)
+        run: |
+          if [ "$PROVA" = "true" ]; then python scripts/avvisi.py /tmp/risultati_prima.json "$OUT" --prova
+          else python scripts/avvisi.py /tmp/risultati_prima.json "$OUT"; fi
+        continue-on-error: true
+        env:
+          SILENZIOSO: ${{ github.event.inputs.silenzioso }}
+      - name: Calendari delle società (data/ics)
+        if: env.PROVA != 'true'
+        run: python scripts/ics.py
+        continue-on-error: true
+      - name: Widget per i siti (data/widget)
+        if: env.PROVA != 'true'
+        run: python scripts/widget_dati.py
+        continue-on-error: true
+      - name: Salva i dati aggiornati
+        if: env.PROVA != 'true'
+        run: |
+          if [ -z "$(git status --porcelain data/ config/)" ]; then echo "Nessuna novità"; exit 0; fi
+          git config user.name "sport-fvg-bot"
+          git config user.email "sport-fvg-bot@users.noreply.github.com"
+          git add data/ config/
+          git commit -m "Nazionali: aggiornamento automatico $(date -u +'%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3 4; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push && exit 0
+            echo "push non riuscito, nuovo tentativo tra $((i*15)) s"; sleep $((i*15))
+          done
+          exit 1

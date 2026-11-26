@@ -293,6 +293,38 @@ for x in [x[5:] for x in prove if x.startswith("giro=")]:
         try: print("@@" + f + "@@" + open(f).read().replace("\n", " ") + "@@")
         except OSError: print(f, "assente")
     print(f"durata totale del giro: {time.time() - t0:.0f} s")
+# "trova=<regex>@@<url>": tutte le corrispondenze distinte della regex nel testo grezzo (al massimo 120), "~" per "&", ",," per "|"
+for x in [x[6:] for x in prove if x.startswith("trova=")]:
+    rx, u = x.split("@@", 1); u = u.replace("~", "&"); rx = rx.replace(",,", "|").replace("LT", "<"); titolo("TROVA " + rx + " IN " + u)
+    try:
+        r = S.get(u, timeout=40); print("HTTP", r.status_code, "byte", len(r.content))
+        vis = []
+        for m in re.finditer(rx, r.text, re.I | re.S):
+            v = m.group(0)[:400]
+            if v not in vis: vis.append(v)
+        print("trovate:", len(vis)); print("\n".join("   | " + v for v in vis[:120]))
+    except Exception as e: print("ERRORE", e)
+# "json=<url>[@@<n>]": risposta JSON (o testo) grezza, prime n battute (predefinito 8000), "~" per "&"
+for x in [x[5:] for x in prove if x.startswith("json=")]:
+    u, _, n = x.partition("@@"); u = u.replace("~", "&"); titolo("JSON " + u)
+    try:
+        r = S.get(u, timeout=40, headers={"Accept": "application/json, text/plain, */*"})
+        print("HTTP", r.status_code, "byte", len(r.content), "tipo", r.headers.get("content-type"))
+        print(r.text[:int(n or 8000)])
+    except Exception as e: print("ERRORE", e)
+# "nazionali=<opzioni>": esegue scripts/nazionali.py in prova (opzioni separate da virgola) e i controlli dei workflow
+for x in [x[10:] for x in prove if x.startswith("nazionali=")]:
+    import subprocess, shutil
+    titolo("NAZIONALI " + x)
+    ops = [o for o in x.split(",") if o]
+    if "--prova" not in ops: ops.append("--prova")
+    shutil.copy("data/risultati.json", "/tmp/risultati_prima.json")
+    subprocess.run([sys.executable, "scripts/nazionali.py", *ops])
+    subprocess.run([sys.executable, "scripts/variazioni.py", "/tmp/risultati_prima.json", "/tmp/risultati_prova.json", "--prova"])
+    subprocess.run([sys.executable, "scripts/risultati_tools.py", "check", "/tmp/risultati_prima.json", "/tmp/risultati_prova.json"])
+    if "--json" in x or True:
+        G = [g for g in json.load(open("/tmp/risultati_prova.json")) if g.get("auto") == "naz"]
+        print("@@INIZIO_NAZ@@"); print(json.dumps(G, ensure_ascii=False)); print("@@FINE_NAZ@@")
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:
