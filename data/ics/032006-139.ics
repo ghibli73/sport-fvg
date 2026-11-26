@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Monritz Team Sport A.S.D.
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-femminile-41df5d41@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T211500
+DTEND;TZID=Europe/Rome:20261102T231500
+SUMMARY:MONRITZ TEAM SPORT 55-70 APU NEXT GEN (Under 19 Femminile Regionale
+  — girone unico)
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n1ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-cb1da5d0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T193000
+DTEND;TZID=Europe/Rome:20261110T213000
+SUMMARY:FUTUROSA BASKET TRIESTE 103-37 MONRITZ TEAM SPORT (Under 19 Femmini
+ le Regionale — girone unico)
+LOCATION:Palestra "B" - Pala "C. Rubini"\, Trieste
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n2ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-fb4e76ac@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T190000
+DTEND;TZID=Europe/Rome:20261116T210000
+SUMMARY:PALL. INTERCLUB MUGGIA 59-36 MONRITZ TEAM SPORT (Under 19 Femminile
+  Regionale — girone unico)
+LOCATION:Palestra Comunale "G. Pacco"\, Muggia
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n3ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-875e3122@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261202T193000
+DTEND;TZID=Europe/Rome:20261202T213000
+SUMMARY:DINAMO GORIZIA – MONRITZ TEAM SPORT (Under 19 Femminile Regionale
+  — girone unico)
+LOCATION:Centro "Stella Matutina"\, Gorizia
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n5ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-ecb29d1d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261208T200000
+DTEND;TZID=Europe/Rome:20261208T220000
+SUMMARY:APU NEXT GEN – MONRITZ TEAM SPORT (Under 19 Femminile Regionale 
+ — girone unico)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n6ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-bfbfb02b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261214T211500
+DTEND;TZID=Europe/Rome:20261214T231500
+SUMMARY:MONRITZ TEAM SPORT – FUTUROSA BASKET TRIESTE (Under 19 Femminile 
+ Regionale — girone unico)
+LOCATION:Palestra Comunale Di San Giova\, Trieste
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n7ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-e753628d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270111T190000
+DTEND;TZID=Europe/Rome:20270111T210000
+SUMMARY:SISTEMA ROSA PALL. – MONRITZ TEAM SPORT (Under 19 Femminile Regio
+ nale — girone unico)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n9ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-femminile-56281be2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270118T211500
+DTEND;TZID=Europe/Rome:20270118T231500
+SUMMARY:MONRITZ TEAM SPORT – DINAMO GORIZIA (Under 19 Femminile Regionale
+  — girone unico)
+LOCATION:Palestra Comunale Di San Giova\, Trieste
+DESCRIPTION:Under 19 Femminile Regionale — girone unico\n10ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-basket-u19-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-femminile
+END:VEVENT
+END:VCALENDAR

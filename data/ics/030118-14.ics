@@ -1,0 +1,248 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. Pallacanestro Feletto
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-ud-a-2b498979@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T191500
+DTEND;TZID=Europe/Rome:20261102T211500
+SUMMARY:PALLACANESTRO FELETTO 26-51 COLLINARE BASKET (Under 13 Maschile —
+  girone UD A)
+LOCATION:Pal. Sc. Media Feletto Umberto\, Tavagnacco
+DESCRIPTION:Under 13 Maschile — girone UD A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-7798b87b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T093000
+DTEND;TZID=Europe/Rome:20261108T113000
+SUMMARY:Scuola Basket Miky Mian 55-44 PALLACANESTRO FELETTO (Under 13 Masch
+ ile — girone UD A)
+LOCATION:Palestra Ist. "F. Tomadini"\, Udine
+DESCRIPTION:Under 13 Maschile — girone UD A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-3e57a4f5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T113000
+DTEND;TZID=Europe/Rome:20261115T133000
+SUMMARY:PALL. CODROIPESE 'A' 71-25 PALLACANESTRO FELETTO (Under 13 Maschile
+  — girone UD A)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 13 Maschile — girone UD A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-46befa40@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261130T191500
+DTEND;TZID=Europe/Rome:20261130T211500
+SUMMARY:PALLACANESTRO FELETTO – BASKET PERTEOLE (Under 13 Maschile — gi
+ rone UD A)
+LOCATION:Tavagnacco - (Udine)
+DESCRIPTION:Under 13 Maschile — girone UD A\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-050568a5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261206T093000
+DTEND;TZID=Europe/Rome:20261206T113000
+SUMMARY:PALL. CODROIPESE '2015' – PALLACANESTRO FELETTO (Under 13 Maschil
+ e — girone UD A)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 13 Maschile — girone UD A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-c5d4ce3f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261214T191500
+DTEND;TZID=Europe/Rome:20261214T211500
+SUMMARY:PALLACANESTRO FELETTO – SPORT SYSTEM (Under 13 Maschile — giron
+ e UD A)
+LOCATION:Tavagnacco - (Udine)
+DESCRIPTION:Under 13 Maschile — girone UD A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-249a4dc7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261220T113000
+DTEND;TZID=Europe/Rome:20261220T133000
+SUMMARY:OLYMPIA RIVIGNANO – PALLACANESTRO FELETTO (Under 13 Maschile — 
+ girone UD A)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 13 Maschile — girone UD A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-cb925417@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270111T191500
+DTEND;TZID=Europe/Rome:20270111T211500
+SUMMARY:PALLACANESTRO FELETTO – POZZUOLO BASKET (Under 13 Maschile — gi
+ rone UD A)
+LOCATION:Tavagnacco - (Udine)
+DESCRIPTION:Under 13 Maschile — girone UD A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-d7043b3d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270114T183000
+DTEND;TZID=Europe/Rome:20270114T203000
+SUMMARY:COLLINARE BASKET – PALLACANESTRO FELETTO (Under 13 Maschile — g
+ irone UD A)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Under 13 Maschile — girone UD A\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-707621d7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270125T191500
+DTEND;TZID=Europe/Rome:20270125T211500
+SUMMARY:PALLACANESTRO FELETTO – Scuola Basket Miky Mian (Under 13 Maschil
+ e — girone UD A)
+LOCATION:Tavagnacco - (Udine)
+DESCRIPTION:Under 13 Maschile — girone UD A\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-0666901f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270201T191500
+DTEND;TZID=Europe/Rome:20270201T211500
+SUMMARY:PALLACANESTRO FELETTO – PALL. CODROIPESE 'A' (Under 13 Maschile 
+ — girone UD A)
+LOCATION:Tavagnacco - (Udine)
+DESCRIPTION:Under 13 Maschile — girone UD A\n12ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-81a2de58@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270205T174500
+DTEND;TZID=Europe/Rome:20270205T194500
+SUMMARY:UDINE BASKET CLUB – PALLACANESTRO FELETTO (Under 13 Maschile — 
+ girone UD A)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Under 13 Maschile — girone UD A\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-8063bd14@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270213T153000
+DTEND;TZID=Europe/Rome:20270213T173000
+SUMMARY:BASKET PERTEOLE – PALLACANESTRO FELETTO (Under 13 Maschile — gi
+ rone UD A)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Under 13 Maschile — girone UD A\n14ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-01cb91c6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270222T191500
+DTEND;TZID=Europe/Rome:20270222T211500
+SUMMARY:PALLACANESTRO FELETTO – PALL. CODROIPESE '2015' (Under 13 Maschil
+ e — girone UD A)
+LOCATION:Tavagnacco - (Udine)
+DESCRIPTION:Under 13 Maschile — girone UD A\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-c4f52bb1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270227T160000
+DTEND;TZID=Europe/Rome:20270227T180000
+SUMMARY:SPORT SYSTEM – PALLACANESTRO FELETTO (Under 13 Maschile — giron
+ e UD A)
+LOCATION:Palestra Comunale\, Mortegliano
+DESCRIPTION:Under 13 Maschile — girone UD A\n16ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-dc98b023@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270308T191500
+DTEND;TZID=Europe/Rome:20270308T211500
+SUMMARY:PALLACANESTRO FELETTO – OLYMPIA RIVIGNANO (Under 13 Maschile — 
+ girone UD A)
+LOCATION:Tavagnacco - (Udine)
+DESCRIPTION:Under 13 Maschile — girone UD A\n17ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-a12a647f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270313T163000
+DTEND;TZID=Europe/Rome:20270313T183000
+SUMMARY:POZZUOLO BASKET – PALLACANESTRO FELETTO (Under 13 Maschile — gi
+ rone UD A)
+LOCATION:Polisportivo Comunale\, Pozzuolo Del Friuli
+DESCRIPTION:Under 13 Maschile — girone UD A\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+END:VCALENDAR

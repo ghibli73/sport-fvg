@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Zuin Sport in FVG//IT
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Zuìn · Fidema Group Ronchi
+X-WR-CALNAME:Zuìn · Ronchi Basket Club (Fidema Group Ronchi)
 X-WR-TIMEZONE:Europe/Rome
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
@@ -25,6 +25,44 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-9ef5c75b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:NAUTILUS ALLESTIMENTI 48-51 O.F.P. AZZURRA R.D.R. Basket (Under 15 
+ Maschile Regionale — girone GO/TS)
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-a9c47ee0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261028T201500
+DTEND;TZID=Europe/Rome:20261028T221500
+SUMMARY:Fly Solartech Icarus 79-46 Ronchi Basket Club (Under 19 Maschile Go
+ ld — girone B)
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone B\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-8bf8cfa1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T163000
+DTEND;TZID=Europe/Rome:20261031T183000
+SUMMARY:Nautilus Allestimenti 53-59 Pall. Interclub Muggia (Under 14 Maschi
+ le Gold — girone A (prima fase))
+LOCATION:Palestra Polifunzionale\, Ronchi dei Legionari
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-serie-c-girone-d-c0f1895f@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261031T200000
@@ -36,6 +74,19 @@ DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati
  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
  g/#g-basket-serie-c-girone-d
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-bd122831@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T193000
+DTEND;TZID=Europe/Rome:20261102T213000
+SUMMARY:Ronchi Basket Club 60-88 Basket Pasiano (Under 19 Maschile Gold —
+  girone B)
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 19 Maschile Gold — girone B\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-serie-c-girone-d-57f432d1@zuin-fvg
@@ -51,6 +102,44 @@ DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u14-gold-a-21857a0e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T163000
+DTEND;TZID=Europe/Rome:20261107T183000
+SUMMARY:Udine Basket Club 86-52 Nautilus Allestimenti (Under 14 Maschile Go
+ ld — girone A (prima fase))
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-546a8316@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:NAUTILUS ALLESTIMENTI 66-56 A.S.A.R.-A.S. AM.ROMANS (Under 15 Masch
+ ile Regionale — girone GO/TS)
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-716d2755@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T163000
+DTEND;TZID=Europe/Rome:20261114T183000
+SUMMARY:Nautilus Allestimenti 44-83 Pall. Portogruaro (Under 14 Maschile Go
+ ld — girone A (prima fase))
+LOCATION:Palestra Polifunzionale\, Ronchi dei Legionari
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-serie-c-girone-d-97e4ea6d@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261114T200000
@@ -62,6 +151,43 @@ DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati
  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
  g/#g-basket-serie-c-girone-d
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-a5343644@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:NAUTILUS ALLESTIMENTI 55-64 US ALBA PALLACANESTRO (Under 15 Maschil
+ e Regionale — girone GO/TS)
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-cbfec349@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T210000
+DTEND;TZID=Europe/Rome:20261116T230000
+SUMMARY:Pol. Casarsa 94-62 Ronchi Basket Club (Under 19 Maschile Gold — g
+ irone B)
+LOCATION:Palasport 'Palarosa'\, Casarsa della Delizia
+DESCRIPTION:Under 19 Maschile Gold — girone B\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-625220f8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:NAUTILUS ALLESTIMENTI 61-78 U.S. GORIZIANA (Under 15 Maschile Regio
+ nale — girone GO/TS)
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-serie-c-girone-d-0bbc5c29@zuin-fvg
@@ -77,6 +203,19 @@ DESCRIPTION:Serie C maschile — girone D (prima fase)\n9ª giornata\nDati
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u14-gold-a-49ec7d39@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261128T163000
+DTEND;TZID=Europe/Rome:20261128T183000
+SUMMARY:Nautilus Allestimenti – O.F.P. Azzurra R.D.R. Basket Trieste (Und
+ er 14 Maschile Gold — girone A (prima fase))
+LOCATION:Palestra Polifunzionale 'O. Pe\, Ronchi Dei Legionari
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n6ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-serie-c-girone-d-eb20c3cd@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261128T200000
@@ -90,6 +229,19 @@ DESCRIPTION:Serie C maschile — girone D (prima fase)\n10ª giornata\nDati
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u14-gold-a-37db1b88@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261205T180000
+DTEND;TZID=Europe/Rome:20261205T200000
+SUMMARY:Pall. Interclub Muggia – Nautilus Allestimenti (Under 14 Maschile
+  Gold — girone A (prima fase))
+LOCATION:Palestra Comunale 'G. Pacco'\, Muggia
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n7ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-serie-c-girone-d-5b187086@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261205T190000
@@ -101,6 +253,19 @@ DESCRIPTION:Serie C maschile — girone D (prima fase)\n11ª giornata\nDati
   non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
  vg/#g-basket-serie-c-girone-d
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-44a6bc05@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261212T163000
+DTEND;TZID=Europe/Rome:20261212T183000
+SUMMARY:Nautilus Allestimenti – Udine Basket Club (Under 14 Maschile Gold
+  — girone A (prima fase))
+LOCATION:Palestra Polifunzionale 'O. Pe\, Ronchi Dei Legionari
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n8ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-serie-c-girone-d-f3afc319@zuin-fvg
@@ -127,6 +292,32 @@ DESCRIPTION:Serie C maschile — girone D (prima fase)\n13ª giornata\nDati
   non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
  vg/#g-basket-serie-c-girone-d
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-dbe5b823@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261219T163000
+DTEND;TZID=Europe/Rome:20261219T183000
+SUMMARY:Pall. Portogruaro – Nautilus Allestimenti (Under 14 Maschile Gold
+  — girone A (prima fase))
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n9ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-57f1ca0e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T153000
+DTEND;TZID=Europe/Rome:20270109T173000
+SUMMARY:Nautilus Allestimenti – Vis Spilimbergo (Under 14 Maschile Gold 
+ — girone A (prima fase))
+LOCATION:Palestra Polifunzionale 'O. Pe\, Ronchi Dei Legionari
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n10ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-serie-c-girone-d-96fa0968@zuin-fvg
