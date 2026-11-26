@@ -342,6 +342,101 @@ a.gstar{color:var(--ink);text-decoration:none}.act.wide{grid-column:1/-1}
 @media(min-width:760px){.inst{bottom:16px;left:auto;right:16px;width:440px}}
 @media(prefers-reduced-motion:no-preference){.inst:not([hidden]){animation:up .25s ease-out}}
 .icard .ios{grid-template-columns:minmax(0,1fr) 112px}
+/* agenda eventi (sport individuali) */
+.ar{display:grid;grid-template-columns:52px minmax(0,1fr) 18px;gap:12px;align-items:center;width:100%;text-align:left;border:0;border-top:1px solid var(--line);background:none;padding:10px 14px;min-height:64px;color:inherit}
+.ar:first-child{border-top:0}.ar>svg{width:18px;height:18px;color:var(--mute)}
+.ard{display:grid;place-items:center;align-content:center;width:52px;height:52px;border-radius:12px;background:var(--soft);line-height:1.05;text-align:center}
+.ard b{font:800 21px var(--fc);color:var(--acc)}.ard small{font-size:12px;font-weight:700;color:var(--mute);text-transform:uppercase;letter-spacing:.3px}
+.ard.lg{background:var(--blue)}.ard.lg b{color:var(--gold)}.ard.lg small{color:#c9d6ea}
+.art b{display:block;font-weight:700;font-size:15px;line-height:1.25;overflow-wrap:anywhere}
+.art small{display:block;color:var(--mute);font-size:13px;line-height:1.45;margin-top:2px}
+.art small svg{display:inline-block;width:16px;height:16px;color:var(--acc);vertical-align:-3px;margin-right:4px}
+.hrh .lnk{white-space:nowrap}
+.art .km{font-weight:700;color:var(--acc)}
+.lv{display:inline-block;font-size:12px;font-weight:700;border-radius:6px;padding:0 6px;background:var(--soft);color:var(--ink)}
+.lv.internazionale{background:#fde9b0;color:#5c4200}.lv.nazionale{background:#d9e6f7;color:#123a6b}
+@media(hover:hover){.ar:hover{background:var(--soft)}}
+.agf{padding:14px 16px}.agf .chips{margin-top:0}.agf .chips+.chips{margin-top:8px}
+.agr{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:end;margin-top:10px}
+.agl{display:block;font-size:13px;font-weight:700;color:var(--mute);margin:0 0 4px}
+.ags{width:100%;min-height:44px;font:16px var(--f);border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:6px 10px}
+.agn{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg);font-weight:700;color:var(--ink);white-space:nowrap}
+.agn svg{width:20px;height:20px;color:var(--acc)}.agn[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:#fff}.agn[aria-pressed=true] svg{color:var(--gold)}
+.wk{border:2px solid var(--gold);box-shadow:0 2px 12px rgba(18,58,107,.12)}
+.wk .rhh h3 svg{fill:none}
+.agm{margin:18px 2px 8px;font:700 18px var(--fc);display:flex;align-items:baseline;gap:8px}.agm span{font:500 14px var(--f);color:var(--mute)}
+.agsp{margin-top:14px}.agsp .grp{margin-top:0}
+.agsp .grp .lnk{margin-left:auto;font-size:15px}
+.evh{background:var(--blue);color:#fff;border-radius:16px;padding:14px 16px;margin-bottom:12px}
+.evh small{color:#c9d6ea;font-size:13px;font-weight:600}.evh b{display:block;font:700 21px/1.2 var(--fc);margin-top:2px}.evh span{display:block;color:#e6edf7;font-size:15px;margin-top:4px}
+.nota{font-size:13px;color:var(--mute);margin:10px 2px 0;line-height:1.45}
+
+/* ===== home 1.13 (variante B definitiva) ===== */
+.ib.lens{display:none}[data-home=b] .ib.lens{display:grid}[data-home=b] .brand .ib.lens{margin-left:auto}[data-home=b] .brand .ib.lens+.ib{margin-left:4px}
+.hp main{padding-top:10px}
+/* nastro */
+.tkr{display:flex;align-items:stretch;margin:0 -14px 12px;background:#0c2b52;color:#fff;border-block:1px solid rgba(255,255,255,.08)}
+.tkh{display:flex;align-items:center;gap:2px;padding:0 4px 0 12px;background:#123a6b;flex:none;box-shadow:6px 0 10px -4px rgba(0,0,0,.35);z-index:1}
+.tkl{font:800 15px var(--fc);letter-spacing:.6px;text-transform:uppercase;color:var(--gold);margin:0}
+.tkp{display:grid;place-items:center;width:44px;height:44px;border:0;border-radius:50%;background:none;color:#fff}.tkp svg{width:18px;height:18px}
+.tkv{position:relative;flex:1;overflow:hidden;min-width:0}
+.tkm{display:flex;width:max-content}.tkg{display:flex;list-style:none;margin:0;padding:0}
+.tk{position:relative;display:flex;align-items:center;gap:8px;min-height:48px;padding:0 16px 0 10px;border:0;border-right:1px solid rgba(255,255,255,.12);background:none;color:#fff;font:600 15px var(--f);white-space:nowrap}
+.tki{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--c);box-shadow:0 0 0 2px rgba(255,255,255,.25)}.tki svg{width:18px;height:18px}
+.tkt b{font:800 17px var(--fc);color:var(--gold);margin:0 2px}
+.tk:focus-visible{outline:3px solid var(--gold);outline-offset:-3px}
+@media(prefers-reduced-motion:no-preference){.tkm{animation:tkr var(--d,60s) linear infinite}.tkr.paused .tkm,.tkr.hold .tkm,.tkv:hover .tkm,.tkv:focus-within .tkm{animation-play-state:paused}}
+@keyframes tkr{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.tkv{overflow-x:auto;scrollbar-width:thin}.tkg[aria-hidden]{display:none}.tkp{display:none}}
+/* Le tue squadre compatto */
+.hf{margin-bottom:12px}.hf .hrh{margin:0 2px 6px;flex-wrap:wrap;row-gap:0}.hf .hrh h2{font-size:20px}
+.fm{display:grid;gap:2px;width:100%;text-align:left;border:0;border-top:1px solid var(--line);background:none;padding:8px 14px;min-height:56px}.fm:first-child{border-top:0}
+.fmt{display:flex;align-items:baseline;gap:8px}.fmt b{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:15px}
+.fmp{font:800 19px var(--fc);color:var(--acc);white-space:nowrap}.fmp small{font:600 13px var(--f);color:var(--mute)}
+.fml{display:flex;align-items:center;gap:8px;font-size:14px;min-width:0}.fml .es{min-width:24px;height:24px;font-size:14px}.fms{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.fms strong{color:var(--acc)}
+.hinv{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px}
+.hinv h2{font-size:18px;font-weight:800;margin:0}.hinv p{margin:2px 0 0;color:var(--mute);font-size:14px;line-height:1.35}
+.hst{display:grid;place-items:center;flex:none;width:44px;height:44px;border-radius:50%;background:var(--soft)}.hst svg{width:24px;height:24px;color:var(--gold);fill:var(--gold)}
+/* ruota delle sezioni */
+.wh{margin:2px 0 6px}.whw{position:relative;width:100%;max-width:420px;margin:0 auto;aspect-ratio:360/192}
+.whs{position:absolute;inset:0;width:100%;height:100%}.wp{cursor:pointer;transform-origin:180px 186px}
+.whl{position:absolute;left:50%;bottom:2px;width:17.8%;height:auto;aspect-ratio:1;transform:translateX(-50%);border-radius:50%}
+.wb{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;width:18%;min-width:56px;min-height:56px;padding:4px 0;border:0;border-radius:12px;background:none;color:#fff;font:700 13px var(--f)}
+.wb svg{width:24px;height:24px}.wb:focus-visible{outline:3px solid var(--gold);outline-offset:1px;background:rgba(0,0,0,.2)}
+@media(max-width:259px){.brand h1 small{display:none}[data-home=b] .ib.lens{display:none}.nav{grid-template-columns:repeat(5,minmax(0,1fr))}.nb svg{width:32px;padding:3px 4px}.nb{min-width:0;font-size:0;gap:0}.whb{grid-template-columns:repeat(2,1fr)!important}}
+@media(max-width:339px){.whs,.whl{display:none}.whw{aspect-ratio:auto}.whb{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.wb{position:static;transform:none;width:auto;min-width:0;min-height:64px;background:var(--c);border-radius:14px;padding:8px 2px;font-size:14px}}
+/* carosello degli sport */
+.spk{margin-top:10px}.spk .hrh{margin-bottom:6px}.spk h2{font-size:22px;font-weight:800}.spn{font:700 14px var(--f);color:var(--mute);background:var(--soft);border-radius:99px;padding:3px 10px;font-variant-numeric:tabular-nums}
+.spw{position:relative}
+.spr{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -14px;padding:4px 14px 10px;list-style:none;scrollbar-width:none;scroll-padding-inline:14px}.spr::-webkit-scrollbar{display:none}
+.spi{flex:0 0 calc((100% - 28px - 20px)/2.5);scroll-snap-align:start}
+.spc2{position:relative;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;gap:2px;width:100%;height:132px;padding:12px;border:0;border-radius:18px;background:var(--c);color:#fff;text-align:left;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.16)}
+.spc2::before{content:"";position:absolute;right:-26px;top:-26px;width:96px;height:96px;border-radius:50%;background:rgba(255,255,255,.14)}
+.spic{position:absolute;right:10px;top:10px;display:grid;place-items:center;width:48px;height:48px}.spic svg{width:44px;height:44px}
+.spc2 b{font:800 18px/1.1 var(--fc)}.spc2 small{font-size:13px;color:#fff}
+.spc2.all{background:var(--blue)}
+.spc2:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.spa{display:none}
+@media(hover:hover) and (pointer:fine){.spa{display:grid;place-items:center;position:absolute;top:50%;left:-6px;transform:translateY(-60%);width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--acc);box-shadow:0 2px 8px rgba(0,0,0,.18);z-index:2}.spa.r{left:auto;right:-6px}.spa svg{width:20px;height:20px}}
+.spbar{height:4px;border-radius:9px;background:var(--soft);margin:0 2px;overflow:hidden}.spbar i{display:block;height:100%;background:var(--gold);border-radius:9px}
+.socs{margin:0 2px 10px;width:max-content}
+@media(min-width:760px){.tkr{margin:0 0 14px;border-radius:14px;overflow:hidden}.spi{flex-basis:180px}.spr{margin:0;padding:4px 0 10px}}
+/* animazioni d'ingresso (< 400 ms), mai con "riduci movimento" */
+@media(prefers-reduced-motion:no-preference){
+ .hp .wp{animation:whin .26s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--i)*20ms)}
+ .hp .wb{animation:whfade .18s ease-out both;animation-delay:calc(150ms + var(--i)*20ms)}
+ .hp .spc2{animation:spin .22s ease-out both;animation-delay:calc(var(--i)*35ms)}
+ .spr{scroll-behavior:smooth}
+}
+@keyframes whin{from{transform:rotate(-60deg) scale(.6);opacity:0}to{transform:none;opacity:1}}
+@keyframes whfade{from{opacity:0}to{opacity:1}}
+@keyframes spin{from{transform:translateX(24px);opacity:0}to{transform:none;opacity:1}}
+.intro{position:fixed;inset:0;z-index:100;background:var(--blue);display:grid;place-items:center;animation:ifade .95s linear forwards;pointer-events:none}
+.iw{position:relative;width:200px;height:200px;display:grid;place-items:center}.iw img{position:relative;width:104px;height:104px;border-radius:50%;animation:ipop .8s ease-out both}
+.isp{position:absolute;inset:0;border-radius:50%;background:conic-gradient(from -30deg,#f2b705 0 60deg,transparent 60deg 360deg);-webkit-mask:radial-gradient(circle,transparent 52px,#000 53px);mask:radial-gradient(circle,transparent 52px,#000 53px);animation:ispin .7s cubic-bezier(.15,.7,.2,1) both}
+@keyframes ispin{from{transform:rotate(-540deg);filter:hue-rotate(0)}to{transform:rotate(0);filter:hue-rotate(360deg)}}
+@keyframes ipop{0%,55%{transform:scale(.7)}80%{transform:scale(1.08)}100%{transform:scale(1)}}
+@keyframes ifade{0%,80%{opacity:1}100%{opacity:0}}
 </style></head>
 <body>
 <header class="top">
@@ -351,7 +446,7 @@ a.gstar{color:var(--ink);text-decoration:none}.act.wide{grid-column:1/-1}
 <nav class="dtabs" aria-label="Sezioni">
 <button class="dtab" data-v="comuni">Comuni</button><button class="dtab" data-v="societa">Società</button><button class="dtab" data-v="risultati">Risultati</button><button class="dtab" data-v="sport">Sport</button><button class="dtab" data-v="preferiti">Preferiti</button><button class="dtab" data-v="info">Info</button>
 </nav>
-<span class="cov" id="cov"></span><button class="ib" data-v="info" aria-label="Informazioni"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg></button>
+<span class="cov" id="cov"></span><button class="ib lens" data-lens aria-label="Cerca una società o un comune"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button><button class="ib" data-v="info" aria-label="Informazioni"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg></button>
 </div>
 <div class="sbox" id="sbox">
 <svg class="mag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
@@ -434,7 +529,7 @@ function filters(){
 const sp=sport?`<button class="pill" data-s="" aria-pressed="true" aria-label="Togli il filtro ${esc(NAMES[sport])}">${ico(sport)}${esc(NAMES[sport])}<span class="x" aria-hidden="true">×</span></button>`:`<button class="pill sp" data-go="sport"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Scegli sport</button>`;
 $('frow').innerHTML=sp+'<span class="sep"></span>'+[['','Tutta la regione'],...Object.entries(PROV)].map(([k,v])=>`<button class="pill" data-p="${k}" aria-pressed="${k===prov}">${v}</button>`).join('');
 }
-function nav(){document.querySelectorAll('.nb,.dtab').forEach(b=>b.setAttribute('aria-current',b.dataset.v===(girone?'risultati':comune||view==='mappa'?'comuni':view)))}
+function nav(){const cur=girone?'risultati':HOME?(comune?'societa':view==='mappa'?'':view==='agenda'?'sport':view):(comune||view==='mappa'?'comuni':view==='agenda'?'sport':view);document.querySelectorAll('.nb,.dtab').forEach(b=>b.setAttribute('aria-current',b.dataset.v===cur))}
 function homeRis(){
 const fc=FAV.c.map(id=>C.find(x=>x.id===id)).filter(Boolean);const T=[];fc.forEach(c=>{const t=squadreRis(c)[0];if(t)T.push(t)});
 if(T.length)return `<section class="hr" aria-labelledby="hrT"><div class="hrh"><h2 id="hrT">${STAR}Le tue squadre</h2><button class="lnk" data-go="preferiti">Preferiti${CHEV}</button></div><div class="list">${T.slice(0,3).map(t=>teamRow(t,'data-gg',true)).join('')}</div><button class="more pri" data-go="risultati">${LIVE}Tutti i risultati e le classifiche</button></section>`;
@@ -444,11 +539,67 @@ L=L.filter(o=>o.x.data>=ls).sort((a,b)=>cidx(a.g.categoria)-cidx(b.g.categoria)|
 const seen=new Set(),bySp={};L.forEach(o=>{if(seen.has(o.g.gid))return;seen.add(o.g.gid);(bySp[o.g.sport]=bySp[o.g.sport]||[]).push(o)});
 const sps=Object.keys(bySp).sort((a,b)=>(a==='calcio'?-1:b==='calcio'?1:bySp[b].length-bySp[a].length));const P=[];for(let i=0;P.length<4&&i<4;i++)sps.forEach(k=>{if(P.length<4&&bySp[k][i])P.push(bySp[k][i])});
 return `<section class="hr" aria-labelledby="hrT"><div class="hrh"><h2 id="hrT">${LIVE}Ultimi risultati</h2><span class="small">fino al ${esc(dt(mx))}</span></div><div class="list">${P.map(({g,x})=>`<button class="mr" data-gg="${g.gid}"><span class="ico" aria-hidden="true">${ico(g.sport)}</span><span class="mrt"><span class="mrs">${esc(x.casa)} <b class="rs">${esc(x.risultato)}</b> ${esc(x.ospite)}</span><small>${esc(g.girone)} · ${esc(dt(x.data))}</small></span>${CHEV}</button>`).join('')}</div><button class="more pri" data-go="risultati">${LIVE}Tutti i risultati e le classifiche</button></section>`}
-function vComuni(m){
+
+/* ===== HOME 1.13: nastro dei risultati, Le tue squadre, ruota delle sezioni, carosello degli sport.
+   ?home=classica riporta per qualche settimana alla vecchia home (elenco dei comuni); ?home=nuova torna a questa ===== */
+const HOME=(()=>{try{const q=new URLSearchParams(location.search).get('home');if(q!=null)st.set('home',q==='classica'?'classica':'')}catch(e){}return st.get('home')==='classica'?'':'b'})();
+const RMOT=()=>{try{return matchMedia('(prefers-reduced-motion: reduce)').matches}catch(e){return false}};
+/* colori a ruota cromatica: tinta per indice, luminosità scelta per avere almeno 4,6:1 con il bianco */
+function hsl2rgb(h,s,l){const a=s*Math.min(l,1-l),f=n=>{const k=(n+h/30)%12;return l-a*Math.max(-1,Math.min(k-3,9-k,1))};return[f(0),f(8),f(4)]}
+const lum=([r,g,b])=>{const f=c=>c<=.03928?c/12.92:((c+.055)/1.055)**2.4;return .2126*f(r)+.7152*f(g)+.0722*f(b)};
+function ruota(i,n,off=210){const h=Math.round((off+i*360/n)%360);let l=.48;while(l>.2&&1.05/(lum(hsl2rgb(h,.62,l))+.05)<4.6)l-=.01;return `hsl(${h} 62% ${Math.round(l*100)}%)`}
+const LENS='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>';
+const SEZ={risultati:['Risultati','#1d4f8f','<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>'],societa:['Società','#6b3fa0','<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3 8.5-7 10-4-1.5-7-5-7-10V6z"/></svg>'],mappa:['Mappa','#a3367a','<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>'],sport:['Sport','#b4471f','<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3.5 9.5c5 1.5 12 1.5 17 0M3.5 14.5c5-1.5 12-1.5 17 0M12 3v18"/></svg>'],preferiti:['Preferiti','#7a6200','<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>'],cerca:['Cerca','#0f7a5c',LENS]};
+let SPC=null;function sportsList(){if(SPC)return SPC;const cnt={};C.forEach(k=>{cnt[k.sport]=(cnt[k.sport]||0)+1});SPC=Object.keys(NAMES).filter(k=>cnt[k]).sort((a,b)=>cnt[b]-cnt[a]).map((k,i,a)=>({k,n:cnt[k],col:ruota(i,a.length)}));return SPC}
+const spCol=k=>{const s=sportsList().find(x=>x.k===k);return s?s.col:'#33415c'};
+/* nastro dei risultati: ultime partite concluse (72 ore), prima quelle delle squadre seguite */
+function tickerItems(){const d0=oggi(),t=new Date(d0+'T12:00:00');t.setDate(t.getDate()-3);const lim=t.toISOString().slice(0,10);const P=[];
+G.forEach(g=>g.partite.forEach(x=>{if(x.risultato&&x.data&&x.data<=d0&&(x.id_casa||x.id_ospite))P.push({g,x})}));
+const fav=o=>FAV.c.includes(o.x.id_casa)||FAV.c.includes(o.x.id_ospite)||FAV.g.includes(o.g.gid)?1:0;
+let R=P.filter(o=>o.x.data>=lim);if(!R.length)R=P;
+R.sort((a,b)=>fav(b)-fav(a)||(a.x.data<b.x.data?1:a.x.data>b.x.data?-1:0)||cidx(a.g.categoria)-cidx(b.g.categoria)||lidx(a.g.girone)-lidx(b.g.girone));return R.slice(0,24)}
+const PAUSA='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>',PLAY='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg>';
+function homeTicker(){const L=tickerItems();if(!L.length)return'';const it=L.map(({g,x})=>`<li><button class="tk" data-gg="${g.gid}" style="--c:${spCol(g.sport)}"><span class="tki" aria-hidden="true">${ico(g.sport)}</span><span class="tkt">${esc(x.casa)} <b>${esc(x.risultato)}</b> ${esc(x.ospite)}</span><span class="vh">, ${esc(NAMES[g.sport]||g.sport)}, ${esc(g.girone)}, ${esc(dt(x.data))}</span></button></li>`).join('');
+return `<section class="tkr" id="tkr" aria-labelledby="tkT"><div class="tkh"><h2 id="tkT" class="tkl">Risultati</h2><button class="tkp" id="tkp" aria-pressed="false" aria-label="Ferma lo scorrimento dei risultati">${PAUSA}</button></div><div class="tkv" id="tkv"><div class="tkm" id="tkm"><ul class="tkg" aria-label="Ultime partite: usa le frecce per scorrere">${it}</ul><ul class="tkg" aria-hidden="true" inert>${it}</ul></div></div></section>`}
+function initTicker(){const m=$('tkm'),v=$('tkv'),r=$('tkr');if(!m)return;const w=m.scrollWidth/2;m.style.setProperty('--d',Math.max(20,w/50).toFixed(1)+'s');let h=null;
+v.addEventListener('pointerdown',()=>{clearTimeout(h);r.classList.add('hold')});const rel=()=>{clearTimeout(h);h=setTimeout(()=>r.classList.remove('hold'),2500)};v.addEventListener('pointerup',rel);v.addEventListener('pointercancel',rel);
+/* tastiera: un solo Tab, poi le frecce; la voce col fuoco viene portata in vista */
+const T=[...m.querySelectorAll('.tkg:first-child .tk')];const show=el=>{if(RMOT()){el.scrollIntoView({inline:'nearest',block:'nearest'});return}const an=m.getAnimations()[0];if(!an)return;const dur=parseFloat(getComputedStyle(m).getPropertyValue('--d'))*1000;an.currentTime=Math.max(0,(el.offsetLeft-8)/w)*dur};
+T.forEach((b,i)=>{b.tabIndex=i?-1:0;b.addEventListener('keydown',e=>{let j=null;if(e.key==='ArrowRight')j=Math.min(T.length-1,i+1);else if(e.key==='ArrowLeft')j=Math.max(0,i-1);else if(e.key==='Home')j=0;else if(e.key==='End')j=T.length-1;if(j==null)return;e.preventDefault();T.forEach(x=>x.tabIndex=-1);T[j].tabIndex=0;T[j].focus({preventScroll:true});show(T[j])})});
+m.addEventListener('focusin',e=>{const t=e.target.closest('.tk');if(t)show(t)})}
+/* Le tue squadre: al massimo 2 righe compatte, così la ruota resta nella prima schermata */
+function favMini(t){const{g,r,last,c}=t,id=c.id;return `<button class="fm" data-gg="${g.gid}"><span class="fmt"><b>${esc(c.nome)}</b>${r?`<span class="fmp">${esc(r.pos)}°<small> · ${esc(r.punti??'')} pt</small></span>`:''}</span><span class="fml">${last?`${badge(esito(last,id))}<span class="fms">${scoreLine(last,id)}</span>`:`<span class="fms">${esc(t.cat)} · ${esc(g.girone)}</span>`}</span></button>`}
+function homeFav(){const fc=FAV.c.map(id=>C.find(x=>x.id===id)).filter(Boolean);const T=[];fc.forEach(c=>{const t=squadreRis(c)[0];if(t)T.push(t)});
+if(T.length)return `<section class="hf" aria-labelledby="hfT"><div class="hrh"><h2 id="hfT">${STAR}Le tue squadre</h2><button class="lnk" data-go="preferiti">Tutte (${fc.length})${CHEV}</button></div><div class="list">${T.slice(0,2).map(favMini).join('')}</div></section>`;
+return `<section class="hf hinv" aria-labelledby="hfT"><span class="hst" aria-hidden="true">${STAR}</span><div><h2 id="hfT">Le tue squadre</h2><p>Tocca la stella nella scheda di una società: qui vedrai risultato e prossima partita.</p></div></section>`}
+/* mezza ruota delle sezioni (sotto i 340 px o con zoom alto diventa una griglia 3×2) */
+function wedge(cx,cy,R,r,a0,a1){const p=(rad,a)=>`${(cx+rad*Math.cos(a*Math.PI/180)).toFixed(1)} ${(cy+rad*Math.sin(a*Math.PI/180)).toFixed(1)}`;return `M${p(R,a0)}A${R} ${R} 0 0 1 ${p(R,a1)}L${p(r,a1)}A${r} ${r} 0 0 0 ${p(r,a0)}Z`}
+function homeWheel(){const K=['risultati','societa','mappa','sport','preferiti','cerca'],W=360,H=192,cx=180,cy=186,R=178,r=56,step=180/K.length;
+const ws=K.map((k,i)=>{const a0=180+i*step+1,a1=180+(i+1)*step-1,am=(a0+a1)/2,lr=122;return{k,i,d:wedge(cx,cy,R,r,a0,a1),x:(cx+lr*Math.cos(am*Math.PI/180))/W*100,y:(cy+lr*Math.sin(am*Math.PI/180))/H*100}});
+const act=k=>k==='cerca'?'data-lens':`data-go="${k}"`;
+return `<section class="wh" aria-labelledby="whT"><h2 id="whT" class="vh">Sezioni</h2><div class="whw"><svg class="whs" viewBox="0 0 ${W} ${H}" aria-hidden="true">${ws.map(w=>`<path class="wp" d="${w.d}" fill="${SEZ[w.k][1]}" ${act(w.k)} style="--i:${w.i}"/>`).join('')}<circle cx="${cx}" cy="${cy}" r="${r-4}" fill="var(--card)" stroke="var(--line)"/></svg><img class="whl" src="icons/icon-192.png" alt="" width="64" height="64">
+<div class="whb" role="group" aria-label="Sezioni: usa le frecce per spostarti">${ws.map(w=>`<button class="wb" ${act(w.k)} style="left:${w.x.toFixed(2)}%;top:${w.y.toFixed(2)}%;--i:${w.i};--c:${SEZ[w.k][1]}" ${w.i?'tabindex="-1"':''}>${SEZ[w.k][2]}<span>${SEZ[w.k][0]}</span></button>`).join('')}</div></div></section>`}
+/* carosello degli sport: schede colorate, scroll-snap, contatore, un solo Tab e poi le frecce */
+function homeSport(){const S=sportsList();return `<section class="spk" aria-labelledby="spkT"><div class="hrh"><h2 id="spkT">Sport</h2><span class="spn" id="spn" aria-hidden="true">1 / ${S.length}</span></div><div class="spw"><button class="spa" data-spa="-1" tabindex="-1" aria-label="Sport precedenti">${BACK}</button>
+<ul class="spr" id="spr" aria-label="Sport: usa le frecce per scorrere">${S.map((s,i)=>`<li class="spi"><button class="spc2" data-pick="${s.k}" tabindex="${i?-1:0}" style="--c:${s.col};--i:${Math.min(i,4)}"><span class="spic" aria-hidden="true">${ico(s.k)}</span><b>${esc(NAMES[s.k])}</b><small>${s.n} società</small></button></li>`).join('')}<li class="spi"><button class="spc2 all" data-go="sport" tabindex="-1" style="--i:4"><span class="spic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="4" y="14" width="6" height="6" rx="1.5"/><rect x="14" y="14" width="6" height="6" rx="1.5"/></svg></span><b>Tutti gli sport</b><small>${S.length} discipline</small></button></li></ul>
+<button class="spa r" data-spa="1" tabindex="-1" aria-label="Sport successivi">${CHEV}</button></div><div class="spbar" aria-hidden="true"><i id="spbi"></i></div></section>`}
+function initSport(){const r=$('spr');if(!r)return;const S=sportsList(),B=[...r.querySelectorAll('.spc2')];
+const upd=()=>{const st=B[1]?B[1].parentNode.offsetLeft-B[0].parentNode.offsetLeft:1;const i=Math.min(S.length,Math.round(r.scrollLeft/st)+1);$('spn').textContent=`${i} / ${S.length}`;const mx=r.scrollWidth-r.clientWidth;$('spbi').style.width=(mx>0?Math.max(8,(r.scrollLeft/mx)*100):100).toFixed(1)+'%'};
+r.addEventListener('scroll',upd,{passive:true});upd();
+B.forEach((b,i)=>b.addEventListener('keydown',e=>{let j=null;if(e.key==='ArrowRight')j=Math.min(B.length-1,i+1);else if(e.key==='ArrowLeft')j=Math.max(0,i-1);else if(e.key==='Home')j=0;else if(e.key==='End')j=B.length-1;if(j==null)return;e.preventDefault();B.forEach(x=>x.tabIndex=-1);B[j].tabIndex=0;B[j].focus({preventScroll:true});B[j].parentNode.scrollIntoView({inline:'nearest',block:'nearest',behavior:RMOT()?'auto':'smooth'})}))}
+function initWheel(m){const wb=[...m.querySelectorAll('.wb')];wb.forEach((b,i)=>b.addEventListener('keydown',e=>{let j=null;if(e.key==='ArrowRight'||e.key==='ArrowDown')j=(i+1)%wb.length;else if(e.key==='ArrowLeft'||e.key==='ArrowUp')j=(i-1+wb.length)%wb.length;else if(e.key==='Home')j=0;else if(e.key==='End')j=wb.length-1;if(j!=null){e.preventDefault();wb.forEach(x=>x.tabIndex=-1);wb[j].tabIndex=0;wb[j].focus()}}))}
+function vHome(m){m.innerHTML=homeTicker()+homeFav()+homeWheel()+homeSport();initTicker();initWheel(m);initSport()}
+/* Società: la stessa lista da ruota, barra in basso e schede desktop; "Per comune" o "Tutte A–Z" */
+let socMode='comuni';
+const socSeg=()=>HOME&&!sport?`<div class="sort socs" role="group" aria-label="Elenco delle società"><button data-soc="comuni" aria-pressed="${socMode==='comuni'}">Per comune</button><button data-soc="az" aria-pressed="${socMode==='az'}">Tutte A–Z</button></div>`:'';
+/* animazione d'apertura: solo alla prima apertura, poi mai più; sotto 1 s; mai con "riduci movimento" */
+function intro(){if(!HOME)return;try{if(localStorage.getItem('sfvg-intro'))return;localStorage.setItem('sfvg-intro','1')}catch(e){return}if(RMOT())return;
+const d=document.createElement('div');d.className='intro';d.setAttribute('aria-hidden','true');d.innerHTML='<div class="iw"><i class="isp"></i><img src="icons/icon-192.png" alt="" width="104" height="104"></div>';document.body.appendChild(d);setTimeout(()=>d.remove(),950)}
+function vComuni(m,lista){
 let L=COM.filter(c=>!prov||c.prov===prov).map(c=>{const ks=BYC[c.codice]||[];const f=ks.filter(match);return{c,f,all:ks}}).filter(r=>!sport||r.f.length);
 L.sort(sortBy==='n'?(a,b)=>b.f.length-a.f.length||a.c.nome.localeCompare(b.c.nome):(a,b)=>a.c.nome.localeCompare(b.c.nome));
 const tot=L.reduce((s,r)=>s+r.f.length,0);
-m.innerHTML=homeRis()+`<div class="hd"><h2>${prov?PROV[prov]:'Comuni'}</h2><button class="gstar" data-map="" style="margin:0 auto 0 0">${PIN}Mappa</button><div class="sort" role="group" aria-label="Ordina"><button data-sort="az" aria-pressed="${sortBy==='az'}">A–Z</button><button data-sort="n" aria-pressed="${sortBy==='n'}">Più società</button></div></div><p class="hd n" style="margin-top:-6px">${L.length} comuni · ${tot} società${sport?' di '+esc(NAMES[sport].toLowerCase()):''}</p>`+
+m.innerHTML=(lista?'':homeRis()+homeAgenda())+`<div class="hd"><h2>${lista?'Società':prov?PROV[prov]:'Comuni'}</h2>${lista?'':`<button class="gstar" data-map="" style="margin:0 auto 0 0">${PIN}Mappa</button>`}<div class="sort" role="group" aria-label="Ordina"><button data-sort="az" aria-pressed="${sortBy==='az'}">A–Z</button><button data-sort="n" aria-pressed="${sortBy==='n'}">Più società</button></div></div>${lista?socSeg():''}<p class="hd n" style="margin-top:-6px">${L.length} comuni · ${tot} società${sport?' di '+esc(NAMES[sport].toLowerCase()):''}</p>`+
 (L.length?`<div class="list">${L.slice(0,limit).map(({c,f})=>{const sp=[...new Set(f.map(k=>k.sport))];return `<button class="row" data-c="${c.codice}"><span><span class="t">${esc(c.nome)} <em>${c.prov}</em></span>${f.length?`<span class="mini" aria-hidden="true">${sp.slice(0,7).map(ico).join('')}</span>`:'<span class="s">Nessuna società trovata finora</span>'}</span><span class="cnt"><b${f.length?'':' class="z"'}>${f.length}</b>${CHEV}</span></button>`}).join('')}</div>${L.length>limit?`<button class="more" data-more>Mostra altri ${Math.min(60,L.length-limit)} comuni</button>`:''}`:'<div class="list"><p class="empty">Nessun comune con questi filtri.</p></div>');
 }
 function vComune(m){
@@ -460,21 +611,24 @@ m.innerHTML=`<button class="back" data-back>${BACK}Comuni</button><div class="ch
 (f.length?Object.keys(groups).sort((a,b)=>groups[b].length-groups[a].length).map(s=>`<div class="grp">${ico(s)}${esc(NAMES[s])}<span>${groups[s].length}</span></div><div class="list">${groups[s].sort((a,b)=>a.nome.localeCompare(b.nome)).map(k=>clubRow(k,false)).join('')}</div>`).join(''):'<div class="list"><p class="empty">Per questo comune non abbiamo ancora trovato società sportive. La raccolta dati continua: se ne conosci una, scrivici a <a href="mailto:zuinsportfvg@gmail.com" style="color:var(--acc)">zuinsportfvg@gmail.com</a>.</p></div>');
 }
 function vSocieta(m){
+if(HOME&&!sport&&socMode==='comuni'){vComuni(m,true);return}
 const L=C.filter(match).sort((a,b)=>(sport?0:a.sport.localeCompare(b.sport))||a.comune.localeCompare(b.comune)||a.nome.localeCompare(b.nome));
-m.innerHTML=`<div class="hd"><h2>${sport?esc(NAMES[sport]):'Tutte le società'}</h2><span class="n">${L.length}${prov?' · '+PROV[prov]:''}</span></div>`+(L.length?`<div class="list">${L.slice(0,limit).map(k=>clubRow(k)).join('')}</div>${L.length>limit?`<button class="more" data-more>Mostra altre ${Math.min(60,L.length-limit)}</button>`:''}`:'<div class="list"><p class="empty">Nessuna società con questi filtri.</p></div>');
+m.innerHTML=`<div class="hd"><h2>${sport?esc(NAMES[sport]):HOME?'Società':'Tutte le società'}</h2><span class="n">${L.length}${prov?' · '+PROV[prov]:''}</span></div>${socSeg()}`+(sport&&senzaCamp().includes(sport)?sportAgenda(sport,3):'')+(L.length?`<div class="list">${L.slice(0,limit).map(k=>clubRow(k)).join('')}</div>${L.length>limit?`<button class="more" data-more>Mostra altre ${Math.min(60,L.length-limit)}</button>`:''}`:'<div class="list"><p class="empty">Nessuna società con questi filtri.</p></div>');
 }
 function vSport(m){
 const cnt={};C.filter(k=>!prov||k.prov===prov).forEach(k=>{cnt[k.sport]=(cnt[k.sport]||0)+1});
 const ks=Object.keys(NAMES).filter(k=>cnt[k]).sort((a,b)=>cnt[b]-cnt[a]);
-m.innerHTML=`<div class="hd"><h2>Sport</h2><span class="n">${ks.length} discipline${prov?' · '+PROV[prov]:''}</span></div><div class="sgrid">${ks.map(k=>`<button class="stile" data-pick="${k}" aria-pressed="${sport===k}">${ico(k)}<b>${esc(NAMES[k])}</b><small>${cnt[k]} società</small></button>`).join('')}</div>`;
+const F=evFut(),ne={};F.forEach(e=>ne[e.sport]=(ne[e.sport]||0)+1);const sc=senzaCamp().sort((a,b)=>ne[b]-ne[a]);
+m.innerHTML=`<div class="hd"><h2>Sport</h2><span class="n">${ks.length} discipline${prov?' · '+PROV[prov]:''}</span></div>${F.length?`<button class="more pri" data-go="agenda" style="margin:0 0 14px">${CAL}Agenda eventi · ${F.length} in programma</button>`:''}<div class="sgrid">${ks.map(k=>`<button class="stile" data-pick="${k}" aria-pressed="${sport===k}">${ico(k)}<b>${esc(NAMES[k])}</b><small>${cnt[k]} società${ne[k]&&sc.includes(k)?` · ${ne[k]} eventi`:''}</small></button>`).join('')}</div>`+
+(sc.length?`<div class="hd" style="margin-top:22px"><h2>Prossimi eventi</h2><span class="n">sport senza campionato</span></div>${sc.map(k=>{const L=F.filter(e=>e.sport===k);return `<div class="agsp"><div class="grp">${ico(k)}${esc(NAMES[k]||k)}<span>${L.length}</span><button class="lnk" data-agsp="${k}">Tutti${CHEV}</button></div><div class="list">${L.slice(0,2).map(e=>evRow(e,{noSport:1})).join('')}</div></div>`}).join('')}`:'');
 }
-const VERSIONE='1.11.0 beta',VERSIONE_DATA='2026-11-25';
+const VERSIONE='1.13.0 beta',VERSIONE_DATA='2026-11-26';
 function vInfo(m){
 const done=COM.filter(c=>c.n>0).length;const cnt={};C.forEach(k=>cnt[k.sport]=(cnt[k.sport]||0)+1);const mx=Math.max(...Object.values(cnt));
 const ks=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]);
 m.innerHTML=`<div class="hd"><h2>Info</h2></div><div class="card"><div class="big">${C.length.toLocaleString('it-IT')}</div><div>società sportive in ${done} comuni su 215</div><div class="meter"><i style="width:${(done/215*100).toFixed(1)}%"></i></div><p class="small">Dati aggiornati al ${AGG.split('-').reverse().join('/')}. Con storico dei campionati: ${C.filter(k=>k.storico.length).length} società.</p></div>
 <div class="card"><h3>Società per sport</h3><div class="bars">${ks.map(k=>`<div class="bar">${ico(k)}<span>${esc(NAMES[k])}</span><span><i style="width:${(cnt[k]/mx*100).toFixed(1)}%"></i></span><span>${cnt[k]}</span></div>`).join('')}</div></div>
-<div class="card"><h3>Da dove vengono i dati</h3><p class="small" style="margin:0">Elenchi e classifiche pubblicati dalle federazioni e dai loro comitati regionali (LND FVG, FIP FVG, FIPAV, FIDAL, FIJLKAM, FISR, FITeT, FIV e altre), integrati da Wikipedia e dai siti delle società. Ogni scheda indica le sue fonti. "n.d." significa che il dato non è stato trovato. Applicazione non ufficiale, non collegata alle federazioni.</p><p class="small" style="margin:8px 0 0"><a href="note-legali.html" style="color:var(--acc)">Note legali e privacy</a> · Segnalazioni e correzioni: <a href="mailto:zuinsportfvg@gmail.com" style="color:var(--acc)">zuinsportfvg@gmail.com</a></p></div><div class="card"><h3>Avvisi dei risultati</h3><p class="small" style="margin:0">Gli avvisi passano dal servizio gratuito ntfy.sh: ogni società ha un argomento pubblico (zuin-fvg-…) a cui ci si iscrive dal browser o dall'app ntfy, senza account. Gli argomenti sono pubblici e chiunque li conosca può leggerli; Zuìn non raccoglie dati personali e non sa chi è iscritto. Gli avvisi contengono solo squadre, risultato e girone.</p></div><div class="card icard" id="instInfo"><h3>Installa l'app</h3>${instInfo()}</div><div class="card"><h3>Metti Zuìn sul tuo sito</h3><p class="small" style="margin:0 0 10px">Classifica, ultimo risultato e prossima partita della tua società o del tuo girone sul sito della società, del comitato o del giornale, sempre aggiornati. Gratis, senza cookie e senza tracciamento.</p><a class="act pri" href="widget.html">${CODE}Crea il widget per il tuo sito</a></div><p class="small" style="text-align:center;margin:14px 0 4px">Versione app ${VERSIONE} del ${dt(VERSIONE_DATA)}/${VERSIONE_DATA.slice(0,4)}${G.length?` · risultati aggiornati al ${(()=>{const a=G.map(g=>g.aggiornato||'').sort().pop();return a?a.split('-').reverse().join('/'):'n.d.'})()}`:''}</p>`;
+<div class="card"><h3>Da dove vengono i dati</h3><p class="small" style="margin:0">Elenchi e classifiche pubblicati dalle federazioni e dai loro comitati regionali (LND FVG, FIP FVG, FIPAV, FIDAL, FIJLKAM, FISR, FITeT, FIV e altre), integrati da Wikipedia e dai siti delle società. Ogni scheda indica le sue fonti. "n.d." significa che il dato non è stato trovato. Applicazione non ufficiale, non collegata alle federazioni.</p><p class="small" style="margin:8px 0 0"><a href="note-legali.html" style="color:var(--acc)">Note legali e privacy</a> · Segnalazioni e correzioni: <a href="mailto:zuinsportfvg@gmail.com" style="color:var(--acc)">zuinsportfvg@gmail.com</a></p></div><div class="card"><h3>Agenda eventi</h3><p class="small" style="margin:0">Gare e manifestazioni degli sport individuali (atletica, sci, ciclismo, arti marziali, vela, pattinaggio, bocce e altri) dai calendari ufficiali delle federazioni e dei loro comitati regionali (FIDAL, FISI, FCI, FIV, FISR, FIJLKAM, FIB), aggiornati ogni giorno, più gli eventi raccolti a mano dai siti ufficiali e controllati ogni mese. Ogni evento indica la sua fonte. Date e programmi possono cambiare: fa fede l'organizzatore.</p></div><div class="card"><h3>Avvisi dei risultati</h3><p class="small" style="margin:0">Gli avvisi passano dal servizio gratuito ntfy.sh: ogni società ha un argomento pubblico (zuin-fvg-…) a cui ci si iscrive dal browser o dall'app ntfy, senza account. Gli argomenti sono pubblici e chiunque li conosca può leggerli; Zuìn non raccoglie dati personali e non sa chi è iscritto. Gli avvisi contengono solo squadre, risultato e girone.</p></div><div class="card icard" id="instInfo"><h3>Installa l'app</h3>${instInfo()}</div><div class="card"><h3>Metti Zuìn sul tuo sito</h3><p class="small" style="margin:0 0 10px">Classifica, ultimo risultato e prossima partita della tua società o del tuo girone sul sito della società, del comitato o del giornale, sempre aggiornati. Gratis, senza cookie e senza tracciamento.</p><a class="act pri" href="widget.html">${CODE}Crea il widget per il tuo sito</a></div><p class="small" style="text-align:center;margin:14px 0 4px">Versione app ${VERSIONE} del ${dt(VERSIONE_DATA)}/${VERSIONE_DATA.slice(0,4)}${G.length?` · risultati aggiornati al ${(()=>{const a=G.map(g=>g.aggiornato||'').sort().pop();return a?a.split('-').reverse().join('/'):'n.d.'})()}`:''}</p>`;
 }
 const dt=s=>{if(!s)return'';const[y,m,d]=String(s).split('-');return d?`${+d}/${+m}`:s};
 // partita spostata o con orario cambiato (campo "variata" scritto dagli script): etichetta per 7 giorni dalla modifica
@@ -683,9 +837,90 @@ const iso=x=>`${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,'0')}-${Str
 const L=[];G.forEach(g=>g.partite.forEach(x=>{if(x.risultato||!days.includes(x.data)||!x.id_casa)return;const p=LUO[x.id_casa];if(!p)return;const k=kmDa(ME,p);if(k<=15)L.push({g,x,k,p})}));
 L.sort((a,b)=>a.k-b.k||(a.x.data+(a.x.ora||'')).localeCompare(b.x.data+(b.x.ora||'')));const GG=['dom','lun','mar','mer','gio','ven','sab'];
 e.innerHTML=`<h3>Partite del weekend vicino a te</h3>`+(L.length?L.slice(0,40).map(({g,x,k,p})=>{const wd=GG[new Date(x.data+'T12:00:00').getDay()];return `<button class="rr" data-wg="${g.gid}"><b>${esc(x.casa)} – ${esc(x.ospite)}</b><span class="ps">${k<10?k.toFixed(1).replace('.',','):Math.round(k)}<span>km${p[2]==='comune'?' circa':''}</span></span><small>${wd} ${esc(dt(x.data))}${x.ora?' ore '+esc(x.ora):''}${varTag(x)} · ${esc(NAMES[g.sport]||g.sport)} · ${esc(g.girone)}${x.campo?' · '+esc(x.campo):''}</small></button>`}).join('')+(L.length>40?`<p class="small" style="margin:8px 0 0">e altre ${L.length-40} partite</p>`:''):`<p class="small" style="margin:0">Nessuna partita in calendario ${days.length>1?'sabato e domenica':'domenica'} entro 15 km tra quelle che conosciamo.</p>`)+`<p class="small" style="margin:8px 0 0">Distanza in linea d'aria dalla sede della squadra di casa.</p>`}
+/* agenda eventi degli sport individuali: data/agenda.json (scripts/agenda.py + config/agenda_manuale.json) */
+let AG=[],AGBY={},agSport='',agProv='',agCom='',agNear=false,agLimit=60;
+const GGS=['dom','lun','mar','mer','gio','ven','sab'],GGL=['domenica','lunedì','martedì','mercoledì','giovedì','venerdì','sabato'];
+const MMS=['gen','feb','mar','apr','mag','giu','lug','ago','set','ott','nov','dic'],MML=['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'];
+const LVN={internazionale:'Internazionale',nazionale:'Nazionale',regionale:'Regionale',provinciale:'Provinciale',promozionale:'Promozionale'};
+const dObj=s=>new Date(s+'T12:00:00');
+const isoD=x=>`${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,'0')}-${String(x.getDate()).padStart(2,'0')}`;
+const evFine=e=>e.data_fine||e.data;
+const evProv=e=>e.prov||(COM.find(c=>c.codice===e.comune)||{}).prov||'';
+const evCom=e=>COM.find(c=>c.codice===e.comune);
+const evClub=e=>e.organizzatore?C.find(c=>c.id===e.organizzatore):null;
+const evOrg=e=>{const c=evClub(e);return c?c.nome:(e.organizzatore||'')};
+function evFut(){const t=oggi();return AG.filter(e=>evFine(e)>=t)}
+/* sport che hanno eventi ma nessun girone di campionato in data/risultati.json */
+function senzaCamp(){const gs=new Set(G.map(g=>g.sport));return [...new Set(evFut().map(e=>e.sport))].filter(s=>!gs.has(s))}
+function evQuando(e,lungo){const a=dObj(e.data);if(lungo){let s=`${GGL[a.getDay()]} ${a.getDate()} ${MML[a.getMonth()]} ${a.getFullYear()}`;if(e.data_fine&&e.data_fine!==e.data){const b=dObj(e.data_fine);s+=` – ${GGL[b.getDay()]} ${b.getDate()} ${MML[b.getMonth()]} ${b.getFullYear()}`}return s.charAt(0).toUpperCase()+s.slice(1)}
+if(e.data_fine&&e.data_fine!==e.data){const b=dObj(e.data_fine);return a.getMonth()===b.getMonth()?`${a.getDate()}–${b.getDate()} ${MMS[a.getMonth()]}`:`${a.getDate()} ${MMS[a.getMonth()]} – ${b.getDate()} ${MMS[b.getMonth()]}`}
+return `${GGS[a.getDay()]} ${a.getDate()} ${MMS[a.getMonth()]}`}
+function agWeekend(){const t=new Date(),d=t.getDay();const sat=new Date(t.getFullYear(),t.getMonth(),t.getDate()+(d===0?-1:6-d));const sun=new Date(sat.getFullYear(),sat.getMonth(),sat.getDate()+1);return [isoD(sat),isoD(sun)]}
+const inWeekend=(e,w)=>e.data<=w[1]&&evFine(e)>=w[0];
+function evKm(e){return ME&&e.pos?kmDa(ME,e.pos):null}
+function evRow(e,o={}){const a=dObj(e.data),c=evCom(e),k=o.km?evKm(e):null;const multi=e.data_fine&&e.data_fine!==e.data;
+const dove=c?c.nome:(e.luogo||'');
+return `<button class="ar" data-ev="${esc(e.id)}"><span class="ard${o.lg?' lg':''}" aria-hidden="true"><b>${a.getDate()}</b><small>${multi&&dObj(e.data_fine).getMonth()!==a.getMonth()?MMS[a.getMonth()]+'…':MMS[a.getMonth()]}</small></span><span class="art"><b>${esc(e.titolo)}</b><small><span class="vh">${esc(evQuando(e,true))}. </span>${o.noSport?'':ico(e.sport)}${o.noSport?'':esc(NAMES[e.sport]||e.sport)+' · '}${esc(evQuando(e))}${dove?' · '+esc(dove):''}${k!=null?` · <span class="km">${k<10?k.toFixed(1).replace('.',','):Math.round(k)} km</span>`:''}${e.livello==='internazionale'||e.livello==='nazionale'?` <span class="lv ${e.livello}">${LVN[e.livello]}</span>`:''}</small></span>${CHEV}</button>`}
+function homeAgenda(){let L=evFut();if(!L.length)return'';
+const f=L.filter(e=>(!sport||e.sport===sport)&&(!prov||evProv(e)===prov));if(f.length)L=f;
+return `<section class="hr" aria-labelledby="haT"><div class="hrh"><h2 id="haT">${CAL}Prossimi eventi</h2><button class="lnk" data-go="agenda">Tutta l'agenda${CHEV}</button></div><div class="list">${L.slice(0,3).map(e=>evRow(e)).join('')}</div></section>`}
+function agFiltra(L){return L.filter(e=>(!agSport||e.sport===agSport)&&(!agProv||evProv(e)===agProv)&&(!agCom||e.comune===agCom))}
+function vAgenda(m){
+const F=evFut();const base=agFiltra(F);const cnt={};F.filter(e=>(!agProv||evProv(e)===agProv)&&(!agCom||e.comune===agCom)).forEach(e=>cnt[e.sport]=(cnt[e.sport]||0)+1);
+const sps=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]);
+const coms=[...new Set(F.filter(e=>(!agSport||e.sport===agSport)&&(!agProv||evProv(e)===agProv)&&e.comune).map(e=>e.comune))].map(k=>COM.find(c=>c.codice===k)).filter(Boolean).sort((a,b)=>a.nome.localeCompare(b.nome));
+if(agCom&&!coms.some(c=>c.codice===agCom))coms.unshift(COM.find(c=>c.codice===agCom));
+let L=base;if(agNear&&ME)L=L.filter(e=>{const k=evKm(e);return k!=null&&k<=30});
+const w=agWeekend(),W=L.filter(e=>inWeekend(e,w));
+const wl=`${dObj(w[0]).getDate()}${dObj(w[0]).getMonth()!==dObj(w[1]).getMonth()?' '+MMS[dObj(w[0]).getMonth()]:''}–${dObj(w[1]).getDate()} ${MMS[dObj(w[1]).getMonth()]}`;
+const groups=[];L.slice(0,agLimit).forEach(e=>{const a=dObj(e.data),k=a.getFullYear()*12+a.getMonth();let g=groups[groups.length-1];if(!g||g.k!==k){g={k,t:`${MML[a.getMonth()].charAt(0).toUpperCase()+MML[a.getMonth()].slice(1)} ${a.getFullYear()}`,L:[]};groups.push(g)}g.L.push(e)});
+const nm={};L.forEach(e=>{const a=dObj(e.data),k=a.getFullYear()*12+a.getMonth();nm[k]=(nm[k]||0)+1});
+m.innerHTML=`<button class="back" data-back>${BACK}Indietro</button><div class="hd"><h2>Agenda eventi</h2><span class="n">${L.length} in programma</span></div>
+<p class="small" style="margin:-4px 2px 12px">Gare e manifestazioni degli sport individuali in Friuli Venezia Giulia o organizzate da società della regione, dai calendari ufficiali delle federazioni.</p>
+<div class="card agf" role="group" aria-label="Filtri dell'agenda"><div class="chips" role="group" aria-label="Sport"><button class="cp" data-ags="" aria-pressed="${!agSport}">Tutti gli sport</button>${sps.map(s=>`<button class="cp" data-ags="${s}" aria-pressed="${agSport===s}">${ico(s)}${esc(NAMES[s]||s)} · ${cnt[s]}</button>`).join('')}</div>
+<div class="chips" role="group" aria-label="Provincia"><button class="cp" data-agp="" aria-pressed="${!agProv}">Tutta la regione</button>${Object.entries(PROV).map(([k,v])=>`<button class="cp" data-agp="${k}" aria-pressed="${agProv===k}">${v}</button>`).join('')}</div>
+<div class="agr"><div><label class="agl" for="agCom">Comune</label><select class="ags" id="agCom"><option value="">Tutti i comuni</option>${coms.map(c=>`<option value="${c.codice}"${c.codice===agCom?' selected':''}>${esc(c.nome)}</option>`).join('')}</select></div><button class="agn" data-agnear aria-pressed="${agNear&&!!ME}">${PIN}Vicino a me</button></div>
+${agNear&&ME?'<p class="nota" style="margin-top:8px">Eventi entro 30 km dalla tua posizione (distanza dal centro del comune). La posizione non viene salvata.</p>':''}</div>
+<section class="rh wk" aria-labelledby="wkT"><div class="rhh"><h3 id="wkT">${STAR}Questo weekend</h3><span>${esc(wl)}</span></div>${W.length?`<div>${W.slice(0,8).map(e=>evRow(e,{lg:1,km:agNear})).join('')}</div>${W.length>8?`<p class="nota" style="margin:0;padding:0 16px 12px">e altri ${W.length-8} eventi più sotto</p>`:''}`:`<p class="nota" style="margin:0;padding:14px 16px">Nessun evento questo weekend${agSport||agProv||agCom||agNear?' con questi filtri':''}.</p>`}</section>`+
+(L.length?groups.map(g=>`<h3 class="agm">${esc(g.t)}<span>${nm[g.k]} eventi</span></h3><div class="list">${g.L.map(e=>evRow(e,{km:agNear})).join('')}</div>`).join('')+(L.length>agLimit?`<button class="more" data-agmore>Mostra altri ${Math.min(60,L.length-agLimit)} eventi</button>`:''):`<div class="list"><p class="empty">${F.length?'Nessun evento con questi filtri.':'L\'agenda è vuota: i calendari delle federazioni non sono ancora disponibili.'}</p></div>`)+
+`<p class="nota">Date, orari e programmi possono cambiare: prima di partire controlla sempre la pagina ufficiale dell'evento. Dati non ufficiali, aggiornati ogni giorno. Un evento manca o è sbagliato? Scrivici a <a href="mailto:zuinsportfvg@gmail.com" style="color:var(--acc)">zuinsportfvg@gmail.com</a>.</p>`;
+const s=$('agCom');if(s)s.addEventListener('change',()=>{agCom=s.value;agLimit=60;render();const x=$('agCom');if(x)x.focus()});
+}
+function agVicino(){if(agNear&&ME){agNear=false;render();return}
+if(!navigator.geolocation){toast('Posizione non disponibile su questo dispositivo');return}toast('Cerco la tua posizione…');
+navigator.geolocation.getCurrentPosition(p=>{ME=[p.coords.latitude,p.coords.longitude];agNear=true;agLimit=60;render();const b=document.querySelector('[data-agnear]');if(b)b.focus()},()=>toast('Posizione non concessa: usa i filtri per provincia o comune'),{enableHighAccuracy:false,timeout:15000,maximumAge:300000})}
+/* eventi di una società: organizzati o con la società indicata */
+function clubAgenda(c){const L=evFut().filter(e=>e.organizzatore===c.id||(e.societa||[]).includes(c.id));if(!L.length)return'';
+return `<section class="rh" aria-labelledby="caT"><div class="rhh"><h3 id="caT">${CAL}Prossimi eventi</h3><span>${L.length}</span></div><div>${L.slice(0,5).map(e=>evRow(e)).join('')}</div>${L.length>5?`<p class="nota" style="margin:0;padding:0 16px 12px">e altri ${L.length-5}: li trovi nell'agenda</p>`:''}<button class="tmb" data-agclub="${esc(c.sport)}">Tutta l'agenda${CHEV}</button></section>`}
+function sportAgenda(s,n){const L=evFut().filter(e=>e.sport===s);if(!L.length)return'';
+return `<section class="hr" aria-labelledby="saT"><div class="hrh"><h2 id="saT">${ico(s)}Prossimi eventi</h2><button class="lnk" data-agsp="${s}">Tutti (${L.length})${CHEV}</button></div><div class="list">${L.slice(0,n).map(e=>evRow(e,{noSport:1})).join('')}</div></section>`}
+/* scheda evento */
+function icsEv(e){const f=s=>s.replace(/-/g,'');const p=d=>{const x=dObj(d);x.setDate(x.getDate()+1);return isoD(x)};let a,b;const o=/^(\d{1,2}):(\d\d)$/.exec(e.ora||'');
+if(o&&!e.data_fine){const s=new Date(Date.UTC(...e.data.split('-').map((v,i)=>i===1?v-1:+v),+o[1],+o[2]));const g=t=>t.toISOString().slice(0,19).replace(/[-:]/g,'');a='DTSTART;TZID=Europe/Rome:'+g(s);b='DTEND;TZID=Europe/Rome:'+g(new Date(s.getTime()+7200000))}
+else{a='DTSTART;VALUE=DATE:'+f(e.data);b='DTEND;VALUE=DATE:'+f(p(evFine(e)))}
+const c=evCom(e),org=evOrg(e);
+return ['BEGIN:VEVENT','UID:'+e.id+'@zuin-fvg','DTSTAMP:'+String(e.aggiornato||oggi()).replace(/-/g,'')+'T000000Z',a,b,'SUMMARY:'+icsTxt(e.titolo),'LOCATION:'+icsTxt([e.luogo,c&&c.nome!==e.luogo?c.nome:''].filter(Boolean).join(', ')),
+'DESCRIPTION:'+icsTxt([NAMES[e.sport]+(e.disciplina?' · '+e.disciplina:''),LVN[e.livello]||'',org?'Organizza: '+org:'',e.link?'Pagina ufficiale: '+e.link:'','Dati non ufficiali: fa fede l\'organizzatore. '+SITO+'#e-'+e.id].filter(Boolean).join('\n')),'URL:'+(e.link||SITO+'#e-'+e.id),'END:VEVENT']}
+function evIcs(id){const e=AGBY[id];if(!e)return;scarica(new Blob([icsFile('Zuìn · '+e.titolo,[icsEv(e)])],{type:'text/calendar;charset=utf-8'}),`zuin-evento-${e.id}.ics`.replace(/[^\w.-]+/g,'-'));toast('Evento nel file calendario')}
+let SHEETK='';
+function sheetOn(k){SHEETK=k;if(!$('sheet').classList.contains('on'))OPENER=document.activeElement;$('sheet').classList.add('on');document.body.style.overflow='hidden';document.querySelectorAll('.top,.filt,main,.nav,#inst').forEach(e=>e.inert=true);$('panel').scrollTop=0;setTimeout(()=>{$('panel').focus({preventScroll:true})},50)}
+function openEvent(id,push=true){const e=AGBY[id];if(!e)return;const c=evCom(e),club=evClub(e);
+const q=encodeURIComponent([e.luogo,c&&c.nome!==e.luogo?c.nome:'',c?'':'Friuli Venezia Giulia'].filter(Boolean).join(', '));
+let host='';try{host=new URL(e.fonte).hostname.replace(/^www\./,'')}catch(x){}
+$('panel').innerHTML=`<div class="ph"><button class="bk" data-close aria-label="Indietro">${BACK}</button><span class="ico" aria-hidden="true">${ico(e.sport)}</span><div><h2 id="dName">${esc(e.titolo)}</h2><p>${esc(NAMES[e.sport]||e.sport)}${e.disciplina?' · '+esc(e.disciplina):''}</p></div><span></span></div>
+<div class="pb">
+<div class="evh"><small>Quando</small><b>${esc(evQuando(e,true))}</b>${e.ora?`<span>Ore ${esc(e.ora)}</span>`:''}${evFine(e)<oggi()?'<span>Evento concluso</span>':''}</div>
+<div class="acts"><button class="act pri" data-evics="${esc(e.id)}">${CAL}Aggiungi al calendario</button>${e.link?`<a class="act" href="${esc(e.link)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>Pagina ufficiale</a>`:''}<a class="act" href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener">${PIN}Mappa</a><button class="act" data-copy><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>Copia link</button></div>
+<div class="card"><h3>Dove</h3><div>${esc(e.luogo||'Luogo non indicato')}</div>${c?`<div class="small"><a class="cmp" href="#c-${c.codice}" style="padding:10px 0">${esc(c.nome)} (${c.prov})</a>${e.pos?' · sulla mappa: centro del comune':''}</div>`:evProv(e)?`<div class="small">Provincia di ${esc(PROV[evProv(e)])}</div>`:''}</div>
+<div class="card"><h3>Organizzatore</h3>${club?`<div class="list">${clubRow(club)}</div>`:`<div>${esc(e.organizzatore||'Non indicato nella fonte')}</div>`}</div>
+<div class="card"><h3>Dettagli</h3><div class="tags">${e.livello?`<span class="tag">Livello ${esc((LVN[e.livello]||e.livello).toLowerCase())}</span>`:''}${e.disciplina?`<span class="tag">${esc(e.disciplina)}</span>`:''}</div>${e.categorie?`<p style="margin:10px 0 0"><span class="lb">Categorie</span>${esc(e.categorie)}</p>`:''}</div>
+<p class="nota">Fonte: ${e.fonte?`<a href="${esc(e.fonte)}" target="_blank" rel="noopener" style="color:var(--acc)">${esc(host||'calendario ufficiale')}</a>`:'segnalazione verificata'}${e.aggiornato?' · aggiornato al '+esc(e.aggiornato.split('-').reverse().join('/')):''}. Date e programmi possono cambiare: fa fede la pagina ufficiale.</p>
+</div>`;
+sheetOn('e-'+id);if(push&&location.hash!=='#e-'+id){location.hash='e-'+id}}
 function render(){
-nav();filters();document.body.classList.toggle('nofilt',!!girone||(!comune&&['risultati','preferiti','info','mappa'].includes(view)));const m=$('main');
-if(girone)vGirone(m);else if(comune)vComune(m);else if(view==='risultati')vRisultati(m);else if(view==='preferiti')vPreferiti(m);else if(view==='societa')vSocieta(m);else if(view==='sport')vSport(m);else if(view==='info')vInfo(m);else if(view==='mappa')vMappa(m);else vComuni(m);
+const hp=!!HOME&&!girone&&!comune&&view==='comuni';document.body.classList.toggle('hp',hp);
+nav();filters();document.body.classList.toggle('nofilt',hp||!!girone||(!comune&&['risultati','preferiti','info','mappa','agenda'].includes(view)));const m=$('main');
+if(girone)vGirone(m);else if(comune)vComune(m);else if(view==='risultati')vRisultati(m);else if(view==='preferiti')vPreferiti(m);else if(view==='societa')vSocieta(m);else if(view==='sport')vSport(m);else if(view==='info')vInfo(m);else if(view==='mappa')vMappa(m);else if(view==='agenda')vAgenda(m);else if(hp)vHome(m);else vComuni(m);
 }
 function openClub(id,push=true){
 const c=C.find(x=>x.id===id);if(!c)return;
@@ -694,10 +929,11 @@ const ORD=['Prima squadra','Seconda squadra','Terza squadra','Juniores','Under 2
 const rows=s.map((x,k)=>{const p=s[k-1];const t=String(x.pos);let cls=/promoss/i.test(t)?'up':/retroces/i.test(t)?'dn':/^n\.?d/i.test(t)||!t?'nd':'';return `<div class="tli"><span class="y">${esc(x.stagione)}</span><span class="c">${esc(x.campionato)}</span><span class="pos ${cls}">${esc(fp(x.pos))}</span></div>`}).reverse().join('');
 const so=c.social||{};const sl=[['facebook','Facebook',`<svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8V6.5c0-.8.2-1.3 1.4-1.3H17V2.2c-.3 0-1.3-.2-2.5-.2C12 2 10.5 3.5 10.5 6.2V8H8v3.2h2.5V22H14V11.2h2.6L17 8z"/></svg>`],['instagram','Instagram',`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>`],['sito','Sito',`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>`]].filter(([k])=>so[k]);const soc=sl.length?`<div class="acts soc" style="grid-template-columns:repeat(${sl.length},1fr)">${sl.map(([k,l,i])=>`<a class="act ${k}" href="${esc(so[k])}" target="_blank" rel="noopener">${i}${l}</a>`).join('')}</div>${c.social_verifica==='corrispondenza nome e comune'?'<p class="small" style="margin:-4px 2px 12px">Profili abbinati per nome e comune: non risultano collegati da un sito ufficiale.</p>':''}`:'';
 const q=encodeURIComponent((c.indirizzo&&!/non pubblicato/i.test(c.indirizzo)?c.indirizzo+', ':'')+c.comune+' '+c.prov);
-const ris=clubRis(c),evh=clubEventi(c),top=ris||evh;
+const ris=clubRis(c),evh=clubEventi(c),cag=clubAgenda(c),top=ris||evh||cag;
 $('panel').innerHTML=`<div class="ph"><button class="bk" data-close aria-label="Indietro">${BACK}</button><span class="ico" aria-hidden="true">${ico(c.sport)}</span><div><h2 id="dName">${esc(c.nome)}</h2><p>${esc(NAMES[c.sport])}${c.altri_sport.length?' · '+c.altri_sport.map(x=>esc(NAMES[x])).join(', '):''} · ${esc(c.comune)}</p></div><button class="star" data-fav="c" data-fid="${c.id}" aria-pressed="${isFav('c',c.id)}" aria-label="${isFav('c',c.id)?'Togli dai preferiti':'Aggiungi ai preferiti'}">${STAR}</button></div>
 <div class="pb">
-${top}
+${ris||evh}
+${cag}
 ${c.attuale?`<div class="now"><small>Stagione in corso</small><b>${esc(c.attuale)}</b></div>`:''}
 <div class="acts"><a class="act" href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Mappa</a><button class="act" data-copy><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>Copia link</button>${ris?`<a class="act wide" href="widget.html#s-${encodeURIComponent(c.id)}">${CODE}Metti i risultati sul tuo sito</a>`:''}</div>
 ${soc}
@@ -709,23 +945,23 @@ ${c.note?`<div class="card"><h3>Note</h3><p style="margin:0">${esc(c.note)}</p><
 ${top?'':`<div class="live"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M5.6 5.6a9 9 0 0 0 0 12.8M18.4 5.6a9 9 0 0 1 0 12.8"/></svg>Per questa società non abbiamo ancora risultati, classifiche o piazzamenti.</div>`}
 ${c.fonte?`<p class="small" style="margin:14px 2px 0">Fonti: ${esc(c.fonte)}</p>`:''}
 </div>`;
-if(!$('sheet').classList.contains('on'))OPENER=document.activeElement;$('sheet').classList.add('on');document.body.style.overflow='hidden';document.querySelectorAll('.top,.filt,main,.nav,#inst').forEach(e=>e.inert=true);$('panel').scrollTop=0;
+sheetOn('s-'+id);
 if(push&&location.hash!=='#s-'+id){location.hash='s-'+id}
-setTimeout(()=>{$('panel').focus({preventScroll:true})},50);
 }
 let OPENER=null;
-function closeSheet(){if(!$('sheet').classList.contains('on'))return;$('sheet').classList.remove('on');document.body.style.overflow='';document.querySelectorAll('.top,.filt,main,.nav,#inst').forEach(e=>e.inert=false);const oc=OPENER&&OPENER.closest?OPENER.closest('[data-id]'):null,id=oc?oc.dataset.id:'';const op=OPENER;OPENER=null;render();
+function closeSheet(){if(!$('sheet').classList.contains('on'))return;SHEETK='';$('sheet').classList.remove('on');document.body.style.overflow='';document.querySelectorAll('.top,.filt,main,.nav,#inst').forEach(e=>e.inert=false);const oc=OPENER&&OPENER.closest?OPENER.closest('[data-id]'):null,id=oc?oc.dataset.id:'';const op=OPENER;OPENER=null;render();
 setTimeout(()=>{const f=op&&op!==document.body&&document.contains(op)?op:(id?document.querySelector(`main button[data-id="${CSS.escape(id)}"],main tr[data-id="${CSS.escape(id)}"] a`):null);if(f)f.focus({preventScroll:true})},0)}
 function go(h){if(location.hash!=='#'+h)location.hash=h;else route()}
 let NAVS=-1;
 function route(){
 NAVS++;hideSugg();const h=decodeURIComponent(location.hash.slice(1));
-if(h.startsWith('s-')){const c=C.find(x=>x.id===h.slice(2));if(c){if(!$('sheet').classList.contains('on'))openClub(c.id,false);return}}
+if(h.startsWith('s-')){const c=C.find(x=>x.id===h.slice(2));if(c){if(!$('sheet').classList.contains('on')||SHEETK!==h)openClub(c.id,false);return}}
+if(h.startsWith('e-')&&AGBY[h.slice(2)]){if(!$('sheet').classList.contains('on')||SHEETK!==h)openEvent(h.slice(2),false);return}
 closeSheet();
 const prev=comune+girone;girone='';
 if(h.startsWith('g-')&&GBY[h.slice(2)]){comune='';girone=h.slice(2)}
 else if(h.startsWith('c-')&&COM.some(c=>c.codice===h.slice(2))){comune=h.slice(2);if(prev!==comune)cSport=''}
-else{comune='';if(['societa','sport','info','comuni','risultati','preferiti','mappa'].includes(h))view=h;else if(!h)view='comuni'}
+else{comune='';if(h==='elenco'){view='societa';socMode='comuni'}else if(['societa','sport','info','comuni','risultati','preferiti','mappa','agenda'].includes(h)){if(h==='agenda'&&view!=='agenda'){agLimit=60;if(!agProv)agProv=prov}view=h}else if(!h)view='comuni'}
 limit=60;render();if(prev!==comune+girone)window.scrollTo(0,0);
 }
 /* installa l'app: beforeinstallprompt (Android, Chrome/Edge su computer) o guida per iPhone/iPad; alla seconda visita o dopo 30 s; "Non ora" = 30 giorni */
@@ -798,12 +1034,16 @@ if(b.dataset.c)go('c-'+b.dataset.c);else openClub(b.dataset.id)});
 /* eventi */
 document.addEventListener('click',e=>{
 const t=e.target;let b;
+if(b=t.closest('[data-lens]')){window.scrollTo(0,0);$('q').focus();return}
+if(b=t.closest('[data-tkp]')||t.closest('#tkp')){const r=$('tkr'),on=!r.classList.contains('paused');r.classList.toggle('paused',on);b.setAttribute('aria-pressed',on);b.setAttribute('aria-label',on?'Riprendi lo scorrimento dei risultati':'Ferma lo scorrimento dei risultati');b.innerHTML=on?PLAY:PAUSA;return}
+if(b=t.closest('[data-spa]')){const r=$('spr');r.scrollBy({left:+b.dataset.spa*r.clientWidth*.8,behavior:RMOT()?'auto':'smooth'});return}
+if(b=t.closest('[data-soc]')){socMode=b.dataset.soc;limit=60;render();return}
 if(b=t.closest('[data-fav]')){const on=favToggle(b.dataset.fav,b.dataset.fid);b.setAttribute('aria-pressed',on);if(b.classList.contains('gstar'))b.lastChild.textContent=on?'Nei preferiti':'Segui il girone';else b.setAttribute('aria-label',on?'Togli dai preferiti':'Aggiungi ai preferiti');if(!$('sheet').classList.contains('on'))render();return}
 if(b=t.closest('.nb,.dtab,.ib')){go(b.dataset.v);window.scrollTo(0,0);return}
 if(b=t.closest('[data-p]')){prov=b.dataset.p;st.set('prov',prov);limit=60;render();return}
 if(b=t.closest('.pill[data-s]')){sport='';limit=60;render();return}
 if(b=t.closest('[data-go]')){go(b.dataset.go);return}
-if(b=t.closest('[data-pick]')){sport=sport===b.dataset.pick?'':b.dataset.pick;go(sport?'societa':'sport');render();window.scrollTo(0,0);return}
+if(b=t.closest('[data-pick]')){if(!b.dataset.pick)return;socMode='az';sport=sport===b.dataset.pick?'':b.dataset.pick;go(sport?'societa':'sport');render();window.scrollTo(0,0);return}
 if(b=t.closest('[data-sort]')){sortBy=b.dataset.sort;st.set('sort',sortBy);render();return}
 if(b=t.closest('[data-more]')){limit+=60;render();return}
 if(b=t.closest('[data-cs]')){cSport=b.dataset.cs;render();return}
@@ -826,16 +1066,26 @@ if(b=t.closest('[data-wg]')){gTab='cal';gDay=null;go('g-'+b.dataset.wg);window.s
 if(b=t.closest('[data-ics]')){icsScarica(b.dataset.ics,b.dataset.club||'');return}
 if(b=t.closest('[data-share]')){const g=GBY[girone];if(!g)return;condividi(b.dataset.share,g,b.dataset.share==='m'?g.partite[+b.dataset.i]:null);return}
 if(b=t.closest('[data-inst]')){instGo();return}
+if(b=t.closest('[data-ev]')){openEvent(b.dataset.ev);return}
+if(b=t.closest('[data-evics]')){evIcs(b.dataset.evics);return}
+if(b=t.closest('[data-ags]')){agSport=b.dataset.ags;agLimit=60;render();const x=document.querySelector(`[data-ags="${CSS.escape(agSport)}"]`);if(x){x.focus();x.scrollIntoView({block:'nearest',inline:'nearest'})}return}
+if(b=t.closest('[data-agp]')){agProv=b.dataset.agp;agCom='';agLimit=60;render();const x=document.querySelector(`[data-agp="${CSS.escape(agProv)}"]`);if(x)x.focus();return}
+if(b=t.closest('[data-agnear]')){agVicino();return}
+if(b=t.closest('[data-agmore]')){agLimit+=60;render();return}
+if(b=t.closest('[data-agsp]')){agSport=b.dataset.agsp;agCom='';go('agenda');window.scrollTo(0,0);return}
+if(b=t.closest('[data-agclub]')){agSport=b.dataset.agclub;agCom='';closeSheet();history.replaceState(null,'','#agenda');route();window.scrollTo(0,0);return}
 if(b=t.closest('[data-copy]')){const u=location.href;(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(()=>toast('Link copiato'),()=>toast('Copia non consentita qui'));return}
 });
 document.addEventListener('keydown',e=>{if(e.key!=='Escape')return;if($('sheet').classList.contains('on'))history.back();else if(!$('inst').hidden){e.preventDefault();instClose(true)}});
 window.addEventListener('hashchange',route);
+document.documentElement.dataset.home=HOME||'classica';if(HOME){const nb=document.querySelector('.nb[data-v=comuni]'),dtb=document.querySelector('.dtab[data-v=comuni]');if(nb)nb.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>Home';if(dtb)dtb.textContent='Home';intro()}
 favLoad();favCloud();logoLoad();prov=st.get('prov')||'';sortBy=st.get('sort')||'az';if(!PROV[prov])prov='';
-Promise.all([fetch('data/comuni.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/data.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/risultati.json',{cache:'no-cache'}).then(r=>r.ok?r.json():[]).catch(()=>[])]).then(([c,d,rg])=>{
+Promise.all([fetch('data/comuni.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/data.json',{cache:'no-cache'}).then(r=>r.json()),fetch('data/risultati.json',{cache:'no-cache'}).then(r=>r.ok?r.json():[]).catch(()=>[]),fetch('data/agenda.json',{cache:'no-cache'}).then(r=>r.ok?r.json():[]).catch(()=>[])]).then(([c,d,rg,ag])=>{
+AG=(Array.isArray(ag)?ag:[]).filter(e=>e&&e.id&&/^\d{4}-\d\d-\d\d$/.test(e.data||'')).sort((a,b)=>a.data.localeCompare(b.data)||String(a.ora||'').localeCompare(String(b.ora||''))||a.titolo.localeCompare(b.titolo));AG.forEach(e=>AGBY[e.id]=e);
 G=rg||[];G.forEach(g=>GBY[g.gid]=g);$('main').removeAttribute('aria-busy');
 COM=c.comuni;AGG=c.aggiornato;C=d;const OLD={};C.forEach(k=>(k.id_vecchi||[]).forEach(o=>OLD[o]=k.id));if(FAV.c.some(i=>OLD[i])){FAV.c=[...new Set(FAV.c.map(i=>OLD[i]||i))];favSave()}if(location.hash.startsWith('#s-')&&OLD[location.hash.slice(3)])history.replaceState(null,'','#s-'+OLD[location.hash.slice(3)]);C.forEach(k=>(BYC[k.codice]=BYC[k.codice]||[]).push(k));
 $('cov').textContent=`${C.length} società · 215 comuni`;
-const h=location.hash.slice(1);if(h.startsWith('s-')){const id=h.slice(2);history.replaceState(null,'','#comuni');route();openClub(id)}else route();
+const h=location.hash.slice(1);if(h.startsWith('s-')){const id=h.slice(2);history.replaceState(null,'','#comuni');route();openClub(id)}else if(h.startsWith('e-')&&AGBY[h.slice(2)]){const id=h.slice(2);history.replaceState(null,'','#agenda');route();openEvent(id)}else route();
 }).catch(()=>{$('main').removeAttribute('aria-busy');$('main').innerHTML=`<div class="err" role="alert">${navigator.onLine===false?'Sei senza connessione e i dati non sono ancora salvati su questo dispositivo. Riprova quando torni in linea.':'Non riesco a caricare i dati. Riprova tra qualche istante.'}</div><button class="more" onclick="location.reload()">Riprova</button>`});
 }
 if('serviceWorker' in navigator&&location.protocol==='https:'){navigator.serviceWorker.register('sw.js').catch(()=>{})}
