@@ -64,7 +64,7 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
 - **Agenda eventi (sport individuali)** — dalla 1.12.0. Manuale: `pipeline/agenti/agenda.md`.
   - `scripts/agenda.py [--prova] [--debug] [--solo fidal,fisi]` rigenera `data/agenda.json` (oggi + 183 giorni) dai calendari FIDAL, FISI FVG, FCI FVG, FIV XIII Zona, FISR FVG, FIJLKAM FVG, FIB FVG, più `config/agenda_manuale.json`. Se un modulo fallisce tiene gli eventi precedenti di quel modulo; esce sempre con 0.
   - Workflow `.github/workflows/aggiorna-agenda.yml`: ogni giorno 3:17 UTC, gruppo `aggiorna-dati`, input `opzioni` (con `--prova`/`--debug` non salva); sulle PR che toccano lo script gira in prova.
-  - Sonda fonti: nuovi modi `grezzo=`, `cerca=`, `da=`, `agenda=<opzioni>`, `agendajson` (vedi il manuale dell'agenda).
+  - Sonda fonti: nuovi modi `grezzo=`, `cercah=`, `da=`, `agenda=<opzioni>`, `agendajson` (vedi il manuale dell'agenda).
   - In app: vista `#agenda`, scheda evento `#e-<id>`, blocchi "Prossimi eventi" in Home, Sport, scheda società; SHELL `sportfvg-shell-v18`.
 
 ## Registro

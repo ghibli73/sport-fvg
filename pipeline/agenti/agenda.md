@@ -21,7 +21,7 @@ Ruolo: tiene aggiornata l'agenda delle gare e manifestazioni degli sport individ
 
 Il workflow `.github/workflows/aggiorna-agenda.yml` gira ogni giorno alle 3:17 UTC (gruppo di concorrenza `aggiorna-dati`), committa `data/` come gli altri; lancio manuale con `opzioni` (`--prova`, `--debug`, `--solo fidal,fisi`). Nelle pull request che toccano lo script gira da solo in `--prova`. Se un modulo va in errore o non trova niente mentre prima aveva eventi, restano quelli già presenti (avviso nel log).
 
-Prova dal proprio branch senza workflow sul main: `Sonda fonti` con `prove=agenda=--debug` (opzioni separate da virgola) oppure `prove=agendajson` (rigenera e stampa il JSON tra `@@INIZIO_AGENDA@@` e `@@FINE_AGENDA@@`). Altri modi della sonda per esplorare una pagina: `grezzo=<url>`, `cerca=<regex>@@<url>`, `da=<regex>@@<url>`; nell'URL `~` sta per `&`, nella regex `,,` per `|` e `LT` per `<`.
+Prova dal proprio branch senza workflow sul main: `Sonda fonti` con `prove=agenda=--debug` (opzioni separate da virgola) oppure `prove=agendajson` (rigenera e stampa il JSON tra `@@INIZIO_AGENDA@@` e `@@FINE_AGENDA@@`). Altri modi della sonda per esplorare una pagina: `grezzo=<url>`, `cercah=<regex>@@<url>`, `da=<regex>@@<url>`; nell'URL `~` sta per `&`, nella regex `,,` per `|` e `LT` per `<`.
 
 ## Fonti manuali (config/agenda_manuale.json, controllo mensile)
 Al 25/11/2026 il file è vuoto: il giro di ricerca si è fermato per il limite d'uso. Fonti da controllare ogni mese:
