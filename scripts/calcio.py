@@ -9,7 +9,8 @@ Ogni girone diventa "calcio-<slug>" in data/risultati.json; i nomi squadra sono 
 data/data.json con config/calcio_alias.json (alias certi) o per nome identico.
 Calendario: le partite future (giornata, data, ora, campo) vengono dai calendari ufficiali LND e dalle
 "MODIFICHE AL PROGRAMMA GARE" dei comunicati: vedi scripts/calcio_calendari.py e pipeline/agenti/calendari.md.
-Uso: python scripts/calcio.py [--tutto] [--prova] [--diag]
+Uso: python scripts/calcio.py [--tutto] [--prova] [--diag] [--max-cu N]
+     --max-cu N  comunicati nuovi letti al massimo in questa esecuzione (predefinito MAX_CU)
      --prova  non scrive config né data/risultati.json: il risultato va in /tmp/risultati_prova.json
 """
 import io, json, os, re, sys, time, datetime as dt, unicodedata
@@ -26,6 +27,7 @@ ALIAS = os.path.join(ROOT, "config", "calcio_alias.json")
 BASE = "https://friuliveneziagiulia.lnd.it"
 INIZIO = "2026-08-01T00:00:00"
 PROVA = "/tmp/risultati_prova.json"
+MAX_CU = 60  # comunicati nuovi letti per esecuzione (gli altri alla successiva, prima i più recenti)
 S = requests.Session()
 S.headers["User-Agent"] = os.environ.get("SPORTFVG_UA", "SportFVG/1.0 (app non ufficiale di consultazione)")
 
@@ -59,22 +61,33 @@ def slugify(s):
 RX_FILE_CU = re.compile(r"(^|[/_-])c\.?u\.?[-_ ]?(?:n(?:r|°)?\.?[-_ ]?)?\d+|comunicato", re.I)
 
 
-def elenco_pdf():
+def media_wp(par, pausa=0.5, max_pagine=20):
+    """Tutte le pagine dell'archivio media WordPress. Il numero di pagine viene dall'intestazione X-WP-TotalPages:
+    una pagina può avere MENO di per_page file anche se ce ne sono altre dopo (WordPress toglie i file non pubblici
+    dopo la ricerca; il 26/11/2026 la prima pagina ne aveva 97 su 100), quindi "meno di 100 = ultima" non vale."""
     out, pagina = [], 1
-    while True:
-        r = S.get(f"{BASE}/wp-json/wp/v2/media", params={"per_page": 100, "page": pagina, "after": INIZIO,
-                  "mime_type": "application/pdf", "_fields": "date,source_url"}, timeout=60)
+    while pagina <= max_pagine:
+        r = S.get(f"{BASE}/wp-json/wp/v2/media", params={**par, "per_page": 100, "page": pagina}, timeout=60)
         if r.status_code == 400:
             break
         r.raise_for_status()
         js = r.json()
-        out += [x for x in js if RX_FILE_CU.search(x["source_url"].rsplit("/", 1)[-1])
-                and not re.search(r"allegat", x["source_url"], re.I)]
-        if len(js) < 100:
+        out += js
+        try:
+            tot = int(r.headers.get("X-WP-TotalPages") or 0)
+        except ValueError:
+            tot = 0
+        if (tot and pagina >= tot) or not js:
             break
         pagina += 1
-        time.sleep(0.5)
-    return sorted(out, key=lambda x: x["date"])
+        time.sleep(pausa)
+    return out
+
+
+def elenco_pdf():
+    js = media_wp({"after": INIZIO, "mime_type": "application/pdf", "_fields": "date,source_url"})
+    out = [x for x in js if RX_FILE_CU.search(x["source_url"].rsplit("/", 1)[-1]) and not re.search(r"allegat", x["source_url"], re.I)]
+    return sorted({x["source_url"]: x for x in out}.values(), key=lambda x: x["date"])
 
 
 _pdf = {}
@@ -204,7 +217,102 @@ def leggi_cu(url):
             casa, osp = dividi(mr.group(1))
             out.append([cat, gir[0], gir[1], gir[2], data, casa, osp,
                         int(mr.group(2)), int(mr.group(3)), nota.group(1) if nota else None])
+    if (comitato == "Pordenone" or not out) and any(RX_DATA_PN.search(l) for l in righe):
+        out += leggi_blocchi_pn(righe)  # formato a blocchi (Delegazione di Pordenone)
     return comitato, out
+
+
+# ---- formato della Delegazione di Pordenone (CU "2026-C.U.-N.-NN-Delegazione-PN"): il PDF contiene prima le pagine del
+# Comitato Regionale e poi (indice "Risultati ... pag. 25") quelle della Delegazione, senza il titolo "RISULTATI GARE".
+# Ogni blocco: "Campionato 2^ Categoria – Girone “A”" / "RISULTATI UFFICIALI GARE DEL 22/11/2026" (o "RISULTATO UFFICIALE
+# GARA DEL" per un recupero) / "GIRONE A – 9a Giornata - A" / righe "CASA -OSPITE" (con "1) " davanti per le note), e i
+# punteggi in una colonna a destra che il PDF dà dopo le squadre, nello stesso ordine ("3-1"; "- F", "- P", "- B" = gara
+# non disputata, rinviata o sospesa: nessun risultato). Note: "1) Giocata il 21/11/2026", "1) Posticipo al ...".
+RX_DATA_PN = re.compile(r"RISULTAT[IO] UFFICIAL[EI] GAR[EA] DEL\S*\s*(?:L\s*['’]\s*)?(\d{1,2})/(\d{1,2})/(\d{4})", re.I)
+RX_GIR_PN = re.compile(r"^GIRONE\s+([A-Z0-9]{1,3})\s*[-–]\s*(\d{1,2})\s*(?:a|ª|°|\^)?\s*Giornata(?:\s*[-–]\s*([AR])\b)?", re.I)
+RX_GARA_PN = re.compile(r"^(?:\(?(\d)\)\s*)?(\S.*?\S)\s+-\s*(\S.*\S)$")
+RX_PUNTI_PN = re.compile(r"^(\d{1,2})\s*-\s*(\d{1,2})$")
+RX_NOPUNTI_PN = re.compile(r"^-\s+[A-Z](?:\.?[A-Z]){0,3}\.?$")  # "- F", "- P", "- V.D." (vedi delibera)
+RX_NOTA_PN = re.compile(r"^\(?(\d)\)\s*-?\s*(?:giocata|disputata)\s+il\s+(\d{1,2})/(\d{1,2})/(\d{4})", re.I)
+RX_FINE_PN = re.compile(r"^(Campionato|Torneo|Coppa|ATTIVIT|DECISIONI|GIUSTIZIA|PROVVEDIMENTI|GIUDICE|MODIFICHE|VARIAZIONI)", re.I)
+
+
+def titolo_cat(l):
+    """"Campionato 2^ Categoria" -> "Campionato SECONDA Categoria" (i numeri ordinali dei titoli di Pordenone)."""
+    for n, parola in (("1", "PRIMA"), ("2", "SECONDA"), ("3", "TERZA")):
+        l = re.sub(rf"\b{n}\s*[\^ªa°]\s*Categoria", parola + " Categoria", l, flags=re.I)
+    return l
+
+
+def leggi_blocchi_pn(righe):
+    """-> [(categoria, girone, giornata, AR, data, casa, ospite, gc, go, n_nota)] dal formato a blocchi (Pordenone).
+    Un blocco con un numero di punteggi diverso dal numero di gare viene scartato (mai abbinare a caso)."""
+    out, cat, data, blocco = [], None, None, None
+
+    def chiudi():
+        if not blocco or not cat or not data:
+            return
+        gare, punti, note = blocco["gare"], blocco["punti"], blocco["note"]
+        if len(gare) != len(punti):
+            print(f"    blocco {cat} girone {blocco['gir'][0]} g{blocco['gir'][1]}: {len(gare)} gare e {len(punti)} punteggi, scartato")
+            return
+        for (nota, casa, osp), pt in zip(gare, punti):
+            if pt is None:
+                continue  # gara non disputata / rinviata / sospesa: nessun risultato (mai 0-0)
+            d = note.get(nota, data) if nota else data
+            out.append([cat, blocco["gir"][0], blocco["gir"][1], blocco["gir"][2], d, casa, osp, pt[0], pt[1], nota])
+
+    for i, l in enumerate(righe):
+        md = RX_DATA_PN.search(l)
+        if md:
+            chiudi(); blocco = None
+            data = f"{md.group(3)}-{int(md.group(2)):02d}-{int(md.group(1)):02d}"
+            cat = None
+            for j in range(i - 1, max(-1, i - 4), -1):
+                t = titolo_cat(righe[j])
+                comp = re.sub(r"[^A-Z0-9]", "", strip_acc(t.upper()))
+                if RX_CAT_NO.search(comp) or RX_CAT_ALTRO.search(comp):
+                    break
+                if RX_CAT_OK.search(comp):
+                    cat = canon_cat(re.split(r"\s+[-–]\s+Giron", t)[0]); break
+            continue
+        if RX_FINE_PN.match(l):
+            # un titolo non chiude il blocco: i punteggi della colonna destra possono arrivare dopo il titolo seguente
+            # (es. "ATTIVITÀ BASE"); il blocco si chiude alla riga "RISULTATI UFFICIALI..." o "GIRONE ..." successiva
+            continue
+        mg = RX_GIR_PN.match(l)
+        if mg:
+            chiudi()
+            blocco = {"gir": (mg.group(1).upper(), int(mg.group(2)), (mg.group(3) or "A").upper()), "gare": [], "punti": [], "note": {}}
+            continue
+        if blocco is None:
+            continue
+        mn = RX_NOTA_PN.match(l)
+        if mn:
+            blocco["note"][mn.group(1)] = f"{mn.group(4)}-{int(mn.group(3)):02d}-{int(mn.group(2)):02d}"; continue
+        mp = RX_PUNTI_PN.match(l)
+        if mp:
+            blocco["punti"].append((int(mp.group(1)), int(mp.group(2)))); continue
+        if RX_NOPUNTI_PN.match(l):
+            blocco["punti"].append(None); continue
+        if re.match(r"^(Riposa|Pag\.|del Comunicato|Si trascrivono|\(?\d\)\s*\S)", l, re.I) and not RX_GARA_PN.match(l):
+            continue
+        if re.match(r"^-\S", l) and blocco.get("frammento"):
+            l = blocco["frammento"] + " " + l  # "CHIONS" / "-SESTO BAGNAROLA": nome di casa sulla riga prima
+        blocco["frammento"] = None
+        mr = RX_GARA_PN.match(l)
+        if not mr and not re.search(r"\s-|^-|\d", l) and len(l) > 2:
+            blocco["frammento"] = l; continue
+        if mr and not re.search(r"GIOCATA$|\d{1,2}\s*-\s*\d{1,2}$", l) and not re.match(r"^\(?\d\)\s*(Posticipo|Anticipo|Giocata|Rinviata|Sospesa)", l, re.I):
+            casa, osp = dividi_pn(mr.group(2) + " - " + mr.group(3))
+            blocco["gare"].append((mr.group(1), casa, osp))
+    chiudi()
+    return out
+
+
+def dividi_pn(testo):
+    # "POLCENIGO BUDOIA -SARONE 1975-2017": il trattino che separa le squadre ha uno spazio prima
+    return dividi(testo)
 
 
 def canon_cat(l):
@@ -348,6 +456,9 @@ def aggiungi_futuri(g, k, n_sq, cal_stato, ids_di, oggi):
 
 def main():
     prova, tutto = "--prova" in sys.argv, "--tutto" in sys.argv
+    global MAX_CU
+    if "--max-cu" in sys.argv:
+        MAX_CU = int(sys.argv[sys.argv.index("--max-cu") + 1])
     oggi = dt.date.today().isoformat()
     stato = {"letti": [], "gare": []} if tutto or not os.path.exists(STATO) else json.load(open(STATO))
     letti = set(stato["letti"])
@@ -375,10 +486,14 @@ def main():
     NOTI.update(compatto(k) for k in (json.load(open(ALIAS)) if os.path.exists(ALIAS) else {}))
     elenco = elenco_pdf()
     print(f"comunicati in archivio: {len(elenco)}, già letti: {len(letti & {x['source_url'] for x in elenco})}")
-    for x in elenco:
+    # i comunicati non ancora letti: prima i più recenti (risultati nuovi subito), al massimo MAX_CU per esecuzione
+    # (la prima lettura di una serie intera, es. i CU di Pordenone, si distribuisce su più esecuzioni: carico leggero)
+    da_leggere = [x for x in elenco if x["source_url"] not in letti]
+    da_leggere = sorted(sorted(da_leggere, key=lambda x: x["date"], reverse=True)[:MAX_CU], key=lambda x: x["date"])
+    if len(da_leggere) < len([x for x in elenco if x["source_url"] not in letti]):
+        print(f"comunicati da leggere: {len([x for x in elenco if x['source_url'] not in letti])}, in questa esecuzione {len(da_leggere)} (i più recenti)")
+    for x in da_leggere:
         u = x["source_url"]
-        if u in letti:
-            continue
         try:
             comitato, righe = leggi_cu(u)
         except Exception as e:
@@ -390,6 +505,9 @@ def main():
             if cs.startswith("Under") and not re.search(r"regionali|provinciali|élite", cs):
                 cs = cs.replace(f"Under {cs.split()[1]}", f"Under {cs.split()[1]} " + ("regionali" if comitato == "Regionale" else "provinciali"), 1)
             k = (comitato, cs, gir)
+            vecchia = gare.get((k, (n, ar), chiave(casa), chiave(osp)))
+            if vecchia and (vecchia.get("pubbl") or "") > x["date"][:10]:
+                continue  # c'è già da un comunicato più recente (es. letto prima perché la serie si recupera dal fondo)
             gare[(k, (n, ar), chiave(casa), chiave(osp))] = {"k": list(k), "giornata": n, "ar": ar, "data": data, "casa": casa,
                                                           "ospite": osp, "gc": gc, "go": go, "fonte": u, "pubbl": x["date"][:10]}
         letti.add(u)

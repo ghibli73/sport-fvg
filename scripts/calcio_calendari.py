@@ -391,22 +391,10 @@ def dividi_squadre(testo, nomi, C):
 
 # ---------------------------------------------------------------- lettura delle fonti
 def elenco_media(C, cerca, mime=None, dopo=None):
-    out, pagina = [], 1
-    while True:
-        par = {"search": cerca, "per_page": 100, "page": pagina, "after": dopo or C.INIZIO, "_fields": "date,source_url"}
-        if mime:
-            par["mime_type"] = mime
-        r = C.S.get(f"{C.BASE}/wp-json/wp/v2/media", params=par, timeout=60)
-        if r.status_code == 400:
-            break
-        r.raise_for_status()
-        js = r.json()
-        out += js
-        if len(js) < 100:
-            break
-        pagina += 1
-        time.sleep(PAUSA)
-    return sorted(out, key=lambda x: x["date"])
+    par = {"search": cerca, "after": dopo or C.INIZIO, "_fields": "date,source_url"}
+    if mime:
+        par["mime_type"] = mime
+    return sorted(C.media_wp(par, pausa=PAUSA), key=lambda x: x["date"])  # tutte le pagine (X-WP-TotalPages)
 
 
 def aggiungi_calendari(stato, gironi, pubbl):
