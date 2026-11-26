@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-udi-terza-categoria-c-27d68f0e@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:BLESSANESE 1-5 DONATELLO CALCIO A.S.D. (Terza Categoria — girone 
@@ -38,7 +38,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-terza-categoria-c-bfb87130@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:CASTIONS 2-1 BLESSANESE (Terza Categoria — girone C)
@@ -49,13 +49,24 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-terza-categoria-c-e70cc6ab@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:BLESSANESE 1-4 COMUNALE LESTIZZA (Terza Categoria — girone C)
 DESCRIPTION:Terza Categoria — girone C\n8ª giornata\nDati non ufficiali:
   fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
  i-terza-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-c-763d8865@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261129T150000
+DTEND;TZID=Europe/Rome:20261129T170000
+SUMMARY:TORVISCOSA – BLESSANESE (Terza Categoria — girone C)
+DESCRIPTION:Terza Categoria — girone C\n10ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-u
+ di-terza-categoria-c
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
 END:VEVENT
 END:VCALENDAR

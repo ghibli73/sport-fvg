@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-gor-under-19-provinciali-a-aac93a3d@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:TORVISCOSA 0-3 TORRE (Under 19 provinciali — girone A)
@@ -38,7 +38,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-terza-categoria-c-1641e89e@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:TORVISCOSA 0-0 MERETO CALCIO (Terza Categoria — girone C)
@@ -49,7 +49,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-16-provinciali-a-df1b2982@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:BISIACA ROMANA 7-0 TORVISCOSA (Under 16 provinciali — girone A)
@@ -61,7 +61,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-19-provinciali-a-bbffef02@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:UNIONE FRIULI ISONTINA 2-1 TORVISCOSA (Under 19 provinciali — gir
@@ -73,20 +73,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-udi-terza-categoria-c-7a15754f@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:DONATELLO CALCIO A.S.D. 0-1 TORVISCOSA (Terza Categoria — girone 
- C)
-DESCRIPTION:Terza Categoria — girone C\n7ª giornata\nDati non ufficiali:
-  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
- i-terza-categoria-c
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-gor-under-16-provinciali-a-4bf2af1c@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:TORVISCOSA 0-3 MUGGIA 1967 (Under 16 provinciali — girone A)
@@ -97,8 +85,20 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-c-7a15754f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:DONATELLO CALCIO A.S.D. 0-1 TORVISCOSA (Terza Categoria — girone 
+ C)
+DESCRIPTION:Terza Categoria — girone C\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-gor-under-19-provinciali-a-9f9195b5@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:ISONZO 3-1 TORVISCOSA (Under 19 provinciali — girone A)
@@ -109,19 +109,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-udi-terza-categoria-c-875b2b81@zuin-fvg
-DTSTAMP:20261119T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:TORVISCOSA 1-0 CASTIONS (Terza Categoria — girone C)
-DESCRIPTION:Terza Categoria — girone C\n8ª giornata\nDati non ufficiali:
-  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
- i-terza-categoria-c
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-gor-under-16-provinciali-a-249a44e7@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:PRO CERVIGNANO RUDA 5-0 TORVISCOSA (Under 16 provinciali — girone
@@ -133,8 +122,55 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-c-875b2b81@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:TORVISCOSA 1-0 CASTIONS (Terza Categoria — girone C)
+DESCRIPTION:Terza Categoria — girone C\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-16-provinciali-a-718ef8d3@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:TORVISCOSA 0-9 ZARJA A.S.D. (Under 16 provinciali — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-c-b4815c80@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:COMUNALE LESTIZZA 5-2 TORVISCOSA (Terza Categoria — girone C)
+DESCRIPTION:Terza Categoria — girone C\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-19-provinciali-a-0731c615@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:AZZURRA PREMARIACCO – TORVISCOSA (Under 19 provinciali — girone
+  A)
+DESCRIPTION:Under 19 provinciali — girone A\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-gor-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-gor-under-16-provinciali-a-e99776f3@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261129T100000
 DTEND;TZID=Europe/Rome:20261129T120000
 SUMMARY:TORVISCOSA – CHIARBOLA PONZIANA CALCIO (Under 16 provinciali — 
@@ -143,6 +179,29 @@ DESCRIPTION:Under 16 provinciali — girone A\n10ª giornata\nDati non uffi
  ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
  cio-gor-under-16-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-c-763d8865@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261129T150000
+DTEND;TZID=Europe/Rome:20261129T170000
+SUMMARY:TORVISCOSA – BLESSANESE (Terza Categoria — girone C)
+DESCRIPTION:Terza Categoria — girone C\n10ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-u
+ di-terza-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-19-provinciali-a-c0f67f4f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261202T193000
+DTEND;TZID=Europe/Rome:20261202T213000
+SUMMARY:TORVISCOSA – FIUMICELLO 2004 (Under 19 provinciali — girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
  -a
 END:VEVENT
 END:VCALENDAR

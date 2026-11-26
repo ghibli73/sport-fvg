@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-c-8224ba25@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:AURORA BUONACQUISTO 0-1 ZOMPICCHIA (Seconda Categoria — girone C)
@@ -37,7 +37,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-c-cd554841@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:ZOMPICCHIA 4-1 COMUNALE GONARS (Seconda Categoria — girone C)
@@ -48,13 +48,36 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-c-cd5622ee@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:PALAZZOLO 1-0 ZOMPICCHIA (Seconda Categoria — girone C)
 DESCRIPTION:Seconda Categoria — girone C\n8ª giornata\nDati non ufficial
  i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
  udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-9e1ab274@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:ZOMPICCHIA 2-1 VILLANOVA CALCIO (Seconda Categoria — girone C)
+DESCRIPTION:Seconda Categoria — girone C\n9ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-d27f5594@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261128T153000
+DTEND;TZID=Europe/Rome:20261128T173000
+SUMMARY:POLISPORTIVA FLAMBRO – ZOMPICCHIA (Seconda Categoria — girone C
+ )
+DESCRIPTION:Seconda Categoria — girone C\n10ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -udi-seconda-categoria-c
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
 END:VEVENT
 END:VCALENDAR

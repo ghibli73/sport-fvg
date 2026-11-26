@@ -25,21 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-tri-under-15-provinciali-a-9658a975@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:CHIARBOLA PONZIANA CALCIO 0-15 U.FINCANTIERI MONFALCONE (Under 15 p
- rovinciali — girone A)
-DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-tri-under-15-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
- -a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-gor-under-16-provinciali-a-900032cc@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:CHIARBOLA PONZIANA CALCIO 2-2 PRO CERVIGNANO RUDA (Under 16 provinc
@@ -51,13 +38,13 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-tri-under-15-provinciali-a-7d12026d@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:CHIARBOLA PONZIANA CALCIO 0-10 SAN GIOVANNI A.S.D. (Under 15 provin
- ciali — girone A)
-DESCRIPTION:Under 15 provinciali — girone A\n9ª giornata\nDati non uffic
+UID:calcio-tri-under-15-provinciali-a-9658a975@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:CHIARBOLA PONZIANA CALCIO 0-15 U.FINCANTIERI MONFALCONE (Under 15 p
+ rovinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
  io-tri-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
@@ -65,7 +52,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-16-provinciali-a-698a7ea3@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:CHIARBOLA PONZIANA CALCIO 2-1 ZARJA A.S.D. (Under 16 provinciali 
@@ -77,8 +64,34 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-7d12026d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:CHIARBOLA PONZIANA CALCIO 0-10 SAN GIOVANNI A.S.D. (Under 15 provin
+ ciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-16-provinciali-a-04156962@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:JUVENTINA S.ANDREA 0-1 CHIARBOLA PONZIANA CALCIO (Under 16 provinci
+ ali — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-8dd1d6e4@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:ISONTINO CALCIO 12-0 CHIARBOLA PONZIANA CALCIO (Under 15 provincial
@@ -91,12 +104,11 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-701b5771@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20261125T183000
-DTEND;TZID=Europe/Rome:20261125T203000
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
 SUMMARY:CHIARBOLA PONZIANA CALCIO 0-15 ZARJA A.S.D. (Under 15 provinciali 
  — girone A)
-LOCATION:Campanelle Trieste\, Via Campanelle 300
 DESCRIPTION:Under 15 provinciali — girone A\n11ª giornata\nDati non uffi
  ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
  cio-tri-under-15-provinciali-a
@@ -105,9 +117,9 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-397cd307@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20261128T170000
-DTEND;TZID=Europe/Rome:20261128T190000
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261128T150000
+DTEND;TZID=Europe/Rome:20261128T170000
 SUMMARY:S.GIUSTO FOOTBALL ACADEMY – CHIARBOLA PONZIANA CALCIO (Under 15 p
  rovinciali — girone A)
 LOCATION:Rouna Prosecco\, San Primo - Zona Sportiva
@@ -119,7 +131,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-16-provinciali-a-e99776f3@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261129T100000
 DTEND;TZID=Europe/Rome:20261129T120000
 SUMMARY:TORVISCOSA – CHIARBOLA PONZIANA CALCIO (Under 16 provinciali — 
@@ -132,7 +144,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-fb7d7611@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261206T090000
 DTEND;TZID=Europe/Rome:20261206T110000
 SUMMARY:CHIARBOLA PONZIANA CALCIO – STUDENTI (Under 15 provinciali — gi
@@ -145,8 +157,21 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-gor-under-16-provinciali-a-6494fd1a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261209T193000
+DTEND;TZID=Europe/Rome:20261209T213000
+SUMMARY:TORRE – CHIARBOLA PONZIANA CALCIO (Under 16 provinciali — giron
+ e A)
+DESCRIPTION:Under 16 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-3f070a13@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261213T090000
 DTEND;TZID=Europe/Rome:20261213T110000
 SUMMARY:CHIARBOLA PONZIANA CALCIO – FANI OLIMPIA (Under 15 provinciali 
@@ -160,7 +185,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-792c596e@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261220T103000
 DTEND;TZID=Europe/Rome:20261220T123000
 SUMMARY:AZZURRA – CHIARBOLA PONZIANA CALCIO (Under 15 provinciali — gir
@@ -174,7 +199,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-0aa96b73@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270110T103000
 DTEND;TZID=Europe/Rome:20270110T123000
 SUMMARY:MUGGIA 1967 – CHIARBOLA PONZIANA CALCIO (Under 15 provinciali —
@@ -188,7 +213,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-fabb1b19@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270117T090000
 DTEND;TZID=Europe/Rome:20270117T110000
 SUMMARY:CHIARBOLA PONZIANA CALCIO – DOMIO (Under 15 provinciali — giron
@@ -202,7 +227,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-31a57fdf@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270131T090000
 DTEND;TZID=Europe/Rome:20270131T110000
 SUMMARY:CHIARBOLA PONZIANA CALCIO – JUVENTINA S.ANDREA (Under 15 provinci
@@ -216,7 +241,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-d4553a31@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270207T090000
 DTEND;TZID=Europe/Rome:20270207T110000
 SUMMARY:CAMPANELLE – CHIARBOLA PONZIANA CALCIO (Under 15 provinciali — 
@@ -230,7 +255,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-e35a32cd@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270214T090000
 DTEND;TZID=Europe/Rome:20270214T110000
 SUMMARY:CHIARBOLA PONZIANA CALCIO – FIUMICELLO 2004 (Under 15 provinciali
@@ -244,7 +269,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-65fbc3b6@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270221T113000
 DTEND;TZID=Europe/Rome:20270221T133000
 SUMMARY:U.FINCANTIERI MONFALCONE – CHIARBOLA PONZIANA CALCIO (Under 15 pr
@@ -258,7 +283,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-e27f673b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270228T090000
 DTEND;TZID=Europe/Rome:20270228T110000
 SUMMARY:CHIARBOLA PONZIANA CALCIO – I.S.M. GRADISCA (Under 15 provinciali
@@ -272,7 +297,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-fd3ecde0@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270307T111500
 DTEND;TZID=Europe/Rome:20270307T131500
 SUMMARY:SAN GIOVANNI A.S.D. – CHIARBOLA PONZIANA CALCIO (Under 15 provinc
@@ -286,7 +311,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-b5c6b994@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270314T090000
 DTEND;TZID=Europe/Rome:20270314T110000
 SUMMARY:CHIARBOLA PONZIANA CALCIO – ISONTINO CALCIO (Under 15 provinciali
@@ -300,7 +325,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-53dd8b9f@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270321T103000
 DTEND;TZID=Europe/Rome:20270321T123000
 SUMMARY:ZARJA A.S.D. – CHIARBOLA PONZIANA CALCIO (Under 15 provinciali 
@@ -314,7 +339,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-f778c04b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270404T090000
 DTEND;TZID=Europe/Rome:20270404T110000
 SUMMARY:CHIARBOLA PONZIANA CALCIO – S.GIUSTO FOOTBALL ACADEMY (Under 15 p
@@ -328,7 +353,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-92df7793@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270411T121500
 DTEND;TZID=Europe/Rome:20270411T141500
 SUMMARY:STUDENTI – CHIARBOLA PONZIANA CALCIO (Under 15 provinciali — gi
@@ -342,7 +367,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-6a843ac3@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270418T103000
 DTEND;TZID=Europe/Rome:20270418T123000
 SUMMARY:FANI OLIMPIA – CHIARBOLA PONZIANA CALCIO (Under 15 provinciali 
@@ -356,7 +381,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-5aa276ed@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270425T090000
 DTEND;TZID=Europe/Rome:20270425T110000
 SUMMARY:CHIARBOLA PONZIANA CALCIO – AZZURRA (Under 15 provinciali — gir

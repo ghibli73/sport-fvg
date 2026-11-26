@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-fc3ac846@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:RAGOGNA 1-0 SEDEGLIANO (Seconda Categoria — girone B)
@@ -37,7 +37,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-9996c9c3@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:SEDEGLIANO 5-0 CAMINO (Seconda Categoria — girone B)
@@ -48,13 +48,36 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-6f751179@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:RANGERS 2-0 SEDEGLIANO (Seconda Categoria — girone B)
 DESCRIPTION:Seconda Categoria — girone B\n8ª giornata\nDati non ufficial
  i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
  udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-b-cc5e8b76@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:SEDEGLIANO 1-1 COLLOREDO DI MONTE ALBANO (Seconda Categoria — gir
+ one B)
+DESCRIPTION:Seconda Categoria — girone B\n9ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-b-299fd544@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261128T150000
+DTEND;TZID=Europe/Rome:20261128T170000
+SUMMARY:COSEANO – SEDEGLIANO (Seconda Categoria — girone B)
+DESCRIPTION:Seconda Categoria — girone B\n10ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -udi-seconda-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
 END:VEVENT
 END:VCALENDAR

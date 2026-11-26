@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-7a81eae7@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:TRICESIMO CALCIO 3-2 RAGOGNA (Under 19 provinciali — girone A)
@@ -38,7 +38,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-85fafeda@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:DEPORTIVO JUNIOR 7-0 RAGOGNA (Under 19 provinciali — girone A)
@@ -50,7 +50,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-fc3ac846@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:RAGOGNA 1-0 SEDEGLIANO (Seconda Categoria — girone B)
@@ -61,7 +61,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-6281bbe2@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:RAGOGNA 3-1 SERENISSIMA PRADAMANO (Under 19 provinciali — girone 
@@ -74,7 +74,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-cb4d3ba2@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:MORUZZO 1-3 RAGOGNA (Seconda Categoria — girone B)
@@ -85,7 +85,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-19-provinciali-a-dc4c8b19@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:ARTENIESE 1-1 RAGOGNA (Under 19 provinciali — girone A)
@@ -97,7 +97,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-6907d852@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:RAGOGNA 1-0 REANESE (Seconda Categoria — girone B)
@@ -105,5 +105,28 @@ DESCRIPTION:Seconda Categoria — girone B\n8ª giornata\nDati non ufficial
  i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
  udi-seconda-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-b-e2b13934@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:RAGOGNA 1-1 MAGNANO IN RIVIERA (Seconda Categoria — girone B)
+DESCRIPTION:Seconda Categoria — girone B\n9ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-19-provinciali-a-1b395d26@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:COMUNALE GONARS 0-5 RAGOGNA (Under 19 provinciali — girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-19-provinciali
+ -a
 END:VEVENT
 END:VCALENDAR

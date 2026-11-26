@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-udi-terza-categoria-b-57f1d197@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:TARCENTINA 0-2 UNIONE CALCIO 3 STELLE (Terza Categoria — girone B
@@ -49,7 +49,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-d-cfa74257@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:TARCENTINA 0-1 CHIAVRIS (Under 14 provinciali — girone D)
@@ -72,7 +72,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-terza-categoria-b-133401df@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:ASSOSANGIORGINA 6-2 TARCENTINA (Terza Categoria — girone B)
@@ -83,7 +83,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-d-f41dffc8@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:CALCIO TEOR 6-2 TARCENTINA (Under 14 provinciali — girone D)
@@ -106,7 +106,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-d-b65ccc02@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:TARCENTINA 0-4 ANCONA LUMIGNACCO (Under 14 provinciali — girone D
@@ -119,7 +119,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-terza-categoria-b-4d26b55e@zuin-fvg
-DTSTAMP:20261119T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:TARCENTINA 0-0 MOIMACCO (Terza Categoria — girone B)
@@ -138,6 +138,29 @@ DESCRIPTION:Prima Categoria — girone B\n12ª giornata\nDati non ufficiali
  : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
  rima-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-cfdcabec@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:DIANA 6-0 TARCENTINA (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-d-d38ea27b@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:TORREANESE 0-2 TARCENTINA (Under 14 provinciali — girone D)
+DESCRIPTION:Under 14 provinciali — girone D\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-prima-categoria-b-344afdce@zuin-fvg
