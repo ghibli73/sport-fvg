@@ -147,7 +147,10 @@ main{max-width:1100px;margin:0 auto;padding:14px 14px 24px}
 .nb{border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:13px;font-weight:600;color:var(--mute);min-height:56px;justify-content:center;border-radius:10px}
 .nb svg{width:52px;height:30px;padding:3px 14px;border-radius:999px;transition:background .15s}
 .nb[aria-current=true]{color:var(--acc)}
-.nb[aria-current=true] svg{background:var(--soft)}
+.nb{position:relative;z-index:1}
+.nbi{position:absolute;left:0;top:0;width:52px;height:30px;border-radius:999px;background:var(--soft);opacity:0;pointer-events:none;z-index:0}
+.nbi.on{opacity:1}.nbi.ready{transition:transform .26s cubic-bezier(.2,.8,.2,1),opacity .15s}
+@media(prefers-reduced-motion:reduce){.nbi.ready{transition:none}}
 .nb:active svg{background:var(--soft)}
 /* scheda società */
 .sheet{position:fixed;inset:0;z-index:40;background:rgba(5,12,25,.5);display:none}
@@ -449,6 +452,9 @@ a.gstar{color:var(--ink);text-decoration:none}.act.wide{grid-column:1/-1}
 @keyframes ispin{from{transform:rotate(-540deg);filter:hue-rotate(0)}to{transform:rotate(0);filter:hue-rotate(360deg)}}
 @keyframes ipop{0%,55%{transform:scale(.7)}80%{transform:scale(1.08)}100%{transform:scale(1)}}
 @keyframes ifade{0%,80%{opacity:1}100%{opacity:0}}
+/* micro-animazioni al tocco */
+.fxg{position:fixed;z-index:19;pointer-events:none;contain:layout paint}.fxgl{position:absolute;inset:-25%;border-radius:50%;opacity:0}
+.fxp{position:fixed;z-index:19;width:8px;height:8px;border-radius:50%;pointer-events:none;will-change:transform,opacity}
 </style></head>
 <body>
 <header class="top">
@@ -469,7 +475,7 @@ a.gstar{color:var(--ink);text-decoration:none}.act.wide{grid-column:1/-1}
 </header>
 <div class="filt" role="region" aria-label="Filtri"><div class="frow" id="frow" role="group" aria-label="Sport e provincia"></div></div>
 <main id="main" aria-busy="true"><div class="hd"><h2>Caricamento…</h2></div><div class="sk" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div></main>
-<nav class="nav" aria-label="Sezioni">
+<nav class="nav" aria-label="Sezioni"><i class="nbi" aria-hidden="true"></i>
 <button class="nb" data-v="comuni"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Comuni</button>
 <button class="nb" data-v="societa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3 8.5-7 10-4-1.5-7-5-7-10V6z"/></svg>Società</button>
 <button class="nb nr" data-v="risultati"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 21h18M5 21V12h4v9M10 21V7h4v14M15 21v-6h4v6"/><path d="M12 2.5l.9 1.8 2 .3-1.45 1.4.35 2-1.8-.95-1.8.95.35-2L9.1 4.6l2-.3z" fill="currentColor" stroke="none"/></svg>Risultati</button>
@@ -541,7 +547,8 @@ function filters(){
 const sp=sport?`<button class="pill" data-s="" aria-pressed="true" aria-label="Togli il filtro ${esc(NAMES[sport])}">${ico(sport)}${esc(NAMES[sport])}<span class="x" aria-hidden="true">×</span></button>`:`<button class="pill sp" data-go="sport"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Scegli sport</button>`;
 $('frow').innerHTML=sp+'<span class="sep"></span>'+[['','Tutta la regione'],...Object.entries(PROV)].map(([k,v])=>`<button class="pill" data-p="${k}" aria-pressed="${k===prov}">${v}</button>`).join('');
 }
-function nav(){const cur=girone?'risultati':HOME?(comune?'societa':view==='mappa'?'':view==='agenda'?'sport':view):(comune||view==='mappa'?'comuni':view==='agenda'?'sport':view);document.querySelectorAll('.nb,.dtab').forEach(b=>b.setAttribute('aria-current',b.dataset.v===cur))}
+function nav(){const cur=girone?'risultati':HOME?(comune?'societa':view==='mappa'?'':view==='agenda'?'sport':view):(comune||view==='mappa'?'comuni':view==='agenda'?'sport':view);document.querySelectorAll('.nb,.dtab').forEach(b=>b.setAttribute('aria-current',b.dataset.v===cur));navInd()}
+function navInd(){const n=document.querySelector('.nav'),i=n&&n.querySelector('.nbi');if(!i)return;const c=n.querySelector('.nb[aria-current=true]');if(!c||!n.offsetParent&&getComputedStyle(n).display==='none'){i.classList.remove('on');return}const sv=c.querySelector('svg');if(!sv)return;const nr=n.getBoundingClientRect(),sr=sv.getBoundingClientRect();if(!sr.width)return;const x=sr.left-nr.left,y=sr.top-nr.top;if(i.classList.contains('ready')&&!RMOT()){i.style.willChange='transform';i.addEventListener('transitionend',()=>{i.style.willChange=''},{once:true})}i.style.transform=`translate(${x}px,${y}px)`;i.classList.add('on');requestAnimationFrame(()=>i.classList.add('ready'))}
 function homeRis(){
 const fc=FAV.c.map(id=>C.find(x=>x.id===id)).filter(Boolean);const T=[];fc.forEach(c=>{const t=squadreRis(c)[0];if(t)T.push(t)});
 if(T.length)return `<section class="hr" aria-labelledby="hrT"><div class="hrh"><h2 id="hrT">${STAR}Le tue squadre</h2><button class="lnk" data-go="preferiti">Preferiti${CHEV}</button></div><div class="list">${T.slice(0,3).map(t=>teamRow(t,'data-gg',true)).join('')}</div><button class="more pri" data-go="risultati">${LIVE}Tutti i risultati e le classifiche</button></section>`;
@@ -638,7 +645,7 @@ const F=evFut(),ne={};F.forEach(e=>ne[e.sport]=(ne[e.sport]||0)+1);const sc=senz
 m.innerHTML=`<div class="hd"><h2>Sport</h2><span class="n">${ks.length} discipline${prov?' · '+PROV[prov]:''}</span></div>${F.length?`<button class="more pri" data-go="agenda" style="margin:0 0 14px">${CAL}Agenda eventi · ${F.length} in programma</button>`:''}<div class="sgrid">${ks.map(k=>`<button class="stile" data-pick="${k}" aria-pressed="${sport===k}">${ico(k)}<b>${esc(NAMES[k])}</b><small>${cnt[k]} società${ne[k]&&sc.includes(k)?` · ${ne[k]} eventi`:''}</small></button>`).join('')}</div>`+
 (sc.length?`<div class="hd" style="margin-top:22px"><h2>Prossimi eventi</h2><span class="n">sport senza campionato</span></div>${sc.map(k=>{const L=F.filter(e=>e.sport===k);return `<div class="agsp"><div class="grp">${ico(k)}${esc(NAMES[k]||k)}<span>${L.length}</span><button class="lnk" data-agsp="${k}">Tutti${CHEV}</button></div><div class="list">${L.slice(0,2).map(e=>evRow(e,{noSport:1})).join('')}</div></div>`}).join('')}`:'');
 }
-const VERSIONE='1.13.3 beta',VERSIONE_DATA='2026-11-26';
+const VERSIONE='1.14.0 beta',VERSIONE_DATA='2026-11-26';
 function vInfo(m){
 const done=COM.filter(c=>c.n>0).length;const cnt={};C.forEach(k=>cnt[k.sport]=(cnt[k.sport]||0)+1);const mx=Math.max(...Object.values(cnt));
 const ks=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]);
@@ -667,7 +674,7 @@ m.innerHTML=`<div class="hd"><h2>Risultati e classifiche</h2><span class="n">${G
 (L.length?Object.keys(cats).sort((a,b)=>cidx(a)-cidx(b)||a.localeCompare(b)).map(c=>`<div class="grp">${esc(c)}<span>${cats[c].length}</span></div><div class="list">${cats[c].sort((a,b)=>lidx(a.girone)-lidx(b.girone)||String(a.genere).localeCompare(String(b.genere))||a.girone.localeCompare(b.girone)).map(g=>{const t=g.classifica[0];return `<button class="row" data-g="${g.gid}"><span><span class="t">${esc(g.girone)}${g.genere?` <em>${esc(g.genere)}</em>`:''}</span><span class="s">${esc(g.comitato)}${g.giornata?` · ${g.giornata}ª giornata`:''}${t?` · 1° ${esc(t.squadra)}`:''}</span></span><span class="cnt">${CHEV}</span></button>`}).join('')}</div>`).join(''):`<div class="list"><p class="empty">${G.length?'Nessun girone qui.':'I campionati sono in caricamento: torna più tardi.'}</p></div>`)+
 `<p class="small" style="margin:14px 2px 0">Classifiche e risultati dalle pubblicazioni ufficiali delle federazioni (FIPAV, FIP, LND), aggiornati ogni 15 minuti nelle fasce di gara (sabato 15–23:30, domenica 15–21:30, sere feriali 20–23:30). "Da omologare" (basket) e "provvisorio" (calcio): risultato già pubblicato dal portale ufficiale ma non ancora confermato da omologazione o Comunicato Ufficiale.</p>`;
 }
-const PINC='<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.3"/></svg>';
+const PINC='<svg class="ic-pin" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.3"/></svg>';
 function sqNome(n,id,com){if(id)return `<a class="sqa" href="#s-${esc(id)}">${esc(n)}</a>`;const c=com&&COM.find(x=>x.codice===com);return c?`<a class="sqa" href="#c-${esc(c.codice)}">${esc(n)}</a><span class="gc">gioca a ${esc(c.nome)}</span>`:esc(n)}
 function campoLink(c){if(!c)return'';const q=encodeURIComponent(c+', Friuli Venezia Giulia');return `<a class="cmp" href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${PINC}${esc(c)}</a>`}
 function matchRows(ps,me,g){let last='',lastG=null;return ps.map(x=>{const shb=g&&x.risultato?`<button class="msh" data-share="m" data-i="${g.partite.indexOf(x)}" aria-label="Condividi ${esc(x.casa)} ${esc(x.risultato)} ${esc(x.ospite)}">${SHARE}</button>`:'';const fut=!x.risultato;const gh=(fut&&x.giornata!=null&&x.giornata!==lastG)?`<div class="dh">${esc(x.giornata)}ª giornata</div>`:'';if(fut&&x.giornata!=null)lastG=x.giornata;const info=[x.parziali?esc(x.parziali):'',x.campo?campoLink(x.campo):''].filter(Boolean).join(' · ');const hd=(x.giornata==null&&x.data&&x.data!==last)?`<div class="dh">${esc(dt(x.data))}</div>`:'';last=x.data;return gh+hd+`<div class="mt${shb?' sh':''}"><span class="h${x.id_casa&&(x.id_casa===me||FAV.c.includes(x.id_casa))?' me':''}">${sqNome(x.casa,x.id_casa,x.comune_casa)}</span><span class="r${fut?' fut':''}">${fut?esc(dt(x.data))+(x.ora?`<i>${esc(x.ora)}</i>`:'')+varTag(x):esc(x.risultato)+provTag(x)}</span><span class="a${x.id_ospite&&(x.id_ospite===me||FAV.c.includes(x.id_ospite))?' me':''}">${sqNome(x.ospite,x.id_ospite,x.comune_ospite)}</span>${shb}${info?`<small>${info}</small>`:''}</div>`}).join('')}
@@ -720,7 +727,7 @@ return `<section class="rh" aria-labelledby="rhT"><div class="rhh"><h3 id="rhT">
 const LIVE='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>';
 function fold(title,body,n){return `<details class="card fold"><summary><h3>${title}</h3>${n?`<span class="fn">${n}</span>`:''}</summary><div class="fb">${body}</div></details>`}
 /* avvisi gratuiti con ntfy.sh: un argomento pubblico per società, nessun account e nessun dato personale */
-const BELL='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4zM10 21h4"/></svg>';
+const BELL='<svg class="ic-bell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4zM10 21h4"/></svg>';
 const ntfyTopic=id=>'zuin-fvg-'+String(id).replace(/[^A-Za-z0-9]/g,'-');
 const conPartite=c=>G.some(g=>g.partite.some(x=>x.id_casa===c.id||x.id_ospite===c.id));
 const NTFY_INFO='<p>Ricevi una notifica gratuita, senza account, quando arriva un risultato: apri la pagina ntfy e tocca "Subscribe" per attivare le notifiche del browser, oppure installa l\'app ntfy e iscriviti all\'argomento.</p>';
@@ -738,8 +745,8 @@ m.innerHTML=`<div class="hd"><h2>Preferiti</h2><span class="n">${cs.length+gs.le
 }
 /* calendario (.ics): stesso formato e stessi UID di scripts/ics.py */
 const SITO='https://ghibli73.github.io/sport-fvg/';
-const CAL='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M12 13v5M9.5 15.5h5"/></svg>';
-const SHARE='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>';
+const CAL='<svg class="ic-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M12 13v5M9.5 15.5h5"/></svg>';
+const SHARE='<svg class="ic-share" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>';
 const oggi=()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`};
 const futura=x=>!x.risultato&&/^\d{4}-\d\d-\d\d$/.test(x.data||'')&&x.data>=oggi();
 const ENC=new TextEncoder();
@@ -815,7 +822,7 @@ const txt=(kind==='m'&&x?`${x.casa} ${x.risultato} ${x.ospite} · `:'')+g.girone
 if(file&&navigator.canShare&&navigator.canShare({files:[file]})){navigator.share({files:[file],title:'Zuìn · Sport in FVG',text:txt}).catch(e=>{if(e&&e.name!=='AbortError'){scarica(blob,nome);toast('Immagine scaricata')}})}
 else{scarica(blob,nome);toast('Immagine scaricata')}}
 /* mappa: Leaflet 1.9 da unpkg caricato solo all'apertura, tessere OpenStreetMap, posizioni da data/luoghi.json */
-const PIN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>';
+const PIN='<svg class="ic-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>';
 const LF='https://unpkg.com/leaflet@1.9.4/dist/';
 let POP=false,LP=null,MAP=null,MAPEL=null,MK=null,MEM=null,LUO=null,mapSport='',mapCom='',ME=null;
 function leaflet(){return LP||(LP=new Promise((ok,ko)=>{const l=document.createElement('link');l.rel='stylesheet';l.href=LF+'leaflet.css';l.integrity='sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';l.crossOrigin='';document.head.appendChild(l);
@@ -952,7 +959,7 @@ $('panel').innerHTML=`<div class="ph"><button class="bk" data-close aria-label="
 ${ris||evh}
 ${cag}
 ${c.attuale?`<div class="now"><small>Stagione in corso</small><b>${esc(c.attuale)}</b></div>`:''}
-<div class="acts"><a class="act" href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Mappa</a><button class="act" data-copy><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>Copia link</button>${ris?`<a class="act wide" href="widget.html#s-${encodeURIComponent(c.id)}">${CODE}Metti i risultati sul tuo sito</a>`:''}</div>
+<div class="acts"><a class="act" href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener"><svg class="ic-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Mappa</a><button class="act" data-copy><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>Copia link</button>${ris?`<a class="act wide" href="widget.html#s-${encodeURIComponent(c.id)}">${CODE}Metti i risultati sul tuo sito</a>`:''}</div>
 ${soc}
 <div class="card"><h3>Dove</h3><div>${esc(c.indirizzo||'Indirizzo non pubblicato')}</div><div class="small">${esc(c.comune)} (${c.prov})${c.fondata?' · fondata nel '+esc(c.fondata):''}</div></div>
 ${sq.length?fold('Squadre 2026/27',`<div class="tl">${sq.map(q=>`<div class="tli sq"><span class="y">${esc(q.categoria)}${q.genere&&q.genere!=='misto'?' '+esc(q.genere):''}</span><span class="c">${esc(q.campionato||'')}</span></div>`).join('')}</div>`,sq.length):(c.categorie.length?fold('Squadre e categorie',`<div class="tags">${c.categorie.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div>`,c.categorie.length):'')}
@@ -1048,6 +1055,49 @@ $('clr').addEventListener('click',()=>{$('q').value='';suggest();$('q').focus()}
 document.addEventListener('click',e=>{if(!e.target.closest('#sbox'))hideSugg()});
 $('sugg').addEventListener('click',e=>{const b=e.target.closest('.sg');if(!b)return;hideSugg();$('q').value='';$('sbox').classList.remove('has');$('q').blur();
 if(b.dataset.c)go('c-'+b.dataset.c);else openClub(b.dataset.id)});
+
+/* ===== micro-animazioni al tocco (1.14): solo transform e opacity, su una copia dell'icona in un livello fisso,
+   così la navigazione parte subito e l'animazione la accompagna. Mai in loop, mai con "riduci movimento". ===== */
+const RM=()=>{try{return matchMedia('(prefers-reduced-motion: reduce)').matches}catch(e){return true}};
+const T0='translate(0,0) rotate(0) scale(1)';
+const FXS={
+calcio:[{transform:T0},{transform:'translate(0,-38%) rotate(-120deg) scale(1)',offset:.35},{transform:'translate(0,0) rotate(-220deg) scale(1.18,.82)',offset:.6},{transform:'translate(0,-14%) rotate(-300deg) scale(1)',offset:.8},{transform:'translate(0,0) rotate(-360deg) scale(1)'}],
+basket:[{transform:T0},{transform:'translate(14%,-42%) rotate(90deg) scale(.92)',offset:.38},{transform:'translate(22%,-6%) rotate(160deg) scale(.82)',offset:.6},{transform:'translate(0,0) rotate(300deg) scale(1.12,.88)',offset:.85},{transform:'translate(0,0) rotate(360deg) scale(1)'}],
+pallavolo:[{transform:T0},{transform:'translate(-16%,-30%) rotate(-30deg) scale(1)',offset:.35},{transform:'translate(10%,14%) rotate(20deg) scale(1.22,.8)',offset:.62},{transform:T0}],
+racchetta:[{transform:'rotate(0)'},{transform:'rotate(-38deg)',offset:.35},{transform:'rotate(26deg)',offset:.65},{transform:'rotate(0)'}],
+ciclismo:[{transform:'translateX(0) skewX(0)'},{transform:'translateX(-12%) skewX(4deg)',offset:.25},{transform:'translateX(24%) skewX(-10deg)',offset:.6},{transform:'translateX(0) skewX(0)'}],
+sci:[{transform:T0},{transform:'translate(-14%,0) rotate(-16deg) scale(1)',offset:.33},{transform:'translate(14%,0) rotate(16deg) scale(1)',offset:.66},{transform:T0}],
+colpo:[{transform:'translateX(0) scale(1)'},{transform:'translateX(-10%) scale(.9)',offset:.3},{transform:'translateX(18%) scale(1.24)',offset:.55},{transform:'translateX(0) scale(1)'}],
+vela:[{transform:'scale(1,1)'},{transform:'scale(1.24,1.04)',offset:.45},{transform:'scale(.95,1)',offset:.75},{transform:'scale(1,1)'}],
+onda:[{transform:T0},{transform:'translate(-7%,-9%) rotate(-9deg) scale(1)',offset:.3},{transform:'translate(7%,7%) rotate(9deg) scale(1)',offset:.65},{transform:T0}],
+corsa:[{transform:'translateX(0) skewX(0)'},{transform:'translateX(20%) skewX(-12deg)',offset:.5},{transform:'translateX(0) skewX(0)'}],
+pop:[{transform:'scale(.85) rotate(0)'},{transform:'scale(1.22) rotate(10deg)',offset:.5},{transform:'scale(1) rotate(0)'}]};
+const FXMAP={calcio:'calcio',calcio5:'calcio',rugby:'basket',basket:'basket',pallamano:'pallavolo',pallavolo:'pallavolo',tennis:'racchetta',tennistavolo:'racchetta',hockey:'racchetta',baseball:'racchetta',ciclismo:'ciclismo',pattinaggio:'ciclismo',equitazione:'ciclismo',sci:'sci',judo:'colpo',scherma:'colpo',vela:'vela',nuoto:'onda',canottaggio:'onda',pallanuoto:'onda',atletica:'corsa'};
+const FXO={racchetta:'25% 80%',vela:'30% 90%',colpo:'50% 50%'};
+const FXB={bell:[{transform:'rotate(0)'},{transform:'rotate(20deg)',offset:.2},{transform:'rotate(-16deg)',offset:.45},{transform:'rotate(9deg)',offset:.7},{transform:'rotate(0)'}],
+pin:[{transform:'translateY(0) scale(1)'},{transform:'translateY(-32%) scale(1)',offset:.4},{transform:'translateY(0) scale(1.14,.86)',offset:.7},{transform:'translateY(0) scale(1)'}],
+share:[{transform:'translate(0,0) scale(1)',opacity:1},{transform:'translate(10%,-28%) scale(1.1)',opacity:.55,offset:.45},{transform:'translate(0,0) scale(1)',opacity:1}],
+cal:[{transform:'scale(1) rotate(0)'},{transform:'scale(1.18) rotate(-8deg)',offset:.4},{transform:'scale(1) rotate(5deg)',offset:.7},{transform:'scale(1) rotate(0)'}]};
+const STAMP=[{transform:'scale(.9)'},{transform:'scale(1.1)',offset:.55},{transform:'scale(1)'}];
+function fxGhost(svg,frames,o={}){if(RM()||!svg||!svg.animate)return null;const r=svg.getBoundingClientRect();if(!r.width||r.bottom<0||r.top>innerHeight)return null;const cs=getComputedStyle(svg);
+const w=document.createElement('div');w.className='fxg';w.setAttribute('aria-hidden','true');w.style.cssText=`left:${r.left}px;top:${r.top}px;width:${r.width}px;height:${r.height}px;color:${o.color||cs.color};z-index:${svg.closest('#sheet')?45:svg.closest('.nav')?26:19}`;
+const d=o.dur||320;if(o.glow){const g=document.createElement('i');g.className='fxgl';g.style.background=o.glow;w.appendChild(g);g.animate([{opacity:0,transform:'scale(.5)'},{opacity:.5,transform:'scale(1.15)',offset:.45},{opacity:0,transform:'scale(1.5)'}],{duration:d,easing:'ease-out'})}
+const c=svg.cloneNode(true);c.removeAttribute('class');c.removeAttribute('width');c.removeAttribute('height');c.style.cssText=`width:100%;height:100%;display:block;padding:${cs.padding};box-sizing:border-box;fill:${o.fill||cs.fill};transform-origin:${o.origin||'50% 50%'};will-change:transform,opacity`;w.appendChild(c);document.body.appendChild(w);
+svg.style.visibility='hidden';const a=c.animate(frames,{duration:d,easing:o.ease||'cubic-bezier(.2,.8,.2,1)'});const end=()=>{w.remove();svg.style.visibility=''};a.onfinish=end;a.oncancel=end;setTimeout(end,d+200);return a}
+function fxSport(svg,k){const n=FXMAP[k]||'pop';fxGhost(svg,FXS[n],{origin:FXO[n],dur:n==='pop'?260:340})}
+function fxStar(svg,on){if(on){try{navigator.vibrate&&navigator.vibrate(10)}catch(e){}}if(!svg||RM())return;
+if(!on){fxGhost(svg,[{transform:'scale(1)',opacity:1},{transform:'scale(.72)',opacity:.55,offset:.5},{transform:'scale(1)',opacity:1}],{dur:240,fill:'none'});return}
+fxGhost(svg,[{transform:'scale(.4) rotate(-45deg)'},{transform:'scale(1.35) rotate(12deg)',offset:.55},{transform:'scale(1) rotate(0)'}],{dur:380,fill:'#f2b705',color:'#f2b705'});
+const r=svg.getBoundingClientRect(),cx=r.left+r.width/2,cy=r.top+r.height/2,COL=['#f2b705','#ff7a4d','#4aa3ff','#2bc48a','#f2b705','#e85aa8','#ffd34d','#4aa3ff'];
+COL.forEach((col,i)=>{const p=document.createElement('i');p.className='fxp';p.setAttribute('aria-hidden','true');p.style.cssText=`left:${cx-4}px;top:${cy-4}px;background:${col};z-index:${svg.closest('#sheet')?46:19}`;document.body.appendChild(p);const an=i*Math.PI/4+.4,R=r.width*1.2+12;
+const dx=Math.cos(an)*R,dy=Math.sin(an)*R;const a=p.animate([{transform:'translate(0,0) scale(.6)',opacity:1},{transform:`translate(${(dx*.75).toFixed(1)}px,${(dy*.75).toFixed(1)}px) scale(1.2)`,opacity:1,offset:.55},{transform:`translate(${dx.toFixed(1)}px,${dy.toFixed(1)}px) scale(.3)`,opacity:0}],{duration:420,easing:'ease-out'});a.onfinish=a.oncancel=()=>p.remove();setTimeout(()=>p.remove(),700)})}
+document.addEventListener('click',e=>{const t=e.target;let b;
+if(b=t.closest('[data-fav]')){fxStar(b.querySelector('svg'),b.getAttribute('aria-pressed')!=='true');return}
+if(RM())return;
+if(b=t.closest('.wb,.wp')){let w=b;if(b.classList.contains('wp')){const i=[...document.querySelectorAll('.wp')].indexOf(b);w=document.querySelectorAll('.wb')[i]}if(w){const col=getComputedStyle(w).getPropertyValue('--c')||'#f2b705';fxGhost(w.querySelector('svg'),STAMP,{glow:col.trim()||'#f2b705',dur:300})}return}
+if(b=t.closest('.nb')){fxGhost(b.querySelector('svg'),STAMP,{glow:'var(--gold)',dur:300,color:getComputedStyle(document.documentElement).getPropertyValue('--acc')||undefined});return}
+if(b=t.closest('[data-pick],[data-rs],[data-ms],[data-cs],[data-ags]')){const k=b.dataset.pick??b.dataset.rs??b.dataset.ms??b.dataset.cs??b.dataset.ags??'';const sv=b.querySelector('svg');if(sv)fxSport(sv,k);return}
+if(b=t.closest('button,a,summary')){const sv=b.querySelector('svg.ic-bell,svg.ic-cal,svg.ic-share,svg.ic-pin');if(sv){const k=sv.classList.contains('ic-bell')?'bell':sv.classList.contains('ic-cal')?'cal':sv.classList.contains('ic-share')?'share':'pin';fxGhost(sv,FXB[k],{origin:k==='bell'?'50% 12%':'50% 50%',dur:k==='bell'?400:320})}}},true);
 /* eventi */
 document.addEventListener('click',e=>{
 const t=e.target;let b;
