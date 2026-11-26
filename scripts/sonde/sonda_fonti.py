@@ -206,6 +206,16 @@ for u in [x[5:] for x in prove if x.startswith("date=")]:
         ev = sorted(set(re.findall(r'href="([^"]*/even[a-z]*/[^"#?]+)"', h)))
         print("link evento:", len(ev)); print("\n".join("   " + l for l in ev[:80]))
     except Exception as e: print("ERRORE", e)
+# "testo2=<regex>@@<url>": 7000 battute di testo (senza tag) a partire dalla regex (",," = "|"), "~" per "&"
+for x in [x[7:] for x in prove if x.startswith("testo2=")]:
+    rx, u = x.split("@@", 1); u = u.replace("~", "&"); rx = rx.replace(",,", "|"); titolo("TESTO2 " + rx + " IN " + u)
+    try:
+        h = S.get(u, timeout=40).text
+        t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", h, flags=re.S | re.I)
+        t = html_mod.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " | ", t))); t = re.sub(r"(\s*\|\s*)+", " | ", t)
+        m = re.search(rx, t, re.I); print(t[m.start():m.start() + 7000] if m else "NON trovato")
+        ev = sorted(set(re.findall(r'href="([^"]*/even[a-z]*/[^"#?]+)"', h))); print("link evento:", " ".join(ev[:120]))
+    except Exception as e: print("ERRORE", e)
 for u in [x for x in prove if x.startswith("http")]:
     titolo(u)
     try:
