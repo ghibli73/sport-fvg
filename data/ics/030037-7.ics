@@ -25,19 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pallavolo-under-19-femminile-ud-22c30e6f@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;TZID=Europe/Rome:20261027T201500
-DTEND;TZID=Europe/Rome:20261027T221500
-SUMMARY:CHEI DE VILE 0-3 SIFA ROJALKENNEDY (Under 19 femminile CT Udine —
-  girone unico)
-LOCATION:Palestra Comunale\, FAGAGNA UD
-DESCRIPTION:Under 19 femminile CT Udine — girone unico\n1ª giornata\nDat
- i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
- fvg/#g-pallavolo-under-19-femminile-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
-END:VEVENT
-BEGIN:VEVENT
 UID:pallavolo-under-15-femminile-ud-girone-a-a3ae4036@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261028T183000
@@ -451,6 +438,18 @@ URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
  -girone-a
 END:VEVENT
 BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-e1823873@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261212T160000
+DTEND;TZID=Europe/Rome:20261212T180000
+SUMMARY:PAV BRESSA ASD – CHEI DE VILE (Under 12 misto CT Udine — girone
+  unico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
 UID:pallavolo-under-15-femminile-ud-girone-a-97894814@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261212T160000
@@ -462,18 +461,6 @@ DESCRIPTION:Under 15 femminile CT Udine — girone A\n9ª giornata\nDati no
  #g-pallavolo-under-15-femminile-ud-girone-a
 URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
  -girone-a
-END:VEVENT
-BEGIN:VEVENT
-UID:pallavolo-under-12-misto-ud-e1823873@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;TZID=Europe/Rome:20261212T160000
-DTEND;TZID=Europe/Rome:20261212T180000
-SUMMARY:PAV BRESSA ASD – CHEI DE VILE (Under 12 misto CT Udine — girone
-  unico)
-DESCRIPTION:Under 12 misto CT Udine — girone unico\n4ª giornata\nDati no
- n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
- #g-pallavolo-under-12-misto-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:pallavolo-serie-c-femminile-fvg-e804263c@zuin-fvg

@@ -25,19 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-u17-gold-pn-52da9013@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261027T203000
-DTEND;TZID=Europe/Rome:20261027T223000
-SUMMARY:HUMUS BASKET 87-58 VIS SPILIMBERGO (Under 17 Maschile Gold — giro
- ne PN (prima fase))
-LOCATION:Palamicheletto\, Sacile
-DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n2ª giornata
- \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
- port-fvg/#g-basket-u17-gold-pn
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u17-gold-pn-37a948b1@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261031T153000
@@ -892,19 +879,6 @@ DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n9ª gio
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-pn-a-4601c27b@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261220T110000
-DTEND;TZID=Europe/Rome:20261220T130000
-SUMMARY:Humus Basket – Nuovo Basket 2000 (Under 13 Maschile — girone PN
-  A)
-LOCATION:Palamicheletto\, Sacile
-DESCRIPTION:Under 13 Maschile — girone PN A\n8ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
- et-u13-pn-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-esordienti-pn-d-fd9bab86@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261220T110000
@@ -916,6 +890,19 @@ DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n7ª giornata\nDati
  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
  g/#g-basket-esordienti-pn-d
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-4601c27b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261220T110000
+DTEND;TZID=Europe/Rome:20261220T130000
+SUMMARY:Humus Basket – Nuovo Basket 2000 (Under 13 Maschile — girone PN
+  A)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 13 Maschile — girone PN A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-femminile-b-653ff02d@zuin-fvg

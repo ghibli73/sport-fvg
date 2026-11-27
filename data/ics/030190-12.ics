@@ -25,20 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pallavolo-under-15-femminile-ud-girone-d-6fbd0312@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;TZID=Europe/Rome:20261027T193000
-DTEND;TZID=Europe/Rome:20261027T213000
-SUMMARY:VILLADIES 3-1 FABBROS' ROJALKENNEDY (Under 15 femminile CT Udine 
- — girone D)
-LOCATION:Palestra Comunale\, VILLA VICENTINA UD
-DESCRIPTION:Under 15 femminile CT Udine — girone D\n1ª giornata\nDati no
- n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
- #g-pallavolo-under-15-femminile-ud-girone-d
-URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ud
- -girone-d
-END:VEVENT
-BEGIN:VEVENT
 UID:pallavolo-under-15-femminile-ud-girone-d-cd73988a@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261031T153000
@@ -1022,6 +1008,18 @@ URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
  minile-ud-girone-b
 END:VEVENT
 BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-7bfd087a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270129T180000
+DTEND;TZID=Europe/Rome:20270129T200000
+SUMMARY:CHEI DE VILE – VIVIL VOLLEY (Under 12 misto CT Udine — girone u
+ nico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
 UID:pallavolo-under-13-femminile-ud-girone-d-27e92f02@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270129T180000
@@ -1033,18 +1031,6 @@ DESCRIPTION:Under 13 femminile CT Udine — girone D\n7ª giornata\nDati no
  #g-pallavolo-under-13-femminile-ud-girone-d
 URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
  -girone-d
-END:VEVENT
-BEGIN:VEVENT
-UID:pallavolo-under-12-misto-ud-7bfd087a@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;TZID=Europe/Rome:20270129T180000
-DTEND;TZID=Europe/Rome:20270129T200000
-SUMMARY:CHEI DE VILE – VIVIL VOLLEY (Under 12 misto CT Udine — girone u
- nico)
-DESCRIPTION:Under 12 misto CT Udine — girone unico\n8ª giornata\nDati no
- n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
- #g-pallavolo-under-12-misto-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:pallavolo-prima-divisione-femminile-ud-3397524f@zuin-fvg

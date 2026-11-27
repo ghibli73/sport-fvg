@@ -25,19 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-u19-gold-a-1a9e9f6b@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261027T190000
-DTEND;TZID=Europe/Rome:20261027T210000
-SUMMARY:VIS SPILIMBERGO 63-81 GP Engineering di Paron (Under 19 Maschile Go
- ld — girone A)
-LOCATION:Palazzetto dello Sport\, Spilimbergo
-DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-u19-gold-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u13-ud-a-0a64b234@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261029T180000
@@ -436,19 +423,6 @@ DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n4ª giornata\nDat
  i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
  fvg/#g-basket-u14-regionale-pn-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-dr3-ud-efe7e557@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20261126T204500
-DTEND;TZID=Europe/Rome:20261126T224500
-SUMMARY:PALL. TOLMEZZO – MONTGOMERY HAMBURGER HOUSE 'B' (Divisione Region
- ale 3 — girone UD)
-LOCATION:Palestra Scolastica\, Tolmezzo
-DESCRIPTION:Divisione Regionale 3 — girone UD\n7ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-dr3-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-gold-ud-67c4b823@zuin-fvg
@@ -1176,19 +1150,6 @@ DESCRIPTION:Under 13 Maschile — girone UD A\n11ª giornata\nDati non uffi
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-ud-a-cd682bb6@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270124T093000
-DTEND;TZID=Europe/Rome:20270124T113000
-SUMMARY:PALL. CODROIPESE 'A' – COLLINARE BASKET (Under 13 Maschile — gi
- rone UD A)
-LOCATION:Palazzetto Dello Sport\, Codroipo
-DESCRIPTION:Under 13 Maschile — girone UD A\n11ª giornata\nDati non uffi
- ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
- ket-u13-ud-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-esordienti-ud-b-59405e3a@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270124T093000
@@ -1200,6 +1161,19 @@ DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n6ª giornata\nDati
  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
  g/#g-basket-esordienti-ud-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-cd682bb6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270124T093000
+DTEND;TZID=Europe/Rome:20270124T113000
+SUMMARY:PALL. CODROIPESE 'A' – COLLINARE BASKET (Under 13 Maschile — gi
+ rone UD A)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 13 Maschile — girone UD A\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-gold-ud-34e860b4@zuin-fvg
@@ -1615,19 +1589,6 @@ DESCRIPTION:Divisione Regionale 1 — girone Ovest\n19ª giornata\nDati non
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-ud-a-22cd4453@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270221T093000
-DTEND;TZID=Europe/Rome:20270221T113000
-SUMMARY:PALL. CODROIPESE 'A' – UDINE BASKET CLUB (Under 13 Maschile — g
- irone UD A)
-LOCATION:Palazzetto Dello Sport\, Codroipo
-DESCRIPTION:Under 13 Maschile — girone UD A\n15ª giornata\nDati non uffi
- ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
- ket-u13-ud-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-esordienti-ud-b-16202b64@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270221T093000
@@ -1639,6 +1600,19 @@ DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n8ª giornata\nDati
  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
  g/#g-basket-esordienti-ud-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-22cd4453@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270221T093000
+DTEND;TZID=Europe/Rome:20270221T113000
+SUMMARY:PALL. CODROIPESE 'A' – UDINE BASKET CLUB (Under 13 Maschile — g
+ irone UD A)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 13 Maschile — girone UD A\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-gold-ud-87eb34d5@zuin-fvg
@@ -1836,19 +1810,6 @@ DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n18ª giornata\nDa
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-ud-a-24e2e224@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270314T093000
-DTEND;TZID=Europe/Rome:20270314T113000
-SUMMARY:PALL. CODROIPESE '2015' – UDINE BASKET CLUB (Under 13 Maschile 
- — girone UD A)
-LOCATION:Palazzetto Dello Sport\, Codroipo
-DESCRIPTION:Under 13 Maschile — girone UD A\n18ª giornata\nDati non uffi
- ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
- ket-u13-ud-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-esordienti-ud-b-e5c6561e@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270314T093000
@@ -1860,6 +1821,19 @@ DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n10ª giornata\nDati
   non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
  vg/#g-basket-esordienti-ud-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-24e2e224@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270314T093000
+DTEND;TZID=Europe/Rome:20270314T113000
+SUMMARY:PALL. CODROIPESE '2015' – UDINE BASKET CLUB (Under 13 Maschile 
+ — girone UD A)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 13 Maschile — girone UD A\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-ud-a-90c3e047@zuin-fvg

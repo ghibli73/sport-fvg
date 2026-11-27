@@ -25,16 +25,15 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-08b5bb20@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-SUMMARY:PALMARKET PAGNACCO 0-9 UNION MARTIGNACCO (Under 18 regionali — gi
- rone A)
-DESCRIPTION:Under 18 regionali — girone A\n8ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+UID:calcio-udi-seconda-categoria-b-6ad0873c@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:CAMINO 0-5 PALMARKET PAGNACCO (Seconda Categoria — girone B)
+DESCRIPTION:Seconda Categoria — girone B\n6ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-5079cd1d@zuin-fvg
@@ -47,17 +46,6 @@ DESCRIPTION:Under 18 regionali — girone A\n9ª giornata\nDati non ufficia
  li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
  -under-18-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-udi-seconda-categoria-b-6ad0873c@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:CAMINO 0-5 PALMARKET PAGNACCO (Seconda Categoria — girone B)
-DESCRIPTION:Seconda Categoria — girone B\n6ª giornata\nDati non ufficial
- i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
- udi-seconda-categoria-b
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-15-provinciali-a-2a0ccc16@zuin-fvg
@@ -335,19 +323,6 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-ac741d8d@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20261128T173000
-DTEND;TZID=Europe/Rome:20261128T193000
-SUMMARY:PALMARKET PAGNACCO – BRIAN LIGNANO CALCIO (Under 18 regionali —
-  girone A)
-LOCATION:Campo A Pietro Zampa Pagnacco\, Via Divisione Julia
-DESCRIPTION:Under 18 regionali — girone A\n14ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-672c02e8@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261128T173000
@@ -359,6 +334,19 @@ DESCRIPTION:Under 16 provinciali — girone A\n10ª giornata\nDati non uffi
  cio-udi-under-16-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-ac741d8d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T173000
+DTEND;TZID=Europe/Rome:20261128T193000
+SUMMARY:PALMARKET PAGNACCO – BRIAN LIGNANO CALCIO (Under 18 regionali —
+  girone A)
+LOCATION:Campo A Pietro Zampa Pagnacco\, Via Divisione Julia
+DESCRIPTION:Under 18 regionali — girone A\n14ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-55c683ea@zuin-fvg

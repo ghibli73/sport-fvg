@@ -25,17 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-92aa5551@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-SUMMARY:TORRE 2-3 COMUNALE FONTANAFREDDA (Under 18 regionali — girone A)
-DESCRIPTION:Under 18 regionali — girone A\n8ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-eccellenza-a-be5fb6df@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261031
@@ -343,19 +332,6 @@ DESCRIPTION:Under 17 regionali — girone A\n12ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-17-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-344118d6@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20261126T194500
-DTEND;TZID=Europe/Rome:20261126T214500
-SUMMARY:COMUNALE FONTANAFREDDA – NUOVO PORDENONE 2024 FC (Under 15 region
- ali — girone A)
-LOCATION:Tognon 2 Via Del Parco\, Fontanafredda
-DESCRIPTION:Under 15 regionali — girone A\n13ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-698a7a79@zuin-fvg
