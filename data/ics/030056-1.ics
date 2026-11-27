@@ -25,17 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-promozione-a-54a14f59@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:MARANESE 2-2 CENTRO SEDIA CALCIO NAT (Promozione — girone A)
-DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
- ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
- one-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-gor-under-19-provinciali-a-239aa444@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261031
@@ -46,6 +35,17 @@ DESCRIPTION:Under 19 provinciali — girone A\n6ª giornata\nDati non uffic
  io-gor-under-19-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-54a14f59@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:MARANESE 2-2 CENTRO SEDIA CALCIO NAT (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-19-provinciali-a-28af0d29@zuin-fvg
@@ -61,7 +61,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-8375638b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:MARANESE 1-1 CORVA (Promozione — girone A)
@@ -85,7 +85,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-b249b18c@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:PRO CERVIGNANO RUDA 0-1 MARANESE (Promozione — girone A)
@@ -108,8 +108,19 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-promozione-a-7573e245@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:MARANESE 3-2 BUJESE CALCIO (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n12ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-promozione-a-aa5c8fdd@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261128T153000
 DTEND;TZID=Europe/Rome:20261128T173000
 SUMMARY:ANCONA LUMIGNACCO – MARANESE (Promozione — girone A)
@@ -121,7 +132,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-652bb7d1@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261205T143000
 DTEND;TZID=Europe/Rome:20261205T163000
 SUMMARY:MARANESE – UNION MARTIGNACCO (Promozione — girone A)
@@ -133,7 +144,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-1562e860@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261208T143000
 DTEND;TZID=Europe/Rome:20261208T163000
 SUMMARY:SANT ANDREA SAN VITO – MARANESE (Promozione — girone A)
@@ -145,7 +156,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-f4aaaeed@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T143000
 DTEND;TZID=Europe/Rome:20261213T163000
 SUMMARY:MARANESE – DEPORTIVO JUNIOR (Promozione — girone A)
@@ -157,7 +168,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-69b6f28a@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T143000
 DTEND;TZID=Europe/Rome:20261220T163000
 SUMMARY:CORNO CALCIO 1929 – MARANESE (Promozione — girone A)
@@ -169,7 +180,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-c25a4c54@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T143000
 DTEND;TZID=Europe/Rome:20270110T163000
 SUMMARY:UNION PASIANO – MARANESE (Promozione — girone A)
@@ -181,7 +192,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-104024a5@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T143000
 DTEND;TZID=Europe/Rome:20270117T163000
 SUMMARY:MARANESE – RIVE D ARCANO FLAIBANO (Promozione — girone A)
@@ -193,7 +204,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-d9159a5a@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T143000
 DTEND;TZID=Europe/Rome:20270124T163000
 SUMMARY:CUSSIGNACCO CALCIO – MARANESE (Promozione — girone A)
@@ -205,7 +216,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-66749ba9@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T143000
 DTEND;TZID=Europe/Rome:20270131T163000
 SUMMARY:MARANESE – FIUME VENETO -BANNIA (Promozione — girone A)
@@ -217,7 +228,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-1e629f63@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T143000
 DTEND;TZID=Europe/Rome:20270207T163000
 SUMMARY:TRICESIMO CALCIO – MARANESE (Promozione — girone A)
@@ -229,7 +240,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-736d314b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270214T143000
 DTEND;TZID=Europe/Rome:20270214T163000
 SUMMARY:MARANESE – FIUMICELLO 2004 (Promozione — girone A)
@@ -241,7 +252,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-331e0acf@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T143000
 DTEND;TZID=Europe/Rome:20270221T163000
 SUMMARY:TRIESTE VICTORY ACADEMY – MARANESE (Promozione — girone A)
@@ -253,7 +264,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-bbeb8ada@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T150000
 DTEND;TZID=Europe/Rome:20270228T170000
 SUMMARY:MARANESE – SISTIANA SESLJAN (Promozione — girone A)
@@ -265,7 +276,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-455a88ae@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270307T150000
 DTEND;TZID=Europe/Rome:20270307T170000
 SUMMARY:CENTRO SEDIA CALCIO NAT – MARANESE (Promozione — girone A)
@@ -276,7 +287,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-39b90257@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T150000
 DTEND;TZID=Europe/Rome:20270314T170000
 SUMMARY:CORVA – MARANESE (Promozione — girone A)
@@ -288,7 +299,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-cd661b8a@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270331T200000
 DTEND;TZID=Europe/Rome:20270331T220000
 SUMMARY:MARANESE – PRO CERVIGNANO RUDA (Promozione — girone A)
@@ -300,7 +311,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-b95de7e9@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T160000
 DTEND;TZID=Europe/Rome:20270404T180000
 SUMMARY:BUJESE CALCIO – MARANESE (Promozione — girone A)
@@ -312,7 +323,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-d03390e2@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270411T160000
 DTEND;TZID=Europe/Rome:20270411T180000
 SUMMARY:MARANESE – ANCONA LUMIGNACCO (Promozione — girone A)
@@ -324,7 +335,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-103444f6@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270418T160000
 DTEND;TZID=Europe/Rome:20270418T180000
 SUMMARY:UNION MARTIGNACCO – MARANESE (Promozione — girone A)
@@ -336,7 +347,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-45da397f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270425T160000
 DTEND;TZID=Europe/Rome:20270425T180000
 SUMMARY:MARANESE – SANT ANDREA SAN VITO (Promozione — girone A)
@@ -348,7 +359,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-d2976ad0@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270502T160000
 DTEND;TZID=Europe/Rome:20270502T180000
 SUMMARY:DEPORTIVO JUNIOR – MARANESE (Promozione — girone A)
@@ -360,7 +371,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-1337ff23@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T160000
 DTEND;TZID=Europe/Rome:20270509T180000
 SUMMARY:MARANESE – CORNO CALCIO 1929 (Promozione — girone A)

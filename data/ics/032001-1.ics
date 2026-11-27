@@ -25,17 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-promozione-a-bae0a19d@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:PRO CERVIGNANO RUDA 2-3 SISTIANA SESLJAN (Promozione — girone A)
-DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
- ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
- one-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-gor-under-19-provinciali-a-239aa444@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261031
@@ -46,6 +35,17 @@ DESCRIPTION:Under 19 provinciali — girone A\n6ª giornata\nDati non uffic
  io-gor-under-19-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-bae0a19d@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:PRO CERVIGNANO RUDA 2-3 SISTIANA SESLJAN (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-19-provinciali-a-cd0bd867@zuin-fvg
@@ -62,7 +62,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-dc102bca@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:SISTIANA SESLJAN 0-1 ANCONA LUMIGNACCO (Promozione — girone A)
@@ -86,7 +86,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-19b213a0@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:CORVA 3-3 SISTIANA SESLJAN (Promozione — girone A)
@@ -110,7 +110,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-a5bcd0eb@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:SISTIANA SESLJAN 0-2 SANT ANDREA SAN VITO (Promozione — girone A)
@@ -121,7 +121,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-0878f396@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261129T143000
 DTEND;TZID=Europe/Rome:20261129T163000
 SUMMARY:BUJESE CALCIO – SISTIANA SESLJAN (Promozione — girone A)
@@ -133,7 +133,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-eb6df86b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261205T143000
 DTEND;TZID=Europe/Rome:20261205T163000
 SUMMARY:SISTIANA SESLJAN – CORNO CALCIO 1929 (Promozione — girone A)
@@ -145,7 +145,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-cff3fc16@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261208T143000
 DTEND;TZID=Europe/Rome:20261208T163000
 SUMMARY:UNION MARTIGNACCO – SISTIANA SESLJAN (Promozione — girone A)
@@ -157,7 +157,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-1ee8712c@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T143000
 DTEND;TZID=Europe/Rome:20261213T163000
 SUMMARY:SISTIANA SESLJAN – RIVE D ARCANO FLAIBANO (Promozione — girone 
@@ -170,7 +170,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-4378b9bc@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T143000
 DTEND;TZID=Europe/Rome:20261220T163000
 SUMMARY:DEPORTIVO JUNIOR – SISTIANA SESLJAN (Promozione — girone A)
@@ -182,7 +182,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-c9572779@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T143000
 DTEND;TZID=Europe/Rome:20270110T163000
 SUMMARY:CUSSIGNACCO CALCIO – SISTIANA SESLJAN (Promozione — girone A)
@@ -194,7 +194,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-a87ef775@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T143000
 DTEND;TZID=Europe/Rome:20270117T163000
 SUMMARY:SISTIANA SESLJAN – UNION PASIANO (Promozione — girone A)
@@ -206,7 +206,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-b3827253@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T143000
 DTEND;TZID=Europe/Rome:20270124T163000
 SUMMARY:TRICESIMO CALCIO – SISTIANA SESLJAN (Promozione — girone A)
@@ -218,7 +218,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-29676362@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T143000
 DTEND;TZID=Europe/Rome:20270131T163000
 SUMMARY:SISTIANA SESLJAN – TRIESTE VICTORY ACADEMY (Promozione — girone
@@ -231,7 +231,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-c1b598be@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T143000
 DTEND;TZID=Europe/Rome:20270207T163000
 SUMMARY:FIUME VENETO -BANNIA – SISTIANA SESLJAN (Promozione — girone A)
@@ -243,7 +243,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-d3d12b79@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270214T143000
 DTEND;TZID=Europe/Rome:20270214T163000
 SUMMARY:SISTIANA SESLJAN – CENTRO SEDIA CALCIO NAT (Promozione — girone
@@ -256,7 +256,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-0773b192@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T143000
 DTEND;TZID=Europe/Rome:20270221T163000
 SUMMARY:FIUMICELLO 2004 – SISTIANA SESLJAN (Promozione — girone A)
@@ -268,7 +268,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-bbeb8ada@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T150000
 DTEND;TZID=Europe/Rome:20270228T170000
 SUMMARY:MARANESE – SISTIANA SESLJAN (Promozione — girone A)
@@ -280,7 +280,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-bc574f42@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270307T150000
 DTEND;TZID=Europe/Rome:20270307T170000
 SUMMARY:SISTIANA SESLJAN – PRO CERVIGNANO RUDA (Promozione — girone A)
@@ -292,7 +292,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-a1d94ee4@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T150000
 DTEND;TZID=Europe/Rome:20270314T170000
 SUMMARY:ANCONA LUMIGNACCO – SISTIANA SESLJAN (Promozione — girone A)
@@ -304,7 +304,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-81fd00ea@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270331T200000
 DTEND;TZID=Europe/Rome:20270331T220000
 SUMMARY:SISTIANA SESLJAN – CORVA (Promozione — girone A)
@@ -316,7 +316,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-7d7625ef@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T160000
 DTEND;TZID=Europe/Rome:20270404T180000
 SUMMARY:SANT ANDREA SAN VITO – SISTIANA SESLJAN (Promozione — girone A)
@@ -328,7 +328,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-7020a24f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270411T160000
 DTEND;TZID=Europe/Rome:20270411T180000
 SUMMARY:SISTIANA SESLJAN – BUJESE CALCIO (Promozione — girone A)
@@ -340,7 +340,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-95d603d8@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270418T160000
 DTEND;TZID=Europe/Rome:20270418T180000
 SUMMARY:CORNO CALCIO 1929 – SISTIANA SESLJAN (Promozione — girone A)
@@ -352,7 +352,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-d3ca648b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270425T160000
 DTEND;TZID=Europe/Rome:20270425T180000
 SUMMARY:SISTIANA SESLJAN – UNION MARTIGNACCO (Promozione — girone A)
@@ -364,7 +364,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-28c37603@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270502T160000
 DTEND;TZID=Europe/Rome:20270502T180000
 SUMMARY:RIVE D ARCANO FLAIBANO – SISTIANA SESLJAN (Promozione — girone 
@@ -377,7 +377,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-6dabc7e3@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T160000
 DTEND;TZID=Europe/Rome:20270509T180000
 SUMMARY:SISTIANA SESLJAN – DEPORTIVO JUNIOR (Promozione — girone A)

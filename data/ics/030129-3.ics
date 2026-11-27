@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-promozione-a-937330fc@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:ANCONA LUMIGNACCO 2-0 TRIESTE VICTORY ACADEMY (Promozione — giron
@@ -35,6 +35,30 @@ DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
  ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
  one-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-e59936b5@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:ANCONA LUMIGNACCO 8-1 CALCIO MANIAGO VAJONT (Under 15 regionali —
+  girone A)
+DESCRIPTION:Under 15 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-da0d0e76@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:NUOVO PORDENONE 2024 FC 2-2 ANCONA LUMIGNACCO (Under 17 regionali 
+ — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-d-362c281e@zuin-fvg
@@ -50,18 +74,6 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
  -d
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-e59936b5@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:ANCONA LUMIGNACCO 8-1 CALCIO MANIAGO VAJONT (Under 15 regionali —
-  girone A)
-DESCRIPTION:Under 15 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-72e9238f@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -75,20 +87,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-da0d0e76@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:NUOVO PORDENONE 2024 FC 2-2 ANCONA LUMIGNACCO (Under 17 regionali 
- — girone A)
-DESCRIPTION:Under 17 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-promozione-a-dc102bca@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:SISTIANA SESLJAN 0-1 ANCONA LUMIGNACCO (Promozione — girone A)
@@ -99,7 +99,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-d4680f74@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:NUOVO PORDENONE 2024 FC 1-0 ANCONA LUMIGNACCO (Under 15 regionali 
@@ -108,6 +108,17 @@ DESCRIPTION:Under 15 regionali — girone A\n10ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-15-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-3310d2c2@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:ANCONA LUMIGNACCO 0-1 PRO GORIZIA (Under 17 regionali — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-a11f2dbb@zuin-fvg
@@ -123,19 +134,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-3310d2c2@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:ANCONA LUMIGNACCO 0-1 PRO GORIZIA (Under 17 regionali — girone A)
-DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-promozione-a-20b06c70@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:ANCONA LUMIGNACCO 3-2 CENTRO SEDIA CALCIO NAT (Promozione — giron
@@ -160,7 +160,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-7ccceb8b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:ANCONA LUMIGNACCO 2-0 CJARLINS MUZANE (Under 15 regionali — giron
@@ -169,6 +169,18 @@ DESCRIPTION:Under 15 regionali — girone A\n11ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-15-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-0d784342@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:MANZANESE CALCIO 3-1 ANCONA LUMIGNACCO (Under 17 regionali — giro
+ ne A)
+DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-5ac31a64@zuin-fvg
@@ -184,20 +196,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-0d784342@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:MANZANESE CALCIO 3-1 ANCONA LUMIGNACCO (Under 17 regionali — giro
- ne A)
-DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-promozione-a-18e69c69@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:CORVA 1-1 ANCONA LUMIGNACCO (Promozione — girone A)
@@ -205,6 +205,30 @@ DESCRIPTION:Promozione — girone A\n12ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
  ione-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-093bf649@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:MANZANESE CALCIO 0-2 ANCONA LUMIGNACCO (Under 15 regionali — giro
+ ne A)
+DESCRIPTION:Under 15 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-31ccfc6f@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:ANCONA LUMIGNACCO 3-4 SAN LUIGI CALCIO (Under 17 regionali — giro
+ ne A)
+DESCRIPTION:Under 17 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-d-b5a0bb88@zuin-fvg
@@ -220,18 +244,6 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
  -d
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-093bf649@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:MANZANESE CALCIO 0-2 ANCONA LUMIGNACCO (Under 15 regionali — giro
- ne A)
-DESCRIPTION:Under 15 regionali — girone A\n12ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-918174b9@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261122
@@ -245,20 +257,20 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-31ccfc6f@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:ANCONA LUMIGNACCO 3-4 SAN LUIGI CALCIO (Under 17 regionali — giro
+UID:calcio-under-15-regionali-a-aee682a6@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:ANCONA LUMIGNACCO 1-0 SAN LUIGI CALCIO (Under 15 regionali — giro
  ne A)
-DESCRIPTION:Under 17 regionali — girone A\n12ª giornata\nDati non uffici
+DESCRIPTION:Under 15 regionali — girone A\n13ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-aa5c8fdd@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261128T153000
 DTEND;TZID=Europe/Rome:20261128T173000
 SUMMARY:ANCONA LUMIGNACCO – MARANESE (Promozione — girone A)
@@ -270,7 +282,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-35614bff@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261129T101500
 DTEND;TZID=Europe/Rome:20261129T121500
 SUMMARY:DONATELLO CALCIO A.S.D. – ANCONA LUMIGNACCO (Under 17 regionali 
@@ -296,7 +308,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-06895f83@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261205T153000
 DTEND;TZID=Europe/Rome:20261205T173000
 SUMMARY:ANCONA LUMIGNACCO – BUJESE CALCIO (Promozione — girone A)
@@ -308,7 +320,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-ccbff853@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261206T103000
 DTEND;TZID=Europe/Rome:20261206T123000
 SUMMARY:SANVITESE – ANCONA LUMIGNACCO (Under 15 regionali — girone A)
@@ -320,7 +332,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-ea35f35d@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261206T103000
 DTEND;TZID=Europe/Rome:20261206T123000
 SUMMARY:ANCONA LUMIGNACCO – PRO FAGAGNA (Under 17 regionali — girone A)
@@ -332,7 +344,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-675626c8@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261208T143000
 DTEND;TZID=Europe/Rome:20261208T163000
 SUMMARY:PRO CERVIGNANO RUDA – ANCONA LUMIGNACCO (Promozione — girone A)
@@ -344,7 +356,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-81dc49fa@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T103000
 DTEND;TZID=Europe/Rome:20261213T123000
 SUMMARY:ANCONA LUMIGNACCO – UDINE UNITED RIZZI CORMOR (Under 15 regionali
@@ -357,7 +369,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-af23987b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T103000
 DTEND;TZID=Europe/Rome:20261213T123000
 SUMMARY:U.FINCANTIERI MONFALCONE – ANCONA LUMIGNACCO (Under 17 regionali 
@@ -370,7 +382,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-7a0ce03f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T143000
 DTEND;TZID=Europe/Rome:20261213T163000
 SUMMARY:ANCONA LUMIGNACCO – UNION MARTIGNACCO (Promozione — girone A)
@@ -382,7 +394,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-944d7716@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T100000
 DTEND;TZID=Europe/Rome:20261220T120000
 SUMMARY:COMUNALE FONTANAFREDDA – ANCONA LUMIGNACCO (Under 15 regionali 
@@ -395,7 +407,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-a13191a4@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T103000
 DTEND;TZID=Europe/Rome:20261220T123000
 SUMMARY:ANCONA LUMIGNACCO – COMUNALE FONTANAFREDDA (Under 17 regionali 
@@ -408,7 +420,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-72a28612@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T143000
 DTEND;TZID=Europe/Rome:20261220T163000
 SUMMARY:SANT ANDREA SAN VITO – ANCONA LUMIGNACCO (Promozione — girone A
@@ -421,7 +433,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-0e246bfa@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T103000
 DTEND;TZID=Europe/Rome:20270110T123000
 SUMMARY:TRIESTINA CALCIO 1918 SRL – ANCONA LUMIGNACCO (Under 15 regionali
@@ -434,7 +446,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-efa9ee6b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T103000
 DTEND;TZID=Europe/Rome:20270110T123000
 SUMMARY:ANCONA LUMIGNACCO – S.P.A.L.CORDOVADO (Under 17 regionali — gir
@@ -447,7 +459,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-b7862467@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T143000
 DTEND;TZID=Europe/Rome:20270110T163000
 SUMMARY:DEPORTIVO JUNIOR – ANCONA LUMIGNACCO (Promozione — girone A)
@@ -459,7 +471,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-45ae6a17@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T103000
 DTEND;TZID=Europe/Rome:20270117T123000
 SUMMARY:ANCONA LUMIGNACCO – PRO FAGAGNA (Under 15 regionali — girone A)
@@ -471,7 +483,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-640ffcbd@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T103000
 DTEND;TZID=Europe/Rome:20270117T123000
 SUMMARY:CJARLINS MUZANE – ANCONA LUMIGNACCO (Under 17 regionali — giron
@@ -484,7 +496,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-930c0804@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T143000
 DTEND;TZID=Europe/Rome:20270117T163000
 SUMMARY:ANCONA LUMIGNACCO – CORNO CALCIO 1929 (Promozione — girone A)
@@ -496,7 +508,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-3f3e1b70@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T103000
 DTEND;TZID=Europe/Rome:20270124T123000
 SUMMARY:ANCONA LUMIGNACCO – BRIAN LIGNANO CALCIO (Under 17 regionali — 
@@ -509,7 +521,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-929dcf30@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T111500
 DTEND;TZID=Europe/Rome:20270124T131500
 SUMMARY:SANT ANDREA SAN VITO – ANCONA LUMIGNACCO (Under 15 regionali — 
@@ -522,7 +534,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-6e70b0af@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T143000
 DTEND;TZID=Europe/Rome:20270124T163000
 SUMMARY:RIVE D ARCANO FLAIBANO – ANCONA LUMIGNACCO (Promozione — girone
@@ -535,7 +547,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-274d69b8@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T103000
 DTEND;TZID=Europe/Rome:20270131T123000
 SUMMARY:ANCONA LUMIGNACCO – TRIESTE VICTORY ACADEMY (Under 15 regionali 
@@ -548,7 +560,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-16b13b42@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T103000
 DTEND;TZID=Europe/Rome:20270131T123000
 SUMMARY:TRIESTE VICTORY ACADEMY – ANCONA LUMIGNACCO (Under 17 regionali 
@@ -561,7 +573,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-b703e64d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T143000
 DTEND;TZID=Europe/Rome:20270131T163000
 SUMMARY:ANCONA LUMIGNACCO – CUSSIGNACCO CALCIO (Promozione — girone A)
@@ -573,7 +585,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-6129827f@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T103000
 DTEND;TZID=Europe/Rome:20270207T123000
 SUMMARY:ANCONA LUMIGNACCO – TOLMEZZO CARNIA (Under 17 regionali — giron
@@ -586,7 +598,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-1a846cae@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T113000
 DTEND;TZID=Europe/Rome:20270207T133000
 SUMMARY:OPICINA – ANCONA LUMIGNACCO (Under 15 regionali — girone A)
@@ -598,7 +610,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-d7f60dc7@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T143000
 DTEND;TZID=Europe/Rome:20270207T163000
 SUMMARY:UNION PASIANO – ANCONA LUMIGNACCO (Promozione — girone A)
@@ -610,7 +622,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-dc5c633f@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270214T103000
 DTEND;TZID=Europe/Rome:20270214T123000
 SUMMARY:ANCONA LUMIGNACCO – CUSSIGNACCO CALCIO (Under 15 regionali — gi
@@ -623,7 +635,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-c5a0cea9@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270214T103000
 DTEND;TZID=Europe/Rome:20270214T123000
 SUMMARY:CUSSIGNACCO CALCIO – ANCONA LUMIGNACCO (Under 17 regionali — gi
@@ -636,7 +648,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-3c48c04b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270214T143000
 DTEND;TZID=Europe/Rome:20270214T163000
 SUMMARY:ANCONA LUMIGNACCO – FIUME VENETO -BANNIA (Promozione — girone A
@@ -649,7 +661,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-bb85751c@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T103000
 DTEND;TZID=Europe/Rome:20270221T123000
 SUMMARY:DONATELLO CALCIO A.S.D. – ANCONA LUMIGNACCO (Under 15 regionali 
@@ -662,7 +674,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-d7439da9@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T103000
 DTEND;TZID=Europe/Rome:20270221T123000
 SUMMARY:ANCONA LUMIGNACCO – SANVITESE (Under 17 regionali — girone A)
@@ -674,7 +686,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-c49de597@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T143000
 DTEND;TZID=Europe/Rome:20270221T163000
 SUMMARY:TRICESIMO CALCIO – ANCONA LUMIGNACCO (Promozione — girone A)
@@ -686,7 +698,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-8e2e9494@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T103000
 DTEND;TZID=Europe/Rome:20270228T123000
 SUMMARY:ANCONA LUMIGNACCO – CALCIO SACILE 2026 (Under 15 regionali — gi
@@ -699,7 +711,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-68c25f00@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T103000
 DTEND;TZID=Europe/Rome:20270228T123000
 SUMMARY:ZARJA A.S.D. – ANCONA LUMIGNACCO (Under 17 regionali — girone A
@@ -712,7 +724,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-0ea3b619@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T150000
 DTEND;TZID=Europe/Rome:20270228T170000
 SUMMARY:ANCONA LUMIGNACCO – FIUMICELLO 2004 (Promozione — girone A)
@@ -724,7 +736,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-d4e8a5a2@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270307T103000
 DTEND;TZID=Europe/Rome:20270307T123000
 SUMMARY:CALCIO MANIAGO VAJONT – ANCONA LUMIGNACCO (Under 15 regionali —
@@ -737,7 +749,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-dfa0e915@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270307T103000
 DTEND;TZID=Europe/Rome:20270307T123000
 SUMMARY:ANCONA LUMIGNACCO – NUOVO PORDENONE 2024 FC (Under 17 regionali 
@@ -750,7 +762,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-6945b33f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270307T150000
 DTEND;TZID=Europe/Rome:20270307T170000
 SUMMARY:TRIESTE VICTORY ACADEMY – ANCONA LUMIGNACCO (Promozione — giron
@@ -763,7 +775,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-a973c46a@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T103000
 DTEND;TZID=Europe/Rome:20270314T123000
 SUMMARY:ANCONA LUMIGNACCO – NUOVO PORDENONE 2024 FC (Under 15 regionali 
@@ -776,7 +788,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-23fe7840@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T103000
 DTEND;TZID=Europe/Rome:20270314T123000
 SUMMARY:PRO GORIZIA – ANCONA LUMIGNACCO (Under 17 regionali — girone A)
@@ -788,7 +800,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-a1d94ee4@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T150000
 DTEND;TZID=Europe/Rome:20270314T170000
 SUMMARY:ANCONA LUMIGNACCO – SISTIANA SESLJAN (Promozione — girone A)
@@ -800,7 +812,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-2519092f@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270321T103000
 DTEND;TZID=Europe/Rome:20270321T123000
 SUMMARY:CJARLINS MUZANE – ANCONA LUMIGNACCO (Under 15 regionali — giron
@@ -813,7 +825,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-378efdae@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270321T103000
 DTEND;TZID=Europe/Rome:20270321T123000
 SUMMARY:ANCONA LUMIGNACCO – MANZANESE CALCIO (Under 17 regionali — giro
@@ -826,7 +838,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-472edf6c@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270331T200000
 DTEND;TZID=Europe/Rome:20270331T220000
 SUMMARY:CENTRO SEDIA CALCIO NAT – ANCONA LUMIGNACCO (Promozione — giron
@@ -838,7 +850,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-5500211f@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T103000
 DTEND;TZID=Europe/Rome:20270404T123000
 SUMMARY:ANCONA LUMIGNACCO – MANZANESE CALCIO (Under 15 regionali — giro
@@ -851,7 +863,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-cea1727d@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T103000
 DTEND;TZID=Europe/Rome:20270404T123000
 SUMMARY:SAN LUIGI CALCIO – ANCONA LUMIGNACCO (Under 17 regionali — giro
@@ -864,7 +876,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-e835dc8f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T160000
 DTEND;TZID=Europe/Rome:20270404T180000
 SUMMARY:ANCONA LUMIGNACCO – CORVA (Promozione — girone A)
@@ -876,7 +888,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-97a76861@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270411T113000
 DTEND;TZID=Europe/Rome:20270411T133000
 SUMMARY:SAN LUIGI CALCIO – ANCONA LUMIGNACCO (Under 15 regionali — giro
@@ -889,7 +901,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-d03390e2@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270411T160000
 DTEND;TZID=Europe/Rome:20270411T180000
 SUMMARY:MARANESE – ANCONA LUMIGNACCO (Promozione — girone A)
@@ -901,7 +913,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-491f6010@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270418T103000
 DTEND;TZID=Europe/Rome:20270418T123000
 SUMMARY:ANCONA LUMIGNACCO – DONATELLO CALCIO A.S.D. (Under 17 regionali 
@@ -914,7 +926,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-9e03c8a4@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270418T160000
 DTEND;TZID=Europe/Rome:20270418T180000
 SUMMARY:BUJESE CALCIO – ANCONA LUMIGNACCO (Promozione — girone A)
@@ -926,7 +938,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-059d6a96@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270425T103000
 DTEND;TZID=Europe/Rome:20270425T123000
 SUMMARY:ANCONA LUMIGNACCO – SANVITESE (Under 15 regionali — girone A)
@@ -938,7 +950,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-8f0c8920@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270425T103000
 DTEND;TZID=Europe/Rome:20270425T123000
 SUMMARY:PRO FAGAGNA – ANCONA LUMIGNACCO (Under 17 regionali — girone A)
@@ -950,7 +962,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-0c07ad9d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270425T160000
 DTEND;TZID=Europe/Rome:20270425T180000
 SUMMARY:ANCONA LUMIGNACCO – PRO CERVIGNANO RUDA (Promozione — girone A)
@@ -962,7 +974,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-ba5d6d15@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270502T103000
 DTEND;TZID=Europe/Rome:20270502T123000
 SUMMARY:UDINE UNITED RIZZI CORMOR – ANCONA LUMIGNACCO (Under 15 regionali
@@ -975,7 +987,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-dd2bf066@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270502T103000
 DTEND;TZID=Europe/Rome:20270502T123000
 SUMMARY:ANCONA LUMIGNACCO – U.FINCANTIERI MONFALCONE (Under 17 regionali 
@@ -988,7 +1000,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-2529f3a8@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270502T160000
 DTEND;TZID=Europe/Rome:20270502T180000
 SUMMARY:UNION MARTIGNACCO – ANCONA LUMIGNACCO (Promozione — girone A)
@@ -1000,7 +1012,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-c853b51d@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T103000
 DTEND;TZID=Europe/Rome:20270509T123000
 SUMMARY:ANCONA LUMIGNACCO – COMUNALE FONTANAFREDDA (Under 15 regionali 
@@ -1013,7 +1025,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-a9c4b877@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T114500
 DTEND;TZID=Europe/Rome:20270509T134500
 SUMMARY:COMUNALE FONTANAFREDDA – ANCONA LUMIGNACCO (Under 17 regionali 
@@ -1026,7 +1038,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-ccd1e3b9@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T160000
 DTEND;TZID=Europe/Rome:20270509T180000
 SUMMARY:ANCONA LUMIGNACCO – SANT ANDREA SAN VITO (Promozione — girone A

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-c850cdd1@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:CHIAVRIS 0-6 FIUME VENETO -BANNIA (Under 18 regionali — girone A)
@@ -34,6 +34,18 @@ DESCRIPTION:Under 18 regionali — girone A\n9ª giornata\nDati non ufficia
  li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
  -under-18-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-15-provinciali-a-a64572ae@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:VALNATISONE CALCIO 6-2 CHIAVRIS (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-78f4952f@zuin-fvg
@@ -70,18 +82,6 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
  -d
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-gor-under-15-provinciali-a-a64572ae@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:VALNATISONE CALCIO 6-2 CHIAVRIS (Under 15 provinciali — girone A)
-DESCRIPTION:Under 15 provinciali — girone A\n6ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-gor-under-15-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
- -a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-e492170b@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -107,7 +107,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-f9b4ed79@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:SANTAMARIA 5-4 CHIAVRIS (Under 18 regionali — girone A)
@@ -115,6 +115,18 @@ DESCRIPTION:Under 18 regionali — girone A\n10ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-18-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-15-provinciali-a-ae19b68d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CHIAVRIS 3-1 SANTAMARIA (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-8d031210@zuin-fvg
@@ -152,18 +164,6 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
  -d
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-gor-under-15-provinciali-a-ae19b68d@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:CHIAVRIS 3-1 SANTAMARIA (Under 15 provinciali — girone A)
-DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-gor-under-15-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
- -a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-e4fd54d8@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
@@ -189,11 +189,22 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-1e6f376e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:CHIAVRIS 0-3 PALMARKET PAGNACCO (Under 18 regionali — girone A)
 DESCRIPTION:Under 18 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-72966f73@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:S.GOTTARDO 1-0 CHIAVRIS (Under 18 regionali — girone A)
+DESCRIPTION:Under 18 regionali — girone A\n12ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-18-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
@@ -211,15 +222,16 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
  -d
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-72966f73@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:S.GOTTARDO 1-0 CHIAVRIS (Under 18 regionali — girone A)
-DESCRIPTION:Under 18 regionali — girone A\n12ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+UID:calcio-gor-under-15-provinciali-a-7209549f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SANGIORGINA 2-0 CHIAVRIS (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-f004a965@zuin-fvg
@@ -242,18 +254,6 @@ DESCRIPTION:Terza Categoria — girone B\n8ª giornata\nDati non ufficiali:
   fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
  i-terza-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-gor-under-15-provinciali-a-7209549f@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:SANGIORGINA 2-0 CHIAVRIS (Under 15 provinciali — girone A)
-DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-gor-under-15-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
- -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-52940c66@zuin-fvg
@@ -281,7 +281,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-5287b68e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:CHIAVRIS 1-4 MUGGIA 1967 (Under 18 regionali — girone A)
@@ -289,6 +289,18 @@ DESCRIPTION:Under 18 regionali — girone A\n13ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-18-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-15-provinciali-a-976c922f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:CHIAVRIS 1-7 COMETAZZURRA (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-89505ef4@zuin-fvg
@@ -314,18 +326,6 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
  -d
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-gor-under-15-provinciali-a-976c922f@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:CHIAVRIS 1-7 COMETAZZURRA (Under 15 provinciali — girone A)
-DESCRIPTION:Under 15 provinciali — girone A\n9ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-gor-under-15-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
- -a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-088832d8@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261122
@@ -339,7 +339,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-6ca522e4@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261128T173000
 DTEND;TZID=Europe/Rome:20261128T193000
 SUMMARY:RIVE D ARCANO FLAIBANO – CHIAVRIS (Under 18 regionali — girone 
@@ -352,7 +352,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-cf8f11f0@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261205T173000
 DTEND;TZID=Europe/Rome:20261205T193000
 SUMMARY:CHIAVRIS – UNION MARTIGNACCO (Under 18 regionali — girone A)
@@ -364,7 +364,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-74c24d53@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261208T180000
 DTEND;TZID=Europe/Rome:20261208T200000
 SUMMARY:SANT ANDREA SAN VITO – CHIAVRIS (Under 18 regionali — girone A)
@@ -376,7 +376,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-b9bde500@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261212T173000
 DTEND;TZID=Europe/Rome:20261212T193000
 SUMMARY:CHIAVRIS – BUJESE CALCIO (Under 18 regionali — girone A)
@@ -388,7 +388,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-f8f67841@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261222T190000
 DTEND;TZID=Europe/Rome:20261222T210000
 SUMMARY:SANGIORGINA – CHIAVRIS (Under 18 regionali — girone A)
@@ -400,7 +400,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-96b6dc76@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270109T173000
 DTEND;TZID=Europe/Rome:20270109T193000
 SUMMARY:CUSSIGNACCO CALCIO – CHIAVRIS (Under 18 regionali — girone A)
@@ -412,7 +412,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-32210747@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270116T173000
 DTEND;TZID=Europe/Rome:20270116T193000
 SUMMARY:CHIAVRIS – BRIAN LIGNANO CALCIO (Under 18 regionali — girone A)
@@ -424,7 +424,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-22eb007a@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270123T173000
 DTEND;TZID=Europe/Rome:20270123T193000
 SUMMARY:COMUNALE FONTANAFREDDA – CHIAVRIS (Under 18 regionali — girone 
@@ -437,7 +437,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-2c6c6046@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270130T173000
 DTEND;TZID=Europe/Rome:20270130T193000
 SUMMARY:CHIAVRIS – TORRE (Under 18 regionali — girone A)
@@ -449,7 +449,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-e14015d7@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270206T173000
 DTEND;TZID=Europe/Rome:20270206T193000
 SUMMARY:CHIONS – CHIAVRIS (Under 18 regionali — girone A)
@@ -461,7 +461,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-b22341ae@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270213T173000
 DTEND;TZID=Europe/Rome:20270213T193000
 SUMMARY:CHIAVRIS – POLISPORTIVA TAMAI ASD (Under 18 regionali — girone 
@@ -474,7 +474,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-1574fb7e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270220T173000
 DTEND;TZID=Europe/Rome:20270220T193000
 SUMMARY:U.FINCANTIERI MONFALCONE – CHIAVRIS (Under 18 regionali — giron
@@ -487,7 +487,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-017d128c@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270223T190000
 DTEND;TZID=Europe/Rome:20270223T210000
 SUMMARY:CHIAVRIS – NUOVO PORDENONE 2024 FC (Under 18 regionali — girone
@@ -500,7 +500,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-1d52a326@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270227T173000
 DTEND;TZID=Europe/Rome:20270227T193000
 SUMMARY:FIUME VENETO -BANNIA – CHIAVRIS (Under 18 regionali — girone A)
@@ -512,7 +512,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-24c88d95@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270306T173000
 DTEND;TZID=Europe/Rome:20270306T193000
 SUMMARY:CHIAVRIS – SANTAMARIA (Under 18 regionali — girone A)
@@ -524,7 +524,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-a21044c1@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270309T190000
 DTEND;TZID=Europe/Rome:20270309T210000
 SUMMARY:PALMARKET PAGNACCO – CHIAVRIS (Under 18 regionali — girone A)
@@ -536,7 +536,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-b7677b26@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270313T173000
 DTEND;TZID=Europe/Rome:20270313T193000
 SUMMARY:CHIAVRIS – S.GOTTARDO (Under 18 regionali — girone A)
@@ -548,7 +548,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-710ae039@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270320T173000
 DTEND;TZID=Europe/Rome:20270320T193000
 SUMMARY:MUGGIA 1967 – CHIAVRIS (Under 18 regionali — girone A)
@@ -560,7 +560,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-d1f0b8f7@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270403T173000
 DTEND;TZID=Europe/Rome:20270403T193000
 SUMMARY:CHIAVRIS – RIVE D ARCANO FLAIBANO (Under 18 regionali — girone 
@@ -573,7 +573,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-95e551db@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270410T173000
 DTEND;TZID=Europe/Rome:20270410T193000
 SUMMARY:UNION MARTIGNACCO – CHIAVRIS (Under 18 regionali — girone A)
@@ -585,7 +585,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-d9845fce@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270417T173000
 DTEND;TZID=Europe/Rome:20270417T193000
 SUMMARY:CHIAVRIS – SANT ANDREA SAN VITO (Under 18 regionali — girone A)
@@ -597,7 +597,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-9e4d31df@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270424T173000
 DTEND;TZID=Europe/Rome:20270424T193000
 SUMMARY:BUJESE CALCIO – CHIAVRIS (Under 18 regionali — girone A)
@@ -609,7 +609,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-81932810@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270508T173000
 DTEND;TZID=Europe/Rome:20270508T193000
 SUMMARY:CHIAVRIS – SANGIORGINA (Under 18 regionali — girone A)

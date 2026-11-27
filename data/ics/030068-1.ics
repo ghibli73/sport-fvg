@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-5079cd1d@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:SANT ANDREA SAN VITO 5-0 PALMARKET PAGNACCO (Under 18 regionali —
+  girone A)
+DESCRIPTION:Under 18 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-6ad0873c@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261031
@@ -34,18 +46,6 @@ DESCRIPTION:Seconda Categoria — girone B\n6ª giornata\nDati non ufficial
  i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
  udi-seconda-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-5079cd1d@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:SANT ANDREA SAN VITO 5-0 PALMARKET PAGNACCO (Under 18 regionali —
-  girone A)
-DESCRIPTION:Under 18 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-15-provinciali-a-2a0ccc16@zuin-fvg
@@ -101,7 +101,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-c18055cb@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:PALMARKET PAGNACCO 3-2 BUJESE CALCIO (Under 18 regionali — girone
@@ -162,7 +162,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-1e6f376e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:CHIAVRIS 0-3 PALMARKET PAGNACCO (Under 18 regionali — girone A)
@@ -173,7 +173,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-6df8e2b2@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:PALMARKET PAGNACCO 0-3 SANGIORGINA (Under 18 regionali — girone A
@@ -249,7 +249,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-416d4f46@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:CUSSIGNACCO CALCIO 1-2 PALMARKET PAGNACCO (Under 18 regionali — g
@@ -323,6 +323,19 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-ac741d8d@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261128T173000
+DTEND;TZID=Europe/Rome:20261128T193000
+SUMMARY:PALMARKET PAGNACCO – BRIAN LIGNANO CALCIO (Under 18 regionali —
+  girone A)
+LOCATION:Campo A Pietro Zampa Pagnacco\, Via Divisione Julia
+DESCRIPTION:Under 18 regionali — girone A\n14ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-672c02e8@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261128T173000
@@ -336,21 +349,8 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-ac741d8d@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20261128T173000
-DTEND;TZID=Europe/Rome:20261128T193000
-SUMMARY:PALMARKET PAGNACCO – BRIAN LIGNANO CALCIO (Under 18 regionali —
-  girone A)
-LOCATION:Campo A Pietro Zampa Pagnacco\, Via Divisione Julia
-DESCRIPTION:Under 18 regionali — girone A\n14ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-55c683ea@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261205T173000
 DTEND;TZID=Europe/Rome:20261205T193000
 SUMMARY:COMUNALE FONTANAFREDDA – PALMARKET PAGNACCO (Under 18 regionali 
@@ -363,7 +363,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-ab57a360@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261208T173000
 DTEND;TZID=Europe/Rome:20261208T193000
 SUMMARY:PALMARKET PAGNACCO – TORRE (Under 18 regionali — girone A)
@@ -375,7 +375,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-e5eab743@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261212T173000
 DTEND;TZID=Europe/Rome:20261212T193000
 SUMMARY:CHIONS – PALMARKET PAGNACCO (Under 18 regionali — girone A)
@@ -387,7 +387,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-b983e024@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261219T173000
 DTEND;TZID=Europe/Rome:20261219T193000
 SUMMARY:PALMARKET PAGNACCO – POLISPORTIVA TAMAI ASD (Under 18 regionali 
@@ -400,7 +400,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-bd4167c2@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261222T190000
 DTEND;TZID=Europe/Rome:20261222T210000
 SUMMARY:U.FINCANTIERI MONFALCONE – PALMARKET PAGNACCO (Under 18 regionali
@@ -413,7 +413,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-ec1c1053@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270109T173000
 DTEND;TZID=Europe/Rome:20270109T193000
 SUMMARY:NUOVO PORDENONE 2024 FC – PALMARKET PAGNACCO (Under 18 regionali 
@@ -426,7 +426,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-a538413d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270116T173000
 DTEND;TZID=Europe/Rome:20270116T193000
 SUMMARY:PALMARKET PAGNACCO – FIUME VENETO -BANNIA (Under 18 regionali —
@@ -439,7 +439,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-abcaa65c@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270123T173000
 DTEND;TZID=Europe/Rome:20270123T193000
 SUMMARY:SANTAMARIA – PALMARKET PAGNACCO (Under 18 regionali — girone A)
@@ -451,7 +451,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-60accf3a@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270206T173000
 DTEND;TZID=Europe/Rome:20270206T193000
 SUMMARY:PALMARKET PAGNACCO – S.GOTTARDO (Under 18 regionali — girone A)
@@ -463,7 +463,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-3dcf4063@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270213T173000
 DTEND;TZID=Europe/Rome:20270213T193000
 SUMMARY:MUGGIA 1967 – PALMARKET PAGNACCO (Under 18 regionali — girone A
@@ -476,7 +476,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-6c24965b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270220T173000
 DTEND;TZID=Europe/Rome:20270220T193000
 SUMMARY:PALMARKET PAGNACCO – RIVE D ARCANO FLAIBANO (Under 18 regionali 
@@ -489,7 +489,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-05e2dddd@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270223T190000
 DTEND;TZID=Europe/Rome:20270223T210000
 SUMMARY:UNION MARTIGNACCO – PALMARKET PAGNACCO (Under 18 regionali — gi
@@ -502,7 +502,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-1dfc50da@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270227T173000
 DTEND;TZID=Europe/Rome:20270227T193000
 SUMMARY:PALMARKET PAGNACCO – SANT ANDREA SAN VITO (Under 18 regionali —
@@ -515,7 +515,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-f49b5475@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270306T173000
 DTEND;TZID=Europe/Rome:20270306T193000
 SUMMARY:BUJESE CALCIO – PALMARKET PAGNACCO (Under 18 regionali — girone
@@ -528,7 +528,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-a21044c1@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270309T190000
 DTEND;TZID=Europe/Rome:20270309T210000
 SUMMARY:PALMARKET PAGNACCO – CHIAVRIS (Under 18 regionali — girone A)
@@ -540,7 +540,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-cbe53a45@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270313T173000
 DTEND;TZID=Europe/Rome:20270313T193000
 SUMMARY:SANGIORGINA – PALMARKET PAGNACCO (Under 18 regionali — girone A
@@ -553,7 +553,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-f0c44ef1@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270320T173000
 DTEND;TZID=Europe/Rome:20270320T193000
 SUMMARY:PALMARKET PAGNACCO – CUSSIGNACCO CALCIO (Under 18 regionali — g
@@ -566,7 +566,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-0a5b3138@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270403T173000
 DTEND;TZID=Europe/Rome:20270403T193000
 SUMMARY:BRIAN LIGNANO CALCIO – PALMARKET PAGNACCO (Under 18 regionali —
@@ -579,7 +579,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-3137b061@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270410T173000
 DTEND;TZID=Europe/Rome:20270410T193000
 SUMMARY:PALMARKET PAGNACCO – COMUNALE FONTANAFREDDA (Under 18 regionali 
@@ -592,7 +592,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-1a56f0b3@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270417T173000
 DTEND;TZID=Europe/Rome:20270417T193000
 SUMMARY:TORRE – PALMARKET PAGNACCO (Under 18 regionali — girone A)
@@ -604,7 +604,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-636a40a6@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270424T173000
 DTEND;TZID=Europe/Rome:20270424T193000
 SUMMARY:PALMARKET PAGNACCO – CHIONS (Under 18 regionali — girone A)
@@ -616,7 +616,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-74455b5b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270501T173000
 DTEND;TZID=Europe/Rome:20270501T193000
 SUMMARY:POLISPORTIVA TAMAI ASD – PALMARKET PAGNACCO (Under 18 regionali 
@@ -629,7 +629,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-b7172a6d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270508T173000
 DTEND;TZID=Europe/Rome:20270508T193000
 SUMMARY:PALMARKET PAGNACCO – U.FINCANTIERI MONFALCONE (Under 18 regionali
