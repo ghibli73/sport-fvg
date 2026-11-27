@@ -525,7 +525,7 @@ DTSTART;TZID=Europe/Rome:20270117T093000
 DTEND;TZID=Europe/Rome:20270117T113000
 SUMMARY:BASKETRIESTE – A.INT.BALONCESTO ISONTINA (Under 13 Maschile — g
  irone GO/TS B)
-LOCATION:Palarubini\, Trieste
+LOCATION:Palarubini - Allianz Dome\, Trieste
 DESCRIPTION:Under 13 Maschile — girone GO/TS B\n10ª giornata\nDati non u
  fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
  basket-u13-go-ts-b
@@ -636,6 +636,19 @@ DESCRIPTION:Under 17 Femminile — girone unico\n14ª giornata\nDati non uf
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u13-go-ts-b-35daa79e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270203T160000
+DTEND;TZID=Europe/Rome:20270203T180000
+SUMMARY:A.INT.BALONCESTO ISONTINA – S.S. SD KONTOVEL (Under 13 Maschile 
+ — girone GO/TS B)
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n13ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u17-femminile-70f8be96@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270206T183000
@@ -647,19 +660,6 @@ DESCRIPTION:Under 17 Femminile — girone unico\n15ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u17-femminile
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-femminile
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u13-go-ts-b-35daa79e@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270207T160000
-DTEND;TZID=Europe/Rome:20270207T180000
-SUMMARY:A.INT.BALONCESTO ISONTINA – S.S. SD KONTOVEL (Under 13 Maschile 
- — girone GO/TS B)
-LOCATION:Palasport\, Fogliano Redipuglia
-DESCRIPTION:Under 13 Maschile — girone GO/TS B\n13ª giornata\nDati non u
- fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
- basket-u13-go-ts-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-regionale-go-ts-81cb67da@zuin-fvg
@@ -688,19 +688,6 @@ DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n15ª giornata\nDati non
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-go-ts-b-699f3493@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270214T093000
-DTEND;TZID=Europe/Rome:20270214T113000
-SUMMARY:AKK BOR BASKET – A.INT.BALONCESTO ISONTINA (Under 13 Maschile —
-  girone GO/TS B)
-LOCATION:Stadio 1° Maggio\, Trieste
-DESCRIPTION:Under 13 Maschile — girone GO/TS B\n14ª giornata\nDati non u
- fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
- basket-u13-go-ts-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u17-regionale-go-ts-a9cd0b71@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270214T183000
@@ -712,6 +699,19 @@ DESCRIPTION:Under 17 Maschile Regionale — girone GO/TS (prima fase)\n15ª
   giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
  thub.io/sport-fvg/#g-basket-u17-regionale-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-699f3493@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270216T184500
+DTEND;TZID=Europe/Rome:20270216T204500
+SUMMARY:AKK BOR BASKET – A.INT.BALONCESTO ISONTINA (Under 13 Maschile —
+  girone GO/TS B)
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n14ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-regionale-go-ts-dc8157bc@zuin-fvg

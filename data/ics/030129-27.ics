@@ -356,7 +356,7 @@ DTSTART;TZID=Europe/Rome:20261211T210000
 DTEND;TZID=Europe/Rome:20261211T230000
 SUMMARY:Pall. Laipacco – Pol. Libertas Cussignacco (Divisione Regionale 2
   — girone UD)
-LOCATION:Pal. Sc. 'Ezio Cernich"\, Udine
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
 DESCRIPTION:Divisione Regionale 2 — girone UD\n9ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-dr2-ud
@@ -759,7 +759,7 @@ DTSTART;TZID=Europe/Rome:20270207T153000
 DTEND;TZID=Europe/Rome:20270207T173000
 SUMMARY:POL. CASARSA – POL. LIBERTAS CUSSIGNACCO (Under 13 Femminile — 
  girone PN/UD (prima fase))
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n14ª giornata
  \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
  port-fvg/#g-basket-u13-femminile-pn-ud
@@ -1000,6 +1000,19 @@ DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n19ª giornata\
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr2-ud-3f356f3e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270324T204500
+DTEND;TZID=Europe/Rome:20270324T224500
+SUMMARY:Danieli Sporting Club – Pol. Libertas Cussignacco (Divisione Regi
+ onale 2 — girone UD)
+LOCATION:Palestra 'Buttrio'\, Buttrio
+DESCRIPTION:Divisione Regionale 2 — girone UD\n22ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-dr3-ud-36f70ed6@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20270325T204500
@@ -1011,19 +1024,6 @@ DESCRIPTION:Divisione Regionale 3 — girone UD\n23ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr3-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-dr2-ud-3f356f3e@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20270402T204500
-DTEND;TZID=Europe/Rome:20270402T224500
-SUMMARY:Danieli Sporting Club – Pol. Libertas Cussignacco (Divisione Regi
- onale 2 — girone UD)
-LOCATION:Palestra 'Buttrio'\, Buttrio
-DESCRIPTION:Divisione Regionale 2 — girone UD\n22ª giornata\nDati non uf
- ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
- asket-dr2-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-dd248766@zuin-fvg
