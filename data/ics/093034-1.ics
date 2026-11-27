@@ -131,8 +131,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:pallavolo-naz-superlega-f847bd8c@zuin-fvg
 DTSTAMP:20261127T000000Z
-DTSTART;VALUE=DATE:20261220
-DTEND;VALUE=DATE:20261221
+DTSTART;TZID=Europe/Rome:20261220T180000
+DTEND;TZID=Europe/Rome:20261220T200000
 SUMMARY:Gas Sales Bluenergy Piacenza – Tinet Prata di Pordenone (SuperLeg
  a (Serie A1 maschile) — regular season)
 LOCATION:PalabancaSport\, Piacenza (PC)
