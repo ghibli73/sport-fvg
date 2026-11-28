@@ -245,6 +245,13 @@
     "letto": "2026-11-28T06:55+01:00",
     "omologata_portale": false,
     "r": "63-51"
+   },
+   "gara:3712": {
+    "data": "2026-11-28",
+    "fonte": "https://fip.it/risultati/?codice_campionato=1DM&codice_girone=85891",
+    "letto": "2026-11-28T19:16+01:00",
+    "omologata_portale": false,
+    "r": "71-53"
    }
   },
   "basket-serie-c-femminile": {
@@ -1228,6 +1235,13 @@
     "omologata_portale": false,
     "r": "57-74"
    },
+   "gara:2986": {
+    "data": "2026-11-28",
+    "fonte": "https://fip.it/risultati/?codice_campionato=U17S/M&codice_girone=85874",
+    "letto": "2026-11-28T19:16+01:00",
+    "omologata_portale": false,
+    "r": "104-44"
+   },
    "gara:2989": {
     "data": "2026-11-28",
     "fonte": "https://fip.it/risultati/?codice_campionato=U17S/M&codice_girone=85874",
@@ -1481,6 +1495,16 @@
     "r": "54-48"
    }
   },
+  "calcio-tri-under-15-provinciali-a": {
+   "sgiustofootballacademy|chiarbolaponzianacalcio|12": {
+    "data": "2026-11-28",
+    "esito": "Da referto arbitrale",
+    "fonte": "https://gare.lnd.it/?cr=07&campionato=G5&girone=A&giornata=12&leg=first",
+    "letto": "2026-11-28T19:17+01:00",
+    "r": "8-0",
+    "stato": 2
+   }
+  },
   "calcio-tri-under-17-provinciali-a": {
    "torre|sgiustofootballacademy|7": {
     "data": "2026-11-26",
@@ -1710,6 +1734,24 @@
     "r": "6-2",
     "stato": 2
    },
+   "calcettoclarkudine|futsaludinese|20": {
+    "data": "2026-11-27",
+    "esito": "Da referto arbitrale",
+    "fonte": "https://gare.lnd.it/?cr=07&campionato=5R&girone=A&giornata=3&leg=first",
+    "letto": "2026-11-28T19:17+01:00",
+    "nuova": {
+     "campo": "Azteca Sport Time - Campo 1",
+     "casa": "CALCETTO CLARK UDINE",
+     "data": "2026-11-27",
+     "giornata": 20,
+     "id_casa": "030129-13",
+     "id_ospite": "030129-12",
+     "ora": "20:45",
+     "ospite": "FUTSAL UDINESE"
+    },
+    "r": "6-2",
+    "stato": 2
+   },
    "calcettoclarkudine|futsaludinese|3": {
     "data": "2026-11-27",
     "esito": "Da referto arbitrale",
@@ -1889,51 +1931,71 @@
     },
     "r": "0-4",
     "stato": 2
+   },
+   "maccanpratac5ssdarl|pasianoc5|20": {
+    "data": "2026-11-28",
+    "esito": "Da referto arbitrale",
+    "fonte": "https://gare.lnd.it/?cr=07&campionato=5R&girone=A&giornata=3&leg=first",
+    "letto": "2026-11-28T19:17+01:00",
+    "nuova": {
+     "campo": "Palestra Comunale \"Pala Prata\"",
+     "casa": "MACCAN PRATA C5 SSD A RL",
+     "data": "2026-11-28",
+     "giornata": 20,
+     "id_casa": "093034-2",
+     "id_ospite": "093029-3",
+     "ora": "14:00",
+     "ospite": "PASIANO C5"
+    },
+    "r": "0-4",
+    "stato": 2
    }
   }
  },
  "letture": {
   "dr1-est|7": "2026-11-28T15:01+01:00",
+  "dr3-ud|8": "2026-11-28T19:16+01:00",
   "esordienti-go|1": "2026-11-28T15:01+01:00",
-  "esordienti-go|2": "2026-11-28T19:01+01:00",
+  "esordienti-go|2": "2026-11-28T19:16+01:00",
   "esordienti-pn-a|1": "2026-11-28T15:01+01:00",
   "esordienti-pn-b|2": "2026-11-28T15:01+01:00",
   "esordienti-pn-b|3": "2026-11-28T15:01+01:00",
-  "esordienti-pn-b|4": "2026-11-28T19:01+01:00",
-  "esordienti-pn-c|2": "2026-11-28T19:01+01:00",
+  "esordienti-pn-b|4": "2026-11-28T19:16+01:00",
+  "esordienti-pn-c|2": "2026-11-28T19:16+01:00",
   "esordienti-pn-c|3": "2026-11-28T15:01+01:00",
   "esordienti-pn-d|10": "2026-11-28T15:01+01:00",
-  "esordienti-pn-d|3": "2026-11-28T19:01+01:00",
-  "esordienti-pn-d|4": "2026-11-28T19:01+01:00",
+  "esordienti-pn-d|3": "2026-11-28T19:16+01:00",
+  "esordienti-pn-d|4": "2026-11-28T19:16+01:00",
   "esordienti-ud-a|1": "2026-11-28T15:01+01:00",
-  "esordienti-ud-a|2": "2026-11-28T19:01+01:00",
+  "esordienti-ud-a|2": "2026-11-28T19:16+01:00",
   "esordienti-ud-b|1": "2026-11-28T15:01+01:00",
   "esordienti-ud-b|2": "2026-11-28T15:01+01:00",
-  "serie-c-femminile|6": "2026-11-28T19:01+01:00",
+  "serie-c-femminile|6": "2026-11-28T19:16+01:00",
   "u13-femminile-go-ts|2": "2026-11-28T15:16+01:00",
-  "u13-femminile-go-ts|4": "2026-11-28T19:01+01:00",
+  "u13-femminile-go-ts|4": "2026-11-28T19:16+01:00",
   "u13-femminile-pn-ud|3": "2026-11-28T15:16+01:00",
-  "u13-femminile-pn-ud|6": "2026-11-28T19:01+01:00",
+  "u13-femminile-pn-ud|6": "2026-11-28T19:16+01:00",
   "u13-go-ts-a|1": "2026-11-28T15:16+01:00",
   "u13-go-ts-a|4": "2026-11-28T15:16+01:00",
-  "u13-go-ts-a|5": "2026-11-28T19:01+01:00",
-  "u13-go-ts-b|5": "2026-11-28T19:01+01:00",
+  "u13-go-ts-a|5": "2026-11-28T19:16+01:00",
+  "u13-go-ts-b|5": "2026-11-28T19:16+01:00",
   "u13-pn-a|2": "2026-11-28T15:16+01:00",
   "u13-pn-a|4": "2026-11-28T15:16+01:00",
-  "u13-pn-a|5": "2026-11-28T19:01+01:00",
+  "u13-pn-a|5": "2026-11-28T19:16+01:00",
   "u13-pn-b|4": "2026-11-28T15:16+01:00",
   "u13-ud-a|3": "2026-11-28T15:16+01:00",
   "u13-ud-a|4": "2026-11-28T15:16+01:00",
-  "u13-ud-a|5": "2026-11-28T19:01+01:00",
+  "u13-ud-a|5": "2026-11-28T19:16+01:00",
   "u13-ud-b|4": "2026-11-28T15:16+01:00",
-  "u13-ud-b|5": "2026-11-28T19:01+01:00",
+  "u13-ud-b|5": "2026-11-28T19:16+01:00",
   "u14-regionale-go-ts-ud|2": "2026-11-28T15:01+01:00",
   "u15-femminile|2": "2026-11-28T15:01+01:00",
   "u15-gold|6": "2026-11-28T15:01+01:00",
-  "u15-gold|7": "2026-11-28T19:01+01:00",
+  "u15-gold|7": "2026-11-28T19:16+01:00",
   "u17-femminile|4": "2026-11-28T15:01+01:00",
   "u17-regionale-go-ts|4": "2026-11-28T15:01+01:00",
   "u17-regionale-go-ts|5": "2026-11-28T15:01+01:00",
+  "u17-regionale-go-ts|6": "2026-11-28T19:16+01:00",
   "u19-gold-a|7": "2026-11-28T15:01+01:00"
  }
 }
