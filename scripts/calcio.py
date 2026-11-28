@@ -68,7 +68,10 @@ def media_wp(par, pausa=0.5, max_pagine=20):
         if r.status_code == 400:
             break
         r.raise_for_status()
-        js = r.json()
+        try:
+            js = r.json()
+        except ValueError:  # pagina HTML al posto del JSON (protezione anti-bot del sito, manutenzione)
+            raise RuntimeError(f"archivio media: risposta non JSON ({r.text[:120]!r})")
         out += js
         try:
             tot = int(r.headers.get("X-WP-TotalPages") or 0)
