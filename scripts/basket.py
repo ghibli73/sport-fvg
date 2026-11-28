@@ -26,6 +26,9 @@ Le omologazioni lette sono ricordate in config/basket_stato.json, così ogni ese
      in "ris_portale" e in app hanno "non_omologato": true), le omologazioni "Esordienti" li confermano quando escono.
      Nessuna classifica (minibasket: punteggio per periodi, 3 punti al periodo vinto, 2 al pareggiato, 1 al perso; il
      Comitato non pubblica classifiche); i gironi nuovi si cercano sul portale una volta alla settimana (--scopri-minibasket).
+Dati della gara (pipeline/agenti/formato-risultati.md): "data_cal" (gare giocate in un giorno diverso dal calendario:
+"giocata il" delle omologazioni) e "designata": true (gare entro 7 giorni con arbitri indicati sul portale FIP; solo la
+presenza, mai i nomi di arbitri, osservatori o ufficiali di campo).
 Uso: python scripts/basket.py [--tutto] [--solo <slug>] [--prova] [--completo] [--scopri-fip] [--rapido] [--scopri-minibasket]
      --tutto  rilegge tutte le omologazioni della stagione;  --prova  non scrive config né data/risultati.json
      (il risultato va in /tmp/risultati_prova.json);  --completo  legge sul portale FIP tutte le giornate future.
@@ -252,6 +255,60 @@ NOTA_MINI = ("Minibasket Under 12: il punteggio non è la somma dei canestri ma 
              "l'omologazione.")
 
 
+GIORNI_DESIGNATA = 7  # segnale "arbitri designati" solo per le gare dei prossimi 7 giorni
+
+
+def dettagli(p, spec, num, oggi):
+    """Campi della gara (pipeline/agenti/formato-risultati.md): "data_cal" = data del calendario quando l'omologazione
+    dice "giocata il" un altro giorno (gare giocate); "designata": true = il portale FIP indica gli arbitri della gara
+    (solo gare future entro 7 giorni; nessun nome viene mai letto o salvato, solo la presenza)."""
+    dc = (spec.get("data_cal") or {}).get(str(num))
+    if p.get("risultato") and dc and dc != p.get("data"):
+        p["data_cal"] = dc
+    fino = (dt.date.fromisoformat(oggi) + dt.timedelta(days=GIORNI_DESIGNATA)).isoformat()
+    if (spec.get("designate") or {}).get(str(num)) and not p.get("risultato") and oggi <= (p.get("data") or "") <= fino:
+        p["designata"] = True
+
+
+RX_DESIGNATI = re.compile(r"Arbitri designati|1\W{0,2} Arbitro (?!Designazione|In attesa|Da designare|Non |2\W)[A-ZÀ-Ýa-zà-ÿ'’]", re.I)
+
+
+def fip_designate(html):
+    """{numero gara: True/False}: True se nella scheda "Info" della gara il portale FIP indica il 1° arbitro (nome presente)
+    o scrive "Arbitri designati" (nomi visibili più avanti). PRIVACY: si guarda solo se un testo c'è; i nomi di arbitri,
+    osservatori e ufficiali di campo non vengono mai restituiti, salvati né stampati."""
+    t = fip_testo(html)
+    ms = list(RX_FIP.finditer(t))
+    out = {}
+    for i, m in enumerate(ms):
+        fine = ms[i + 1].start() if i + 1 < len(ms) else len(t)
+        seg = t[m.end() - 14:fine]  # dall'etichetta finale del campo (Arbitri / 1° Arbitro / Designazione) alla gara dopo
+        seg = seg[:seg.find("Squadra di casa")] if "Squadra di casa" in seg else seg
+        out[int(m.group(5))] = bool(RX_DESIGNATI.search(seg))
+    return out
+
+
+def segna_designate(s, html, oggi):
+    """Aggiorna s["designate"] (numero gara -> True) per le gare non giocate della pagina con data entro 7 giorni."""
+    fino = (dt.date.fromisoformat(oggi) + dt.timedelta(days=GIORNI_DESIGNATA)).isoformat()
+    des = s.setdefault("designate", {})
+    per_num = {g[0]: g for g in s["gare"]}
+    for num, si in fip_designate(html).items():
+        g = per_num.get(num)
+        if not g or (g[7] and not pari(g[7], s.get("minibasket"))) or not (oggi <= (g[2] or "") <= fino):
+            des.pop(str(num), None); continue
+        if si:
+            des[str(num)] = True
+        else:
+            des.pop(str(num), None)
+    for k in list(des):  # gare giocate o passate: il segno non serve più
+        g = per_num.get(int(k))
+        if not g or (g[7] and not pari(g[7], s.get("minibasket"))) or (g[2] or "") < oggi:
+            del des[k]
+    if not des:
+        s.pop("designate", None)
+
+
 def costruisci_mini(spec, oggi):
     """Girone minibasket: calendario e risultati, senza classifica (vedi NOTA_MINI)."""
     ids, rp = spec.get("ids", {}), spec.get("ris_portale", {})
@@ -266,6 +323,7 @@ def costruisci_mini(spec, oggi):
         if r and not uff:
             p["non_omologato"] = True
         if campo: p["campo"] = campo
+        dettagli(p, spec, num, oggi)
         partite.append(p)
         per_g.setdefault(gio, [0, 0])[1] += 1
         if r:
@@ -313,6 +371,7 @@ def costruisci(spec, oggi):
         if ids.get(osp): p["id_ospite"] = ids[osp]
         p["risultato"] = "" if pari(ris) else (ris or "")
         if campo: p["campo"] = campo
+        dettagli(p, spec, num, oggi)
         partite.append(p)
     for r in classifica: r.setdefault("id", None)
     for p in partite: p.setdefault("id_casa", None); p.setdefault("id_ospite", None)
@@ -860,8 +919,10 @@ def variazioni_fip(specs, cfg, oggi, completo):
             ar, n = (1, gio) if gio <= p["andata"] else (0, gio - p["andata"])
             q = {k: v for k, v in p.items() if k not in ("andata", "nome", "uguali")}
             try:
-                gare = fip_gare(fip_get({**q, "codice_ar": ar, "giornata": n}))
+                html = fip_get({**q, "codice_ar": ar, "giornata": n})
+                gare = fip_gare(html)
                 pagine += 1
+                segna_designate(s, html, oggi)
             except Exception as e:
                 print(f"  ! FIP {slug} giornata {gio}: {e}"); continue
             for num, casa, osp, data, ora, campo in gare:
@@ -924,6 +985,29 @@ def main():
             s["gare"].append(g + [""]); nuove += 1
         stato["calendari_letti"].append(u)
         print(f"{s['slug']}: calendario completo, {len(cal)} gare ({nuove} aggiunte)")
+
+    # 1a. una volta per girone: data del calendario ufficiale (PDF id_fonte) delle gare già giocate in un altro giorno,
+    # per le omologazioni lette prima che "data_cal" esistesse (dopo la ricostruisce la lettura delle omologazioni)
+    for s in specs.values():
+        u = s.get("id_fonte", "")
+        if s.get("minibasket") or not u.lower().endswith(".pdf") or s.get("data_cal_pdf") == u:
+            continue
+        try:
+            cal = leggi_calendario(u, s["gare"])
+        except Exception as e:
+            print(f"{s['slug']}: date del calendario non lette ({e})"); continue
+        per_num = {g[0]: g for g in s["gare"]}
+        dc, n = s.setdefault("data_cal", {}), 0
+        for c in cal:
+            g = per_num.get(c[0])
+            if not g or not c[4] or (c[4], c[5]) != (g[4], g[5]) or not g[7] or pari(g[7]) or not g[2] or not c[2]:
+                continue
+            if c[2] != g[2] and str(g[0]) not in dc:
+                dc[str(g[0])] = c[2]; n += 1
+        if not dc:
+            s.pop("data_cal", None)
+        s["data_cal_pdf"] = u
+        print(f"{s['slug']}: gare giocate in un giorno diverso dal calendario: {n}")
 
     # 1b. calendari riemessi (anche con un nome diverso): stessi numeri gara e squadre di un girone
     try:
@@ -1026,6 +1110,8 @@ def main():
                     s.get("ris_portale", {}).pop(str(num), None)  # il punteggio del portale ora è omologato
                 if giocata and g[2] != giocata:
                     print(f"  gara {num} ({s['slug']}): giocata il {giocata} (calendario {g[2]})")
+                    if g[2]:
+                        s.setdefault("data_cal", {}).setdefault(str(num), g[2])  # data del calendario prima dell'omologazione
                     g[2] = giocata
                 nuovo = f"{a}-{b}"
                 CONTA["uguali" if g[7] == nuovo else "nuovi" if not g[7] else "diversi"] += 1
@@ -1061,6 +1147,9 @@ def main():
     applica_comuni(data)  # comune delle squadre senza id (config/squadre_comune.json)
     # risultati del portale FIP non ancora omologati (giro rapido): restano finché l'omologazione non arriva
     print("provvisori (non omologati) applicati:", TR.applica(data, solo_sport={"basket"}))
+    bp = [p for g in data if g.get("sport") == "basket" for p in g.get("partite") or []]
+    print(f"dati della gara: giocate in un giorno diverso dal calendario {sum(1 for p in bp if p.get('data_cal'))}, "
+          f"arbitri designati (prossimi 7 giorni) {sum(1 for p in bp if p.get('designata'))}")
     if prova:
         json.dump(data, open(PROVA, "w"), ensure_ascii=False, separators=(",", ":"))
         mini = [s for s in specs.values() if s.get("minibasket")]

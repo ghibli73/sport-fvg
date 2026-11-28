@@ -14,6 +14,11 @@ contiene nei dati della pagina (Inertia, attributo data-page) le partite della g
             il risultato del Comunicato Ufficiale li sostituisce (scripts/calcio.py), e se è diverso vale il Comunicato.
   --solo-scoperta  solo la scoperta, se serve (gironi senza abbinamento da più di 7 giorni o scoperta interrotta): la
             chiama aggiorna-calcio.yml, fuori dalle fasce di gara
+  --dettagli  dati della gara dal Quadro gare (config/calcio_dettagli.json, pipeline/agenti/formato-risultati.md): per
+            ogni girone abbinato le giornate dagli ultimi 4 giorni ai prossimi 7 (al massimo DETT_PAGINE pagine, ogni
+            giornata al più ogni DETT_ORE ore): data e campo del calendario quando la gara è anticipata/posticipata o cambia
+            campo (campo "change" ufficializzato), rinvii e altri esiti particolari, punti di penalizzazione in classifica.
+            Le stesse informazioni si raccolgono anche dalle pagine lette dal giro rapido. Mai un rinvio diventa risultato.
   --prova   non scrive config né data/risultati.json (risultato in /tmp/risultati_prova.json)
 Ritmo: 3 s tra le pagine (con 1,5 s il servizio dopo circa 25 pagine risponde con pagine vuote); al massimo MAX_PAGINE
 pagine per esecuzione; alla prima risposta vuota o d'errore la lettura si ferma e riprende al giro successivo.
@@ -31,6 +36,10 @@ PAUSA = 3.0      # il Quadro gare rallenta dopo circa 25 pagine lette a 1,5 s: q
 MAX_PAGINE = 40
 DURATA = 115  # minuti dall'inizio prima di cercare il risultato
 PROVA = "/tmp/risultati_prova.json"
+DETT = os.path.join(ROOT, "config", "calcio_dettagli.json")
+DETT_PAGINE = 24   # pagine al massimo per esecuzione di --dettagli
+DETT_ORE = 10      # una giornata già letta da meno di 10 ore non si rilegge
+DETT_PRIMA, DETT_DOPO = 4, 7  # giornate con date da 4 giorni fa a 7 giorni da oggi
 SALTA = re.compile(r"COPPA|ESORDIENTI|PULCINI|TORNEO|FASE|SUPERCOPPA|PRIMI CALCI|PICCOLI", re.I)
 S = requests.Session()
 S.headers["User-Agent"] = os.environ.get("SPORTFVG_UA", "SportFVG/1.0 (app non ufficiale di consultazione)")
@@ -158,10 +167,202 @@ def scopri(data, cfg):
     print(f"gironi abbinati {len(cfg['gironi'])}; senza abbinamento: {sorted(set(nostri) - set(cfg['gironi']))}")
 
 
+# ------------------------------------------------------------------ dati della gara (config/calcio_dettagli.json)
+# Esiti del Quadro gare tradotti in etichette fisse (mai il testo libero della fonte, che potrebbe contenere nomi).
+# "Da Giudice sportivo" è l'esito di TUTTE le gare giocate in attesa del Comunicato (lo copre già "provvisorio"):
+# non è un esito particolare e non viene salvato.
+ESITI = [(r"rinviat|da recuperare|rinvio", "rinviata"), (r"sospes", "sospesa"), (r"non disputat|impraticab|non effettuat", "non disputata"),
+         (r"da ripetere|ripetizione", "da ripetere"), (r"tavolino|forfait|rinuncia", "a tavolino"), (r"annullat", "annullata")]
+SENZA_RISULTATO = {"rinviata", "sospesa", "non disputata", "da ripetere", "annullata"}
+
+
+def carica_dett():
+    return json.load(open(DETT)) if os.path.exists(DETT) else {"gironi": {}, "penalita": {}, "letture": {}}
+
+
+def salva_dett(det):
+    json.dump(det, open(DETT, "w"), ensure_ascii=False, indent=1, sort_keys=True)
+
+
+def esito_di(m):
+    testo = " ".join(str(m.get(k) or "") for k in ("outcome", "publicNote")) + " " + " ".join(map(str, m.get("flags") or []))
+    for rx, lab in ESITI:
+        if re.search(rx, testo, re.I):
+            return lab
+    return ""
+
+
+def raccogli(props, g, gio, det, oggi):
+    """Dalle partite e dalla classifica di una pagina del Quadro gare salva in det i dati della gara del girone g
+    (giornata gio dell'app). Per ogni partita la voce viene riscritta o tolta: vale l'ultima lettura. -> voci scritte."""
+    nomi = [r["squadra"] for r in g.get("classifica") or []]
+    voci = det.setdefault("gironi", {}).setdefault(g["gid"], {})
+    scritte = 0
+    for m in props.get("matches") or []:
+        if m.get("isRest"):
+            continue
+        casa, osp = abbina_nome(m.get("home"), nomi), abbina_nome(m.get("away"), nomi)
+        if not casa or not osp or casa == osp:
+            continue
+        kk = f"{TR.k(casa)}|{TR.k(osp)}|{gio}"
+        v = {}
+        ch = m.get("change") or {}
+        d = m.get("date") or ""
+        if ch and str(ch.get("status") or "").upper() == "UFF":  # solo variazioni ufficializzate
+            od = ch.get("originalDate") or ""
+            if od and d and od != d and od > "1900":
+                v["data_cal"] = od
+                v["data"] = d
+                if m.get("time"):
+                    v["ora"] = m["time"][:5]
+            of, f = (ch.get("originalField") or "").strip(), (m.get("field") or "").strip()
+            if of and f and of.upper() != f.upper():
+                v["campo_cal"] = of.title()
+                v["campo"] = f.title()
+        e = esito_di(m)
+        if e:
+            v["esito"] = e
+        if v:
+            v["letto"] = oggi
+            voci[kk] = v; scritte += 1
+        else:
+            voci.pop(kk, None)
+    if not voci:
+        det["gironi"].pop(g["gid"], None)
+    st = props.get("standings")
+    if isinstance(st, dict):
+        st = st.get("standings")
+    if isinstance(st, list) and st:
+        pen = {}
+        for r in st:
+            try:
+                n = int(r.get("penalties") or 0)
+            except (TypeError, ValueError):
+                n = 0
+            nome = abbina_nome(r.get("team"), nomi)
+            if n > 0 and nome:
+                pen[nome] = n
+        if pen:
+            det.setdefault("penalita", {})[g["gid"]] = pen
+        else:
+            det.setdefault("penalita", {}).pop(g["gid"], None)
+    return scritte
+
+
+def applica_dettagli(data, det=None):
+    """Applica config/calcio_dettagli.json a data/risultati.json (idempotente; si può chiamare dopo calcio.py, che
+    ricostruisce i gironi da capo). -> (partite con dati, squadre penalizzate)."""
+    det = det if det is not None else carica_dett()
+    n_p = n_s = 0
+    for g in data:
+        if g.get("sport") not in ("calcio", "calcio5"):
+            continue
+        voci = (det.get("gironi") or {}).get(g["gid"]) or {}
+        for p in g.get("partite") or []:
+            for f in ("data_cal", "campo_cal", "esito", "rinviata"):  # nel calcio "rinviata" viene solo da qui
+                p.pop(f, None)
+            v = voci.get(f"{TR.k(p['casa'])}|{TR.k(p['ospite'])}|{p.get('giornata')}")
+            if not v:
+                continue
+            fatto = False
+            if v.get("data_cal"):
+                if not p.get("risultato") and v.get("data"):
+                    p["data"] = v["data"]  # data ufficializzata dal Quadro gare (anticipo/posticipo)
+                    if v.get("ora"):
+                        p["ora"] = v["ora"]
+                if v["data_cal"] != p.get("data"):
+                    p["data_cal"] = v["data_cal"]; fatto = True
+            if v.get("campo_cal"):
+                p["campo_cal"] = v["campo_cal"]
+                if v.get("campo"):
+                    p["campo"] = v["campo"]
+                fatto = True
+            e = v.get("esito")
+            if e and (e not in SENZA_RISULTATO or not p.get("risultato")):
+                p["esito"] = e; fatto = True
+                if e in SENZA_RISULTATO and not p.get("risultato"):
+                    p["rinviata"] = True  # mai un risultato: resta senza punteggio
+            n_p += fatto
+        pen = (det.get("penalita") or {}).get(g["gid"]) or {}
+        cambiata = False
+        for r in g.get("classifica") or []:
+            prima, ora = r.get("penalita") or 0, pen.get(r["squadra"], 0)
+            if prima != ora:
+                r["punti"] = (r.get("punti") or 0) - (ora - prima); cambiata = True
+            if ora:
+                r["penalita"] = ora; n_s += 1
+            else:
+                r.pop("penalita", None)
+        if cambiata:
+            TR.riordina(g)
+        if pen:
+            g["nota_penalita"] = "Classifica con i punti di penalizzazione indicati dalla LND (Quadro gare): " + \
+                ", ".join(f"{s} -{n}" for s, n in sorted(pen.items())) + "."
+        else:
+            g.pop("nota_penalita", None)
+    return n_p, n_s
+
+
+def dettagli(data, cfg, det, oggi):
+    """--dettagli: legge le giornate vicine di ogni girone abbinato (vedi DETT_*). -> pagine lette."""
+    o = dt.date.fromisoformat(oggi)
+    da, a = (o - dt.timedelta(days=DETT_PRIMA)).isoformat(), (o + dt.timedelta(days=DETT_DOPO)).isoformat()
+    by = {g["gid"]: g for g in data}
+    letture = det.setdefault("letture", {})
+    ora = TR.adesso()
+    lista = []
+    for gid, p in sorted((cfg.get("gironi") or {}).items()):
+        g = by.get(gid)
+        if not g:
+            continue
+        n_sq = len(g.get("classifica") or [])
+        andata = n_sq - 1 if n_sq % 2 == 0 else n_sq
+        for num, leg, ini, fine in p.get("giornate") or []:
+            if not fine:
+                continue
+            if not ini or ini < "1900":
+                ini = (dt.date.fromisoformat(fine) - dt.timedelta(days=6)).isoformat()
+            if fine < da or ini > a:
+                continue
+            chiave = f"{gid}|{num}|{leg}"
+            ultima = letture.get(chiave, "")
+            try:
+                if ultima and ora - dt.datetime.fromisoformat(ultima) < dt.timedelta(hours=DETT_ORE):
+                    continue
+            except ValueError:
+                pass
+            gio = num + (andata if leg == "second" else 0)
+            lista.append((ultima, gid, num, leg, gio))
+    lista.sort()
+    print(f"dati della gara: giornate da leggere {len(lista)}, in questa esecuzione al massimo {DETT_PAGINE}")
+    pagine = scritte = 0
+    for ultima, gid, num, leg, gio in lista[:DETT_PAGINE]:
+        p = cfg["gironi"][gid]
+        try:
+            props = pagina({"campionato": p["campionato"], "girone": p["girone"], "giornata": num, "leg": leg})
+        except Rallentato as e:
+            print(f"  ! {gid} giornata {num} {leg}: {e}: lettura interrotta"); break
+        except Exception as e:
+            print(f"  ! {gid} giornata {num} {leg}: {e}"); continue
+        pagine += 1
+        cm = props.get("currentMatchday") or {}
+        if cm.get("number") != num or cm.get("leg") != leg:
+            continue
+        letture[f"{gid}|{num}|{leg}"] = ora.isoformat(timespec="minutes")
+        scritte += raccogli(props, by[gid], gio, det, oggi)
+    # letture vecchie (giornate passate) dimenticate
+    limite = (o - dt.timedelta(days=30)).isoformat()
+    for k in list(letture):
+        if letture[k][:10] < limite:
+            del letture[k]
+    print(f"dati della gara: pagine lette {pagine}, partite con dati {scritte}")
+    return pagine
+
+
 VERIFICA = {"uguali": 0, "diversi": 0}
 
 
-def leggi(data, cfg, live, oggi, verifica=False):
+def leggi(data, cfg, live, oggi, verifica=False, det=None):
     """-> risultati nuovi. Solo i gironi con partite finite da poco e senza risultato ufficiale.
     verifica=True: rilegge le partite degli ultimi 7 giorni GIÀ nel Comunicato e confronta i gol (non scrive nulla)."""
     da = (dt.date.fromisoformat(oggi) - dt.timedelta(days=7 if verifica else 3)).isoformat()
@@ -220,6 +421,8 @@ def leggi(data, cfg, live, oggi, verifica=False):
             if cm.get("number") != n or cm.get("leg") != leg:
                 print(f"  ! {gid}: il Quadro gare ha risposto con la giornata {cm.get('number')} {cm.get('leg')}, attesa {n} {leg}")
                 continue
+            if det is not None and not verifica:
+                raccogli(props, g, n + (andata if leg == "second" else 0), det, oggi)  # dati della gara, senza pagine in più
             per = {(TR.k(x["casa"]), TR.k(x["ospite"])): x for x in g["partite"] if x.get("giornata") in gg}
             for m in props.get("matches") or []:
                 if m.get("isRest") or m.get("isLive") or not m.get("isPlayed"):
@@ -289,6 +492,21 @@ def main():
         if prova:
             print("@@LND@@" + json.dumps(cfg, ensure_ascii=False) + "@@LND@@"); return
         json.dump(cfg, open(CFG, "w"), ensure_ascii=False, indent=1); return
+    det = carica_dett()
+    if "--dettagli" in sys.argv:
+        if prova and os.path.exists(PROVA):
+            data = json.load(open(PROVA))  # in prova si continua dal risultato di calcio.py --prova
+        try:
+            dettagli(data, cfg, det, oggi)
+        except Exception as e:
+            print(f"dati della gara: lettura non riuscita ({e})")
+        n_p, n_s = applica_dettagli(data, det)
+        print(f"dati della gara applicati: partite {n_p}, squadre penalizzate {n_s}")
+        if prova:
+            json.dump(data, open(PROVA, "w"), ensure_ascii=False, separators=(",", ":"))
+            print("prova: config e data/risultati.json non modificati, risultato in", PROVA); return
+        salva_dett(det)
+        json.dump(data, open(RIS, "w"), ensure_ascii=False, separators=(",", ":")); return
     live = TR.carica_live()
     conf, div = TR.pulisci(data, live, oggi)
     print(f"provvisori confermati dal Comunicato: {conf}, diversi: {div}")
@@ -296,11 +514,12 @@ def main():
         leggi(data, cfg, live, oggi, verifica=True)
         print(f"verifica Quadro gare / Comunicati (ultimi 7 giorni): {VERIFICA}, pagine lette {LETTE[0]}"); return
     try:
-        n = leggi(data, cfg, live, oggi)
+        n = leggi(data, cfg, live, oggi, det=det)
     except Exception as e:
         n = 0; print(f"Quadro gare: lettura non riuscita ({e})")
     print(f"Quadro gare LND: pagine lette {LETTE[0]}, risultati nuovi {n}")
     print("partite aggiornate in app:", TR.applica(data, live, solo_sport={"calcio", "calcio5"}))
+    print("dati della gara applicati (partite, squadre penalizzate):", applica_dettagli(data, det))
     if prova:
         json.dump(data, open(PROVA, "w"), ensure_ascii=False, separators=(",", ":"))
         if "--scopri" in sys.argv:
@@ -308,6 +527,7 @@ def main():
         print("prova: config e data/risultati.json non modificati, risultato in", PROVA); return
     json.dump(cfg, open(CFG, "w"), ensure_ascii=False, indent=1)
     TR.salva_live(live)
+    salva_dett(det)
     json.dump(data, open(RIS, "w"), ensure_ascii=False, separators=(",", ":"))
 
 

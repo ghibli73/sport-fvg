@@ -58,6 +58,10 @@ jobs:
         run: |
           if [ "$PROVA" = "true" ]; then python scripts/calcio_live.py --solo-scoperta --prova; else python scripts/calcio_live.py --solo-scoperta; fi
         continue-on-error: true
+      - name: Dati della gara dal Quadro gare LND (anticipi, cambi di campo, rinvii, penalizzazioni)
+        run: |
+          if [ "$PROVA" = "true" ]; then python scripts/calcio_live.py --dettagli --prova; else python scripts/calcio_live.py --dettagli; fi
+        continue-on-error: true
       - name: Partite spostate (campo "variata") e rapporto
         run: python scripts/variazioni.py /tmp/risultati_prima.json "$OUT"
       - name: Controlli prima di pubblicare

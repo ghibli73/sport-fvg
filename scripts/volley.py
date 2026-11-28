@@ -12,6 +12,10 @@ Per ogni girone di config/pallavolo.json:
      gare salvate prima che il numero fosse registrato, per squadre): una gara spostata cambia data, ora e
      impianto ma resta nella sua giornata. Poi aggiorna classifica, giornata e data.
 
+Dati della gara (pipeline/agenti/formato-risultati.md): "stato_gara" = "omologata" | "ufficioso" (gare con risultato,
+dall'icona di stato del portale) o "rinviata" | "sospesa" (gare senza risultato); "designata": true per le gare dei
+prossimi 7 giorni con arbitro designato (portali regionale, Udine e Trieste-Gorizia; Pordenone non le pubblica).
+PRIVACY: dei tooltip "Designazioni" si legge solo la presenza; i nomi non vengono mai salvati, stampati o committati.
 Protezioni: se una classifica letta ha meno squadre di quella esistente, o la lettura fallisce, il girone resta com'era.
 Uso:  python scripts/volley.py            (aggiorna data/risultati.json)
       python scripts/volley.py --dump     (salva anche le pagine scaricate in debug/ per controllare il parser)
@@ -156,8 +160,41 @@ def parse_gare(html):
         campo = [x for x in after if not re.fullmatch(r"[\d\s,;:-]+", x)]
         if campo:
             g["campo"] = campo[-1]
+        g["stato"], g["designata"] = stato_gara(tr)
         gare.append(g)
     return gare
+
+
+def stato_gara(tr):
+    """Stato della gara dall'icona "statogara" del portale e presenza della designazione arbitrale.
+    -> (stato, designata): stato "omologata" | "ufficioso" | "rinviata" | "sospesa" | "" (da disputare o sconosciuto);
+    designata True se il portale scrive che l'arbitro è designato (tooltip dello stato o blocco "Designazioni" con
+    almeno un "arbitro:" seguito da un testo). PRIVACY: dei tooltip si guarda solo se c'è qualcosa; nessun testo
+    (nomi degli arbitri) viene restituito, salvato o stampato."""
+    st, des = "", False
+    img = tr.find("img", alt="statogara")
+    t = (img.get("title") or "") if img else ""
+    prima = norm(re.split(r"<br", t, 1, flags=re.I)[0]).lower()
+    if "omologat" in prima:
+        st = "omologata"
+    elif "ufficios" in prima:
+        st = "ufficioso"
+    elif "rinviat" in prima:
+        st = "rinviata"
+    elif "sospes" in prima:
+        st = "sospesa"
+    if re.search(r"arbitr\w* designat", t, re.I):
+        des = True
+    info = tr.find("img", alt="info")
+    ti = (info.get("title") or "") if info else ""
+    if re.search(r"designazion", ti, re.I) and re.search(r"arbitro:\s*[^\s<]", ti, re.I):
+        des = True
+    return st, des
+
+
+GIORNI_DESIGNATA = 7    # "designata" solo per le gare dei prossimi 7 giorni
+GIORNI_UFFICIOSO = 14   # uno stato "ufficioso" non più riletto da 14 giorni viene tolto (non si sa se è stato omologato)
+SENZA_DESIGNAZIONI = ("pordenone.",)  # il CT Pordenone non pubblica le designazioni: nessun segnale
 
 
 def lunedi(d):
@@ -185,7 +222,7 @@ def gare_comitato(cfg, oggi, dump, completo):
     if completo == "rapido":
         settimane = (-1, 0) if oggi.weekday() <= 1 else (0,)  # al massimo 2 pagine per comitato
     else:
-        settimane = range(-1, MAX_SETTIMANE + 1) if completo else (-1, 0, 1)
+        settimane = range(-2, MAX_SETTIMANE + 1) if completo else (-2, -1, 0, 1)
     for k in settimane:
         try:
             gare = parse_gare(get(url_settimana(cfg, lunedi(oggi) + dt.timedelta(days=7 * k)), dump))
@@ -200,6 +237,20 @@ def gare_comitato(cfg, oggi, dump, completo):
     print(f"   [{cfg['host']} {cfg['pid']}] pagine lette {lette}, gare {len(out)}")
     _comitati[chiave] = out
     return out
+
+
+def pulisci_dettagli(partite, oggi):
+    """Toglie i segni non più validi delle gare non rilette: "designata" su gare giocate o passate, "ufficioso"
+    non riletto da GIORNI_UFFICIOSO giorni, stato "rinviata/sospesa" su gare che hanno ormai un risultato."""
+    o = oggi.isoformat()
+    vecchio = (oggi - dt.timedelta(days=GIORNI_UFFICIOSO)).isoformat()
+    for m in partite:
+        if m.get("designata") and (m.get("risultato") or (m.get("data") or "") < o):
+            m.pop("designata", None)
+        st = m.get("stato_gara")
+        if (st == "ufficioso" and (m.get("stato_letto") or "") < vecchio) or (st in ("rinviata", "sospesa") and m.get("risultato")) \
+                or (st in ("omologata", "ufficioso") and not m.get("risultato")):
+            m.pop("stato_gara", None); m.pop("stato_letto", None)
 
 
 def classifica_provvisoria(g):
@@ -300,6 +351,19 @@ def aggiorna(g, cfg, oggi, dump, completo=False):
                   "id_casa": alias.get(k2[0]), "id_ospite": alias.get(k2[1]),
                   "risultato": x["risultato"] or m.get("risultato", ""), "parziali": x["parziali"] or m.get("parziali", ""),
                   "campo": x["campo"] or m.get("campo", "")})
+        # stato della gara (omologata / ufficioso) e segnale "arbitri designati" (solo un booleano, mai i nomi)
+        if x.get("stato") in ("omologata", "ufficioso") and m.get("risultato"):
+            m["stato_gara"] = x["stato"]; m["stato_letto"] = oggi.isoformat()
+        elif x.get("stato") in ("rinviata", "sospesa") and not m.get("risultato"):
+            m["stato_gara"] = x["stato"]; m["stato_letto"] = oggi.isoformat()
+        else:
+            m.pop("stato_gara", None); m.pop("stato_letto", None)
+        fino = (oggi + dt.timedelta(days=GIORNI_DESIGNATA)).isoformat()
+        if x.get("designata") and not m.get("risultato") and oggi.isoformat() <= x["data"] <= fino \
+                and not cfg["host"].startswith(SENZA_DESIGNAZIONI):
+            m["designata"] = True
+        else:
+            m.pop("designata", None)
     if rapido:
         if not ris_nuovi:
             return "ok: nessun risultato nuovo"
@@ -313,6 +377,7 @@ def aggiorna(g, cfg, oggi, dump, completo=False):
             cl = [dict(r) for r in cl]
         for r in cl:
             r["id"] = alias.get(key(r["squadra"]), r.get("id"))
+    pulisci_dettagli(old, oggi)
     g["classifica"] = cl
     g["partite"] = sorted(old, key=lambda m: (m.get("giornata") or 0, m.get("data") or "", m.get("ora") or ""))
     giocate = [m.get("giornata") or 0 for m in g["partite"] if m.get("risultato")]
@@ -356,6 +421,10 @@ def main():
             errori += 1
         print(f"{cfg['slug']}: {esito}")
     applica_comuni(data)  # comune delle squadre senza id (config/squadre_comune.json)
+    from collections import Counter
+    pv = [p for g in data if g.get("sport") == "pallavolo" for p in g.get("partite") or []]
+    print("dati della gara:", dict(Counter(p["stato_gara"] for p in pv if p.get("stato_gara"))),
+          "| arbitri designati (prossimi 7 giorni):", sum(1 for p in pv if p.get("designata")))
     json.dump(data, open(PROVA if prova else RIS, "w"), ensure_ascii=False, separators=(",", ":"))
     if prova:
         print("prova: data/risultati.json non modificato, risultato in", PROVA)

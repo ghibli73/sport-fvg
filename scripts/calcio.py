@@ -620,6 +620,9 @@ def main():
     applica_comuni(tenuti)  # comune delle squadre senza id (config/squadre_comune.json)
     # risultati del Quadro gare LND non ancora nel Comunicato (giro rapido): restano "provvisorio" finché il CU non li riporta
     print("provvisori applicati:", TR.applica(tenuti, solo_sport={"calcio", "calcio5"}))
+    # dati della gara dal Quadro gare (anticipi/posticipi, cambi di campo, rinvii, penalizzazioni): config/calcio_dettagli.json
+    import calcio_live as LIVE
+    print("dati della gara applicati (partite, squadre penalizzate):", LIVE.applica_dettagli(tenuti))
     if prova:
         json.dump(tenuti, open(PROVA, "w"), ensure_ascii=False, separators=(",", ":"))
         print("prova: config e data/risultati.json non modificati, risultato in", PROVA); return
