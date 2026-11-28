@@ -5,7 +5,7 @@ Ruolo: cura l'aspetto e l'usabilità dell'app (soprattutto da telefono), l'icona
 ## Identità visiva attuale (da rispettare salvo proposta approvata)
 - Colori: blu FVG #123a6b (intestazione, primario), oro #f2b705 (accenti, aquila), sfondo #eef2f8, testo #0f1c33.
 - Font di sistema (system-ui); nessun font esterno (l'artifact blocca le risorse esterne).
-- Icone sport: SVG in linea, generate da /tmp/icons.js nel vecchio flusso; in index.html sono nell'oggetto delle icone. Stile lineare, monocromatico, riconoscibile a 20 px.
+- Icone (dalla 1.18.0, stile "A+1" scelto dall'utente): oggetti `I` (26 sport) e `UI` (interfaccia: home, partite, società, mappa, sport, preferiti, cerca, info, agenda, avvisi, widget, tutti) in index.html. Pittogramma a contorno `var(--io)` (scuro #0b1a33 su chiaro, #eef3fa nel tema scuro, bianco su superfici blu/colorate), riempimenti con i colori realistici dello sport, oro come accento; nessuna tessera di fondo. Dettagli fini in `<g class="dt">`: nascosti per default (≤ 28 px) e mostrati solo nei contesti grandi (`.spic`, `.rsti`, `.ph .ico`, `.stile`, `.emi`). Sorgenti e tavole: design/screenshot/icone-a-plus/. Una nuova icona deve restare riconoscibile senza `.dt` e senza colore.
 - Nome: **Zuìn** (friulano "giochiamo!"), sottotitolo "Sport in FVG" (dalla 1.3.0 del 25/11/2026).
 - Icona app: aquilotto mascotte con fascia e pollice in su, oro su azzurro (colori della bandiera friulana), scelto dall'utente; originale in design/zuin/originale-chatgpt.png. Non usare aquile araldiche né composizioni tipo stemma regionale.
 
