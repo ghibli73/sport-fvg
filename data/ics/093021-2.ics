@@ -1,0 +1,126 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. Calcio Bannia
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-b21972e3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:CALCIO BANNIA 3-1 CALCIO ZOPPOLA (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-17-provinciali-a-308c6508@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:CORDENONESE 3 S 8-1 CALCIO BANNIA (Under 17 provinciali — girone 
+ A)
+DESCRIPTION:Under 17 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-d7d96fad@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:VIRTUS ROVEREDO Sq. B 2-1 CALCIO BANNIA (Terza Categoria — girone
+  A)
+DESCRIPTION:Terza Categoria — girone A\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-15-provinciali-a-15b21e11@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CALCIO BANNIA 1-5 SESTO BAGNAROLA (Under 15 provinciali — girone 
+ A)
+DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-17-provinciali-a-993e56f7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CALCIO BANNIA 0-1 SPAL CORDOVADO Sq. B (Under 17 provinciali — gi
+ rone A)
+DESCRIPTION:Under 17 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-15-provinciali-a-a7d6ef54@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SPAL CORDOVADO 8-0 CALCIO BANNIA (Under 15 provinciali — girone A
+ )
+DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-15-provinciali-a-2f079b74@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:CALCIO BANNIA 3-4 MANIAGO (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-17-provinciali-a-f8b1b34a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:TORRE 1-0 CALCIO BANNIA (Under 17 provinciali — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
+ -a
+END:VEVENT
+END:VCALENDAR

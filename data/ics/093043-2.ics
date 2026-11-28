@@ -1,0 +1,126 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. Sesto Bagnarola
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-ff323aa6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SESTO BAGNAROLA 2-1 VIVAI RASCEDO/GRAVIS (Seconda Categoria — gir
+ one A)
+DESCRIPTION:Seconda Categoria — girone A\n6ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-e3588420@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:BARBEANO 1-1 SESTO BAGNAROLA (Seconda Categoria — girone A)
+DESCRIPTION:Seconda Categoria — girone A\n7ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-15-provinciali-a-15b21e11@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CALCIO BANNIA 1-5 SESTO BAGNAROLA (Under 15 provinciali — girone 
+ A)
+DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-997b5196@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SESTO BAGNAROLA 0-0 MONTEREALE VALCELLINA (Seconda Categoria — gi
+ rone A)
+DESCRIPTION:Seconda Categoria — girone A\n8ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-15-provinciali-a-ebce07c8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SESTO BAGNAROLA 1-5 NUOVA VILLANOVA FC. (Under 15 provinciali — g
+ irone A)
+DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-14-provinciali-b-d905dbbf@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:COMUNALE LESTIZZA 7-1 SESTO BAGNAROLA (Under 14 provinciali — gir
+ one B)
+DESCRIPTION:Under 14 provinciali — girone B\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-14-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-14-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-ec7da7b4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:CALCIO SACILE 2026 1-0 SESTO BAGNAROLA (Seconda Categoria — giron
+ e A)
+DESCRIPTION:Seconda Categoria — girone A\n9ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-14-provinciali-b-8b5ad4f7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:SESTO BAGNAROLA 1-0 NUOVA VILLANOVA FC. (Under 14 provinciali — g
+ irone B)
+DESCRIPTION:Under 14 provinciali — girone B\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-por-under-14-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-14-provinciali
+ -b
+END:VEVENT
+END:VCALENDAR

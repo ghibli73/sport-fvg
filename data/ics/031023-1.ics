@@ -25,29 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-prima-categoria-b-e544a4c8@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:RISANESE 0-2 BISIACA ROMANA (Prima Categoria — girone B)
-DESCRIPTION:Prima Categoria — girone B\n9ª giornata\nDati non ufficiali:
-  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
- ima-categoria-b
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-udi-terza-categoria-c-bfaea3c8@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:BISIACA ROMANA 2-0 POZZUOLO DEL FRIULI (Terza Categoria — girone 
- C)
-DESCRIPTION:Terza Categoria — girone C\n6ª giornata\nDati non ufficiali:
-  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
- i-terza-categoria-c
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-gor-under-14-provinciali-e-57686f54@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -73,12 +50,24 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-udi-terza-categoria-c-1d345a78@zuin-fvg
+UID:calcio-prima-categoria-b-e544a4c8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:RISANESE 0-2 BISIACA ROMANA (Prima Categoria — girone B)
+DESCRIPTION:Prima Categoria — girone B\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-c-bfaea3c8@zuin-fvg
 DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:MERETO CALCIO 2-3 BISIACA ROMANA (Terza Categoria — girone C)
-DESCRIPTION:Terza Categoria — girone C\n7ª giornata\nDati non ufficiali:
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:BISIACA ROMANA 2-0 POZZUOLO DEL FRIULI (Terza Categoria — girone 
+ C)
+DESCRIPTION:Terza Categoria — girone C\n6ª giornata\nDati non ufficiali:
   fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
  i-terza-categoria-c
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
@@ -97,6 +86,17 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
  -e
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-c-1d345a78@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:MERETO CALCIO 2-3 BISIACA ROMANA (Terza Categoria — girone C)
+DESCRIPTION:Terza Categoria — girone C\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-prima-categoria-b-31ce5c31@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261108
@@ -106,30 +106,6 @@ DESCRIPTION:Prima Categoria — girone B\n10ª giornata\nDati non ufficiali
  : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
  rima-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-prima-categoria-b-0667144c@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:SAVORGNANESE - FAEDIS 0-1 BISIACA ROMANA (Prima Categoria — giron
- e B)
-DESCRIPTION:Prima Categoria — girone B\n11ª giornata\nDati non ufficiali
- : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
- rima-categoria-b
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-udi-terza-categoria-c-d43ea1cb@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:BISIACA ROMANA 2-1 DONATELLO CALCIO A.S.D. (Terza Categoria — gir
- one C)
-DESCRIPTION:Terza Categoria — girone C\n8ª giornata\nDati non ufficiali:
-  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
- i-terza-categoria-c
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-14-provinciali-e-07600ffe@zuin-fvg
@@ -155,6 +131,30 @@ DESCRIPTION:Under 16 provinciali — girone A\n8ª giornata\nDati non uffic
  io-gor-under-16-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-b-0667144c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SAVORGNANESE - FAEDIS 0-1 BISIACA ROMANA (Prima Categoria — giron
+ e B)
+DESCRIPTION:Prima Categoria — girone B\n11ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-c-d43ea1cb@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:BISIACA ROMANA 2-1 DONATELLO CALCIO A.S.D. (Terza Categoria — gir
+ one C)
+DESCRIPTION:Terza Categoria — girone C\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-16-provinciali-a-96888f70@zuin-fvg
