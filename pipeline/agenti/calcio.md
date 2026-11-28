@@ -101,6 +101,11 @@ Formato: PDF di testo, letto bene da WebFetch chiedendo "tutte le righe di risul
 - Gironi PN (gid calcio-por-…): Seconda A, Terza A, Under 19/17/16/15 provinciali A, Under 14 provinciali A e B.
   Alias delle società aggiunti in config/calcio_alias.json (Sq. B = stessa società; "TORRE" nei gironi PN = Torre di
   Pordenone 093033-2; "VIVAI RASCEDO/GRAVIS" è un refuso del CU per Vivai Rauscedo/Gravis).
+- Prova del 28/11 (lettura di tutta la stagione, --prova --max-cu 300): 7 gironi PN costruiti, tutte le squadre abbinate;
+  Under 16 provinciali PN scartato perché CU n.37 (15/11) riporta un blocco con "8a Giornata" già usata dal CU n.35
+  (stesse squadre due volte nella giornata 8): resta fuori finché il dato non è coerente (non si corregge a mano).
+  Anche i gironi UD/GO/TS e regionali hanno ora tutte le giornate (prima mancavano quelle lette solo a mano).
+  Scartati in automatico: gironi "Terza Categoria" nei CU regionali (coppe) e gironi con troppe poche gare per giornata.
 - Variazioni di Pordenone ("MODIFICHE PROGRAMMA GARE"): tabella su più righe con colonne spezzate, lettura parziale.
 - Sonda fonti: nuovi modi `tutte=<url>[@@regex@@n]` (righe come le legge calcio.py; nelle regex "." al posto degli spazi)
   e `pagpdf=<url>@@<n>` (testo di una pagina con le posizioni delle parole). Il sito LND a volte risponde dai runner
