@@ -764,7 +764,7 @@ const F=evFut(),ne={};F.forEach(e=>ne[e.sport]=(ne[e.sport]||0)+1);const sc=senz
 m.innerHTML=`<div class="hd"><h2>Sport</h2><span class="n">${ks.length} discipline${prov?' · '+PROV[prov]:''}</span></div>${F.length?`<button class="more pri" data-go="agenda" style="margin:0 0 14px">${CAL}Agenda eventi · ${F.length} in programma</button>`:''}<div class="sgrid">${ks.map(k=>`<button class="stile" data-pick="${k}" aria-pressed="${sport===k}">${ico(k)}<b>${esc(NAMES[k])}</b><small>${cnt[k]} società${ne[k]&&sc.includes(k)?` · ${ne[k]} eventi`:''}</small></button>`).join('')}</div>`+
 (sc.length?`<div class="hd" style="margin-top:22px"><h2>Prossimi eventi</h2><span class="n">sport senza campionato</span></div>${sc.map(k=>{const L=F.filter(e=>e.sport===k);return `<div class="agsp"><div class="grp">${ico(k)}${esc(NAMES[k]||k)}<span>${L.length}</span><button class="lnk" data-agsp="${k}">Tutti${CHEV}</button></div><div class="list">${L.slice(0,2).map(e=>evRow(e,{noSport:1})).join('')}</div></div>`}).join('')}`:'');
 }
-const VERSIONE='1.16.0 beta',VERSIONE_DATA='2026-11-26';
+const VERSIONE='1.17.0 beta',VERSIONE_DATA='2026-11-28';
 function vInfo(m){
 const done=COM.filter(c=>c.n>0).length;const cnt={};C.forEach(k=>cnt[k.sport]=(cnt[k.sport]||0)+1);const mx=Math.max(...Object.values(cnt));
 const ks=Object.keys(cnt).sort(spSort(cnt));
