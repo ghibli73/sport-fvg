@@ -686,19 +686,6 @@ DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n5ª giornata\nDati
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-dr3-ud-d7213416@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20270128T204500
-DTEND;TZID=Europe/Rome:20270128T224500
-SUMMARY:PALL. TOLMEZZO – MAJANESE 'B' (Divisione Regionale 3 — girone U
- D)
-LOCATION:Palestra Scolastica\, Tolmezzo
-DESCRIPTION:Divisione Regionale 3 — girone UD\n14ª giornata\nDati non uf
- ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
- asket-dr3-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u14-regionale-pn-ud-08d65ed8@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270131T100000
@@ -1041,7 +1028,7 @@ DTSTART;TZID=Europe/Rome:20270312T204500
 DTEND;TZID=Europe/Rome:20270312T224500
 SUMMARY:POL. DLF DI UDINE – MAJANESE 'B' (Divisione Regionale 3 — giron
  e UD)
-LOCATION:Pal. Sc.E. "Ada Negri"\, Udine
+LOCATION:Pal. Sc.E. 'Ada Negri'\, Udine
 DESCRIPTION:Divisione Regionale 3 — girone UD\n22ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr3-ud
@@ -1085,6 +1072,19 @@ DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n10ª giornata\nDati
   non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
  vg/#g-basket-esordienti-ud-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-d7213416@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270319T190000
+DTEND;TZID=Europe/Rome:20270319T210000
+SUMMARY:PALL. TOLMEZZO – MAJANESE 'B' (Divisione Regionale 3 — girone U
+ D)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n14ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-regionale-pn-ud-d689c197@zuin-fvg
@@ -1132,7 +1132,7 @@ DTSTART;TZID=Europe/Rome:20270331T210000
 DTEND;TZID=Europe/Rome:20270331T230000
 SUMMARY:POL LIB. PASIAN DI PRATO 'B' – MAJANESE 'B' (Divisione Regionale 
  3 — girone UD)
-LOCATION:(Udine)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
 DESCRIPTION:Divisione Regionale 3 — girone UD\n24ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr3-ud

@@ -226,7 +226,7 @@ DTSTART;TZID=Europe/Rome:20261124T211500
 DTEND;TZID=Europe/Rome:20261124T231500
 SUMMARY:POL. DLF DI UDINE 84-52 POL. LIBERTAS CUSSIGNACCO 'B' (Divisione Re
  gionale 3 — girone UD)
-LOCATION:Pal. Sc.E. "Ada Negri"\, Udine
+LOCATION:Pal. Sc.E. 'Ada Negri'\, Udine
 DESCRIPTION:Divisione Regionale 3 — girone UD\n7ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-dr3-ud
@@ -363,6 +363,19 @@ DESCRIPTION:Divisione Regionale 2 — girone UD\n9ª giornata\nDati non uff
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr3-ud-d8723f27@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261211T210000
+DTEND;TZID=Europe/Rome:20261211T230000
+SUMMARY:POZZUOLO BASKET – POL. LIBERTAS CUSSIGNACCO 'B' (Divisione Region
+ ale 3 — girone UD)
+LOCATION:Polisportivo Comunale\, Pozzuolo Del Friuli
+DESCRIPTION:Divisione Regionale 3 — girone UD\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-esordienti-f-ud-e32c3fc9@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261213T100000
@@ -408,7 +421,7 @@ DTSTART;TZID=Europe/Rome:20261216T203000
 DTEND;TZID=Europe/Rome:20261216T223000
 SUMMARY:POL. LIBERTAS CUSSIGNACCO 'B' – PALL. TOLMEZZO (Divisione Regiona
  le 3 — girone UD)
-LOCATION:Pal. Sc.E. "Ada Negri"\, Udine
+LOCATION:Pal. Sc.E. 'Ada Negri'\, Udine
 DESCRIPTION:Divisione Regionale 3 — girone UD\n10ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr3-ud
@@ -675,6 +688,19 @@ DESCRIPTION:Esordienti femminile Under 12 — girone UD\n4ª giornata\nDati
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-f-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr3-ud-3f9adb7f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270130T173000
+DTEND;TZID=Europe/Rome:20270130T193000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO 'B' – POZZUOLO BASKET (Divisione Region
+ ale 3 — girone UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Divisione Regionale 3 — girone UD\n15ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u13-femminile-pn-ud-dfdd72c7@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270131T150000
@@ -686,19 +712,6 @@ DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n13ª giornata
  \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
  port-fvg/#g-basket-u13-femminile-pn-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-dr3-ud-3f9adb7f@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20270131T173000
-DTEND;TZID=Europe/Rome:20270131T193000
-SUMMARY:POL. LIBERTAS CUSSIGNACCO 'B' – POZZUOLO BASKET (Divisione Region
- ale 3 — girone UD)
-LOCATION:Palestra Sc. Zardini\, Udine
-DESCRIPTION:Divisione Regionale 3 — girone UD\n15ª giornata\nDati non uf
- ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
- asket-dr3-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-femminile-pn-ud-b75af4cd@zuin-fvg
@@ -915,7 +928,7 @@ DTSTART;TZID=Europe/Rome:20270303T210000
 DTEND;TZID=Europe/Rome:20270303T230000
 SUMMARY:POL LIB. PASIAN DI PRATO 'B' – POL. LIBERTAS CUSSIGNACCO 'B' (Div
  isione Regionale 3 — girone UD)
-LOCATION:(Udine)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
 DESCRIPTION:Divisione Regionale 3 — girone UD\n21ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr3-ud
@@ -1028,11 +1041,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-dd248766@zuin-fvg
 DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20270403T173000
-DTEND;TZID=Europe/Rome:20270403T193000
+DTSTART;TZID=Europe/Rome:20270331T210000
+DTEND;TZID=Europe/Rome:20270331T230000
 SUMMARY:POL. LIBERTAS CUSSIGNACCO 'B' – POL. DIL. TRICESIMO 'B' (Division
  e Regionale 3 — girone UD)
-LOCATION:Palestra Sc. Zardini\, Udine
+LOCATION:Pal. Sc.E. 'Ada Negri'\, Udine
 DESCRIPTION:Divisione Regionale 3 — girone UD\n24ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr3-ud
@@ -1080,11 +1093,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-58419d93@zuin-fvg
 DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20270417T173000
-DTEND;TZID=Europe/Rome:20270417T193000
+DTSTART;TZID=Europe/Rome:20270414T210000
+DTEND;TZID=Europe/Rome:20270414T230000
 SUMMARY:POL. LIBERTAS CUSSIGNACCO 'B' – LIBERTAS GONARS 'B' (Divisione Re
  gionale 3 — girone UD)
-LOCATION:Palestra Sc. Zardini\, Udine
+LOCATION:Pal. Sc.E. 'Ada Negri'\, Udine
 DESCRIPTION:Divisione Regionale 3 — girone UD\n26ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr3-ud

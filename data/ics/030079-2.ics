@@ -304,7 +304,7 @@ DTSTART;TZID=Europe/Rome:20261129T093000
 DTEND;TZID=Europe/Rome:20261129T113000
 SUMMARY:Scuola Basket Miky Mian – POZZUOLO BASKET (Under 13 Maschile — 
  girone UD A)
-LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
 DESCRIPTION:Under 13 Maschile — girone UD A\n5ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
  et-u13-ud-a
@@ -400,6 +400,19 @@ DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n7ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u13-femminile-pn-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-d8723f27@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261211T210000
+DTEND;TZID=Europe/Rome:20261211T230000
+SUMMARY:POZZUOLO BASKET – POL. LIBERTAS CUSSIGNACCO 'B' (Divisione Region
+ ale 3 — girone UD)
+LOCATION:Polisportivo Comunale\, Pozzuolo Del Friuli
+DESCRIPTION:Divisione Regionale 3 — girone UD\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-ud-a-d1eaff4f@zuin-fvg
@@ -616,7 +629,7 @@ DTSTART;TZID=Europe/Rome:20270111T191500
 DTEND;TZID=Europe/Rome:20270111T211500
 SUMMARY:PALLACANESTRO FELETTO – POZZUOLO BASKET (Under 13 Maschile — gi
  rone UD A)
-LOCATION:Tavagnacco - (Udine)
+LOCATION:Pal. Sc. Media Feletto Umbeto\, Tavagnacco
 DESCRIPTION:Under 13 Maschile — girone UD A\n9ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
  et-u13-ud-a
@@ -720,7 +733,7 @@ DTSTART;TZID=Europe/Rome:20270127T210000
 DTEND;TZID=Europe/Rome:20270127T230000
 SUMMARY:POL LIB. PASIAN DI PRATO 'B' – POZZUOLO BASKET (Divisione Regiona
  le 3 — girone UD)
-LOCATION:(Udine)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
 DESCRIPTION:Divisione Regionale 3 — girone UD\n14ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr3-ud
@@ -751,6 +764,19 @@ DESCRIPTION:Serie C femminile — girone unico (prima fase)\n13ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-serie-c-femminile
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-3f9adb7f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270130T173000
+DTEND;TZID=Europe/Rome:20270130T193000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO 'B' – POZZUOLO BASKET (Divisione Region
+ ale 3 — girone UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Divisione Regionale 3 — girone UD\n15ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-femminile-5c026345@zuin-fvg
@@ -790,19 +816,6 @@ DESCRIPTION:Serie C femminile — girone unico (prima fase)\n11ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-serie-c-femminile
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-dr3-ud-3f9adb7f@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20270131T173000
-DTEND;TZID=Europe/Rome:20270131T193000
-SUMMARY:POL. LIBERTAS CUSSIGNACCO 'B' – POZZUOLO BASKET (Divisione Region
- ale 3 — girone UD)
-LOCATION:Palestra Sc. Zardini\, Udine
-DESCRIPTION:Divisione Regionale 3 — girone UD\n15ª giornata\nDati non uf
- ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
- asket-dr3-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-ud-a-19deac86@zuin-fvg
@@ -1123,7 +1136,7 @@ DTSTART;TZID=Europe/Rome:20270412T204500
 DTEND;TZID=Europe/Rome:20270412T224500
 SUMMARY:ZIO PINO BASKIN UDINE – POZZUOLO BASKET (Divisione Regionale 3 
  — girone UD)
-LOCATION:Palestra "Don Bosco"\, Udine
+LOCATION:Palestra 'Don Bosco'\, Udine
 DESCRIPTION:Divisione Regionale 3 — girone UD\n25ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr3-ud

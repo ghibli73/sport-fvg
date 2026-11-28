@@ -288,7 +288,7 @@ DTSTART;TZID=Europe/Rome:20261122T093000
 DTEND;TZID=Europe/Rome:20261122T113000
 SUMMARY:PALL. CODROIPESE '2015' 49-71 Scuola Basket Miky Mian (Under 13 Mas
  chile — girone UD A)
-LOCATION:Palazzetto dello Sport\, Codroipo
+LOCATION:Palazzetto Dello Sport\, Codroipo
 DESCRIPTION:Under 13 Maschile — girone UD A\n4ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
  et-u13-ud-a
@@ -353,11 +353,24 @@ DTSTART;TZID=Europe/Rome:20261129T093000
 DTEND;TZID=Europe/Rome:20261129T113000
 SUMMARY:Scuola Basket Miky Mian – POZZUOLO BASKET (Under 13 Maschile — 
  girone UD A)
-LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
 DESCRIPTION:Under 13 Maschile — girone UD A\n5ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
  et-u13-ud-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-17ae9265@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:Sonvilla Snc SBaMM – OLYMPIA RIVIGNANO (Under 15 Maschile Regiona
+ le — girone UD)
+LOCATION:Pal. ''M. Vecchiatto''\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n6ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-regionale-go-ts-ud-6ad60f49@zuin-fvg
@@ -438,17 +451,17 @@ DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n7ª gio
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-ud-a-030b5801@zuin-fvg
+UID:basket-u15-regionale-ud-6b1af2c8@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261212T153000
-DTEND;TZID=Europe/Rome:20261212T173000
-SUMMARY:BASKET PERTEOLE – Scuola Basket Miky Mian (Under 13 Maschile — 
- girone UD A)
-LOCATION:Palestra Comunale\, Ruda
-DESCRIPTION:Under 13 Maschile — girone UD A\n7ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
- et-u13-ud-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+DTSTART;TZID=Europe/Rome:20261206T110000
+DTEND;TZID=Europe/Rome:20261206T130000
+SUMMARY:PALL. LAIPACCO – Sonvilla Snc SBaMM (Under 15 Maschile Regionale 
+ — girone UD)
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n7ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-regionale-go-ts-ud-599643e9@zuin-fvg
@@ -490,6 +503,19 @@ DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n9ª giornata
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u15-regionale-ud-63ef9600@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261213T110000
+DTEND;TZID=Europe/Rome:20261213T130000
+SUMMARY:Sonvilla Snc SBaMM – BASKET CERVIGNANESE (Under 15 Maschile Regio
+ nale — girone UD)
+LOCATION:Pal. ''M. Vecchiatto''\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n8ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u14-femminile-c-c09ca116@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261213T113000
@@ -516,6 +542,19 @@ DESCRIPTION:Under 14 Maschile Gold — girone C (prima fase)\n8ª giornata\
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-c
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u13-ud-a-030b5801@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261215T190000
+DTEND;TZID=Europe/Rome:20261215T210000
+SUMMARY:BASKET PERTEOLE – Scuola Basket Miky Mian (Under 13 Maschile — 
+ girone UD A)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Under 13 Maschile — girone UD A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u17-regionale-ud-36e25f1f@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261216T190000
@@ -535,7 +574,7 @@ DTSTART;TZID=Europe/Rome:20261220T093000
 DTEND;TZID=Europe/Rome:20261220T113000
 SUMMARY:Scuola Basket Miky Mian – PALL. CODROIPESE 'A' (Under 13 Maschile
   — girone UD A)
-LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
 DESCRIPTION:Under 13 Maschile — girone UD A\n8ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
  et-u13-ud-a
@@ -566,6 +605,19 @@ DESCRIPTION:Under 14 Femminile — girone C (prima fase)\n6ª giornata\nDat
  i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
  fvg/#g-basket-u14-femminile-c
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-b79e5996@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261222T180000
+DTEND;TZID=Europe/Rome:20261222T200000
+SUMMARY:UDINE BASKET CLUB – Sonvilla Snc SBaMM (Under 15 Maschile Regiona
+ le — girone UD)
+LOCATION:Palestra Sc. 'Marconi'\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n9ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-ud-a-278b080a@zuin-fvg
@@ -620,6 +672,19 @@ DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n11ª giornat
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u15-regionale-ud-204b52f0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270111T190000
+DTEND;TZID=Europe/Rome:20270111T210000
+SUMMARY:PALL. TOLMEZZO – Sonvilla Snc SBaMM (Under 15 Maschile Regionale 
+ — girone UD)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n10ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u14-regionale-go-ts-ud-d837fb9b@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270116T160000
@@ -652,11 +717,24 @@ DTSTART;TZID=Europe/Rome:20270117T093000
 DTEND;TZID=Europe/Rome:20270117T113000
 SUMMARY:Scuola Basket Miky Mian – UDINE BASKET CLUB (Under 13 Maschile 
  — girone UD A)
-LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
 DESCRIPTION:Under 13 Maschile — girone UD A\n10ª giornata\nDati non uffi
  ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
  ket-u13-ud-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-57f81145@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T110000
+DTEND;TZID=Europe/Rome:20270117T130000
+SUMMARY:Sonvilla Snc SBaMM – APU NEXT GEN (Under 15 Maschile Regionale 
+ — girone UD)
+LOCATION:Pal. ''M. Vecchiatto''\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n11ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-gold-ud-f9e0ef17@zuin-fvg
@@ -717,11 +795,24 @@ DTSTART;TZID=Europe/Rome:20270125T191500
 DTEND;TZID=Europe/Rome:20270125T211500
 SUMMARY:PALLACANESTRO FELETTO – Scuola Basket Miky Mian (Under 13 Maschil
  e — girone UD A)
-LOCATION:Tavagnacco - (Udine)
+LOCATION:Pal. Sc. Media Feletto Umbeto\, Tavagnacco
 DESCRIPTION:Under 13 Maschile — girone UD A\n11ª giornata\nDati non uffi
  ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
  ket-u13-ud-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-bd8e7093@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270126T180000
+DTEND;TZID=Europe/Rome:20270126T200000
+SUMMARY:LIBERTAS GONARS – Sonvilla Snc SBaMM (Under 15 Maschile Regionale
+  — girone UD)
+LOCATION:Palazzetto Dello Sport\, Gonars
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n12ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-regionale-ud-98042a1b@zuin-fvg
@@ -735,6 +826,19 @@ DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n13ª gi
  ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
  b.io/sport-fvg/#g-basket-u17-regionale-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-1b4025a7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T110000
+DTEND;TZID=Europe/Rome:20270131T130000
+SUMMARY:Sonvilla Snc SBaMM – POL. TRICESIMO (Under 15 Maschile Regionale 
+ — girone UD)
+LOCATION:Pal. ''M. Vecchiatto''\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n13ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-regionale-go-ts-ud-d29c8820@zuin-fvg
@@ -782,11 +886,37 @@ DTSTART;TZID=Europe/Rome:20270207T093000
 DTEND;TZID=Europe/Rome:20270207T113000
 SUMMARY:Scuola Basket Miky Mian – PALL. CODROIPESE '2015' (Under 13 Masch
  ile — girone UD A)
-LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
 DESCRIPTION:Under 13 Maschile — girone UD A\n13ª giornata\nDati non uffi
  ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
  ket-u13-ud-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-21e7efa1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270207T110000
+DTEND;TZID=Europe/Rome:20270207T130000
+SUMMARY:Sonvilla Snc SBaMM – COLLEDANI SRL (Under 15 Maschile Regionale 
+ — girone UD)
+LOCATION:Pal. ''M. Vecchiatto''\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n14ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-68afc545@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270212T180000
+DTEND;TZID=Europe/Rome:20270212T200000
+SUMMARY:OLYMPIA RIVIGNANO – Sonvilla Snc SBaMM (Under 15 Maschile Regiona
+ le — girone UD)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n15ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-regionale-go-ts-ud-9511e5e8@zuin-fvg
@@ -886,11 +1016,24 @@ DTSTART;TZID=Europe/Rome:20270221T093000
 DTEND;TZID=Europe/Rome:20270221T113000
 SUMMARY:Scuola Basket Miky Mian – SPORT SYSTEM (Under 13 Maschile — gir
  one UD A)
-LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
 DESCRIPTION:Under 13 Maschile — girone UD A\n15ª giornata\nDati non uffi
  ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
  ket-u13-ud-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-1c0b231a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270221T110000
+DTEND;TZID=Europe/Rome:20270221T130000
+SUMMARY:Sonvilla Snc SBaMM – PALL. LAIPACCO (Under 15 Maschile Regionale 
+ — girone UD)
+LOCATION:Pal. ''M. Vecchiatto''\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n16ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-regionale-ud-d3a38193@zuin-fvg
@@ -904,6 +1047,19 @@ DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n17ª gi
  ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
  b.io/sport-fvg/#g-basket-u17-regionale-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-5a95fdef@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270227T163000
+DTEND;TZID=Europe/Rome:20270227T183000
+SUMMARY:BASKET CERVIGNANESE – Sonvilla Snc SBaMM (Under 15 Maschile Regio
+ nale — girone UD)
+LOCATION:Pal. Scuole Elementari\, Cervignano Del Friuli
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n17ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-gold-ud-24a03d4a@zuin-fvg
@@ -938,7 +1094,7 @@ DTSTART;TZID=Europe/Rome:20270228T093000
 DTEND;TZID=Europe/Rome:20270228T113000
 SUMMARY:Scuola Basket Miky Mian – BASKET PERTEOLE (Under 13 Maschile — 
  girone UD A)
-LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
 DESCRIPTION:Under 13 Maschile — girone UD A\n16ª giornata\nDati non uffi
  ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
  ket-u13-ud-a
@@ -971,6 +1127,19 @@ DESCRIPTION:Under 13 Maschile — girone UD A\n17ª giornata\nDati non uffi
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u15-regionale-ud-34d05ccd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270307T110000
+DTEND;TZID=Europe/Rome:20270307T130000
+SUMMARY:Sonvilla Snc SBaMM – UDINE BASKET CLUB (Under 15 Maschile Regiona
+ le — girone UD)
+LOCATION:Pal. ''M. Vecchiatto''\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n18ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u14-regionale-go-ts-ud-dd5cf80a@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270309T190000
@@ -999,11 +1168,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-ud-a-55e0b808@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270314T093000
-DTEND;TZID=Europe/Rome:20270314T113000
+DTSTART;TZID=Europe/Rome:20270314T113000
+DTEND;TZID=Europe/Rome:20270314T133000
 SUMMARY:Scuola Basket Miky Mian – COLLINARE BASKET (Under 13 Maschile —
   girone UD A)
-LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
 DESCRIPTION:Under 13 Maschile — girone UD A\n18ª giornata\nDati non uffi
  ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
  ket-u13-ud-a

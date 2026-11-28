@@ -161,7 +161,7 @@ DTSTART;TZID=Europe/Rome:20261130T191500
 DTEND;TZID=Europe/Rome:20261130T211500
 SUMMARY:PALLACANESTRO FELETTO – BASKET PERTEOLE (Under 13 Maschile — gi
  rone UD A)
-LOCATION:Tavagnacco - (Udine)
+LOCATION:Pal. Sc. Media Feletto Umbeto\, Tavagnacco
 DESCRIPTION:Under 13 Maschile — girone UD A\n5ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
  et-u13-ud-a
@@ -207,19 +207,6 @@ DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n6
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-ud-a-030b5801@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261212T153000
-DTEND;TZID=Europe/Rome:20261212T173000
-SUMMARY:BASKET PERTEOLE – Scuola Basket Miky Mian (Under 13 Maschile — 
- girone UD A)
-LOCATION:Palestra Comunale\, Ruda
-DESCRIPTION:Under 13 Maschile — girone UD A\n7ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
- et-u13-ud-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-dr2-ud-4c73dd55@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261212T200000
@@ -231,6 +218,19 @@ DESCRIPTION:Divisione Regionale 2 — girone UD\n9ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-dr2-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-030b5801@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261215T190000
+DTEND;TZID=Europe/Rome:20261215T210000
+SUMMARY:BASKET PERTEOLE – Scuola Basket Miky Mian (Under 13 Maschile — 
+ girone UD A)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Under 13 Maschile — girone UD A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u19-regionale-go-ts-ud-d58cce65@zuin-fvg
@@ -388,6 +388,19 @@ DESCRIPTION:Divisione Regionale 2 — girone UD\n13ª giornata\nDati non uf
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u13-ud-a-00333218@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270126T190000
+DTEND;TZID=Europe/Rome:20270126T210000
+SUMMARY:BASKET PERTEOLE – PALL. CODROIPESE 'A' (Under 13 Maschile — gir
+ one UD A)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Under 13 Maschile — girone UD A\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u13-ud-a-b745c0b2@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270130T153000
@@ -537,7 +550,7 @@ DTSTART;TZID=Europe/Rome:20270228T093000
 DTEND;TZID=Europe/Rome:20270228T113000
 SUMMARY:Scuola Basket Miky Mian – BASKET PERTEOLE (Under 13 Maschile — 
  girone UD A)
-LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
 DESCRIPTION:Under 13 Maschile — girone UD A\n16ª giornata\nDati non uffi
  ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
  ket-u13-ud-a
