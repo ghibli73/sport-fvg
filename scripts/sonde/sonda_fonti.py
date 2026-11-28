@@ -290,6 +290,28 @@ for x in [x[8:] for x in prove if x.startswith("inertia=")]:
             print(dump[:9000])
     except Exception as e: print("ERRORE", e)
     time.sleep(1.5)
+# "maschera=<url>|<regex>[@@caratteri]": come html=, ma ogni parola che inizia con una maiuscola (nomi di persone, squadre,
+# comuni) diventa "X" tranne poche parole tecniche: serve a vedere la struttura delle pagine con le designazioni senza
+# stampare nel log nessun nome. Stampa al massimo 6 estratti.
+PAROLE_OK = {"designazioni", "designazione", "arbitro", "arbitri", "gara", "omologata", "ufficioso", "ufficiosa", "designata",
+             "disputata", "rinviata", "sospesa", "info", "data", "ora", "squadra", "campo", "gioco", "osservatore", "in", "attesa",
+             "di", "conferma", "risultato", "dettagli", "impianto", "stato", "da", "disputare", "omologazione", "referto",
+             "cronometrista", "segnapunti", "addetto", "secondi", "elettronico", "casa", "ospite", "giocata", "palestra"}
+for x in [x[9:] for x in prove if x.startswith("maschera=")]:
+    u, rx = x.split("|", 1)
+    rx, _, lung = rx.partition("@@")
+    lung = int(lung or 600)
+    titolo("MASCHERA " + u + " /" + rx + "/")
+    try:
+        t = S.get(u, timeout=60).text
+        ms = list(re.finditer(rx, t, re.I | re.S))
+        print("byte:", len(t), "corrispondenze:", len(ms))
+        for m in ms[:6]:
+            pezzo = t[max(0, m.start() - lung // 2):m.start() + lung].replace("\n", " ")
+            pezzo = re.sub(r"[A-ZÀ-Ý][\wÀ-ÿ'’`]*", lambda w: w.group(0) if w.group(0).lower() in PAROLE_OK else "X", pezzo)
+            print("   |", pezzo)
+    except Exception as e: print("ERRORE", e)
+    time.sleep(1.5)
 # "giro=<sport,...>": esegue nel runner gli stessi passi del Giro rapido (.github/workflows/giro-rapido.yml) sulla copia
 # del repository, senza commit: serve a provarlo da un branch (workflow_dispatch funziona solo per i workflow già su main)
 for x in [x[5:] for x in prove if x.startswith("giro=")]:
