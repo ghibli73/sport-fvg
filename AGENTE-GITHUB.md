@@ -89,6 +89,11 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
   - `#risultati` = ingresso (Questo weekend, ricerca di squadra o campionato, tessere Calcio · Pallavolo · Basket · Altri sport); `#risultati?sport=…&liv=p|g&camp=…&genere=…&zona=…` = sport con Prima squadra/Giovanili, barra dei campionati, zone a pulsanti, nomi brevi dei gironi e pulsante Classifica. Ordine unico degli sport (Calcio, Pallavolo, Basket, poi gli altri) in tutta l'app.
   - Girone compatto, aperto sull'ultimo turno giocato; dal nastro partita evidenziata e "indietro" verso l'origine. Preferiti `{v:2,c,g,sq}` (squadre singole), compatibili con i vecchi `{c,g}`. Nessun cambio ai dati né agli script; SHELL `sportfvg-shell-v28`.
 
+- **Dati della gara** — dalla 1.19.0 (formato: `pipeline/agenti/formato-risultati.md`).
+  - Pallavolo `stato_gara` (omologata/ufficioso) e `designata` dalle pagine FIPAV già lette (volley.py, settimane -2…+1); basket `data_cal` ("giocata il" delle omologazioni) e `designata` (pagine fip.it già lette in variazioni_fip); calcio `data_cal`/`campo_cal`/`esito`/`rinviata` e `penalita` dal Quadro gare (`calcio_live.py --dettagli` in aggiorna-calcio.yml + giro rapido, `config/calcio_dettagli.json`).
+  - Designazioni: solo un booleano per le gare dei prossimi 7 giorni, mai nomi (niente calcio, niente Pordenone). In app etichette piccole nella riga partita e legenda in Info; SHELL `sportfvg-shell-v29`.
+  - Sonda fonti: modo `maschera=<url>|<regex>[@@n]` (HTML con le parole maiuscole sostituite da "X": struttura delle pagine senza stampare nomi nel log).
+
 ## Registro
 (una riga per intervento: data — cosa — esito)
 - 2026-11-25 — Repository ghibli73/sport-fvg creato dall'utente e caricato; volley.py validato sui portali reali: la pagina risultati è divisa in sezioni con link classifica.aspx?CId (le Coppe non hanno link) e ha la colonna "G" = giornata. Prima esecuzione: 60/60 gironi, partite 1184 → 1398, classifiche e partite coerenti in tutti i gironi. Restano 4 doppioni di giornata ereditati (U13 F UD gir. D, U12 F UD gir. C). Limiti del collegamento: niente API Pages/impostazioni Actions né download degli artifact (proxy); i log dei job si leggono con gh api .../actions/jobs/<id>/logs.

@@ -312,6 +312,49 @@ for x in [x[9:] for x in prove if x.startswith("maschera=")]:
             print("   |", pezzo)
     except Exception as e: print("ERRORE", e)
     time.sleep(1.5)
+# "privacy": controllo dei dati della gara. Raccoglie IN MEMORIA i nomi delle designazioni (tooltip FIPAV della settimana
+# dei portali regionale, Udine e Trieste; schede "Info" di alcune giornate fip.it), esegue volley.py e basket.py in prova
+# e cerca quei nomi nei file prodotti (/tmp/risultati_prova.json, config/, data/). Stampa SOLO i conteggi, mai i nomi.
+if "privacy" in prove:
+    import subprocess, glob, datetime as _dt
+    titolo("PRIVACY (solo conteggi)")
+    nomi = set()
+    lun = _dt.date.today() - _dt.timedelta(days=_dt.date.today().weekday())
+    d = lun.strftime("%d%%2f%m%%2f%Y")
+    for u in (f"https://friulivg.portalefipav.net/risultati-classifiche.aspx?ComitatoId=28&DataDa={d}&StatoGara=&CId=&SId=&PId=7274&btFiltro=CERCA",
+              f"https://udine.federvolley.it/risultati-classifiche.aspx?DataDa={d}&StatoGara=&CId=&SId=&PId=15544&btFiltro=CERCA",
+              f"https://trieste.portalefipav.net/risultati-classifiche.aspx?DataDa={d}&StatoGara=&CId=&SId=&PId=7285&btFiltro=CERCA"):
+        try:
+            t = html_mod.unescape(S.get(u, timeout=60).text)
+            for m in re.finditer(r"arbitro:\s*([^<\n]{3,60}?)\s*(?:<|\")", t, re.I):
+                n = m.group(1).strip()
+                if len(n) > 4: nomi.add(n.upper())
+        except Exception as e: print("ERRORE pagina FIPAV", type(e).__name__)
+        time.sleep(1.5)
+    try:
+        cfg = json.load(open("config/basket_fip.json"))["gironi"]
+        for slug, p in list(cfg.items())[:8]:
+            q = {k: v for k, v in p.items() if k not in ("andata", "ritorno", "nome", "uguali")}
+            for gio in (p.get("andata", 1),):
+                t = S.get("https://fip.it/risultati/", params={**q, "codice_ar": 1, "giornata": gio}, timeout=60).text
+                t = re.sub(r"<[^>]+>", " ", t); t = re.sub(r"\s+", " ", html_mod.unescape(t))
+                for m in re.finditer(r"(?:\d\W{0,2} Arbitro|Osservatore|Cronometrista|24 secondi|Addetto referto elettronico) ([A-ZÀ-Ý' ]{4,40}?) di ", t):
+                    nomi.add(m.group(1).strip().upper())
+                time.sleep(1.5)
+    except Exception as e: print("ERRORE pagine FIP", type(e).__name__)
+    nomi = {n for n in nomi if len(n) > 5}
+    print("nomi raccolti (solo in memoria):", len(nomi))
+    def cerca(etichetta, files):
+        trovati = 0
+        for f in files:
+            try: testo = open(f, encoding="utf-8", errors="ignore").read().upper()
+            except OSError: continue
+            trovati += sum(1 for n in nomi if n in testo)
+        print(f"{etichetta}: file {len(files)}, nomi trovati {trovati}")
+    for cmd in (["scripts/volley.py", "--prova"], ["scripts/basket.py", "--prova"]):
+        subprocess.run([sys.executable, *cmd], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        cerca("risultato di " + cmd[0], ["/tmp/risultati_prova.json"])
+    cerca("config e data", [f for f in glob.glob("config/**/*.json", recursive=True) + glob.glob("data/*.json")])
 # "giro=<sport,...>": esegue nel runner gli stessi passi del Giro rapido (.github/workflows/giro-rapido.yml) sulla copia
 # del repository, senza commit: serve a provarlo da un branch (workflow_dispatch funziona solo per i workflow già su main)
 for x in [x[5:] for x in prove if x.startswith("giro=")]:

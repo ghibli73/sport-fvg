@@ -114,3 +114,14 @@ Ancora non abbinate: MB Paper's, Ronchi Basket Club, Nautilus Allestimenti, Coll
 - Serie A, A2, B Nazionale e femminili nazionali non coperte (siti JavaScript).
 - Gare non ancora omologate o non trovate sono elencate nel campo "note" di ogni file: ricontrollarle alla lettura successiva.
 - Frequenza: una volta a settimana (giovedì-venerdì, quando sono uscite tutte le omologazioni: senior il martedì-mercoledì, giovanili il giovedì-venerdì).
+
+## Dati della gara (dalla 1.19.0, automatici in scripts/basket.py)
+Formato: pipeline/agenti/formato-risultati.md.
+- `data_cal`: quando l'omologazione dice "giocata il gg/mm/aaaa" e la data è diversa da quella in calendario, la data della gara diventa quella
+  vera (come prima) e quella del calendario va in `data_cal` della config del girone. Una volta per girone lo script rilegge il PDF del calendario
+  (id_fonte) per ricostruire `data_cal` delle gare omologate prima della 1.19.0 (`data_cal_pdf` = PDF già usato).
+- `designata: true`: nelle pagine giornata di fip.it/risultati già lette per date/ore/campi (gare entro 14 giorni), la scheda "Info" ha "1° Arbitro"
+  con un nome, oppure "Arbitri designati. Nomi visibili dalle ore …", oppure "Designazione in attesa di conferma". Si salva solo la presenza
+  (`designate` nella config, gare dei prossimi 7 giorni). **Mai** nomi o comuni di arbitri, osservatori, cronometristi, addetti al 24" e al referto.
+  Minibasket: nessun segnale. Il giro rapido non legge designazioni.
+- Parziali per quarto: non pubblicati (né portale né omologazioni).

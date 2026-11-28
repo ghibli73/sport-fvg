@@ -75,3 +75,11 @@ Il filtro "Società" delle pagine risultati elenca le società con squadre in qu
 ## Limiti noti
 I CId sono numerati a livello nazionale. Le squadre compaiono spesso col nome dello sponsor: abbinare tramite ID logo, palestra, elenco società; scriverlo in "note". Gli abbinamenti "per esclusione" (Insieme per Pordenone, Polisigma, Naš Prapor) vanno confermati.
 Lavoro 2026/27 conservato in /home/claude/fvg/patch/volley-squadre/_gironi.tsv (tutte le classifiche al 24/11/2026 con ID logo).
+
+## Dati della gara (dalla 1.19.0, automatici in scripts/volley.py)
+Formato: pipeline/agenti/formato-risultati.md. Ogni riga gara delle pagine risultati ha `<img alt="statogara" src="/img/statogara/statoN.png" title="...">`:
+stato0 "da disputare", statodesignata "da disputare<br/>Arbitro designato<br>1° arbitro: …", stato1 "risultato ufficioso", stato5 "gara omologata"
+(verificato il 28/11/2026 con la Sonda `maschera=`). Il tooltip "info" ha l'impianto e, dove pubblicate, `<p class="designazione"><b>Designazioni</b>…`.
+Lo script salva `stato_gara` (omologata/ufficioso, rinviata/sospesa) e `designata: true` (solo gare dei prossimi 7 giorni, mai Pordenone),
+**senza mai leggere i nomi** (si controlla solo che dopo "arbitro:" ci sia un testo). Nessuna pagina in più: sono le pagine settimanali già lette
+(giro normale ora da -2 a +1 settimane, per vedere arrivare le omologazioni). I CU dei comitati (`/download.ashx`) restano vietati da robots.txt.

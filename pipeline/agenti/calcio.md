@@ -126,3 +126,15 @@ Formato: PDF di testo, letto bene da WebFetch chiedendo "tutte le righe di risul
   (campo `senza_abbinamento` in calcio_lnd.json: un girone che non c'era all'ultima scoperta la fa ripetere subito,
   senza aspettare 7 giorni). Rinviate: oltre alle note "rinviata/sospesa/non disputata…" anche ogni 0-0 con una nota
   qualsiasi viene scartato (si aspetta il CU).
+
+## Dati della gara (dalla 1.19.0, automatici: scripts/calcio_live.py)
+Formato: pipeline/agenti/formato-risultati.md. Fonte: Quadro gare LND (gare.lnd.it, robots senza divieti; www.lnd.it resta escluso).
+- `calcio_live.py --dettagli` (passo nuovo di aggiorna-calcio.yml): per ogni girone abbinato le giornate da 4 giorni fa a 7 giorni da oggi, al
+  massimo 24 pagine per esecuzione e ogni giornata al più ogni 10 ore (3 s tra le pagine). Anche il giro rapido raccoglie gli stessi dati dalle
+  pagine che legge già. Stato in `config/calcio_dettagli.json`, applicato dopo calcio.py.
+- `change` con `status: "UFF"` (Ufficializzata): `originalDate` diversa da `date` → `data_cal` (e la partita futura prende data e ora nuove);
+  `originalField` diverso da `field` → `campo_cal` e `campo`. Solo cambio d'ora: nessun campo nuovo (lo segnala già `variata`).
+- `outcome`: "Da Giudice sportivo" è l'esito di tutte le gare giocate (in attesa del CU): non viene salvato. Gli altri esiti diventano etichette
+  fisse in `esito` (rinviata, sospesa, non disputata, da ripetere, a tavolino, annullata); i rinvii danno `rinviata: true` e **mai un risultato**.
+- `standings[].penalties` → `penalita` nella riga di classifica (punti già scalati) e `nota_penalita` del girone.
+- Arbitri: nessuna fonte pubblica, nessun segnale.
