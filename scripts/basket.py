@@ -414,7 +414,7 @@ def fip_link(html):
 
 REGIONI = {"ABR", "BAS", "CAL", "CAM", "EMR", "FVG", "LAZ", "LIG", "LOM", "MAR", "MOL", "PMN", "PUG", "SAR", "SIC", "TOS",
            "TAA", "UMB", "VDA", "VEN", "NAZ"}
-NON_GIRONI = {"ES", "ESO", "TAQ", "TAQB", "TAQS", "OPENM", "OPENF", "A1/F", "A2/F", "B/F"}  # minibasket, open, nazionali
+NON_GIRONI = {"ES", "ESO", "TFE", "TAQ", "TAQB", "TAQS", "OPENM", "OPENF", "A1/F", "A2/F", "B/F"}  # minibasket, open, nazionali
 
 
 def fip_campionati(html):
@@ -434,6 +434,8 @@ def scopri_fip(specs, cfg):
     base = {"group": "campionati-regionali", "regione_codice": "RFR", "comitato_codice": "RFR"}
     per_num = {}
     for s in specs.values():
+        if s.get("minibasket"):
+            continue  # minibasket: parametri del portale in "portale" (scopri_minibasket)
         for g in s["gare"]:
             per_num.setdefault(g[0], []).append((s, g))
     trovati = 0
@@ -453,15 +455,18 @@ def scopri_fip(specs, cfg):
             for gir in set(re.findall(r'value="(\d{5,6})"', html)) - {g for _, g in link}:
                 link[(fase0, gir)] = set()
             # gli altri gironi dello stesso campionato hanno quasi sempre codici vicini (DR1 Est 85168, Ovest 85169):
-            # la pagina predefinita mostra solo il primo, quindi si provano i codici fino a 3 prima e dopo
+            # la pagina predefinita mostra solo il primo (U13 GO/TS A-B e PN A-B 86363-86366, UD A-B subito dopo),
+            # quindi si provano i codici fino a 3 prima e dopo
+            # il girone mostrato e i gironi già abbinati dello stesso campionato
             gia = {p.get("codice_girone") for p in cfg["gironi"].values()}
             vicini = set()
-            if set(specs) - set(cfg["gironi"]):
-                for _, gir in list(link):
-                    for d in (-3, -2, -1, 1, 2, 3):
-                        c = str(int(gir) + d)
-                        if c not in gia and (fase0, c) not in link:
-                            link[(fase0, c)] = set(); vicini.add(c)
+            if {k for k, s in specs.items() if not s.get("minibasket")} - set(cfg["gironi"]):
+                noti = [int(g) for _, g in link] + [int(p["codice_girone"]) for p in cfg["gironi"].values()
+                                                    if p.get("codice_campionato") == codice]
+                for c in range(min(noti) - 3, max(noti) + 4) if noti else ():
+                    c = str(c)
+                    if c not in gia and (fase0, c) not in link:
+                        link[(fase0, c)] = set(); vicini.add(c)
             for (fase, gir), giornate in link.items():
                 p = {**base, "sesso": sesso, "codice_campionato": codice, "codice_fase": fase, "codice_girone": gir}
                 andata = max([g for ar, g in giornate if ar == 1] or [0])
@@ -496,9 +501,11 @@ def scopri_fip(specs, cfg):
 
 
 def fip_punteggi(html):
-    """Punteggi di una pagina giornata: {numero gara: (punti casa, punti ospite, omologata sul portale)}.
+    """Punteggi di una pagina giornata: {numero gara: (punti casa, punti ospite, omologata sul portale, data sul portale)}.
     Il testo è "CASA 80 OSPITE 71 20 Novembre 2026 21:15 000225 [Gara omologata ...] Info Squadra di casa CASA ...":
-    i nomi letti dopo "Squadra di casa"/"Squadra ospite" servono a riconoscere i due numeri prima della data."""
+    i nomi letti dopo "Squadra di casa"/"Squadra ospite" servono a riconoscere i due numeri prima della data.
+    Nessun punteggio per le gare senza referto (solo i nomi prima della data), per i pari (0-0 = da giocare: nel basket
+    non esiste il pareggio) e per le gare rinviate a data da definire (30 giugno, data segnaposto del portale)."""
     t = fip_testo(html)
     out = {}
     for m in RX_FIP.finditer(t):
@@ -510,7 +517,10 @@ def fip_punteggi(html):
         a, b = int(r.group(1)), int(r.group(2))
         if a == b:
             continue  # nessun pareggio nel basket: 0-0 = da giocare
-        out[int(m.group(5))] = (a, b, bool(re.search(r"omologat", m.group(0)[:200], re.I)))
+        d = f"{m.group(3)}-{MESI[m.group(2).lower()]:02d}-{int(m.group(1)):02d}"
+        if d[5:] == "06-30":
+            continue  # rinviata "da definire": nessun risultato
+        out[int(m.group(5))] = (a, b, bool(re.search(r"omologat", m.group(0)[:200], re.I)), d)
     return out
 
 
@@ -667,39 +677,83 @@ def scopri_minibasket(specs, oggi):
     return nuovi
 
 
-def risultati_fip(specs, cfg, live, oggi):
-    """Giro rapido: punteggi delle gare finite (inizio + 105 minuti) negli ultimi 3 giorni e non ancora omologate.
-    -> (pagine lette, risultati nuovi)."""
-    da = (dt.date.fromisoformat(oggi) - dt.timedelta(days=3)).isoformat()
+LIVE_GIORNI = 21       # giro rapido: gare passate senza risultato fino a 3 settimane fa (come GIORNI_LIVE di tempo_reale)
+LIVE_RECENTI = 3       # giornate con gare finite negli ultimi 3 giorni: lette a ogni giro (ogni 15 minuti)
+LIVE_RILETTURA = 6     # ore: le giornate più vecchie (referto caricato tardi) si rileggono al massimo ogni 6 ore
+LIVE_MAX_VECCHIE = 40  # pagine "vecchie" al massimo per giro (le meno lette di recente prima): carico leggero
+
+
+def risultati_fip(specs, cfg, live, oggi, adesso=None):
+    """Giro rapido: punteggi del portale FIP delle gare finite (inizio + 105 minuti) negli ultimi LIVE_GIORNI giorni e
+    ancora senza omologazione. Le giornate con gare degli ultimi LIVE_RECENTI giorni si leggono a ogni giro, le altre
+    al massimo una volta ogni LIVE_RILETTURA ore e non più di LIVE_MAX_VECCHIE pagine per giro (ora dell'ultima lettura
+    in live["letture"]). Mai sovrascritto un risultato omologato; 0-0, pari e gare rinviate (data da definire o
+    spostata nel futuro sul portale) non diventano risultati. -> (pagine lette, risultati nuovi)."""
+    ora = adesso or TR.adesso()
+    da = (dt.date.fromisoformat(oggi) - dt.timedelta(days=LIVE_GIORNI)).isoformat()
+    recenti = (dt.date.fromisoformat(oggi) - dt.timedelta(days=LIVE_RECENTI)).isoformat()
+    letture = live.setdefault("letture", {})
     pagine = nuovi = 0
+    lista = []  # (priorità, ultima lettura, slug, giornata, gare attese)
+    vive = set()  # giornate con gare ancora in attesa (anche quelle lette da poco)
     for slug, p in sorted(cfg.get("gironi", {}).items()):
         s = specs.get(slug)
-        if not s or not p.get("andata"):
+        if not s or not p.get("andata") or s.get("minibasket"):
             continue
         voci = live.setdefault("gironi", {}).setdefault("basket-" + slug, {})
         attese = [g for g in s["gare"] if (not g[7] or pari(g[7])) and da <= (g[2] or "") <= oggi
-                  and TR.finita(g[2], g[3], 105) and f"gara:{g[0]}" not in voci]
-        per_num = {g[0]: g for g in s["gare"]}
+                  and TR.finita(g[2], g[3], 105, ora) and f"gara:{g[0]}" not in voci]
         for gio in sorted({g[1] for g in attese}):
-            ar, n = (1, gio) if gio <= p["andata"] else (0, gio - p["andata"])
-            q = {k: v for k, v in p.items() if k not in ("andata", "nome", "uguali")}
+            gg = [g for g in attese if g[1] == gio]
+            chiave = f"{slug}|{gio}"
+            vive.add(chiave)
+            if max(g[2] for g in gg) >= recenti:
+                lista.append((0, "", slug, gio, gg))
+                continue
+            ultima = letture.get(chiave, "")
             try:
-                html = fip_get({**q, "codice_ar": ar, "giornata": n}); pagine += 1
-            except Exception as e:
-                print(f"  ! FIP {slug} giornata {gio}: {e}"); continue
-            punti = fip_punteggi(html)
-            for num, (a, b, omo) in punti.items():
-                g = per_num.get(num)
-                if not g or g not in attese:
-                    continue
-                voci[f"gara:{num}"] = {"r": f"{a}-{b}", "data": g[2], "omologata_portale": omo,
-                                       "letto": TR.adesso().isoformat(timespec="minutes"),
-                                       "fonte": f"{FIP_URL}?codice_campionato={q.get('codice_campionato')}&codice_girone={q.get('codice_girone')}"}
-                nuovi += 1
-                print(f"  {slug} gara {num}: {g[4]} - {g[5]} {a}-{b} (da omologare)")
+                fresca = ultima and ora - dt.datetime.fromisoformat(ultima) < dt.timedelta(hours=LIVE_RILETTURA)
+            except ValueError:
+                fresca = False
+            if not fresca:
+                lista.append((1, ultima, slug, gio, gg))
         if not voci:
             live["gironi"].pop("basket-" + slug, None)
-    print(f"FIP risultati: pagine lette {pagine}, risultati nuovi {nuovi}")
+    lista.sort(key=lambda x: (x[0], x[1], x[2], x[3]))
+    vecchie = 0
+    for prio, _, slug, gio, gg in lista:
+        if prio and vecchie >= LIVE_MAX_VECCHIE:
+            break
+        p = cfg["gironi"][slug]
+        ar, n = (1, gio) if gio <= p["andata"] else (0, gio - p["andata"])
+        q = {k: v for k, v in p.items() if k not in ("andata", "nome", "uguali")}
+        try:
+            html = fip_get({**q, "codice_ar": ar, "giornata": n}); pagine += 1; vecchie += prio
+        except Exception as e:
+            print(f"  ! FIP {slug} giornata {gio}: {e}"); continue
+        chiave = f"{slug}|{gio}"
+        letture[chiave] = ora.isoformat(timespec="minutes")
+        punti = fip_punteggi(html)
+        voci = live.setdefault("gironi", {}).setdefault("basket-" + slug, {})
+        for g in gg:
+            if g[0] not in punti:
+                continue
+            a, b, omo, d = punti[g[0]]
+            if d > oggi:
+                continue  # sul portale la gara è spostata più avanti: il punteggio non può essere di questa gara
+            voci[f"gara:{g[0]}"] = {"r": f"{a}-{b}", "data": d or g[2], "omologata_portale": omo,
+                                    "letto": ora.isoformat(timespec="minutes"),
+                                    "fonte": f"{FIP_URL}?codice_campionato={q.get('codice_campionato')}&codice_girone={q.get('codice_girone')}"}
+            nuovi += 1
+            print(f"  {slug} gara {g[0]}: {g[4]} - {g[5]} {a}-{b} (da omologare)")
+        if not voci:
+            live["gironi"].pop("basket-" + slug, None)
+    # ricordo delle letture solo per le giornate che hanno ancora gare in attesa
+    for k in list(letture):
+        if k not in vive:
+            del letture[k]
+    print(f"FIP risultati: giornate da leggere {len(lista)} (recenti {sum(1 for x in lista if not x[0])}), "
+          f"pagine lette {pagine} (vecchie {vecchie}), risultati nuovi {nuovi}")
     return pagine, nuovi
 
 
@@ -718,6 +772,53 @@ def rapido(specs, prova, oggi):
         print("prova: config/live.json e data/risultati.json non modificati, risultato in", PROVA); return
     TR.salva_live(live)
     json.dump(data, open(RIS, "w"), ensure_ascii=False, separators=(",", ":"))
+
+
+def calendario_portale(specs, cfg, oggi, completo):
+    """Gironi senza calendario definitivo in PDF ("calendario_portale": true nella config, es. U15 Regionale, ricavati
+    solo dalle omologazioni): legge sul portale FIP tutte le giornate (con --completo o se il girone non ha più gare da
+    giocare) e aggiunge le gare che mancano, con giornata, data, ora e campo. I nomi del portale (a volte tagliati a 30
+    caratteri) sono tradotti nei nomi della config dalle gare con lo stesso numero; una gara con una squadra mai vista
+    non viene aggiunta. -> gare aggiunte."""
+    aggiunte = 0
+    for slug, p in sorted(cfg.get("gironi", {}).items()):
+        s = specs.get(slug)
+        if not s or not s.get("calendario_portale") or not p.get("andata"):
+            continue
+        if not completo and any(not g[7] and (g[2] or "9999") >= oggi for g in s["gare"]):
+            continue
+        q = {k: v for k, v in p.items() if k not in ("andata", "nome", "uguali")}
+        per_num = {g[0]: g for g in s["gare"]}
+        lette = []
+        for gio in range(1, 2 * p["andata"] + 1):
+            ar, n = (1, gio) if gio <= p["andata"] else (0, gio - p["andata"])
+            try:
+                lette += [(gio, x) for x in fip_gare(fip_get({**q, "codice_ar": ar, "giornata": n}))]
+            except Exception as e:
+                print(f"  ! FIP {slug} giornata {gio}: {e}")
+        alias = {}
+        for gio, (num, casa, osp, *_r) in lette:
+            g = per_num.get(num)
+            if g:
+                alias.setdefault(norm(casa), g[4]); alias.setdefault(norm(osp), g[5])
+        nuove = 0
+        for gio, (num, casa, osp, data, ora, campo) in lette:
+            c, o = alias.get(norm(casa)), alias.get(norm(osp))
+            g = per_num.get(num)
+            if g:
+                if (c, o) == (g[4], g[5]) and g[1] != gio:
+                    g[1] = gio  # giornata vera (nella config era ricostruita dalle omologazioni)
+                if (c, o) == (g[4], g[5]) and (not g[7] or pari(g[7])) and data:
+                    g[2], g[3], g[6] = data, ora, campo or g[6]
+                continue
+            if not c or not o:
+                print(f"  {slug} gara {num}: {casa} - {osp} non aggiunta (squadra senza nome noto)"); continue
+            g = [num, gio, data or "", ora if data else "", c, o, campo, ""]
+            s["gare"].append(g); per_num[num] = g; nuove += 1
+        s["gare"].sort(key=lambda g: (g[1], g[0]))
+        print(f"{slug}: calendario dal portale FIP, {len(lette)} gare lette, {nuove} aggiunte")
+        aggiunte += nuove
+    return aggiunte
 
 
 def variazioni_fip(specs, cfg, oggi, completo):
@@ -843,6 +944,10 @@ def main():
         variazioni_fip(specs, fip, oggi, completo)
     except Exception as e:
         print(f"FIP: lettura non riuscita ({e})")
+    try:
+        calendario_portale(specs, fip, oggi, completo)
+    except Exception as e:
+        print(f"FIP: calendario dal portale non letto ({e})")
 
     # 1d. minibasket Under 12 (Esordienti): gironi nuovi (una volta alla settimana) e calendario/punteggi dal portale FIP
     ultima = stato.get("minibasket_scoperta") or "2000-01-01"
