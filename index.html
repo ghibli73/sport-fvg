@@ -590,18 +590,28 @@ const ico=s=>I[s]||I.altro;
 const fp=p=>{const t=String(p??'').trim();return /^\d+$/.test(t)?t+'°':(t||'n.d.')};
 const CHEV='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>';
 const BACK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M15 6l-6 6 6 6"/></svg>';
-let FAV={c:[],g:[]},FDB=null,FREF=null,FSYNC='locale';
+let FAV={c:[],g:[],sq:[]},FDB=null,FREF=null,FSYNC='locale';
 let C=[],COM=[],AGG='',BYC={},G=[],GBY={},girone='',view='comuni',prov='',sport='',comune='',sortBy='az',limit=60,cSport='';
 const st={get(k){try{return localStorage.getItem('sfvg-'+k)}catch(e){return null}},set(k,v){try{localStorage.setItem('sfvg-'+k,v)}catch(e){}}};
 const STAR=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>`;
-function favLoad(){try{const v=JSON.parse(localStorage.getItem('sfvg-fav')||'null');if(v&&Array.isArray(v.c))FAV={c:v.c,g:v.g||[]}}catch(e){}}
-function favSave(){try{localStorage.setItem('sfvg-fav',JSON.stringify(FAV))}catch(e){}
-if(FREF){const p=FREF.set({c:FAV.c,g:FAV.g,t:Date.now()});if(p&&p.catch)p.catch(()=>{FSYNC='locale';})}}
+function favLoad(){try{const v=JSON.parse(localStorage.getItem('sfvg-fav')||'null');if(v&&Array.isArray(v.c))FAV={c:v.c,g:v.g||[],sq:Array.isArray(v.sq)?v.sq:[]}}catch(e){}}
+function favSave(){try{localStorage.setItem('sfvg-fav',JSON.stringify({v:2,c:FAV.c,g:FAV.g,sq:FAV.sq}))}catch(e){}
+if(FREF){const p=FREF.set({v:2,c:FAV.c,g:FAV.g,sq:FAV.sq,t:Date.now()});if(p&&p.catch)p.catch(()=>{FSYNC='locale';})}}
 const isFav=(k,id)=>FAV[k].includes(id);
-function favToggle(k,id){const a=FAV[k];const i=a.indexOf(id);if(i<0)a.unshift(id);else a.splice(i,1);favSave();toast(i<0?'Aggiunto ai preferiti':'Tolto dai preferiti');return i<0}
+function favToggle(k,id){const a=FAV[k];const i=a.indexOf(id);if(i<0)a.unshift(id);else a.splice(i,1);favSave();toast(k==='sq'?(i<0?'Segui questa squadra':'Non segui più questa squadra'):(i<0?'Aggiunto ai preferiti':'Tolto dai preferiti'));return i<0}
+/* 1.17.0: si può seguire una sola squadra (girone + società, o girone + nome se la squadra non ha società). Formato salvato
+   {v:2,c,g,sq}: i preferiti 1.x ({c,g}) si leggono così come sono (sq vuoto). Se di una società seguita si segue anche
+   almeno una squadra, in "Questo weekend" e nel nastro di quella società compaiono solo le squadre con la stella. */
+const sqKey=(gid,id,n)=>gid+'|'+(id?id:'n:'+n);
+function favSq(){return FAV.sq.map(k=>{const i=k.indexOf('|'),gid=k.slice(0,i),r=k.slice(i+1);return{k,gid,id:r.startsWith('n:')?'':r,n:r.startsWith('n:')?r.slice(2):''}})}
+function favRif(){const s=new Set();favSq().forEach(t=>{if(t.id&&FAV.c.includes(t.id))s.add(t.id)});return s}
+/* segue una delle due squadre della partita? (girone seguito, squadra seguita, società seguita non ristretta) */
+function segueLato(g,id,n,SQ,RF){SQ=SQ||favSq();RF=RF||favRif();return SQ.some(t=>t.gid===g.gid&&(t.id?t.id===id:t.n===n))||(!!id&&FAV.c.includes(id)&&!RF.has(id))}
+function segueG(g){return FAV.g.includes(g.gid)||FAV.sq.some(k=>k.startsWith(g.gid+'|'))||g.classifica.some(r=>r.id&&FAV.c.includes(r.id))}
+const tStar=(g,id,n,lab)=>{const k=sqKey(g.gid,id,n),on=FAV.sq.includes(k);return `<button class="tst" data-favt="${esc(k)}" aria-pressed="${on}" aria-label="${on?'Non seguire più':'Segui solo'} ${esc(lab)}" title="${on?'Squadra seguita':'Segui solo questa squadra'}">${STAR}</button>`};
 async function favCloud(){try{if(!window.claude||!claude.use)return;const [db,user]=await Promise.all([claude.use('db'),claude.use('user')]);if(!db||!user)return;const id=await user.id();if(!id)return;
 FREF=db.doc('data/users/'+id+'/preferiti');const r=await FREF.get();let v=r;if(r&&typeof r.data==='function')v=r.data();else if(r&&r.data&&typeof r.data==='object')v=r.data;
-if(v&&Array.isArray(v.c)){FAV={c:[...new Set([...v.c,...FAV.c])],g:[...new Set([...(v.g||[]),...FAV.g])]}}
+if(v&&Array.isArray(v.c)){FAV={c:[...new Set([...v.c,...FAV.c])],g:[...new Set([...(v.g||[]),...FAV.g])],sq:[...new Set([...(Array.isArray(v.sq)?v.sq:[]),...FAV.sq])]}}
 FSYNC='account';favSave();if(view==='preferiti'||$('sheet').classList.contains('on'))render()}catch(e){FREF=null}}
 function toast(t){const e=$('toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.h);toast.h=setTimeout(()=>e.classList.remove('on'),1800)}
 function sub(c){if(c.attuale)return `<b>${esc(c.attuale)}</b>`;const l=c.storico[c.storico.length-1];if(l)return `${esc(l.stagione)}: ${esc(l.campionato)}${l.pos&&String(l.pos)!=='n.d.'?' · '+esc(fp(l.pos)):''}`;return c.categorie.length?esc(c.categorie.slice(0,3).join(' · ')):esc(NAMES[c.sport])}
