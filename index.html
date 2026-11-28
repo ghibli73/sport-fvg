@@ -1353,7 +1353,7 @@ setTimeout(()=>{const f=op&&op!==document.body&&document.contains(op)?op:(id?doc
 function go(h){if(location.hash!=='#'+h)location.hash=h;else route()}
 function origine(pv,gid){const g=GBY[gid];if(NAVS===0&&g){rSport=g.sport;rLiv=livDi(g);rCamp=campDi(g).k;rGen='';rZona='';return{h:risHash(),l:NAMES[g.sport]||'Partite'}}
 if(pv.girone)return GBACK;if(pv.comune){const c=COM.find(x=>x.codice===pv.comune);return{h:'c-'+pv.comune,l:c?c.nome:'Comune'}}
-const v=pv.view;if(v==='risultati')return{h:risHash(),l:rSport?NAMES[rSport]||'Partite':'Partite'};if(v==='comuni')return{h:'comuni',l:HOME?'Home':'Comuni'};
+const v=pv.view;if(v==='risultati')return rSport&&g&&rSport!==g.sport?{h:'risultati',l:'Partite'}:{h:risHash(),l:rSport?NAMES[rSport]||'Partite':'Partite'};if(v==='comuni')return{h:'comuni',l:HOME?'Home':'Comuni'};
 const N={preferiti:'Preferiti',societa:'Società',sport:'Sport',agenda:'Agenda',mappa:'Mappa',info:'Info'};return{h:v,l:N[v]||'Indietro'}}
 let NAVS=-1;
 function route(){
