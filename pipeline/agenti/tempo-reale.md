@@ -76,8 +76,10 @@ I cron sono in UTC e coprono ora solare e legale (`giro-rapido.yml`: sab `13-22`
    (il portale la aggiorna dopo), le gare mancanti vengono sommate (3-0 e 3-1: 3 punti; 3-2: 2 e 1; set) e il girone ha
    `classifica_provvisoria: true` (e `classifica_ufficiale` con l'ultima ufficiale). Le somme si fanno solo se i conti
    tornano squadra per squadra (partite giocate = G della classifica + gare sommate), altrimenti resta l'ufficiale;
-3. `python scripts/basket.py --rapido`: per i gironi abbinati in `config/basket_fip.json` legge le pagine giornata di
-   `fip.it/risultati` delle gare **finite** (inizio + 105 minuti) negli ultimi 3 giorni e non ancora omologate. Il
+3. `python scripts/basket.py --rapido`: per i gironi abbinati in `config/basket_fip.json` (e i minibasket) legge le pagine
+   giornata di `fip.it/risultati` delle gare **finite** (inizio + 105 minuti) negli ultimi 21 giorni e non ancora omologate:
+   le giornate con gare degli ultimi 3 giorni a ogni giro, le altre al massimo ogni 6 ore e non più di 40 pagine per giro
+   (`"letture"` in `config/live.json`; dettagli in `pipeline/agenti/basket.md`). Il
    punteggio è nel testo "CASA 80 OSPITE 71 20 Novembre 2026 21:15 000225 … Squadra di casa CASA Squadra ospite OSPITE"
    (`fip_punteggi`); il portale scrive anche "Gara omologata" (salvato come `omologata_portale`, solo informativo);
 4. `python scripts/calcio_live.py`: per i gironi abbinati in `config/calcio_lnd.json` legge la pagina del Quadro gare

@@ -812,6 +812,18 @@ def calendario_portale(specs, cfg, oggi, completo):
             g = per_num.get(num)
             if g:
                 alias.setdefault(norm(casa), g[4]); alias.setdefault(norm(osp), g[5])
+        # se tutte le squadre della config hanno un nome sul portale, un nome mai visto è una squadra in più del girone
+        # (es. una squadra che non ha ancora gare omologate): si aggiunge con il nome del portale
+        if lette and set(s["squadre"]) <= set(alias.values()):
+            for gio, (num, casa, osp, *_r) in lette:
+                for x in (casa, osp):
+                    if norm(x) not in alias:
+                        alias[norm(x)] = x
+                        print(f"  {slug}: squadra nuova dal portale {x}")
+                        i = next((sp["ids"][n] for sp in specs.values() for n in (sp.get("ids") or {})
+                                  if norm(n) == norm(x) and sp["ids"][n]), None)
+                        if i:
+                            s.setdefault("ids", {})[x] = i
         nuove = 0
         for gio, (num, casa, osp, data, ora, campo) in lette:
             c, o = alias.get(norm(casa)), alias.get(norm(osp))
@@ -827,6 +839,7 @@ def calendario_portale(specs, cfg, oggi, completo):
             g = [num, gio, data or "", ora if data else "", c, o, campo, ""]
             s["gare"].append(g); per_num[num] = g; nuove += 1
         s["gare"].sort(key=lambda g: (g[1], g[0]))
+        s["squadre"] = sorted(set(s["squadre"]) | {g[4] for g in s["gare"]} | {g[5] for g in s["gare"]})
         print(f"{slug}: calendario dal portale FIP, {len(lette)} gare lette, {nuove} aggiunte")
         aggiunte += nuove
     return aggiunte

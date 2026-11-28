@@ -87,6 +87,29 @@ Calligaris = Centro Sedia Basket (Serie C); Neonis Basket GS = G.S. Vallenoncell
 Abbinate il 25/11/2026 (pipeline/agenti/abbinamenti.md): Fly Solartech Icarus U19 Gold = Pol. Libertas Acli San Daniele; BCC Pordenonese e Monsile DR1 Ovest = Azzano Basket. Le altre hanno solo il comune (config/squadre_comune.json).
 Ancora non abbinate: MB Paper's, Ronchi Basket Club, Nautilus Allestimenti, Colledani srl, Pallacanestro Feletto, BIN Tigrotte, Basket Fiume, Monritz Team Sport, WIS 1963 Woman Spilimbergo, BCC Pordenonese e Monsile (DR1 Ovest).
 
+### Portale fip.it/risultati e provvisori "da omologare" (dal 28/11/2026)
+- Le omologazioni arrivano 4–10 giorni dopo la gara (U13 anche di più); il portale ha quasi sempre già il punteggio (referto
+  elettronico). Causa delle gare "in attesa" per giorni fino al 26/11: il giro rapido leggeva solo le gare degli ultimi 3 giorni
+  e 6 gironi non erano abbinati al portale. Il lettore del portale era corretto (verificato con la Sonda `fipdiag=tutti`).
+- `config/basket_fip.json`: 46 gironi. Aggiunti a mano il 28/11 (trovati con `fipscan=`): u13-ud-a U13S/M 86367, u13-ud-b 86368,
+  dr3-ud 1DM 85891, u15-regionale-go-ts U15S/M 85877, -pn 85878, -ud 85879. La scoperta automatica ora prova i codici da 3 prima a
+  3 dopo tutti i gironi già abbinati dello stesso campionato (prima solo ±3 dal girone mostrato) e salta i minibasket (TFE).
+  NON trovati: u19-regionale-pn-a / pn-b (U19S/M mostra solo 85867 e 85869; provati 85860–85960, 86300–86362, fasi 1–3): da
+  cercare quando il portale li pubblica. B Interregionale (CR Veneto) e nazionali: fuori dal portale regionale FVG.
+- Giro rapido (`basket.py --rapido`): gare finite (inizio + 105 min) negli ultimi 21 giorni senza omologazione, per tutti i
+  gironi abbinati e i minibasket (parametri "portale"). Giornate con gare degli ultimi 3 giorni lette a ogni giro; le più vecchie
+  al massimo ogni 6 ore e 40 pagine per giro (`LIVE_RILETTURA`, `LIVE_MAX_VECCHIE`; ora dell'ultima lettura in
+  `config/live.json` "letture"). Una gara già in live.json non viene riletta.
+- Regole: mai sovrascritto un risultato omologato (tempo_reale.applica); pari/0-0 scartati (minibasket: solo 0-0); data 30 giugno
+  (rinviata da definire) o data del portale nel futuro = nessun risultato; quando arriva l'omologazione il provvisorio sparisce
+  (tempo_reale.pulisci, vale l'omologazione se diversa).
+- Gare senza punteggio sul portale (al 26/11 circa 1 su 4 fra le U13): nessun referto elettronico, restano in attesa
+  dell'omologazione. Gare con data cambiata sul portale (rinvii) sono aggiornate dall'esecuzione normale (variazioni_fip).
+- U15 Regionale ("calendario_portale": true): senza calendario PDF; `calendario_portale()` aggiunge dal portale le gare mancanti
+  (giornata, data, ora, campo) traducendo i nomi con le gare già note per numero; letto con --completo o quando il girone non ha
+  più gare future.
+- Sonda: `fipdiag=<slug,...|tutti>[@giorni]` confronta config e portale per le gare passate senza risultato.
+
 ### Da fare / limiti
 - Serie A, A2, B Nazionale e femminili nazionali non coperte (siti JavaScript).
 - Gare non ancora omologate o non trovate sono elencate nel campo "note" di ogni file: ricontrollarle alla lettura successiva.
