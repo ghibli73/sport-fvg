@@ -582,7 +582,10 @@ def main():
             # letto bene (blocchi di altre competizioni o titoli attribuiti male)
             print(f"  scartato {k}: {n_sq} squadre, {len(gs)} gare in {n_gio} giornate (troppo poche)"); continue
         if len(gs) < 4 or n_sq < 4 or n_sq > 22 or doppie:
-            print(f"  scartato {k}: {n_sq} squadre, {len(gs)} gare, {len(doppie)} squadre doppie nella stessa giornata"); continue
+            print(f"  scartato {k}: {n_sq} squadre, {len(gs)} gare, {len(doppie)} squadre doppie nella stessa giornata"
+                  + (": " + "; ".join(f"g{d[0]} {d[1]} (" + ", ".join(f"{g['casa']}-{g['ospite']} {g['gc']}-{g['go']} {g['fonte'].rsplit('/', 1)[-1][:22]}"
+                                                                   for g in gs if g['g_eff'] == d[0] and d[1] in (compatto(g['casa']), compatto(g['ospite']))) + ")"
+                                     for d in doppie[:3]) if doppie else "")); continue
         # copie: unifica_nomi cambia i nomi solo nel girone costruito, non nelle gare salvate in calcio_stato.json
         # (altrimenti una scelta sbagliata, es. "CAMPANELLE" -> "CAMPANELLE sq.B", resterebbe per sempre nello stato)
         g = costruisci(k, [dict(x) for x in gs], k[0], ids_di, oggi)
