@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · DIANA · Terza Categoria — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-eb6187e6@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:OSOPPO RUSH SOCCER 1-2 DIANA (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n1ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-f17de3df@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:DIANA 3-0 UNIONE CALCIO 3 STELLE (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n2ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-07558329@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:ASSOSANGIORGINA 0-2 DIANA (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n3ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-0c5aa7d6@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:DIANA 1-1 MOIMACCO (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n4ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-1ceb92ac@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:MAJANESE 0-2 DIANA (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-97d94e92@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:DIANA 5-1 CHIAVRIS (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-dec13539@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ARZINO 0-1 DIANA (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-cfdcabec@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:DIANA 6-0 TARCENTINA (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+END:VCALENDAR

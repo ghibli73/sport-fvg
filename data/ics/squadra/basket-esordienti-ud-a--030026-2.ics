@@ -1,0 +1,210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D.LONGOBARDI · Under 12 Trofeo Esordienti Under 
+ 12 — girone UD A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-825cad9f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261121T153000
+DTEND;TZID=Europe/Rome:20261121T173000
+SUMMARY:A.S.D.LONGOBARDI – GEMONA BASKET a.s.d. (Trofeo Esordienti Under 
+ 12 — girone UD A)
+LOCATION:Palestra Sc. 'Ipolito Nievo'\, Remanzacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-a4e61bac@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261126T180000
+DTEND;TZID=Europe/Rome:20261126T200000
+SUMMARY:LAIPACCO – A.S.D.LONGOBARDI (Trofeo Esordienti Under 12 — giron
+ e UD A)
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-975199bc@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261212T160000
+DTEND;TZID=Europe/Rome:20261212T180000
+SUMMARY:A.S.D. P.A.F. – A.S.D.LONGOBARDI (Trofeo Esordienti Under 12 — 
+ girone UD A)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-a0f60989@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270116T153000
+DTEND;TZID=Europe/Rome:20270116T173000
+SUMMARY:A.S.D.LONGOBARDI – A.S.D MAJANESE (Trofeo Esordienti Under 12 —
+  girone UD A)
+LOCATION:Palestra Sc. 'Ipolito Nievo'\, Remanzacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-995c8182@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270123T153000
+DTEND;TZID=Europe/Rome:20270123T173000
+SUMMARY:A.S.D.LONGOBARDI – LIBERTAS GONARS (Trofeo Esordienti Under 12 
+ — girone UD A)
+LOCATION:Palestra Sc. 'Ipolito Nievo'\, Remanzacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-9d10c5a9@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270204T190000
+DTEND;TZID=Europe/Rome:20270204T210000
+SUMMARY:APU NEXT GEN S.S.D. A R.L. – A.S.D.LONGOBARDI (Trofeo Esordienti 
+ Under 12 — girone UD A)
+LOCATION:Palestra Sc. 'Marconi'\, Udine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-d353d88a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270220T153000
+DTEND;TZID=Europe/Rome:20270220T173000
+SUMMARY:A.S.D.LONGOBARDI – A.S.DIL. OLYMPIA RIVIGNANO (Trofeo Esordienti 
+ Under 12 — girone UD A)
+LOCATION:Palestra Sc. 'Ipolito Nievo'\, Remanzacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-1a240827@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270223T173000
+DTEND;TZID=Europe/Rome:20270223T193000
+SUMMARY:GEMONA BASKET a.s.d. – A.S.D.LONGOBARDI (Trofeo Esordienti Under 
+ 12 — girone UD A)
+LOCATION:Palestra C.R.I.\, Gemona Del Friuli
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-0240e745@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270306T153000
+DTEND;TZID=Europe/Rome:20270306T173000
+SUMMARY:A.S.D.LONGOBARDI – LAIPACCO (Trofeo Esordienti Under 12 — giron
+ e UD A)
+LOCATION:Palestra Sc. 'Ipolito Nievo'\, Remanzacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-554b0ad8@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270320T153000
+DTEND;TZID=Europe/Rome:20270320T173000
+SUMMARY:A.S.D.LONGOBARDI – A.S.D. P.A.F. (Trofeo Esordienti Under 12 — 
+ girone UD A)
+LOCATION:Palestra Sc. 'Ipolito Nievo'\, Remanzacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-11e59bfe@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270411T150000
+DTEND;TZID=Europe/Rome:20270411T170000
+SUMMARY:A.S.D MAJANESE – A.S.D.LONGOBARDI (Trofeo Esordienti Under 12 —
+  girone UD A)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n11ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-e669335b@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270418T150000
+DTEND;TZID=Europe/Rome:20270418T170000
+SUMMARY:LIBERTAS GONARS – A.S.D.LONGOBARDI (Trofeo Esordienti Under 12 
+ — girone UD A)
+LOCATION:Palazzetto Dello Sport\, Gonars
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n12ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-67da8485@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270424T153000
+DTEND;TZID=Europe/Rome:20270424T173000
+SUMMARY:A.S.D.LONGOBARDI – APU NEXT GEN S.S.D. A R.L. (Trofeo Esordienti 
+ Under 12 — girone UD A)
+LOCATION:Palestra Sc. 'Ipolito Nievo'\, Remanzacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n13ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-a2bf6653@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270508T160000
+DTEND;TZID=Europe/Rome:20270508T180000
+SUMMARY:A.S.DIL. OLYMPIA RIVIGNANO – A.S.D.LONGOBARDI (Trofeo Esordienti 
+ Under 12 — girone UD A)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n14ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+END:VCALENDAR

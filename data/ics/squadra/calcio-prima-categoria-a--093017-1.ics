@@ -1,0 +1,450 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.C. CORDENONESE 3S ASD · Prima Categoria — girone
+  A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-30ba9489@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:A.C. CORDENONESE 3S ASD 1-2 SAN DANIELE CALCIO (Prima Categoria —
+  girone A)
+DESCRIPTION:Prima Categoria — girone A\n1ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-61fa8625@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:BERTIOLO 0-1 A.C. CORDENONESE 3S ASD (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n2ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-7e12df2d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:A.C. CORDENONESE 3S ASD 1-2 CALCIO COMUNALE BASILIANO (Prima Catego
+ ria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n3ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-b4438906@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:UNIONE S.M.T. CALCIO 1-1 A.C. CORDENONESE 3S ASD (Prima Categoria 
+ — girone A)
+DESCRIPTION:Prima Categoria — girone A\n4ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-adb8fcf7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:A.C. CORDENONESE 3S ASD 3-2 RORAI PORCIA (Prima Categoria — giron
+ e A)
+DESCRIPTION:Prima Categoria — girone A\n5ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-10e4c1c6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:CALCIO AVIANO 1-1 A.C. CORDENONESE 3S ASD (Prima Categoria — giro
+ ne A)
+DESCRIPTION:Prima Categoria — girone A\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-39a71d75@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:A.C. CORDENONESE 3S ASD 2-3 VIGONOVO (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-2b36980a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:A.C. CORDENONESE 3S ASD 1-0 RIVOLTO (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-51542453@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SPILIMBERGO 3-2 A.C. CORDENONESE 3S ASD (Prima Categoria — girone
+  A)
+DESCRIPTION:Prima Categoria — girone A\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-7673bec9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:A.C. CORDENONESE 3S ASD 1-2 TAGLIAMENTO (Prima Categoria — girone
+  A)
+DESCRIPTION:Prima Categoria — girone A\n10ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-f543d0bb@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:TORRE 0-0 A.C. CORDENONESE 3S ASD (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n11ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-7a4c5f18@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:A.C. CORDENONESE 3S ASD 2-2 VALLENONCELLO (Prima Categoria — giro
+ ne A)
+DESCRIPTION:Prima Categoria — girone A\n12ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-22776112@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261129T143000
+DTEND;TZID=Europe/Rome:20261129T163000
+SUMMARY:S.P.A.L.CORDOVADO – A.C. CORDENONESE 3S ASD (Prima Categoria — 
+ girone A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Prima Categoria — girone A\n13ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-d9a5465f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261205T143000
+DTEND;TZID=Europe/Rome:20261205T163000
+SUMMARY:A.C. CORDENONESE 3S ASD – MANZANESE CALCIO (Prima Categoria — g
+ irone A)
+LOCATION:Comunale Cordenons\, Via Braida D'Andrea
+DESCRIPTION:Prima Categoria — girone A\n14ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-352cec88@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261208T143000
+DTEND;TZID=Europe/Rome:20261208T163000
+SUMMARY:CALCIO MANIAGO VAJONT – A.C. CORDENONESE 3S ASD (Prima Categoria 
+ — girone A)
+LOCATION:Toni Bertoli Maniago\, Via Dello Stadio 1
+DESCRIPTION:Prima Categoria — girone A\n15ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-23c348ae@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261213T143000
+DTEND;TZID=Europe/Rome:20261213T163000
+SUMMARY:A.C. CORDENONESE 3S ASD – AZZANESE 1921 (Prima Categoria — giro
+ ne A)
+LOCATION:Comunale Cordenons\, Via Braida D'Andrea
+DESCRIPTION:Prima Categoria — girone A\n16ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-0042f87e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261220T143000
+DTEND;TZID=Europe/Rome:20261220T163000
+SUMMARY:VIRTUS ROVEREDO – A.C. CORDENONESE 3S ASD (Prima Categoria — gi
+ rone A)
+LOCATION:Michelazzi Roveredo In Piano\, Via Carducci 40
+DESCRIPTION:Prima Categoria — girone A\n17ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-11c577d9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270110T143000
+DTEND;TZID=Europe/Rome:20270110T163000
+SUMMARY:SAN DANIELE CALCIO – A.C. CORDENONESE 3S ASD (Prima Categoria —
+  girone A)
+LOCATION:Zanussi San Daniele Del Friuli\, Piazza Iv Novembre
+DESCRIPTION:Prima Categoria — girone A\n18ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-48cc8d63@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270117T143000
+DTEND;TZID=Europe/Rome:20270117T163000
+SUMMARY:A.C. CORDENONESE 3S ASD – BERTIOLO (Prima Categoria — girone A)
+LOCATION:Comunale Cordenons\, Via Braida D'Andrea
+DESCRIPTION:Prima Categoria — girone A\n19ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-025af008@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270124T143000
+DTEND;TZID=Europe/Rome:20270124T163000
+SUMMARY:CALCIO COMUNALE BASILIANO – A.C. CORDENONESE 3S ASD (Prima Catego
+ ria — girone A)
+LOCATION:Comunale Basiliano\, Via Sompbearc
+DESCRIPTION:Prima Categoria — girone A\n20ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-766c7639@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270131T143000
+DTEND;TZID=Europe/Rome:20270131T163000
+SUMMARY:A.C. CORDENONESE 3S ASD – UNIONE S.M.T. CALCIO (Prima Categoria 
+ — girone A)
+LOCATION:Comunale Cordenons\, Via Braida D'Andrea
+DESCRIPTION:Prima Categoria — girone A\n21ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-78cc9d2a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270207T143000
+DTEND;TZID=Europe/Rome:20270207T163000
+SUMMARY:RORAI PORCIA – A.C. CORDENONESE 3S ASD (Prima Categoria — giron
+ e A)
+LOCATION:Campo A Porcia\, Via Delle Risorgive
+DESCRIPTION:Prima Categoria — girone A\n22ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-e08a4289@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270214T143000
+DTEND;TZID=Europe/Rome:20270214T163000
+SUMMARY:A.C. CORDENONESE 3S ASD – CALCIO AVIANO (Prima Categoria — giro
+ ne A)
+LOCATION:Comunale Cordenons\, Via Braida D'Andrea
+DESCRIPTION:Prima Categoria — girone A\n23ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-b5d4c100@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270221T143000
+DTEND;TZID=Europe/Rome:20270221T163000
+SUMMARY:VIGONOVO – A.C. CORDENONESE 3S ASD (Prima Categoria — girone A)
+LOCATION:S.Pignat Vigonovo\, Via Baracca
+DESCRIPTION:Prima Categoria — girone A\n24ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-49327ffd@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270228T150000
+DTEND;TZID=Europe/Rome:20270228T170000
+SUMMARY:RIVOLTO – A.C. CORDENONESE 3S ASD (Prima Categoria — girone A)
+LOCATION:Andrin - Donada Rivolto\, Via Lonca 22
+DESCRIPTION:Prima Categoria — girone A\n25ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-0f0e77ae@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270307T150000
+DTEND;TZID=Europe/Rome:20270307T170000
+SUMMARY:A.C. CORDENONESE 3S ASD – SPILIMBERGO (Prima Categoria — girone
+  A)
+LOCATION:Comunale Cordenons\, Via Braida D'Andrea
+DESCRIPTION:Prima Categoria — girone A\n26ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-1ebd46f3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270314T150000
+DTEND;TZID=Europe/Rome:20270314T170000
+SUMMARY:TAGLIAMENTO – A.C. CORDENONESE 3S ASD (Prima Categoria — girone
+  A)
+LOCATION:Comunale Dignano\, Via Pieve 11
+DESCRIPTION:Prima Categoria — girone A\n27ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-7e67fc77@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270321T150000
+DTEND;TZID=Europe/Rome:20270321T170000
+SUMMARY:A.C. CORDENONESE 3S ASD – TORRE (Prima Categoria — girone A)
+LOCATION:Comunale Cordenons\, Via Braida D'Andrea
+DESCRIPTION:Prima Categoria — girone A\n28ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-4e5dbb8a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270404T160000
+DTEND;TZID=Europe/Rome:20270404T180000
+SUMMARY:VALLENONCELLO – A.C. CORDENONESE 3S ASD (Prima Categoria — giro
+ ne A)
+LOCATION:Comunale Vallenoncello\, Via Valle 68
+DESCRIPTION:Prima Categoria — girone A\n29ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-73ca2e3b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270411T160000
+DTEND;TZID=Europe/Rome:20270411T180000
+SUMMARY:A.C. CORDENONESE 3S ASD – S.P.A.L.CORDOVADO (Prima Categoria — 
+ girone A)
+LOCATION:Comunale Cordenons\, Via Braida D'Andrea
+DESCRIPTION:Prima Categoria — girone A\n30ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-1608f1d0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270418T160000
+DTEND;TZID=Europe/Rome:20270418T180000
+SUMMARY:MANZANESE CALCIO – A.C. CORDENONESE 3S ASD (Prima Categoria — g
+ irone A)
+LOCATION:Comunale A Manzano\, Via Olivo
+DESCRIPTION:Prima Categoria — girone A\n31ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-2c5f0111@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270425T160000
+DTEND;TZID=Europe/Rome:20270425T180000
+SUMMARY:A.C. CORDENONESE 3S ASD – CALCIO MANIAGO VAJONT (Prima Categoria 
+ — girone A)
+LOCATION:Comunale Cordenons\, Via Braida D'Andrea
+DESCRIPTION:Prima Categoria — girone A\n32ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-41ee3969@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270502T160000
+DTEND;TZID=Europe/Rome:20270502T180000
+SUMMARY:AZZANESE 1921 – A.C. CORDENONESE 3S ASD (Prima Categoria — giro
+ ne A)
+LOCATION:Facca Azzano Decimo\, Via Dello Stadio
+DESCRIPTION:Prima Categoria — girone A\n33ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-prima-categoria-a-05913423@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270509T160000
+DTEND;TZID=Europe/Rome:20270509T180000
+SUMMARY:A.C. CORDENONESE 3S ASD – VIRTUS ROVEREDO (Prima Categoria — gi
+ rone A)
+LOCATION:Comunale Cordenons\, Via Braida D'Andrea
+DESCRIPTION:Prima Categoria — girone A\n34ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+END:VCALENDAR

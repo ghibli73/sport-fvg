@@ -1,0 +1,126 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CAMINO · Seconda Categoria — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-b-d184b116@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:COSEANO 0-3 CAMINO (Seconda Categoria — girone B)
+DESCRIPTION:Seconda Categoria — girone B\n1ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-b-52de44f1@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:CAMINO 3-5 CAPORIACCO (Seconda Categoria — girone B)
+DESCRIPTION:Seconda Categoria — girone B\n2ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-b-467c95bb@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:CHIAVRIS 0-0 CAMINO (Seconda Categoria — girone B)
+DESCRIPTION:Seconda Categoria — girone B\n3ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-b-391b6ec3@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:CAMINO 2-3 ARTENIESE (Seconda Categoria — girone B)
+DESCRIPTION:Seconda Categoria — girone B\n4ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-b-9d822fe9@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:S.GOTTARDO 2-2 CAMINO (Seconda Categoria — girone B)
+DESCRIPTION:Seconda Categoria — girone B\n5ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-b-6ad0873c@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:CAMINO 0-5 PALMARKET PAGNACCO (Seconda Categoria — girone B)
+DESCRIPTION:Seconda Categoria — girone B\n6ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-b-9996c9c3@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:SEDEGLIANO 5-0 CAMINO (Seconda Categoria — girone B)
+DESCRIPTION:Seconda Categoria — girone B\n7ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-b-19eb4f3d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:CAMINO 1-0 MORUZZO (Seconda Categoria — girone B)
+DESCRIPTION:Seconda Categoria — girone B\n8ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-b-cd72e073@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:REANESE 4-0 CAMINO (Seconda Categoria — girone B)
+DESCRIPTION:Seconda Categoria — girone B\n9ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+END:VCALENDAR

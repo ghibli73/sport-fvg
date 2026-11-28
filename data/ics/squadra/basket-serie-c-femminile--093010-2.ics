@@ -1,0 +1,223 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Pol. Casarsa · Serie C femminile — girone unico (p
+ rima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-ad0b2813@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261027T200000
+DTEND;TZID=Europe/Rome:20261027T220000
+SUMMARY:APU Next Gen 51-57 Pol. Casarsa (Serie C femminile — girone unico
+  (prima fase))
+LOCATION:Palazzetto "M. Benedetti"\, Udine
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n1ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-d6c95a90@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261031T193000
+DTEND;TZID=Europe/Rome:20261031T213000
+SUMMARY:Pol. Casarsa – Polisportiva Concordia (Serie C femminile — giro
+ ne unico (prima fase))
+LOCATION:Palasport "Palarosa"\, Casarsa della Delizia
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n2ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-8a67d896@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261108T200000
+DTEND;TZID=Europe/Rome:20261108T220000
+SUMMARY:WIS 1963 Woman Spilimbergo 65-50 Pol. Casarsa (Serie C femminile 
+ — girone unico (prima fase))
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-99d0b375@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:Pol. Casarsa 108-34 Pall. Portogruaro (Serie C femminile — girone
+  unico (prima fase))
+LOCATION:Palasport "Palarosa"\, Casarsa della Delizia
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n4ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-feb5119f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261121T204500
+DTEND;TZID=Europe/Rome:20261121T224500
+SUMMARY:Libertas Gym E Basket 42-59 Pol. Casarsa (Serie C femminile — gir
+ one unico (prima fase))
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n5ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-b821441a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261205T193000
+DTEND;TZID=Europe/Rome:20261205T213000
+SUMMARY:Pol. Casarsa – Pall. Interclub Muggia (Serie C femminile — giro
+ ne unico (prima fase))
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n7ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-0d15dc23@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261218T203000
+DTEND;TZID=Europe/Rome:20261218T223000
+SUMMARY:Nuova Basket Isonzo – Pol. Casarsa (Serie C femminile — girone 
+ unico (prima fase))
+LOCATION:Palamarson\, Turriaco
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n9ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-ad2c901f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261221T203000
+DTEND;TZID=Europe/Rome:20261221T223000
+SUMMARY:Pol. Casarsa – Pozzuolo Basket (Serie C femminile — girone unic
+ o (prima fase))
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n8ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-86b95a55@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270108T210000
+DTEND;TZID=Europe/Rome:20270108T230000
+SUMMARY:Pol. Casarsa – APU Next Gen (Serie C femminile — girone unico (
+ prima fase))
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n10ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-5e91ccf7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270113T210000
+DTEND;TZID=Europe/Rome:20270113T230000
+SUMMARY:Pall. Interclub Muggia – Pol. Casarsa (Serie C femminile — giro
+ ne unico (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n16ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-b35f68fb@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270117T200000
+DTEND;TZID=Europe/Rome:20270117T220000
+SUMMARY:Polisportiva Concordia – Pol. Casarsa (Serie C femminile — giro
+ ne unico (prima fase))
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n11ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-fd0e9c00@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270123T193000
+DTEND;TZID=Europe/Rome:20270123T213000
+SUMMARY:Pol. Casarsa – WIS 1963 Woman Spilimbergo (Serie C femminile — 
+ girone unico (prima fase))
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n12ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-5d11bb27@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270130T200000
+DTEND;TZID=Europe/Rome:20270130T220000
+SUMMARY:Pall. Portogruaro – Pol. Casarsa (Serie C femminile — girone un
+ ico (prima fase))
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n13ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-ad4a3174@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270207T180000
+DTEND;TZID=Europe/Rome:20270207T200000
+SUMMARY:Pol. Casarsa – Libertas Gym E Basket (Serie C femminile — giron
+ e unico (prima fase))
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n14ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-798d2def@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270305T210000
+DTEND;TZID=Europe/Rome:20270305T230000
+SUMMARY:Pol. Casarsa – Nuova Basket Isonzo (Serie C femminile — girone 
+ unico (prima fase))
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n18ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+END:VCALENDAR

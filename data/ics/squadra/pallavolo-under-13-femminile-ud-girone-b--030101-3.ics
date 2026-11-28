@@ -1,0 +1,188 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PAV NATISONIA · Under 13 Under 13 femminile CT Udine
+  — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-7e1971d4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:POL COM LESTIZZA* 0-3 PAV NATISONIA (Under 13 femminile CT Udine 
+ — girone B)
+LOCATION:Palestra Scuole Medie\, LESTIZZA UD
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-55c8b037@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261111T181500
+DTEND;TZID=Europe/Rome:20261111T201500
+SUMMARY:PAV NATISONIA 0-3 KENNEDY GIALLO (Under 13 femminile CT Udine — g
+ irone B)
+LOCATION:Palazzetto dello Sport\, SAN GIOVANNI AL NATISONE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-6afe9e01@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261118T181500
+DTEND;TZID=Europe/Rome:20261118T201500
+SUMMARY:GESTECO VOLLEYBAS 3-0 PAV NATISONIA (Under 13 femminile CT Udine 
+ — girone B)
+LOCATION:Palestra Scuola G. Pascoli\, UDINE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-9810145f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T150000
+DTEND;TZID=Europe/Rome:20261129T170000
+SUMMARY:FACTORY VOLLEY FAEDIS – PAV NATISONIA (Under 13 femminile CT Udin
+ e — girone B)
+LOCATION:Palestra Castellterçol\, via Polisportivo\, FAEDIS UD
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-7004d739@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261206T150000
+DTEND;TZID=Europe/Rome:20261206T170000
+SUMMARY:ASFJR 1971 – PAV NATISONIA (Under 13 femminile CT Udine — giron
+ e B)
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-c78a5984@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T174500
+DTEND;TZID=Europe/Rome:20261219T194500
+SUMMARY:AURORA VOLLEY UDINE – PAV NATISONIA (Under 13 femminile CT Udine 
+ — girone B)
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-683df90a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T110000
+DTEND;TZID=Europe/Rome:20270110T130000
+SUMMARY:PAV NATISONIA – POL COM LESTIZZA* (Under 13 femminile CT Udine 
+ — girone B)
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-12d14e71@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270116T153000
+DTEND;TZID=Europe/Rome:20270116T173000
+SUMMARY:KENNEDY GIALLO – PAV NATISONIA (Under 13 femminile CT Udine — g
+ irone B)
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-8f8ca714@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270124T110000
+DTEND;TZID=Europe/Rome:20270124T130000
+SUMMARY:PAV NATISONIA – GESTECO VOLLEYBAS (Under 13 femminile CT Udine 
+ — girone B)
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n10ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-7e06ed0c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270131T110000
+DTEND;TZID=Europe/Rome:20270131T130000
+SUMMARY:PAV NATISONIA – FACTORY VOLLEY FAEDIS (Under 13 femminile CT Udin
+ e — girone B)
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n11ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-3c622004@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270207T110000
+DTEND;TZID=Europe/Rome:20270207T130000
+SUMMARY:PAV NATISONIA – ASFJR 1971 (Under 13 femminile CT Udine — giron
+ e B)
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n12ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-b-132ff8e5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270221T110000
+DTEND;TZID=Europe/Rome:20270221T130000
+SUMMARY:PAV NATISONIA – AURORA VOLLEY UDINE (Under 13 femminile CT Udine 
+ — girone B)
+DESCRIPTION:Under 13 femminile CT Udine — girone B\n14ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-b
+END:VEVENT
+END:VCALENDAR

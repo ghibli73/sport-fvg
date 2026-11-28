@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CALCIO SACILE 2026 · Seconda Categoria — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-f5e2cbe6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:CALCIO SACILE 2026 1-2 PRAVIS 1971 (Seconda Categoria — girone A)
+DESCRIPTION:Seconda Categoria — girone A\n1ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-3132fc77@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:CEOLINI 2-1 CALCIO SACILE 2026 (Seconda Categoria — girone A)
+DESCRIPTION:Seconda Categoria — girone A\n2ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-08e83a61@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:CALCIO SACILE 2026 1-0 POLCENIGO BUDOIA (Seconda Categoria — giro
+ ne A)
+DESCRIPTION:Seconda Categoria — girone A\n3ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-6adc641f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:CALCIO SAN LEONARDO 4-3 CALCIO SACILE 2026 (Seconda Categoria — g
+ irone A)
+DESCRIPTION:Seconda Categoria — girone A\n4ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-0aa49f0c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:CALCIO SACILE 2026 4-5 SARONE 1975-2017 (Seconda Categoria — giro
+ ne A)
+DESCRIPTION:Seconda Categoria — girone A\n5ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-395db9d8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:TIEZZO 1954 1-1 CALCIO SACILE 2026 (Seconda Categoria — girone A)
+DESCRIPTION:Seconda Categoria — girone A\n6ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-1754d963@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CALCIO SACILE 2026 2-2 VALVASONE ARZENE S.M. (Seconda Categoria —
+  girone A)
+DESCRIPTION:Seconda Categoria — girone A\n7ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-2d0ea204@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:REAL CASTELLANA 1-1 CALCIO SACILE 2026 (Seconda Categoria — giron
+ e A)
+DESCRIPTION:Seconda Categoria — girone A\n8ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-ec7da7b4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:CALCIO SACILE 2026 1-0 SESTO BAGNAROLA (Seconda Categoria — giron
+ e A)
+DESCRIPTION:Seconda Categoria — girone A\n9ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+END:VCALENDAR

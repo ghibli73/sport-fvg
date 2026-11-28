@@ -1,0 +1,463 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · MUGGIA 1967 · Under 19 Under 19 regionali — girone
+  A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-4dc4d14a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:MUGGIA 1967 2-3 U.FINCANTIERI MONFALCONE (Under 19 regionali — gi
+ rone A)
+DESCRIPTION:Under 19 regionali — girone A\n3ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-1cc7fdb4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:NUOVO PORDENONE 2024 FC 4-1 MUGGIA 1967 (Under 19 regionali — gir
+ one A)
+DESCRIPTION:Under 19 regionali — girone A\n4ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-186761fe@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:MUGGIA 1967 1-2 FIUME VENETO -BANNIA (Under 19 regionali — girone
+  A)
+DESCRIPTION:Under 19 regionali — girone A\n5ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-495f9085@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:REANESE 4-3 MUGGIA 1967 (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n6ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-ffaef2e2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:MUGGIA 1967 6-0 OPICINA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n7ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-d42285d2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:PRO FAGAGNA 2-0 MUGGIA 1967 (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n8ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-9dbbc2ac@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:MUGGIA 1967 0-0 SAN LUIGI CALCIO (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-c14730c7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:MUGGIA 1967 5-0 TOLMEZZO CARNIA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-dc08795e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:RIVE D ARCANO FLAIBANO 3-1 MUGGIA 1967 (Under 19 regionali — giro
+ ne A)
+DESCRIPTION:Under 19 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-c597ba43@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:MUGGIA 1967 2-2 TRIESTE VICTORY ACADEMY (Under 19 regionali — gir
+ one A)
+DESCRIPTION:Under 19 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-dbbabf36@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:PRO GORIZIA 2-2 MUGGIA 1967 (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-64d0420c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:MUGGIA 1967 1-1 A.C. CORDENONESE 3S ASD (Under 19 regionali — gir
+ one A)
+DESCRIPTION:Under 19 regionali — girone A\n14ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-245cf29b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T173000
+DTEND;TZID=Europe/Rome:20261128T193000
+SUMMARY:CORVA – MUGGIA 1967 (Under 19 regionali — girone A)
+LOCATION:Comunale Nuovo Prata Di Pordenone\, Via A.Volta
+DESCRIPTION:Under 19 regionali — girone A\n15ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-5f486c15@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261205T173000
+DTEND;TZID=Europe/Rome:20261205T193000
+SUMMARY:MUGGIA 1967 – SANVITESE (Under 19 regionali — girone A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Under 19 regionali — girone A\n16ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-209755ab@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261208T173000
+DTEND;TZID=Europe/Rome:20261208T193000
+SUMMARY:S.P.A.L.CORDOVADO – MUGGIA 1967 (Under 19 regionali — girone A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Under 19 regionali — girone A\n17ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-292ad47c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261212T173000
+DTEND;TZID=Europe/Rome:20261212T193000
+SUMMARY:MUGGIA 1967 – COMUNALE FONTANAFREDDA (Under 19 regionali — giro
+ ne A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Under 19 regionali — girone A\n18ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-214c0d70@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261219T173000
+DTEND;TZID=Europe/Rome:20261219T193000
+SUMMARY:SANGIORGINA – MUGGIA 1967 (Under 19 regionali — girone A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n19ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-5e675260@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270106T170000
+DTEND;TZID=Europe/Rome:20270106T190000
+SUMMARY:CHIONS – MUGGIA 1967 (Under 19 regionali — girone A)
+LOCATION:Comunale Villotta\, Via Italia
+DESCRIPTION:Under 19 regionali — girone A\n20ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-66246247@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270109T173000
+DTEND;TZID=Europe/Rome:20270109T193000
+SUMMARY:MUGGIA 1967 – POLISPORTIVA TAMAI ASD (Under 19 regionali — giro
+ ne A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Under 19 regionali — girone A\n21ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-82ac4337@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270116T173000
+DTEND;TZID=Europe/Rome:20270116T193000
+SUMMARY:U.FINCANTIERI MONFALCONE – MUGGIA 1967 (Under 19 regionali — gi
+ rone A)
+LOCATION:Comunale Boito Secondario Monfalcone\, Via Boito 53
+DESCRIPTION:Under 19 regionali — girone A\n22ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-61033d37@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270123T173000
+DTEND;TZID=Europe/Rome:20270123T193000
+SUMMARY:MUGGIA 1967 – NUOVO PORDENONE 2024 FC (Under 19 regionali — gir
+ one A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Under 19 regionali — girone A\n23ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-1e53e57f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270130T173000
+DTEND;TZID=Europe/Rome:20270130T193000
+SUMMARY:FIUME VENETO -BANNIA – MUGGIA 1967 (Under 19 regionali — girone
+  A)
+LOCATION:Principale - A Fiume Veneto\, Via Verdi 4
+DESCRIPTION:Under 19 regionali — girone A\n24ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-3c663e42@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270206T173000
+DTEND;TZID=Europe/Rome:20270206T193000
+SUMMARY:MUGGIA 1967 – REANESE (Under 19 regionali — girone A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Under 19 regionali — girone A\n25ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-ed1d5827@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270213T173000
+DTEND;TZID=Europe/Rome:20270213T193000
+SUMMARY:OPICINA – MUGGIA 1967 (Under 19 regionali — girone A)
+LOCATION:Nereo Rocco Opicina\, Via Degli Alpini 128/1
+DESCRIPTION:Under 19 regionali — girone A\n26ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-cbb4503d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270220T173000
+DTEND;TZID=Europe/Rome:20270220T193000
+SUMMARY:MUGGIA 1967 – PRO FAGAGNA (Under 19 regionali — girone A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Under 19 regionali — girone A\n27ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-aa09c849@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270224T190000
+DTEND;TZID=Europe/Rome:20270224T210000
+SUMMARY:SAN LUIGI CALCIO – MUGGIA 1967 (Under 19 regionali — girone A)
+LOCATION:San Luigi Comunale Trieste\, Via Felluga 58
+DESCRIPTION:Under 19 regionali — girone A\n28ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-cb1edce7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270227T173000
+DTEND;TZID=Europe/Rome:20270227T193000
+SUMMARY:TOLMEZZO CARNIA – MUGGIA 1967 (Under 19 regionali — girone A)
+LOCATION:F.Lli Ermano - Comunale B Tolmezzo\, Via Val Di Gorto 28
+DESCRIPTION:Under 19 regionali — girone A\n29ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-b2533fa9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270306T173000
+DTEND;TZID=Europe/Rome:20270306T193000
+SUMMARY:MUGGIA 1967 – RIVE D ARCANO FLAIBANO (Under 19 regionali — giro
+ ne A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Under 19 regionali — girone A\n30ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-8808beee@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270310T180000
+DTEND;TZID=Europe/Rome:20270310T200000
+SUMMARY:TRIESTE VICTORY ACADEMY – MUGGIA 1967 (Under 19 regionali — gir
+ one A)
+LOCATION:Buffalo - Campo A Trieste\, Via Petracco 8
+DESCRIPTION:Under 19 regionali — girone A\n31ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-414845ed@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270313T173000
+DTEND;TZID=Europe/Rome:20270313T193000
+SUMMARY:MUGGIA 1967 – PRO GORIZIA (Under 19 regionali — girone A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Under 19 regionali — girone A\n32ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-4ed33881@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270320T173000
+DTEND;TZID=Europe/Rome:20270320T193000
+SUMMARY:A.C. CORDENONESE 3S ASD – MUGGIA 1967 (Under 19 regionali — gir
+ one A)
+LOCATION:Comunale Cordenons\, Via Braida D'Andrea
+DESCRIPTION:Under 19 regionali — girone A\n33ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-00d49f08@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270403T173000
+DTEND;TZID=Europe/Rome:20270403T193000
+SUMMARY:MUGGIA 1967 – CORVA (Under 19 regionali — girone A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Under 19 regionali — girone A\n34ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-dc7e04a4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270410T173000
+DTEND;TZID=Europe/Rome:20270410T193000
+SUMMARY:SANVITESE – MUGGIA 1967 (Under 19 regionali — girone A)
+LOCATION:Comunale Bagnarola\, Via Vissignano
+DESCRIPTION:Under 19 regionali — girone A\n35ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-443da314@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270417T173000
+DTEND;TZID=Europe/Rome:20270417T193000
+SUMMARY:MUGGIA 1967 – S.P.A.L.CORDOVADO (Under 19 regionali — girone A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Under 19 regionali — girone A\n36ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-23b04905@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270424T180000
+DTEND;TZID=Europe/Rome:20270424T200000
+SUMMARY:COMUNALE FONTANAFREDDA – MUGGIA 1967 (Under 19 regionali — giro
+ ne A)
+LOCATION:Tognon 2 Fontanafredda\, Via Del Parco
+DESCRIPTION:Under 19 regionali — girone A\n37ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-d8249b3b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270501T173000
+DTEND;TZID=Europe/Rome:20270501T193000
+SUMMARY:MUGGIA 1967 – SANGIORGINA (Under 19 regionali — girone A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Under 19 regionali — girone A\n38ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+END:VCALENDAR

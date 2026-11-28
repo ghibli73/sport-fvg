@@ -1,0 +1,299 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Errebi Majano · Divisione Regionale 1 — girone Ove
+ st
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr1-ovest-129da6c2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261002T210000
+DTEND;TZID=Europe/Rome:20261002T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo 60-76 Errebi Majano (Divisione Region
+ ale 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-8a0638c8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261009T210000
+DTEND;TZID=Europe/Rome:20261009T230000
+SUMMARY:Errebi Majano 68-54 BCC Pordenonese e Monsile (Divisione Regionale 
+ 1 — girone Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-138df291@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261017T194500
+DTEND;TZID=Europe/Rome:20261017T214500
+SUMMARY:Feletto Basketball Academy 72-94 Errebi Majano (Divisione Regionale
+  1 — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-2d5d8cf3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261024T190000
+DTEND;TZID=Europe/Rome:20261024T210000
+SUMMARY:Pol. Polisigma 58-79 Errebi Majano (Divisione Regionale 1 — giron
+ e Ovest)
+LOCATION:Palestra Scolastica Scuole Medie\, Zoppola
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-af1ea964@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261030T210000
+DTEND;TZID=Europe/Rome:20261030T230000
+SUMMARY:Errebi Majano 66-71 Libertas Fiume Veneto (Divisione Regionale 1 
+ — girone Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-4740747e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261106T204500
+DTEND;TZID=Europe/Rome:20261106T224500
+SUMMARY:Torre Basket 76-89 Errebi Majano (Divisione Regionale 1 — girone 
+ Ovest)
+LOCATION:Palestra Istituto "Flora"\, Pordenone
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-b6fd010c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261113T210000
+DTEND;TZID=Europe/Rome:20261113T230000
+SUMMARY:Errebi Majano 78-64 C.T.S. (Divisione Regionale 1 — girone Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-8bfd9fb0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T210000
+DTEND;TZID=Europe/Rome:20261120T230000
+SUMMARY:Errebi Majano 90-92 Pol. Lib. Pasian di Prato (Divisione Regionale 
+ 1 — girone Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-80cb887e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T200000
+DTEND;TZID=Europe/Rome:20261128T220000
+SUMMARY:Gemona Basket – Errebi Majano (Divisione Regionale 1 — girone O
+ vest)
+LOCATION:Palestra Ipsia\, Gemona Del Friuli
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-e13a5330@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261204T210000
+DTEND;TZID=Europe/Rome:20261204T230000
+SUMMARY:Errebi Majano – Pol. Casarsa (Divisione Regionale 1 — girone Ov
+ est)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n10ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-5da989c4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261211T204500
+DTEND;TZID=Europe/Rome:20261211T224500
+SUMMARY:Pall. Tolmezzo – Errebi Majano (Divisione Regionale 1 — girone 
+ Ovest)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n11ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-9750e77a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261218T210000
+DTEND;TZID=Europe/Rome:20261218T230000
+SUMMARY:Errebi Majano – Tecno 2 Commerciale Tricesimo (Divisione Regional
+ e 1 — girone Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n12ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-94d31c8b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270108T210000
+DTEND;TZID=Europe/Rome:20270108T230000
+SUMMARY:BCC Pordenonese e Monsile – Errebi Majano (Divisione Regionale 1 
+ — girone Ovest)
+LOCATION:Palazzetto 'Matteo Molent'\, Azzano Decimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n13ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-7f6c03d0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270115T210000
+DTEND;TZID=Europe/Rome:20270115T230000
+SUMMARY:Errebi Majano – Feletto Basketball Academy (Divisione Regionale 1
+  — girone Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n14ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-3b6589e5@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270122T210000
+DTEND;TZID=Europe/Rome:20270122T230000
+SUMMARY:Errebi Majano – Pol. Polisigma (Divisione Regionale 1 — girone 
+ Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n15ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-6e874cc7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270131T180000
+DTEND;TZID=Europe/Rome:20270131T200000
+SUMMARY:Libertas Fiume Veneto – Errebi Majano (Divisione Regionale 1 — 
+ girone Ovest)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n16ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-8e225088@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270205T210000
+DTEND;TZID=Europe/Rome:20270205T230000
+SUMMARY:Errebi Majano – Torre Basket (Divisione Regionale 1 — girone Ov
+ est)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n17ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-eea1fdc5@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270214T180000
+DTEND;TZID=Europe/Rome:20270214T200000
+SUMMARY:C.T.S. – Errebi Majano (Divisione Regionale 1 — girone Ovest)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n18ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-ed887656@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270219T210000
+DTEND;TZID=Europe/Rome:20270219T230000
+SUMMARY:Pol. Lib. Pasian di Prato – Errebi Majano (Divisione Regionale 1 
+ — girone Ovest)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n19ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-047d4556@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270307T180000
+DTEND;TZID=Europe/Rome:20270307T200000
+SUMMARY:Pol. Casarsa – Errebi Majano (Divisione Regionale 1 — girone Ov
+ est)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n21ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-790729c8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270312T210000
+DTEND;TZID=Europe/Rome:20270312T230000
+SUMMARY:Errebi Majano – Pall. Tolmezzo (Divisione Regionale 1 — girone 
+ Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n22ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Longobardi · Under 14 Under 14 Maschile Gold — gir
+ one B (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-gold-b-ce64eb7f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261025T110000
+DTEND;TZID=Europe/Rome:20261025T130000
+SUMMARY:Dinamo Gorizia 60-68 Longobardi (Under 14 Maschile Gold — girone 
+ B (prima fase))
+LOCATION:Centro Stella Matutina\, Gorizia
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-a39c85a7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:Longobardi 42-62 APU Next Gen (Under 14 Maschile Gold — girone B 
+ (prima fase))
+LOCATION:Palestra Sc. Ippolito Nievo\, Remanzacco
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-67e1722b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:Longobardi 77-60 Basketrieste (Under 14 Maschile Gold — girone B 
+ (prima fase))
+LOCATION:Palestra Sc. Ippolito Nievo\, Remanzacco
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-c2846d2e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:Pozzuolo Basket 58-56 Longobardi (Under 14 Maschile Gold — girone
+  B (prima fase))
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-1a948c0d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:Longobardi – Humus Basket (Under 14 Maschile Gold — girone B (p
+ rima fase))
+LOCATION:Palestra Sc. 'Ipolito Nievo'\, Remanzacco
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-d045a9a7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261129T120000
+DTEND;TZID=Europe/Rome:20261129T140000
+SUMMARY:Longobardi – Dinamo Gorizia (Under 14 Maschile Gold — girone B 
+ (prima fase))
+LOCATION:Palestra Sc. 'Ipolito Nievo'\, Remanzacco
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n6ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-9f0117e1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261209T193000
+DTEND;TZID=Europe/Rome:20261209T213000
+SUMMARY:APU Next Gen – Longobardi (Under 14 Maschile Gold — girone B (p
+ rima fase))
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n7ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-69bc0b2f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261216T193000
+DTEND;TZID=Europe/Rome:20261216T213000
+SUMMARY:Basketrieste – Longobardi (Under 14 Maschile Gold — girone B (p
+ rima fase))
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n8ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-a09af2e3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261220T110000
+DTEND;TZID=Europe/Rome:20261220T130000
+SUMMARY:Longobardi – Pozzuolo Basket (Under 14 Maschile Gold — girone B
+  (prima fase))
+LOCATION:Palestra Sc. 'Ipolito Nievo'\, Remanzacco
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n9ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-425160f8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T163000
+DTEND;TZID=Europe/Rome:20270109T183000
+SUMMARY:Humus Basket – Longobardi (Under 14 Maschile Gold — girone B (p
+ rima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n10ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
+END:VEVENT
+END:VCALENDAR

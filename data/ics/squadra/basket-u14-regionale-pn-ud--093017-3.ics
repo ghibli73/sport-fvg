@@ -1,0 +1,314 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · 3 S Basket Cordenons · Under 14 Under 14 Maschile Re
+ gionale — girone PN/UD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-7335fe01@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261030T180000
+DTEND;TZID=Europe/Rome:20261030T200000
+SUMMARY:Libertas Fiume Veneto 133-15 3 S Basket Cordenons (Under 14 Maschil
+ e Regionale — girone PN/UD)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-54d0e8e5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T163000
+DTEND;TZID=Europe/Rome:20261107T183000
+SUMMARY:3 S Basket Cordenons 34-83 Pall. Codroipese (Under 14 Maschile Regi
+ onale — girone PN/UD)
+LOCATION:Palazzetto dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-0219a701@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:Azzano Basket 101-21 3 S Basket Cordenons (Under 14 Maschile Region
+ ale — girone PN/UD)
+LOCATION:Palazzetto Matteo Molent\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-9a06174f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261121T180000
+DTEND;TZID=Europe/Rome:20261121T200000
+SUMMARY:3 S Basket Cordenons – Majanese (Under 14 Maschile Regionale — 
+ girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-62173a8f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:3 S Basket Cordenons – BVO Annone (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-f7d79acd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261206T103000
+DTEND;TZID=Europe/Rome:20261206T123000
+SUMMARY:Gemona Basket – 3 S Basket Cordenons (Under 14 Maschile Regionale
+  — girone PN/UD)
+LOCATION:Palestra Ipsia\, Gemona Del Friuli
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-ff2d0d88@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261213T110000
+DTEND;TZID=Europe/Rome:20261213T130000
+SUMMARY:3 S Basket Cordenons – Collinare Basket (Under 14 Maschile Region
+ ale — girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-e18074db@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270110T103000
+DTEND;TZID=Europe/Rome:20270110T123000
+SUMMARY:New Brugnera Basket – 3 S Basket Cordenons (Under 14 Maschile Reg
+ ionale — girone PN/UD)
+LOCATION:Palasport\, Brugnera
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n9ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-059c3869@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T110000
+DTEND;TZID=Europe/Rome:20270117T130000
+SUMMARY:3 S Basket Cordenons – Torre Basket (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n10ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-c5649c98@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270123T150000
+DTEND;TZID=Europe/Rome:20270123T170000
+SUMMARY:Pol. Casarsa – 3 S Basket Cordenons (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n11ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-5782a71b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270130T150000
+DTEND;TZID=Europe/Rome:20270130T170000
+SUMMARY:3 S Basket Cordenons – Humus Basket (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n12ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-de864799@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270207T093000
+DTEND;TZID=Europe/Rome:20270207T113000
+SUMMARY:Olympia Rivignano – 3 S Basket Cordenons (Under 14 Maschile Regio
+ nale — girone PN/UD)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n13ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-f27ad151@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270213T150000
+DTEND;TZID=Europe/Rome:20270213T170000
+SUMMARY:3 S Basket Cordenons – Libertas Fiume Veneto (Under 14 Maschile R
+ egionale — girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n14ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-c2f52cd1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270220T183000
+DTEND;TZID=Europe/Rome:20270220T203000
+SUMMARY:Pall. Codroipese – 3 S Basket Cordenons (Under 14 Maschile Region
+ ale — girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n15ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-62502b84@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270228T110000
+DTEND;TZID=Europe/Rome:20270228T130000
+SUMMARY:3 S Basket Cordenons – Azzano Basket (Under 14 Maschile Regionale
+  — girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n16ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-55c09752@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270307T110000
+DTEND;TZID=Europe/Rome:20270307T130000
+SUMMARY:Majanese – 3 S Basket Cordenons (Under 14 Maschile Regionale — 
+ girone PN/UD)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n17ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-3b568e6a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270321T110000
+DTEND;TZID=Europe/Rome:20270321T130000
+SUMMARY:3 S Basket Cordenons – Gemona Basket (Under 14 Maschile Regionale
+  — girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n19ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-72754352@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270403T163000
+DTEND;TZID=Europe/Rome:20270403T183000
+SUMMARY:Collinare Basket – 3 S Basket Cordenons (Under 14 Maschile Region
+ ale — girone PN/UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n20ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-befa01b1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270418T110000
+DTEND;TZID=Europe/Rome:20270418T130000
+SUMMARY:3 S Basket Cordenons – New Brugnera Basket (Under 14 Maschile Reg
+ ionale — girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n22ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-707d065b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270424T163000
+DTEND;TZID=Europe/Rome:20270424T183000
+SUMMARY:Torre Basket – 3 S Basket Cordenons (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n23ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-93f4090e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270502T110000
+DTEND;TZID=Europe/Rome:20270502T130000
+SUMMARY:3 S Basket Cordenons – Pol. Casarsa (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n24ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-aeb1a754@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270516T110000
+DTEND;TZID=Europe/Rome:20270516T130000
+SUMMARY:3 S Basket Cordenons – Olympia Rivignano (Under 14 Maschile Regio
+ nale — girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n26ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+END:VCALENDAR

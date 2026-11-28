@@ -1,0 +1,210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · POL. LIBERTAS ASD ACLI · Under 12 Trofeo Esordienti 
+ Under 12 — girone UD B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-dba52c73@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261115T160000
+DTEND;TZID=Europe/Rome:20261115T180000
+SUMMARY:ASD POL LIB. PASIAN DI PRATO – POL. LIBERTAS ASD ACLI (Trofeo Eso
+ rdienti Under 12 — girone UD B)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-6cace9ef@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261124T150000
+DTEND;TZID=Europe/Rome:20261124T170000
+SUMMARY:POL. LIBERTAS ASD ACLI – FELETTO (Trofeo Esordienti Under 12 — 
+ girone UD B)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-7862bd7f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261201T150000
+DTEND;TZID=Europe/Rome:20261201T170000
+SUMMARY:POL. LIBERTAS ASD ACLI – POL. DIL. TRICESIMO (Trofeo Esordienti U
+ nder 12 — girone UD B)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-627d3d98@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261214T174500
+DTEND;TZID=Europe/Rome:20261214T194500
+SUMMARY:UDINE BASKET CLUB ASD – POL. LIBERTAS ASD ACLI (Trofeo Esordienti
+  Under 12 — girone UD B)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-f6944045@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270119T171500
+DTEND;TZID=Europe/Rome:20270119T191500
+SUMMARY:POL. LIBERTAS ASD ACLI – A.DIL.PALL. CODROIPESE (Trofeo Esordient
+ i Under 12 — girone UD B)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-14652cdf@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270126T163000
+DTEND;TZID=Europe/Rome:20270126T183000
+SUMMARY:APD PRINCIPE – POL. LIBERTAS ASD ACLI (Trofeo Esordienti Under 12
+  — girone UD B)
+LOCATION:Palestra Scuola Media Non Om\, Pagnacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-0f1f9945@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270202T171500
+DTEND;TZID=Europe/Rome:20270202T191500
+SUMMARY:POL. LIBERTAS ASD ACLI – A.S.DIL. LIGNANO BASKET (Trofeo Esordien
+ ti Under 12 — girone UD B)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-85402efd@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270223T171500
+DTEND;TZID=Europe/Rome:20270223T191500
+SUMMARY:POL. LIBERTAS ASD ACLI – ASD POL LIB. PASIAN DI PRATO (Trofeo Eso
+ rdienti Under 12 — girone UD B)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-c472d8bb@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270302T170000
+DTEND;TZID=Europe/Rome:20270302T190000
+SUMMARY:FELETTO – POL. LIBERTAS ASD ACLI (Trofeo Esordienti Under 12 — 
+ girone UD B)
+LOCATION:Pal. Sc. Media Feletto Umbeto\, Tavagnacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-2923cf69@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270308T180000
+DTEND;TZID=Europe/Rome:20270308T200000
+SUMMARY:POL. DIL. TRICESIMO – POL. LIBERTAS ASD ACLI (Trofeo Esordienti U
+ nder 12 — girone UD B)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-d5f5e3e2@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270316T171500
+DTEND;TZID=Europe/Rome:20270316T191500
+SUMMARY:POL. LIBERTAS ASD ACLI – UDINE BASKET CLUB ASD (Trofeo Esordienti
+  Under 12 — girone UD B)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n11ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-5ea3a391@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270411T093000
+DTEND;TZID=Europe/Rome:20270411T113000
+SUMMARY:A.DIL.PALL. CODROIPESE – POL. LIBERTAS ASD ACLI (Trofeo Esordient
+ i Under 12 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n12ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-650fd6cd@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270420T170000
+DTEND;TZID=Europe/Rome:20270420T190000
+SUMMARY:POL. LIBERTAS ASD ACLI – APD PRINCIPE (Trofeo Esordienti Under 12
+  — girone UD B)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n13ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-c473f5e4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270507T164500
+DTEND;TZID=Europe/Rome:20270507T184500
+SUMMARY:A.S.DIL. LIGNANO BASKET – POL. LIBERTAS ASD ACLI (Trofeo Esordien
+ ti Under 12 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n14ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+END:VCALENDAR

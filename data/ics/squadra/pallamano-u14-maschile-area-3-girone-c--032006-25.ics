@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PALLAMANO TRIESTE 1970 SSD · Under 14 Under 14 masch
+ ile Area 3 — girone C
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallamano-u14-maschile-area-3-girone-c-4f015dea@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:PALLAMANO MUSILE 2006 31-46 PALLAMANO TRIESTE 1970 SSD (Under 14 ma
+ schile Area 3 — girone C)
+LOCATION:Musile di Piave
+DESCRIPTION:Under 14 maschile Area 3 — girone C\n1ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ pallamano-u14-maschile-area-3-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-u14-maschile-area-3-g
+ irone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-u14-maschile-area-3-girone-c-13535307@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261118T170000
+DTEND;TZID=Europe/Rome:20261118T190000
+SUMMARY:PALLAMANO TRIESTE 1970 SSD 33-26 PALLAMANO ODERZO (Under 14 maschil
+ e Area 3 — girone C)
+LOCATION:Trieste
+DESCRIPTION:Under 14 maschile Area 3 — girone C\n2ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ pallamano-u14-maschile-area-3-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-u14-maschile-area-3-g
+ irone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-u14-maschile-area-3-girone-c-c124aeb0@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261125T170000
+DTEND;TZID=Europe/Rome:20261125T190000
+SUMMARY:PALLAMANO TRIESTE 1970 SSD – FIREX PALLAMANO BELLUNO (Under 14 ma
+ schile Area 3 — girone C)
+LOCATION:Trieste
+DESCRIPTION:Under 14 maschile Area 3 — girone C\n3ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ pallamano-u14-maschile-area-3-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-u14-maschile-area-3-g
+ irone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-u14-maschile-area-3-girone-c-50446494@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261205T163000
+DTEND;TZID=Europe/Rome:20261205T183000
+SUMMARY:BANCA DI UDINE JOLLY CAMPOFORMIDO – PALLAMANO TRIESTE 1970 SSD (U
+ nder 14 maschile Area 3 — girone C)
+LOCATION:Campoformido
+DESCRIPTION:Under 14 maschile Area 3 — girone C\n4ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ pallamano-u14-maschile-area-3-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-u14-maschile-area-3-g
+ irone-c
+END:VEVENT
+END:VCALENDAR

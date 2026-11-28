@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Fiorentina Baseball e Softball · Serie A Silver base
+ ball — girone B (regular season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-559d5c4b@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:Fiorentina Baseball e Softball 11-12 IS Copy Junior Alpina (Serie A
+  Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n8ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-3b077400@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:Fiorentina Baseball e Softball 6-5 IS Copy Junior Alpina (Serie A S
+ ilver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n8ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-2a31ca11@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+SUMMARY:Gereon Engineering NBP Ronchi 4-3 Fiorentina Baseball e Softball (S
+ erie A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n9ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-8ff86e76@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+SUMMARY:Gereon Engineering NBP Ronchi 9-4 Fiorentina Baseball e Softball (S
+ erie A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n9ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-379efdfe@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+SUMMARY:Alfa Sistemi Buttrio 6-8 Fiorentina Baseball e Softball (Serie A Si
+ lver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n10ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-561ed23f@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+SUMMARY:Alfa Sistemi Buttrio 2-0 Fiorentina Baseball e Softball (Serie A Si
+ lver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n10ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-5909f1bf@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:IS Copy Junior Alpina 7-2 Fiorentina Baseball e Softball (Serie A S
+ ilver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n19ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-72485b74@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:IS Copy Junior Alpina 10-4 Fiorentina Baseball e Softball (Serie A 
+ Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n19ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-85d72152@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:Fiorentina Baseball e Softball 2-5 Gereon Engineering NBP Ronchi (S
+ erie A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n20ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-85d72152@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:Fiorentina Baseball e Softball 5-4 Gereon Engineering NBP Ronchi (S
+ erie A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n20ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-a6f26b6a@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Fiorentina Baseball e Softball 4-5 Alfa Sistemi Buttrio (Serie A Si
+ lver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n21ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-dde7badb@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Fiorentina Baseball e Softball 14-7 Alfa Sistemi Buttrio (Serie A S
+ ilver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n21ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+END:VCALENDAR

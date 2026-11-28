@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · UISP Arcobaleno · Seconda squadra Serie B maschile A
+ rea 3 (Veneto–FVG)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-17509a86@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261010T190000
+DTEND;TZID=Europe/Rome:20261010T210000
+SUMMARY:UISP Arcobaleno 27-20 Pallamano Vicenza (Serie B maschile Area 3 (V
+ eneto–FVG))
+LOCATION:Mirano
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-0d44ef11@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261024T190000
+DTEND;TZID=Europe/Rome:20261024T210000
+SUMMARY:UISP Arcobaleno 26-30 San Vito Marano (Serie B maschile Area 3 (Ven
+ eto–FVG))
+LOCATION:Mirano
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-5c206c3e@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261031T180000
+DTEND;TZID=Europe/Rome:20261031T200000
+SUMMARY:Pallamano Trieste 1970 29-21 UISP Arcobaleno (Serie B maschile Area
+  3 (Veneto–FVG))
+LOCATION:Trieste
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-a74add25@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261114T193000
+DTEND;TZID=Europe/Rome:20261114T213000
+SUMMARY:UISP Arcobaleno 24-17 Pallamano Musile 2006 (Serie B maschile Area 
+ 3 (Veneto–FVG))
+LOCATION:Mirano
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-3d965cdf@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261122T183000
+DTEND;TZID=Europe/Rome:20261122T203000
+SUMMARY:Handball Vicentina 23-27 UISP Arcobaleno (Serie B maschile Area 3 (
+ Veneto–FVG))
+LOCATION:Camisano Vicentino
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-91b6cfd3@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261128T193000
+DTEND;TZID=Europe/Rome:20261128T213000
+SUMMARY:Jolly Campoformido – UISP Arcobaleno (Serie B maschile Area 3 (Ve
+ neto–FVG))
+LOCATION:Campoformido
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+END:VCALENDAR

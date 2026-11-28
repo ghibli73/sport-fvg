@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · FAROUT · Under 17 Under 17 femminile CT Pordenone 
+ — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-043e4493@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261101T150000
+DTEND;TZID=Europe/Rome:20261101T170000
+SUMMARY:AZ AGR. PANCIERA ZOPPOLA 3-1 FAROUT (Under 17 femminile CT Pordenon
+ e — girone B)
+LOCATION:Palestra Scuole Medie\, ZOPPOLA PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-47c55d28@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:FAROUT 3-0 MANIAGO VOLLEY (Under 17 femminile CT Pordenone — giro
+ ne B)
+LOCATION:Palestra G. Grizzo\, CORDENONS PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-d9d49cba@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:FAROUT 3-0 SAN QUIRINO UNION VOLLEY (Under 17 femminile CT Pordenon
+ e — girone B)
+LOCATION:Palestra G. Grizzo\, Villa D'Arco Cordenons PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-67a1f9b8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:GSD FAVRIA SAN VITO AL T. 0-3 FAROUT (Under 17 femminile CT Pordeno
+ ne — girone B)
+LOCATION:Palestra Liceo Scientifico\, San Vito al Tagliamento (PN)
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-62cba329@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:FAROUT – PALLAVOLO BRUGNERA 96 (Under 17 femminile CT Pordenone 
+ — girone B)
+LOCATION:Palestra G. Grizzo\, Via G. Grizzo\, Villa D'Arco\, CORDENONS PN
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-a3b2a7ef@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261202T200000
+DTEND;TZID=Europe/Rome:20261202T220000
+SUMMARY:CFV - TENUTA POLVARO – FAROUT (Under 17 femminile CT Pordenone 
+ — girone B)
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-pn-girone-b-4587dad9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T110000
+DTEND;TZID=Europe/Rome:20261213T130000
+SUMMARY:FAROUT – PORDENONE VOLLEY (Under 17 femminile CT Pordenone — gi
+ rone B)
+DESCRIPTION:Under 17 femminile CT Pordenone — girone B\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-17-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-pn
+ -girone-b
+END:VEVENT
+END:VCALENDAR

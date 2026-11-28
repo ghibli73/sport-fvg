@@ -1,0 +1,243 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CENTRO COSELLI U15 · Under 15 Under 15 femminile CT 
+ Trieste-Gorizia — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-667f4418@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261024T170000
+DTEND;TZID=Europe/Rome:20261024T190000
+SUMMARY:CENTRO COSELLI U15 2-3 SOCA PAOLA 2.0 (Under 15 femminile CT Triest
+ e-Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-ac34ede6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T110000
+DTEND;TZID=Europe/Rome:20261031T130000
+SUMMARY:CENTRO COSELLI U15 3-0 UNICLIMA TSV CROSS (Under 15 femminile CT Tr
+ ieste-Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-450b499b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T153000
+DTEND;TZID=Europe/Rome:20261107T173000
+SUMMARY:TIGERS PALLAVOLO RONCHI 1-3 CENTRO COSELLI U15 (Under 15 femminile 
+ CT Trieste-Gorizia — girone A)
+LOCATION:Palestra Polifunzionale\, VERMEGLIANO RONCHI DEI LEGIONARI GO
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-3853d389@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T170000
+DTEND;TZID=Europe/Rome:20261114T190000
+SUMMARY:CENTRO COSELLI U15 3-1 ASD MOSSA (Under 15 femminile CT Trieste-Gor
+ izia — girone A)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-ae4be0ad@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:PALLAVOLO ALTURA 2-3 CENTRO COSELLI U15 (Under 15 femminile CT Trie
+ ste-Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-efb5a5e9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261126T181500
+DTEND;TZID=Europe/Rome:20261126T201500
+SUMMARY:CENTRO COSELLI U15 3-0 ASD LE VOLPI (Under 15 femminile CT Trieste-
+ Gorizia — girone A)
+LOCATION:Palestra Scuola Elementare Morpurgo\, Scala Campi Elisi 4\, TRIEST
+ E TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-43f9455a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261206T103000
+DTEND;TZID=Europe/Rome:20261206T123000
+SUMMARY:A.S.D.TORRIANA – CENTRO COSELLI U15 (Under 15 femminile CT Triest
+ e-Gorizia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-99436442@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T110000
+DTEND;TZID=Europe/Rome:20261213T130000
+SUMMARY:VOLLEY CLUB TRIESTE – CENTRO COSELLI U15 (Under 15 femminile CT T
+ rieste-Gorizia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n9ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-2dd7b5e3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T103000
+DTEND;TZID=Europe/Rome:20270110T123000
+SUMMARY:SOCA PAOLA 2.0 – CENTRO COSELLI U15 (Under 15 femminile CT Triest
+ e-Gorizia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n11ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-892f8f26@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270116T153000
+DTEND;TZID=Europe/Rome:20270116T173000
+SUMMARY:UNICLIMA TSV CROSS – CENTRO COSELLI U15 (Under 15 femminile CT Tr
+ ieste-Gorizia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n12ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-6e056126@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T170000
+DTEND;TZID=Europe/Rome:20270123T190000
+SUMMARY:CENTRO COSELLI U15 – TIGERS PALLAVOLO RONCHI (Under 15 femminile 
+ CT Trieste-Gorizia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n13ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-55c288ce@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T170000
+DTEND;TZID=Europe/Rome:20270130T190000
+SUMMARY:ASD MOSSA – CENTRO COSELLI U15 (Under 15 femminile CT Trieste-Gor
+ izia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n14ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-e5eab79f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T170000
+DTEND;TZID=Europe/Rome:20270213T190000
+SUMMARY:CENTRO COSELLI U15 – PALLAVOLO ALTURA (Under 15 femminile CT Trie
+ ste-Gorizia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n15ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-a369eb84@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270220T153000
+DTEND;TZID=Europe/Rome:20270220T173000
+SUMMARY:ASD LE VOLPI – CENTRO COSELLI U15 (Under 15 femminile CT Trieste-
+ Gorizia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n16ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-c1070b7d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270227T170000
+DTEND;TZID=Europe/Rome:20270227T190000
+SUMMARY:CENTRO COSELLI U15 – A.S.D.TORRIANA (Under 15 femminile CT Triest
+ e-Gorizia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n17ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-a-3a9b935d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270306T170000
+DTEND;TZID=Europe/Rome:20270306T190000
+SUMMARY:CENTRO COSELLI U15 – VOLLEY CLUB TRIESTE (Under 15 femminile CT T
+ rieste-Gorizia — girone A)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone A\n18ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-a
+END:VEVENT
+END:VCALENDAR

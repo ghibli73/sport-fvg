@@ -1,0 +1,267 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PROJECTVOLLEY SANGIORGINA · Seconda Divisione femmin
+ ile CT Udine — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-6ea246e1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261023T203000
+DTEND;TZID=Europe/Rome:20261023T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA 0-3 ASD AIELLO VOLLEY (Seconda Divisione 
+ femminile CT Udine — girone B)
+LOCATION:Palazzetto dello Sport\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n1ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-a2722806@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261103T200000
+DTEND;TZID=Europe/Rome:20261103T220000
+SUMMARY:SPORTING CLUB 3-0 PROJECTVOLLEY SANGIORGINA (Seconda Divisione femm
+ inile CT Udine — girone B)
+LOCATION:Palasport (principale)\, CERVIGNANO DEL FRIULI UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-af8022e3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA 2-3 HORIZON BEERÒ (Seconda Divisione fem
+ minile CT Udine — girone B)
+LOCATION:Palazzetto dello Sport\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-b6680411@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261119T193000
+DTEND;TZID=Europe/Rome:20261119T213000
+SUMMARY:VOLLEY TALMASSONS 3-0 PROJECTVOLLEY SANGIORGINA (Seconda Divisione 
+ femminile CT Udine — girone B)
+LOCATION:Palestra Scuole Medie\, TALMASSONS UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-8a5fdb80@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T173000
+DTEND;TZID=Europe/Rome:20261129T193000
+SUMMARY:PROJECTVOLLEY SANGIORGINA – APD CJASSA (Seconda Divisione femmini
+ le CT Udine — girone B)
+LOCATION:Palazzetto dello Sport\, Via Palladio\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-46ea8600@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:A.S.D. FUTURA PALMANOVA – PROJECTVOLLEY SANGIORGINA (Seconda Divi
+ sione femminile CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n6ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-d2f2c480@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T180000
+DTEND;TZID=Europe/Rome:20261213T200000
+SUMMARY:L.W.V.OTTOGALLI LATISANA – PROJECTVOLLEY SANGIORGINA (Seconda Div
+ isione femminile CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n7ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-da493f26@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261216T200000
+DTEND;TZID=Europe/Rome:20261216T220000
+SUMMARY:VILLADIES – PROJECTVOLLEY SANGIORGINA (Seconda Divisione femminil
+ e CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n8ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-7c642f8f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270115T203000
+DTEND;TZID=Europe/Rome:20270115T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA – LIBERTAS GONARS (Seconda Divisione fe
+ mminile CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n9ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-0cadc017@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270122T203000
+DTEND;TZID=Europe/Rome:20270122T223000
+SUMMARY:ASD AIELLO VOLLEY – PROJECTVOLLEY SANGIORGINA (Seconda Divisione 
+ femminile CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n10ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-50687140@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270129T203000
+DTEND;TZID=Europe/Rome:20270129T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA – SPORTING CLUB (Seconda Divisione femm
+ inile CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n11ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-20bd937e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270207T180000
+DTEND;TZID=Europe/Rome:20270207T200000
+SUMMARY:HORIZON BEERÒ – PROJECTVOLLEY SANGIORGINA (Seconda Divisione fem
+ minile CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n12ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-35d5b99b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270212T203000
+DTEND;TZID=Europe/Rome:20270212T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA – VOLLEY TALMASSONS (Seconda Divisione 
+ femminile CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n13ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-4ca7769a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270218T210000
+DTEND;TZID=Europe/Rome:20270218T230000
+SUMMARY:APD CJASSA – PROJECTVOLLEY SANGIORGINA (Seconda Divisione femmini
+ le CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n14ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-15fd46de@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270226T203000
+DTEND;TZID=Europe/Rome:20270226T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA – A.S.D. FUTURA PALMANOVA (Seconda Divi
+ sione femminile CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n15ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-e3cd4b02@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270305T203000
+DTEND;TZID=Europe/Rome:20270305T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA – L.W.V.OTTOGALLI LATISANA (Seconda Div
+ isione femminile CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n16ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-0f408c68@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270312T203000
+DTEND;TZID=Europe/Rome:20270312T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA – VILLADIES (Seconda Divisione femminil
+ e CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n17ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-b-a142bf4c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270319T210000
+DTEND;TZID=Europe/Rome:20270319T230000
+SUMMARY:LIBERTAS GONARS – PROJECTVOLLEY SANGIORGINA (Seconda Divisione fe
+ mminile CT Udine — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone B\n18ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-b
+END:VEVENT
+END:VCALENDAR

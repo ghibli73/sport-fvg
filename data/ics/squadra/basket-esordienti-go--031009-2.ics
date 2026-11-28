@@ -1,0 +1,236 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PALLACANESTRO GRADO · Under 12 Trofeo Esordienti Und
+ er 12 — girone GO
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-go-b9ea6ce0@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261117T181500
+DTEND;TZID=Europe/Rome:20261117T201500
+SUMMARY:PALLACANESTRO GRADO – ALBA CORMONS (Trofeo Esordienti Under 12 
+ — girone GO)
+LOCATION:Palasport Della Sacca Dei More\, Grado
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-bda2beb6@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261125T174500
+DTEND;TZID=Europe/Rome:20261125T194500
+SUMMARY:LEONCINO F – PALLACANESTRO GRADO (Trofeo Esordienti Under 12 — 
+ girone GO)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-862e6d8a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261201T181500
+DTEND;TZID=Europe/Rome:20261201T201500
+SUMMARY:PALLACANESTRO GRADO – DINAMO GORIZIA 2016 (Trofeo Esordienti Unde
+ r 12 — girone GO)
+LOCATION:Palasport Della Sacca Dei More\, Grado
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-f4c5baae@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261207T173000
+DTEND;TZID=Europe/Rome:20261207T193000
+SUMMARY:BABY FALCONS A.S.D. – PALLACANESTRO GRADO (Trofeo Esordienti Unde
+ r 12 — girone GO)
+LOCATION:Palestra Comunale\, Staranzano
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-76498044@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261215T181500
+DTEND;TZID=Europe/Rome:20261215T201500
+SUMMARY:PALLACANESTRO GRADO – LEONCINO M (Trofeo Esordienti Under 12 — 
+ girone GO)
+LOCATION:Palasport Della Sacca Dei More\, Grado
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-ae8651ca@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270115T170000
+DTEND;TZID=Europe/Rome:20270115T190000
+SUMMARY:ASD NUOVA BASKET ISONZO – PALLACANESTRO GRADO (Trofeo Esordienti 
+ Under 12 — girone GO)
+LOCATION:Palamarson\, Turriaco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-210cd02c@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270128T180000
+DTEND;TZID=Europe/Rome:20270128T200000
+SUMMARY:DINAMO GORIZIA – PALLACANESTRO GRADO (Trofeo Esordienti Under 12 
+ — girone GO)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-a794cc11@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270202T181500
+DTEND;TZID=Europe/Rome:20270202T201500
+SUMMARY:PALLACANESTRO GRADO – Ronchi Basket Club (Trofeo Esordienti Under
+  12 — girone GO)
+LOCATION:Palasport Della Sacca Dei More\, Grado
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-302a7296@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270219T173000
+DTEND;TZID=Europe/Rome:20270219T193000
+SUMMARY:ALBA CORMONS – PALLACANESTRO GRADO (Trofeo Esordienti Under 12 
+ — girone GO)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n10ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-97f6331b@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270223T181500
+DTEND;TZID=Europe/Rome:20270223T201500
+SUMMARY:PALLACANESTRO GRADO – LEONCINO F (Trofeo Esordienti Under 12 — 
+ girone GO)
+LOCATION:Palasport Della Sacca Dei More\, Grado
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n11ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-ba8b5804@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270306T110000
+DTEND;TZID=Europe/Rome:20270306T130000
+SUMMARY:DINAMO GORIZIA 2016 – PALLACANESTRO GRADO (Trofeo Esordienti Unde
+ r 12 — girone GO)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n12ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-db04b9c2@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270309T181500
+DTEND;TZID=Europe/Rome:20270309T201500
+SUMMARY:PALLACANESTRO GRADO – BABY FALCONS A.S.D. (Trofeo Esordienti Unde
+ r 12 — girone GO)
+LOCATION:Palasport Della Sacca Dei More\, Grado
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n13ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-36905620@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270317T174500
+DTEND;TZID=Europe/Rome:20270317T194500
+SUMMARY:LEONCINO M – PALLACANESTRO GRADO (Trofeo Esordienti Under 12 — 
+ girone GO)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n14ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-980dca2f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270323T181500
+DTEND;TZID=Europe/Rome:20270323T201500
+SUMMARY:PALLACANESTRO GRADO – ASD NUOVA BASKET ISONZO (Trofeo Esordienti 
+ Under 12 — girone GO)
+LOCATION:Palasport Della Sacca Dei More\, Grado
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n15ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-b65cc8f7@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270406T181500
+DTEND;TZID=Europe/Rome:20270406T201500
+SUMMARY:PALLACANESTRO GRADO – DINAMO GORIZIA (Trofeo Esordienti Under 12 
+ — girone GO)
+LOCATION:Palasport Della Sacca Dei More\, Grado
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n17ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-b7d938d5@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270414T174500
+DTEND;TZID=Europe/Rome:20270414T194500
+SUMMARY:Ronchi Basket Club – PALLACANESTRO GRADO (Trofeo Esordienti Under
+  12 — girone GO)
+LOCATION:Palestra Polifunzionale 'O. Pe\, Ronchi Dei Legionari
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n18ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · GEKO GOLD STARANZANO · Under 19 Under 19 femminile C
+ T Trieste-Gorizia — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-cef59b7b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261111T203000
+DTEND;TZID=Europe/Rome:20261111T223000
+SUMMARY:ASD OFP AZZURRA RDR ARIA 3-0 GEKO GOLD STARANZANO (Under 19 femmini
+ le CT Trieste-Gorizia — girone A)
+LOCATION:Palestra Don Marzari\, TRIESTE TS
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-2c42886f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261117T203000
+DTEND;TZID=Europe/Rome:20261117T223000
+SUMMARY:GEKO GOLD STARANZANO 3-0 UNICLIMA TSV (Under 19 femminile CT Triest
+ e-Gorizia — girone A)
+LOCATION:Palestra Scuole Medie\, STARANZANO GO
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-6b9aed52@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:GEKO GOLD STARANZANO – FARRAVOLO (Under 19 femminile CT Trieste-G
+ orizia — girone A)
+LOCATION:Palestra Scuole Medie\, Piazzale Unicef 1\, STARANZANO GO
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-af7016de@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261202T203000
+DTEND;TZID=Europe/Rome:20261202T223000
+SUMMARY:GEKO GOLD STARANZANO – CENTRO COSELLI U19X (Under 19 femminile CT
+  Trieste-Gorizia — girone A)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-9a3a6d3d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261211T210000
+DTEND;TZID=Europe/Rome:20261211T230000
+SUMMARY:ZALET SLOGA U19 – GEKO GOLD STARANZANO (Under 19 femminile CT Tri
+ este-Gorizia — girone A)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-2af23eb4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261218T203000
+DTEND;TZID=Europe/Rome:20261218T223000
+SUMMARY:GEKO GOLD STARANZANO – ASD OFP AZZURRA RDR ARIA (Under 19 femmini
+ le CT Trieste-Gorizia — girone A)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-81764b21@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T180000
+DTEND;TZID=Europe/Rome:20270110T200000
+SUMMARY:UNICLIMA TSV – GEKO GOLD STARANZANO (Under 19 femminile CT Triest
+ e-Gorizia — girone A)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-d4e8b040@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270112T200000
+DTEND;TZID=Europe/Rome:20270112T220000
+SUMMARY:FARRAVOLO – GEKO GOLD STARANZANO (Under 19 femminile CT Trieste-G
+ orizia — girone A)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-124dbac3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270124T170000
+DTEND;TZID=Europe/Rome:20270124T190000
+SUMMARY:CENTRO COSELLI U19X – GEKO GOLD STARANZANO (Under 19 femminile CT
+  Trieste-Gorizia — girone A)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n9ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-a-7fb8954c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270131T180000
+DTEND;TZID=Europe/Rome:20270131T200000
+SUMMARY:GEKO GOLD STARANZANO – ZALET SLOGA U19 (Under 19 femminile CT Tri
+ este-Gorizia — girone A)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone A\n10ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-a
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,136 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ASPA PALLAVOLO ARTEGNA · Under 14 Under 14 femminile
+  CT Udine — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-509d8a68@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261023T173000
+DTEND;TZID=Europe/Rome:20261023T193000
+SUMMARY:ASPA PALLAVOLO ARTEGNA 3-0 CLUB AURORA VOLLEY UDINE (Under 14 femmi
+ nile CT Udine — girone B)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-4719ba89@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:BLANC RIZZI UDINE FTV 2-3 ASPA PALLAVOLO ARTEGNA (Under 14 femminil
+ e CT Udine — girone B)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, UDINE UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-cf421ad3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:FVG VOLLEY ACADEMY 3-0 ASPA PALLAVOLO ARTEGNA (Under 14 femminile C
+ T Udine — girone B)
+LOCATION:Palestra Scuole Medie\, LESTIZZA UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-51918475@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261120T173000
+DTEND;TZID=Europe/Rome:20261120T193000
+SUMMARY:ASPA PALLAVOLO ARTEGNA 0-3 LIBERTAS MARTIGNACCO (Under 14 femminile
+  CT Udine — girone B)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-2a401150@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261130T190000
+DTEND;TZID=Europe/Rome:20261130T210000
+SUMMARY:MAJANESE VOLLEY – ASPA PALLAVOLO ARTEGNA (Under 14 femminile CT U
+ dine — girone B)
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-062fa716@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261204T183000
+DTEND;TZID=Europe/Rome:20261204T203000
+SUMMARY:ASPA PALLAVOLO ARTEGNA – VOLLEY BALL CARNIA (Under 14 femminile C
+ T Udine — girone B)
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-11dd96dd@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T173000
+DTEND;TZID=Europe/Rome:20261212T193000
+SUMMARY:CSI TARCENTO – ASPA PALLAVOLO ARTEGNA (Under 14 femminile CT Udin
+ e — girone B)
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-ud-girone-b-95ea4047@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261218T180000
+DTEND;TZID=Europe/Rome:20261218T200000
+SUMMARY:ASPA PALLAVOLO ARTEGNA – APD SAN LEONARDO (Under 14 femminile CT 
+ Udine — girone B)
+DESCRIPTION:Under 14 femminile CT Udine — girone B\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-14-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ud
+ -girone-b
+END:VEVENT
+END:VCALENDAR

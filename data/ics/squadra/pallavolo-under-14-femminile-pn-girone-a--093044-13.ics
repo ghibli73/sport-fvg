@@ -1,0 +1,150 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · AQUILA SPILIMBERGO · Under 14 Under 14 femminile CT 
+ Pordenone — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-a44a2f5b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261025T103000
+DTEND;TZID=Europe/Rome:20261025T123000
+SUMMARY:MANIAGO VOLLEY 0-3 AQUILA SPILIMBERGO (Under 14 femminile CT Porden
+ one — girone A)
+LOCATION:Palasport\, Maniago (PN)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-519a5459@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261030T200000
+DTEND;TZID=Europe/Rome:20261030T220000
+SUMMARY:AQUILA SPILIMBERGO 3-1 GSD FAVRIA SAN VITO AL T. (Under 14 femminil
+ e CT Pordenone — girone A)
+LOCATION:Palestra Scuole Medie\, SPILIMBERGO PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-43a03bef@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T150000
+DTEND;TZID=Europe/Rome:20261108T170000
+SUMMARY:AUTOFFICINA CORDENONESE 0-3 AQUILA SPILIMBERGO (Under 14 femminile 
+ CT Pordenone — girone A)
+LOCATION:Palasport\, CORDENONS PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-ec438c85@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T153000
+DTEND;TZID=Europe/Rome:20261121T173000
+SUMMARY:RISTORANTE SAN GIORGIO 0-3 AQUILA SPILIMBERGO (Under 14 femminile C
+ T Pordenone — girone A)
+LOCATION:Palasport\, Aviano (PN)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-35632ded@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T160000
+DTEND;TZID=Europe/Rome:20261129T180000
+SUMMARY:AQUILA SPILIMBERGO – PORDENONE VOLLEY (Under 14 femminile CT Pord
+ enone — girone A)
+LOCATION:Palestra Scuole Medie\, Via Mazzini\, SPILIMBERGO PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-79775f31@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T150000
+DTEND;TZID=Europe/Rome:20261205T170000
+SUMMARY:ALTA RESA – AQUILA SPILIMBERGO (Under 14 femminile CT Pordenone 
+ — girone A)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-3963c3eb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T103000
+DTEND;TZID=Europe/Rome:20261213T123000
+SUMMARY:AQUILA SPILIMBERGO – AZ AG TEDESCO TAMARA ZOPP (Under 14 femminil
+ e CT Pordenone — girone A)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n8ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-7964628a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T103000
+DTEND;TZID=Europe/Rome:20261220T123000
+SUMMARY:A.P. TRAVESIO – AQUILA SPILIMBERGO (Under 14 femminile CT Pordeno
+ ne — girone A)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n9ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-a-6c340981@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261221T200000
+DTEND;TZID=Europe/Rome:20261221T220000
+SUMMARY:AQUILA SPILIMBERGO – CFV - DAP (Under 14 femminile CT Pordenone 
+ — girone A)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone A\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-a
+END:VEVENT
+END:VCALENDAR

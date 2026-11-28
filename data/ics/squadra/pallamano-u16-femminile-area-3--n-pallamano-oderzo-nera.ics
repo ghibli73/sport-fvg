@@ -1,0 +1,93 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PALLAMANO ODERZO NERA · Under 16 Under 16 femminile 
+ Area 3 — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallamano-u16-femminile-area-3-98228339@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261024T170000
+DTEND;TZID=Europe/Rome:20261024T190000
+SUMMARY:PALLAMANO ODERZO NERA 26-23 OLIMPICA DOSSOBUONO (Under 16 femminile
+  Area 3 — girone unico)
+LOCATION:Oderzo
+DESCRIPTION:Under 16 femminile Area 3 — girone unico\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-pallamano-u16-femminile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-u16-femminile-area-3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-u16-femminile-area-3-31bb1501@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:U16 CUS UDINE 24-23 PALLAMANO ODERZO NERA (Under 16 femminile Area 
+ 3 — girone unico)
+LOCATION:Udine
+DESCRIPTION:Under 16 femminile Area 3 — girone unico\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-pallamano-u16-femminile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-u16-femminile-area-3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-u16-femminile-area-3-09ae3bdf@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261115T100000
+DTEND;TZID=Europe/Rome:20261115T120000
+SUMMARY:PALLAMANO ODERZO NERA 27-33 ALI' MESTRINO (Under 16 femminile Area 
+ 3 — girone unico)
+LOCATION:Oderzo
+DESCRIPTION:Under 16 femminile Area 3 — girone unico\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-pallamano-u16-femminile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-u16-femminile-area-3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-u16-femminile-area-3-5bc20a76@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261122T100000
+DTEND;TZID=Europe/Rome:20261122T120000
+SUMMARY:ASD PALLAMANO GUERRIERE MALO 16-31 PALLAMANO ODERZO NERA (Under 16 
+ femminile Area 3 — girone unico)
+LOCATION:Malo
+DESCRIPTION:Under 16 femminile Area 3 — girone unico\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-pallamano-u16-femminile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-u16-femminile-area-3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-u16-femminile-area-3-37f8ebc5@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:PALLAMANO ODERZO NERA – PALLAMANO ODERZO GIALLA (Under 16 femmini
+ le Area 3 — girone unico)
+LOCATION:Oderzo
+DESCRIPTION:Under 16 femminile Area 3 — girone unico\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-pallamano-u16-femminile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-u16-femminile-area-3
+END:VEVENT
+END:VCALENDAR

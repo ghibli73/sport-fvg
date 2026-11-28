@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · VIVAI RAUSCEDO/GRAVIS · Under 19 Under 19 provincial
+ i — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-por-under-19-provinciali-a-b50439be@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:CALCIO ZOPPOLA 1-4 VIVAI RAUSCEDO/GRAVIS (Under 19 provinciali — 
+ girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-19-provinciali-a-3c2de648@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:VIVAI RAUSCEDO/GRAVIS 5-0 RIVOLTO (Under 19 provinciali — girone 
+ A)
+DESCRIPTION:Under 19 provinciali — girone A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-19-provinciali-a-fb89e069@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:SPILIMBERGO 2-1 VIVAI RAUSCEDO/GRAVIS (Under 19 provinciali — gir
+ one A)
+DESCRIPTION:Under 19 provinciali — girone A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-19-provinciali-a-2aa9b823@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:VIVAI RAUSCEDO/GRAVIS 5-1 CASARSA (Under 19 provinciali — girone 
+ A)
+DESCRIPTION:Under 19 provinciali — girone A\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-19-provinciali-a-bf03791c@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:VIVAI RAUSCEDO/GRAVIS 6-2 UNIONE BASSO FRIULI (Under 19 provinciali
+  — girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-19-provinciali-a-7e00e1f7@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:VIVAI RAUSCEDO/GRAVIS 4-3 UNION PASIANO (Under 19 provinciali — g
+ irone A)
+DESCRIPTION:Under 19 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
+ -a
+END:VEVENT
+END:VCALENDAR

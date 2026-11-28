@@ -1,0 +1,188 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. FUTURA PALMANOVA · Under 13 Under 13 femminil
+ e CT Udine — girone D
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-b9970763@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:A.S.D. FUTURA PALMANOVA 2-1 PROJECTVOLLEY SANGIORED (Under 13 femmi
+ nile CT Udine — girone D)
+LOCATION:Palestra Scuola Media P. Zorutti\, PALMANOVA UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-d20d5a70@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261116T190000
+DTEND;TZID=Europe/Rome:20261116T210000
+SUMMARY:STELLA VOLLEY AZZURRA 3-0 A.S.D. FUTURA PALMANOVA (Under 13 femmini
+ le CT Udine — girone D)
+LOCATION:Palestra Comunale\, POCENIA UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-7fe44347@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261123T190000
+DTEND;TZID=Europe/Rome:20261123T210000
+SUMMARY:A.S.D. FUTURA PALMANOVA 3-0 DOPOLAV. FERROV. UD. (Under 13 femminil
+ e CT Udine — girone D)
+LOCATION:Palestra Scuola Media P. Zorutti\, Borgo Aquileia\, 1\, PALMANOVA 
+ UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-937c9f4b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T153000
+DTEND;TZID=Europe/Rome:20261205T173000
+SUMMARY:LIBERTAS GONARS – A.S.D. FUTURA PALMANOVA (Under 13 femminile CT 
+ Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-c89dace3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T143000
+DTEND;TZID=Europe/Rome:20261219T163000
+SUMMARY:A.S.D. FUTURA PALMANOVA – VILLADIES (Under 13 femminile CT Udine 
+ — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-724b68b5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T143000
+DTEND;TZID=Europe/Rome:20270109T163000
+SUMMARY:A.S.D. FUTURA PALMANOVA – HORIZON GAS & ENERGIE (Under 13 femmini
+ le CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-29e533aa@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270116T160000
+DTEND;TZID=Europe/Rome:20270116T180000
+SUMMARY:PROJECTVOLLEY SANGIORED – A.S.D. FUTURA PALMANOVA (Under 13 femmi
+ nile CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-adc49b16@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270119T183000
+DTEND;TZID=Europe/Rome:20270119T203000
+SUMMARY:DOPOLAV. FERROV. UD. – A.S.D. FUTURA PALMANOVA (Under 13 femminil
+ e CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-c77d2a74@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270131T180000
+DTEND;TZID=Europe/Rome:20270131T200000
+SUMMARY:A.S.D. FUTURA PALMANOVA – LIBERTAS GONARS (Under 13 femminile CT 
+ Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-e917f782@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270205T180000
+DTEND;TZID=Europe/Rome:20270205T200000
+SUMMARY:VILLADIES – A.S.D. FUTURA PALMANOVA (Under 13 femminile CT Udine 
+ — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n10ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-9833dc90@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270215T180000
+DTEND;TZID=Europe/Rome:20270215T200000
+SUMMARY:A.S.D. FUTURA PALMANOVA – STELLA VOLLEY AZZURRA (Under 13 femmini
+ le CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n11ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-4a33b222@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270220T183000
+DTEND;TZID=Europe/Rome:20270220T203000
+SUMMARY:HORIZON GAS & ENERGIE – A.S.D. FUTURA PALMANOVA (Under 13 femmini
+ le CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n12ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+END:VCALENDAR

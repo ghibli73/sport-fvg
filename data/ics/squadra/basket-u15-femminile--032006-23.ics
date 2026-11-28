@@ -1,0 +1,262 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Futurosa Basket Trieste · Under 15 Under 15 Femminil
+ e — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u15-femminile-983ee87a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T153000
+DTEND;TZID=Europe/Rome:20261104T173000
+SUMMARY:Futurosa Basket Trieste 54-61 Polisportiva Concordia (Under 15 Femm
+ inile — girone unico)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-a8f132bf@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T113000
+DTEND;TZID=Europe/Rome:20261115T133000
+SUMMARY:Futurosa Basket Trieste 101-22 Dinamo Gorizia (Under 15 Femminile 
+ — girone unico)
+LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-569a1892@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261129T120000
+DTEND;TZID=Europe/Rome:20261129T140000
+SUMMARY:Libertas Gym e Basket – Futurosa Basket Trieste (Under 15 Femmini
+ le — girone unico)
+LOCATION:Pal. Liceo "G. Oberdan"\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-d916c95b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261203T190000
+DTEND;TZID=Europe/Rome:20261203T210000
+SUMMARY:U.S. Alba – Futurosa Basket Trieste (Under 15 Femminile — giron
+ e unico)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 15 Femminile — girone unico\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-1d2bb7e2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261206T153000
+DTEND;TZID=Europe/Rome:20261206T173000
+SUMMARY:Futurosa Basket Trieste – APU Next Gen (Under 15 Femminile — gi
+ rone unico)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-938ebea8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261213T110000
+DTEND;TZID=Europe/Rome:20261213T130000
+SUMMARY:Pol Lib. Pasian di Prato – Futurosa Basket Trieste (Under 15 Femm
+ inile — girone unico)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Under 15 Femminile — girone unico\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-9430b2f7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261220T153000
+DTEND;TZID=Europe/Rome:20261220T173000
+SUMMARY:Futurosa Basket Trieste – Pol. Casarsa (Under 15 Femminile — gi
+ rone unico)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-7906ec06@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270114T190000
+DTEND;TZID=Europe/Rome:20270114T210000
+SUMMARY:Sistema Rosa Pall. – Futurosa Basket Trieste (Under 15 Femminile 
+ — girone unico)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 15 Femminile — girone unico\n8ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-7a3ee664@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T113000
+DTEND;TZID=Europe/Rome:20270117T133000
+SUMMARY:Futurosa Basket Trieste – Pol. Libertas Acli (Under 15 Femminile 
+ — girone unico)
+LOCATION:Pal. Comunale 'Luca Vascott\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n9ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-82fdf178@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270124T153000
+DTEND;TZID=Europe/Rome:20270124T173000
+SUMMARY:Futurosa Basket Trieste – U.S. Alba (Under 15 Femminile — giron
+ e unico)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n10ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-eefcb19e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270130T163000
+DTEND;TZID=Europe/Rome:20270130T183000
+SUMMARY:Dinamo Gorizia – Futurosa Basket Trieste (Under 15 Femminile — 
+ girone unico)
+LOCATION:Centro "Stella Matutina"\, Gorizia
+DESCRIPTION:Under 15 Femminile — girone unico\n11ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-d8a5ee23@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270206T180000
+DTEND;TZID=Europe/Rome:20270206T200000
+SUMMARY:Polisportiva Concordia – Futurosa Basket Trieste (Under 15 Femmin
+ ile — girone unico)
+LOCATION:Pal.Tto Sport "L. Valerio"\, Concordia Sagittaria
+DESCRIPTION:Under 15 Femminile — girone unico\n12ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-6b22a082@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270214T153000
+DTEND;TZID=Europe/Rome:20270214T173000
+SUMMARY:Futurosa Basket Trieste – Libertas Gym e Basket (Under 15 Femmini
+ le — girone unico)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n13ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-9809f2b6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270221T110000
+DTEND;TZID=Europe/Rome:20270221T130000
+SUMMARY:APU Next Gen – Futurosa Basket Trieste (Under 15 Femminile — gi
+ rone unico)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 15 Femminile — girone unico\n14ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-aa3cf836@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270228T113000
+DTEND;TZID=Europe/Rome:20270228T133000
+SUMMARY:Futurosa Basket Trieste – Pol Lib. Pasian di Prato (Under 15 Femm
+ inile — girone unico)
+LOCATION:Pal. Comunale 'Luca Vascott\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n15ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-5e7a828c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270306T170000
+DTEND;TZID=Europe/Rome:20270306T190000
+SUMMARY:Pol. Casarsa – Futurosa Basket Trieste (Under 15 Femminile — gi
+ rone unico)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Under 15 Femminile — girone unico\n16ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-668fe599@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270317T200000
+DTEND;TZID=Europe/Rome:20270317T220000
+SUMMARY:Futurosa Basket Trieste – Sistema Rosa Pall. (Under 15 Femminile 
+ — girone unico)
+LOCATION:Pal. Comunale 'Luca Vascott\, Trieste
+DESCRIPTION:Under 15 Femminile — girone unico\n17ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-femminile-8fcd6695@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270320T150000
+DTEND;TZID=Europe/Rome:20270320T170000
+SUMMARY:Pol. Libertas Acli – Futurosa Basket Trieste (Under 15 Femminile 
+ — girone unico)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Under 15 Femminile — girone unico\n18ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u15-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-femminile
+END:VEVENT
+END:VCALENDAR

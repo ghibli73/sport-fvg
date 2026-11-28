@@ -1,0 +1,153 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Mestre · Serie A2 — girone unico (regular season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-10a4aa86@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Basket Torino 57-79 Mestre (Serie A2 — girone unico (regular seas
+ on))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-949a3e4d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Mestre 49-88 Libertas Livorno (Serie A2 — girone unico (regular s
+ eason))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-18385783@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Mestre 74-87 Sassari (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-0acddde8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Rimini 91-76 Mestre (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-7b1eaf2e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Mestre 93-71 Ruvo Di Puglia (Serie A2 — girone unico (regular sea
+ son))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-a55037c3@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Caserta 77-70 Mestre (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-df93f5ed@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Mestre 70-63 Brindisi (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-9176fbda@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Pesaro 73-85 Mestre (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-d42e0fc2@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Mestre 79-81 Cividale (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-64a8e392@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:JuVi Cremona 73-85 Mestre (Serie A2 — girone unico (regular seaso
+ n))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-4050f0f9@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:Mestre – Avellino Basket (Serie A2 — girone unico (regular seas
+ on))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n12ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,236 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · POL LIB. PASIAN DI PRATO · Under 17 Under 17 Maschil
+ e Regionale — girone UD (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-bed9c5c8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261028T190000
+DTEND;TZID=Europe/Rome:20261028T210000
+SUMMARY:POL LIB. PASIAN DI PRATO 33-72 P.A.F. (Under 17 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Palasport Mario Vecchiatto\, Pasian di Prato
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-a93c51fb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T190000
+DTEND;TZID=Europe/Rome:20261104T210000
+SUMMARY:POL LIB. PASIAN DI PRATO 36-61 MONTGOMERY HAMBURGER HOUSE (Under 17
+  Maschile Regionale — girone UD (prima fase))
+LOCATION:Palasport Mario Vecchiatto\, Pasian di Prato
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-f59549aa@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:POL. TRICESIMO 89-39 POL LIB. PASIAN DI PRATO (Under 17 Maschile Re
+ gionale — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-652982ec@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261124T180000
+DTEND;TZID=Europe/Rome:20261124T200000
+SUMMARY:UDINE BASKET CLUB 81-57 POL LIB. PASIAN DI PRATO (Under 17 Maschile
+  Regionale — girone UD (prima fase))
+LOCATION:Palestra Sc. Marconi\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n5ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-015dc782@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261209T190000
+DTEND;TZID=Europe/Rome:20261209T210000
+SUMMARY:POL LIB. PASIAN DI PRATO – APU NEXT GEN (Under 17 Maschile Region
+ ale — girone UD (prima fase))
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n8ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-89aa51ef@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261212T163000
+DTEND;TZID=Europe/Rome:20261212T183000
+SUMMARY:OLYMPIA RIVIGNANO – POL LIB. PASIAN DI PRATO (Under 17 Maschile R
+ egionale — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n7ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-36e25f1f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261216T190000
+DTEND;TZID=Europe/Rome:20261216T210000
+SUMMARY:POL LIB. PASIAN DI PRATO – Scuola Basket Miky Mian (Under 17 Masc
+ hile Regionale — girone UD (prima fase))
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n9ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-5d794b9f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270113T190000
+DTEND;TZID=Europe/Rome:20270113T210000
+SUMMARY:POL LIB. PASIAN DI PRATO – PALL. LAIPACCO (Under 17 Maschile Regi
+ onale — girone UD (prima fase))
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n6ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-ce416095@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270116T174500
+DTEND;TZID=Europe/Rome:20270116T194500
+SUMMARY:P.A.F. – POL LIB. PASIAN DI PRATO (Under 17 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n11ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-56ef5172@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270127T190000
+DTEND;TZID=Europe/Rome:20270127T210000
+SUMMARY:POL LIB. PASIAN DI PRATO – POL. TRICESIMO (Under 17 Maschile Regi
+ onale — girone UD (prima fase))
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n13ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-4f32fc8f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T113000
+DTEND;TZID=Europe/Rome:20270131T133000
+SUMMARY:MONTGOMERY HAMBURGER HOUSE – POL LIB. PASIAN DI PRATO (Under 17 M
+ aschile Regionale — girone UD (prima fase))
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n12ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-577a8804@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270203T190000
+DTEND;TZID=Europe/Rome:20270203T210000
+SUMMARY:POL LIB. PASIAN DI PRATO – UDINE BASKET CLUB (Under 17 Maschile R
+ egionale — girone UD (prima fase))
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n14ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-378c149b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270213T180000
+DTEND;TZID=Europe/Rome:20270213T200000
+SUMMARY:PALL. LAIPACCO – POL LIB. PASIAN DI PRATO (Under 17 Maschile Regi
+ onale — girone UD (prima fase))
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n15ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-2cdfe465@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270224T190000
+DTEND;TZID=Europe/Rome:20270224T210000
+SUMMARY:POL LIB. PASIAN DI PRATO – OLYMPIA RIVIGNANO (Under 17 Maschile R
+ egionale — girone UD (prima fase))
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n16ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-efef7b59@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270228T150000
+DTEND;TZID=Europe/Rome:20270228T170000
+SUMMARY:APU NEXT GEN – POL LIB. PASIAN DI PRATO (Under 17 Maschile Region
+ ale — girone UD (prima fase))
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n17ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-96bef4c5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270306T193000
+DTEND;TZID=Europe/Rome:20270306T213000
+SUMMARY:Scuola Basket Miky Mian – POL LIB. PASIAN DI PRATO (Under 17 Masc
+ hile Regionale — girone UD (prima fase))
+LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n18ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+END:VCALENDAR

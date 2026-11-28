@@ -1,0 +1,288 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · LIBERTAS FIUME VENETO 'B' · Divisione Regionale 3 
+ — girone PN
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr3-pn-82748133@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261028T213000
+DTEND;TZID=Europe/Rome:20261028T233000
+SUMMARY:LIBERTAS FIUME VENETO 'B' 80-59 JULIA CONCORDIA BASKET (Divisione R
+ egionale 3 — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-26967b4d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261104T213000
+DTEND;TZID=Europe/Rome:20261104T233000
+SUMMARY:LIBERTAS FIUME VENETO 'B' 96-51 BVO ANNONE (Divisione Regionale 3 
+ — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-433013a9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261111T213000
+DTEND;TZID=Europe/Rome:20261111T233000
+SUMMARY:LIBERTAS FIUME VENETO 'B' 78-47 POLISPORTIVA MONTEREALE (Divisione 
+ Regionale 3 — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-e195237e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261116T203000
+DTEND;TZID=Europe/Rome:20261116T223000
+SUMMARY:SCUOLA PALLACANESTRO PORCIA 2021 69-68 LIBERTAS FIUME VENETO 'B' (D
+ ivisione Regionale 3 — girone PN)
+LOCATION:Pal. Sc. Medie "F. Cornacchia"\, Porcia
+DESCRIPTION:Divisione Regionale 3 — girone PN\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-81e3828d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261202T213000
+DTEND;TZID=Europe/Rome:20261202T233000
+SUMMARY:BASKET PASIANO 'B' – LIBERTAS FIUME VENETO 'B' (Divisione Regiona
+ le 3 — girone PN)
+LOCATION:Palazzetto 'Roberto Marson'\, Pasiano Di Pordenone
+DESCRIPTION:Divisione Regionale 3 — girone PN\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-59f49983@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261209T213000
+DTEND;TZID=Europe/Rome:20261209T233000
+SUMMARY:LIBERTAS FIUME VENETO 'B' – NAONIS BASKET (Divisione Regionale 3 
+ — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-82e74ba2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261211T204500
+DTEND;TZID=Europe/Rome:20261211T224500
+SUMMARY:TORRE BASKET 'B' – LIBERTAS FIUME VENETO 'B' (Divisione Regionale
+  3 — girone PN)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Divisione Regionale 3 — girone PN\n8ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-d93237f6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261223T213000
+DTEND;TZID=Europe/Rome:20261223T233000
+SUMMARY:LIBERTAS FIUME VENETO 'B' – POL. CASARSA 'B' (Divisione Regionale
+  3 — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n9ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-8dadf4f6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270113T210000
+DTEND;TZID=Europe/Rome:20270113T230000
+SUMMARY:BALONSESTO – LIBERTAS FIUME VENETO 'B' (Divisione Regionale 3 —
+  girone PN)
+LOCATION:Palazzetto Comunale\, Sesto Al Reghena
+DESCRIPTION:Divisione Regionale 3 — girone PN\n10ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-8b237ff9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270122T204500
+DTEND;TZID=Europe/Rome:20270122T224500
+SUMMARY:BASKET VILLANOVA H.R.V – LIBERTAS FIUME VENETO 'B' (Divisione Reg
+ ionale 3 — girone PN)
+LOCATION:Pal. Sc. Medie Villanova\, Pordenone
+DESCRIPTION:Divisione Regionale 3 — girone PN\n11ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-4bc0cd73@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270125T211500
+DTEND;TZID=Europe/Rome:20270125T231500
+SUMMARY:JULIA CONCORDIA BASKET – LIBERTAS FIUME VENETO 'B' (Divisione Reg
+ ionale 3 — girone PN)
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
+DESCRIPTION:Divisione Regionale 3 — girone PN\n12ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-7a835952@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270130T183000
+DTEND;TZID=Europe/Rome:20270130T203000
+SUMMARY:BVO ANNONE – LIBERTAS FIUME VENETO 'B' (Divisione Regionale 3 —
+  girone PN)
+LOCATION:Palazzetto Dello Sport\, Annone Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n13ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-c1899b6d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270204T204500
+DTEND;TZID=Europe/Rome:20270204T224500
+SUMMARY:POLISPORTIVA MONTEREALE – LIBERTAS FIUME VENETO 'B' (Divisione Re
+ gionale 3 — girone PN)
+LOCATION:Palestra Comunale\, Montereale Valcellina
+DESCRIPTION:Divisione Regionale 3 — girone PN\n14ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-5b94a50a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270217T213000
+DTEND;TZID=Europe/Rome:20270217T233000
+SUMMARY:LIBERTAS FIUME VENETO 'B' – SCUOLA PALLACANESTRO PORCIA 2021 (Div
+ isione Regionale 3 — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n15ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-c1eade1d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270303T213000
+DTEND;TZID=Europe/Rome:20270303T233000
+SUMMARY:LIBERTAS FIUME VENETO 'B' – BASKET PASIANO 'B' (Divisione Regiona
+ le 3 — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n17ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-63702fcc@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270310T210000
+DTEND;TZID=Europe/Rome:20270310T230000
+SUMMARY:NAONIS BASKET – LIBERTAS FIUME VENETO 'B' (Divisione Regionale 3 
+ — girone PN)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Divisione Regionale 3 — girone PN\n18ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-545da5c3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270317T213000
+DTEND;TZID=Europe/Rome:20270317T233000
+SUMMARY:LIBERTAS FIUME VENETO 'B' – TORRE BASKET 'B' (Divisione Regionale
+  3 — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n19ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-9505567f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270321T203000
+DTEND;TZID=Europe/Rome:20270321T223000
+SUMMARY:POL. CASARSA 'B' – LIBERTAS FIUME VENETO 'B' (Divisione Regionale
+  3 — girone PN)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Divisione Regionale 3 — girone PN\n20ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-9d1318db@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270407T213000
+DTEND;TZID=Europe/Rome:20270407T233000
+SUMMARY:LIBERTAS FIUME VENETO 'B' – BALONSESTO (Divisione Regionale 3 —
+  girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n21ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-pn-0e461705@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270414T213000
+DTEND;TZID=Europe/Rome:20270414T233000
+SUMMARY:LIBERTAS FIUME VENETO 'B' – BASKET VILLANOVA H.R.V (Divisione Reg
+ ionale 3 — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 3 — girone PN\n22ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-pn
+END:VEVENT
+END:VCALENDAR

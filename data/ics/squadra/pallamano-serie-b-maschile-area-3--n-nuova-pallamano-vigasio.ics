@@ -1,0 +1,126 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Nuova Pallamano Vigasio · Seconda squadra Serie B ma
+ schile Area 3 (Veneto–FVG)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-63ce1aa0@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261010T170000
+DTEND;TZID=Europe/Rome:20261010T190000
+SUMMARY:Pallamano Musile 2006 38-17 Nuova Pallamano Vigasio (Serie B maschi
+ le Area 3 (Veneto–FVG))
+LOCATION:Musile di Piave
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-10cf8314@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261018T180000
+DTEND;TZID=Europe/Rome:20261018T200000
+SUMMARY:Nuova Pallamano Vigasio 21-32 Handball Malo (Serie B maschile Area 
+ 3 (Veneto–FVG))
+LOCATION:Vigasio
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-65543ea2@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261024T193000
+DTEND;TZID=Europe/Rome:20261024T213000
+SUMMARY:Jolly Campoformido 32-25 Nuova Pallamano Vigasio (Serie B maschile 
+ Area 3 (Veneto–FVG))
+LOCATION:Campoformido
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-08af7678@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:Nuova Pallamano Vigasio 22-43 Pallamano B. Cellini (Serie B maschil
+ e Area 3 (Veneto–FVG))
+LOCATION:Vigasio
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-a346febf@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261114T200000
+DTEND;TZID=Europe/Rome:20261114T220000
+SUMMARY:Handball Oderzo 29-18 Nuova Pallamano Vigasio (Serie B maschile Are
+ a 3 (Veneto–FVG))
+LOCATION:Oderzo
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-953f1c8b@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261121T170000
+DTEND;TZID=Europe/Rome:20261121T190000
+SUMMARY:Nuova Pallamano Vigasio 21-35 Pallamano Trieste 1970 (Serie B masch
+ ile Area 3 (Veneto–FVG))
+LOCATION:Vigasio
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-5c7910f5@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261205T170000
+DTEND;TZID=Europe/Rome:20261205T190000
+SUMMARY:Nuova Pallamano Vigasio – Pallamano Vicenza (Serie B maschile Are
+ a 3 (Veneto–FVG))
+LOCATION:Vigasio
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+END:VCALENDAR

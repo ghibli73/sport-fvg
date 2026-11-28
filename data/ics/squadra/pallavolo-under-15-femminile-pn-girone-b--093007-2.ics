@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PALLAVOLO BRUGNERA 96 · Under 15 Under 15 femminile 
+ CT Pordenone — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-8aeaa049@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261024T170000
+DTEND;TZID=Europe/Rome:20261024T190000
+SUMMARY:PALLAVOLO BRUGNERA 96 0-3 MANIAGO VOLLEY (Under 15 femminile CT Por
+ denone — girone B)
+LOCATION:Palestra Scuole Elementari\, Tamai di Brugnera (PN)
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-df044e64@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261101T103000
+DTEND;TZID=Europe/Rome:20261101T123000
+SUMMARY:CFV - BIOBIM 3-0 PALLAVOLO BRUGNERA 96 (Under 15 femminile CT Porde
+ none — girone B)
+LOCATION:Palasport Villotta\, Villotta CHIONS PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-20c41663@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:PALLAVOLO BRUGNERA 96 0-3 PORDENONE VOLLEY (Under 15 femminile CT P
+ ordenone — girone B)
+LOCATION:Palestra Scuole Elementari\, BRUGNERA PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-cb5ed2db@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T163000
+DTEND;TZID=Europe/Rome:20261114T183000
+SUMMARY:AQUILA SPILIMBERGO 3-0 PALLAVOLO BRUGNERA 96 (Under 15 femminile CT
+  Pordenone — girone B)
+LOCATION:Palestra Scuole Medie\, Spilimbergo PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-40fc3a15@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T171500
+DTEND;TZID=Europe/Rome:20261121T191500
+SUMMARY:PALLAVOLO BRUGNERA 96 0-3 CENTRO GOMME (Under 15 femminile CT Porde
+ none — girone B)
+LOCATION:Palestra Scuole Elementari\, Tamai\, Brugnera (PN)
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-183ba992@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:GSD FAVRIA SAN VITO AL T. – PALLAVOLO BRUGNERA 96 (Under 15 femmi
+ nile CT Pordenone — girone B)
+LOCATION:Palestra Comunale\, Via Vissignano\, Bagnarola\, SESTO AL REGHENA 
+ PN
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-d5b8098c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T160000
+DTEND;TZID=Europe/Rome:20261205T180000
+SUMMARY:SERENISSIMA GOMME GIS – PALLAVOLO BRUGNERA 96 (Under 15 femminile
+  CT Pordenone — girone B)
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-63310713@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T110000
+DTEND;TZID=Europe/Rome:20261213T130000
+SUMMARY:PALLAVOLO BRUGNERA 96 – LIBERTAS FIUME VENETO U15 (Under 15 femmi
+ nile CT Pordenone — girone B)
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n8ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-pn-girone-b-1a314c04@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T160000
+DTEND;TZID=Europe/Rome:20261220T180000
+SUMMARY:THE GAMMON U15 – PALLAVOLO BRUGNERA 96 (Under 15 femminile CT Por
+ denone — girone B)
+DESCRIPTION:Under 15 femminile CT Pordenone — girone B\n9ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-15-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-pn
+ -girone-b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,135 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · BLU TEAM · Under 12 Under 12 femminile CT Udine — 
+ girone C
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-c-88dc6f5c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261110T183000
+DTEND;TZID=Europe/Rome:20261110T203000
+SUMMARY:A.S.D. STELLA VOLLEY 3-0 BLU TEAM (Under 12 femminile CT Udine — 
+ girone C)
+LOCATION:Palestra Comunale\, POCENIA UD
+DESCRIPTION:Under 12 femminile CT Udine — girone C\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-c-91864999@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T160000
+DTEND;TZID=Europe/Rome:20261121T180000
+SUMMARY:BLU TEAM 0-3 PROJECT VOLLEY OLIMPIA (Under 12 femminile CT Udine 
+ — girone C)
+LOCATION:Palestra comunale\, PAVIA DI UDINE UD
+DESCRIPTION:Under 12 femminile CT Udine — girone C\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-c-ad4f54dc@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T103000
+DTEND;TZID=Europe/Rome:20261129T123000
+SUMMARY:VOLLEY TALMASSONS – BLU TEAM (Under 12 femminile CT Udine — gir
+ one C)
+LOCATION:Palestra Scuole Medie\, Via Argilars 4\, TALMASSONS UD
+DESCRIPTION:Under 12 femminile CT Udine — girone C\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-c-3b74551b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T160000
+DTEND;TZID=Europe/Rome:20261212T180000
+SUMMARY:HORIZON CODROIPO – BLU TEAM (Under 12 femminile CT Udine — giro
+ ne C)
+DESCRIPTION:Under 12 femminile CT Udine — girone C\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-c-18175c0b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261218T171500
+DTEND;TZID=Europe/Rome:20261218T191500
+SUMMARY:BLU TEAM – A.S.D. STELLA VOLLEY (Under 12 femminile CT Udine — 
+ girone C)
+DESCRIPTION:Under 12 femminile CT Udine — girone C\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-c-889a5f70@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T110000
+DTEND;TZID=Europe/Rome:20270110T130000
+SUMMARY:PROJECT VOLLEY OLIMPIA – BLU TEAM (Under 12 femminile CT Udine 
+ — girone C)
+DESCRIPTION:Under 12 femminile CT Udine — girone C\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-c-603ea5d2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270113T172000
+DTEND;TZID=Europe/Rome:20270113T192000
+SUMMARY:BLU TEAM – VOLLEY TALMASSONS (Under 12 femminile CT Udine — gir
+ one C)
+DESCRIPTION:Under 12 femminile CT Udine — girone C\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-c-7a971c05@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270127T170000
+DTEND;TZID=Europe/Rome:20270127T190000
+SUMMARY:BLU TEAM – HORIZON CODROIPO (Under 12 femminile CT Udine — giro
+ ne C)
+DESCRIPTION:Under 12 femminile CT Udine — girone C\n10ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-12-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-c
+END:VEVENT
+END:VCALENDAR

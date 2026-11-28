@@ -1,0 +1,366 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · UEB Cividale B · Serie C maschile — girone D (prim
+ a fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-16f02f99@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20260925T210000
+DTEND;TZID=Europe/Rome:20260925T230000
+SUMMARY:UEB Cividale B 79-76 COLLINARE BASKET (Serie C maschile — girone 
+ D (prima fase))
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-d5f69dae@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261004T180000
+DTEND;TZID=Europe/Rome:20261004T200000
+SUMMARY:INTERMEK CORDENONS 52-63 UEB Cividale B (Serie C maschile — giron
+ e D (prima fase))
+LOCATION:Palazzetto dello Sport\, Cordenons
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-c8a332af@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261009T210000
+DTEND;TZID=Europe/Rome:20261009T230000
+SUMMARY:UEB Cividale B 72-75 FIDEMA GROUP RONCHI (Serie C maschile — giro
+ ne D (prima fase))
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-0e3b3b89@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261017T190000
+DTEND;TZID=Europe/Rome:20261017T210000
+SUMMARY:G.S. VALLENONCELLO 85-81 UEB Cividale B (Serie C maschile — giron
+ e D (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-16ac557e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261023T210000
+DTEND;TZID=Europe/Rome:20261023T230000
+SUMMARY:UEB Cividale B 65-73 HUMUS BASKET (Serie C maschile — girone D (p
+ rima fase))
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-4f1b182a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261030T203000
+DTEND;TZID=Europe/Rome:20261030T223000
+SUMMARY:BASKETRIESTE 56-76 UEB Cividale B (Serie C maschile — girone D (p
+ rima fase))
+LOCATION:Palarubini – Allianz Dome\, Trieste
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-9c3974cd@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:UEB Cividale B 70-58 PALL. PORTOGRUARO (Serie C maschile — girone
+  D (prima fase))
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-0ddee209@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261114T183000
+DTEND;TZID=Europe/Rome:20261114T203000
+SUMMARY:VIS SPILIMBERGO 71-64 UEB Cividale B (Serie C maschile — girone D
+  (prima fase))
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-82323bdb@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T200000
+DTEND;TZID=Europe/Rome:20261120T220000
+SUMMARY:AMICI PALLACANESTRO UDINESE 51-73 UEB Cividale B (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Palasport "Primo Carnera"\, Udine
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-2a73603e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T210000
+DTEND;TZID=Europe/Rome:20261127T230000
+SUMMARY:UEB Cividale B 71-56 AKK BOR BASKET (Serie C maschile — girone D 
+ (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-d3a3fc83@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261205T183000
+DTEND;TZID=Europe/Rome:20261205T203000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA – UEB Cividale B (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n11ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-e876ac8f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261211T210000
+DTEND;TZID=Europe/Rome:20261211T230000
+SUMMARY:UEB Cividale B – POL. LIBERTAS ACLI (Serie C maschile — girone 
+ D (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n12ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-ea7f1c69@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261219T190000
+DTEND;TZID=Europe/Rome:20261219T210000
+SUMMARY:CENTRO SEDIA BASKET – UEB Cividale B (Serie C maschile — girone
+  D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n13ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-032150b9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270108T204500
+DTEND;TZID=Europe/Rome:20270108T224500
+SUMMARY:COLLINARE BASKET – UEB Cividale B (Serie C maschile — girone D 
+ (prima fase))
+LOCATION:Pal. Sc. Elementare\, Fagagna
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n14ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-030b8cbb@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270115T210000
+DTEND;TZID=Europe/Rome:20270115T230000
+SUMMARY:UEB Cividale B – INTERMEK CORDENONS (Serie C maschile — girone 
+ D (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n15ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-24754ba1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270123T200000
+DTEND;TZID=Europe/Rome:20270123T220000
+SUMMARY:FIDEMA GROUP RONCHI – UEB Cividale B (Serie C maschile — girone
+  D (prima fase))
+LOCATION:Palestra Polifunzionale 'O. Pe\, Ronchi Dei Legionari
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n16ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-064c445a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270129T210000
+DTEND;TZID=Europe/Rome:20270129T230000
+SUMMARY:UEB Cividale B – G.S. VALLENONCELLO (Serie C maschile — girone 
+ D (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n17ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-6b34c9dc@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270206T200000
+DTEND;TZID=Europe/Rome:20270206T220000
+SUMMARY:HUMUS BASKET – UEB Cividale B (Serie C maschile — girone D (pri
+ ma fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n18ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-0a25d41f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270212T210000
+DTEND;TZID=Europe/Rome:20270212T230000
+SUMMARY:UEB Cividale B – BASKETRIESTE (Serie C maschile — girone D (pri
+ ma fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n19ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-775e7b8c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270221T173000
+DTEND;TZID=Europe/Rome:20270221T193000
+SUMMARY:PALL. PORTOGRUARO – UEB Cividale B (Serie C maschile — girone D
+  (prima fase))
+LOCATION:Palazzetto Dello Sport\, Portogruaro
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n20ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-a425f985@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270226T210000
+DTEND;TZID=Europe/Rome:20270226T230000
+SUMMARY:UEB Cividale B – VIS SPILIMBERGO (Serie C maschile — girone D (
+ prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n21ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-9b25e64b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270305T210000
+DTEND;TZID=Europe/Rome:20270305T230000
+SUMMARY:UEB Cividale B – AMICI PALLACANESTRO UDINESE (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n22ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-f22efbc9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270313T203000
+DTEND;TZID=Europe/Rome:20270313T223000
+SUMMARY:AKK BOR BASKET – UEB Cividale B (Serie C maschile — girone D (p
+ rima fase))
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n23ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-e136b6cd@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270319T210000
+DTEND;TZID=Europe/Rome:20270319T230000
+SUMMARY:UEB Cividale B – POLISPORTIVA VENEZIA GIULIA (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n24ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-6e48796e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270403T193000
+DTEND;TZID=Europe/Rome:20270403T213000
+SUMMARY:POL. LIBERTAS ACLI – UEB Cividale B (Serie C maschile — girone 
+ D (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n25ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-51ec5777@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270409T210000
+DTEND;TZID=Europe/Rome:20270409T230000
+SUMMARY:UEB Cividale B – CENTRO SEDIA BASKET (Serie C maschile — girone
+  D (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n26ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+END:VCALENDAR

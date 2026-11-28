@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ART_CENTO VOLLEY · Under 17 Under 17 femminile CT Ud
+ ine — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-3b0a1f33@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261016T193000
+DTEND;TZID=Europe/Rome:20261016T213000
+SUMMARY:ART_CENTO VOLLEY 3-1 TALMASTELLA PINK (Under 17 femminile CT Udine 
+ — girone A)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-7ff1c34a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261019T200000
+DTEND;TZID=Europe/Rome:20261019T220000
+SUMMARY:ASFJR 1971 3-0 ART_CENTO VOLLEY (Under 17 femminile CT Udine — gi
+ rone A)
+LOCATION:Palestra Martiri della Libertà\, CIVIDALE DEL FRIULI UD
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-ba990b0e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T190000
+DTEND;TZID=Europe/Rome:20261107T210000
+SUMMARY:ART_CENTO VOLLEY 3-0 ASD PALLAVOLO PALUZZA (Under 17 femminile CT U
+ dine — girone A)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-484fd728@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T163000
+DTEND;TZID=Europe/Rome:20261121T183000
+SUMMARY:ART_CENTO VOLLEY 3-0 AURORA VOLLEY UD BA (Under 17 femminile CT Udi
+ ne — girone A)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-e90bbd16@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T160000
+DTEND;TZID=Europe/Rome:20261128T180000
+SUMMARY:FTV RIZZI UDINE - GIALLA – ART_CENTO VOLLEY (Under 17 femminile C
+ T Udine — girone A)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, Via del Pioppo 57\, UDI
+ NE
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-e98b4549@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261202T203000
+DTEND;TZID=Europe/Rome:20261202T223000
+SUMMARY:ROJALKENNEDY – ART_CENTO VOLLEY (Under 17 femminile CT Udine — 
+ girone A)
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-e62d518f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261209T193000
+DTEND;TZID=Europe/Rome:20261209T213000
+SUMMARY:VOLLEY BALL CARNIA – ART_CENTO VOLLEY (Under 17 femminile CT Udin
+ e — girone A)
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-872f69e4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T163000
+DTEND;TZID=Europe/Rome:20261212T183000
+SUMMARY:ART_CENTO VOLLEY – PAV NATISONIA (Under 17 femminile CT Udine —
+  girone A)
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-a-50071876@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261215T191500
+DTEND;TZID=Europe/Rome:20261215T211500
+SUMMARY:FVG VOLLEY ACADEMY JUNIOR – ART_CENTO VOLLEY (Under 17 femminile 
+ CT Udine — girone A)
+DESCRIPTION:Under 17 femminile CT Udine — girone A\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-a
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · REAL CASTELLANA · Seconda Categoria — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-11d28528@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:REAL CASTELLANA 2-1 SARONE 1975-2017 (Seconda Categoria — girone 
+ A)
+DESCRIPTION:Seconda Categoria — girone A\n1ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-a81a1352@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:TIEZZO 1954 1-2 REAL CASTELLANA (Seconda Categoria — girone A)
+DESCRIPTION:Seconda Categoria — girone A\n2ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-4cd679d3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:REAL CASTELLANA 3-3 VALVASONE ARZENE S.M. (Seconda Categoria — gi
+ rone A)
+DESCRIPTION:Seconda Categoria — girone A\n3ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-37e60945@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:REAL CASTELLANA 1-3 VIVAI RASCEDO/GRAVIS (Seconda Categoria — gir
+ one A)
+DESCRIPTION:Seconda Categoria — girone A\n4ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-269109f4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:SESTO BAGNAROLA 1-2 REAL CASTELLANA (Seconda Categoria — girone A
+ )
+DESCRIPTION:Seconda Categoria — girone A\n5ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-f4c684a0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:REAL CASTELLANA 3-0 BARBEANO (Seconda Categoria — girone A)
+DESCRIPTION:Seconda Categoria — girone A\n6ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-484e7de6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:MONTEREALE VALCELLINA 2-2 REAL CASTELLANA (Seconda Categoria — gi
+ rone A)
+DESCRIPTION:Seconda Categoria — girone A\n7ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-2d0ea204@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:REAL CASTELLANA 1-1 CALCIO SACILE 2026 (Seconda Categoria — giron
+ e A)
+DESCRIPTION:Seconda Categoria — girone A\n8ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-seconda-categoria-a-302ccf63@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:MANIAGO 3-2 REAL CASTELLANA (Seconda Categoria — girone A)
+DESCRIPTION:Seconda Categoria — girone A\n9ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ por-seconda-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-seconda-categoria-a
+END:VEVENT
+END:VCALENDAR

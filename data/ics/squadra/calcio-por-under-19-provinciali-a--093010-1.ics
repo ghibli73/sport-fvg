@@ -1,0 +1,113 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CASARSA · Under 19 Under 19 provinciali — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-por-under-19-provinciali-a-22e9a575@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:CASARSA 1-1 UNIONE BASSO FRIULI (Under 19 provinciali — girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-19-provinciali-a-caa00dc2@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:POLISPORTIVA CODROIPO 1-0 CASARSA (Under 19 provinciali — girone 
+ A)
+DESCRIPTION:Under 19 provinciali — girone A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-19-provinciali-a-b568a8c6@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:CASARSA 1-1 UNION PASIANO (Under 19 provinciali — girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-19-provinciali-a-2aa9b823@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:VIVAI RAUSCEDO/GRAVIS 5-1 CASARSA (Under 19 provinciali — girone 
+ A)
+DESCRIPTION:Under 19 provinciali — girone A\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-19-provinciali-a-f8db7712@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:SEDEGLIANO 2-0 CASARSA (Under 19 provinciali — girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-19-provinciali-a-cfe9a8c0@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:RIVOLTO 2-2 CASARSA (Under 19 provinciali — girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-19-provinciali-a-08f08d6d@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:CASARSA 0-6 SPILIMBERGO (Under 19 provinciali — girone A)
+DESCRIPTION:Under 19 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-19-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
+ -a
+END:VEVENT
+END:VCALENDAR

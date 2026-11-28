@@ -1,0 +1,188 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PORDENONE VOLLEY · Prima Divisione maschile CT Porde
+ none — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-pn-8d4ee7e8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T193000
+DTEND;TZID=Europe/Rome:20261114T213000
+SUMMARY:FUTURA PIZZ. PULCINELLA 0-3 PORDENONE VOLLEY (Prima Divisione masch
+ ile CT Pordenone — girone unico)
+LOCATION:Palestra Borgomeduna\, Pordenone PN
+DESCRIPTION:Prima Divisione maschile CT Pordenone — girone unico\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-prima-divisione-maschile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-pn-53496642@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T170000
+DTEND;TZID=Europe/Rome:20261121T190000
+SUMMARY:PORDENONE VOLLEY 3-0 VALLI PORDENONESI VOLLEY (Prima Divisione masc
+ hile CT Pordenone — girone unico)
+LOCATION:Palestra Gallini\, Pordenone (PN)
+DESCRIPTION:Prima Divisione maschile CT Pordenone — girone unico\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-prima-divisione-maschile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-pn-6d677096@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:GSD FAVRIA SAN VITO AL T. – PORDENONE VOLLEY (Prima Divisione mas
+ chile CT Pordenone — girone unico)
+LOCATION:Palestra Comunale\, Via Vissignano\, Bagnarola\, SESTO AL REGHENA 
+ PN
+DESCRIPTION:Prima Divisione maschile CT Pordenone — girone unico\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-prima-divisione-maschile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-pn-523a9939@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261206T173000
+DTEND;TZID=Europe/Rome:20261206T193000
+SUMMARY:PORDENONE VOLLEY – FUTURA SIRIO SRL (Prima Divisione maschile CT 
+ Pordenone — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Pordenone — girone unico\n5ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-prima-divisione-maschile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-pn-0c28f3c5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T183000
+DTEND;TZID=Europe/Rome:20261212T203000
+SUMMARY:VPA MCZ – PORDENONE VOLLEY (Prima Divisione maschile CT Pordenone
+  — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Pordenone — girone unico\n6ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-prima-divisione-maschile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-pn-c4430b84@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261217T210000
+DTEND;TZID=Europe/Rome:20261217T230000
+SUMMARY:PORDENONE VOLLEY – ALTA RESA (Prima Divisione maschile CT Pordeno
+ ne — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Pordenone — girone unico\n7ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-prima-divisione-maschile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-pn-14e28888@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270116T193000
+DTEND;TZID=Europe/Rome:20270116T213000
+SUMMARY:PORDENONE VOLLEY – FUTURA PIZZ. PULCINELLA (Prima Divisione masch
+ ile CT Pordenone — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Pordenone — girone unico\n9ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-prima-divisione-maschile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-pn-21dcce5e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270124T173000
+DTEND;TZID=Europe/Rome:20270124T193000
+SUMMARY:VALLI PORDENONESI VOLLEY – PORDENONE VOLLEY (Prima Divisione masc
+ hile CT Pordenone — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Pordenone — girone unico\n10ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-pn-21ee6c4b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T193000
+DTEND;TZID=Europe/Rome:20270130T213000
+SUMMARY:PORDENONE VOLLEY – GSD FAVRIA SAN VITO AL T. (Prima Divisione mas
+ chile CT Pordenone — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Pordenone — girone unico\n11ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-pn-3ed31a1a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270203T190000
+DTEND;TZID=Europe/Rome:20270203T210000
+SUMMARY:FUTURA SIRIO SRL – PORDENONE VOLLEY (Prima Divisione maschile CT 
+ Pordenone — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Pordenone — girone unico\n12ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-pn-58d0b30e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270209T204500
+DTEND;TZID=Europe/Rome:20270209T224500
+SUMMARY:PORDENONE VOLLEY – VPA MCZ (Prima Divisione maschile CT Pordenone
+  — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Pordenone — girone unico\n13ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-pn-6010ca0b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270220T210000
+DTEND;TZID=Europe/Rome:20270220T230000
+SUMMARY:ALTA RESA – PORDENONE VOLLEY (Prima Divisione maschile CT Pordeno
+ ne — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Pordenone — girone unico\n14ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-pn
+END:VEVENT
+END:VCALENDAR

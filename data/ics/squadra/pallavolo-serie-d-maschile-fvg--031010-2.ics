@@ -1,0 +1,251 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CASSA RURALE FVG · Serie D maschile — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-ae656db6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T173000
+DTEND;TZID=Europe/Rome:20261017T193000
+SUMMARY:CASSA RURALE FVG 3-2 PALLAVOLO ALTURA (Serie D maschile — girone 
+ unico)
+LOCATION:Palestra Comunale\, MARIANO DEL FRIULI GO
+DESCRIPTION:Serie D maschile — girone unico\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-b48c9c68@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261022T203000
+DTEND;TZID=Europe/Rome:20261022T223000
+SUMMARY:SLOVOLLEY STUDIO VEGLIACH 0-3 CASSA RURALE FVG (Serie D maschile 
+ — girone unico)
+LOCATION:Palestra Comunale Paolo Colja\, MONRUPINO TS
+DESCRIPTION:Serie D maschile — girone unico\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-f7c826d2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T173000
+DTEND;TZID=Europe/Rome:20261031T193000
+SUMMARY:CASSA RURALE FVG 3-0 A.P. TRAVESIO (Serie D maschile — girone uni
+ co)
+LOCATION:Palestra Comunale\, MARIANO DEL FRIULI GO
+DESCRIPTION:Serie D maschile — girone unico\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-0905bb63@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261103T200000
+DTEND;TZID=Europe/Rome:20261103T220000
+SUMMARY:SPORTING CLUB 2-3 CASSA RURALE FVG (Serie D maschile — girone uni
+ co)
+LOCATION:Palestra Comunale\, Sevegliano\, Bagnaria Arsa (UD)
+DESCRIPTION:Serie D maschile — girone unico\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-659183dc@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T173000
+DTEND;TZID=Europe/Rome:20261107T193000
+SUMMARY:CASSA RURALE FVG 3-0 FOX VOLLEY NOVASEI (Serie D maschile — giron
+ e unico)
+LOCATION:Palestra Comunale\, Mariano del Friuli (GO)
+DESCRIPTION:Serie D maschile — girone unico\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-2ae920c1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T190000
+DTEND;TZID=Europe/Rome:20261114T210000
+SUMMARY:PIERA1899 VINI DEL FRIULI 1-3 CASSA RURALE FVG (Serie D maschile 
+ — girone unico)
+LOCATION:Palestra Scuola Media Da Vinci\, Cordenons (PN)
+DESCRIPTION:Serie D maschile — girone unico\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-7d4753d6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T173000
+DTEND;TZID=Europe/Rome:20261121T193000
+SUMMARY:CASSA RURALE FVG 0-3 CREDIFRIULI ROJALESE (Serie D maschile — gir
+ one unico)
+LOCATION:Palestra Comunale\, Mariano del Friuli (GO)
+DESCRIPTION:Serie D maschile — girone unico\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-08cbb882@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T173000
+DTEND;TZID=Europe/Rome:20261128T193000
+SUMMARY:VPA BANCA360 FVG – CASSA RURALE FVG (Serie D maschile — girone 
+ unico)
+LOCATION:PalaPrata\, Via A. Volta\, Prata di Pordenone (PN)
+DESCRIPTION:Serie D maschile — girone unico\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-1f68d233@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T173000
+DTEND;TZID=Europe/Rome:20261205T193000
+SUMMARY:CASSA RURALE FVG – ASDMUZZANAVOLLEY (Serie D maschile — girone 
+ unico)
+DESCRIPTION:Serie D maschile — girone unico\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-f3e140bf@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T203000
+DTEND;TZID=Europe/Rome:20261212T223000
+SUMMARY:PALLAVOLO ALTURA – CASSA RURALE FVG (Serie D maschile — girone 
+ unico)
+DESCRIPTION:Serie D maschile — girone unico\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-7e3f5ba0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T173000
+DTEND;TZID=Europe/Rome:20261219T193000
+SUMMARY:CASSA RURALE FVG – SLOVOLLEY STUDIO VEGLIACH (Serie D maschile 
+ — girone unico)
+DESCRIPTION:Serie D maschile — girone unico\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-da3c3b17@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T203000
+DTEND;TZID=Europe/Rome:20270109T223000
+SUMMARY:A.P. TRAVESIO – CASSA RURALE FVG (Serie D maschile — girone uni
+ co)
+DESCRIPTION:Serie D maschile — girone unico\n12ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-9fc137df@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270114T203000
+DTEND;TZID=Europe/Rome:20270114T223000
+SUMMARY:CASSA RURALE FVG – SPORTING CLUB (Serie D maschile — girone uni
+ co)
+DESCRIPTION:Serie D maschile — girone unico\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-8c5f5b51@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270116T190000
+DTEND;TZID=Europe/Rome:20270116T210000
+SUMMARY:FOX VOLLEY NOVASEI – CASSA RURALE FVG (Serie D maschile — giron
+ e unico)
+DESCRIPTION:Serie D maschile — girone unico\n14ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-b68c8130@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T173000
+DTEND;TZID=Europe/Rome:20270123T193000
+SUMMARY:CASSA RURALE FVG – PIERA1899 VINI DEL FRIULI (Serie D maschile 
+ — girone unico)
+DESCRIPTION:Serie D maschile — girone unico\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-6ce6d322@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T203000
+DTEND;TZID=Europe/Rome:20270130T223000
+SUMMARY:CREDIFRIULI ROJALESE – CASSA RURALE FVG (Serie D maschile — gir
+ one unico)
+DESCRIPTION:Serie D maschile — girone unico\n16ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-38abc93b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270202T203000
+DTEND;TZID=Europe/Rome:20270202T223000
+SUMMARY:CASSA RURALE FVG – VPA BANCA360 FVG (Serie D maschile — girone 
+ unico)
+DESCRIPTION:Serie D maschile — girone unico\n17ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-bf178d19@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T173000
+DTEND;TZID=Europe/Rome:20270213T193000
+SUMMARY:ASDMUZZANAVOLLEY – CASSA RURALE FVG (Serie D maschile — girone 
+ unico)
+DESCRIPTION:Serie D maschile — girone unico\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · LIBERTAS GONARS · Under 19 Under 19 Maschile Regiona
+ le — girone UD (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-013bc298@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T183000
+DTEND;TZID=Europe/Rome:20261104T203000
+SUMMARY:POL. DLF DI UDINE 45-50 LIBERTAS GONARS (Under 19 Maschile Regional
+ e — girone UD (prima fase))
+LOCATION:Pal. Sc. E. Ada Negri\, Udine
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-a37e3aa8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T200000
+DTEND;TZID=Europe/Rome:20261110T220000
+SUMMARY:LIBERTAS GONARS 65-75 OLYMPIA RIVIGNANO (Under 19 Maschile Regional
+ e — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Santa Maria la Longa
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-109357e2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T190000
+DTEND;TZID=Europe/Rome:20261125T210000
+SUMMARY:MAJANESE 54-48 LIBERTAS GONARS (Under 19 Maschile Regionale — gir
+ one UD (prima fase))
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-ad7bbb99@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261201T200000
+DTEND;TZID=Europe/Rome:20261201T220000
+SUMMARY:LIBERTAS GONARS – PALL. CODROIPESE (Under 19 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Santa Maria La Longa
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n5ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-08d98346@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261203T193000
+DTEND;TZID=Europe/Rome:20261203T213000
+SUMMARY:LIBERTAS GONARS – PALL. TOLMEZZO (Under 19 Maschile Regionale —
+  girone UD (prima fase))
+LOCATION:Palestra Comunale\, Santa Maria La Longa
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-3ced41ed@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261207T193000
+DTEND;TZID=Europe/Rome:20261207T213000
+SUMMARY:POL LIB. PASIAN DI PRATO – LIBERTAS GONARS (Under 19 Maschile Reg
+ ionale — girone UD (prima fase))
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n6ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-2dcb3d6a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261215T200000
+DTEND;TZID=Europe/Rome:20261215T220000
+SUMMARY:LIBERTAS GONARS – PALL. LAIPACCO (Under 19 Maschile Regionale —
+  girone UD (prima fase))
+LOCATION:Palestra Comunale\, Santa Maria La Longa
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n7ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-ab699ac8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261222T200000
+DTEND;TZID=Europe/Rome:20261222T220000
+SUMMARY:LIBERTAS GONARS – POL. DLF DI UDINE (Under 19 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Santa Maria La Longa
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n8ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-415c540c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270108T210000
+DTEND;TZID=Europe/Rome:20270108T230000
+SUMMARY:OLYMPIA RIVIGNANO – LIBERTAS GONARS (Under 19 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n9ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-f40df92a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270119T204000
+DTEND;TZID=Europe/Rome:20270119T224000
+SUMMARY:PALL. TOLMEZZO – LIBERTAS GONARS (Under 19 Maschile Regionale —
+  girone UD (prima fase))
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n10ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-88474ec5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270126T200000
+DTEND;TZID=Europe/Rome:20270126T220000
+SUMMARY:LIBERTAS GONARS – MAJANESE (Under 19 Maschile Regionale — giron
+ e UD (prima fase))
+LOCATION:Palestra Comunale\, Santa Maria La Longa
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n11ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-52f9d4ea@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270201T190000
+DTEND;TZID=Europe/Rome:20270201T210000
+SUMMARY:PALL. CODROIPESE – LIBERTAS GONARS (Under 19 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n12ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-82abde61@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270209T200000
+DTEND;TZID=Europe/Rome:20270209T220000
+SUMMARY:LIBERTAS GONARS – POL LIB. PASIAN DI PRATO (Under 19 Maschile Reg
+ ionale — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Santa Maria La Longa
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n13ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-ud-5a0bee53@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270215T194500
+DTEND;TZID=Europe/Rome:20270215T214500
+SUMMARY:PALL. LAIPACCO – LIBERTAS GONARS (Under 19 Maschile Regionale —
+  girone UD (prima fase))
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n14ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u19-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
+END:VEVENT
+END:VCALENDAR

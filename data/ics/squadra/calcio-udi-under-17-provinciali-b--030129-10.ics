@@ -1,0 +1,103 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CHIAVRIS · Under 17 Under 17 provinciali — girone 
+ B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-3a75d812@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:CHIAVRIS 1-12 UDINE UNITED RIZZI CORMOR (Under 17 provinciali — g
+ irone B)
+DESCRIPTION:Under 17 provinciali — girone B\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-eb81f4ae@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:SERENISSIMA PRADAMANO 1-5 CHIAVRIS (Under 17 provinciali — girone
+  B)
+DESCRIPTION:Under 17 provinciali — girone B\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-518051ad@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:CHIAVRIS 0-2 RIVE D ARCANO FLAIBANO (Under 17 provinciali — giron
+ e B)
+DESCRIPTION:Under 17 provinciali — girone B\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-95167875@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:COMETAZZURRA 4-2 CHIAVRIS (Under 17 provinciali — girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-ddee1858@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CHIAVRIS 3-4 S.GOTTARDO (Under 17 provinciali — girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-f16a71f2@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:BUTTRIO CALCIO 1-4 CHIAVRIS (Under 17 provinciali — girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+END:VCALENDAR

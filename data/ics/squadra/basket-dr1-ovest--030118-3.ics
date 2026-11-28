@@ -1,0 +1,314 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Feletto Basketball Academy · Divisione Regionale 1 
+ — girone Ovest
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr1-ovest-d0b4aba2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261003T200000
+DTEND;TZID=Europe/Rome:20261003T220000
+SUMMARY:Gemona Basket 78-72 Feletto Basketball Academy (Divisione Regionale
+  1 — girone Ovest)
+LOCATION:Palestra IPSIA\, Gemona del Friuli
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-fd8c7563@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261010T194500
+DTEND;TZID=Europe/Rome:20261010T214500
+SUMMARY:Feletto Basketball Academy 77-70 Tecno 2 Commerciale Tricesimo (Div
+ isione Regionale 1 — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-138df291@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261017T194500
+DTEND;TZID=Europe/Rome:20261017T214500
+SUMMARY:Feletto Basketball Academy 72-94 Errebi Majano (Divisione Regionale
+  1 — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-f7dc39b8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261023T210000
+DTEND;TZID=Europe/Rome:20261023T230000
+SUMMARY:Pol. Lib. Pasian di Prato 58-53 Feletto Basketball Academy (Divisio
+ ne Regionale 1 — girone Ovest)
+LOCATION:Palasport "Mario Vecchiatto"\, Pasian di Prato
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-7192884e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261031T194500
+DTEND;TZID=Europe/Rome:20261031T214500
+SUMMARY:Feletto Basketball Academy 52-59 Pall. Tolmezzo (Divisione Regional
+ e 1 — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-8af55b7b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261108T180000
+DTEND;TZID=Europe/Rome:20261108T200000
+SUMMARY:Pol. Casarsa 81-52 Feletto Basketball Academy (Divisione Regionale 
+ 1 — girone Ovest)
+LOCATION:Palasport "Palarosa"\, Casarsa della Delizia
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-97338be5@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261114T194500
+DTEND;TZID=Europe/Rome:20261114T214500
+SUMMARY:Feletto Basketball Academy 68-66 Pol. Polisigma (Divisione Regional
+ e 1 — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-4e65ed30@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T204500
+DTEND;TZID=Europe/Rome:20261120T224500
+SUMMARY:Torre Basket 58-88 Feletto Basketball Academy (Divisione Regionale 
+ 1 — girone Ovest)
+LOCATION:Palestra Istituto "Flora"\, Pordenone
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-534c110a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T194500
+DTEND;TZID=Europe/Rome:20261128T214500
+SUMMARY:Feletto Basketball Academy – C.T.S. (Divisione Regionale 1 — gi
+ rone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-23cb4322@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261204T210000
+DTEND;TZID=Europe/Rome:20261204T230000
+SUMMARY:BCC Pordenonese e Monsile – Feletto Basketball Academy (Divisione
+  Regionale 1 — girone Ovest)
+LOCATION:Palazzetto 'Matteo Molent'\, Azzano Decimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n10ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-8e0818ef@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261212T194500
+DTEND;TZID=Europe/Rome:20261212T214500
+SUMMARY:Feletto Basketball Academy – Libertas Fiume Veneto (Divisione Reg
+ ionale 1 — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n11ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-4712e1ae@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261219T194500
+DTEND;TZID=Europe/Rome:20261219T214500
+SUMMARY:Feletto Basketball Academy – Gemona Basket (Divisione Regionale 1
+  — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n12ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-ffa30f8d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270108T210000
+DTEND;TZID=Europe/Rome:20270108T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo – Feletto Basketball Academy (Divis
+ ione Regionale 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n13ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-7f6c03d0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270115T210000
+DTEND;TZID=Europe/Rome:20270115T230000
+SUMMARY:Errebi Majano – Feletto Basketball Academy (Divisione Regionale 1
+  — girone Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n14ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-550835b6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270123T194500
+DTEND;TZID=Europe/Rome:20270123T214500
+SUMMARY:Feletto Basketball Academy – Pol. Lib. Pasian di Prato (Divisione
+  Regionale 1 — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n15ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-792c3383@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270129T204500
+DTEND;TZID=Europe/Rome:20270129T224500
+SUMMARY:Pall. Tolmezzo – Feletto Basketball Academy (Divisione Regionale 
+ 1 — girone Ovest)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n16ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-916870f0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270206T194500
+DTEND;TZID=Europe/Rome:20270206T214500
+SUMMARY:Feletto Basketball Academy – Pol. Casarsa (Divisione Regionale 1 
+ — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n17ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-1c777576@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270213T190000
+DTEND;TZID=Europe/Rome:20270213T210000
+SUMMARY:Pol. Polisigma – Feletto Basketball Academy (Divisione Regionale 
+ 1 — girone Ovest)
+LOCATION:Palestra Scolastica Scuole Med\, Zoppola
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n18ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-aa2a34d5@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270220T194500
+DTEND;TZID=Europe/Rome:20270220T214500
+SUMMARY:Feletto Basketball Academy – Torre Basket (Divisione Regionale 1 
+ — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n19ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-29589d9a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270228T180000
+DTEND;TZID=Europe/Rome:20270228T200000
+SUMMARY:C.T.S. – Feletto Basketball Academy (Divisione Regionale 1 — gi
+ rone Ovest)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n20ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-f1382769@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270306T194500
+DTEND;TZID=Europe/Rome:20270306T214500
+SUMMARY:Feletto Basketball Academy – BCC Pordenonese e Monsile (Divisione
+  Regionale 1 — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n21ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-70505ba1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270314T180000
+DTEND;TZID=Europe/Rome:20270314T200000
+SUMMARY:Libertas Fiume Veneto – Feletto Basketball Academy (Divisione Reg
+ ionale 1 — girone Ovest)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n22ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+END:VCALENDAR

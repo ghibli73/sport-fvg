@@ -1,0 +1,189 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · DOPOLAV. FERROV. UD. · Under 13 Under 13 femminile C
+ T Udine — girone D
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-259bd5de@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261110T183000
+DTEND;TZID=Europe/Rome:20261110T203000
+SUMMARY:DOPOLAV. FERROV. UD. 0-3 PROJECTVOLLEY SANGIORED (Under 13 femminil
+ e CT Udine — girone D)
+LOCATION:Palestra Scuola Alberti\, UDINE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-37be86a3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261117T183000
+DTEND;TZID=Europe/Rome:20261117T203000
+SUMMARY:DOPOLAV. FERROV. UD. 0-3 STELLA VOLLEY AZZURRA (Under 13 femminile 
+ CT Udine — girone D)
+LOCATION:Palestra Scuola Alberti\, UDINE UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-7fe44347@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261123T190000
+DTEND;TZID=Europe/Rome:20261123T210000
+SUMMARY:A.S.D. FUTURA PALMANOVA 3-0 DOPOLAV. FERROV. UD. (Under 13 femminil
+ e CT Udine — girone D)
+LOCATION:Palestra Scuola Media P. Zorutti\, Borgo Aquileia\, 1\, PALMANOVA 
+ UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-2b8c7e60@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261127T183000
+DTEND;TZID=Europe/Rome:20261127T203000
+SUMMARY:VILLADIES 2-1 DOPOLAV. FERROV. UD. (Under 13 femminile CT Udine —
+  girone D)
+LOCATION:Palestra Comunale\, Via Duca d'Aosta\, VILLA VICENTINA UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-51d70c89@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261201T183000
+DTEND;TZID=Europe/Rome:20261201T203000
+SUMMARY:DOPOLAV. FERROV. UD. – LIBERTAS GONARS (Under 13 femminile CT Udi
+ ne — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-a33ca52d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T183000
+DTEND;TZID=Europe/Rome:20261212T203000
+SUMMARY:HORIZON GAS & ENERGIE – DOPOLAV. FERROV. UD. (Under 13 femminile 
+ CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-adc49b16@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270119T183000
+DTEND;TZID=Europe/Rome:20270119T203000
+SUMMARY:DOPOLAV. FERROV. UD. – A.S.D. FUTURA PALMANOVA (Under 13 femminil
+ e CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-367db104@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270124T110000
+DTEND;TZID=Europe/Rome:20270124T130000
+SUMMARY:PROJECTVOLLEY SANGIORED – DOPOLAV. FERROV. UD. (Under 13 femminil
+ e CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-cef9c9db@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270129T193000
+DTEND;TZID=Europe/Rome:20270129T213000
+SUMMARY:STELLA VOLLEY AZZURRA – DOPOLAV. FERROV. UD. (Under 13 femminile 
+ CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-d9a95de1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270202T183000
+DTEND;TZID=Europe/Rome:20270202T203000
+SUMMARY:DOPOLAV. FERROV. UD. – VILLADIES (Under 13 femminile CT Udine —
+  girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-f23959ab@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T153000
+DTEND;TZID=Europe/Rome:20270213T173000
+SUMMARY:LIBERTAS GONARS – DOPOLAV. FERROV. UD. (Under 13 femminile CT Udi
+ ne — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-e63989bb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270216T183000
+DTEND;TZID=Europe/Rome:20270216T203000
+SUMMARY:DOPOLAV. FERROV. UD. – HORIZON GAS & ENERGIE (Under 13 femminile 
+ CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n10ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+END:VCALENDAR

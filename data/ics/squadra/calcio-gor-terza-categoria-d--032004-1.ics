@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · DOMIO · Terza Categoria — girone D
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-34f63f9d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:PRIMORJE 1924 1-0 DOMIO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n2ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-0baf613e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:DOMIO 2-1 MLADOST A.S.D. (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n3ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-4a2ba851@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:VILLESSE CALCIO 3-1 DOMIO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n4ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-31f3b51e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:ARIS SAN POLO CALCIO 1-2 DOMIO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n5ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-47d8a75d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:DOMIO 3-1 CALCIO PIERIS 1925 (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-0494b2e4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CAMPANELLE 2-1 DOMIO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-3ac346f6@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:DOMIO 8-0 MARIANO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · MORARO · Terza Categoria — girone D
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-72900fc0@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:MORARO 3-1 VILLESSE CALCIO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n3ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-ff0869ca@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:PRIMOREC 0-0 MORARO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n4ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-cc884417@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:MORARO 3-2 AUDAX SANROCCHESE (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n5ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-88d45518@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:FARRA CALCIO 0-1 MORARO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-62e4769e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:MORARO 2-2 GRADESE CALCIO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-c721caf7@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:PRIMORJE 1924 0-6 MORARO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-14100f22@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:MORARO 0-0 MLADOST A.S.D. (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+END:VCALENDAR

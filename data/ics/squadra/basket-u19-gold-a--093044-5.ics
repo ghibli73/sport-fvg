@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · VIS SPILIMBERGO · Under 19 Under 19 Maschile Gold 
+ — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-a-eb1f220a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261005T203000
+DTEND;TZID=Europe/Rome:20261005T223000
+SUMMARY:AUTOSCUOLA CORDENONESE CORDENONS 75-73 VIS SPILIMBERGO (Under 19 Ma
+ schile Gold — girone A)
+LOCATION:Palazzetto dello Sport\, Cordenons
+DESCRIPTION:Under 19 Maschile Gold — girone A\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-e7852837@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261013T190000
+DTEND;TZID=Europe/Rome:20261013T210000
+SUMMARY:VIS SPILIMBERGO 80-73 GEMONA BASKET (Under 19 Maschile Gold — gir
+ one A)
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Under 19 Maschile Gold — girone A\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-55bbebfb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261021T190000
+DTEND;TZID=Europe/Rome:20261021T210000
+SUMMARY:CHIURLO CERVIGNANO 110-54 VIS SPILIMBERGO (Under 19 Maschile Gold 
+ — girone A)
+LOCATION:Palasport Piazzale Lancieri d'Aosta\, Cervignano del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-1a9e9f6b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T190000
+DTEND;TZID=Europe/Rome:20261027T210000
+SUMMARY:VIS SPILIMBERGO 63-81 GP Engineering di Paron (Under 19 Maschile Go
+ ld — girone A)
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-f02ee436@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T184500
+DTEND;TZID=Europe/Rome:20261104T204500
+SUMMARY:VENEZIA GIULIA BASKETBALL 94-58 VIS SPILIMBERGO (Under 19 Maschile 
+ Gold — girone A)
+LOCATION:Palasport Piazzale Menguzzato\, Muggia
+DESCRIPTION:Under 19 Maschile Gold — girone A\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-a8006f40@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T200000
+DTEND;TZID=Europe/Rome:20261109T220000
+SUMMARY:DINAMO GORIZIA 64-79 VIS SPILIMBERGO (Under 19 Maschile Gold — gi
+ rone A)
+LOCATION:PalaBigot\, Gorizia
+DESCRIPTION:Under 19 Maschile Gold — girone A\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-ca44a7a1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261117T190000
+DTEND;TZID=Europe/Rome:20261117T210000
+SUMMARY:VIS SPILIMBERGO 42-93 FALCONSTAR BASKET (Under 19 Maschile Gold —
+  girone A)
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Under 19 Maschile Gold — girone A\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-04c00176@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261123T210000
+DTEND;TZID=Europe/Rome:20261123T230000
+SUMMARY:SANTOS BASKET TRIESTE 85-46 VIS SPILIMBERGO (Under 19 Maschile Gold
+  — girone A)
+LOCATION:Pal. Liceo 'G. Oberdan'\, Trieste
+DESCRIPTION:Under 19 Maschile Gold — girone A\n8ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+END:VCALENDAR

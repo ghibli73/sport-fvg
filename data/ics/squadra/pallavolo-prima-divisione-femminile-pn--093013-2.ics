@@ -1,0 +1,322 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CFV - FRIULTEX · Prima Divisione femminile CT Porden
+ one — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-1040aabb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T200000
+DTEND;TZID=Europe/Rome:20261017T220000
+SUMMARY:AZ AGR. PANCIERA ZOPPOLA 3-0 CFV - FRIULTEX (Prima Divisione femmin
+ ile CT Pordenone — girone unico)
+LOCATION:Palestra Scuole Medie\, ZOPPOLA PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n1ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-64f02f5c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261024T200000
+DTEND;TZID=Europe/Rome:20261024T220000
+SUMMARY:CFV - FRIULTEX 3-1 TECNECO (Prima Divisione femminile CT Pordenone 
+ — girone unico)
+LOCATION:Palasport Villotta\, Chions (PN)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n2ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-18beb9f6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T190000
+DTEND;TZID=Europe/Rome:20261031T210000
+SUMMARY:CFV - FRIULTEX 3-1 APC LIFETIME CENTER CINTO (Prima Divisione femmi
+ nile CT Pordenone — girone unico)
+LOCATION:Palasport Villotta\, Villotta CHIONS PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n3ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-ca05b6fe@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:MIDA AD AVIANO 1-3 CFV - FRIULTEX (Prima Divisione femminile CT Por
+ denone — girone unico)
+LOCATION:Palasport\, AVIANO PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n4ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-266e9f02@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261110T203000
+DTEND;TZID=Europe/Rome:20261110T223000
+SUMMARY:PORDENONE VOLLEY 0-3 CFV - FRIULTEX (Prima Divisione femminile CT P
+ ordenone — girone unico)
+LOCATION:Palestra Borgomeduna\, Pordenone PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n5ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-60b6e098@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261115T173000
+DTEND;TZID=Europe/Rome:20261115T193000
+SUMMARY:A.P. TRAVESIO 0-3 CFV - FRIULTEX (Prima Divisione femminile CT Pord
+ enone — girone unico)
+LOCATION:Palestra Scuole Medie\, Travesio PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n6ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-31340a06@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T180000
+DTEND;TZID=Europe/Rome:20261122T200000
+SUMMARY:CFV - FRIULTEX 3-1 ALTA RESA (Prima Divisione femminile CT Pordenon
+ e — girone unico)
+LOCATION:Palasport Villotta\, Chions (PN)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n7ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-b9e8ef64@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:ECOCOSTRUZIONI GSD FAVRIA – CFV - FRIULTEX (Prima Divisione femmi
+ nile CT Pordenone — girone unico)
+LOCATION:Palasport\, Via Roma\, SAN VITO AL TAGLIAMENTO PN
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n8ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-d2d91446@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T190000
+DTEND;TZID=Europe/Rome:20261205T210000
+SUMMARY:CFV - FRIULTEX – BIELECTRA (Prima Divisione femminile CT Pordenon
+ e — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n9ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-ac33be53@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T170000
+DTEND;TZID=Europe/Rome:20261212T190000
+SUMMARY:GRIMEL GIS – CFV - FRIULTEX (Prima Divisione femminile CT Pordeno
+ ne — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n10ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-01cdae29@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T203000
+DTEND;TZID=Europe/Rome:20261219T223000
+SUMMARY:CFV - FRIULTEX – UR-BUN S. VITO AL TAGL. (Prima Divisione femmini
+ le CT Pordenone — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n11ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-1d930b4b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T190000
+DTEND;TZID=Europe/Rome:20270109T210000
+SUMMARY:CFV - FRIULTEX – AZ AGR. PANCIERA ZOPPOLA (Prima Divisione femmin
+ ile CT Pordenone — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n12ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-37146cd5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270116T200000
+DTEND;TZID=Europe/Rome:20270116T220000
+SUMMARY:TECNECO – CFV - FRIULTEX (Prima Divisione femminile CT Pordenone 
+ — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n13ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-0a17ce70@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270122T210000
+DTEND;TZID=Europe/Rome:20270122T230000
+SUMMARY:APC LIFETIME CENTER CINTO – CFV - FRIULTEX (Prima Divisione femmi
+ nile CT Pordenone — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n14ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-b8579f2e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270127T200000
+DTEND;TZID=Europe/Rome:20270127T220000
+SUMMARY:CFV - FRIULTEX – MIDA AD AVIANO (Prima Divisione femminile CT Por
+ denone — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n15ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-71b89685@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270131T180000
+DTEND;TZID=Europe/Rome:20270131T200000
+SUMMARY:CFV - FRIULTEX – PORDENONE VOLLEY (Prima Divisione femminile CT P
+ ordenone — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n16ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-400d6066@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270210T200000
+DTEND;TZID=Europe/Rome:20270210T220000
+SUMMARY:CFV - FRIULTEX – A.P. TRAVESIO (Prima Divisione femminile CT Pord
+ enone — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n17ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-13f9c8ef@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270214T153000
+DTEND;TZID=Europe/Rome:20270214T173000
+SUMMARY:ALTA RESA – CFV - FRIULTEX (Prima Divisione femminile CT Pordenon
+ e — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n18ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-c755c906@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270220T190000
+DTEND;TZID=Europe/Rome:20270220T210000
+SUMMARY:CFV - FRIULTEX – ECOCOSTRUZIONI GSD FAVRIA (Prima Divisione femmi
+ nile CT Pordenone — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n19ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-72294632@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270227T180000
+DTEND;TZID=Europe/Rome:20270227T200000
+SUMMARY:BIELECTRA – CFV - FRIULTEX (Prima Divisione femminile CT Pordenon
+ e — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n20ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-42826867@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270306T190000
+DTEND;TZID=Europe/Rome:20270306T210000
+SUMMARY:CFV - FRIULTEX – GRIMEL GIS (Prima Divisione femminile CT Pordeno
+ ne — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n21ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-pn-8bf49393@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270313T203000
+DTEND;TZID=Europe/Rome:20270313T223000
+SUMMARY:UR-BUN S. VITO AL TAGL. – CFV - FRIULTEX (Prima Divisione femmini
+ le CT Pordenone — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Pordenone — girone unico\n22ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-pallavolo-prima-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-pn
+END:VEVENT
+END:VCALENDAR

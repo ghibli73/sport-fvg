@@ -1,0 +1,218 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · U.S. AZZURRA · Seconda Divisione femminile CT Triest
+ e-Gorizia — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-5b85b4b1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T173000
+DTEND;TZID=Europe/Rome:20261017T193000
+SUMMARY:ASD LE VOLPI 0-3 U.S. AZZURRA (Seconda Divisione femminile CT Tries
+ te-Gorizia — girone B)
+LOCATION:Palestra Liceo Galilei\, Trieste
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n1
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-cb841d7b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261024T190000
+DTEND;TZID=Europe/Rome:20261024T210000
+SUMMARY:U.S. AZZURRA 3-1 COSELLI 2D ARANCIONE (Seconda Divisione femminile 
+ CT Trieste-Gorizia — girone B)
+LOCATION:PalaBrumatti (Ex Pala Coni)\, GORIZIA GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n2
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-e546f87f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261030T203000
+DTEND;TZID=Europe/Rome:20261030T223000
+SUMMARY:PALLAVOLO ALTURA 0-3 U.S. AZZURRA (Seconda Divisione femminile CT T
+ rieste-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare F.lli Visintini\, TRIESTE
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n3
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-191700f8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T193000
+DTEND;TZID=Europe/Rome:20261107T213000
+SUMMARY:CASSA RURALE FVG TURRIACO 1-3 U.S. AZZURRA (Seconda Divisione femmi
+ nile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, TURRIACO GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n4
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-1ead3ffe@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T190000
+DTEND;TZID=Europe/Rome:20261114T210000
+SUMMARY:U.S. AZZURRA 3-0 ZALET SLOGA (Seconda Divisione femminile CT Triest
+ e-Gorizia — girone B)
+LOCATION:Circ. Spor. Slov. - Pal. Mirko Spacapan\, GORIZIA GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n5
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-b36cdce3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T190000
+DTEND;TZID=Europe/Rome:20261121T210000
+SUMMARY:U.S. AZZURRA 0-3 MAMACA TSV BOOMER (Seconda Divisione femminile CT 
+ Trieste-Gorizia — girone B)
+LOCATION:PalaBrumatti (Ex Pala Coni)\, GORIZIA GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n6
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-d7c6a411@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T183000
+DTEND;TZID=Europe/Rome:20261129T203000
+SUMMARY:U.S. AZZURRA – ASD PALLAVOLO GRADO (Seconda Divisione femminile C
+ T Trieste-Gorizia — girone B)
+LOCATION:Circ. Spor. Slov. - Pal. Mirko Spacapan\, Viale XX Settembre 91\, 
+ GORIZIA GO
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n7
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-94e4ee87@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T190000
+DTEND;TZID=Europe/Rome:20261205T210000
+SUMMARY:U.S. AZZURRA – ASD LE VOLPI (Seconda Divisione femminile CT Tries
+ te-Gorizia — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n8
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-95a19840@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261211T203000
+DTEND;TZID=Europe/Rome:20261211T223000
+SUMMARY:COSELLI 2D ARANCIONE – U.S. AZZURRA (Seconda Divisione femminile 
+ CT Trieste-Gorizia — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n9
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-5e844bbe@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T190000
+DTEND;TZID=Europe/Rome:20261219T210000
+SUMMARY:U.S. AZZURRA – PALLAVOLO ALTURA (Seconda Divisione femminile CT T
+ rieste-Gorizia — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n10
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-62ee5215@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T190000
+DTEND;TZID=Europe/Rome:20270109T210000
+SUMMARY:U.S. AZZURRA – CASSA RURALE FVG TURRIACO (Seconda Divisione femmi
+ nile CT Trieste-Gorizia — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n11
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-9e2ecede@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270115T190000
+DTEND;TZID=Europe/Rome:20270115T210000
+SUMMARY:ZALET SLOGA – U.S. AZZURRA (Seconda Divisione femminile CT Triest
+ e-Gorizia — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n12
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-4852e27e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270120T204500
+DTEND;TZID=Europe/Rome:20270120T224500
+SUMMARY:MAMACA TSV BOOMER – U.S. AZZURRA (Seconda Divisione femminile CT 
+ Trieste-Gorizia — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n13
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-tsgo-girone-b-d98fb633@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270128T203000
+DTEND;TZID=Europe/Rome:20270128T223000
+SUMMARY:ASD PALLAVOLO GRADO – U.S. AZZURRA (Seconda Divisione femminile C
+ T Trieste-Gorizia — girone B)
+DESCRIPTION:Seconda Divisione femminile CT Trieste-Gorizia — girone B\n14
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-tsgo-girone-b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,314 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Metamorfosi Gradisca · Divisione Regionale 1 — gir
+ one Est
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr1-est-bd1f23df@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261003T193000
+DTEND;TZID=Europe/Rome:20261003T213000
+SUMMARY:Credifriuli Cervignano 96-89 Metamorfosi Gradisca (Divisione Region
+ ale 1 — girone Est)
+LOCATION:Palasport\, Cervignano del Friuli
+DESCRIPTION:Divisione Regionale 1 — girone Est\n1ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-698c48c5@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261010T193000
+DTEND;TZID=Europe/Rome:20261010T213000
+SUMMARY:Metamorfosi Gradisca 82-78 S.S. SD Kontovel (Divisione Regionale 1 
+ — girone Est)
+LOCATION:Pal. Ciro Zimolo\, Gradisca d'Isonzo
+DESCRIPTION:Divisione Regionale 1 — girone Est\n2ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-75d53ea3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261017T180000
+DTEND;TZID=Europe/Rome:20261017T200000
+SUMMARY:Servolana 75-84 Metamorfosi Gradisca (Divisione Regionale 1 — gir
+ one Est)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n3ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-84126b32@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261024T193000
+DTEND;TZID=Europe/Rome:20261024T213000
+SUMMARY:Metamorfosi Gradisca 74-69 Santos Basket Trieste (Divisione Regiona
+ le 1 — girone Est)
+LOCATION:Pal. Ciro Zimolo\, Gradisca d'Isonzo
+DESCRIPTION:Divisione Regionale 1 — girone Est\n4ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-b2682c39@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:Libertas Gonars 82-64 Metamorfosi Gradisca (Divisione Regionale 1 
+ — girone Est)
+LOCATION:Palazzetto dello Sport\, Gonars
+DESCRIPTION:Divisione Regionale 1 — girone Est\n5ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-fab81845@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261107T193000
+DTEND;TZID=Europe/Rome:20261107T213000
+SUMMARY:Metamorfosi Gradisca 79-61 Pall. Interclub Muggia (Divisione Region
+ ale 1 — girone Est)
+LOCATION:Pal. Ciro Zimolo\, Gradisca d'Isonzo
+DESCRIPTION:Divisione Regionale 1 — girone Est\n6ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-5d97d8ea@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261115T200000
+DTEND;TZID=Europe/Rome:20261115T220000
+SUMMARY:U.S.D. Dom 78-86 Metamorfosi Gradisca (Divisione Regionale 1 — gi
+ rone Est)
+LOCATION:Kulturni Dom\, Gorizia
+DESCRIPTION:Divisione Regionale 1 — girone Est\n7ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-6c07f66b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261121T193000
+DTEND;TZID=Europe/Rome:20261121T213000
+SUMMARY:Metamorfosi Gradisca 71-64 U.S. Alba (Divisione Regionale 1 — gir
+ one Est)
+LOCATION:Pal. Ciro Zimolo\, Gradisca d'Isonzo
+DESCRIPTION:Divisione Regionale 1 — girone Est\n8ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-f2ff4a39@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T210000
+DTEND;TZID=Europe/Rome:20261127T230000
+SUMMARY:Geatti Idraulica ed Edilizia 63-66 Metamorfosi Gradisca (Divisione 
+ Regionale 1 — girone Est)
+LOCATION:Pal. ''M. Vecchiatto''\, Udine
+DESCRIPTION:Divisione Regionale 1 — girone Est\n9ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-74f50ec1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261205T193000
+DTEND;TZID=Europe/Rome:20261205T213000
+SUMMARY:Metamorfosi Gradisca – San Vito Trieste (Divisione Regionale 1 
+ — girone Est)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Divisione Regionale 1 — girone Est\n10ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-82e395a4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261211T211500
+DTEND;TZID=Europe/Rome:20261211T231500
+SUMMARY:Insureteach SRL Azzurra – Metamorfosi Gradisca (Divisione Regiona
+ le 1 — girone Est)
+LOCATION:Palestra Comunale Di San Giova\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n11ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-e3625a94@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261219T193000
+DTEND;TZID=Europe/Rome:20261219T213000
+SUMMARY:Metamorfosi Gradisca – Credifriuli Cervignano (Divisione Regional
+ e 1 — girone Est)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Divisione Regionale 1 — girone Est\n12ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-85c00c9f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270109T180000
+DTEND;TZID=Europe/Rome:20270109T200000
+SUMMARY:S.S. SD Kontovel – Metamorfosi Gradisca (Divisione Regionale 1 
+ — girone Est)
+LOCATION:Palestra 'M.Ervatti'\, Sgonico
+DESCRIPTION:Divisione Regionale 1 — girone Est\n13ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-872eea6c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270116T193000
+DTEND;TZID=Europe/Rome:20270116T213000
+SUMMARY:Metamorfosi Gradisca – Servolana (Divisione Regionale 1 — giron
+ e Est)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Divisione Regionale 1 — girone Est\n14ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-c8af28e2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270122T211500
+DTEND;TZID=Europe/Rome:20270122T231500
+SUMMARY:Santos Basket Trieste – Metamorfosi Gradisca (Divisione Regionale
+  1 — girone Est)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n15ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-fed007f7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270130T193000
+DTEND;TZID=Europe/Rome:20270130T213000
+SUMMARY:Metamorfosi Gradisca – Libertas Gonars (Divisione Regionale 1 —
+  girone Est)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Divisione Regionale 1 — girone Est\n16ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-704296ed@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270206T180000
+DTEND;TZID=Europe/Rome:20270206T200000
+SUMMARY:Pall. Interclub Muggia – Metamorfosi Gradisca (Divisione Regional
+ e 1 — girone Est)
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Divisione Regionale 1 — girone Est\n17ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-4260db15@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270213T193000
+DTEND;TZID=Europe/Rome:20270213T213000
+SUMMARY:Metamorfosi Gradisca – U.S.D. Dom (Divisione Regionale 1 — giro
+ ne Est)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Divisione Regionale 1 — girone Est\n18ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-49a2fb1b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270220T200000
+DTEND;TZID=Europe/Rome:20270220T220000
+SUMMARY:U.S. Alba – Metamorfosi Gradisca (Divisione Regionale 1 — giron
+ e Est)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Divisione Regionale 1 — girone Est\n19ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-f37f465f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270227T193000
+DTEND;TZID=Europe/Rome:20270227T213000
+SUMMARY:Metamorfosi Gradisca – Geatti Idraulica ed Edilizia (Divisione Re
+ gionale 1 — girone Est)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Divisione Regionale 1 — girone Est\n20ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-4cae9080@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270305T210000
+DTEND;TZID=Europe/Rome:20270305T230000
+SUMMARY:San Vito Trieste – Metamorfosi Gradisca (Divisione Regionale 1 
+ — girone Est)
+LOCATION:Palazzetto 'Atleti Azzurri'\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n21ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-f2662bcb@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270313T193000
+DTEND;TZID=Europe/Rome:20270313T213000
+SUMMARY:Metamorfosi Gradisca – Insureteach SRL Azzurra (Divisione Regiona
+ le 1 — girone Est)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Divisione Regionale 1 — girone Est\n22ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+END:VCALENDAR

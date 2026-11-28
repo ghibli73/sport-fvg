@@ -1,0 +1,347 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. STELLA VOLLEY · Serie C femminile — girone 
+ unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-a51eaf9e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T200000
+DTEND;TZID=Europe/Rome:20261017T220000
+SUMMARY:ITAS CECCARELLI GROUP 0-3 A.S.D. STELLA VOLLEY (Serie C femminile 
+ — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Serie C femminile — girone unico\n1ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-363a003d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261024T203000
+DTEND;TZID=Europe/Rome:20261024T223000
+SUMMARY:A.S.D. STELLA VOLLEY 1-3 CHIARVESIO CHEI DE VILE (Serie C femminile
+  — girone unico)
+LOCATION:Palestra Comunale di Rivignano\, RIVIGNANO UD
+DESCRIPTION:Serie C femminile — girone unico\n2ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-f89da082@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T203000
+DTEND;TZID=Europe/Rome:20261031T223000
+SUMMARY:A.S.D. STELLA VOLLEY 3-1 UNION VOLLEY ACADEMY PN (Serie C femminile
+  — girone unico)
+LOCATION:Palestra Comunale di Rivignano\, RIVIGNANO UD
+DESCRIPTION:Serie C femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-ca279aeb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T180000
+DTEND;TZID=Europe/Rome:20261108T200000
+SUMMARY:DB CARR. DE BORTOLI 3-1 A.S.D. STELLA VOLLEY (Serie C femminile —
+  girone unico)
+LOCATION:Palasport\, Cordenons (PN)
+DESCRIPTION:Serie C femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-79d73fac@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:A.S.D. STELLA VOLLEY 0-3 VILLADIES FARMADERBE (Serie C femminile 
+ — girone unico)
+LOCATION:Palestra Comunale di Rivignano\, Rivignano (UD)
+DESCRIPTION:Serie C femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-f05d0911@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T203000
+DTEND;TZID=Europe/Rome:20261121T223000
+SUMMARY:PAV NATISONIA 1-3 A.S.D. STELLA VOLLEY (Serie C femminile — giron
+ e unico)
+LOCATION:Palazzetto dello Sport\, San Giovanni al Natisone (UD)
+DESCRIPTION:Serie C femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-f8c0bdf5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:A.S.D. STELLA VOLLEY – ROJALKENNEDY EMPORIO ADV (Serie C femminil
+ e — girone unico)
+LOCATION:Palestra Comunale di Rivignano\, via Ungaretti 35\, Rivignano (UD)
+DESCRIPTION:Serie C femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-4d9b197b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T200000
+DTEND;TZID=Europe/Rome:20261205T220000
+SUMMARY:TIKITAKA STARANZANO – A.S.D. STELLA VOLLEY (Serie C femminile —
+  girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-a8bb467a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T203000
+DTEND;TZID=Europe/Rome:20261212T223000
+SUMMARY:A.S.D. STELLA VOLLEY – OLYMPIA TRIESTE (Serie C femminile — gir
+ one unico)
+DESCRIPTION:Serie C femminile — girone unico\n9ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-89a59dda@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270107T203000
+DTEND;TZID=Europe/Rome:20270107T223000
+SUMMARY:PROJECTVOLLEY SANGIORGINA – A.S.D. STELLA VOLLEY (Serie C femmini
+ le — girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n10ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-6d98e2c6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T203000
+DTEND;TZID=Europe/Rome:20270109T223000
+SUMMARY:A.S.D. STELLA VOLLEY – ZALET ZKB (Serie C femminile — girone un
+ ico)
+DESCRIPTION:Serie C femminile — girone unico\n11ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-d2189636@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270116T203000
+DTEND;TZID=Europe/Rome:20270116T223000
+SUMMARY:SERVIZI INDUSTRIALI GIS – A.S.D. STELLA VOLLEY (Serie C femminile
+  — girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n12ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-0df4145e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T203000
+DTEND;TZID=Europe/Rome:20270123T223000
+SUMMARY:A.S.D. STELLA VOLLEY – CSI TARCENTO (Serie C femminile — girone
+  unico)
+DESCRIPTION:Serie C femminile — girone unico\n13ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-e5850f97@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T203000
+DTEND;TZID=Europe/Rome:20270130T223000
+SUMMARY:A.S.D. STELLA VOLLEY – ITAS CECCARELLI GROUP (Serie C femminile 
+ — girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n14ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-b1b5ef68@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270206T203000
+DTEND;TZID=Europe/Rome:20270206T223000
+SUMMARY:CHIARVESIO CHEI DE VILE – A.S.D. STELLA VOLLEY (Serie C femminile
+  — girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n15ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-edd7687b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T203000
+DTEND;TZID=Europe/Rome:20270213T223000
+SUMMARY:UNION VOLLEY ACADEMY PN – A.S.D. STELLA VOLLEY (Serie C femminile
+  — girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n16ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-0cbd90ca@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270220T203000
+DTEND;TZID=Europe/Rome:20270220T223000
+SUMMARY:A.S.D. STELLA VOLLEY – DB CARR. DE BORTOLI (Serie C femminile —
+  girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n17ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-df102fd0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270227T203000
+DTEND;TZID=Europe/Rome:20270227T223000
+SUMMARY:VILLADIES FARMADERBE – A.S.D. STELLA VOLLEY (Serie C femminile 
+ — girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n18ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-1938388f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270306T203000
+DTEND;TZID=Europe/Rome:20270306T223000
+SUMMARY:A.S.D. STELLA VOLLEY – PAV NATISONIA (Serie C femminile — giron
+ e unico)
+DESCRIPTION:Serie C femminile — girone unico\n19ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-f1e3f169@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270313T203000
+DTEND;TZID=Europe/Rome:20270313T223000
+SUMMARY:ROJALKENNEDY EMPORIO ADV – A.S.D. STELLA VOLLEY (Serie C femminil
+ e — girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n20ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-f163743e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270320T203000
+DTEND;TZID=Europe/Rome:20270320T223000
+SUMMARY:A.S.D. STELLA VOLLEY – TIKITAKA STARANZANO (Serie C femminile —
+  girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n21ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-0bbd7784@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270404T170000
+DTEND;TZID=Europe/Rome:20270404T190000
+SUMMARY:OLYMPIA TRIESTE – A.S.D. STELLA VOLLEY (Serie C femminile — gir
+ one unico)
+DESCRIPTION:Serie C femminile — girone unico\n22ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-43084f49@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270410T203000
+DTEND;TZID=Europe/Rome:20270410T223000
+SUMMARY:A.S.D. STELLA VOLLEY – PROJECTVOLLEY SANGIORGINA (Serie C femmini
+ le — girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n23ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-3c881135@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270417T203000
+DTEND;TZID=Europe/Rome:20270417T223000
+SUMMARY:ZALET ZKB – A.S.D. STELLA VOLLEY (Serie C femminile — girone un
+ ico)
+DESCRIPTION:Serie C femminile — girone unico\n24ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-ba555d6d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270424T203000
+DTEND;TZID=Europe/Rome:20270424T223000
+SUMMARY:A.S.D. STELLA VOLLEY – SERVIZI INDUSTRIALI GIS (Serie C femminile
+  — girone unico)
+DESCRIPTION:Serie C femminile — girone unico\n25ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-femminile-fvg-42986737@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270501T203000
+DTEND;TZID=Europe/Rome:20270501T223000
+SUMMARY:CSI TARCENTO – A.S.D. STELLA VOLLEY (Serie C femminile — girone
+  unico)
+DESCRIPTION:Serie C femminile — girone unico\n26ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-c-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-femminile-fvg
+END:VEVENT
+END:VCALENDAR

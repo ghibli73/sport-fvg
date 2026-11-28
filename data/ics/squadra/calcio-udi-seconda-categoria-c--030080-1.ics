@@ -1,0 +1,134 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · SERENISSIMA PRADAMANO · Seconda Categoria — girone
+  C
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-d710cfdf@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:SANTAMARIA 0-0 SERENISSIMA PRADAMANO (Seconda Categoria — girone 
+ C)
+DESCRIPTION:Seconda Categoria — girone C\n1ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-d2cf007f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:SERENISSIMA PRADAMANO 3-5 MALISANA (Seconda Categoria — girone C)
+DESCRIPTION:Seconda Categoria — girone C\n2ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-cdbadf54@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:TERZO 2-2 SERENISSIMA PRADAMANO (Seconda Categoria — girone C)
+DESCRIPTION:Seconda Categoria — girone C\n3ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-88e7350c@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:SERENISSIMA PRADAMANO 1-2 RIVIGNANO (Seconda Categoria — girone C
+ )
+DESCRIPTION:Seconda Categoria — girone C\n4ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-164f1cc9@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:ZOMPICCHIA 4-1 SERENISSIMA PRADAMANO (Seconda Categoria — girone 
+ C)
+DESCRIPTION:Seconda Categoria — girone C\n5ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-e23624dd@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SERENISSIMA PRADAMANO 1-1 BUTTRIO CALCIO (Seconda Categoria — gir
+ one C)
+DESCRIPTION:Seconda Categoria — girone C\n6ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-5e4c8612@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:SERENISSIMA PRADAMANO 1-1 UDINE UNITED RIZZI CORMOR (Seconda Catego
+ ria — girone C)
+DESCRIPTION:Seconda Categoria — girone C\n7ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-c933ff60@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:AURORA BUONACQUISTO 3-1 SERENISSIMA PRADAMANO (Seconda Categoria 
+ — girone C)
+DESCRIPTION:Seconda Categoria — girone C\n8ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-a397a218@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:SERENISSIMA PRADAMANO 0-2 COMUNALE GONARS (Seconda Categoria — gi
+ rone C)
+DESCRIPTION:Seconda Categoria — girone C\n9ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+END:VCALENDAR

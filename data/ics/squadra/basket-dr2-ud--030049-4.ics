@@ -1,0 +1,275 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · S.I.L. Pallacanestro Lignano · Divisione Regionale 2
+  — girone UD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr2-ud-d7f9d680@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261016T203000
+DTEND;TZID=Europe/Rome:20261016T223000
+SUMMARY:Longobardi 82-79 S.I.L. Pallacanestro Lignano (Divisione Regionale 
+ 2 — girone UD)
+LOCATION:Pal. Com. Martiri Libertà\, Cividale del Friuli
+DESCRIPTION:Divisione Regionale 2 — girone UD\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-cd0aa2d2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261023T210000
+DTEND;TZID=Europe/Rome:20261023T230000
+SUMMARY:S.I.L. Pallacanestro Lignano 85-40 Pol. Libertas Cussignacco (Divis
+ ione Regionale 2 — girone UD)
+LOCATION:Palazzetto dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Divisione Regionale 2 — girone UD\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-fda3ed06@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261030T210000
+DTEND;TZID=Europe/Rome:20261030T230000
+SUMMARY:S.I.L. Pallacanestro Lignano 75-66 C.U.S. Udine (Divisione Regional
+ e 2 — girone UD)
+LOCATION:Palazzetto dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Divisione Regionale 2 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-53b3c713@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:Pall. Laipacco 44-63 S.I.L. Pallacanestro Lignano (Divisione Region
+ ale 2 — girone UD)
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-42bd939f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T210000
+DTEND;TZID=Europe/Rome:20261120T230000
+SUMMARY:S.I.L. Pallacanestro Lignano 58-77 Udine Basket Club (Divisione Reg
+ ionale 2 — girone UD)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Divisione Regionale 2 — girone UD\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-4b382b46@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T211500
+DTEND;TZID=Europe/Rome:20261127T231500
+SUMMARY:Danieli Sporting Club 53-81 S.I.L. Pallacanestro Lignano (Divisione
+  Regionale 2 — girone UD)
+LOCATION:Palestra 'Buttrio'\, Buttrio
+DESCRIPTION:Divisione Regionale 2 — girone UD\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-b3fd30db@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261212T203000
+DTEND;TZID=Europe/Rome:20261212T223000
+SUMMARY:P.A.F. – S.I.L. Pallacanestro Lignano (Divisione Regionale 2 — 
+ girone UD)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Divisione Regionale 2 — girone UD\n9ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-5ad32d07@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261218T210000
+DTEND;TZID=Europe/Rome:20261218T230000
+SUMMARY:S.I.L. Pallacanestro Lignano – Olympia Rivignano (Divisione Regio
+ nale 2 — girone UD)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Divisione Regionale 2 — girone UD\n10ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-a0dd5be3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270112T204500
+DTEND;TZID=Europe/Rome:20270112T224500
+SUMMARY:Basket Perteole – S.I.L. Pallacanestro Lignano (Divisione Regiona
+ le 2 — girone UD)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Divisione Regionale 2 — girone UD\n11ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-61bb67e4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270115T210000
+DTEND;TZID=Europe/Rome:20270115T230000
+SUMMARY:S.I.L. Pallacanestro Lignano – Longobardi (Divisione Regionale 2 
+ — girone UD)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Divisione Regionale 2 — girone UD\n12ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-750b58e7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270122T213000
+DTEND;TZID=Europe/Rome:20270122T233000
+SUMMARY:Pol. Libertas Cussignacco – S.I.L. Pallacanestro Lignano (Divisio
+ ne Regionale 2 — girone UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n13ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-ece04cc6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270129T210000
+DTEND;TZID=Europe/Rome:20270129T230000
+SUMMARY:C.U.S. Udine – S.I.L. Pallacanestro Lignano (Divisione Regionale 
+ 2 — girone UD)
+LOCATION:Palazzetto 'Angelo G. Giumanin\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n14ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-a29b8f28@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270205T210000
+DTEND;TZID=Europe/Rome:20270205T230000
+SUMMARY:S.I.L. Pallacanestro Lignano – Pall. Laipacco (Divisione Regional
+ e 2 — girone UD)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Divisione Regionale 2 — girone UD\n15ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-d1c064cb@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270219T204500
+DTEND;TZID=Europe/Rome:20270219T224500
+SUMMARY:Udine Basket Club – S.I.L. Pallacanestro Lignano (Divisione Regio
+ nale 2 — girone UD)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n17ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-c93d8690@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270226T210000
+DTEND;TZID=Europe/Rome:20270226T230000
+SUMMARY:S.I.L. Pallacanestro Lignano – Danieli Sporting Club (Divisione R
+ egionale 2 — girone UD)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Divisione Regionale 2 — girone UD\n18ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-d1ebc021@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270305T204500
+DTEND;TZID=Europe/Rome:20270305T224500
+SUMMARY:Collinare Basket – S.I.L. Pallacanestro Lignano (Divisione Region
+ ale 2 — girone UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Divisione Regionale 2 — girone UD\n19ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-f4f07b4a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270312T210000
+DTEND;TZID=Europe/Rome:20270312T230000
+SUMMARY:S.I.L. Pallacanestro Lignano – P.A.F. (Divisione Regionale 2 — 
+ girone UD)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Divisione Regionale 2 — girone UD\n20ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-9d006a71@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270320T183000
+DTEND;TZID=Europe/Rome:20270320T203000
+SUMMARY:Olympia Rivignano – S.I.L. Pallacanestro Lignano (Divisione Regio
+ nale 2 — girone UD)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Divisione Regionale 2 — girone UD\n21ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-2cc7b819@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270402T210000
+DTEND;TZID=Europe/Rome:20270402T230000
+SUMMARY:S.I.L. Pallacanestro Lignano – Basket Perteole (Divisione Regiona
+ le 2 — girone UD)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Divisione Regionale 2 — girone UD\n22ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+END:VCALENDAR

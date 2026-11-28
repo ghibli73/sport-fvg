@@ -1,0 +1,181 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CONVERSANO · Serie A Gold maschile — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-0d08ac0a@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260912T180000
+DTEND;TZID=Europe/Rome:20260912T200000
+SUMMARY:SSV BOZEN LOACKER VOLKSBANK 32-25 CONVERSANO (Serie A Gold maschile
+  — girone unico)
+LOCATION:BOLZANO
+DESCRIPTION:Serie A Gold maschile — girone unico\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-5a055c33@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260923T201500
+DTEND;TZID=Europe/Rome:20260923T221500
+SUMMARY:JUNIOR FASANO 29-27 CONVERSANO (Serie A Gold maschile — girone un
+ ico)
+LOCATION:FASANO
+DESCRIPTION:Serie A Gold maschile — girone unico\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-193217ec@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260926T190000
+DTEND;TZID=Europe/Rome:20260926T210000
+SUMMARY:CONVERSANO 33-29 METELLI COLOGNE (Serie A Gold maschile — girone 
+ unico)
+LOCATION:CONVERSANO
+DESCRIPTION:Serie A Gold maschile — girone unico\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-283f055f@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261003T163000
+DTEND;TZID=Europe/Rome:20261003T183000
+SUMMARY:TEAMNETWORK ALBATRO SIRACUSA 27-29 CONVERSANO (Serie A Gold maschil
+ e — girone unico)
+LOCATION:SIRACUSA
+DESCRIPTION:Serie A Gold maschile — girone unico\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-9c3f83b8@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261007T190000
+DTEND;TZID=Europe/Rome:20261007T210000
+SUMMARY:CONVERSANO 26-25 PROGER CASSANO MAGNAGO (Serie A Gold maschile — 
+ girone unico)
+LOCATION:CONVERSANO
+DESCRIPTION:Serie A Gold maschile — girone unico\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-525eb5b0@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261010T190000
+DTEND;TZID=Europe/Rome:20261010T210000
+SUMMARY:CONVERSANO 26-30 MACAGI CINGOLI (Serie A Gold maschile — girone u
+ nico)
+LOCATION:CONVERSANO
+DESCRIPTION:Serie A Gold maschile — girone unico\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-741c63ed@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261024T190000
+DTEND;TZID=Europe/Rome:20261024T210000
+SUMMARY:CONVERSANO 30-28 PUBLIESSE CHIARAVALLE (Serie A Gold maschile — g
+ irone unico)
+LOCATION:CONVERSANO
+DESCRIPTION:Serie A Gold maschile — girone unico\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-26f98166@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261027T190000
+DTEND;TZID=Europe/Rome:20261027T210000
+SUMMARY:RAIMOND SASSARI 32-31 CONVERSANO (Serie A Gold maschile — girone 
+ unico)
+LOCATION:SASSARI
+DESCRIPTION:Serie A Gold maschile — girone unico\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-9830ec80@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261031T183000
+DTEND;TZID=Europe/Rome:20261031T203000
+SUMMARY:ORLANDO HAENNA 21-26 CONVERSANO (Serie A Gold maschile — girone u
+ nico)
+LOCATION:ENNA
+DESCRIPTION:Serie A Gold maschile — girone unico\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-ffe0420b@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261114T190000
+DTEND;TZID=Europe/Rome:20261114T210000
+SUMMARY:CONVERSANO 29-21 PRESSANO (Serie A Gold maschile — girone unico)
+LOCATION:CONVERSANO
+DESCRIPTION:Serie A Gold maschile — girone unico\n10ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-dce5535b@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261121T190000
+DTEND;TZID=Europe/Rome:20261121T210000
+SUMMARY:CONVERSANO 31-27 TRIESTE (Serie A Gold maschile — girone unico)
+LOCATION:CONVERSANO
+DESCRIPTION:Serie A Gold maschile — girone unico\n11ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-bdd394dd@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261128T190000
+DTEND;TZID=Europe/Rome:20261128T210000
+SUMMARY:SALUMIFICIO RIVA MOLTENO – CONVERSANO (Serie A Gold maschile — 
+ girone unico)
+LOCATION:MOLTENO
+DESCRIPTION:Serie A Gold maschile — girone unico\n12ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+END:VCALENDAR

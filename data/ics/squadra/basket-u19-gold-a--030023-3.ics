@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CHIURLO CERVIGNANO · Under 19 Under 19 Maschile Gold
+  — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-a-3662e0df@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261007T190000
+DTEND;TZID=Europe/Rome:20261007T210000
+SUMMARY:CHIURLO CERVIGNANO 72-98 DINAMO GORIZIA (Under 19 Maschile Gold —
+  girone A)
+LOCATION:Palasport Piazzale Lancieri d'Aosta\, Cervignano del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-9cc771f8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261012T190000
+DTEND;TZID=Europe/Rome:20261012T210000
+SUMMARY:GP Engineering di Paron 65-72 CHIURLO CERVIGNANO (Under 19 Maschile
+  Gold — girone A)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 19 Maschile Gold — girone A\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-55bbebfb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261021T190000
+DTEND;TZID=Europe/Rome:20261021T210000
+SUMMARY:CHIURLO CERVIGNANO 110-54 VIS SPILIMBERGO (Under 19 Maschile Gold 
+ — girone A)
+LOCATION:Palasport Piazzale Lancieri d'Aosta\, Cervignano del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-15c2782a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261026T203000
+DTEND;TZID=Europe/Rome:20261026T223000
+SUMMARY:UEB Academy Cividale 35-96 CHIURLO CERVIGNANO (Under 19 Maschile Go
+ ld — girone A)
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-9e494646@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T190000
+DTEND;TZID=Europe/Rome:20261104T210000
+SUMMARY:CHIURLO CERVIGNANO 59-63 FALCONSTAR BASKET (Under 19 Maschile Gold 
+ — girone A)
+LOCATION:Palasport Piazzale Lancieri d'Aosta\, Cervignano del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-e1e390ac@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T190000
+DTEND;TZID=Europe/Rome:20261111T210000
+SUMMARY:BVO ANNONE 82-88 CHIURLO CERVIGNANO (Under 19 Maschile Gold — gir
+ one A)
+LOCATION:Palazzetto dello Sport\, Annone Veneto
+DESCRIPTION:Under 19 Maschile Gold — girone A\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-bdd66e95@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T190000
+DTEND;TZID=Europe/Rome:20261118T210000
+SUMMARY:CHIURLO CERVIGNANO 81-69 SANTOS BASKET TRIESTE (Under 19 Maschile G
+ old — girone A)
+LOCATION:Palasport Piazzale Lancieri d'Aosta\, Cervignano del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-fe865707@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261123T203000
+DTEND;TZID=Europe/Rome:20261123T223000
+SUMMARY:AUTOSCUOLA CORDENONESE CORDENONS 66-79 CHIURLO CERVIGNANO (Under 19
+  Maschile Gold — girone A)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 19 Maschile Gold — girone A\n8ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+END:VCALENDAR

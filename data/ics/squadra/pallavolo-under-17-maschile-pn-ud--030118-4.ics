@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ASD KENNEDY ADEGLIACCO · Under 17 Under 17 maschile 
+ interterritoriale PN-UD — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-0ad5b434@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T153000
+DTEND;TZID=Europe/Rome:20261108T173000
+SUMMARY:ASD KENNEDY ADEGLIACCO 2-3 PASIAN DI PRATO AZZURRA (Under 17 maschi
+ le interterritoriale PN-UD — girone unico)
+LOCATION:Palestra Comunale\, Cavalicco TAVAGNACCO UD
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n1ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-3f2ed1b8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261111T203000
+DTEND;TZID=Europe/Rome:20261111T223000
+SUMMARY:VPA BANCA360 3-0 ASD KENNEDY ADEGLIACCO (Under 17 maschile interter
+ ritoriale PN-UD — girone unico)
+LOCATION:PalaPrata\, PRATA DI PORDENONE PN
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n2ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-bf3d0dfc@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T150000
+DTEND;TZID=Europe/Rome:20261122T170000
+SUMMARY:ASD KENNEDY ADEGLIACCO 0-3 GEMONA LA PERLA (Under 17 maschile inter
+ territoriale PN-UD — girone unico)
+LOCATION:Palestra Comunale\, Cavalicco TAVAGNACCO UD
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n3ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-0aa312e4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261203T180000
+DTEND;TZID=Europe/Rome:20261203T200000
+SUMMARY:ASD KENNEDY ADEGLIACCO – VPA MCZ (Under 17 maschile interterritor
+ iale PN-UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n5ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-34d2acf9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T163000
+DTEND;TZID=Europe/Rome:20261219T183000
+SUMMARY:FUTURA DREAM FIT – ASD KENNEDY ADEGLIACCO (Under 17 maschile inte
+ rterritoriale PN-UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n7ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-f3edcad0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T153000
+DTEND;TZID=Europe/Rome:20270110T173000
+SUMMARY:PASIAN DI PRATO AZZURRA – ASD KENNEDY ADEGLIACCO (Under 17 maschi
+ le interterritoriale PN-UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n8ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-65152c20@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T153000
+DTEND;TZID=Europe/Rome:20270117T173000
+SUMMARY:ASD KENNEDY ADEGLIACCO – VPA BANCA360 (Under 17 maschile interter
+ ritoriale PN-UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n9ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-68b02e7f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270124T093000
+DTEND;TZID=Europe/Rome:20270124T113000
+SUMMARY:GEMONA LA PERLA – ASD KENNEDY ADEGLIACCO (Under 17 maschile inter
+ territoriale PN-UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n10
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-ab6afbc5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270207T113000
+DTEND;TZID=Europe/Rome:20270207T133000
+SUMMARY:VPA MCZ – ASD KENNEDY ADEGLIACCO (Under 17 maschile interterritor
+ iale PN-UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n12
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-cb46ce9a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270221T153000
+DTEND;TZID=Europe/Rome:20270221T173000
+SUMMARY:ASD KENNEDY ADEGLIACCO – FUTURA DREAM FIT (Under 17 maschile inte
+ rterritoriale PN-UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n14
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+END:VCALENDAR

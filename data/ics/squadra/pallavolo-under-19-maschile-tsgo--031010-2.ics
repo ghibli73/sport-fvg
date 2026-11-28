@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · INTREPIDA · Under 19 Under 19 maschile CT Trieste-Go
+ rizia — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-tsgo-c87926f3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T200000
+DTEND;TZID=Europe/Rome:20261108T220000
+SUMMARY:SCA MONTAGGI FINCANTIERI 3-0 INTREPIDA (Under 19 maschile CT Triest
+ e-Gorizia — girone unico)
+LOCATION:Palasport\, MONFALCONE GO
+DESCRIPTION:Under 19 maschile CT Trieste-Gorizia — girone unico\n3ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-19-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-tsgo-656ae840@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:ROSSO VOLLEYCLUB TRIESTE 0-3 INTREPIDA (Under 19 maschile CT Triest
+ e-Gorizia — girone unico)
+LOCATION:Palestra Cobolli\, TRIESTE TS
+DESCRIPTION:Under 19 maschile CT Trieste-Gorizia — girone unico\n1ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-19-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-tsgo-239e4c70@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261120T180000
+DTEND;TZID=Europe/Rome:20261120T200000
+SUMMARY:INTREPIDA 3-0 SOCASLOVOLLEY ZKBKORSIC (Under 19 maschile CT Trieste
+ -Gorizia — girone unico)
+LOCATION:Palestra Comunale\, MARIANO DEL FRIULI GO
+DESCRIPTION:Under 19 maschile CT Trieste-Gorizia — girone unico\n2ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-19-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-tsgo-561a2655@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261204T180000
+DTEND;TZID=Europe/Rome:20261204T200000
+SUMMARY:INTREPIDA – SLOVOLLEY (Under 19 maschile CT Trieste-Gorizia — g
+ irone unico)
+DESCRIPTION:Under 19 maschile CT Trieste-Gorizia — girone unico\n4ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-19-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-tsgo-a8b5ec47@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T180000
+DTEND;TZID=Europe/Rome:20261213T200000
+SUMMARY:TVA ACADEMY – INTREPIDA (Under 19 maschile CT Trieste-Gorizia —
+  girone unico)
+DESCRIPTION:Under 19 maschile CT Trieste-Gorizia — girone unico\n5ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-19-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-tsgo-02753bbb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261218T180000
+DTEND;TZID=Europe/Rome:20261218T200000
+SUMMARY:INTREPIDA – ROSSO VOLLEYCLUB TRIESTE (Under 19 maschile CT Triest
+ e-Gorizia — girone unico)
+DESCRIPTION:Under 19 maschile CT Trieste-Gorizia — girone unico\n6ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-19-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-tsgo-3f0b08dd@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270107T183000
+DTEND;TZID=Europe/Rome:20270107T203000
+SUMMARY:SOCASLOVOLLEY ZKBKORSIC – INTREPIDA (Under 19 maschile CT Trieste
+ -Gorizia — girone unico)
+DESCRIPTION:Under 19 maschile CT Trieste-Gorizia — girone unico\n7ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-19-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-tsgo-a4014ac5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270115T180000
+DTEND;TZID=Europe/Rome:20270115T200000
+SUMMARY:INTREPIDA – SCA MONTAGGI FINCANTIERI (Under 19 maschile CT Triest
+ e-Gorizia — girone unico)
+DESCRIPTION:Under 19 maschile CT Trieste-Gorizia — girone unico\n8ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-19-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-tsgo-fb4b5442@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270121T203000
+DTEND;TZID=Europe/Rome:20270121T223000
+SUMMARY:SLOVOLLEY – INTREPIDA (Under 19 maschile CT Trieste-Gorizia — g
+ irone unico)
+DESCRIPTION:Under 19 maschile CT Trieste-Gorizia — girone unico\n9ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-19-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-tsgo-5c1f32fb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270129T180000
+DTEND;TZID=Europe/Rome:20270129T200000
+SUMMARY:INTREPIDA – TVA ACADEMY (Under 19 maschile CT Trieste-Gorizia —
+  girone unico)
+DESCRIPTION:Under 19 maschile CT Trieste-Gorizia — girone unico\n10ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-19-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-tsg
+ o
+END:VEVENT
+END:VCALENDAR

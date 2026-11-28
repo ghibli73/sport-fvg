@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PIZETA EXPRESS Carrè-VI · Serie B Interregionale 
+ — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-b-interregionale-girone-b-fe54a637@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:MAZZOLENI BK TEAM 1995 93-66 PIZETA EXPRESS Carrè-VI (Serie B Inte
+ rregionale — girone B)
+DESCRIPTION:Serie B Interregionale — girone B\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-b-interregionale-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-b-interregionale-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-b-interregionale-girone-b-a2563b35@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:PIZETA EXPRESS Carrè-VI 67-77 FALCONSTAR BASKET (Serie B Interregi
+ onale — girone B)
+DESCRIPTION:Serie B Interregionale — girone B\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-b-interregionale-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-b-interregionale-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-b-interregionale-girone-b-f4391eda@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:ECOPROJECT TECHNOLOGIES 83-75 PIZETA EXPRESS Carrè-VI (Serie B Int
+ erregionale — girone B)
+DESCRIPTION:Serie B Interregionale — girone B\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-b-interregionale-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-b-interregionale-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-b-interregionale-girone-b-8ef23c9c@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:9CARE ROMANO BASKET 91-94 PIZETA EXPRESS Carrè-VI (Serie B Interre
+ gionale — girone B)
+DESCRIPTION:Serie B Interregionale — girone B\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-b-interregionale-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-b-interregionale-girone-
+ b
+END:VEVENT
+END:VCALENDAR

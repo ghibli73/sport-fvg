@@ -1,0 +1,139 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · GSD FAVRIA B SAN VITO · Under 14 Under 14 femminile 
+ CT Pordenone — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-87f3722b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261024T190000
+DTEND;TZID=Europe/Rome:20261024T210000
+SUMMARY:PANDAM SERRAMENTI 3-0 GSD FAVRIA B SAN VITO (Under 14 femminile CT 
+ Pordenone — girone B)
+LOCATION:Palasport\, Aviano (PN)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-90a58564@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T170000
+DTEND;TZID=Europe/Rome:20261031T190000
+SUMMARY:GSD FAVRIA B SAN VITO 0-3 VPA (Under 14 femminile CT Pordenone — 
+ girone B)
+LOCATION:Palestra Liceo Scientifico\, SAN VITO AL TAGLIAMENTO PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-34ac08dd@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T180000
+DTEND;TZID=Europe/Rome:20261107T200000
+SUMMARY:VOLLEY MONTEREALE 3-0 GSD FAVRIA B SAN VITO (Under 14 femminile CT 
+ Pordenone — girone B)
+LOCATION:Palazzetto dello Sport\, MONTEREALE VALCELLINA PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-d23c6030@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T170000
+DTEND;TZID=Europe/Rome:20261114T190000
+SUMMARY:GSD FAVRIA B SAN VITO 0-3 PSG DOMOVIP PORCIA (Under 14 femminile CT
+  Pordenone — girone B)
+LOCATION:Palestra Liceo Scientifico\, San Vito al Tagliamento PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-fea59e61@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:P.C.A. AUTOMAZIONI 3-0 GSD FAVRIA B SAN VITO (Under 14 femminile CT
+  Pordenone — girone B)
+LOCATION:Palestra G. Grizzo\, Villa d'Arco\, Cordenons (PN)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-568fd6cd@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:GSD FAVRIA B SAN VITO – LIBERTASU14 (Under 14 femminile CT Porden
+ one — girone B)
+LOCATION:Palestra Liceo Scientifico\, Via Stazione\, SAN VITO AL TAGLIAMENT
+ O PN
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-98364a8e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T170000
+DTEND;TZID=Europe/Rome:20261212T190000
+SUMMARY:GSD FAVRIA B SAN VITO – PALLAVOLO BRUGNERA 96 (Under 14 femminile
+  CT Pordenone — girone B)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n8ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-pn-girone-b-678f372c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T100000
+DTEND;TZID=Europe/Rome:20261220T120000
+SUMMARY:AQUILA SPILIMBERGO GREEN – GSD FAVRIA B SAN VITO (Under 14 femmin
+ ile CT Pordenone — girone B)
+DESCRIPTION:Under 14 femminile CT Pordenone — girone B\n9ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-14-femminile-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-pn
+ -girone-b
+END:VEVENT
+END:VCALENDAR

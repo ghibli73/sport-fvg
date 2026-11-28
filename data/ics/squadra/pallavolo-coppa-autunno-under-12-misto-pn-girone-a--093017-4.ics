@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · SNOOPY PUB · Under 12 Coppa Autunno Under 12 misto C
+ T Pordenone — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-a-f4b1dbd2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261115T150000
+DTEND;TZID=Europe/Rome:20261115T170000
+SUMMARY:SNOOPY PUB 3-0 PALLAVOLO BRUGNERA 96 (Coppa Autunno Under 12 misto 
+ CT Pordenone — girone A)
+LOCATION:Palestra G. Grizzo\, Villa D'Arco Cordenons PN
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone A\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-a-ef4e6f56@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261118T170000
+DTEND;TZID=Europe/Rome:20261118T190000
+SUMMARY:FUTURA BLACK 3-0 SNOOPY PUB (Coppa Autunno Under 12 misto CT Porden
+ one — girone A)
+LOCATION:Palestra Scuola Media Da Vinci\, Cordenons (PN)
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone A\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-a-565356d5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T163000
+DTEND;TZID=Europe/Rome:20261128T183000
+SUMMARY:PORDENONE VOLLEY – SNOOPY PUB (Coppa Autunno Under 12 misto CT Po
+ rdenone — girone A)
+LOCATION:Pal. Scuole Medie\, Via Vesalio\, PORDENONE PN
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone A\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-a-1722ea11@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261206T150000
+DTEND;TZID=Europe/Rome:20261206T170000
+SUMMARY:SNOOPY PUB – RAMINELLI ZOPPOLA (Coppa Autunno Under 12 misto CT P
+ ordenone — girone A)
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone A\n5ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-a
+END:VEVENT
+END:VCALENDAR

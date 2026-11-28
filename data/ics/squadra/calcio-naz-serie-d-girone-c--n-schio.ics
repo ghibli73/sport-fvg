@@ -1,0 +1,401 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Schio · Serie D — girone C
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-ad67c39a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:Sandona 1-0 Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n1ª giornata\nDati non ufficiali: fa fede
+  la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-
+ d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-b10303cc@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Schio 1-1 Union Clodiense (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n2ª giornata\nDati non ufficiali: fa fede
+  la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-
+ d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-580e2546@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Calvi Noale 0-0 Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n3ª giornata\nDati non ufficiali: fa fede
+  la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-
+ d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-f1ee8c4c@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Schio 0-0 Luparense (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n4ª giornata\nDati non ufficiali: fa fede
+  la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-
+ d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-70780a45@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Bassano 2-0 Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n5ª giornata\nDati non ufficiali: fa fede
+  la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-
+ d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-0fa6ddcd@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Schio 2-2 Altavilla (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n6ª giornata\nDati non ufficiali: fa fede
+  la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-
+ d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-203357a3@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:FC Obermais 3-0 Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n7ª giornata\nDati non ufficiali: fa fede
+  la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-
+ d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-e2c8e810@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Schio 4-1 Campodarsego (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n8ª giornata\nDati non ufficiali: fa fede
+  la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-
+ d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-3291a761@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Conegliano 2-1 Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n9ª giornata\nDati non ufficiali: fa fede
+  la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-
+ d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-fc5fea10@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Schio 0-1 Cjarlins Muzane (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n10ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-446d83fa@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Triestina 1-1 Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n11ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-67e84120@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Schio 3-1 LME (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n12ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-25072218@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Legnago Salus 0-2 Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n13ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-5d57b894@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261129T143000
+DTEND;TZID=Europe/Rome:20261129T163000
+SUMMARY:Schio – Mestre (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n14ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-1013da20@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261206T143000
+DTEND;TZID=Europe/Rome:20261206T163000
+SUMMARY:Schio – Este (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n15ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-7e544b48@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261213T143000
+DTEND;TZID=Europe/Rome:20261213T163000
+SUMMARY:Brian Lignano – Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n16ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-553e1439@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261220T143000
+DTEND;TZID=Europe/Rome:20261220T163000
+SUMMARY:Schio – Virtus Bolzano (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n17ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-41e28b52@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Schio – Sandona (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n18ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-2e4b6682@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Union Clodiense – Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n19ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-467ba365@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Schio – Calvi Noale (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n20ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-32ce1349@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Luparense – Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n21ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-cfb04cd2@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Schio – Bassano (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n22ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-e193f7c4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Altavilla – Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n23ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-dc59bd98@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Schio – FC Obermais (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n24ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-567e978f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Campodarsego – Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n25ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-58b7d9d8@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Schio – Conegliano (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n26ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-f6c440ea@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Cjarlins Muzane – Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n27ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-398f0926@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:Schio – Triestina (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n28ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-bb70c316@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:LME – Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n29ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-c929cb05@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Schio – Legnago Salus (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n30ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-547ce51d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Mestre – Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n31ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-e5ee762b@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Este – Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n32ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-f552d223@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Schio – Brian Lignano (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n33ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-d-girone-c-2e61afb2@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Virtus Bolzano – Schio (Serie D — girone C)
+DESCRIPTION:Serie D — girone C\n34ª giornata\nDati non ufficiali: fa fed
+ e la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie
+ -d-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-d-girone-c
+END:VEVENT
+END:VCALENDAR

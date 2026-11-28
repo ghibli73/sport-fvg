@@ -1,0 +1,196 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CSI TARCENTO · Under 12 Under 12 misto CT Udine — 
+ girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-0f591560@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261123T180000
+DTEND;TZID=Europe/Rome:20261123T200000
+SUMMARY:SPORTING CLUB 2-1 CSI TARCENTO (Under 12 misto CT Udine — girone 
+ unico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-f7be888b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T110000
+DTEND;TZID=Europe/Rome:20261213T130000
+SUMMARY:PALLAVOLO BUIA – CSI TARCENTO (Under 12 misto CT Udine — girone
+  unico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-42a45abe@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T153000
+DTEND;TZID=Europe/Rome:20261219T173000
+SUMMARY:CSI TARCENTO – PAV BRESSA ASD (Under 12 misto CT Udine — girone
+  unico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-aec400c7@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T110000
+DTEND;TZID=Europe/Rome:20270117T130000
+SUMMARY:VOLLEY BALL GEMONA – CSI TARCENTO (Under 12 misto CT Udine — gi
+ rone unico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-92fa7aa7@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T153000
+DTEND;TZID=Europe/Rome:20270123T173000
+SUMMARY:CSI TARCENTO – CHEI DE VILE (Under 12 misto CT Udine — girone u
+ nico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-717b200f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270125T170000
+DTEND;TZID=Europe/Rome:20270125T190000
+SUMMARY:FUTURA-LIBERTAS – CSI TARCENTO (Under 12 misto CT Udine — giron
+ e unico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-492b971a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T153000
+DTEND;TZID=Europe/Rome:20270213T173000
+SUMMARY:CSI TARCENTO – VIVIL VOLLEY (Under 12 misto CT Udine — girone u
+ nico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-bf4cfdf9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270306T163000
+DTEND;TZID=Europe/Rome:20270306T183000
+SUMMARY:CSI TARCENTO – SPORTING CLUB (Under 12 misto CT Udine — girone 
+ unico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n11ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-370538ad@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270320T153000
+DTEND;TZID=Europe/Rome:20270320T173000
+SUMMARY:CSI TARCENTO – PALLAVOLO BUIA (Under 12 misto CT Udine — girone
+  unico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n13ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-561f78e3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270403T160000
+DTEND;TZID=Europe/Rome:20270403T180000
+SUMMARY:PAV BRESSA ASD – CSI TARCENTO (Under 12 misto CT Udine — girone
+  unico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n14ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-c54bb3e3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270410T153000
+DTEND;TZID=Europe/Rome:20270410T173000
+SUMMARY:CSI TARCENTO – VOLLEY BALL GEMONA (Under 12 misto CT Udine — gi
+ rone unico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n15ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-f8d97014@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270416T180000
+DTEND;TZID=Europe/Rome:20270416T200000
+SUMMARY:CHEI DE VILE – CSI TARCENTO (Under 12 misto CT Udine — girone u
+ nico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n16ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-d76be64d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270508T153000
+DTEND;TZID=Europe/Rome:20270508T173000
+SUMMARY:CSI TARCENTO – FUTURA-LIBERTAS (Under 12 misto CT Udine — giron
+ e unico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n17ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-misto-ud-41dc7063@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270514T170000
+DTEND;TZID=Europe/Rome:20270514T190000
+SUMMARY:VIVIL VOLLEY – CSI TARCENTO (Under 12 misto CT Udine — girone u
+ nico)
+DESCRIPTION:Under 12 misto CT Udine — girone unico\n18ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-12-misto-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-misto-ud
+END:VEVENT
+END:VCALENDAR

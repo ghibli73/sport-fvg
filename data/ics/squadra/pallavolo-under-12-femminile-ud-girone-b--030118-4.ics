@@ -1,0 +1,134 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ASD KENNEDY ADEGLIACCO · Under 12 Under 12 femminile
+  CT Udine — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-b-0d70e67b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261115T173000
+DTEND;TZID=Europe/Rome:20261115T193000
+SUMMARY:CCR IL POZZO 2-1 ASD KENNEDY ADEGLIACCO (Under 12 femminile CT Udin
+ e — girone B)
+LOCATION:Palestra Comunale\, PRADAMANO UD
+DESCRIPTION:Under 12 femminile CT Udine — girone B\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-b-6da66250@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T153000
+DTEND;TZID=Europe/Rome:20261121T173000
+SUMMARY:ASD KENNEDY ADEGLIACCO 2-1 FTV RIZZI UDINE GIALLA (Under 12 femmini
+ le CT Udine — girone B)
+LOCATION:Palestra scuole Medie\, TAVAGNACCO UD
+DESCRIPTION:Under 12 femminile CT Udine — girone B\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-b-cbc2ece8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T153000
+DTEND;TZID=Europe/Rome:20261205T173000
+SUMMARY:ASFJR 1971 – ASD KENNEDY ADEGLIACCO (Under 12 femminile CT Udine 
+ — girone B)
+DESCRIPTION:Under 12 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-b-b6169f10@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T153000
+DTEND;TZID=Europe/Rome:20261212T173000
+SUMMARY:ASD KENNEDY ADEGLIACCO – PAV NATISONIA (Under 12 femminile CT Udi
+ ne — girone B)
+DESCRIPTION:Under 12 femminile CT Udine — girone B\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-b-72776c35@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T153000
+DTEND;TZID=Europe/Rome:20261219T173000
+SUMMARY:ASD KENNEDY ADEGLIACCO – CCR IL POZZO (Under 12 femminile CT Udin
+ e — girone B)
+DESCRIPTION:Under 12 femminile CT Udine — girone B\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-b-e78bb314@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270108T183000
+DTEND;TZID=Europe/Rome:20270108T203000
+SUMMARY:FTV RIZZI UDINE GIALLA – ASD KENNEDY ADEGLIACCO (Under 12 femmini
+ le CT Udine — girone B)
+DESCRIPTION:Under 12 femminile CT Udine — girone B\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-b-0f6055b6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T153000
+DTEND;TZID=Europe/Rome:20270123T173000
+SUMMARY:ASD KENNEDY ADEGLIACCO – ASFJR 1971 (Under 12 femminile CT Udine 
+ — girone B)
+DESCRIPTION:Under 12 femminile CT Udine — girone B\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-12-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-12-femminile-ud-girone-b-e1fd08d9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270128T174500
+DTEND;TZID=Europe/Rome:20270128T194500
+SUMMARY:PAV NATISONIA – ASD KENNEDY ADEGLIACCO (Under 12 femminile CT Udi
+ ne — girone B)
+DESCRIPTION:Under 12 femminile CT Udine — girone B\n10ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-12-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-12-femminile-ud
+ -girone-b
+END:VEVENT
+END:VCALENDAR

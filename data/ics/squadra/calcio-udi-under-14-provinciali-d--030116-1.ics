@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · TARCENTINA · Under 14 Under 14 provinciali — giron
+ e D
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-d-b1da4379@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:BRIAN LIGNANO CALCIO 4-1 TARCENTINA (Under 14 provinciali — giron
+ e D)
+DESCRIPTION:Under 14 provinciali — girone D\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-d-d24040b2@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:TARCENTINA 0-5 CUSSIGNACCO CALCIO (Under 14 provinciali — girone 
+ D)
+DESCRIPTION:Under 14 provinciali — girone D\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-d-e04f5ba0@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:TARCENTINA 1-4 CJARLINS MUZANE (Under 14 provinciali — girone D)
+DESCRIPTION:Under 14 provinciali — girone D\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-d-cc7b0873@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:NUOVA PASIANESE ACADEMY 2-2 TARCENTINA (Under 14 provinciali — gi
+ rone D)
+DESCRIPTION:Under 14 provinciali — girone D\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-d-cfa74257@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:TARCENTINA 0-1 CHIAVRIS (Under 14 provinciali — girone D)
+DESCRIPTION:Under 14 provinciali — girone D\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-d-f41dffc8@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CALCIO TEOR 6-2 TARCENTINA (Under 14 provinciali — girone D)
+DESCRIPTION:Under 14 provinciali — girone D\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-d-b65ccc02@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:TARCENTINA 0-4 ANCONA LUMIGNACCO (Under 14 provinciali — girone D
+ )
+DESCRIPTION:Under 14 provinciali — girone D\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-d-d38ea27b@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:TORREANESE 0-2 TARCENTINA (Under 14 provinciali — girone D)
+DESCRIPTION:Under 14 provinciali — girone D\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -d
+END:VEVENT
+END:VCALENDAR

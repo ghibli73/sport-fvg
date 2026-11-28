@@ -1,0 +1,188 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · IL POZZO · Prima Divisione maschile CT Udine — gir
+ one unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-7ea097be@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T173000
+DTEND;TZID=Europe/Rome:20261108T193000
+SUMMARY:ASDMUZZANAVOLLEY 0-3 IL POZZO (Prima Divisione maschile CT Udine 
+ — girone unico)
+LOCATION:Palestra Comunale\, MUZZANA DEL TURGNANO UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-f8d00f9b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:IL POZZO 0-3 GAIA VOLLEYBAS UDINE (Prima Divisione maschile CT Udin
+ e — girone unico)
+LOCATION:Palestra Comunale\, PRADAMANO UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-8fb213ef@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T180000
+DTEND;TZID=Europe/Rome:20261122T200000
+SUMMARY:A.S.D.ROJALESE 3-1 IL POZZO (Prima Divisione maschile CT Udine — 
+ girone unico)
+LOCATION:Palestra Comunale\, Remugnano REANA DEL ROIALE UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-8e4953bf@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:IL POZZO – GEMONA LA PERLA (Prima Divisione maschile CT Udine —
+  girone unico)
+LOCATION:Palestra Comunale\, Via Renati 7\, PRADAMANO UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-053daf19@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T180000
+DTEND;TZID=Europe/Rome:20261213T200000
+SUMMARY:AURORA VOLLEY UDINE – IL POZZO (Prima Divisione maschile CT Udine
+  — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-87789920@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T203000
+DTEND;TZID=Europe/Rome:20261219T223000
+SUMMARY:IL POZZO – APD SAN LEONARDO (Prima Divisione maschile CT Udine 
+ — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-8c496076@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T203000
+DTEND;TZID=Europe/Rome:20270109T223000
+SUMMARY:IL POZZO – ASDMUZZANAVOLLEY (Prima Divisione maschile CT Udine 
+ — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-ef1766e1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270115T201500
+DTEND;TZID=Europe/Rome:20270115T221500
+SUMMARY:GAIA VOLLEYBAS UDINE – IL POZZO (Prima Divisione maschile CT Udin
+ e — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n9ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-b0349d48@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270124T180000
+DTEND;TZID=Europe/Rome:20270124T200000
+SUMMARY:IL POZZO – A.S.D.ROJALESE (Prima Divisione maschile CT Udine — 
+ girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n10ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-b51ed13a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T200000
+DTEND;TZID=Europe/Rome:20270130T220000
+SUMMARY:GEMONA LA PERLA – IL POZZO (Prima Divisione maschile CT Udine —
+  girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n11ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-48ee78bc@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T173000
+DTEND;TZID=Europe/Rome:20270213T193000
+SUMMARY:IL POZZO – AURORA VOLLEY UDINE (Prima Divisione maschile CT Udine
+  — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n13ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-40ef1a1b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270220T203000
+DTEND;TZID=Europe/Rome:20270220T223000
+SUMMARY:APD SAN LEONARDO – IL POZZO (Prima Divisione maschile CT Udine 
+ — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n14ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+END:VCALENDAR

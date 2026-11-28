@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · FUTURA WHITE · Under 12 Coppa Autunno Under 12 misto
+  CT Pordenone — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-b-501add48@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261111T180000
+DTEND;TZID=Europe/Rome:20261111T200000
+SUMMARY:POLISPORTIVA MONTEREALE 0-3 FUTURA WHITE (Coppa Autunno Under 12 mi
+ sto CT Pordenone — girone B)
+LOCATION:Palestra Scuole\, Montereale Valcellina PN
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone B\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-b-c3b649c3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261115T090000
+DTEND;TZID=Europe/Rome:20261115T110000
+SUMMARY:FUTURA WHITE 0-3 AVIANO DRAGONFLIES (Coppa Autunno Under 12 misto C
+ T Pordenone — girone B)
+LOCATION:Palestra Scuola Media Da Vinci\, Cordenons PN
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone B\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-b-f5935319@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T150000
+DTEND;TZID=Europe/Rome:20261121T170000
+SUMMARY:U12 Farmacia di Nave 3-0 FUTURA WHITE (Coppa Autunno Under 12 misto
+  CT Pordenone — girone B)
+LOCATION:Palazzetto dello Sport\, Fontanafredda (PN)
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone B\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-coppa-autunno-under-12-misto-pn-girone-b-22fcea89@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T090000
+DTEND;TZID=Europe/Rome:20261129T110000
+SUMMARY:FUTURA WHITE – CORDOVADO VOLLEY (Coppa Autunno Under 12 misto CT 
+ Pordenone — girone B)
+LOCATION:Palestra Scuola Media Da Vinci\, Via Mazzini 88\, CORDENONS PN
+DESCRIPTION:Coppa Autunno Under 12 misto CT Pordenone — girone B\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-coppa-autunno-under-12-misto-pn-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-coppa-autunno-under-1
+ 2-misto-pn-girone-b
+END:VEVENT
+END:VCALENDAR

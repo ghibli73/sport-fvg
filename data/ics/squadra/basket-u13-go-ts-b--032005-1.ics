@@ -1,0 +1,210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · S.S. SD KONTOVEL · Under 13 Under 13 Maschile — gi
+ rone GO/TS B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-7e1e8f0c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T153000
+DTEND;TZID=Europe/Rome:20261031T173000
+SUMMARY:S.S. SD KONTOVEL 79-33 SAN VITO TRIESTE (Under 13 Maschile — giro
+ ne GO/TS B)
+LOCATION:Palestra M. Ervatti\, Sgonico
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n1ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-f2dff42f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T193000
+DTEND;TZID=Europe/Rome:20261111T213000
+SUMMARY:BASKETRIESTE 99-23 S.S. SD KONTOVEL (Under 13 Maschile — girone G
+ O/TS B)
+LOCATION:Palarubini Allianz Dome\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n2ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-fd0b8472@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:S.S. SD KONTOVEL 50-58 BARCOLANA BASKET TRIESTE (Under 13 Maschile 
+ — girone GO/TS B)
+LOCATION:Palestra M. Ervatti\, Sgonico
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n3ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-0ad3cbb3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261123T181500
+DTEND;TZID=Europe/Rome:20261123T201500
+SUMMARY:SAN VITO TRIESTE 41-74 S.S. SD KONTOVEL (Under 13 Maschile — giro
+ ne GO/TS B)
+LOCATION:Palazzetto 'Atleti Azzurri'\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n8ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-58576587@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261209T193000
+DTEND;TZID=Europe/Rome:20261209T213000
+SUMMARY:DINAMO GORIZIA – S.S. SD KONTOVEL (Under 13 Maschile — girone G
+ O/TS B)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n7ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-111e0ce3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261210T180000
+DTEND;TZID=Europe/Rome:20261210T200000
+SUMMARY:S.S. SD KONTOVEL – A.INT.BALONCESTO ISONTINA (Under 13 Maschile 
+ — girone GO/TS B)
+LOCATION:Palestra 'M.Ervatti'\, Sgonico
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n6ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-c3c71b99@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261213T110000
+DTEND;TZID=Europe/Rome:20261213T130000
+SUMMARY:SERVOLANA – S.S. SD KONTOVEL (Under 13 Maschile — girone GO/TS 
+ B)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n4ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-ce8931fd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261218T174500
+DTEND;TZID=Europe/Rome:20261218T194500
+SUMMARY:S.S. SD KONTOVEL – AKK BOR BASKET (Under 13 Maschile — girone G
+ O/TS B)
+LOCATION:Palestra 'M.Ervatti'\, Sgonico
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n5ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-5b9302da@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270110T110000
+DTEND;TZID=Europe/Rome:20270110T130000
+SUMMARY:S.S. SD KONTOVEL – BASKETRIESTE (Under 13 Maschile — girone GO/
+ TS B)
+LOCATION:Palestra 'M.Ervatti'\, Sgonico
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n9ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-011465ac@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T150000
+DTEND;TZID=Europe/Rome:20270117T170000
+SUMMARY:BARCOLANA BASKET TRIESTE – S.S. SD KONTOVEL (Under 13 Maschile 
+ — girone GO/TS B)
+LOCATION:Pal. Comunale 'Luca Vascott\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n10ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-fd762a18@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270124T110000
+DTEND;TZID=Europe/Rome:20270124T130000
+SUMMARY:S.S. SD KONTOVEL – SERVOLANA (Under 13 Maschile — girone GO/TS 
+ B)
+LOCATION:Palestra 'M.Ervatti'\, Sgonico
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n11ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-81ea2f37@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T093000
+DTEND;TZID=Europe/Rome:20270131T113000
+SUMMARY:AKK BOR BASKET – S.S. SD KONTOVEL (Under 13 Maschile — girone G
+ O/TS B)
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n12ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-35daa79e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270203T160000
+DTEND;TZID=Europe/Rome:20270203T180000
+SUMMARY:A.INT.BALONCESTO ISONTINA – S.S. SD KONTOVEL (Under 13 Maschile 
+ — girone GO/TS B)
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n13ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-17bd39f7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270214T110000
+DTEND;TZID=Europe/Rome:20270214T130000
+SUMMARY:S.S. SD KONTOVEL – DINAMO GORIZIA (Under 13 Maschile — girone G
+ O/TS B)
+LOCATION:Palestra 'M.Ervatti'\, Sgonico
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n14ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,165 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · MAJANESE VOLLEY · Under 17 Under 17 femminile CT Udi
+ ne — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-fbf1d7cc@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T193000
+DTEND;TZID=Europe/Rome:20261017T213000
+SUMMARY:MAJANESE VOLLEY 0-3 HORIZON KREATIVA (Under 17 femminile CT Udine 
+ — girone B)
+LOCATION:Palestra Centro Studi\, MAJANO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-258050e6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261024T160000
+DTEND;TZID=Europe/Rome:20261024T180000
+SUMMARY:VOLLEYBAS GREEN 0-3 MAJANESE VOLLEY (Under 17 femminile CT Udine 
+ — girone B)
+LOCATION:Palestra Scuola Media Valussi\, UDINE UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-38ecbb1f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T180000
+DTEND;TZID=Europe/Rome:20261031T200000
+SUMMARY:MAJANESE VOLLEY 3-2 AURORA VOLLEY UD AL (Under 17 femminile CT Udin
+ e — girone B)
+LOCATION:Palestra Centro Studi\, MAJANO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-4e9b8b08@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T170000
+DTEND;TZID=Europe/Rome:20261107T190000
+SUMMARY:PROJECTVOLLEY SANGIORGINA 3-0 MAJANESE VOLLEY (Under 17 femminile C
+ T Udine — girone B)
+LOCATION:Palazzetto dello Sport\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-fd6375f8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261116T190000
+DTEND;TZID=Europe/Rome:20261116T210000
+SUMMARY:MAJANESE VOLLEY 0-3 FARMACIA DA RE E CANOVA (Under 17 femminile CT 
+ Udine — girone B)
+LOCATION:Palestra Centro Studi\, MAJANO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-9c89a7cb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T193000
+DTEND;TZID=Europe/Rome:20261121T213000
+SUMMARY:MAJANESE VOLLEY 0-3 FVG VOLLEY ACADEMY SENIOR (Under 17 femminile C
+ T Udine — girone B)
+LOCATION:Palestra Centro Studi\, MAJANO UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-7cded125@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T180000
+DTEND;TZID=Europe/Rome:20261128T200000
+SUMMARY:L.W.V. LATISANA – MAJANESE VOLLEY (Under 17 femminile CT Udine 
+ — girone B)
+LOCATION:Palestra Scuole Medie\, Via Puccini 20\, LATISANA UD
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-2fc94968@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T163000
+DTEND;TZID=Europe/Rome:20261205T183000
+SUMMARY:PAV BRESSA ASD – MAJANESE VOLLEY (Under 17 femminile CT Udine —
+  girone B)
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-5b23ef0c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261214T190000
+DTEND;TZID=Europe/Rome:20261214T210000
+SUMMARY:MAJANESE VOLLEY – ZANIBONI SNACK TALMASSONS (Under 17 femminile C
+ T Udine — girone B)
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n10ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-ud-girone-b-7ea3e8e3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T173000
+DTEND;TZID=Europe/Rome:20261219T193000
+SUMMARY:ART_CENTO VOLLEY WHITE – MAJANESE VOLLEY (Under 17 femminile CT U
+ dine — girone B)
+DESCRIPTION:Under 17 femminile CT Udine — girone B\n11ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-17-femminile-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ud
+ -girone-b
+END:VEVENT
+END:VCALENDAR

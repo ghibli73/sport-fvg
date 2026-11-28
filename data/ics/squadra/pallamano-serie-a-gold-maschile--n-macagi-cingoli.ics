@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · MACAGI CINGOLI · Serie A Gold maschile — girone un
+ ico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-5efd8837@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260912T180000
+DTEND;TZID=Europe/Rome:20260912T200000
+SUMMARY:MACAGI CINGOLI 26-25 TRIESTE (Serie A Gold maschile — girone unic
+ o)
+LOCATION:CINGOLI
+DESCRIPTION:Serie A Gold maschile — girone unico\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-59992862@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260919T173000
+DTEND;TZID=Europe/Rome:20260919T193000
+SUMMARY:RAIMOND SASSARI 32-31 MACAGI CINGOLI (Serie A Gold maschile — gir
+ one unico)
+LOCATION:SASSARI
+DESCRIPTION:Serie A Gold maschile — girone unico\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-4ced35d7@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260923T190000
+DTEND;TZID=Europe/Rome:20260923T210000
+SUMMARY:MACAGI CINGOLI 27-33 PUBLIESSE CHIARAVALLE (Serie A Gold maschile 
+ — girone unico)
+LOCATION:CINGOLI
+DESCRIPTION:Serie A Gold maschile — girone unico\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-b1f9191e@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260926T170000
+DTEND;TZID=Europe/Rome:20260926T190000
+SUMMARY:ORLANDO HAENNA 23-22 MACAGI CINGOLI (Serie A Gold maschile — giro
+ ne unico)
+LOCATION:ENNA
+DESCRIPTION:Serie A Gold maschile — girone unico\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-878c683e@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261003T180000
+DTEND;TZID=Europe/Rome:20261003T200000
+SUMMARY:MACAGI CINGOLI 23-23 PRESSANO (Serie A Gold maschile — girone uni
+ co)
+LOCATION:CINGOLI
+DESCRIPTION:Serie A Gold maschile — girone unico\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-525eb5b0@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261010T190000
+DTEND;TZID=Europe/Rome:20261010T210000
+SUMMARY:CONVERSANO 26-30 MACAGI CINGOLI (Serie A Gold maschile — girone u
+ nico)
+LOCATION:CONVERSANO
+DESCRIPTION:Serie A Gold maschile — girone unico\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-681af9e2@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261017T180000
+DTEND;TZID=Europe/Rome:20261017T200000
+SUMMARY:MACAGI CINGOLI 26-29 SALUMIFICIO RIVA MOLTENO (Serie A Gold maschil
+ e — girone unico)
+LOCATION:CINGOLI
+DESCRIPTION:Serie A Gold maschile — girone unico\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-4206a6a9@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261024T190000
+DTEND;TZID=Europe/Rome:20261024T210000
+SUMMARY:BLACK DEVILS MERAN ALPERIA 37-30 MACAGI CINGOLI (Serie A Gold masch
+ ile — girone unico)
+LOCATION:MERANO
+DESCRIPTION:Serie A Gold maschile — girone unico\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-611bc2fd@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261031T180000
+DTEND;TZID=Europe/Rome:20261031T200000
+SUMMARY:MACAGI CINGOLI 29-32 SSV BOZEN LOACKER VOLKSBANK (Serie A Gold masc
+ hile — girone unico)
+LOCATION:CINGOLI
+DESCRIPTION:Serie A Gold maschile — girone unico\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-e0629ec2@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261114T183000
+DTEND;TZID=Europe/Rome:20261114T203000
+SUMMARY:PROGER CASSANO MAGNAGO 35-19 MACAGI CINGOLI (Serie A Gold maschile 
+ — girone unico)
+LOCATION:CASSANO MAGNAGO
+DESCRIPTION:Serie A Gold maschile — girone unico\n10ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-0f5f2c5f@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261121T180000
+DTEND;TZID=Europe/Rome:20261121T200000
+SUMMARY:MACAGI CINGOLI 25-24 JUNIOR FASANO (Serie A Gold maschile — giron
+ e unico)
+LOCATION:CINGOLI
+DESCRIPTION:Serie A Gold maschile — girone unico\n11ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-9c62b600@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261128T183000
+DTEND;TZID=Europe/Rome:20261128T203000
+SUMMARY:METELLI COLOGNE – MACAGI CINGOLI (Serie A Gold maschile — giron
+ e unico)
+LOCATION:COLOGNE
+DESCRIPTION:Serie A Gold maschile — girone unico\n12ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+END:VCALENDAR

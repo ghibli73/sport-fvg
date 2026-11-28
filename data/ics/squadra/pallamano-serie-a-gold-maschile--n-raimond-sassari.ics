@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · RAIMOND SASSARI · Serie A Gold maschile — girone u
+ nico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-e7bca6d2@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260909T180000
+DTEND;TZID=Europe/Rome:20260909T200000
+SUMMARY:RAIMOND SASSARI 31-24 TRIESTE (Serie A Gold maschile — girone uni
+ co)
+LOCATION:SASSARI
+DESCRIPTION:Serie A Gold maschile — girone unico\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-59992862@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260919T173000
+DTEND;TZID=Europe/Rome:20260919T193000
+SUMMARY:RAIMOND SASSARI 32-31 MACAGI CINGOLI (Serie A Gold maschile — gir
+ one unico)
+LOCATION:SASSARI
+DESCRIPTION:Serie A Gold maschile — girone unico\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-8fcc3fe3@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260926T180000
+DTEND;TZID=Europe/Rome:20260926T200000
+SUMMARY:PUBLIESSE CHIARAVALLE 26-34 RAIMOND SASSARI (Serie A Gold maschile 
+ — girone unico)
+LOCATION:CHIARAVALLE
+DESCRIPTION:Serie A Gold maschile — girone unico\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-a1cb648d@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260930T190000
+DTEND;TZID=Europe/Rome:20260930T210000
+SUMMARY:TEAMNETWORK ALBATRO SIRACUSA 25-26 RAIMOND SASSARI (Serie A Gold ma
+ schile — girone unico)
+LOCATION:SIRACUSA
+DESCRIPTION:Serie A Gold maschile — girone unico\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-e4cd66b4@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261003T183000
+DTEND;TZID=Europe/Rome:20261003T203000
+SUMMARY:RAIMOND SASSARI 37-23 ORLANDO HAENNA (Serie A Gold maschile — gir
+ one unico)
+LOCATION:SASSARI
+DESCRIPTION:Serie A Gold maschile — girone unico\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-6eeffa4e@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261010T160000
+DTEND;TZID=Europe/Rome:20261010T180000
+SUMMARY:PRESSANO 27-27 RAIMOND SASSARI (Serie A Gold maschile — girone un
+ ico)
+LOCATION:LAVIS
+DESCRIPTION:Serie A Gold maschile — girone unico\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-329de3de@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261024T163000
+DTEND;TZID=Europe/Rome:20261024T183000
+SUMMARY:SALUMIFICIO RIVA MOLTENO 19-33 RAIMOND SASSARI (Serie A Gold maschi
+ le — girone unico)
+LOCATION:MOLTENO
+DESCRIPTION:Serie A Gold maschile — girone unico\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-26f98166@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261027T190000
+DTEND;TZID=Europe/Rome:20261027T210000
+SUMMARY:RAIMOND SASSARI 32-31 CONVERSANO (Serie A Gold maschile — girone 
+ unico)
+LOCATION:SASSARI
+DESCRIPTION:Serie A Gold maschile — girone unico\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-299fe5e1@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261031T183000
+DTEND;TZID=Europe/Rome:20261031T203000
+SUMMARY:RAIMOND SASSARI 34-29 BLACK DEVILS MERAN ALPERIA (Serie A Gold masc
+ hile — girone unico)
+LOCATION:SASSARI
+DESCRIPTION:Serie A Gold maschile — girone unico\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-fd8e67e2@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261114T150000
+DTEND;TZID=Europe/Rome:20261114T170000
+SUMMARY:SSV BOZEN LOACKER VOLKSBANK 21-29 RAIMOND SASSARI (Serie A Gold mas
+ chile — girone unico)
+LOCATION:BOLZANO
+DESCRIPTION:Serie A Gold maschile — girone unico\n10ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-54ec82bc@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261121T180000
+DTEND;TZID=Europe/Rome:20261121T200000
+SUMMARY:RAIMOND SASSARI 23-31 PROGER CASSANO MAGNAGO (Serie A Gold maschile
+  — girone unico)
+LOCATION:SASSARI
+DESCRIPTION:Serie A Gold maschile — girone unico\n11ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-6313397d@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261216T201500
+DTEND;TZID=Europe/Rome:20261216T221500
+SUMMARY:JUNIOR FASANO – RAIMOND SASSARI (Serie A Gold maschile — girone
+  unico)
+LOCATION:FASANO
+DESCRIPTION:Serie A Gold maschile — girone unico\n12ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+END:VCALENDAR

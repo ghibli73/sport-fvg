@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ASD GAIA BASKET SCHOOL · Under 12 Trofeo Esordienti 
+ Under 12 — girone PN D
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-6ace2030@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261108T150000
+DTEND;TZID=Europe/Rome:20261108T170000
+SUMMARY:ASD GAIA BASKET SCHOOL 12-4 NEW BRUGNERA BASKET A.S.D. (Trofeo Esor
+ dienti Under 12 — girone PN D)
+LOCATION:Nuova Palestra Di Calderano\, Gaiarine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-3a468ff1@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261117T183000
+DTEND;TZID=Europe/Rome:20261117T203000
+SUMMARY:A.S.D. HUMUS FONTANAFREDDA BLU 4-12 ASD GAIA BASKET SCHOOL (Trofeo 
+ Esordienti Under 12 — girone PN D)
+LOCATION:Palazzetto Dello Sport\, Fontanafredda
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-0658ec27@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261127T164500
+DTEND;TZID=Europe/Rome:20261127T184500
+SUMMARY:FIUME VENETO BIANCO – ASD GAIA BASKET SCHOOL (Trofeo Esordienti U
+ nder 12 — girone PN D)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-cd38d144@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261201T171500
+DTEND;TZID=Europe/Rome:20261201T191500
+SUMMARY:SCUOLA PALL PORCIA – ASD GAIA BASKET SCHOOL (Trofeo Esordienti Un
+ der 12 — girone PN D)
+LOCATION:Palestra Sc. Di Roraipiccolo\, Porcia
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-06883365@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261205T144500
+DTEND;TZID=Europe/Rome:20261205T164500
+SUMMARY:ASD GAIA BASKET SCHOOL – A.S.D. HUMUS SACILE ARANCIO (Trofeo Esor
+ dienti Under 12 — girone PN D)
+LOCATION:Nuova Palestra Di Calderano\, Gaiarine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-4eb655a2@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261211T164500
+DTEND;TZID=Europe/Rome:20261211T184500
+SUMMARY:NEW BRUGNERA BASKET A.S.D. – ASD GAIA BASKET SCHOOL (Trofeo Esord
+ ienti Under 12 — girone PN D)
+LOCATION:Palasport\, Brugnera
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-fd9bab86@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261220T110000
+DTEND;TZID=Europe/Rome:20261220T130000
+SUMMARY:ASD GAIA BASKET SCHOOL – A.S.D. HUMUS FONTANAFREDDA BLU (Trofeo E
+ sordienti Under 12 — girone PN D)
+LOCATION:Nuova Palestra Di Calderano\, Gaiarine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-a2c13224@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270109T151500
+DTEND;TZID=Europe/Rome:20270109T171500
+SUMMARY:ASD GAIA BASKET SCHOOL – FIUME VENETO BIANCO (Trofeo Esordienti U
+ nder 12 — girone PN D)
+LOCATION:Nuova Palestra Di Calderano\, Gaiarine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-8785cf37@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270116T144500
+DTEND;TZID=Europe/Rome:20270116T164500
+SUMMARY:ASD GAIA BASKET SCHOOL – SCUOLA PALL PORCIA (Trofeo Esordienti Un
+ der 12 — girone PN D)
+LOCATION:Nuova Palestra Di Calderano\, Gaiarine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-b26ddf44@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270124T150000
+DTEND;TZID=Europe/Rome:20270124T170000
+SUMMARY:A.S.D. HUMUS SACILE ARANCIO – ASD GAIA BASKET SCHOOL (Trofeo Esor
+ dienti Under 12 — girone PN D)
+LOCATION:Palestra Ist.To Marchesini - M\, Sacile
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+END:VCALENDAR

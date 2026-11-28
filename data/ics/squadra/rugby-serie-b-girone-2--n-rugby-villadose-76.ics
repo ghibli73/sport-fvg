@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Rugby Villadose 76 · Serie B — girone 2 (1a fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-5e6daab2@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Rugby Villadose 76 31-7 Rugby Fiumicello (Serie B — girone 2 (1a 
+ fase))
+DESCRIPTION:Serie B — girone 2 (1a fase)\n1ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-0e4b878d@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Rugby Oltremella 32-10 Rugby Villadose 76 (Serie B — girone 2 (1a
+  fase))
+DESCRIPTION:Serie B — girone 2 (1a fase)\n2ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-18b4e4c9@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Rugby Villadose 76 59-12 Rugby Mantova (Serie B — girone 2 (1a fa
+ se))
+DESCRIPTION:Serie B — girone 2 (1a fase)\n3ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-f5c82901@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Casalmaggiore Rugby 22-24 Rugby Villadose 76 (Serie B — girone 2 
+ (1a fase))
+DESCRIPTION:Serie B — girone 2 (1a fase)\n4ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-1bd151d0@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Rugby Villadose 76 – Valorugby Emilia (Serie B — girone 2 (1a f
+ ase))
+DESCRIPTION:Serie B — girone 2 (1a fase)\n5ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · MAZZOLENI BK TEAM 1995 · Serie B Interregionale — 
+ girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-b-interregionale-girone-b-2f56ecba@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:ECOPROJECT TECHNOLOGIES 66-80 MAZZOLENI BK TEAM 1995 (Serie B Inter
+ regionale — girone B)
+DESCRIPTION:Serie B Interregionale — girone B\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-b-interregionale-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-b-interregionale-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-b-interregionale-girone-b-fe54a637@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:MAZZOLENI BK TEAM 1995 93-66 PIZETA EXPRESS Carrè-VI (Serie B Inte
+ rregionale — girone B)
+DESCRIPTION:Serie B Interregionale — girone B\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-b-interregionale-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-b-interregionale-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-b-interregionale-girone-b-9a132a7d@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:PALL. VIRTUS PADOVA 54-82 MAZZOLENI BK TEAM 1995 (Serie B Interregi
+ onale — girone B)
+DESCRIPTION:Serie B Interregionale — girone B\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-b-interregionale-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-b-interregionale-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-b-interregionale-girone-b-b90d2c50@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:MAZZOLENI BK TEAM 1995 92-57 9CARE ROMANO BASKET (Serie B Interregi
+ onale — girone B)
+DESCRIPTION:Serie B Interregionale — girone B\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-b-interregionale-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-b-interregionale-girone-
+ b
+END:VEVENT
+END:VCALENDAR

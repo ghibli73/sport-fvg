@@ -1,0 +1,396 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ASD PALLAVOLO MOSSA · Serie D femminile — girone u
+ nico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-3257ff3c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T200000
+DTEND;TZID=Europe/Rome:20261017T220000
+SUMMARY:SOCA LOKANDA DEVETAK ZKB 3-0 ASD PALLAVOLO MOSSA (Serie D femminile
+  — girone unico)
+LOCATION:Palestra Comunale\, SAVOGNA D'ISONZO GO
+DESCRIPTION:Serie D femminile — girone unico\n1ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-c2e46a5b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261024T200000
+DTEND;TZID=Europe/Rome:20261024T220000
+SUMMARY:ASD PALLAVOLO MOSSA 3-2 CLUB AURORA VOLLEY UDINE (Serie D femminile
+  — girone unico)
+LOCATION:Palestra Comunale\, MOSSA GO
+DESCRIPTION:Serie D femminile — girone unico\n2ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-92cd0456@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T200000
+DTEND;TZID=Europe/Rome:20261031T220000
+SUMMARY:ASD PALLAVOLO MOSSA 3-2 MASCHIO PALLAVOLO BUIA (Serie D femminile 
+ — girone unico)
+LOCATION:Palestra Comunale\, MOSSA GO
+DESCRIPTION:Serie D femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-85e5b93d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261103T203000
+DTEND;TZID=Europe/Rome:20261103T223000
+SUMMARY:IMQ RIZZI UDINE 3-0 ASD PALLAVOLO MOSSA (Serie D femminile — giro
+ ne unico)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, Udine (UD)
+DESCRIPTION:Serie D femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-80af9369@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:ASD PALLAVOLO MOSSA 3-0 FARRAVOLO (Serie D femminile — girone uni
+ co)
+LOCATION:Palestra Comunale\, Mossa (GO)
+DESCRIPTION:Serie D femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ca67150b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T180000
+DTEND;TZID=Europe/Rome:20261114T200000
+SUMMARY:EUROVOLLEYSCHOOL 0-3 ASD PALLAVOLO MOSSA (Serie D femminile — gir
+ one unico)
+LOCATION:Palestra Scuola Elementare Don Milani\, Trieste (TS)
+DESCRIPTION:Serie D femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-dbd0ce25@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T200000
+DTEND;TZID=Europe/Rome:20261121T220000
+SUMMARY:ASD PALLAVOLO MOSSA 1-3 CFV - MT ECOSERVICE (Serie D femminile — 
+ girone unico)
+LOCATION:Palestra Comunale\, Mossa (GO)
+DESCRIPTION:Serie D femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-68777c7f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:REVOLUTION SRL Trieste – ASD PALLAVOLO MOSSA (Serie D femminile 
+ — girone unico)
+LOCATION:Palestra Cobolli\, Via della Valle 3\, Trieste (TS)
+DESCRIPTION:Serie D femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-aa83f8c7@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T200000
+DTEND;TZID=Europe/Rome:20261205T220000
+SUMMARY:ASD PALLAVOLO MOSSA – PIZZA D'ORO PAV BRESSA (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n9ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-f7de71d4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T183000
+DTEND;TZID=Europe/Rome:20261213T203000
+SUMMARY:ROJALKENNEDY PRIMACASSA – ASD PALLAVOLO MOSSA (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n10ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-233607bb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T200000
+DTEND;TZID=Europe/Rome:20261219T220000
+SUMMARY:ASD PALLAVOLO MOSSA – GIOIELLI DI MAX ZOPPOLA (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n11ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ad091515@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T180000
+DTEND;TZID=Europe/Rome:20270109T200000
+SUMMARY:C.U.S. TRIESTE A.S.D. – ASD PALLAVOLO MOSSA (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n12ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-5e30c740@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270114T203000
+DTEND;TZID=Europe/Rome:20270114T223000
+SUMMARY:ASD PALLAVOLO MOSSA – VERO SRL MANIAGO (Serie D femminile — gir
+ one unico)
+DESCRIPTION:Serie D femminile — girone unico\n13ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-cf8f7b8c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270116T203000
+DTEND;TZID=Europe/Rome:20270116T223000
+SUMMARY:PALLAVOLO BRUGNERA 96 – ASD PALLAVOLO MOSSA (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n14ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ceb1e837@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T200000
+DTEND;TZID=Europe/Rome:20270123T220000
+SUMMARY:ASD PALLAVOLO MOSSA – A.S.D. MORARO VOLLEY (Serie D femminile —
+  girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n15ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-b43efd2f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T200000
+DTEND;TZID=Europe/Rome:20270130T220000
+SUMMARY:ASD PALLAVOLO MOSSA – SOCA LOKANDA DEVETAK ZKB (Serie D femminile
+  — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n16ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-d81db15a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270207T183000
+DTEND;TZID=Europe/Rome:20270207T203000
+SUMMARY:CLUB AURORA VOLLEY UDINE – ASD PALLAVOLO MOSSA (Serie D femminile
+  — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n17ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ff9ccbc1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T203000
+DTEND;TZID=Europe/Rome:20270213T223000
+SUMMARY:MASCHIO PALLAVOLO BUIA – ASD PALLAVOLO MOSSA (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n18ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ecf0ce18@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270218T203000
+DTEND;TZID=Europe/Rome:20270218T223000
+SUMMARY:ASD PALLAVOLO MOSSA – IMQ RIZZI UDINE (Serie D femminile — giro
+ ne unico)
+DESCRIPTION:Serie D femminile — girone unico\n19ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ce4339e3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270220T203000
+DTEND;TZID=Europe/Rome:20270220T223000
+SUMMARY:FARRAVOLO – ASD PALLAVOLO MOSSA (Serie D femminile — girone uni
+ co)
+DESCRIPTION:Serie D femminile — girone unico\n20ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-a83c41de@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270227T200000
+DTEND;TZID=Europe/Rome:20270227T220000
+SUMMARY:ASD PALLAVOLO MOSSA – EUROVOLLEYSCHOOL (Serie D femminile — gir
+ one unico)
+DESCRIPTION:Serie D femminile — girone unico\n21ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-d30c2a7e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270307T180000
+DTEND;TZID=Europe/Rome:20270307T200000
+SUMMARY:CFV - MT ECOSERVICE – ASD PALLAVOLO MOSSA (Serie D femminile — 
+ girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n22ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-3f273697@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270313T200000
+DTEND;TZID=Europe/Rome:20270313T220000
+SUMMARY:ASD PALLAVOLO MOSSA – REVOLUTION SRL Trieste (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n23ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-2d1694ed@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270321T193000
+DTEND;TZID=Europe/Rome:20270321T213000
+SUMMARY:PIZZA D'ORO PAV BRESSA – ASD PALLAVOLO MOSSA (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n24ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-42a55f9d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270403T200000
+DTEND;TZID=Europe/Rome:20270403T220000
+SUMMARY:ASD PALLAVOLO MOSSA – ROJALKENNEDY PRIMACASSA (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n25ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-9bc01ae8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270411T180000
+DTEND;TZID=Europe/Rome:20270411T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA – ASD PALLAVOLO MOSSA (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n26ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-7d7af524@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270417T200000
+DTEND;TZID=Europe/Rome:20270417T220000
+SUMMARY:ASD PALLAVOLO MOSSA – C.U.S. TRIESTE A.S.D. (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n27ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-4d018bb3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270421T203000
+DTEND;TZID=Europe/Rome:20270421T223000
+SUMMARY:VERO SRL MANIAGO – ASD PALLAVOLO MOSSA (Serie D femminile — gir
+ one unico)
+DESCRIPTION:Serie D femminile — girone unico\n28ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-80115585@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270424T200000
+DTEND;TZID=Europe/Rome:20270424T220000
+SUMMARY:ASD PALLAVOLO MOSSA – PALLAVOLO BRUGNERA 96 (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n29ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ba624b65@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270501T180000
+DTEND;TZID=Europe/Rome:20270501T200000
+SUMMARY:A.S.D. MORARO VOLLEY – ASD PALLAVOLO MOSSA (Serie D femminile —
+  girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n30ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,160 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · IL POZZO · Under 19 Under 19 maschile interterritori
+ ale PN-UD — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-54581669@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261115T153000
+DTEND;TZID=Europe/Rome:20261115T173000
+SUMMARY:FUTURA PAELLA A CASA TUA 3-1 IL POZZO (Under 19 maschile interterri
+ toriale PN-UD — girone unico)
+LOCATION:Palestra Scuola Media Da Vinci\, CORDENONS PN
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n2ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-5c363b28@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T183000
+DTEND;TZID=Europe/Rome:20261129T203000
+SUMMARY:FOX VOLLEY FRIULEVIGATURA – IL POZZO (Under 19 maschile interterr
+ itoriale PN-UD — girone unico)
+LOCATION:Palestra Scuole\, Via Runtine 6\, Fagnigola\, AZZANO DECIMO PN
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n4ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-43b8ac13@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261211T180000
+DTEND;TZID=Europe/Rome:20261211T200000
+SUMMARY:PASIAN DI PRATO VOLLEY – IL POZZO (Under 19 maschile interterrito
+ riale PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n6ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-cd0bd120@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261214T203000
+DTEND;TZID=Europe/Rome:20261214T223000
+SUMMARY:IL POZZO – VPA FRIULINTAGLI (Under 19 maschile interterritoriale 
+ PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n5ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-a71cb21a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T110000
+DTEND;TZID=Europe/Rome:20261220T130000
+SUMMARY:PORDENONE VOLLEY – IL POZZO (Under 19 maschile interterritoriale 
+ PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n7ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-d69c65b5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T180000
+DTEND;TZID=Europe/Rome:20270117T200000
+SUMMARY:IL POZZO – FUTURA PAELLA A CASA TUA (Under 19 maschile interterri
+ toriale PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n9ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-82550573@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270131T180000
+DTEND;TZID=Europe/Rome:20270131T200000
+SUMMARY:IL POZZO – FOX VOLLEY FRIULEVIGATURA (Under 19 maschile interterr
+ itoriale PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n11
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-d8a8468b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270203T203000
+DTEND;TZID=Europe/Rome:20270203T223000
+SUMMARY:VPA FRIULINTAGLI – IL POZZO (Under 19 maschile interterritoriale 
+ PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n12
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-f9da9f70@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270214T180000
+DTEND;TZID=Europe/Rome:20270214T200000
+SUMMARY:IL POZZO – PASIAN DI PRATO VOLLEY (Under 19 maschile interterrito
+ riale PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n13
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-76858def@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270221T180000
+DTEND;TZID=Europe/Rome:20270221T200000
+SUMMARY:IL POZZO – PORDENONE VOLLEY (Under 19 maschile interterritoriale 
+ PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n14
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+END:VCALENDAR

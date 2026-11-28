@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · BASKET FIUME · Under 14 Under 14 Femminile — giron
+ e C (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-femminile-c-9e90407f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T153000
+DTEND;TZID=Europe/Rome:20261107T173000
+SUMMARY:BASKET FIUME 37-53 BIN Tigrotte (Under 14 Femminile — girone C (p
+ rima fase))
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 14 Femminile — girone C (prima fase)\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-c-3ded7227@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T153000
+DTEND;TZID=Europe/Rome:20261114T173000
+SUMMARY:SISTEMA ROSA PALL. 76-43 BASKET FIUME (Under 14 Femminile — giron
+ e C (prima fase))
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Under 14 Femminile — girone C (prima fase)\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-c-94540a6b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261122T163000
+DTEND;TZID=Europe/Rome:20261122T183000
+SUMMARY:BASKET FIUME – Farmacia del Sole Udine SBaMM (Under 14 Femminile 
+ — girone C (prima fase))
+LOCATION:Pal. Sc. El. 'Cesare Battist\, Fiume Veneto
+DESCRIPTION:Under 14 Femminile — girone C (prima fase)\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-c-ade5a90e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:BIN Tigrotte – BASKET FIUME (Under 14 Femminile — girone C (pri
+ ma fase))
+LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
+DESCRIPTION:Under 14 Femminile — girone C (prima fase)\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-c-45cf1809@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261213T163000
+DTEND;TZID=Europe/Rome:20261213T183000
+SUMMARY:BASKET FIUME – SISTEMA ROSA PALL. (Under 14 Femminile — girone 
+ C (prima fase))
+LOCATION:Pal. Sc. El. 'Cesare Battist\, Fiume Veneto
+DESCRIPTION:Under 14 Femminile — girone C (prima fase)\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-c-ba7d4df9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261220T113000
+DTEND;TZID=Europe/Rome:20261220T133000
+SUMMARY:Farmacia del Sole Udine SBaMM – BASKET FIUME (Under 14 Femminile 
+ — girone C (prima fase))
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
+DESCRIPTION:Under 14 Femminile — girone C (prima fase)\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-c
+END:VEVENT
+END:VCALENDAR

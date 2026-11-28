@@ -1,0 +1,233 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · US ALBA PALLACANESTRO · Under 15 Under 15 Maschile R
+ egionale — girone GO/TS
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-c1d5c562@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:US ALBA PALLACANESTRO 49-58 BARCOLANA BASKET TRIESTE (Under 15 Masc
+ hile Regionale — girone GO/TS)
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-732751b9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:US ALBA PALLACANESTRO 49-57 U.S.D. DON BOSCO (Under 15 Maschile Reg
+ ionale — girone GO/TS)
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-a5343644@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:NAUTILUS ALLESTIMENTI 55-64 US ALBA PALLACANESTRO (Under 15 Maschil
+ e Regionale — girone GO/TS)
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-2616ddbe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261120T170000
+DTEND;TZID=Europe/Rome:20261120T190000
+SUMMARY:PALLACANESTRO GRADO – US ALBA PALLACANESTRO (Under 15 Maschile Re
+ gionale — girone GO/TS)
+LOCATION:Palasport Della Sacca Dei More\, Grado
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-110d8639@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261206T120000
+DTEND;TZID=Europe/Rome:20261206T140000
+SUMMARY:O.F.P. AZZURRA R.D.R. Basket – US ALBA PALLACANESTRO (Under 15 Ma
+ schile Regionale — girone GO/TS)
+LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-5bf8462a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261212T173000
+DTEND;TZID=Europe/Rome:20261212T193000
+SUMMARY:US ALBA PALLACANESTRO – A.S.A.R.-A.S. AM.ROMANS (Under 15 Maschil
+ e Regionale — girone GO/TS)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n8ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-59dfda7e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261218T180000
+DTEND;TZID=Europe/Rome:20261218T200000
+SUMMARY:U.S. GORIZIANA – US ALBA PALLACANESTRO (Under 15 Maschile Regiona
+ le — girone GO/TS)
+LOCATION:Palestra 'Pino Brumatti'\, Gorizia
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n9ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-aeafd19f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270110T150000
+DTEND;TZID=Europe/Rome:20270110T170000
+SUMMARY:BARCOLANA BASKET TRIESTE – US ALBA PALLACANESTRO (Under 15 Maschi
+ le Regionale — girone GO/TS)
+LOCATION:Pal. Comunale 'Luca Vascott\, Trieste
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n10ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-8043d747@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270116T173000
+DTEND;TZID=Europe/Rome:20270116T193000
+SUMMARY:US ALBA PALLACANESTRO – AKK BOR BASKET (Under 15 Maschile Regiona
+ le — girone GO/TS)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n11ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-adf7cf00@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270124T110000
+DTEND;TZID=Europe/Rome:20270124T130000
+SUMMARY:U.S.D. DON BOSCO – US ALBA PALLACANESTRO (Under 15 Maschile Regio
+ nale — girone GO/TS)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n12ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-c9ef9893@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270130T173000
+DTEND;TZID=Europe/Rome:20270130T193000
+SUMMARY:US ALBA PALLACANESTRO – NAUTILUS ALLESTIMENTI (Under 15 Maschile 
+ Regionale — girone GO/TS)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n13ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-31bff45b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270205T173000
+DTEND;TZID=Europe/Rome:20270205T193000
+SUMMARY:US ALBA PALLACANESTRO – PALLACANESTRO GRADO (Under 15 Maschile Re
+ gionale — girone GO/TS)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n14ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-0bb51143@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270213T150000
+DTEND;TZID=Europe/Rome:20270213T170000
+SUMMARY:SERVOLANA – US ALBA PALLACANESTRO (Under 15 Maschile Regionale 
+ — girone GO/TS)
+LOCATION:Palestra Comunale Di San Giova\, Trieste
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n15ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-b009e088@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270220T173000
+DTEND;TZID=Europe/Rome:20270220T193000
+SUMMARY:US ALBA PALLACANESTRO – O.F.P. AZZURRA R.D.R. Basket (Under 15 Ma
+ schile Regionale — girone GO/TS)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n16ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-cb692107@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270227T163000
+DTEND;TZID=Europe/Rome:20270227T183000
+SUMMARY:A.S.A.R.-A.S. AM.ROMANS – US ALBA PALLACANESTRO (Under 15 Maschil
+ e Regionale — girone GO/TS)
+LOCATION:Palestra Comunale\, Romans D'Isonzo
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n17ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-go-ts-0a0ce7cb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270306T173000
+DTEND;TZID=Europe/Rome:20270306T193000
+SUMMARY:US ALBA PALLACANESTRO – U.S. GORIZIANA (Under 15 Maschile Regiona
+ le — girone GO/TS)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n18ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-regionale-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
+END:VEVENT
+END:VCALENDAR

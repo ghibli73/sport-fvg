@@ -1,0 +1,153 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · SIFA ROJALKENNEDY · Under 19 Under 19 femminile CT U
+ dine — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-baec22a9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261025T110000
+DTEND;TZID=Europe/Rome:20261025T130000
+SUMMARY:SIFA ROJALKENNEDY 3-0 PAV NATISONIA - IL POZZO (Under 19 femminile 
+ CT Udine — girone unico)
+LOCATION:Palestra Comunale\, Remugnano REANA DEL ROIALE UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-22c30e6f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261027T201500
+DTEND;TZID=Europe/Rome:20261027T221500
+SUMMARY:CHEI DE VILE 0-3 SIFA ROJALKENNEDY (Under 19 femminile CT Udine —
+  girone unico)
+LOCATION:Palestra Comunale\, FAGAGNA UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-f0cae2b3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:SIFA ROJALKENNEDY 3-0 BLU TEAM (Under 19 femminile CT Udine — gir
+ one unico)
+LOCATION:Palestra Comunale\, REANA DEL ROIALE UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-82178aaa@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261115T170000
+DTEND;TZID=Europe/Rome:20261115T190000
+SUMMARY:AURORA VOLLEY UDINE SI 0-3 SIFA ROJALKENNEDY (Under 19 femminile CT
+  Udine — girone unico)
+LOCATION:Palestra Scuola Mazzini\, UDINE UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-7f115d3d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261126T200000
+DTEND;TZID=Europe/Rome:20261126T220000
+SUMMARY:CLUB AURORA VOLLEY UDINE 0-3 SIFA ROJALKENNEDY (Under 19 femminile 
+ CT Udine — girone unico)
+LOCATION:Palestra Scuola Media Bellavitis\, Viale XXV Aprile 7\, UDINE
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-537d9aea@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261206T110000
+DTEND;TZID=Europe/Rome:20261206T130000
+SUMMARY:SIFA ROJALKENNEDY – LIBERTAS MARTIGNACCO (Under 19 femminile CT U
+ dine — girone unico)
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-a13a0b33@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T110000
+DTEND;TZID=Europe/Rome:20261213T130000
+SUMMARY:A.S.D. STELLA VOLLEY – SIFA ROJALKENNEDY (Under 19 femminile CT U
+ dine — girone unico)
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n8ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-d76ffd12@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T113000
+DTEND;TZID=Europe/Rome:20261220T133000
+SUMMARY:ART_CENTO VOLLEY – SIFA ROJALKENNEDY (Under 19 femminile CT Udine
+  — girone unico)
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n9ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-f0adfb9d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T110000
+DTEND;TZID=Europe/Rome:20270110T130000
+SUMMARY:SIFA ROJALKENNEDY – ASD SPORTING CLUB (Under 19 femminile CT Udin
+ e — girone unico)
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n10ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-e4ea23bd@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T110000
+DTEND;TZID=Europe/Rome:20270117T130000
+SUMMARY:VILLADIES SAFE MARINE – SIFA ROJALKENNEDY (Under 19 femminile CT 
+ Udine — girone unico)
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n11ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+END:VCALENDAR

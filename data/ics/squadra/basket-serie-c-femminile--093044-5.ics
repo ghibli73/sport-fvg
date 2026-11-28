@@ -1,0 +1,236 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · WIS 1963 Woman Spilimbergo · Serie C femminile — g
+ irone unico (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-bc4ec4fd@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261024T203000
+DTEND;TZID=Europe/Rome:20261024T223000
+SUMMARY:Libertas Gym E Basket 57-69 WIS 1963 Woman Spilimbergo (Serie C fem
+ minile — girone unico (prima fase))
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n1ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-8a67d896@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261108T200000
+DTEND;TZID=Europe/Rome:20261108T220000
+SUMMARY:WIS 1963 Woman Spilimbergo 65-50 Pol. Casarsa (Serie C femminile 
+ — girone unico (prima fase))
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-a102638e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261114T180000
+DTEND;TZID=Europe/Rome:20261114T200000
+SUMMARY:Pall. Interclub Muggia 45-59 WIS 1963 Woman Spilimbergo (Serie C fe
+ mminile — girone unico (prima fase))
+LOCATION:Palasport Menguzzato\, Muggia
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n4ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-48d7af1a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261122T180000
+DTEND;TZID=Europe/Rome:20261122T200000
+SUMMARY:WIS 1963 Woman Spilimbergo 85-53 Polisportiva Concordia (Serie C fe
+ mminile — girone unico (prima fase))
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n5ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-75f40563@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T183000
+DTEND;TZID=Europe/Rome:20261128T203000
+SUMMARY:Pozzuolo Basket – WIS 1963 Woman Spilimbergo (Serie C femminile 
+ — girone unico (prima fase))
+LOCATION:Polisportivo Comunale\, Pozzuolo Del Friuli
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n6ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-dc5c02a9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:Nuova Basket Isonzo – WIS 1963 Woman Spilimbergo (Serie C femmini
+ le — girone unico (prima fase))
+LOCATION:Palamarson\, Turriaco
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n7ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-c72229cd@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261210T194500
+DTEND;TZID=Europe/Rome:20261210T214500
+SUMMARY:Pall. Portogruaro – WIS 1963 Woman Spilimbergo (Serie C femminile
+  — girone unico (prima fase))
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n2ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-15dc4b40@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261219T183000
+DTEND;TZID=Europe/Rome:20261219T203000
+SUMMARY:WIS 1963 Woman Spilimbergo – APU Next Gen (Serie C femminile — 
+ girone unico (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n9ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-ed4571cd@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270110T180000
+DTEND;TZID=Europe/Rome:20270110T200000
+SUMMARY:WIS 1963 Woman Spilimbergo – Libertas Gym E Basket (Serie C femmi
+ nile — girone unico (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n10ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-69da9327@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270117T180000
+DTEND;TZID=Europe/Rome:20270117T200000
+SUMMARY:WIS 1963 Woman Spilimbergo – Pall. Portogruaro (Serie C femminile
+  — girone unico (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n11ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-fd0e9c00@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270123T193000
+DTEND;TZID=Europe/Rome:20270123T213000
+SUMMARY:Pol. Casarsa – WIS 1963 Woman Spilimbergo (Serie C femminile — 
+ girone unico (prima fase))
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n12ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-f31c6816@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270131T180000
+DTEND;TZID=Europe/Rome:20270131T200000
+SUMMARY:WIS 1963 Woman Spilimbergo – Pall. Interclub Muggia (Serie C femm
+ inile — girone unico (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n13ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-a85421ff@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270207T200000
+DTEND;TZID=Europe/Rome:20270207T220000
+SUMMARY:Polisportiva Concordia – WIS 1963 Woman Spilimbergo (Serie C femm
+ inile — girone unico (prima fase))
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n14ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-b35a539b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270213T183000
+DTEND;TZID=Europe/Rome:20270213T203000
+SUMMARY:WIS 1963 Woman Spilimbergo – Pozzuolo Basket (Serie C femminile 
+ — girone unico (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n15ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-23231ede@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270221T180000
+DTEND;TZID=Europe/Rome:20270221T200000
+SUMMARY:WIS 1963 Woman Spilimbergo – Nuova Basket Isonzo (Serie C femmini
+ le — girone unico (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n16ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-femminile-af7e5d7e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270305T200000
+DTEND;TZID=Europe/Rome:20270305T220000
+SUMMARY:APU Next Gen – WIS 1963 Woman Spilimbergo (Serie C femminile — 
+ girone unico (prima fase))
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Serie C femminile — girone unico (prima fase)\n18ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-serie-c-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
+END:VEVENT
+END:VCALENDAR

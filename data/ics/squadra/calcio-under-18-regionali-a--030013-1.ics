@@ -1,0 +1,445 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · BUJESE CALCIO · Under 18 Under 18 regionali — giro
+ ne A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-2e5e017a@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:COMUNALE FONTANAFREDDA 3-0 BUJESE CALCIO (Under 18 regionali — gi
+ rone A)
+DESCRIPTION:Under 18 regionali — girone A\n2ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-84f34056@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:BUJESE CALCIO 1-4 TORRE (Under 18 regionali — girone A)
+DESCRIPTION:Under 18 regionali — girone A\n3ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-2532b661@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:CHIONS 2-3 BUJESE CALCIO (Under 18 regionali — girone A)
+DESCRIPTION:Under 18 regionali — girone A\n4ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-e0996b26@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:BUJESE CALCIO 3-3 POLISPORTIVA TAMAI ASD (Under 18 regionali — gi
+ rone A)
+DESCRIPTION:Under 18 regionali — girone A\n5ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-7b4f4d72@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:U.FINCANTIERI MONFALCONE 5-0 BUJESE CALCIO (Under 18 regionali — 
+ girone A)
+DESCRIPTION:Under 18 regionali — girone A\n6ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-b571b302@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:FIUME VENETO -BANNIA 6-3 BUJESE CALCIO (Under 18 regionali — giro
+ ne A)
+DESCRIPTION:Under 18 regionali — girone A\n8ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-019585ed@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:BUJESE CALCIO 0-3 SANTAMARIA (Under 18 regionali — girone A)
+DESCRIPTION:Under 18 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-c18055cb@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:PALMARKET PAGNACCO 3-2 BUJESE CALCIO (Under 18 regionali — girone
+  A)
+DESCRIPTION:Under 18 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-7579e3b4@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:BUJESE CALCIO 2-4 S.GOTTARDO (Under 18 regionali — girone A)
+DESCRIPTION:Under 18 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-7d8933df@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:MUGGIA 1967 7-0 BUJESE CALCIO (Under 18 regionali — girone A)
+DESCRIPTION:Under 18 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-3c73954d@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:BUJESE CALCIO 1-4 RIVE D ARCANO FLAIBANO (Under 18 regionali — gi
+ rone A)
+DESCRIPTION:Under 18 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-a39f0b5d@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261128T173000
+DTEND;TZID=Europe/Rome:20261128T193000
+SUMMARY:UNION MARTIGNACCO – BUJESE CALCIO (Under 18 regionali — girone 
+ A)
+LOCATION:Via Colloredi Di Prato\, Faugnacco
+DESCRIPTION:Under 18 regionali — girone A\n14ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-bb5947a4@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261205T173000
+DTEND;TZID=Europe/Rome:20261205T193000
+SUMMARY:BUJESE CALCIO – SANT ANDREA SAN VITO (Under 18 regionali — giro
+ ne A)
+LOCATION:Comunale Buja\, Via Fornasate 49
+DESCRIPTION:Under 18 regionali — girone A\n15ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-b9bde500@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261212T173000
+DTEND;TZID=Europe/Rome:20261212T193000
+SUMMARY:CHIAVRIS – BUJESE CALCIO (Under 18 regionali — girone A)
+LOCATION:Bruno Udine\, Via Don Bosco 2
+DESCRIPTION:Under 18 regionali — girone A\n17ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-ebc0a644@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261219T173000
+DTEND;TZID=Europe/Rome:20261219T193000
+SUMMARY:BUJESE CALCIO – SANGIORGINA (Under 18 regionali — girone A)
+LOCATION:Comunale Buja\, Via Fornasate 49
+DESCRIPTION:Under 18 regionali — girone A\n18ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-83862b94@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261222T190000
+DTEND;TZID=Europe/Rome:20261222T210000
+SUMMARY:CUSSIGNACCO CALCIO – BUJESE CALCIO (Under 18 regionali — girone
+  A)
+LOCATION:Bepi Rigo Udine\, Via Basiliano 24
+DESCRIPTION:Under 18 regionali — girone A\n19ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-2ade33f0@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270109T173000
+DTEND;TZID=Europe/Rome:20270109T193000
+SUMMARY:BRIAN LIGNANO CALCIO – BUJESE CALCIO (Under 18 regionali — giro
+ ne A)
+LOCATION:Teghil - B Lignano Sabbiadoro\, Viale Europa 142
+DESCRIPTION:Under 18 regionali — girone A\n20ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-82b0ad47@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270116T173000
+DTEND;TZID=Europe/Rome:20270116T193000
+SUMMARY:BUJESE CALCIO – COMUNALE FONTANAFREDDA (Under 18 regionali — gi
+ rone A)
+LOCATION:Comunale Buja\, Via Fornasate 49
+DESCRIPTION:Under 18 regionali — girone A\n21ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-c16e4c69@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270123T173000
+DTEND;TZID=Europe/Rome:20270123T193000
+SUMMARY:TORRE – BUJESE CALCIO (Under 18 regionali — girone A)
+LOCATION:Comunale Pordenone\, Via Peruzza 8
+DESCRIPTION:Under 18 regionali — girone A\n22ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-9a74da54@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270130T173000
+DTEND;TZID=Europe/Rome:20270130T193000
+SUMMARY:BUJESE CALCIO – CHIONS (Under 18 regionali — girone A)
+LOCATION:Comunale Buja\, Via Fornasate 49
+DESCRIPTION:Under 18 regionali — girone A\n23ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-150e132d@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270206T173000
+DTEND;TZID=Europe/Rome:20270206T193000
+SUMMARY:POLISPORTIVA TAMAI ASD – BUJESE CALCIO (Under 18 regionali — gi
+ rone A)
+LOCATION:Campo B Tamai\, Via Giovanni Xxiii 69
+DESCRIPTION:Under 18 regionali — girone A\n24ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-d900f687@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270213T173000
+DTEND;TZID=Europe/Rome:20270213T193000
+SUMMARY:BUJESE CALCIO – U.FINCANTIERI MONFALCONE (Under 18 regionali — 
+ girone A)
+LOCATION:Comunale Buja\, Via Fornasate 49
+DESCRIPTION:Under 18 regionali — girone A\n25ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-258f6b27@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270220T173000
+DTEND;TZID=Europe/Rome:20270220T193000
+SUMMARY:NUOVO PORDENONE 2024 FC – BUJESE CALCIO (Under 18 regionali — g
+ irone A)
+LOCATION:Grizzo Villa D'Arco\, Via Giuseppe Grizzo
+DESCRIPTION:Under 18 regionali — girone A\n26ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-ee53e35b@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270223T190000
+DTEND;TZID=Europe/Rome:20270223T210000
+SUMMARY:BUJESE CALCIO – FIUME VENETO -BANNIA (Under 18 regionali — giro
+ ne A)
+LOCATION:Comunale Buja\, Via Fornasate 49
+DESCRIPTION:Under 18 regionali — girone A\n27ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-e9ad44d2@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270227T173000
+DTEND;TZID=Europe/Rome:20270227T193000
+SUMMARY:SANTAMARIA – BUJESE CALCIO (Under 18 regionali — girone A)
+LOCATION:Comunale B Sintetico Santa Maria La Longa\, Via Silose
+DESCRIPTION:Under 18 regionali — girone A\n28ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-f49b5475@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270306T173000
+DTEND;TZID=Europe/Rome:20270306T193000
+SUMMARY:BUJESE CALCIO – PALMARKET PAGNACCO (Under 18 regionali — girone
+  A)
+LOCATION:Comunale Buja\, Via Fornasate 49
+DESCRIPTION:Under 18 regionali — girone A\n29ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-c205e747@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270309T190000
+DTEND;TZID=Europe/Rome:20270309T210000
+SUMMARY:S.GOTTARDO – BUJESE CALCIO (Under 18 regionali — girone A)
+LOCATION:Comunale A Udine\, Via Barcis
+DESCRIPTION:Under 18 regionali — girone A\n30ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-28a07e4e@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270313T173000
+DTEND;TZID=Europe/Rome:20270313T193000
+SUMMARY:BUJESE CALCIO – MUGGIA 1967 (Under 18 regionali — girone A)
+LOCATION:Comunale Buja\, Via Fornasate 49
+DESCRIPTION:Under 18 regionali — girone A\n31ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-7b5f601e@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270320T173000
+DTEND;TZID=Europe/Rome:20270320T193000
+SUMMARY:RIVE D ARCANO FLAIBANO – BUJESE CALCIO (Under 18 regionali — gi
+ rone A)
+LOCATION:Comunale Rive D'Arcano Rodeano Basso\, Via Lungocorno
+DESCRIPTION:Under 18 regionali — girone A\n32ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-2f05a248@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270403T173000
+DTEND;TZID=Europe/Rome:20270403T193000
+SUMMARY:BUJESE CALCIO – UNION MARTIGNACCO (Under 18 regionali — girone 
+ A)
+LOCATION:Comunale Buja\, Via Fornasate 49
+DESCRIPTION:Under 18 regionali — girone A\n33ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-cbba7867@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270410T180000
+DTEND;TZID=Europe/Rome:20270410T200000
+SUMMARY:SANT ANDREA SAN VITO – BUJESE CALCIO (Under 18 regionali — giro
+ ne A)
+LOCATION:Starc Comunale Trieste\, Via Locchi
+DESCRIPTION:Under 18 regionali — girone A\n34ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-9e4d31df@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270424T173000
+DTEND;TZID=Europe/Rome:20270424T193000
+SUMMARY:BUJESE CALCIO – CHIAVRIS (Under 18 regionali — girone A)
+LOCATION:Comunale Buja\, Via Fornasate 49
+DESCRIPTION:Under 18 regionali — girone A\n36ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-a274d835@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270501T173000
+DTEND;TZID=Europe/Rome:20270501T193000
+SUMMARY:SANGIORGINA – BUJESE CALCIO (Under 18 regionali — girone A)
+LOCATION:Collavin - Principale A San Giorgio Di Nogaro\, Via Carnia 7
+DESCRIPTION:Under 18 regionali — girone A\n37ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-8f94bc63@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270508T173000
+DTEND;TZID=Europe/Rome:20270508T193000
+SUMMARY:BUJESE CALCIO – CUSSIGNACCO CALCIO (Under 18 regionali — girone
+  A)
+LOCATION:Comunale Buja\, Via Fornasate 49
+DESCRIPTION:Under 18 regionali — girone A\n38ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+END:VCALENDAR

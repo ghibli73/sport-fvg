@@ -1,0 +1,402 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · SANVITESE · Under 15 Under 15 regionali — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-84bf790f@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:TRIESTINA CALCIO 1918 SRL 0-1 SANVITESE (Under 15 regionali — gir
+ one A)
+DESCRIPTION:Under 15 regionali — girone A\n2ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-89f29ce2@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:SANVITESE 2-0 PRO FAGAGNA (Under 15 regionali — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n3ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-52db4ed6@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:SANT ANDREA SAN VITO 2-1 SANVITESE (Under 15 regionali — girone A
+ )
+DESCRIPTION:Under 15 regionali — girone A\n4ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-d403cc76@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:SANVITESE 4-0 TRIESTE VICTORY ACADEMY (Under 15 regionali — giron
+ e A)
+DESCRIPTION:Under 15 regionali — girone A\n5ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-bd4eb6a8@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:OPICINA 5-4 SANVITESE (Under 15 regionali — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n6ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-aa6bbce5@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:SANVITESE 4-0 CUSSIGNACCO CALCIO (Under 15 regionali — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n7ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-32318d82@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:DONATELLO CALCIO A.S.D. 1-0 SANVITESE (Under 15 regionali — giron
+ e A)
+DESCRIPTION:Under 15 regionali — girone A\n8ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-8c654102@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SANVITESE 3-0 CALCIO SACILE 2026 (Under 15 regionali — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-bc4bfff3@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CALCIO MANIAGO VAJONT 2-2 SANVITESE (Under 15 regionali — girone 
+ A)
+DESCRIPTION:Under 15 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-a9c4b0a7@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SANVITESE 2-2 NUOVO PORDENONE 2024 FC (Under 15 regionali — giron
+ e A)
+DESCRIPTION:Under 15 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-758cd372@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:CJARLINS MUZANE 3-2 SANVITESE (Under 15 regionali — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-bdcd5ae4@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:SANVITESE 1-0 MANZANESE CALCIO (Under 15 regionali — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-7af47f59@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261129T113000
+DTEND;TZID=Europe/Rome:20261129T133000
+SUMMARY:SAN LUIGI CALCIO – SANVITESE (Under 15 regionali — girone A)
+LOCATION:San Luigi Comunale Trieste\, Via Felluga 58
+DESCRIPTION:Under 15 regionali — girone A\n14ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-ccbff853@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261206T103000
+DTEND;TZID=Europe/Rome:20261206T123000
+SUMMARY:SANVITESE – ANCONA LUMIGNACCO (Under 15 regionali — girone A)
+LOCATION:Campo A - Principale San Vito Al Tagliamento\, Viale Prodolone 42
+DESCRIPTION:Under 15 regionali — girone A\n15ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-5e8ec76d@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261220T103000
+DTEND;TZID=Europe/Rome:20261220T123000
+SUMMARY:UDINE UNITED RIZZI CORMOR – SANVITESE (Under 15 regionali — gir
+ one A)
+LOCATION:Parrocchiale Dei Rizzi Udine\, Via Delle Scuole 15
+DESCRIPTION:Under 15 regionali — girone A\n17ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-c45dba1d@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270110T100000
+DTEND;TZID=Europe/Rome:20270110T120000
+SUMMARY:COMUNALE FONTANAFREDDA – SANVITESE (Under 15 regionali — girone
+  A)
+LOCATION:Tognon 2 Fontanafredda\, Via Del Parco
+DESCRIPTION:Under 15 regionali — girone A\n18ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-bf36a82d@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270117T103000
+DTEND;TZID=Europe/Rome:20270117T123000
+SUMMARY:SANVITESE – TRIESTINA CALCIO 1918 SRL (Under 15 regionali — gir
+ one A)
+LOCATION:Campo A - Principale San Vito Al Tagliamento\, Viale Prodolone 42
+DESCRIPTION:Under 15 regionali — girone A\n19ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-69ea1a01@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270124T103000
+DTEND;TZID=Europe/Rome:20270124T123000
+SUMMARY:PRO FAGAGNA – SANVITESE (Under 15 regionali — girone A)
+LOCATION:Comunale San Vito Di Fagagna\, Via Divisione Julia
+DESCRIPTION:Under 15 regionali — girone A\n20ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-3f71e855@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270131T103000
+DTEND;TZID=Europe/Rome:20270131T123000
+SUMMARY:SANVITESE – SANT ANDREA SAN VITO (Under 15 regionali — girone A
+ )
+LOCATION:Campo A - Principale San Vito Al Tagliamento\, Viale Prodolone 42
+DESCRIPTION:Under 15 regionali — girone A\n21ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-d5d859f1@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270207T103000
+DTEND;TZID=Europe/Rome:20270207T123000
+SUMMARY:TRIESTE VICTORY ACADEMY – SANVITESE (Under 15 regionali — giron
+ e A)
+LOCATION:Bussani Comunale Trieste\, Via Petracco 8
+DESCRIPTION:Under 15 regionali — girone A\n22ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-7352bb69@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270214T103000
+DTEND;TZID=Europe/Rome:20270214T123000
+SUMMARY:SANVITESE – OPICINA (Under 15 regionali — girone A)
+LOCATION:Campo A - Principale San Vito Al Tagliamento\, Viale Prodolone 42
+DESCRIPTION:Under 15 regionali — girone A\n23ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-74b65b0c@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270221T103000
+DTEND;TZID=Europe/Rome:20270221T123000
+SUMMARY:CUSSIGNACCO CALCIO – SANVITESE (Under 15 regionali — girone A)
+LOCATION:Gigi Comuzzi - Campo B1 Cussignacco\, Via Padova
+DESCRIPTION:Under 15 regionali — girone A\n24ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-08f65fdb@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270228T103000
+DTEND;TZID=Europe/Rome:20270228T123000
+SUMMARY:SANVITESE – DONATELLO CALCIO A.S.D. (Under 15 regionali — giron
+ e A)
+LOCATION:Campo A - Principale San Vito Al Tagliamento\, Viale Prodolone 42
+DESCRIPTION:Under 15 regionali — girone A\n25ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-34021c17@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270307T103000
+DTEND;TZID=Europe/Rome:20270307T123000
+SUMMARY:CALCIO SACILE 2026 – SANVITESE (Under 15 regionali — girone A)
+LOCATION:Ermanno Sfriso Sacile\, Via Martiri Sfriso 12/D
+DESCRIPTION:Under 15 regionali — girone A\n26ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-0b7115d9@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270314T103000
+DTEND;TZID=Europe/Rome:20270314T123000
+SUMMARY:SANVITESE – CALCIO MANIAGO VAJONT (Under 15 regionali — girone 
+ A)
+LOCATION:Campo A - Principale San Vito Al Tagliamento\, Viale Prodolone 42
+DESCRIPTION:Under 15 regionali — girone A\n27ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-6f6dc0df@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270321T113000
+DTEND;TZID=Europe/Rome:20270321T133000
+SUMMARY:NUOVO PORDENONE 2024 FC – SANVITESE (Under 15 regionali — giron
+ e A)
+LOCATION:L. De Piero Cordenons\, Via Ponte Del Vado
+DESCRIPTION:Under 15 regionali — girone A\n28ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-cbef7c6c@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270404T103000
+DTEND;TZID=Europe/Rome:20270404T123000
+SUMMARY:SANVITESE – CJARLINS MUZANE (Under 15 regionali — girone A)
+LOCATION:Campo A - Principale San Vito Al Tagliamento\, Viale Prodolone 42
+DESCRIPTION:Under 15 regionali — girone A\n29ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-b8f2ed63@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270411T103000
+DTEND;TZID=Europe/Rome:20270411T123000
+SUMMARY:MANZANESE CALCIO – SANVITESE (Under 15 regionali — girone A)
+LOCATION:Comunale A Manzano\, Via Olivo
+DESCRIPTION:Under 15 regionali — girone A\n30ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-53aa4154@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270418T103000
+DTEND;TZID=Europe/Rome:20270418T123000
+SUMMARY:SANVITESE – SAN LUIGI CALCIO (Under 15 regionali — girone A)
+LOCATION:Campo A - Principale San Vito Al Tagliamento\, Viale Prodolone 42
+DESCRIPTION:Under 15 regionali — girone A\n31ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-059d6a96@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270425T103000
+DTEND;TZID=Europe/Rome:20270425T123000
+SUMMARY:ANCONA LUMIGNACCO – SANVITESE (Under 15 regionali — girone A)
+LOCATION:Comunale Via Friuli Udine\, Via S.Margherita Gruagno 67
+DESCRIPTION:Under 15 regionali — girone A\n32ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-bca52620@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270509T103000
+DTEND;TZID=Europe/Rome:20270509T123000
+SUMMARY:SANVITESE – UDINE UNITED RIZZI CORMOR (Under 15 regionali — gir
+ one A)
+LOCATION:Campo A - Principale San Vito Al Tagliamento\, Viale Prodolone 42
+DESCRIPTION:Under 15 regionali — girone A\n34ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+END:VCALENDAR

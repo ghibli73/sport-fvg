@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Handball Malo · Seconda squadra Serie B maschile Are
+ a 3 (Veneto–FVG)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-5a0c1389@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261011T180000
+DTEND;TZID=Europe/Rome:20261011T200000
+SUMMARY:Handball Malo 28-38 Pallamano Trieste 1970 (Serie B maschile Area 3
+  (Veneto–FVG))
+LOCATION:Malo
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-10cf8314@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261018T180000
+DTEND;TZID=Europe/Rome:20261018T200000
+SUMMARY:Nuova Pallamano Vigasio 21-32 Handball Malo (Serie B maschile Area 
+ 3 (Veneto–FVG))
+LOCATION:Vigasio
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-6348c828@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261025T180000
+DTEND;TZID=Europe/Rome:20261025T200000
+SUMMARY:Handball Malo 32-37 Handball Oderzo (Serie B maschile Area 3 (Venet
+ o–FVG))
+LOCATION:Malo
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-432b0f45@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261108T173000
+DTEND;TZID=Europe/Rome:20261108T193000
+SUMMARY:Handball Vicentina 30-28 Handball Malo (Serie B maschile Area 3 (Ve
+ neto–FVG))
+LOCATION:Camisano Vicentino
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-55839a66@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:Handball Malo 28-34 Pallamano Vicenza (Serie B maschile Area 3 (Ven
+ eto–FVG))
+LOCATION:Malo
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-51c915f9@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:Handball Malo – San Vito Marano (Serie B maschile Area 3 (Veneto
+ –FVG))
+LOCATION:Malo
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,163 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · U.S. AZZURRA · Under 17 Under 17 femminile CT Triest
+ e-Gorizia — girone C
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-0c22f252@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T153000
+DTEND;TZID=Europe/Rome:20261031T173000
+SUMMARY:UNICLIMA TSV CITY/CROSS 0-3 U.S. AZZURRA (Under 17 femminile CT Tri
+ este-Gorizia — girone C)
+LOCATION:Palestra Liceo Oberdan\, TRIESTE
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-2b59cf4f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T193000
+DTEND;TZID=Europe/Rome:20261108T213000
+SUMMARY:U.S. AZZURRA 1-3 KRONOS IMMOB-FINCANTIERI (Under 17 femminile CT Tr
+ ieste-Gorizia — girone C)
+LOCATION:Circ. Spor. Slov. - Pal. Mirko Spacapan\, GORIZIA GO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-ee37f7c8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261110T183000
+DTEND;TZID=Europe/Rome:20261110T203000
+SUMMARY:ASD PALLAVOLO PIERIS 3-0 U.S. AZZURRA (Under 17 femminile CT Triest
+ e-Gorizia — girone C)
+LOCATION:Palestra scuole medie\, PIERIS SAN CANZIAN D'ISONZO GO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-970d6da6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261125T190000
+DTEND;TZID=Europe/Rome:20261125T210000
+SUMMARY:SOKOL ZALET 0-3 U.S. AZZURRA (Under 17 femminile CT Trieste-Gorizia
+  — girone C)
+LOCATION:Palestra Comunale Savo Ušaj\, AURISINA CAVE 12\, DUINO AURISINA T
+ S
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-47957f0f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T183000
+DTEND;TZID=Europe/Rome:20261213T203000
+SUMMARY:U.S. AZZURRA – CENTRO COSELLI U17X (Under 17 femminile CT Trieste
+ -Gorizia — girone C)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-3901bb70@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T183000
+DTEND;TZID=Europe/Rome:20261220T203000
+SUMMARY:U.S. AZZURRA – UNICLIMA TSV CITY/CROSS (Under 17 femminile CT Tri
+ este-Gorizia — girone C)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-e170335a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T173000
+DTEND;TZID=Europe/Rome:20270110T193000
+SUMMARY:KRONOS IMMOB-FINCANTIERI – U.S. AZZURRA (Under 17 femminile CT Tr
+ ieste-Gorizia — girone C)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-87186bbf@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270124T183000
+DTEND;TZID=Europe/Rome:20270124T203000
+SUMMARY:U.S. AZZURRA – ASD PALLAVOLO PIERIS (Under 17 femminile CT Triest
+ e-Gorizia — girone C)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-15a268c5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270131T183000
+DTEND;TZID=Europe/Rome:20270131T203000
+SUMMARY:U.S. AZZURRA – SOKOL ZALET (Under 17 femminile CT Trieste-Gorizia
+  — girone C)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n9ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-c-fc8fec29@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270214T170000
+DTEND;TZID=Europe/Rome:20270214T190000
+SUMMARY:CENTRO COSELLI U17X – U.S. AZZURRA (Under 17 femminile CT Trieste
+ -Gorizia — girone C)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone C\n10ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-c
+END:VEVENT
+END:VCALENDAR

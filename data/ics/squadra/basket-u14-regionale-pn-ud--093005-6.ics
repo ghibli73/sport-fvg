@@ -1,0 +1,340 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Azzano Basket · Under 14 Under 14 Maschile Regionale
+  — girone PN/UD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-2188b241@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:Azzano Basket 55-60 Torre Basket (Under 14 Maschile Regionale — g
+ irone PN/UD)
+LOCATION:Palazzetto Matteo Molent\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-0a09910c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:Azzano Basket 77-62 Majanese (Under 14 Maschile Regionale — giron
+ e PN/UD)
+LOCATION:Palazzetto Matteo Molent\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-0219a701@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:Azzano Basket 101-21 3 S Basket Cordenons (Under 14 Maschile Region
+ ale — girone PN/UD)
+LOCATION:Palazzetto Matteo Molent\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-fe25c082@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261121T160000
+DTEND;TZID=Europe/Rome:20261121T180000
+SUMMARY:BVO Annone – Azzano Basket (Under 14 Maschile Regionale — giron
+ e PN/UD)
+LOCATION:Palazzetto Dello Sport\, Annone Veneto
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-47b2d5cc@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261127T183000
+DTEND;TZID=Europe/Rome:20261127T203000
+SUMMARY:Humus Basket 85-33 Azzano Basket (Under 14 Maschile Regionale — g
+ irone PN/UD)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-e53f305f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261205T163000
+DTEND;TZID=Europe/Rome:20261205T183000
+SUMMARY:Azzano Basket – New Brugnera Basket (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palazzetto 'Matteo Molent'\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-dd2b7f62@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261211T180000
+DTEND;TZID=Europe/Rome:20261211T200000
+SUMMARY:Olympia Rivignano – Azzano Basket (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-3ea470dc@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261219T160000
+DTEND;TZID=Europe/Rome:20261219T180000
+SUMMARY:Azzano Basket – Pol. Casarsa (Under 14 Maschile Regionale — gir
+ one PN/UD)
+LOCATION:Palazzetto 'Matteo Molent'\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n8ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-80fba8c8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270113T183000
+DTEND;TZID=Europe/Rome:20270113T203000
+SUMMARY:Gemona Basket – Azzano Basket (Under 14 Maschile Regionale — gi
+ rone PN/UD)
+LOCATION:Palestra Ipsia\, Gemona Del Friuli
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n9ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-b61cee04@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270123T160000
+DTEND;TZID=Europe/Rome:20270123T180000
+SUMMARY:Azzano Basket – Collinare Basket (Under 14 Maschile Regionale —
+  girone PN/UD)
+LOCATION:Palazzetto 'Matteo Molent'\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n11ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-1374a275@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270130T183000
+DTEND;TZID=Europe/Rome:20270130T203000
+SUMMARY:Libertas Fiume Veneto – Azzano Basket (Under 14 Maschile Regional
+ e — girone PN/UD)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n12ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-5155961e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270205T180000
+DTEND;TZID=Europe/Rome:20270205T200000
+SUMMARY:Azzano Basket – Pall. Codroipese (Under 14 Maschile Regionale —
+  girone PN/UD)
+LOCATION:Palazzetto 'Matteo Molent'\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n13ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-94cd3ce1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270212T190000
+DTEND;TZID=Europe/Rome:20270212T210000
+SUMMARY:Torre Basket – Azzano Basket (Under 14 Maschile Regionale — gir
+ one PN/UD)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n14ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-031f171d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270219T190000
+DTEND;TZID=Europe/Rome:20270219T210000
+SUMMARY:Majanese – Azzano Basket (Under 14 Maschile Regionale — girone 
+ PN/UD)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n15ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-62502b84@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270228T110000
+DTEND;TZID=Europe/Rome:20270228T130000
+SUMMARY:3 S Basket Cordenons – Azzano Basket (Under 14 Maschile Regionale
+  — girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n16ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-84ed4574@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270306T160000
+DTEND;TZID=Europe/Rome:20270306T180000
+SUMMARY:Azzano Basket – BVO Annone (Under 14 Maschile Regionale — giron
+ e PN/UD)
+LOCATION:Palazzetto 'Matteo Molent'\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n17ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-96fc11db@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270314T113000
+DTEND;TZID=Europe/Rome:20270314T133000
+SUMMARY:Azzano Basket – Humus Basket (Under 14 Maschile Regionale — gir
+ one PN/UD)
+LOCATION:(Pordenone)
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n18ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-b447c590@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270320T183000
+DTEND;TZID=Europe/Rome:20270320T203000
+SUMMARY:New Brugnera Basket – Azzano Basket (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palasport\, Brugnera
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n19ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-aa55b6a0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270403T160000
+DTEND;TZID=Europe/Rome:20270403T180000
+SUMMARY:Azzano Basket – Olympia Rivignano (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palazzetto 'Matteo Molent'\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n20ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-af491c35@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270410T150000
+DTEND;TZID=Europe/Rome:20270410T170000
+SUMMARY:Pol. Casarsa – Azzano Basket (Under 14 Maschile Regionale — gir
+ one PN/UD)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n21ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-828ad1a7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270417T160000
+DTEND;TZID=Europe/Rome:20270417T180000
+SUMMARY:Azzano Basket – Gemona Basket (Under 14 Maschile Regionale — gi
+ rone PN/UD)
+LOCATION:Palazzetto 'Matteo Molent'\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n22ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-062495bc@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270501T163000
+DTEND;TZID=Europe/Rome:20270501T183000
+SUMMARY:Collinare Basket – Azzano Basket (Under 14 Maschile Regionale —
+  girone PN/UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n24ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-b2ae7c19@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270508T160000
+DTEND;TZID=Europe/Rome:20270508T180000
+SUMMARY:Azzano Basket – Libertas Fiume Veneto (Under 14 Maschile Regional
+ e — girone PN/UD)
+LOCATION:Palazzetto 'Matteo Molent'\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n25ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-ea3ecced@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270515T153000
+DTEND;TZID=Europe/Rome:20270515T173000
+SUMMARY:Pall. Codroipese – Azzano Basket (Under 14 Maschile Regionale —
+  girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n26ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+END:VCALENDAR

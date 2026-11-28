@@ -1,0 +1,139 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Olimpia Milano · Serie A (LBA) — regular season
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-naz-serie-a-5542b354@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Olimpia Milano 83-79 Trieste (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n1ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-56741612@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Verona 75-72 Olimpia Milano (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n2ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-26e15e8e@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Olimpia Milano 106-77 Treviso (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n3ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-610e5b46@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Basket Napoli 82-98 Olimpia Milano (Serie A (LBA) — regular seaso
+ n)
+DESCRIPTION:Serie A (LBA) — regular season\n4ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-b3b9af77@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Olimpia Milano 94-98 Virtus Bologna (Serie A (LBA) — regular seas
+ on)
+DESCRIPTION:Serie A (LBA) — regular season\n5ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-10d0a03c@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Cantu 82-95 Olimpia Milano (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n6ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-209af530@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Olimpia Milano 88-86 Trento (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n7ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-74bdf65e@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Udine 70-83 Olimpia Milano (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n8ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-cccd053d@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Tortona 83-80 Olimpia Milano (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n9ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-587926eb@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261206T173000
+DTEND;TZID=Europe/Rome:20261206T193000
+SUMMARY:Olimpia Milano – Scafati (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n10ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+END:VCALENDAR

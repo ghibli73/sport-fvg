@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ZKB Jadran · Under 15 Under 15 Maschile Gold — gir
+ one unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u15-gold-636238f7@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261020T173000
+DTEND;TZID=Europe/Rome:20261020T193000
+SUMMARY:ZKB Jadran 80-59 Falconstar Basket (Under 15 Maschile Gold — giro
+ ne unico)
+LOCATION:Palestra M. Ervatti\, Sgonico
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n1ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-66c424c2@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261027T173000
+DTEND;TZID=Europe/Rome:20261027T193000
+SUMMARY:ZKB Jadran 56-70 Pol. Libertas Acli (Under 15 Maschile Gold — gir
+ one unico)
+LOCATION:Palestra M. Ervatti\, Sgonico
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n2ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-08c4968b@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:Feletto Basketball Academy 69-90 ZKB Jadran (Under 15 Maschile Gold
+  — girone unico)
+LOCATION:Palestra F. Cavalicco\, Tavagnacco
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n3ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-51cafd11@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:Basket Gradisca 58-70 ZKB Jadran (Under 15 Maschile Gold — girone
+  unico)
+LOCATION:Pal. Ciro Zimolo\, Gradisca d'Isonzo
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n4ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-3f46f1e4@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261121T180000
+DTEND;TZID=Europe/Rome:20261121T200000
+SUMMARY:ZKB Jadran – Longobardi (Under 15 Maschile Gold — girone unico)
+LOCATION:Palestra 'Aldo Cova'\, Trieste
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n5ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-63156266@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261201T174500
+DTEND;TZID=Europe/Rome:20261201T194500
+SUMMARY:ZKB Jadran – Bachmann Tarvisio (Under 15 Maschile Gold — girone
+  unico)
+LOCATION:Palestra 'M.Ervatti'\, Sgonico
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n7ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-14bc2752@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261205T180000
+DTEND;TZID=Europe/Rome:20261205T200000
+SUMMARY:Falconstar Basket – ZKB Jadran (Under 15 Maschile Gold — girone
+  unico)
+LOCATION:Palestra Polifunzionale\, Monfalcone
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n8ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-59bd26f4@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261212T161500
+DTEND;TZID=Europe/Rome:20261212T181500
+SUMMARY:Pol. Libertas Acli – ZKB Jadran (Under 15 Maschile Gold — giron
+ e unico)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n9ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-71a93d77@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261222T174500
+DTEND;TZID=Europe/Rome:20261222T194500
+SUMMARY:ZKB Jadran – Feletto Basketball Academy (Under 15 Maschile Gold 
+ — girone unico)
+LOCATION:Palestra 'M.Ervatti'\, Sgonico
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n10ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-4ec6d5cd@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20270112T174500
+DTEND;TZID=Europe/Rome:20270112T194500
+SUMMARY:ZKB Jadran – Basket Gradisca (Under 15 Maschile Gold — girone u
+ nico)
+LOCATION:Palestra 'M.Ervatti'\, Sgonico
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n11ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-a8bca4f2@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20270201T190000
+DTEND;TZID=Europe/Rome:20270201T210000
+SUMMARY:Bachmann Tarvisio – ZKB Jadran (Under 15 Maschile Gold — girone
+  unico)
+LOCATION:Palasport\, Tarvisio
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n14ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+END:VCALENDAR

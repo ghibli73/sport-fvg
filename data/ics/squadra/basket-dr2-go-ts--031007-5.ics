@@ -1,0 +1,273 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · U.S. Goriziana · Divisione Regionale 2 — girone GO
+ /TS
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-4f660c56@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261016T203000
+DTEND;TZID=Europe/Rome:20261016T223000
+SUMMARY:U.S. Goriziana 50-71 Baloncesto Triestino (Divisione Regionale 2 
+ — girone GO/TS)
+LOCATION:Palestra Pino Brumatti\, Gorizia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-83a649b2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261030T203000
+DTEND;TZID=Europe/Rome:20261030T223000
+SUMMARY:U.S. Goriziana 58-80 Nuova Basket Isonzo (Divisione Regionale 2 —
+  girone GO/TS)
+LOCATION:Palestra Pino Brumatti\, Gorizia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-a1678828@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:Breg 91-70 U.S. Goriziana (Divisione Regionale 2 — girone GO/TS)
+LOCATION:Palestra S. Klabjan\, San Dorligo della Valle
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-8dcaec66@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261113T211500
+DTEND;TZID=Europe/Rome:20261113T231500
+SUMMARY:C.U.S. Trieste 101-54 U.S. Goriziana (Divisione Regionale 2 — gir
+ one GO/TS)
+LOCATION:Palestra C.U.S.\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-10300553@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T203000
+DTEND;TZID=Europe/Rome:20261120T223000
+SUMMARY:U.S. Goriziana 64-83 Basket Terzo (Divisione Regionale 2 — girone
+  GO/TS)
+LOCATION:Palestra 'Pino Brumatti'\, Gorizia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-2e9e0ddc@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T211500
+DTEND;TZID=Europe/Rome:20261127T231500
+SUMMARY:Barcolana Basket Trieste 84-50 U.S. Goriziana (Divisione Regionale 
+ 2 — girone GO/TS)
+LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-66088132@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:U.S. Goriziana – Baloncesto Isontina (Divisione Regionale 2 — g
+ irone GO/TS)
+LOCATION:Palestra 'Pino Brumatti'\, Gorizia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-c447b260@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261211T211500
+DTEND;TZID=Europe/Rome:20261211T231500
+SUMMARY:Circolo Sportivo Sokol – U.S. Goriziana (Divisione Regionale 2 
+ — girone GO/TS)
+LOCATION:Palestra Comunale 'Aurisina'\, Duino Aurisina
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-804279d1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261218T203000
+DTEND;TZID=Europe/Rome:20261218T223000
+SUMMARY:U.S. Goriziana – Athletismo (Divisione Regionale 2 — girone GO/
+ TS)
+LOCATION:Palestra 'Pino Brumatti'\, Gorizia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n10ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-c984b83e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270108T204500
+DTEND;TZID=Europe/Rome:20270108T224500
+SUMMARY:Pallacanestro Bisiacca – U.S. Goriziana (Divisione Regionale 2 
+ — girone GO/TS)
+LOCATION:Palestra Comunale\, Staranzano
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n11ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-b7bcf661@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270115T211500
+DTEND;TZID=Europe/Rome:20270115T231500
+SUMMARY:Baloncesto Triestino – U.S. Goriziana (Divisione Regionale 2 — 
+ girone GO/TS)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n12ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-3ba629fb@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270129T204500
+DTEND;TZID=Europe/Rome:20270129T224500
+SUMMARY:Nuova Basket Isonzo – U.S. Goriziana (Divisione Regionale 2 — g
+ irone GO/TS)
+LOCATION:(Gorizia)
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n14ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-41d23f3b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270205T203000
+DTEND;TZID=Europe/Rome:20270205T223000
+SUMMARY:U.S. Goriziana – Breg (Divisione Regionale 2 — girone GO/TS)
+LOCATION:Palestra 'Pino Brumatti'\, Gorizia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n15ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-d7236978@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270212T203000
+DTEND;TZID=Europe/Rome:20270212T223000
+SUMMARY:U.S. Goriziana – C.U.S. Trieste (Divisione Regionale 2 — girone
+  GO/TS)
+LOCATION:Palestra 'Pino Brumatti'\, Gorizia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n16ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-7a8966e8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270219T210000
+DTEND;TZID=Europe/Rome:20270219T230000
+SUMMARY:Basket Terzo – U.S. Goriziana (Divisione Regionale 2 — girone G
+ O/TS)
+LOCATION:Pal. Comunale\, Terzo D'Aquileia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n17ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-0856a9fe@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270307T183000
+DTEND;TZID=Europe/Rome:20270307T203000
+SUMMARY:Baloncesto Isontina – U.S. Goriziana (Divisione Regionale 2 — g
+ irone GO/TS)
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n19ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-465ed8e9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270312T203000
+DTEND;TZID=Europe/Rome:20270312T223000
+SUMMARY:U.S. Goriziana – Circolo Sportivo Sokol (Divisione Regionale 2 
+ — girone GO/TS)
+LOCATION:Palestra 'Pino Brumatti'\, Gorizia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n20ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-8379f1d7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270319T203000
+DTEND;TZID=Europe/Rome:20270319T223000
+SUMMARY:Athletismo – U.S. Goriziana (Divisione Regionale 2 — girone GO/
+ TS)
+LOCATION:Palestra 'Pino Brumatti'\, Gorizia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n21ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-47aba2a9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270402T203000
+DTEND;TZID=Europe/Rome:20270402T223000
+SUMMARY:U.S. Goriziana – Pallacanestro Bisiacca (Divisione Regionale 2 
+ — girone GO/TS)
+LOCATION:Palestra 'Pino Brumatti'\, Gorizia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n22ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+END:VCALENDAR

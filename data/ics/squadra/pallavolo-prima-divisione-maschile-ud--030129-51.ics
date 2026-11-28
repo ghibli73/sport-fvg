@@ -1,0 +1,189 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · GAIA VOLLEYBAS UDINE · Prima Divisione maschile CT U
+ dine — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-5347a2f3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261030T201500
+DTEND;TZID=Europe/Rome:20261030T221500
+SUMMARY:GAIA VOLLEYBAS UDINE 3-2 GEMONA LA PERLA (Prima Divisione maschile 
+ CT Udine — girone unico)
+LOCATION:Palestra Scuola Media Valussi\, UDINE UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-f8d00f9b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:IL POZZO 0-3 GAIA VOLLEYBAS UDINE (Prima Divisione maschile CT Udin
+ e — girone unico)
+LOCATION:Palestra Comunale\, PRADAMANO UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-f44fa73d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261120T201500
+DTEND;TZID=Europe/Rome:20261120T221500
+SUMMARY:GAIA VOLLEYBAS UDINE 3-0 AURORA VOLLEY UDINE (Prima Divisione masch
+ ile CT Udine — girone unico)
+LOCATION:Palestra Scuola Media Valussi\, UDINE UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-2794267c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:APD SAN LEONARDO – GAIA VOLLEYBAS UDINE (Prima Divisione maschile
+  CT Udine — girone unico)
+LOCATION:Palestra Scuole Medie San Leonardo\, Frazione Merso di Sopra\, SAN
+  LEONARDO UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-263c3d9b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261204T201500
+DTEND;TZID=Europe/Rome:20261204T221500
+SUMMARY:GAIA VOLLEYBAS UDINE – ASDMUZZANAVOLLEY (Prima Divisione maschile
+  CT Udine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-cf01031c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T180000
+DTEND;TZID=Europe/Rome:20261220T200000
+SUMMARY:A.S.D.ROJALESE – GAIA VOLLEYBAS UDINE (Prima Divisione maschile C
+ T Udine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-29551109@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T200000
+DTEND;TZID=Europe/Rome:20270109T220000
+SUMMARY:GEMONA LA PERLA – GAIA VOLLEYBAS UDINE (Prima Divisione maschile 
+ CT Udine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-ef1766e1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270115T201500
+DTEND;TZID=Europe/Rome:20270115T221500
+SUMMARY:GAIA VOLLEYBAS UDINE – IL POZZO (Prima Divisione maschile CT Udin
+ e — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n9ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-ec9b9684@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270122T210000
+DTEND;TZID=Europe/Rome:20270122T230000
+SUMMARY:AURORA VOLLEY UDINE – GAIA VOLLEYBAS UDINE (Prima Divisione masch
+ ile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n10ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-23d9fae3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270129T201500
+DTEND;TZID=Europe/Rome:20270129T221500
+SUMMARY:GAIA VOLLEYBAS UDINE – APD SAN LEONARDO (Prima Divisione maschile
+  CT Udine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n11ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-84f9b322@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270207T173000
+DTEND;TZID=Europe/Rome:20270207T193000
+SUMMARY:ASDMUZZANAVOLLEY – GAIA VOLLEYBAS UDINE (Prima Divisione maschile
+  CT Udine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n12ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-4c150fc9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270219T201500
+DTEND;TZID=Europe/Rome:20270219T221500
+SUMMARY:GAIA VOLLEYBAS UDINE – A.S.D.ROJALESE (Prima Divisione maschile C
+ T Udine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n14ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+END:VCALENDAR

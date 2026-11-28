@@ -1,0 +1,320 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.P. TRAVESIO · Seconda Divisione femminile CT Porde
+ none — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-7919e2f7@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T200000
+DTEND;TZID=Europe/Rome:20261017T220000
+SUMMARY:ABRAWORD FAVRIA S.VITO 3-0 A.P. TRAVESIO (Seconda Divisione femmini
+ le CT Pordenone — girone unico)
+LOCATION:Palestra Comunale\, SESTO AL REGHENA PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n1ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-2b6a320c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261025T173000
+DTEND;TZID=Europe/Rome:20261025T193000
+SUMMARY:A.P. TRAVESIO 0-3 BLU VOLLEY PORDENONE (Seconda Divisione femminile
+  CT Pordenone — girone unico)
+LOCATION:Palestra Scuole Medie\, Travesio (PN)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n2ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-938c546e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T173000
+DTEND;TZID=Europe/Rome:20261107T193000
+SUMMARY:A.P. TRAVESIO 0-3 TREVISAN METALMECCANICA (Seconda Divisione femmin
+ ile CT Pordenone — girone unico)
+LOCATION:Palestra Scuole Medie\, TRAVESIO PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n4ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-11b021ea@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T180000
+DTEND;TZID=Europe/Rome:20261114T200000
+SUMMARY:FAROUT 3-0 A.P. TRAVESIO (Seconda Divisione femminile CT Pordenone 
+ — girone unico)
+LOCATION:Palasport\, Cordenons PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n5ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-132800b1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T173000
+DTEND;TZID=Europe/Rome:20261122T193000
+SUMMARY:A.P. TRAVESIO 0-3 PALLAVOLO BRUGNERA 96 (Seconda Divisione femminil
+ e CT Pordenone — girone unico)
+LOCATION:Palestra Scuole Medie\, Travesio (PN)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n6ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-81a7ff28@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T163000
+DTEND;TZID=Europe/Rome:20261129T183000
+SUMMARY:PORDENONE VOLLEY – A.P. TRAVESIO (Seconda Divisione femminile CT 
+ Pordenone — girone unico)
+LOCATION:Palestra Borgomeduna\, Via Prasecco 3\, PORDENONE PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n7ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-5759c032@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T170000
+DTEND;TZID=Europe/Rome:20261205T190000
+SUMMARY:A.P. TRAVESIO – VOLLEY DEL SANVITESE (Seconda Divisione femminile
+  CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n8ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-872d4152@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T203000
+DTEND;TZID=Europe/Rome:20261212T223000
+SUMMARY:GEFION VIS ET VIRTUS – A.P. TRAVESIO (Seconda Divisione femminile
+  CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n9ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-4f3fc224@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T173000
+DTEND;TZID=Europe/Rome:20261219T193000
+SUMMARY:A.P. TRAVESIO – PSG FB TANKS (Seconda Divisione femminile CT Pord
+ enone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n10ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-e0e1959e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T173000
+DTEND;TZID=Europe/Rome:20270117T193000
+SUMMARY:A.P. TRAVESIO – CARR. F.LLI CARNELOS GIS (Seconda Divisione femmi
+ nile CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n12ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-7b93b05e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T180000
+DTEND;TZID=Europe/Rome:20270123T200000
+SUMMARY:ALTA RESA – A.P. TRAVESIO (Seconda Divisione femminile CT Pordeno
+ ne — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n13ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-b4ba5dc7@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270131T173000
+DTEND;TZID=Europe/Rome:20270131T193000
+SUMMARY:A.P. TRAVESIO – ABRAWORD FAVRIA S.VITO (Seconda Divisione femmini
+ le CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n14ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-44f5b432@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270206T203000
+DTEND;TZID=Europe/Rome:20270206T223000
+SUMMARY:BLU VOLLEY PORDENONE – A.P. TRAVESIO (Seconda Divisione femminile
+  CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n15ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-392543bd@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270220T170000
+DTEND;TZID=Europe/Rome:20270220T190000
+SUMMARY:TREVISAN METALMECCANICA – A.P. TRAVESIO (Seconda Divisione femmin
+ ile CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n17ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-022395d9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270227T173000
+DTEND;TZID=Europe/Rome:20270227T193000
+SUMMARY:A.P. TRAVESIO – FAROUT (Seconda Divisione femminile CT Pordenone 
+ — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n18ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-fe0eacee@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270307T170000
+DTEND;TZID=Europe/Rome:20270307T190000
+SUMMARY:PALLAVOLO BRUGNERA 96 – A.P. TRAVESIO (Seconda Divisione femminil
+ e CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n19ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-271f9cad@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270314T173000
+DTEND;TZID=Europe/Rome:20270314T193000
+SUMMARY:A.P. TRAVESIO – PORDENONE VOLLEY (Seconda Divisione femminile CT 
+ Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n20ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-e17d493e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270320T173000
+DTEND;TZID=Europe/Rome:20270320T193000
+SUMMARY:VOLLEY DEL SANVITESE – A.P. TRAVESIO (Seconda Divisione femminile
+  CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n21ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-a9678c2c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270404T173000
+DTEND;TZID=Europe/Rome:20270404T193000
+SUMMARY:A.P. TRAVESIO – GEFION VIS ET VIRTUS (Seconda Divisione femminile
+  CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n22ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-b793e267@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270410T193000
+DTEND;TZID=Europe/Rome:20270410T213000
+SUMMARY:PSG FB TANKS – A.P. TRAVESIO (Seconda Divisione femminile CT Pord
+ enone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n23ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-e1136f98@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270425T173000
+DTEND;TZID=Europe/Rome:20270425T193000
+SUMMARY:CARR. F.LLI CARNELOS GIS – A.P. TRAVESIO (Seconda Divisione femmi
+ nile CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n25ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-a0290d6d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270502T173000
+DTEND;TZID=Europe/Rome:20270502T193000
+SUMMARY:A.P. TRAVESIO – ALTA RESA (Seconda Divisione femminile CT Pordeno
+ ne — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n26ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+END:VCALENDAR

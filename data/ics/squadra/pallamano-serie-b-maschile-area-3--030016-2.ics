@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Jolly Campoformido · Seconda squadra Serie B maschil
+ e Area 3 (Veneto–FVG)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-01368ae9@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261011T183000
+DTEND;TZID=Europe/Rome:20261011T203000
+SUMMARY:Jolly Campoformido 28-33 Handball Vicentina (Serie B maschile Area 
+ 3 (Veneto–FVG))
+LOCATION:Campoformido
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-65543ea2@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261024T193000
+DTEND;TZID=Europe/Rome:20261024T213000
+SUMMARY:Jolly Campoformido 32-25 Nuova Pallamano Vigasio (Serie B maschile 
+ Area 3 (Veneto–FVG))
+LOCATION:Campoformido
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-bdc3f79c@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:Pallamano Vicenza 24-24 Jolly Campoformido (Serie B maschile Area 3
+  (Veneto–FVG))
+LOCATION:Vicenza
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-8b381490@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261114T193000
+DTEND;TZID=Europe/Rome:20261114T213000
+SUMMARY:Jolly Campoformido 27-49 San Vito Marano (Serie B maschile Area 3 (
+ Veneto–FVG))
+LOCATION:Campoformido
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-0d6fb517@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261121T170000
+DTEND;TZID=Europe/Rome:20261121T190000
+SUMMARY:Pallamano Musile 2006 37-27 Jolly Campoformido (Serie B maschile Ar
+ ea 3 (Veneto–FVG))
+LOCATION:Musile di Piave
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-91b6cfd3@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261128T193000
+DTEND;TZID=Europe/Rome:20261128T213000
+SUMMARY:Jolly Campoformido – UISP Arcobaleno (Serie B maschile Area 3 (Ve
+ neto–FVG))
+LOCATION:Campoformido
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+END:VCALENDAR

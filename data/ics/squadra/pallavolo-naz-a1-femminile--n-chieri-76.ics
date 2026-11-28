@@ -1,0 +1,149 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Chieri '76 · Serie A1 femminile — regular season
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-naz-a1-femminile-da642b7b@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Scandicci 2-3 Chieri '76 (Serie A1 femminile — regular season)
+DESCRIPTION:Serie A1 femminile — regular season\n1ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ pallavolo-naz-a1-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-a1-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-a1-femminile-3a61b0b0@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Chieri '76 3-0 Brescia (Serie A1 femminile — regular season)
+DESCRIPTION:Serie A1 femminile — regular season\n2ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ pallavolo-naz-a1-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-a1-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-a1-femminile-fed22986@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Chieri '76 0-3 Conegliano (Serie A1 femminile — regular season)
+DESCRIPTION:Serie A1 femminile — regular season\n4ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ pallavolo-naz-a1-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-a1-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-a1-femminile-ea93a942@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Cuneo 0-3 Chieri '76 (Serie A1 femminile — regular season)
+DESCRIPTION:Serie A1 femminile — regular season\n3ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ pallavolo-naz-a1-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-a1-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-a1-femminile-b58bb289@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Talmassons 0-3 Chieri '76 (Serie A1 femminile — regular season)
+DESCRIPTION:Serie A1 femminile — regular season\n5ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ pallavolo-naz-a1-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-a1-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-a1-femminile-97e0588e@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Chieri '76 3-0 UYBA Busto Arsizio (Serie A1 femminile — regular s
+ eason)
+DESCRIPTION:Serie A1 femminile — regular season\n6ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ pallavolo-naz-a1-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-a1-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-a1-femminile-c5c39b72@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Chieri '76 3-2 Vallefoglia (Serie A1 femminile — regular season)
+DESCRIPTION:Serie A1 femminile — regular season\n7ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ pallavolo-naz-a1-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-a1-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-a1-femminile-e5a08a1c@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Firenze 0-3 Chieri '76 (Serie A1 femminile — regular season)
+DESCRIPTION:Serie A1 femminile — regular season\n8ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ pallavolo-naz-a1-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-a1-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-a1-femminile-04cabc02@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Chieri '76 3-0 Macerata (Serie A1 femminile — regular season)
+DESCRIPTION:Serie A1 femminile — regular season\n9ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ pallavolo-naz-a1-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-a1-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-a1-femminile-ca60b533@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Novara 0-3 Chieri '76 (Serie A1 femminile — regular season)
+DESCRIPTION:Serie A1 femminile — regular season\n10ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallavolo-naz-a1-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-a1-femminile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-a1-femminile-70ab698c@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:Chieri '76 – Bergamo (Serie A1 femminile — regular season)
+DESCRIPTION:Serie A1 femminile — regular season\n11ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallavolo-naz-a1-femminile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-a1-femminile
+END:VEVENT
+END:VCALENDAR

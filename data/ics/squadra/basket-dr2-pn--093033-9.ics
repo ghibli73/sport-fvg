@@ -1,0 +1,262 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Virtus PN · Divisione Regionale 2 — girone PN
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr2-pn-8f8be2e0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261016T211500
+DTEND;TZID=Europe/Rome:20261016T231500
+SUMMARY:Basket Pasiano 55-66 Virtus PN (Divisione Regionale 2 — girone PN
+ )
+LOCATION:Palazzetto Roberto Marson\, Pasiano di Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-ddce4f86@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261022T210000
+DTEND;TZID=Europe/Rome:20261022T230000
+SUMMARY:Virtus PN 77-71 Aviano Basket (Divisione Regionale 2 — girone PN)
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-37a721ea@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261029T210000
+DTEND;TZID=Europe/Rome:20261029T230000
+SUMMARY:Virtus PN 57-62 BVO Annone (Divisione Regionale 2 — girone PN)
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-559af270@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261105T210000
+DTEND;TZID=Europe/Rome:20261105T230000
+SUMMARY:Virtus PN 75-50 Spilibasket (Divisione Regionale 2 — girone PN)
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-cf14c0ab@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261113T211500
+DTEND;TZID=Europe/Rome:20261113T231500
+SUMMARY:Pallacanestro Fossaltese 80-82 Virtus PN (Divisione Regionale 2 —
+  girone PN)
+LOCATION:Palestra Denis Innocentin\, Fossalta di Portogruaro
+DESCRIPTION:Divisione Regionale 2 — girone PN\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-a15f38be@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261121T193000
+DTEND;TZID=Europe/Rome:20261121T213000
+SUMMARY:Basket Maniago 67-96 Virtus PN (Divisione Regionale 2 — girone PN
+ )
+LOCATION:Palazzetto dello Sport\, Maniago
+DESCRIPTION:Divisione Regionale 2 — girone PN\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-425590e4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261203T210000
+DTEND;TZID=Europe/Rome:20261203T230000
+SUMMARY:Virtus PN – Nuova Pallacanestro Sanvitese (Divisione Regionale 2 
+ — girone PN)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-25cbf04a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261210T210000
+DTEND;TZID=Europe/Rome:20261210T230000
+SUMMARY:Virtus PN – Nordcaravan (Divisione Regionale 2 — girone PN)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n9ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-313cf149@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261217T210000
+DTEND;TZID=Europe/Rome:20261217T230000
+SUMMARY:Humus Basket Sacile – Virtus PN (Divisione Regionale 2 — girone
+  PN)
+LOCATION:Palazzetto Dello Sport\, Fontanafredda
+DESCRIPTION:Divisione Regionale 2 — girone PN\n10ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-5aabc147@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270114T210000
+DTEND;TZID=Europe/Rome:20270114T230000
+SUMMARY:A.P.C. Chions – Virtus PN (Divisione Regionale 2 — girone PN)
+LOCATION:Palasport\, Chions
+DESCRIPTION:Divisione Regionale 2 — girone PN\n11ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-7328a67f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270121T210000
+DTEND;TZID=Europe/Rome:20270121T230000
+SUMMARY:Virtus PN – Basket Pasiano (Divisione Regionale 2 — girone PN)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n12ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-b4edb1e9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270123T180000
+DTEND;TZID=Europe/Rome:20270123T200000
+SUMMARY:Aviano Basket – Virtus PN (Divisione Regionale 2 — girone PN)
+LOCATION:Palazzetto Dello Sport\, Aviano
+DESCRIPTION:Divisione Regionale 2 — girone PN\n13ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-eabd6ee1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270129T210000
+DTEND;TZID=Europe/Rome:20270129T230000
+SUMMARY:BVO Annone – Virtus PN (Divisione Regionale 2 — girone PN)
+LOCATION:Palazzetto Dello Sport\, Annone Veneto
+DESCRIPTION:Divisione Regionale 2 — girone PN\n14ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-e2f235ba@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270205T211500
+DTEND;TZID=Europe/Rome:20270205T231500
+SUMMARY:Spilibasket – Virtus PN (Divisione Regionale 2 — girone PN)
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Divisione Regionale 2 — girone PN\n15ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-443f5585@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270211T210000
+DTEND;TZID=Europe/Rome:20270211T230000
+SUMMARY:Virtus PN – Pallacanestro Fossaltese (Divisione Regionale 2 — g
+ irone PN)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n16ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-5165e508@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270218T210000
+DTEND;TZID=Europe/Rome:20270218T230000
+SUMMARY:Virtus PN – Basket Maniago (Divisione Regionale 2 — girone PN)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n17ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-aa4914af@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270226T203000
+DTEND;TZID=Europe/Rome:20270226T223000
+SUMMARY:Nuova Pallacanestro Sanvitese – Virtus PN (Divisione Regionale 2 
+ — girone PN)
+LOCATION:(Pordenone)
+DESCRIPTION:Divisione Regionale 2 — girone PN\n18ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-d0611c29@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270312T203000
+DTEND;TZID=Europe/Rome:20270312T223000
+SUMMARY:Nordcaravan – Virtus PN (Divisione Regionale 2 — girone PN)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n20ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-pn-cfb76927@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270325T210000
+DTEND;TZID=Europe/Rome:20270325T230000
+SUMMARY:A.P.C. Chions – Virtus PN (Divisione Regionale 2 — girone PN)
+LOCATION:Palasport "Crisafulli"\, Pordenone
+DESCRIPTION:Divisione Regionale 2 — girone PN\n22ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-pn
+END:VEVENT
+END:VCALENDAR

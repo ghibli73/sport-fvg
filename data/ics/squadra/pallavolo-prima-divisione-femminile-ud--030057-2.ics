@@ -1,0 +1,374 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · LIBERTAS MARTIGNACCO · Prima Divisione femminile CT 
+ Udine — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-67febed6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261016T200000
+DTEND;TZID=Europe/Rome:20261016T220000
+SUMMARY:LIBERTAS MARTIGNACCO 3-0 FACTORY VOLLEY FAEDIS (Prima Divisione fem
+ minile CT Udine — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n1ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-63a019c0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261023T193000
+DTEND;TZID=Europe/Rome:20261023T213000
+SUMMARY:VILLADIES SAFE MARINE 3-0 LIBERTAS MARTIGNACCO (Prima Divisione fem
+ minile CT Udine — girone unico)
+LOCATION:Palestra Comunale\, VILLA VICENTINA UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n2ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-6b8d703d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:LIBERTAS MARTIGNACCO 3-0 LIBERTAS GONARS (Prima Divisione femminile
+  CT Udine — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n3ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-9ca28212@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:A.S.D. STELLA VOLLEY 3-2 LIBERTAS MARTIGNACCO (Prima Divisione femm
+ inile CT Udine — girone unico)
+LOCATION:Palestra Comunale di Teor\, Teor RIVIGNANO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n4ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-67cc12a0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261120T200000
+DTEND;TZID=Europe/Rome:20261120T220000
+SUMMARY:LIBERTAS MARTIGNACCO 3-0 ART_CENTO VOLLEY (Prima Divisione femminil
+ e CT Udine — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n5ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-8d6aa012@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T180000
+DTEND;TZID=Europe/Rome:20261121T200000
+SUMMARY:LIBERTAS MARTIGNACCO 3-0 COLLI VOLLEY (Prima Divisione femminile CT
+  Udine — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n6ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-128239ea@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261127T200000
+DTEND;TZID=Europe/Rome:20261127T220000
+SUMMARY:LIBERTAS MARTIGNACCO 3-0 LEGNOLANDIA VAL-BUT (Prima Divisione femmi
+ nile CT Udine — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, Via San Biagio\, MARTIGN
+ ACCO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n7ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-988a2b5b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T210000
+DTEND;TZID=Europe/Rome:20261205T230000
+SUMMARY:ASD KENNEDY ADEGLIACCO – LIBERTAS MARTIGNACCO (Prima Divisione fe
+ mminile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n8ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-e09b42c1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T180000
+DTEND;TZID=Europe/Rome:20261213T200000
+SUMMARY:FTV RIZZI UDINE – LIBERTAS MARTIGNACCO (Prima Divisione femminile
+  CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n10ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-350e9458@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261218T200000
+DTEND;TZID=Europe/Rome:20261218T220000
+SUMMARY:LIBERTAS MARTIGNACCO – CHEI DE VILE (Prima Divisione femminile CT
+  Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n11ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-3c90d7e1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T200000
+DTEND;TZID=Europe/Rome:20270109T220000
+SUMMARY:FVG VOLLEY ACADEMY – LIBERTAS MARTIGNACCO (Prima Divisione femmin
+ ile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n12ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-daa6498d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T180000
+DTEND;TZID=Europe/Rome:20270110T200000
+SUMMARY:VOLLEY BALL CARNIA – LIBERTAS MARTIGNACCO (Prima Divisione femmin
+ ile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n9ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-46bc255b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270115T203000
+DTEND;TZID=Europe/Rome:20270115T223000
+SUMMARY:ASDMUZZANAVOLLEY – LIBERTAS MARTIGNACCO (Prima Divisione femminil
+ e CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n13ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-e43ee0c8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270124T180000
+DTEND;TZID=Europe/Rome:20270124T200000
+SUMMARY:FACTORY VOLLEY FAEDIS – LIBERTAS MARTIGNACCO (Prima Divisione fem
+ minile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n14ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-3397524f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T160000
+DTEND;TZID=Europe/Rome:20270130T180000
+SUMMARY:LIBERTAS MARTIGNACCO – VILLADIES SAFE MARINE (Prima Divisione fem
+ minile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n15ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-aa839fde@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270206T180000
+DTEND;TZID=Europe/Rome:20270206T200000
+SUMMARY:LIBERTAS GONARS – LIBERTAS MARTIGNACCO (Prima Divisione femminile
+  CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n16ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-a7abd577@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270214T110000
+DTEND;TZID=Europe/Rome:20270214T130000
+SUMMARY:LIBERTAS MARTIGNACCO – A.S.D. STELLA VOLLEY (Prima Divisione femm
+ inile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n17ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-d8f0b74b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270220T200000
+DTEND;TZID=Europe/Rome:20270220T220000
+SUMMARY:ART_CENTO VOLLEY – LIBERTAS MARTIGNACCO (Prima Divisione femminil
+ e CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n18ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-64cd8df7@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270228T180000
+DTEND;TZID=Europe/Rome:20270228T200000
+SUMMARY:COLLI VOLLEY – LIBERTAS MARTIGNACCO (Prima Divisione femminile CT
+  Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n19ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-c41c5878@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270305T201500
+DTEND;TZID=Europe/Rome:20270305T221500
+SUMMARY:LEGNOLANDIA VAL-BUT – LIBERTAS MARTIGNACCO (Prima Divisione femmi
+ nile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n20ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-89bcf2b9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270313T200000
+DTEND;TZID=Europe/Rome:20270313T220000
+SUMMARY:LIBERTAS MARTIGNACCO – ASD KENNEDY ADEGLIACCO (Prima Divisione fe
+ mminile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n21ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-9ee49b19@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270319T200000
+DTEND;TZID=Europe/Rome:20270319T220000
+SUMMARY:LIBERTAS MARTIGNACCO – VOLLEY BALL CARNIA (Prima Divisione femmin
+ ile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n22ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-571fc750@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270403T200000
+DTEND;TZID=Europe/Rome:20270403T220000
+SUMMARY:LIBERTAS MARTIGNACCO – FTV RIZZI UDINE (Prima Divisione femminile
+  CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n23ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-fdff0857@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270409T203000
+DTEND;TZID=Europe/Rome:20270409T223000
+SUMMARY:CHEI DE VILE – LIBERTAS MARTIGNACCO (Prima Divisione femminile CT
+  Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n24ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-8d1c4a06@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270417T200000
+DTEND;TZID=Europe/Rome:20270417T220000
+SUMMARY:LIBERTAS MARTIGNACCO – FVG VOLLEY ACADEMY (Prima Divisione femmin
+ ile CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n25ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-8da4aebe@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270508T200000
+DTEND;TZID=Europe/Rome:20270508T220000
+SUMMARY:LIBERTAS MARTIGNACCO – ASDMUZZANAVOLLEY (Prima Divisione femminil
+ e CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n26ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+END:VCALENDAR

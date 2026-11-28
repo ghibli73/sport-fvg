@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Dinamo Gorizia · Under 15 Under 15 Maschile Eccellen
+ za — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-2327aecf@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261006T103000
+DTEND;TZID=Europe/Rome:20261006T123000
+SUMMARY:Dinamo Gorizia 46-90 APU Next Gen (Under 15 Maschile Eccellenza —
+  girone unico)
+LOCATION:Centro Stella Matutina\, Gorizia
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n1ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-13f695fb@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261010T160000
+DTEND;TZID=Europe/Rome:20261010T180000
+SUMMARY:Pallacanestro Trieste 2004 93-65 Dinamo Gorizia (Under 15 Maschile 
+ Eccellenza — girone unico)
+LOCATION:Palarubini Allianz Dome\, Trieste
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n2ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-ceb618ce@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261017T170000
+DTEND;TZID=Europe/Rome:20261017T190000
+SUMMARY:Dinamo Gorizia 62-94 Gas Più Energie srl (Under 15 Maschile Eccell
+ enza — girone unico)
+LOCATION:Centro Stella Matutina\, Gorizia
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n3ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-b2093f39@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261031T153000
+DTEND;TZID=Europe/Rome:20261031T173000
+SUMMARY:Dinamo Gorizia 46-82 O.F.P. Azzurra R.D.R. Basket Trieste (Under 15
+  Maschile Eccellenza — girone unico)
+LOCATION:Centro Stella Matutina\, Gorizia
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n5ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-c8dfe3ec@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:Udine Basket Club Pallacanestro 101-45 Dinamo Gorizia (Under 15 Mas
+ chile Eccellenza — girone unico)
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n6ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-4c9da372@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261114T113000
+DTEND;TZID=Europe/Rome:20261114T133000
+SUMMARY:Dinamo Gorizia – BCC Pordenonese Monsile (Under 15 Maschile Eccel
+ lenza — girone unico)
+LOCATION:Centro Stella Matutina\, Gorizia
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n7ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-d1e4f495@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261119T194500
+DTEND;TZID=Europe/Rome:20261119T214500
+SUMMARY:APU Next Gen – Dinamo Gorizia (Under 15 Maschile Eccellenza — g
+ irone unico)
+LOCATION:Palasport 'Primo Carnera'\, Udine
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n8ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-a11c1acd@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261129T103000
+DTEND;TZID=Europe/Rome:20261129T123000
+SUMMARY:Dinamo Gorizia – Pallacanestro Trieste 2004 (Under 15 Maschile Ec
+ cellenza — girone unico)
+LOCATION:Centro "Stella Matutina"\, Gorizia
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n9ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-13ceb2e0@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261206T113000
+DTEND;TZID=Europe/Rome:20261206T133000
+SUMMARY:Gas Più Energie srl – Dinamo Gorizia (Under 15 Maschile Eccellen
+ za — girone unico)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n10ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-b9680c22@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261220T100000
+DTEND;TZID=Europe/Rome:20261220T120000
+SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste – Dinamo Gorizia (Under 15 M
+ aschile Eccellenza — girone unico)
+LOCATION:Palestra Comunale Di San Giova\, Trieste
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n12ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-b5deb974@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20270109T153000
+DTEND;TZID=Europe/Rome:20270109T173000
+SUMMARY:Dinamo Gorizia – Udine Basket Club Pallacanestro (Under 15 Maschi
+ le Eccellenza — girone unico)
+LOCATION:Centro "Stella Matutina"\, Gorizia
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n13ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-d8d7ac2d@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20270116T153000
+DTEND;TZID=Europe/Rome:20270116T173000
+SUMMARY:BCC Pordenonese Monsile – Dinamo Gorizia (Under 15 Maschile Eccel
+ lenza — girone unico)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n14ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+END:VCALENDAR

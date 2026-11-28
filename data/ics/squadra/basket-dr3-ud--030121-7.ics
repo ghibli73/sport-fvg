@@ -1,0 +1,339 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PALL. TOLMEZZO · Divisione Regionale 3 — girone UD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr3-ud-5b625324@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261021T190000
+DTEND;TZID=Europe/Rome:20261021T210000
+SUMMARY:MAJANESE 'B' 48-49 PALL. TOLMEZZO (Divisione Regionale 3 — girone
+  UD)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 3 — girone UD\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-30e703ae@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261029T204500
+DTEND;TZID=Europe/Rome:20261029T224500
+SUMMARY:PALL. TOLMEZZO 55-53 POL. DIL. TRICESIMO 'B' (Divisione Regionale 3
+  — girone UD)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-2b99fdc4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261109T210000
+DTEND;TZID=Europe/Rome:20261109T230000
+SUMMARY:POZZUOLO BASKET 68-50 PALL. TOLMEZZO (Divisione Regionale 3 — gir
+ one UD)
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Divisione Regionale 3 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-23685c44@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261112T204500
+DTEND;TZID=Europe/Rome:20261112T224500
+SUMMARY:PALL. TOLMEZZO 50-40 ZIO PINO BASKIN UDINE (Divisione Regionale 3 
+ — girone UD)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-aaef828a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261118T204500
+DTEND;TZID=Europe/Rome:20261118T224500
+SUMMARY:SPORT SYSTEM 53-59 PALL. TOLMEZZO (Divisione Regionale 3 — girone
+  UD)
+LOCATION:Palestra Comunale\, Mortegliano
+DESCRIPTION:Divisione Regionale 3 — girone UD\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-efe7e557@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261126T204500
+DTEND;TZID=Europe/Rome:20261126T224500
+SUMMARY:PALL. TOLMEZZO 61-55 MONTGOMERY HAMBURGER HOUSE 'B' (Divisione Regi
+ onale 3 — girone UD)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-6f9e6d90@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261210T204500
+DTEND;TZID=Europe/Rome:20261210T224500
+SUMMARY:PALL. TOLMEZZO – POL. DIL. TRICESIMO 'C' (Divisione Regionale 3 
+ — girone UD)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n9ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-a4fffe3a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261216T203000
+DTEND;TZID=Europe/Rome:20261216T223000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO 'B' – PALL. TOLMEZZO (Divisione Regiona
+ le 3 — girone UD)
+LOCATION:Pal. Sc.E. 'Ada Negri'\, Udine
+DESCRIPTION:Divisione Regionale 3 — girone UD\n10ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-ac068b56@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261217T210000
+DTEND;TZID=Europe/Rome:20261217T230000
+SUMMARY:LIBERTAS GONARS 'B' – PALL. TOLMEZZO (Divisione Regionale 3 — g
+ irone UD)
+LOCATION:Palestra Comunale\, Santa Maria La Longa
+DESCRIPTION:Divisione Regionale 3 — girone UD\n8ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-825713d1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261222T204500
+DTEND;TZID=Europe/Rome:20261222T224500
+SUMMARY:PALL. TOLMEZZO – POL. DLF DI UDINE (Divisione Regionale 3 — gir
+ one UD)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n11ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-00792608@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270112T210000
+DTEND;TZID=Europe/Rome:20270112T230000
+SUMMARY:CSI TARCENTO – PALL. TOLMEZZO (Divisione Regionale 3 — girone U
+ D)
+LOCATION:Palazzetto Dello Sport\, Tarcento
+DESCRIPTION:Divisione Regionale 3 — girone UD\n12ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-82ce221d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270121T204500
+DTEND;TZID=Europe/Rome:20270121T224500
+SUMMARY:PALL. TOLMEZZO – POL LIB. PASIAN DI PRATO 'B' (Divisione Regional
+ e 3 — girone UD)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n13ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-f0d819a7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270201T211500
+DTEND;TZID=Europe/Rome:20270201T231500
+SUMMARY:POL. DIL. TRICESIMO 'B' – PALL. TOLMEZZO (Divisione Regionale 3 
+ — girone UD)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n15ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-9d70558e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270208T204500
+DTEND;TZID=Europe/Rome:20270208T224500
+SUMMARY:ZIO PINO BASKIN UDINE – PALL. TOLMEZZO (Divisione Regionale 3 —
+  girone UD)
+LOCATION:Palestra 'Don Bosco'\, Udine
+DESCRIPTION:Divisione Regionale 3 — girone UD\n17ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-9b8ce378@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270218T204500
+DTEND;TZID=Europe/Rome:20270218T224500
+SUMMARY:PALL. TOLMEZZO – POZZUOLO BASKET (Divisione Regionale 3 — giron
+ e UD)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n18ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-c7cedc01@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270225T204500
+DTEND;TZID=Europe/Rome:20270225T224500
+SUMMARY:PALL. TOLMEZZO – SPORT SYSTEM (Divisione Regionale 3 — girone U
+ D)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n19ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-82018887@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270303T210000
+DTEND;TZID=Europe/Rome:20270303T230000
+SUMMARY:MONTGOMERY HAMBURGER HOUSE 'B' – PALL. TOLMEZZO (Divisione Region
+ ale 3 — girone UD)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n20ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-53343a2a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270311T204500
+DTEND;TZID=Europe/Rome:20270311T224500
+SUMMARY:PALL. TOLMEZZO – LIBERTAS GONARS 'B' (Divisione Regionale 3 — g
+ irone UD)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n21ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-cb85a6c2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270315T193000
+DTEND;TZID=Europe/Rome:20270315T213000
+SUMMARY:POL. DIL. TRICESIMO 'C' – PALL. TOLMEZZO (Divisione Regionale 3 
+ — girone UD)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n22ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-d7213416@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270319T190000
+DTEND;TZID=Europe/Rome:20270319T210000
+SUMMARY:PALL. TOLMEZZO – MAJANESE 'B' (Divisione Regionale 3 — girone U
+ D)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n14ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-36f70ed6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270325T204500
+DTEND;TZID=Europe/Rome:20270325T224500
+SUMMARY:PALL. TOLMEZZO – POL. LIBERTAS CUSSIGNACCO 'B' (Divisione Regiona
+ le 3 — girone UD)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n23ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-8a35dc6d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270402T204500
+DTEND;TZID=Europe/Rome:20270402T224500
+SUMMARY:POL. DLF DI UDINE – PALL. TOLMEZZO (Divisione Regionale 3 — gir
+ one UD)
+LOCATION:Pal. Sc.E. 'Ada Negri'\, Udine
+DESCRIPTION:Divisione Regionale 3 — girone UD\n24ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-437612a1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270408T204500
+DTEND;TZID=Europe/Rome:20270408T224500
+SUMMARY:PALL. TOLMEZZO – CSI TARCENTO (Divisione Regionale 3 — girone U
+ D)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 3 — girone UD\n25ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-ud-69477d54@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270414T210000
+DTEND;TZID=Europe/Rome:20270414T230000
+SUMMARY:POL LIB. PASIAN DI PRATO 'B' – PALL. TOLMEZZO (Divisione Regional
+ e 3 — girone UD)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Divisione Regionale 3 — girone UD\n26ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr3-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
+END:VEVENT
+END:VCALENDAR

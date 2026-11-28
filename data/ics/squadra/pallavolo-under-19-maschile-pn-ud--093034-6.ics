@@ -1,0 +1,160 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · VPA FRIULINTAGLI · Under 19 Under 19 maschile intert
+ erritoriale PN-UD — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-7b3488e5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261110T203000
+DTEND;TZID=Europe/Rome:20261110T223000
+SUMMARY:VPA FRIULINTAGLI 3-0 FOX VOLLEY FRIULEVIGATURA (Under 19 maschile i
+ nterterritoriale PN-UD — girone unico)
+LOCATION:PalaPrata\, PRATA DI PORDENONE PN
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n1ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-0a256383@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261118T203000
+DTEND;TZID=Europe/Rome:20261118T223000
+SUMMARY:VPA FRIULINTAGLI 3-0 PASIAN DI PRATO VOLLEY (Under 19 maschile inte
+ rterritoriale PN-UD — girone unico)
+LOCATION:PalaPrata\, PRATA DI PORDENONE PN
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n3ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-409e913e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261201T210000
+DTEND;TZID=Europe/Rome:20261201T230000
+SUMMARY:PORDENONE VOLLEY – VPA FRIULINTAGLI (Under 19 maschile interterri
+ toriale PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n4ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-c579594b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261207T203000
+DTEND;TZID=Europe/Rome:20261207T223000
+SUMMARY:VPA FRIULINTAGLI – FUTURA PAELLA A CASA TUA (Under 19 maschile in
+ terterritoriale PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n6ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-cd0bd120@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261214T203000
+DTEND;TZID=Europe/Rome:20261214T223000
+SUMMARY:IL POZZO – VPA FRIULINTAGLI (Under 19 maschile interterritoriale 
+ PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n5ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-a2607e05@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T110000
+DTEND;TZID=Europe/Rome:20261220T130000
+SUMMARY:FOX VOLLEY FRIULEVIGATURA – VPA FRIULINTAGLI (Under 19 maschile i
+ nterterritoriale PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n8ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-4a60b4ba@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270124T110000
+DTEND;TZID=Europe/Rome:20270124T130000
+SUMMARY:PASIAN DI PRATO VOLLEY – VPA FRIULINTAGLI (Under 19 maschile inte
+ rterritoriale PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n10
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-0ceaae1d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270126T203000
+DTEND;TZID=Europe/Rome:20270126T223000
+SUMMARY:VPA FRIULINTAGLI – PORDENONE VOLLEY (Under 19 maschile interterri
+ toriale PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n11
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-d8a8468b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270203T203000
+DTEND;TZID=Europe/Rome:20270203T223000
+SUMMARY:VPA FRIULINTAGLI – IL POZZO (Under 19 maschile interterritoriale 
+ PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n12
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-maschile-pn-ud-3039a5dc@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270214T153000
+DTEND;TZID=Europe/Rome:20270214T173000
+SUMMARY:FUTURA PAELLA A CASA TUA – VPA FRIULINTAGLI (Under 19 maschile in
+ terterritoriale PN-UD — girone unico)
+DESCRIPTION:Under 19 maschile interterritoriale PN-UD — girone unico\n13
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-maschile-pn-
+ ud
+END:VEVENT
+END:VCALENDAR

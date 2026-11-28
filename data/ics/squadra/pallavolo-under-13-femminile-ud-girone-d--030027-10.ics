@@ -1,0 +1,187 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · HORIZON GAS & ENERGIE · Under 13 Under 13 femminile 
+ CT Udine — girone D
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-acc7066a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261113T180000
+DTEND;TZID=Europe/Rome:20261113T200000
+SUMMARY:VILLADIES 3-0 HORIZON GAS & ENERGIE (Under 13 femminile CT Udine 
+ — girone D)
+LOCATION:Palestra Comunale\, VILLA VICENTINA UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-16169be0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T183000
+DTEND;TZID=Europe/Rome:20261121T203000
+SUMMARY:HORIZON GAS & ENERGIE 0-3 PROJECTVOLLEY SANGIORED (Under 13 femmini
+ le CT Udine — girone D)
+LOCATION:Pal. Sc. Medie Bianchi\, CODROIPO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-d6d92a1e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T183000
+DTEND;TZID=Europe/Rome:20261128T203000
+SUMMARY:HORIZON GAS & ENERGIE – LIBERTAS GONARS (Under 13 femminile CT Ud
+ ine — girone D)
+LOCATION:Pal. Sc. Medie Bianchi\, Via Europa Unita\, CODROIPO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-a457fa77@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261203T181500
+DTEND;TZID=Europe/Rome:20261203T201500
+SUMMARY:HORIZON GAS & ENERGIE – STELLA VOLLEY AZZURRA (Under 13 femminile
+  CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-a33ca52d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T183000
+DTEND;TZID=Europe/Rome:20261212T203000
+SUMMARY:HORIZON GAS & ENERGIE – DOPOLAV. FERROV. UD. (Under 13 femminile 
+ CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-724b68b5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T143000
+DTEND;TZID=Europe/Rome:20270109T163000
+SUMMARY:A.S.D. FUTURA PALMANOVA – HORIZON GAS & ENERGIE (Under 13 femmini
+ le CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-817ffda4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T160000
+DTEND;TZID=Europe/Rome:20270123T180000
+SUMMARY:HORIZON GAS & ENERGIE – VILLADIES (Under 13 femminile CT Udine 
+ — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-6de2c375@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270131T110000
+DTEND;TZID=Europe/Rome:20270131T130000
+SUMMARY:PROJECTVOLLEY SANGIORED – HORIZON GAS & ENERGIE (Under 13 femmini
+ le CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-5dfadf3b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270206T153000
+DTEND;TZID=Europe/Rome:20270206T173000
+SUMMARY:LIBERTAS GONARS – HORIZON GAS & ENERGIE (Under 13 femminile CT Ud
+ ine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-5c9ca30d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270212T193000
+DTEND;TZID=Europe/Rome:20270212T213000
+SUMMARY:STELLA VOLLEY AZZURRA – HORIZON GAS & ENERGIE (Under 13 femminile
+  CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-e63989bb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270216T183000
+DTEND;TZID=Europe/Rome:20270216T203000
+SUMMARY:DOPOLAV. FERROV. UD. – HORIZON GAS & ENERGIE (Under 13 femminile 
+ CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n10ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-d-4a33b222@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270220T183000
+DTEND;TZID=Europe/Rome:20270220T203000
+SUMMARY:HORIZON GAS & ENERGIE – A.S.D. FUTURA PALMANOVA (Under 13 femmini
+ le CT Udine — girone D)
+DESCRIPTION:Under 13 femminile CT Udine — girone D\n12ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-d
+END:VEVENT
+END:VCALENDAR

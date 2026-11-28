@@ -1,0 +1,272 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · LIBERTAS FIUME VENETO · Under 15 Under 15 Maschile R
+ egionale — girone PN
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-509a57c3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:LIBERTAS FIUME VENETO 77-63 POLISPORTIVA CONCORDIA (Under 15 Maschi
+ le Regionale — girone PN)
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n1ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-81715530@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:AZZANO BASKET 72-51 LIBERTAS FIUME VENETO (Under 15 Maschile Region
+ ale — girone PN)
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n2ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-3be66652@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:LIBERTAS FIUME VENETO 93-30 BVO ANNONE (Under 15 Maschile Regionale
+  — girone PN)
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n3ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-320593be@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261129T113000
+DTEND;TZID=Europe/Rome:20261129T133000
+SUMMARY:HUMUS BASKET – LIBERTAS FIUME VENETO (Under 15 Maschile Regionale
+  — girone PN)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n6ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-8eeac241@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261209T180000
+DTEND;TZID=Europe/Rome:20261209T200000
+SUMMARY:LIBERTAS FIUME VENETO – RORAIGRANDE (Under 15 Maschile Regionale 
+ — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n7ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-077c24e2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261213T183000
+DTEND;TZID=Europe/Rome:20261213T203000
+SUMMARY:TORRE BASKET – LIBERTAS FIUME VENETO (Under 15 Maschile Regionale
+  — girone PN)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n8ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-e49e81e2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261223T180000
+DTEND;TZID=Europe/Rome:20261223T200000
+SUMMARY:LIBERTAS FIUME VENETO – PALL. PORTOGRUARO (Under 15 Maschile Regi
+ onale — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n9ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-8f49e6b4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270115T184500
+DTEND;TZID=Europe/Rome:20270115T204500
+SUMMARY:HUMUS BASKET BLU – LIBERTAS FIUME VENETO (Under 15 Maschile Regio
+ nale — girone PN)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n10ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-f0f3f5a7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T143000
+DTEND;TZID=Europe/Rome:20270117T163000
+SUMMARY:SISTEMA BK PORDENONE - BCC – LIBERTAS FIUME VENETO (Under 15 Masc
+ hile Regionale — girone PN)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n11ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-1377a64d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270124T180000
+DTEND;TZID=Europe/Rome:20270124T200000
+SUMMARY:POLISPORTIVA CONCORDIA – LIBERTAS FIUME VENETO (Under 15 Maschile
+  Regionale — girone PN)
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n12ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-daec640a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270203T180000
+DTEND;TZID=Europe/Rome:20270203T200000
+SUMMARY:LIBERTAS FIUME VENETO – AZZANO BASKET (Under 15 Maschile Regional
+ e — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n13ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-57239b52@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270206T160000
+DTEND;TZID=Europe/Rome:20270206T180000
+SUMMARY:BVO ANNONE – LIBERTAS FIUME VENETO (Under 15 Maschile Regionale 
+ — girone PN)
+LOCATION:Palazzetto Dello Sport\, Annone Veneto
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n14ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-35df3414@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270217T180000
+DTEND;TZID=Europe/Rome:20270217T200000
+SUMMARY:LIBERTAS FIUME VENETO – G.S. VALLENONCELLO (Under 15 Maschile Reg
+ ionale — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n15ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-6ad6cda4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270303T180000
+DTEND;TZID=Europe/Rome:20270303T200000
+SUMMARY:LIBERTAS FIUME VENETO – HUMUS BASKET (Under 15 Maschile Regionale
+  — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n17ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-856e7bd7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270307T110000
+DTEND;TZID=Europe/Rome:20270307T130000
+SUMMARY:RORAIGRANDE – LIBERTAS FIUME VENETO (Under 15 Maschile Regionale 
+ — girone PN)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n18ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-296432b5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270317T180000
+DTEND;TZID=Europe/Rome:20270317T200000
+SUMMARY:LIBERTAS FIUME VENETO – TORRE BASKET (Under 15 Maschile Regionale
+  — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n19ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-cd617c4c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270320T160000
+DTEND;TZID=Europe/Rome:20270320T180000
+SUMMARY:PALL. PORTOGRUARO – LIBERTAS FIUME VENETO (Under 15 Maschile Regi
+ onale — girone PN)
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n20ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-e5d2dfa5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270407T180000
+DTEND;TZID=Europe/Rome:20270407T200000
+SUMMARY:LIBERTAS FIUME VENETO – HUMUS BASKET BLU (Under 15 Maschile Regio
+ nale — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n21ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-pn-975ba7ab@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270414T180000
+DTEND;TZID=Europe/Rome:20270414T200000
+SUMMARY:LIBERTAS FIUME VENETO – SISTEMA BK PORDENONE - BCC (Under 15 Masc
+ hile Regionale — girone PN)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 15 Maschile Regionale — girone PN\n22ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-pn
+END:VEVENT
+END:VCALENDAR

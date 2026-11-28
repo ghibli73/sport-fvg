@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · AURORA BUONACQUISTO · Seconda Categoria — girone C
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-b540d746@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:UNIONE BASSO FRIULI 0-2 AURORA BUONACQUISTO (Seconda Categoria — 
+ girone C)
+DESCRIPTION:Seconda Categoria — girone C\n1ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-0fba9bd3@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:AURORA BUONACQUISTO 3-3 SANTAMARIA (Seconda Categoria — girone C)
+DESCRIPTION:Seconda Categoria — girone C\n2ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-6389d143@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:MALISANA 0-3 AURORA BUONACQUISTO (Seconda Categoria — girone C)
+DESCRIPTION:Seconda Categoria — girone C\n3ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-c942a1f0@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:AURORA BUONACQUISTO 4-2 TERZO (Seconda Categoria — girone C)
+DESCRIPTION:Seconda Categoria — girone C\n4ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-200e870e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:RIVIGNANO 1-2 AURORA BUONACQUISTO (Seconda Categoria — girone C)
+DESCRIPTION:Seconda Categoria — girone C\n5ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-8224ba25@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:AURORA BUONACQUISTO 0-1 ZOMPICCHIA (Seconda Categoria — girone C)
+DESCRIPTION:Seconda Categoria — girone C\n6ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-786fb799@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:BUTTRIO CALCIO 4-2 AURORA BUONACQUISTO (Seconda Categoria — giron
+ e C)
+DESCRIPTION:Seconda Categoria — girone C\n7ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-c933ff60@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:AURORA BUONACQUISTO 3-1 SERENISSIMA PRADAMANO (Seconda Categoria 
+ — girone C)
+DESCRIPTION:Seconda Categoria — girone C\n8ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-79a87f4f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:AURORA BUONACQUISTO 0-1 UDINE UNITED RIZZI CORMOR (Seconda Categori
+ a — girone C)
+DESCRIPTION:Seconda Categoria — girone C\n9ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+END:VCALENDAR

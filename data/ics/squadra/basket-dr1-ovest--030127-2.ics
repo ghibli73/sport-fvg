@@ -1,0 +1,301 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Tecno 2 Commerciale Tricesimo · Divisione Regionale 
+ 1 — girone Ovest
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr1-ovest-129da6c2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261002T210000
+DTEND;TZID=Europe/Rome:20261002T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo 60-76 Errebi Majano (Divisione Region
+ ale 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-fd8c7563@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261010T194500
+DTEND;TZID=Europe/Rome:20261010T214500
+SUMMARY:Feletto Basketball Academy 77-70 Tecno 2 Commerciale Tricesimo (Div
+ isione Regionale 1 — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-61929ba6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261016T210000
+DTEND;TZID=Europe/Rome:20261016T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo 69-61 Pol. Polisigma (Divisione Regio
+ nale 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-067220f6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261025T180000
+DTEND;TZID=Europe/Rome:20261025T200000
+SUMMARY:Pol. Casarsa 80-60 Tecno 2 Commerciale Tricesimo (Divisione Regiona
+ le 1 — girone Ovest)
+LOCATION:Palasport "Palarosa"\, Casarsa della Delizia
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-b4bae33b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261030T210000
+DTEND;TZID=Europe/Rome:20261030T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo 52-62 Pol. Lib. Pasian di Prato (Divi
+ sione Regionale 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-9a1325d7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261106T204500
+DTEND;TZID=Europe/Rome:20261106T224500
+SUMMARY:Pall. Tolmezzo 65-80 Tecno 2 Commerciale Tricesimo (Divisione Regio
+ nale 1 — girone Ovest)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-af9421a0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261113T210000
+DTEND;TZID=Europe/Rome:20261113T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo 63-77 Libertas Fiume Veneto (Division
+ e Regionale 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-c56845db@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T210000
+DTEND;TZID=Europe/Rome:20261120T230000
+SUMMARY:BCC Pordenonese e Monsile 56-48 Tecno 2 Commerciale Tricesimo (Divi
+ sione Regionale 1 — girone Ovest)
+LOCATION:Palazzetto "Matteo Molent"\, Azzano Decimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-87c1cdf6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T210000
+DTEND;TZID=Europe/Rome:20261127T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo 54-71 Torre Basket (Divisione Regiona
+ le 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-312ea858@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:C.T.S. – Tecno 2 Commerciale Tricesimo (Divisione Regionale 1 —
+  girone Ovest)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n10ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-9b5ddffc@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261211T210000
+DTEND;TZID=Europe/Rome:20261211T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo – Gemona Basket (Divisione Regional
+ e 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n11ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-9750e77a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261218T210000
+DTEND;TZID=Europe/Rome:20261218T230000
+SUMMARY:Errebi Majano – Tecno 2 Commerciale Tricesimo (Divisione Regional
+ e 1 — girone Ovest)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n12ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-ffa30f8d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270108T210000
+DTEND;TZID=Europe/Rome:20270108T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo – Feletto Basketball Academy (Divis
+ ione Regionale 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n13ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-66c661ed@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270116T190000
+DTEND;TZID=Europe/Rome:20270116T210000
+SUMMARY:Pol. Polisigma – Tecno 2 Commerciale Tricesimo (Divisione Regiona
+ le 1 — girone Ovest)
+LOCATION:Palestra Scolastica Scuole Med\, Zoppola
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n14ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-70ca0908@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270122T210000
+DTEND;TZID=Europe/Rome:20270122T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo – Pol. Casarsa (Divisione Regionale
+  1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n15ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-ad0643ea@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270205T210000
+DTEND;TZID=Europe/Rome:20270205T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo – Pall. Tolmezzo (Divisione Regiona
+ le 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n17ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-5685894d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270214T180000
+DTEND;TZID=Europe/Rome:20270214T200000
+SUMMARY:Libertas Fiume Veneto – Tecno 2 Commerciale Tricesimo (Divisione 
+ Regionale 1 — girone Ovest)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n18ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-5938596e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270219T210000
+DTEND;TZID=Europe/Rome:20270219T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo – BCC Pordenonese e Monsile (Divisi
+ one Regionale 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n19ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-0df16705@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270226T204500
+DTEND;TZID=Europe/Rome:20270226T224500
+SUMMARY:Torre Basket – Tecno 2 Commerciale Tricesimo (Divisione Regionale
+  1 — girone Ovest)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n20ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-c9658f03@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270305T210000
+DTEND;TZID=Europe/Rome:20270305T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo – C.T.S. (Divisione Regionale 1 —
+  girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n21ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-cb4bd871@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270313T200000
+DTEND;TZID=Europe/Rome:20270313T220000
+SUMMARY:Gemona Basket – Tecno 2 Commerciale Tricesimo (Divisione Regional
+ e 1 — girone Ovest)
+LOCATION:Palestra Ipsia\, Gemona Del Friuli
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n22ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+END:VCALENDAR

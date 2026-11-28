@@ -1,0 +1,189 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · SOCA GRAFICA GORIZIANA · Under 17 Under 17 femminile
+  CT Trieste-Gorizia — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-d97ea9e7@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261021T181500
+DTEND;TZID=Europe/Rome:20261021T201500
+SUMMARY:SOCA GRAFICA GORIZIANA 3-0 ASD MORARO VOLLEY (Under 17 femminile CT
+  Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, DOBERDO' DEL LAGO GO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-87e78f09@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T170000
+DTEND;TZID=Europe/Rome:20261107T190000
+SUMMARY:SYSTEM VOLLEY U.17 3-0 SOCA GRAFICA GORIZIANA (Under 17 femminile C
+ T Trieste-Gorizia — girone B)
+LOCATION:Palestra Istituto Volta\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-821096d3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261111T181500
+DTEND;TZID=Europe/Rome:20261111T201500
+SUMMARY:SOCA GRAFICA GORIZIANA 3-0 ASD OFP AZZURRA RDR ETERE (Under 17 femm
+ inile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, DOBERDO' DEL LAGO GO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-6dff99be@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T170000
+DTEND;TZID=Europe/Rome:20261121T190000
+SUMMARY:CENTRO COSELLI U17Y 1-3 SOCA GRAFICA GORIZIANA (Under 17 femminile 
+ CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-f519e711@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261125T181500
+DTEND;TZID=Europe/Rome:20261125T201500
+SUMMARY:SOCA GRAFICA GORIZIANA 3-0 MAVI SRL STARANZANO (Under 17 femminile 
+ CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, via Osimo 2\, DOBERDO' DEL LAGO GO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-3e162faa@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T180000
+DTEND;TZID=Europe/Rome:20261205T200000
+SUMMARY:PINETA CITY OLYMPIA TS – SOCA GRAFICA GORIZIANA (Under 17 femmini
+ le CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-b6991115@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T170000
+DTEND;TZID=Europe/Rome:20261212T190000
+SUMMARY:ASD MORARO VOLLEY – SOCA GRAFICA GORIZIANA (Under 17 femminile CT
+  Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-90ed90e0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T173000
+DTEND;TZID=Europe/Rome:20270110T193000
+SUMMARY:SOCA GRAFICA GORIZIANA – SYSTEM VOLLEY U.17 (Under 17 femminile C
+ T Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n10ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-27287fa2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T110000
+DTEND;TZID=Europe/Rome:20270117T130000
+SUMMARY:ASD OFP AZZURRA RDR ETERE – SOCA GRAFICA GORIZIANA (Under 17 femm
+ inile CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n11ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-9b357995@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270120T181500
+DTEND;TZID=Europe/Rome:20270120T201500
+SUMMARY:SOCA GRAFICA GORIZIANA – CENTRO COSELLI U17Y (Under 17 femminile 
+ CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n12ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-df35d7bd@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T173000
+DTEND;TZID=Europe/Rome:20270130T193000
+SUMMARY:MAVI SRL STARANZANO – SOCA GRAFICA GORIZIANA (Under 17 femminile 
+ CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n13ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-080ab987@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270214T103000
+DTEND;TZID=Europe/Rome:20270214T123000
+SUMMARY:SOCA GRAFICA GORIZIANA – PINETA CITY OLYMPIA TS (Under 17 femmini
+ le CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n14ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+END:VCALENDAR

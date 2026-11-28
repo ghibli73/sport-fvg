@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Padova BSC · Serie A Silver baseball — girone B (r
+ egular season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-9894b997@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260405
+SUMMARY:Padova BSC 6-4 Gereon Engineering NBP Ronchi (Serie A Silver baseba
+ ll — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n1ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-abf55b8c@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260405
+SUMMARY:Padova BSC 5-4 Gereon Engineering NBP Ronchi (Serie A Silver baseba
+ ll — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n1ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-f22ac7c5@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+SUMMARY:IS Copy Junior Alpina 13-12 Padova BSC (Serie A Silver baseball —
+  girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n6ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-ce1b8d7a@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+SUMMARY:IS Copy Junior Alpina 0-2 Padova BSC (Serie A Silver baseball — g
+ irone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n6ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-a234f130@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260517
+SUMMARY:Alfa Sistemi Buttrio 5-7 Padova BSC (Serie A Silver baseball — gi
+ rone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n7ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-bca42eed@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260517
+SUMMARY:Alfa Sistemi Buttrio 8-1 Padova BSC (Serie A Silver baseball — gi
+ rone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n7ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-505e85ef@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+SUMMARY:Gereon Engineering NBP Ronchi 11-1 Padova BSC (Serie A Silver baseb
+ all — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n12ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-ec217d14@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+SUMMARY:Gereon Engineering NBP Ronchi 1-2 Padova BSC (Serie A Silver baseba
+ ll — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n12ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-2a7cbc65@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:Padova BSC 5-4 IS Copy Junior Alpina (Serie A Silver baseball — g
+ irone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n17ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-b81b10c2@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:Padova BSC 2-3 IS Copy Junior Alpina (Serie A Silver baseball — g
+ irone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n17ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-4af12efc@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+SUMMARY:Padova BSC 5-1 Alfa Sistemi Buttrio (Serie A Silver baseball — gi
+ rone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n18ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-f310b57d@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+SUMMARY:Padova BSC 4-7 Alfa Sistemi Buttrio (Serie A Silver baseball — gi
+ rone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n18ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,187 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · VOLLEY TALMASSONS · Under 13 Under 13 femminile CT U
+ dine — girone C
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-ee8d3cfa@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261104T180000
+DTEND;TZID=Europe/Rome:20261104T200000
+SUMMARY:VOLLEY TALMASSONS 2-1 BLU TEAM (Under 13 femminile CT Udine — gir
+ one C)
+LOCATION:Palestra Scuole Medie\, TALMASSONS UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-065218b0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T160000
+DTEND;TZID=Europe/Rome:20261121T180000
+SUMMARY:PROJECTVOLLEY SANGIOWHITE 3-0 VOLLEY TALMASSONS (Under 13 femminile
+  CT Udine — girone C)
+LOCATION:Palazzetto dello Sport\, SAN GIORGIO DI NOGARO UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n3ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-dc4fd694@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261125T180000
+DTEND;TZID=Europe/Rome:20261125T200000
+SUMMARY:VOLLEY TALMASSONS 0-3 ST. DENTISTICO CIAN* (Under 13 femminile CT U
+ dine — girone C)
+LOCATION:Palestra Scuole Medie\, Via Argilars 4\, TALMASSONS UD
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-190e3a68@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261202T180000
+DTEND;TZID=Europe/Rome:20261202T200000
+SUMMARY:LIBERTAS MARTIGNACCO – VOLLEY TALMASSONS (Under 13 femminile CT U
+ dine — girone C)
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-10467d36@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T183000
+DTEND;TZID=Europe/Rome:20261212T203000
+SUMMARY:VOLLEY TALMASSONS – STELLA VOLLEY BIANCA (Under 13 femminile CT U
+ dine — girone C)
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-b160c1f8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T183000
+DTEND;TZID=Europe/Rome:20261219T203000
+SUMMARY:VOLLEY TALMASSONS – BLANC RIZZI UDINE FTV (Under 13 femminile CT 
+ Udine — girone C)
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-cdde2a0f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270107T180000
+DTEND;TZID=Europe/Rome:20270107T200000
+SUMMARY:BLU TEAM – VOLLEY TALMASSONS (Under 13 femminile CT Udine — gir
+ one C)
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-65d179ac@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T183000
+DTEND;TZID=Europe/Rome:20270123T203000
+SUMMARY:VOLLEY TALMASSONS – PROJECTVOLLEY SANGIOWHITE (Under 13 femminile
+  CT Udine — girone C)
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n10ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-3b117bac@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270127T181500
+DTEND;TZID=Europe/Rome:20270127T201500
+SUMMARY:ST. DENTISTICO CIAN* – VOLLEY TALMASSONS (Under 13 femminile CT U
+ dine — girone C)
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n11ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-a73e6490@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270206T183000
+DTEND;TZID=Europe/Rome:20270206T203000
+SUMMARY:VOLLEY TALMASSONS – LIBERTAS MARTIGNACCO (Under 13 femminile CT U
+ dine — girone C)
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n12ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-b01d0db5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T170000
+DTEND;TZID=Europe/Rome:20270213T190000
+SUMMARY:STELLA VOLLEY BIANCA – VOLLEY TALMASSONS (Under 13 femminile CT U
+ dine — girone C)
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n13ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-13-femminile-ud-girone-c-93459cbf@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270216T180000
+DTEND;TZID=Europe/Rome:20270216T200000
+SUMMARY:BLANC RIZZI UDINE FTV – VOLLEY TALMASSONS (Under 13 femminile CT 
+ Udine — girone C)
+DESCRIPTION:Under 13 femminile CT Udine — girone C\n14ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-pallavolo-under-13-femminile-ud-girone-c
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-13-femminile-ud
+ -girone-c
+END:VEVENT
+END:VCALENDAR

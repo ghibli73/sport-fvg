@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Dinamo Gorizia · Under 13 Under 13 Femminile — gir
+ one GO/TS (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-841b8431@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T103000
+DTEND;TZID=Europe/Rome:20261108T123000
+SUMMARY:Dinamo Gorizia 97-15 US Alba Pallacanestro (Under 13 Femminile — 
+ girone GO/TS (prima fase))
+LOCATION:Palestra Comunale\, Romans d'Isonzo
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-fa786872@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261113T190000
+DTEND;TZID=Europe/Rome:20261113T210000
+SUMMARY:Futurosa Nera 30-36 Dinamo Gorizia (Under 13 Femminile — girone G
+ O/TS (prima fase))
+LOCATION:Pal. Sc. Rismondo\, Trieste
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-a89329df@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261122T103000
+DTEND;TZID=Europe/Rome:20261122T123000
+SUMMARY:Dinamo Gorizia 53-76 BIN Tigrotte (Under 13 Femminile — girone GO
+ /TS (prima fase))
+LOCATION:Palestra Comunale\, Romans d'Isonzo
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-7c8a26b0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261124T171500
+DTEND;TZID=Europe/Rome:20261124T191500
+SUMMARY:Pall. Interclub Muggia 42-47 Dinamo Gorizia (Under 13 Femminile —
+  girone GO/TS (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-7c629e0b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261128T163000
+DTEND;TZID=Europe/Rome:20261128T183000
+SUMMARY:Dinamo Gorizia – U.S.D. Don Bosco (Under 13 Femminile — girone 
+ GO/TS (prima fase))
+LOCATION:Palestra Comunale\, Romans D'Isonzo
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-25fa2e09@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261209T170000
+DTEND;TZID=Europe/Rome:20261209T190000
+SUMMARY:US Alba Pallacanestro – Dinamo Gorizia (Under 13 Femminile — gi
+ rone GO/TS (prima fase))
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n6ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-319db9ae@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270108T190000
+DTEND;TZID=Europe/Rome:20270108T210000
+SUMMARY:Dinamo Gorizia – Futurosa Nera (Under 13 Femminile — girone GO/
+ TS (prima fase))
+LOCATION:Palestra Comunale\, Romans D'Isonzo
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n7ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-4a59819c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T094500
+DTEND;TZID=Europe/Rome:20270117T114500
+SUMMARY:BIN Tigrotte – Dinamo Gorizia (Under 13 Femminile — girone GO/T
+ S (prima fase))
+LOCATION:Pal. Liceo 'G. Oberdan'\, Trieste
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n8ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-608dd468@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270128T193000
+DTEND;TZID=Europe/Rome:20270128T213000
+SUMMARY:U.S.D. Don Bosco – Dinamo Gorizia (Under 13 Femminile — girone 
+ GO/TS (prima fase))
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n9ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-44db0e01@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T110000
+DTEND;TZID=Europe/Rome:20270131T130000
+SUMMARY:Dinamo Gorizia – Pall. Interclub Muggia (Under 13 Femminile — g
+ irone GO/TS (prima fase))
+LOCATION:Palestra Comunale\, Romans D'Isonzo
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n10ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+END:VCALENDAR

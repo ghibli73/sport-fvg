@@ -1,0 +1,467 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · S.P.A.L.CORDOVADO · Under 19 Under 19 regionali — 
+ girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-89cbd794@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:CORVA 0-5 S.P.A.L.CORDOVADO (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n3ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-8c7f2fda@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:S.P.A.L.CORDOVADO 1-1 SANVITESE (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n4ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-989055d7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:TOLMEZZO CARNIA 1-1 S.P.A.L.CORDOVADO (Under 19 regionali — giron
+ e A)
+DESCRIPTION:Under 19 regionali — girone A\n5ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-18ceb0f7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:COMUNALE FONTANAFREDDA 3-0 S.P.A.L.CORDOVADO (Under 19 regionali 
+ — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n6ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-6e97e54b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:S.P.A.L.CORDOVADO 2-5 SANGIORGINA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n7ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-d30415f0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:CHIONS 5-0 S.P.A.L.CORDOVADO (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n8ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-8dc21953@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:S.P.A.L.CORDOVADO 0-0 POLISPORTIVA TAMAI ASD (Under 19 regionali 
+ — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-4887c922@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:U.FINCANTIERI MONFALCONE 3-1 S.P.A.L.CORDOVADO (Under 19 regionali 
+ — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-91dab4e0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:S.P.A.L.CORDOVADO 2-2 NUOVO PORDENONE 2024 FC (Under 19 regionali 
+ — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-3030b936@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:FIUME VENETO -BANNIA 1-1 S.P.A.L.CORDOVADO (Under 19 regionali — 
+ girone A)
+DESCRIPTION:Under 19 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-9e0bb1b1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:S.P.A.L.CORDOVADO 1-0 REANESE (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-eedbdf28@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:OPICINA 0-4 S.P.A.L.CORDOVADO (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n14ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-aef829da@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T173000
+DTEND;TZID=Europe/Rome:20261128T193000
+SUMMARY:S.P.A.L.CORDOVADO – PRO FAGAGNA (Under 19 regionali — girone A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Under 19 regionali — girone A\n15ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-0355cb78@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261205T173000
+DTEND;TZID=Europe/Rome:20261205T193000
+SUMMARY:SAN LUIGI CALCIO – S.P.A.L.CORDOVADO (Under 19 regionali — giro
+ ne A)
+LOCATION:San Luigi Comunale Trieste\, Via Felluga 58
+DESCRIPTION:Under 19 regionali — girone A\n16ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-209755ab@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261208T173000
+DTEND;TZID=Europe/Rome:20261208T193000
+SUMMARY:S.P.A.L.CORDOVADO – MUGGIA 1967 (Under 19 regionali — girone A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Under 19 regionali — girone A\n17ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-c20f6b01@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261212T173000
+DTEND;TZID=Europe/Rome:20261212T193000
+SUMMARY:RIVE D ARCANO FLAIBANO – S.P.A.L.CORDOVADO (Under 19 regionali 
+ — girone A)
+LOCATION:Remigio Picco Flaibano\, Via Cavour 56
+DESCRIPTION:Under 19 regionali — girone A\n18ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-30c35a14@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261219T173000
+DTEND;TZID=Europe/Rome:20261219T193000
+SUMMARY:S.P.A.L.CORDOVADO – TRIESTE VICTORY ACADEMY (Under 19 regionali 
+ — girone A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Under 19 regionali — girone A\n19ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-326c9474@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270106T110000
+DTEND;TZID=Europe/Rome:20270106T130000
+SUMMARY:S.P.A.L.CORDOVADO – PRO GORIZIA (Under 19 regionali — girone A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Under 19 regionali — girone A\n20ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-23bbf800@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270109T173000
+DTEND;TZID=Europe/Rome:20270109T193000
+SUMMARY:A.C. CORDENONESE 3S ASD – S.P.A.L.CORDOVADO (Under 19 regionali 
+ — girone A)
+LOCATION:Comunale Cordenons\, Via Braida D'Andrea
+DESCRIPTION:Under 19 regionali — girone A\n21ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-8ae82edd@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270116T173000
+DTEND;TZID=Europe/Rome:20270116T193000
+SUMMARY:S.P.A.L.CORDOVADO – CORVA (Under 19 regionali — girone A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Under 19 regionali — girone A\n22ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-d03c5aa1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270123T173000
+DTEND;TZID=Europe/Rome:20270123T193000
+SUMMARY:SANVITESE – S.P.A.L.CORDOVADO (Under 19 regionali — girone A)
+LOCATION:Comunale Bagnarola\, Via Vissignano
+DESCRIPTION:Under 19 regionali — girone A\n23ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-90e50fd6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270130T173000
+DTEND;TZID=Europe/Rome:20270130T193000
+SUMMARY:S.P.A.L.CORDOVADO – TOLMEZZO CARNIA (Under 19 regionali — giron
+ e A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Under 19 regionali — girone A\n24ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-d12f0fd4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270206T173000
+DTEND;TZID=Europe/Rome:20270206T193000
+SUMMARY:S.P.A.L.CORDOVADO – COMUNALE FONTANAFREDDA (Under 19 regionali 
+ — girone A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Under 19 regionali — girone A\n25ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-31ea231e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270213T173000
+DTEND;TZID=Europe/Rome:20270213T193000
+SUMMARY:SANGIORGINA – S.P.A.L.CORDOVADO (Under 19 regionali — girone A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n26ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-5a9edc53@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270220T173000
+DTEND;TZID=Europe/Rome:20270220T193000
+SUMMARY:S.P.A.L.CORDOVADO – CHIONS (Under 19 regionali — girone A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Under 19 regionali — girone A\n27ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-4be79e1a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270224T170000
+DTEND;TZID=Europe/Rome:20270224T190000
+SUMMARY:POLISPORTIVA TAMAI ASD – S.P.A.L.CORDOVADO (Under 19 regionali 
+ — girone A)
+LOCATION:Campo B Tamai\, Via Giovanni Xxiii 69
+DESCRIPTION:Under 19 regionali — girone A\n28ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-4b019b28@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270227T173000
+DTEND;TZID=Europe/Rome:20270227T193000
+SUMMARY:S.P.A.L.CORDOVADO – U.FINCANTIERI MONFALCONE (Under 19 regionali 
+ — girone A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Under 19 regionali — girone A\n29ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-7f1d5fa3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270306T173000
+DTEND;TZID=Europe/Rome:20270306T193000
+SUMMARY:NUOVO PORDENONE 2024 FC – S.P.A.L.CORDOVADO (Under 19 regionali 
+ — girone A)
+LOCATION:Grizzo Villa D'Arco\, Via Giuseppe Grizzo
+DESCRIPTION:Under 19 regionali — girone A\n30ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-d7047caf@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270310T190000
+DTEND;TZID=Europe/Rome:20270310T210000
+SUMMARY:S.P.A.L.CORDOVADO – FIUME VENETO -BANNIA (Under 19 regionali — 
+ girone A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Under 19 regionali — girone A\n31ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-dfc83abe@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270313T173000
+DTEND;TZID=Europe/Rome:20270313T193000
+SUMMARY:REANESE – S.P.A.L.CORDOVADO (Under 19 regionali — girone A)
+LOCATION:Comunale A Reana Del Roiale\, Via Stadio 10
+DESCRIPTION:Under 19 regionali — girone A\n32ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-9d8ea751@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270320T173000
+DTEND;TZID=Europe/Rome:20270320T193000
+SUMMARY:S.P.A.L.CORDOVADO – OPICINA (Under 19 regionali — girone A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Under 19 regionali — girone A\n33ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-3cfdc319@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270403T173000
+DTEND;TZID=Europe/Rome:20270403T193000
+SUMMARY:PRO FAGAGNA – S.P.A.L.CORDOVADO (Under 19 regionali — girone A)
+LOCATION:Comunale B Sintetico Fagagna\, Via Tonutti 20
+DESCRIPTION:Under 19 regionali — girone A\n34ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-252b4f21@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270410T173000
+DTEND;TZID=Europe/Rome:20270410T193000
+SUMMARY:S.P.A.L.CORDOVADO – SAN LUIGI CALCIO (Under 19 regionali — giro
+ ne A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Under 19 regionali — girone A\n35ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-443da314@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270417T173000
+DTEND;TZID=Europe/Rome:20270417T193000
+SUMMARY:MUGGIA 1967 – S.P.A.L.CORDOVADO (Under 19 regionali — girone A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Under 19 regionali — girone A\n36ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-6b638acc@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270424T173000
+DTEND;TZID=Europe/Rome:20270424T193000
+SUMMARY:S.P.A.L.CORDOVADO – RIVE D ARCANO FLAIBANO (Under 19 regionali 
+ — girone A)
+LOCATION:Comunale A Cordovado\, Via Circonvallazione 11
+DESCRIPTION:Under 19 regionali — girone A\n37ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-0e234577@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270501T180000
+DTEND;TZID=Europe/Rome:20270501T200000
+SUMMARY:TRIESTE VICTORY ACADEMY – S.P.A.L.CORDOVADO (Under 19 regionali 
+ — girone A)
+LOCATION:Buffalo - Campo A Trieste\, Via Petracco 8
+DESCRIPTION:Under 19 regionali — girone A\n38ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+END:VCALENDAR

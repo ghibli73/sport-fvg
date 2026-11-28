@@ -1,0 +1,154 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. STELLA VOLLEY · Under 19 Under 19 femminile C
+ T Udine — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-406a5578@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261018T110000
+DTEND;TZID=Europe/Rome:20261018T130000
+SUMMARY:A.S.D. STELLA VOLLEY 3-2 PAV NATISONIA - IL POZZO (Under 19 femmini
+ le CT Udine — girone unico)
+LOCATION:Palestra Comunale di Teor\, Teor RIVIGNANO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-8f856f2e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261025T110000
+DTEND;TZID=Europe/Rome:20261025T130000
+SUMMARY:BLU TEAM 0-3 A.S.D. STELLA VOLLEY (Under 19 femminile CT Udine — 
+ girone unico)
+LOCATION:Palestra comunale\, Lauzacco PAVIA DI UDINE UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-a127673b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:A.S.D. STELLA VOLLEY 3-0 AURORA VOLLEY UDINE SI (Under 19 femminile
+  CT Udine — girone unico)
+LOCATION:Palestra Comunale di Teor\, RIVIGNANO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-8a9f36c2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:A.S.D. STELLA VOLLEY 3-1 CLUB AURORA VOLLEY UDINE (Under 19 femmini
+ le CT Udine — girone unico)
+LOCATION:Palestra Comunale di Teor\, RIVIGNANO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-4bfd18a1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:LIBERTAS MARTIGNACCO – A.S.D. STELLA VOLLEY (Under 19 femminile C
+ T Udine — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, Via San Biagio\, MARTIGN
+ ACCO UD
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-a0e20da6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261206T113000
+DTEND;TZID=Europe/Rome:20261206T133000
+SUMMARY:ART_CENTO VOLLEY – A.S.D. STELLA VOLLEY (Under 19 femminile CT Ud
+ ine — girone unico)
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-a13a0b33@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T110000
+DTEND;TZID=Europe/Rome:20261213T130000
+SUMMARY:A.S.D. STELLA VOLLEY – SIFA ROJALKENNEDY (Under 19 femminile CT U
+ dine — girone unico)
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n8ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-aca0f12a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261215T200000
+DTEND;TZID=Europe/Rome:20261215T220000
+SUMMARY:ASD SPORTING CLUB – A.S.D. STELLA VOLLEY (Under 19 femminile CT U
+ dine — girone unico)
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n9ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-f7774633@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T110000
+DTEND;TZID=Europe/Rome:20270110T130000
+SUMMARY:A.S.D. STELLA VOLLEY – VILLADIES SAFE MARINE (Under 19 femminile 
+ CT Udine — girone unico)
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n10ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-ud-27678975@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T110000
+DTEND;TZID=Europe/Rome:20270117T130000
+SUMMARY:CHEI DE VILE – A.S.D. STELLA VOLLEY (Under 19 femminile CT Udine 
+ — girone unico)
+DESCRIPTION:Under 19 femminile CT Udine — girone unico\n11ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-pallavolo-under-19-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ud
+END:VEVENT
+END:VCALENDAR

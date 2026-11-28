@@ -1,0 +1,210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.DIL.PALL. CODROIPESE · Under 12 Trofeo Esordienti 
+ Under 12 — girone UD B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-d61c5c18@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261117T173000
+DTEND;TZID=Europe/Rome:20261117T193000
+SUMMARY:APD PRINCIPE – A.DIL.PALL. CODROIPESE (Trofeo Esordienti Under 12
+  — girone UD B)
+LOCATION:Palestra Scuola Media Non Om\, Pagnacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-f8cd2265@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261129T093000
+DTEND;TZID=Europe/Rome:20261129T113000
+SUMMARY:A.DIL.PALL. CODROIPESE – A.S.DIL. LIGNANO BASKET (Trofeo Esordien
+ ti Under 12 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-73c75c02@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261212T160000
+DTEND;TZID=Europe/Rome:20261212T180000
+SUMMARY:ASD POL LIB. PASIAN DI PRATO – A.DIL.PALL. CODROIPESE (Trofeo Eso
+ rdienti Under 12 — girone UD B)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-b78a9141@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261219T093000
+DTEND;TZID=Europe/Rome:20261219T113000
+SUMMARY:A.DIL.PALL. CODROIPESE – FELETTO (Trofeo Esordienti Under 12 — 
+ girone UD B)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-f6944045@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270119T171500
+DTEND;TZID=Europe/Rome:20270119T191500
+SUMMARY:POL. LIBERTAS ASD ACLI – A.DIL.PALL. CODROIPESE (Trofeo Esordient
+ i Under 12 — girone UD B)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-59405e3a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270124T093000
+DTEND;TZID=Europe/Rome:20270124T113000
+SUMMARY:A.DIL.PALL. CODROIPESE – UDINE BASKET CLUB ASD (Trofeo Esordienti
+  Under 12 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-4416b173@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270201T180000
+DTEND;TZID=Europe/Rome:20270201T200000
+SUMMARY:POL. DIL. TRICESIMO – A.DIL.PALL. CODROIPESE (Trofeo Esordienti U
+ nder 12 — girone UD B)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-16202b64@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270221T093000
+DTEND;TZID=Europe/Rome:20270221T113000
+SUMMARY:A.DIL.PALL. CODROIPESE – APD PRINCIPE (Trofeo Esordienti Under 12
+  — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-46877348@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270305T164500
+DTEND;TZID=Europe/Rome:20270305T184500
+SUMMARY:A.S.DIL. LIGNANO BASKET – A.DIL.PALL. CODROIPESE (Trofeo Esordien
+ ti Under 12 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-e5c6561e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270314T093000
+DTEND;TZID=Europe/Rome:20270314T113000
+SUMMARY:A.DIL.PALL. CODROIPESE – ASD POL LIB. PASIAN DI PRATO (Trofeo Eso
+ rdienti Under 12 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-e89b2c2f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270316T173000
+DTEND;TZID=Europe/Rome:20270316T193000
+SUMMARY:FELETTO – A.DIL.PALL. CODROIPESE (Trofeo Esordienti Under 12 — 
+ girone UD B)
+LOCATION:Pal. Sc. Media Feletto Umbeto\, Tavagnacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n11ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-5ea3a391@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270411T093000
+DTEND;TZID=Europe/Rome:20270411T113000
+SUMMARY:A.DIL.PALL. CODROIPESE – POL. LIBERTAS ASD ACLI (Trofeo Esordient
+ i Under 12 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n12ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-17bfa6f6@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270419T174500
+DTEND;TZID=Europe/Rome:20270419T194500
+SUMMARY:UDINE BASKET CLUB ASD – A.DIL.PALL. CODROIPESE (Trofeo Esordienti
+  Under 12 — girone UD B)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n13ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-9c987ae4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270509T093000
+DTEND;TZID=Europe/Rome:20270509T113000
+SUMMARY:A.DIL.PALL. CODROIPESE – POL. DIL. TRICESIMO (Trofeo Esordienti U
+ nder 12 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n14ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+END:VCALENDAR

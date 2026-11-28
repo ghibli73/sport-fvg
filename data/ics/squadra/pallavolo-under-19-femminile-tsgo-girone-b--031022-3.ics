@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · SOCA PRATICHE AUTO SARAH · Under 19 Under 19 femmini
+ le CT Trieste-Gorizia — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-04bb3427@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261112T201500
+DTEND;TZID=Europe/Rome:20261112T221500
+SUMMARY:SOCA PRATICHE AUTO SARAH 3-0 PALLAVOLO ALTURA (Under 19 femminile C
+ T Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, SAVOGNA D'ISONZO GO
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-ec0ec88e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261118T203000
+DTEND;TZID=Europe/Rome:20261118T223000
+SUMMARY:PINETA CITY OLYMPIA TS 3-0 SOCA PRATICHE AUTO SARAH (Under 19 femmi
+ nile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Stadio Rocco\, TRIESTE TS
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-e985951e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261126T201500
+DTEND;TZID=Europe/Rome:20261126T221500
+SUMMARY:SOCA PRATICHE AUTO SARAH 3-0 CENTRO COSELLI U19Y (Under 19 femminil
+ e CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, Via 1° Maggio 118\, SAVOGNA D'ISONZO GO
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-b78fbc81@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261203T201500
+DTEND;TZID=Europe/Rome:20261203T221500
+SUMMARY:SOCA PRATICHE AUTO SARAH – F.LLI TAMBURIN S.n.c. (Under 19 femmin
+ ile CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-d801b1bf@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261211T210000
+DTEND;TZID=Europe/Rome:20261211T230000
+SUMMARY:SALONE CARMEN-FINCANTIERI – SOCA PRATICHE AUTO SARAH (Under 19 fe
+ mminile CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-21edf276@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261218T200000
+DTEND;TZID=Europe/Rome:20261218T220000
+SUMMARY:PALLAVOLO ALTURA – SOCA PRATICHE AUTO SARAH (Under 19 femminile C
+ T Trieste-Gorizia — girone B)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-797c17a9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270107T201500
+DTEND;TZID=Europe/Rome:20270107T221500
+SUMMARY:SOCA PRATICHE AUTO SARAH – PINETA CITY OLYMPIA TS (Under 19 femmi
+ nile CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-84cf13a2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T170000
+DTEND;TZID=Europe/Rome:20270117T190000
+SUMMARY:CENTRO COSELLI U19Y – SOCA PRATICHE AUTO SARAH (Under 19 femminil
+ e CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-24f1b672@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270119T183000
+DTEND;TZID=Europe/Rome:20270119T203000
+SUMMARY:F.LLI TAMBURIN S.n.c. – SOCA PRATICHE AUTO SARAH (Under 19 femmin
+ ile CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n9ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-tsgo-girone-b-9310fe95@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270131T160000
+DTEND;TZID=Europe/Rome:20270131T180000
+SUMMARY:SOCA PRATICHE AUTO SARAH – SALONE CARMEN-FINCANTIERI (Under 19 fe
+ mminile CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 19 femminile CT Trieste-Gorizia — girone B\n10ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-19-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-ts
+ go-girone-b
+END:VEVENT
+END:VCALENDAR

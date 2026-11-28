@@ -1,0 +1,236 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · POL. LIBERTAS ACLI · Under 17 Under 17 Maschile Gold
+  — girone UD (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-983dc7f9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261018T110000
+DTEND;TZID=Europe/Rome:20261018T130000
+SUMMARY:Uattzy SBaMM 61-84 POL. LIBERTAS ACLI (Under 17 Maschile Gold — g
+ irone UD (prima fase))
+LOCATION:Palazzetto Giumanin\, Udine
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n1ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-cdcf0232@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261023T190000
+DTEND;TZID=Europe/Rome:20261023T210000
+SUMMARY:FELETTO BASKETBALL ACADEMY 67-86 POL. LIBERTAS ACLI (Under 17 Masch
+ ile Gold — girone UD (prima fase))
+LOCATION:Palestra Cavalicco\, Tavagnacco
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-66cb33c5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T113000
+DTEND;TZID=Europe/Rome:20261108T133000
+SUMMARY:GP Engineering di Paron 79-77 POL. LIBERTAS ACLI (Under 17 Maschile
+  Gold — girone UD (prima fase))
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-50e7ebbe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:POL. LIBERTAS ACLI 54-75 UDINE BASKET CLUB (Under 17 Maschile Gold 
+ — girone UD (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-6225e3b9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261121T163000
+DTEND;TZID=Europe/Rome:20261121T183000
+SUMMARY:BASKET TERZO – POL. LIBERTAS ACLI (Under 17 Maschile Gold — gir
+ one UD (prima fase))
+LOCATION:Pal. Comunale\, Terzo D'Aquileia
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n6ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-aca6f893@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261128T180000
+DTEND;TZID=Europe/Rome:20261128T200000
+SUMMARY:LIBERTAS GONARS – POL. LIBERTAS ACLI (Under 17 Maschile Gold — 
+ girone UD (prima fase))
+LOCATION:Palestra Comunale\, Santa Maria La Longa
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n7ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-ee7216dd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261204T170000
+DTEND;TZID=Europe/Rome:20261204T190000
+SUMMARY:POL. LIBERTAS ACLI – MAJANESE (Under 17 Maschile Gold — girone 
+ UD (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n8ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-f27f35ba@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261213T110000
+DTEND;TZID=Europe/Rome:20261213T130000
+SUMMARY:UEB Academy Cividale – POL. LIBERTAS ACLI (Under 17 Maschile Gold
+  — girone UD (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n9ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-73e0994b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261220T110000
+DTEND;TZID=Europe/Rome:20261220T130000
+SUMMARY:POL. LIBERTAS ACLI – Uattzy SBaMM (Under 17 Maschile Gold — gir
+ one UD (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n10ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-4240f26b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270110T110000
+DTEND;TZID=Europe/Rome:20270110T130000
+SUMMARY:POL. LIBERTAS ACLI – FELETTO BASKETBALL ACADEMY (Under 17 Maschil
+ e Gold — girone UD (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n11ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-34e860b4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270124T110000
+DTEND;TZID=Europe/Rome:20270124T130000
+SUMMARY:POL. LIBERTAS ACLI – GP Engineering di Paron (Under 17 Maschile G
+ old — girone UD (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n13ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-8d9d7493@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T110000
+DTEND;TZID=Europe/Rome:20270131T130000
+SUMMARY:UDINE BASKET CLUB – POL. LIBERTAS ACLI (Under 17 Maschile Gold 
+ — girone UD (prima fase))
+LOCATION:Palestra Mazzini\, Udine
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n14ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-23c80b5a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270207T110000
+DTEND;TZID=Europe/Rome:20270207T130000
+SUMMARY:POL. LIBERTAS ACLI – BASKET TERZO (Under 17 Maschile Gold — gir
+ one UD (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n15ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-02d4927d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270214T150000
+DTEND;TZID=Europe/Rome:20270214T170000
+SUMMARY:POL. LIBERTAS ACLI – LIBERTAS GONARS (Under 17 Maschile Gold — 
+ girone UD (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n16ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-5e1300ea@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270221T110000
+DTEND;TZID=Europe/Rome:20270221T130000
+SUMMARY:MAJANESE – POL. LIBERTAS ACLI (Under 17 Maschile Gold — girone 
+ UD (prima fase))
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n17ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-69a34631@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270228T110000
+DTEND;TZID=Europe/Rome:20270228T130000
+SUMMARY:POL. LIBERTAS ACLI – UEB Academy Cividale (Under 17 Maschile Gold
+  — girone UD (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n18ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+END:VCALENDAR

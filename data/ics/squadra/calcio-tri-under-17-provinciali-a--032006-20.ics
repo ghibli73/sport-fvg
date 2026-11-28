@@ -1,0 +1,246 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · S.GIUSTO FOOTBALL ACADEMY · Under 17 Under 17 provin
+ ciali — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-d6ff7520@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:S.GIUSTO FOOTBALL ACADEMY 0-13 ISONTINO CALCIO (Under 17 provincial
+ i — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-fa8f2262@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:SANT ANDREA SAN VITO 12-0 S.GIUSTO FOOTBALL ACADEMY (Under 17 provi
+ nciali — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-2d7bf930@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:S.GIUSTO FOOTBALL ACADEMY 4-3 CAMPANELLE sq.B (Under 17 provinciali
+  — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-07fbca42@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SAN GIOVANNI A.S.D. 6-0 S.GIUSTO FOOTBALL ACADEMY (Under 17 provinc
+ iali — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-9684e149@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:S.GIUSTO FOOTBALL ACADEMY 1-4 AUDAX SANROCCHESE (Under 17 provincia
+ li — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-0e493d34@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:UNIONE FRIULI ISONTINA 5-0 S.GIUSTO FOOTBALL ACADEMY (Under 17 prov
+ inciali — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-a6b7de0b@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261129T103000
+DTEND;TZID=Europe/Rome:20261129T123000
+SUMMARY:S.GIUSTO FOOTBALL ACADEMY – FIUMICELLO 2004 (Under 17 provinciali
+  — girone A)
+LOCATION:Rouna Prosecco\, San Primo - Zona Sportiva
+DESCRIPTION:Under 17 provinciali — girone A\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-4a09f360@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270117T103000
+DTEND;TZID=Europe/Rome:20270117T123000
+SUMMARY:ISONTINO CALCIO – S.GIUSTO FOOTBALL ACADEMY (Under 17 provinciali
+  — girone A)
+LOCATION:Sandro Brunner - Comunale Vermegliano\, Via Granatieri
+DESCRIPTION:Under 17 provinciali — girone A\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-9508fd9a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270124T103000
+DTEND;TZID=Europe/Rome:20270124T123000
+SUMMARY:S.GIUSTO FOOTBALL ACADEMY – SANT ANDREA SAN VITO (Under 17 provin
+ ciali — girone A)
+LOCATION:Rouna Prosecco\, San Primo - Zona Sportiva
+DESCRIPTION:Under 17 provinciali — girone A\n14ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-4a090266@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270131T103000
+DTEND;TZID=Europe/Rome:20270131T123000
+SUMMARY:ARIS SAN POLO CALCIO – S.GIUSTO FOOTBALL ACADEMY (Under 17 provin
+ ciali — girone A)
+LOCATION:Cosulich - Comunale Monfalcone\, Via Cosulich 28
+DESCRIPTION:Under 17 provinciali — girone A\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-65620984@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270207T103000
+DTEND;TZID=Europe/Rome:20270207T123000
+SUMMARY:S.GIUSTO FOOTBALL ACADEMY – SAN GIOVANNI A.S.D. (Under 17 provinc
+ iali — girone A)
+LOCATION:Rouna Prosecco\, San Primo - Zona Sportiva
+DESCRIPTION:Under 17 provinciali — girone A\n16ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-a77753d9@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270221T103000
+DTEND;TZID=Europe/Rome:20270221T123000
+SUMMARY:S.GIUSTO FOOTBALL ACADEMY – TORRE (Under 17 provinciali — giron
+ e A)
+LOCATION:Rouna Prosecco\, San Primo - Zona Sportiva
+DESCRIPTION:Under 17 provinciali — girone A\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-4fa10a66@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270228T103000
+DTEND;TZID=Europe/Rome:20270228T123000
+SUMMARY:S.GIUSTO FOOTBALL ACADEMY – UNIONE FRIULI ISONTINA (Under 17 prov
+ inciali — girone A)
+LOCATION:Rouna Prosecco\, San Primo - Zona Sportiva
+DESCRIPTION:Under 17 provinciali — girone A\n19ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-fcb50886@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270307T110000
+DTEND;TZID=Europe/Rome:20270307T130000
+SUMMARY:CAMPANELLE – S.GIUSTO FOOTBALL ACADEMY (Under 17 provinciali — 
+ girone A)
+LOCATION:Campanelle Trieste\, Via Campanelle 300
+DESCRIPTION:Under 17 provinciali — girone A\n20ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-ed0e7ac9@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270314T103000
+DTEND;TZID=Europe/Rome:20270314T123000
+SUMMARY:S.GIUSTO FOOTBALL ACADEMY – STUDENTI (Under 17 provinciali — gi
+ rone A)
+LOCATION:Rouna Prosecco\, San Primo - Zona Sportiva
+DESCRIPTION:Under 17 provinciali — girone A\n21ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-6cff2ead@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270321T103000
+DTEND;TZID=Europe/Rome:20270321T123000
+SUMMARY:FIUMICELLO 2004 – S.GIUSTO FOOTBALL ACADEMY (Under 17 provinciali
+  — girone A)
+LOCATION:Giacomo Del Bianco Villa Vicentina\, Via Duca D Aosta
+DESCRIPTION:Under 17 provinciali — girone A\n22ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+END:VCALENDAR

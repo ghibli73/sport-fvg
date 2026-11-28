@@ -1,0 +1,197 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PALL. INTERCLUB MUGGIA · Under 13 Under 13 Maschile 
+ — girone GO/TS A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-103e3530@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:PALL. INTERCLUB MUGGIA 41-59 US ALBA PALLACANESTRO (Under 13 Maschi
+ le — girone GO/TS A)
+LOCATION:Palestra Comunale 'G. Pacco'\, Muggia
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n2ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-add1a18c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:PALL. INTERCLUB MUGGIA 82-35 BREG (Under 13 Maschile — girone GO/
+ TS A)
+LOCATION:Palestra Comunale 'G. Pacco'\, Muggia
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n4ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-b78fe76a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:PALL. INTERCLUB MUGGIA – FALCONSTAR BASKET (Under 13 Maschile —
+  girone GO/TS A)
+LOCATION:Palestra Comunale 'G. Pacco'\, Muggia
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n5ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-b9339dfd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261202T163000
+DTEND;TZID=Europe/Rome:20261202T183000
+SUMMARY:C.M.B. ARCOBALENO TRIESTE Black – PALL. INTERCLUB MUGGIA (Under 1
+ 3 Maschile — girone GO/TS A)
+LOCATION:Pal. Liceo 'G. Oberdan'\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n3ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-1d1580b8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261213T100000
+DTEND;TZID=Europe/Rome:20261213T120000
+SUMMARY:C.M.B. ARCOBALENO TRIESTE White – PALL. INTERCLUB MUGGIA (Under 1
+ 3 Maschile — girone GO/TS A)
+LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n7ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-38d9c9c4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261222T180000
+DTEND;TZID=Europe/Rome:20261222T200000
+SUMMARY:PALL. INTERCLUB MUGGIA – U.S.D. DON BOSCO (Under 13 Maschile — 
+ girone GO/TS A)
+LOCATION:Palestra Comunale 'G. Pacco'\, Muggia
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n8ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-2d93b3ef@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270106T170000
+DTEND;TZID=Europe/Rome:20270106T190000
+SUMMARY:U.S.D. DON BOSCO – PALL. INTERCLUB MUGGIA (Under 13 Maschile — 
+ girone GO/TS A)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n1ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-ce141714@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270110T100000
+DTEND;TZID=Europe/Rome:20270110T120000
+SUMMARY:US ALBA PALLACANESTRO – PALL. INTERCLUB MUGGIA (Under 13 Maschile
+  — girone GO/TS A)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n9ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-fc0470e2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T110000
+DTEND;TZID=Europe/Rome:20270117T130000
+SUMMARY:PALL. INTERCLUB MUGGIA – C.M.B. ARCOBALENO TRIESTE Black (Under 1
+ 3 Maschile — girone GO/TS A)
+LOCATION:Palestra Comunale 'G. Pacco'\, Muggia
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n10ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-d602bb17@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270122T180000
+DTEND;TZID=Europe/Rome:20270122T200000
+SUMMARY:BREG – PALL. INTERCLUB MUGGIA (Under 13 Maschile — girone GO/TS
+  A)
+LOCATION:Palestra 'S.Klabjan'\, San Dorligo Della Valle
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n11ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-bb07bd41@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T103000
+DTEND;TZID=Europe/Rome:20270131T123000
+SUMMARY:FALCONSTAR BASKET – PALL. INTERCLUB MUGGIA (Under 13 Maschile —
+  girone GO/TS A)
+LOCATION:Palestra Comunale\, Staranzano
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n12ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-3a4b6cdc@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270206T090000
+DTEND;TZID=Europe/Rome:20270206T110000
+SUMMARY:C.M.B. ARCOBALENO TRIESTE 2015 – PALL. INTERCLUB MUGGIA (Under 13
+  Maschile — girone GO/TS A)
+LOCATION:Pal. Liceo 'G. Oberdan'\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n13ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-a-f385787d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270214T110000
+DTEND;TZID=Europe/Rome:20270214T130000
+SUMMARY:PALL. INTERCLUB MUGGIA – C.M.B. ARCOBALENO TRIESTE White (Under 1
+ 3 Maschile — girone GO/TS A)
+LOCATION:Palestra Comunale 'G. Pacco'\, Muggia
+DESCRIPTION:Under 13 Maschile — girone GO/TS A\n14ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-a
+END:VEVENT
+END:VCALENDAR

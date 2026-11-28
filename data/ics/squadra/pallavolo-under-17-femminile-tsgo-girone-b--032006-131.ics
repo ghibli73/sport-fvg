@@ -1,0 +1,189 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PINETA CITY OLYMPIA TS · Under 17 Under 17 femminile
+  CT Trieste-Gorizia — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-c3c939d3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261021T203000
+DTEND;TZID=Europe/Rome:20261021T223000
+SUMMARY:PINETA CITY OLYMPIA TS 3-0 SYSTEM VOLLEY U.17 (Under 17 femminile C
+ T Trieste-Gorizia — girone B)
+LOCATION:Palestra Stadio Rocco\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-193bf6e9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T180000
+DTEND;TZID=Europe/Rome:20261031T200000
+SUMMARY:PINETA CITY OLYMPIA TS 3-0 ASD OFP AZZURRA RDR ETERE (Under 17 femm
+ inile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Stadio Rocco\, TRIESTE
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-055e8c4a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:CENTRO COSELLI U17Y 0-3 PINETA CITY OLYMPIA TS (Under 17 femminile 
+ CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Scuola Elementare Morpurgo\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-8dd8ee87@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T180000
+DTEND;TZID=Europe/Rome:20261114T200000
+SUMMARY:PINETA CITY OLYMPIA TS 3-0 MAVI SRL STARANZANO (Under 17 femminile 
+ CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Stadio Rocco\, TRIESTE TS
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-0ad99935@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:ASD MORARO VOLLEY – PINETA CITY OLYMPIA TS (Under 17 femminile CT
+  Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, Via Ciso Tuni 6\, MORARO GO
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-3e162faa@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T180000
+DTEND;TZID=Europe/Rome:20261205T200000
+SUMMARY:PINETA CITY OLYMPIA TS – SOCA GRAFICA GORIZIANA (Under 17 femmini
+ le CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-8b575c07@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261211T190000
+DTEND;TZID=Europe/Rome:20261211T210000
+SUMMARY:SYSTEM VOLLEY U.17 – PINETA CITY OLYMPIA TS (Under 17 femminile C
+ T Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-27595675@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T103000
+DTEND;TZID=Europe/Rome:20261220T123000
+SUMMARY:ASD OFP AZZURRA RDR ETERE – PINETA CITY OLYMPIA TS (Under 17 femm
+ inile CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n9ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-091b200f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T180000
+DTEND;TZID=Europe/Rome:20270109T200000
+SUMMARY:PINETA CITY OLYMPIA TS – CENTRO COSELLI U17Y (Under 17 femminile 
+ CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n10ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-32bb6b2c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270116T173000
+DTEND;TZID=Europe/Rome:20270116T193000
+SUMMARY:MAVI SRL STARANZANO – PINETA CITY OLYMPIA TS (Under 17 femminile 
+ CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n11ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-cb0c834e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T180000
+DTEND;TZID=Europe/Rome:20270130T200000
+SUMMARY:PINETA CITY OLYMPIA TS – ASD MORARO VOLLEY (Under 17 femminile CT
+  Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n13ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-femminile-tsgo-girone-b-080ab987@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270214T103000
+DTEND;TZID=Europe/Rome:20270214T123000
+SUMMARY:SOCA GRAFICA GORIZIANA – PINETA CITY OLYMPIA TS (Under 17 femmini
+ le CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 17 femminile CT Trieste-Gorizia — girone B\n14ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-17-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-femminile-ts
+ go-girone-b
+END:VEVENT
+END:VCALENDAR

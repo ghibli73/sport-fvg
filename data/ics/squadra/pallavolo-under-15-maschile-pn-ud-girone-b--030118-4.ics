@@ -1,0 +1,136 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ASD KENNEDY ADEGLIACCO · Under 15 Under 15 maschile 
+ interterritoriale PN-UD — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-4093620e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T160000
+DTEND;TZID=Europe/Rome:20261108T180000
+SUMMARY:GEMONA LA PERLA 3-0 ASD KENNEDY ADEGLIACCO (Under 15 maschile inter
+ territoriale PN-UD — girone B)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-93d53b63@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261115T153000
+DTEND;TZID=Europe/Rome:20261115T173000
+SUMMARY:ASD KENNEDY ADEGLIACCO 3-1 VOLLEYBAS UDINE (Under 15 maschile inter
+ territoriale PN-UD — girone B)
+LOCATION:Palestra Comunale\, Cavalicco TAVAGNACCO UD
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-759e6e68@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T153000
+DTEND;TZID=Europe/Rome:20261122T173000
+SUMMARY:AURORA VOLLEY UDINE 3-0 ASD KENNEDY ADEGLIACCO (Under 15 maschile i
+ nterterritoriale PN-UD — girone B)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-d024d1f3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T153000
+DTEND;TZID=Europe/Rome:20261129T173000
+SUMMARY:ASD KENNEDY ADEGLIACCO – SPORTING CLUB (Under 15 maschile interte
+ rritoriale PN-UD — girone B)
+LOCATION:Palestra Comunale\, Via San Bernardo\, Cavalicco TAVAGNACCO UD
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-d2142db6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T153000
+DTEND;TZID=Europe/Rome:20261213T173000
+SUMMARY:ASD KENNEDY ADEGLIACCO – GEMONA LA PERLA (Under 15 maschile inter
+ territoriale PN-UD — girone B)
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n6ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-d446e6a1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261218T180000
+DTEND;TZID=Europe/Rome:20261218T200000
+SUMMARY:VOLLEYBAS UDINE – ASD KENNEDY ADEGLIACCO (Under 15 maschile inter
+ territoriale PN-UD — girone B)
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n7ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-a56f6890@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T153000
+DTEND;TZID=Europe/Rome:20270110T173000
+SUMMARY:ASD KENNEDY ADEGLIACCO – AURORA VOLLEY UDINE (Under 15 maschile i
+ nterterritoriale PN-UD — girone B)
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n8ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-b-995c1bcd@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T180000
+DTEND;TZID=Europe/Rome:20270117T200000
+SUMMARY:SPORTING CLUB – ASD KENNEDY ADEGLIACCO (Under 15 maschile interte
+ rritoriale PN-UD — girone B)
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone B\n9ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-b
+END:VEVENT
+END:VCALENDAR

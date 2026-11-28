@@ -1,0 +1,322 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PORDENONE VOLLEY · Seconda Divisione femminile CT Po
+ rdenone — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-f7bef1e4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261018T163000
+DTEND;TZID=Europe/Rome:20261018T183000
+SUMMARY:PALLAVOLO BRUGNERA 96 3-2 PORDENONE VOLLEY (Seconda Divisione femmi
+ nile CT Pordenone — girone unico)
+LOCATION:Palestra Scuole Elementari\, BRUGNERA PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n1ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-b3b1298c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261025T110000
+DTEND;TZID=Europe/Rome:20261025T130000
+SUMMARY:PORDENONE VOLLEY 3-1 VOLLEY DEL SANVITESE (Seconda Divisione femmin
+ ile CT Pordenone — girone unico)
+LOCATION:Palestra Borgomeduna\, Pordenone (PN)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n2ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-371a7f73@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261101T110000
+DTEND;TZID=Europe/Rome:20261101T130000
+SUMMARY:GEFION VIS ET VIRTUS 0-3 PORDENONE VOLLEY (Seconda Divisione femmin
+ ile CT Pordenone — girone unico)
+LOCATION:Palasport Steffanini\, ROVEREDO IN PIANO PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n3ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-3f82e2a0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261110T203000
+DTEND;TZID=Europe/Rome:20261110T223000
+SUMMARY:PSG FB TANKS 3-2 PORDENONE VOLLEY (Seconda Divisione femminile CT P
+ ordenone — girone unico)
+LOCATION:Palestra Scuola Elementare "B. Aucouturier" - Rorai Piccolo\, Porc
+ ia PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n4ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-9693918e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261115T163000
+DTEND;TZID=Europe/Rome:20261115T183000
+SUMMARY:PORDENONE VOLLEY 0-3 ALTA RESA (Seconda Divisione femminile CT Pord
+ enone — girone unico)
+LOCATION:Palestra Borgomeduna\, Pordenone PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n5ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-1a2a31c3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T183000
+DTEND;TZID=Europe/Rome:20261121T203000
+SUMMARY:CARR. F.LLI CARNELOS GIS 1-3 PORDENONE VOLLEY (Seconda Divisione fe
+ mminile CT Pordenone — girone unico)
+LOCATION:Pal. Sport "Piccin"\, Sacile (PN)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n6ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-81a7ff28@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T163000
+DTEND;TZID=Europe/Rome:20261129T183000
+SUMMARY:PORDENONE VOLLEY – A.P. TRAVESIO (Seconda Divisione femminile CT 
+ Pordenone — girone unico)
+LOCATION:Palestra Borgomeduna\, Via Prasecco 3\, PORDENONE PN
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n7ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-0ca10229@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T163000
+DTEND;TZID=Europe/Rome:20261213T183000
+SUMMARY:PORDENONE VOLLEY – ABRAWORD FAVRIA S.VITO (Seconda Divisione femm
+ inile CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n9ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-e721a974@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T203000
+DTEND;TZID=Europe/Rome:20261219T223000
+SUMMARY:BLU VOLLEY PORDENONE – PORDENONE VOLLEY (Seconda Divisione femmin
+ ile CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n10ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-d79f0281@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T150000
+DTEND;TZID=Europe/Rome:20270117T170000
+SUMMARY:TREVISAN METALMECCANICA – PORDENONE VOLLEY (Seconda Divisione fem
+ minile CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n12ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-4ae89ae2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270124T163000
+DTEND;TZID=Europe/Rome:20270124T183000
+SUMMARY:PORDENONE VOLLEY – FAROUT (Seconda Divisione femminile CT Pordeno
+ ne — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n13ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-bdf6f285@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270131T153000
+DTEND;TZID=Europe/Rome:20270131T173000
+SUMMARY:PORDENONE VOLLEY – PALLAVOLO BRUGNERA 96 (Seconda Divisione femmi
+ nile CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n14ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-59d025e8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270205T190000
+DTEND;TZID=Europe/Rome:20270205T210000
+SUMMARY:VOLLEY DEL SANVITESE – PORDENONE VOLLEY (Seconda Divisione femmin
+ ile CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n15ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-7e4f4b15@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270214T110000
+DTEND;TZID=Europe/Rome:20270214T130000
+SUMMARY:PORDENONE VOLLEY – GEFION VIS ET VIRTUS (Seconda Divisione femmin
+ ile CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n16ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-1139b77b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270221T163000
+DTEND;TZID=Europe/Rome:20270221T183000
+SUMMARY:PORDENONE VOLLEY – PSG FB TANKS (Seconda Divisione femminile CT P
+ ordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n17ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-02220a86@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270228T100000
+DTEND;TZID=Europe/Rome:20270228T120000
+SUMMARY:ALTA RESA – PORDENONE VOLLEY (Seconda Divisione femminile CT Pord
+ enone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n18ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-07d93618@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270307T163000
+DTEND;TZID=Europe/Rome:20270307T183000
+SUMMARY:PORDENONE VOLLEY – CARR. F.LLI CARNELOS GIS (Seconda Divisione fe
+ mminile CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n19ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-271f9cad@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270314T173000
+DTEND;TZID=Europe/Rome:20270314T193000
+SUMMARY:A.P. TRAVESIO – PORDENONE VOLLEY (Seconda Divisione femminile CT 
+ Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n20ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-5ab57e51@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270404T170000
+DTEND;TZID=Europe/Rome:20270404T190000
+SUMMARY:ABRAWORD FAVRIA S.VITO – PORDENONE VOLLEY (Seconda Divisione femm
+ inile CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n22ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-605d9fe6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270411T163000
+DTEND;TZID=Europe/Rome:20270411T183000
+SUMMARY:PORDENONE VOLLEY – BLU VOLLEY PORDENONE (Seconda Divisione femmin
+ ile CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n23ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-10c3ec2c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270424T163000
+DTEND;TZID=Europe/Rome:20270424T183000
+SUMMARY:PORDENONE VOLLEY – TREVISAN METALMECCANICA (Seconda Divisione fem
+ minile CT Pordenone — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n25ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-pn-e30c400d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270502T180000
+DTEND;TZID=Europe/Rome:20270502T200000
+SUMMARY:FAROUT – PORDENONE VOLLEY (Seconda Divisione femminile CT Pordeno
+ ne — girone unico)
+DESCRIPTION:Seconda Divisione femminile CT Pordenone — girone unico\n26ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-seconda-divisione-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-pn
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.INT.BALONCESTO ISONTINA · Under 14 Under 14 Femmin
+ ile — girone B (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-femminile-b-9d9d8215@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261025T153000
+DTEND;TZID=Europe/Rome:20261025T173000
+SUMMARY:HUMUS BASKET 43-52 A.INT.BALONCESTO ISONTINA (Under 14 Femminile 
+ — girone B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-b-86eda149@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:A.INT.BALONCESTO ISONTINA 37-69 AKK BOR BASKET (Under 14 Femminile 
+ — girone B (prima fase))
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-b-591bee36@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T180000
+DTEND;TZID=Europe/Rome:20261114T200000
+SUMMARY:U.S.D. DON BOSCO 36-40 A.INT.BALONCESTO ISONTINA (Under 14 Femminil
+ e — girone B (prima fase))
+LOCATION:Pal. Oratorio "Don Bosco"\, Trieste
+DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-b-65afe4be@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261121T160000
+DTEND;TZID=Europe/Rome:20261121T180000
+SUMMARY:A.INT.BALONCESTO ISONTINA – POL. LIBERTAS CUSSIGNACCO (Under 14 F
+ emminile — girone B (prima fase))
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-b-2f79c2e1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261128T160000
+DTEND;TZID=Europe/Rome:20261128T180000
+SUMMARY:A.INT.BALONCESTO ISONTINA – HUMUS BASKET (Under 14 Femminile — 
+ girone B (prima fase))
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-b-4d5614fe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:AKK BOR BASKET – A.INT.BALONCESTO ISONTINA (Under 14 Femminile 
+ — girone B (prima fase))
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-b-a207b935@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261219T160000
+DTEND;TZID=Europe/Rome:20261219T180000
+SUMMARY:A.INT.BALONCESTO ISONTINA – U.S.D. DON BOSCO (Under 14 Femminile 
+ — girone B (prima fase))
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n9ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-b-4a694518@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270110T180000
+DTEND;TZID=Europe/Rome:20270110T200000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO – A.INT.BALONCESTO ISONTINA (Under 14 F
+ emminile — girone B (prima fase))
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n10ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-femminile-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
+END:VEVENT
+END:VCALENDAR

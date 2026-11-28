@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.DIL. TORRE BASKET · Under 12 Trofeo Esordienti U
+ nder 12 — girone PN B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-pn-b-21549317@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261110T174500
+DTEND;TZID=Europe/Rome:20261110T194500
+SUMMARY:A.S.DIL. TORRE BASKET 12-4 A.S.D. SISTEMA BK RP (Trofeo Esordienti 
+ Under 12 — girone PN B)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN B\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-b-9e6164d8@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261113T180000
+DTEND;TZID=Europe/Rome:20261113T200000
+SUMMARY:A.S.D. 3 S BASKET CORDENONS 7-9 A.S.DIL. TORRE BASKET (Trofeo Esord
+ ienti Under 12 — girone PN B)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN B\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-b-b8bdc98a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261201T174500
+DTEND;TZID=Europe/Rome:20261201T194500
+SUMMARY:A.S.DIL. TORRE BASKET – A.DIL. NUOVO BASKET 2000 (Trofeo Esordien
+ ti Under 12 — girone PN B)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN B\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-b-586134e6@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261212T164000
+DTEND;TZID=Europe/Rome:20261212T184000
+SUMMARY:A.S.D. SISTEMA BK RP – A.S.DIL. TORRE BASKET (Trofeo Esordienti U
+ nder 12 — girone PN B)
+LOCATION:Pallone Ex Tenis - Solo M.B.\, Roveredo In Piano
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN B\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-b-64d6ef43@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261221T174500
+DTEND;TZID=Europe/Rome:20261221T194500
+SUMMARY:A.S.DIL. TORRE BASKET – A.S.D. 3 S BASKET CORDENONS (Trofeo Esord
+ ienti Under 12 — girone PN B)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN B\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-b-8982ad8c@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270112T173000
+DTEND;TZID=Europe/Rome:20270112T193000
+SUMMARY:A.D. BASKET VILLANOVA H.R.V – A.S.DIL. TORRE BASKET (Trofeo Esord
+ ienti Under 12 — girone PN B)
+LOCATION:Pal. Sc. Medie Villanova\, Pordenone
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN B\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-b-a6c03012@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270117T093000
+DTEND;TZID=Europe/Rome:20270117T113000
+SUMMARY:A.DIL. NUOVO BASKET 2000 – A.S.DIL. TORRE BASKET (Trofeo Esordien
+ ti Under 12 — girone PN B)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN B\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-b-0ed08a4d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270125T174500
+DTEND;TZID=Europe/Rome:20270125T194500
+SUMMARY:A.S.DIL. TORRE BASKET – A.D. BASKET VILLANOVA H.R.V (Trofeo Esord
+ ienti Under 12 — girone PN B)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN B\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-b
+END:VEVENT
+END:VCALENDAR

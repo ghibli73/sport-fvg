@@ -1,0 +1,219 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PALL. TOLMEZZO · Under 13 Under 13 Maschile — giro
+ ne UD B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-ud-b-2dac0444@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T173000
+DTEND;TZID=Europe/Rome:20261103T193000
+SUMMARY:PALL. TOLMEZZO 32-65 LIBERTAS GONARS (Under 13 Maschile — girone 
+ UD B)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Under 13 Maschile — girone UD B\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-944657d8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T110000
+DTEND;TZID=Europe/Rome:20261108T130000
+SUMMARY:APU NEXTGEN NERA 80-27 PALL. TOLMEZZO (Under 13 Maschile — girone
+  UD B)
+LOCATION:Palazzetto M. Benedetti\, Udine
+DESCRIPTION:Under 13 Maschile — girone UD B\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-ac85e139@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261117T183000
+DTEND;TZID=Europe/Rome:20261117T203000
+SUMMARY:PALL. TOLMEZZO 31-76 CENTRO SEDIA BASKET (Under 13 Maschile — gir
+ one UD B)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Under 13 Maschile — girone UD B\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-75074643@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261130T193000
+DTEND;TZID=Europe/Rome:20261130T213000
+SUMMARY:APU NEXTGEN BIANCA – PALL. TOLMEZZO (Under 13 Maschile — girone
+  UD B)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 13 Maschile — girone UD B\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-0db05ba6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261203T173000
+DTEND;TZID=Europe/Rome:20261203T193000
+SUMMARY:PALL. TOLMEZZO – GEMONA BASKET (Under 13 Maschile — girone UD B
+ )
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Under 13 Maschile — girone UD B\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-bde96c0f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261214T190000
+DTEND;TZID=Europe/Rome:20261214T210000
+SUMMARY:U.S. BASKET TIME UDINE – PALL. TOLMEZZO (Under 13 Maschile — gi
+ rone UD B)
+LOCATION:Pal. ''M. Vecchiatto''\, Udine
+DESCRIPTION:Under 13 Maschile — girone UD B\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-530a34b2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261221T183000
+DTEND;TZID=Europe/Rome:20261221T203000
+SUMMARY:P.A.F. – PALL. TOLMEZZO (Under 13 Maschile — girone UD B)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Under 13 Maschile — girone UD B\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-ccc2d511@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270112T192000
+DTEND;TZID=Europe/Rome:20270112T212000
+SUMMARY:PALL. TOLMEZZO – LONGOBARDI (Under 13 Maschile — girone UD B)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Under 13 Maschile — girone UD B\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-96c43fac@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T110000
+DTEND;TZID=Europe/Rome:20270117T130000
+SUMMARY:LIBERTAS GONARS – PALL. TOLMEZZO (Under 13 Maschile — girone UD
+  B)
+LOCATION:Palazzetto Dello Sport\, Gonars
+DESCRIPTION:Under 13 Maschile — girone UD B\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-ac49d7c4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270123T180000
+DTEND;TZID=Europe/Rome:20270123T200000
+SUMMARY:PALL. TOLMEZZO – APU NEXTGEN NERA (Under 13 Maschile — girone U
+ D B)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Under 13 Maschile — girone UD B\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-6865d8d4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270205T181500
+DTEND;TZID=Europe/Rome:20270205T201500
+SUMMARY:CENTRO SEDIA BASKET – PALL. TOLMEZZO (Under 13 Maschile — giron
+ e UD B)
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Under 13 Maschile — girone UD B\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-573d3273@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270218T190000
+DTEND;TZID=Europe/Rome:20270218T210000
+SUMMARY:GEMONA BASKET – PALL. TOLMEZZO (Under 13 Maschile — girone UD B
+ )
+LOCATION:Palestra Ipsia\, Gemona Del Friuli
+DESCRIPTION:Under 13 Maschile — girone UD B\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-eed08135@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270302T181500
+DTEND;TZID=Europe/Rome:20270302T201500
+SUMMARY:PALL. TOLMEZZO – U.S. BASKET TIME UDINE (Under 13 Maschile — gi
+ rone UD B)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Under 13 Maschile — girone UD B\n16ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-ea051cc5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270309T173000
+DTEND;TZID=Europe/Rome:20270309T193000
+SUMMARY:PALL. TOLMEZZO – P.A.F. (Under 13 Maschile — girone UD B)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Under 13 Maschile — girone UD B\n17ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-b-276bbb61@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270313T173000
+DTEND;TZID=Europe/Rome:20270313T193000
+SUMMARY:LONGOBARDI – PALL. TOLMEZZO (Under 13 Maschile — girone UD B)
+LOCATION:Palestra Sc. 'Ipolito Nievo'\, Remanzacco
+DESCRIPTION:Under 13 Maschile — girone UD B\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+END:VEVENT
+END:VCALENDAR

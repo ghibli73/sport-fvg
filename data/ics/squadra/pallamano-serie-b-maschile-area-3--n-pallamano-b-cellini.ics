@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Pallamano B. Cellini · Seconda squadra Serie B masch
+ ile Area 3 (Veneto–FVG)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-a22a4e8e@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261011T183000
+DTEND;TZID=Europe/Rome:20261011T203000
+SUMMARY:Pallamano B. Cellini 36-20 Handball Oderzo (Serie B maschile Area 3
+  (Veneto–FVG))
+LOCATION:Padova
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-6c920431@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261017T193000
+DTEND;TZID=Europe/Rome:20261017T213000
+SUMMARY:Pallamano Vicenza 23-32 Pallamano B. Cellini (Serie B maschile Area
+  3 (Veneto–FVG))
+LOCATION:Vicenza
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-22b22e6a@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261024T183000
+DTEND;TZID=Europe/Rome:20261024T203000
+SUMMARY:Pallamano B. Cellini 30-26 Handball Vicentina (Serie B maschile Are
+ a 3 (Veneto–FVG))
+LOCATION:Padova
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-08af7678@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:Nuova Pallamano Vigasio 22-43 Pallamano B. Cellini (Serie B maschil
+ e Area 3 (Veneto–FVG))
+LOCATION:Vigasio
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-0be11e2a@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261121T200000
+DTEND;TZID=Europe/Rome:20261121T220000
+SUMMARY:San Vito Marano 23-25 Pallamano B. Cellini (Serie B maschile Area 3
+  (Veneto–FVG))
+LOCATION:Marano Vicentino
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-b-maschile-area-3-92128557@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261205T160000
+DTEND;TZID=Europe/Rome:20261205T180000
+SUMMARY:Pallamano B. Cellini – Pallamano Musile 2006 (Serie B maschile Ar
+ ea 3 (Veneto–FVG))
+LOCATION:Padova
+DESCRIPTION:Serie B maschile Area 3 (Veneto–FVG)\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-b-maschile-area-3
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-b-maschile-area
+ -3
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,462 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · SANGIORGINA · Under 19 Under 19 regionali — girone
+  A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-82a46fee@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:PRO GORIZIA 1-2 SANGIORGINA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n3ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-0d9b0ae8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:SANGIORGINA 4-1 A.C. CORDENONESE 3S ASD (Under 19 regionali — gir
+ one A)
+DESCRIPTION:Under 19 regionali — girone A\n4ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-d1d37c47@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:CORVA 0-3 SANGIORGINA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n5ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-9dec693d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:SANGIORGINA 2-3 SANVITESE (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n6ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-6e97e54b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:S.P.A.L.CORDOVADO 2-5 SANGIORGINA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n7ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-0d1ae3c8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:SANGIORGINA 2-6 COMUNALE FONTANAFREDDA (Under 19 regionali — giro
+ ne A)
+DESCRIPTION:Under 19 regionali — girone A\n8ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-3cc967fe@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:TOLMEZZO CARNIA 0-1 SANGIORGINA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-c6917a72@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:CHIONS 3-2 SANGIORGINA (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-98f2f723@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:SANGIORGINA 4-0 POLISPORTIVA TAMAI ASD (Under 19 regionali — giro
+ ne A)
+DESCRIPTION:Under 19 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-86e1cea9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:U.FINCANTIERI MONFALCONE 1-1 SANGIORGINA (Under 19 regionali — gi
+ rone A)
+DESCRIPTION:Under 19 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-ec89f84f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:SANGIORGINA 0-1 NUOVO PORDENONE 2024 FC (Under 19 regionali — gir
+ one A)
+DESCRIPTION:Under 19 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-5a320e21@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:FIUME VENETO -BANNIA 2-0 SANGIORGINA (Under 19 regionali — girone
+  A)
+DESCRIPTION:Under 19 regionali — girone A\n14ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-2a08f05e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T173000
+DTEND;TZID=Europe/Rome:20261128T193000
+SUMMARY:SANGIORGINA – REANESE (Under 19 regionali — girone A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n15ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-55fba64f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261205T173000
+DTEND;TZID=Europe/Rome:20261205T193000
+SUMMARY:OPICINA – SANGIORGINA (Under 19 regionali — girone A)
+LOCATION:Nereo Rocco Opicina\, Via Degli Alpini 128/1
+DESCRIPTION:Under 19 regionali — girone A\n16ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-7324414d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261208T173000
+DTEND;TZID=Europe/Rome:20261208T193000
+SUMMARY:SANGIORGINA – PRO FAGAGNA (Under 19 regionali — girone A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n17ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-68529cdf@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261212T173000
+DTEND;TZID=Europe/Rome:20261212T193000
+SUMMARY:SAN LUIGI CALCIO – SANGIORGINA (Under 19 regionali — girone A)
+LOCATION:San Luigi Comunale Trieste\, Via Felluga 58
+DESCRIPTION:Under 19 regionali — girone A\n18ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-214c0d70@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261219T173000
+DTEND;TZID=Europe/Rome:20261219T193000
+SUMMARY:SANGIORGINA – MUGGIA 1967 (Under 19 regionali — girone A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n19ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-df704313@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270106T110000
+DTEND;TZID=Europe/Rome:20270106T130000
+SUMMARY:SANGIORGINA – RIVE D ARCANO FLAIBANO (Under 19 regionali — giro
+ ne A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n20ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-4085b94c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270109T180000
+DTEND;TZID=Europe/Rome:20270109T200000
+SUMMARY:TRIESTE VICTORY ACADEMY – SANGIORGINA (Under 19 regionali — gir
+ one A)
+LOCATION:Buffalo - Campo A Trieste\, Via Petracco 8
+DESCRIPTION:Under 19 regionali — girone A\n21ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-198b8243@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270116T173000
+DTEND;TZID=Europe/Rome:20270116T193000
+SUMMARY:SANGIORGINA – PRO GORIZIA (Under 19 regionali — girone A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n22ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-061a2b77@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270123T173000
+DTEND;TZID=Europe/Rome:20270123T193000
+SUMMARY:A.C. CORDENONESE 3S ASD – SANGIORGINA (Under 19 regionali — gir
+ one A)
+LOCATION:Comunale Cordenons\, Via Braida D'Andrea
+DESCRIPTION:Under 19 regionali — girone A\n23ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-230c93c6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270130T173000
+DTEND;TZID=Europe/Rome:20270130T193000
+SUMMARY:SANGIORGINA – CORVA (Under 19 regionali — girone A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n24ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-8843cfd2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270206T173000
+DTEND;TZID=Europe/Rome:20270206T193000
+SUMMARY:SANVITESE – SANGIORGINA (Under 19 regionali — girone A)
+LOCATION:Comunale Bagnarola\, Via Vissignano
+DESCRIPTION:Under 19 regionali — girone A\n25ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-31ea231e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270213T173000
+DTEND;TZID=Europe/Rome:20270213T193000
+SUMMARY:SANGIORGINA – S.P.A.L.CORDOVADO (Under 19 regionali — girone A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n26ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-05454729@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270220T180000
+DTEND;TZID=Europe/Rome:20270220T200000
+SUMMARY:COMUNALE FONTANAFREDDA – SANGIORGINA (Under 19 regionali — giro
+ ne A)
+LOCATION:Tognon 2 Fontanafredda\, Via Del Parco
+DESCRIPTION:Under 19 regionali — girone A\n27ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-7d96abeb@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270224T190000
+DTEND;TZID=Europe/Rome:20270224T210000
+SUMMARY:SANGIORGINA – TOLMEZZO CARNIA (Under 19 regionali — girone A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n28ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-b3e8b1ee@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270227T173000
+DTEND;TZID=Europe/Rome:20270227T193000
+SUMMARY:SANGIORGINA – CHIONS (Under 19 regionali — girone A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n29ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-c70a108e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270306T170000
+DTEND;TZID=Europe/Rome:20270306T190000
+SUMMARY:POLISPORTIVA TAMAI ASD – SANGIORGINA (Under 19 regionali — giro
+ ne A)
+LOCATION:Campo B Tamai\, Via Giovanni Xxiii 69
+DESCRIPTION:Under 19 regionali — girone A\n30ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-5122e79e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270310T190000
+DTEND;TZID=Europe/Rome:20270310T210000
+SUMMARY:SANGIORGINA – U.FINCANTIERI MONFALCONE (Under 19 regionali — gi
+ rone A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n31ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-130e73d4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270313T173000
+DTEND;TZID=Europe/Rome:20270313T193000
+SUMMARY:NUOVO PORDENONE 2024 FC – SANGIORGINA (Under 19 regionali — gir
+ one A)
+LOCATION:Grizzo Villa D'Arco\, Via Giuseppe Grizzo
+DESCRIPTION:Under 19 regionali — girone A\n32ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-0f6a5a82@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270320T173000
+DTEND;TZID=Europe/Rome:20270320T193000
+SUMMARY:SANGIORGINA – FIUME VENETO -BANNIA (Under 19 regionali — girone
+  A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n33ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-f07fdbd9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270403T173000
+DTEND;TZID=Europe/Rome:20270403T193000
+SUMMARY:REANESE – SANGIORGINA (Under 19 regionali — girone A)
+LOCATION:Comunale A Reana Del Roiale\, Via Stadio 10
+DESCRIPTION:Under 19 regionali — girone A\n34ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-84135656@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270410T173000
+DTEND;TZID=Europe/Rome:20270410T193000
+SUMMARY:SANGIORGINA – OPICINA (Under 19 regionali — girone A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n35ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-b704f096@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270417T173000
+DTEND;TZID=Europe/Rome:20270417T193000
+SUMMARY:PRO FAGAGNA – SANGIORGINA (Under 19 regionali — girone A)
+LOCATION:Comunale B Sintetico Fagagna\, Via Tonutti 20
+DESCRIPTION:Under 19 regionali — girone A\n36ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-92473918@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270424T173000
+DTEND;TZID=Europe/Rome:20270424T193000
+SUMMARY:SANGIORGINA – SAN LUIGI CALCIO (Under 19 regionali — girone A)
+LOCATION:Beppino Tonello Torviscosa\, Via Fornelli Di Sotto 20
+DESCRIPTION:Under 19 regionali — girone A\n37ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-19-regionali-a-d8249b3b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270501T173000
+DTEND;TZID=Europe/Rome:20270501T193000
+SUMMARY:MUGGIA 1967 – SANGIORGINA (Under 19 regionali — girone A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Under 19 regionali — girone A\n38ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+END:VCALENDAR

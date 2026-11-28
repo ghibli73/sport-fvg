@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.Dil. ORA Basket · Under 12 Esordienti femminile 
+ Under 12 — girone TS
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-f-ts-cb14b90a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261203T180000
+DTEND;TZID=Europe/Rome:20261203T200000
+SUMMARY:A.S.Dil. ORA Basket – TIGROTTE (Esordienti femminile Under 12 —
+  girone TS)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Esordienti femminile Under 12 — girone TS\n1ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-f-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-f-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-f-ts-fc54776f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T160000
+DTEND;TZID=Europe/Rome:20261212T180000
+SUMMARY:A.S.Dil. ORA Basket – A.S.D. PALL. INTERCLUB MUGGIA (Esordienti f
+ emminile Under 12 — girone TS)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Esordienti femminile Under 12 — girone TS\n3ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-f-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-f-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-f-ts-205f6dfe@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T160000
+DTEND;TZID=Europe/Rome:20261219T180000
+SUMMARY:S.S.D. FUTUROSA FORNA BASKET T – A.S.Dil. ORA Basket (Esordienti 
+ femminile Under 12 — girone TS)
+LOCATION:Pal. Sc. 'Roli' - Ammesso So\, Trieste
+DESCRIPTION:Esordienti femminile Under 12 — girone TS\n4ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-f-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-f-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-f-ts-75b18810@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T160000
+DTEND;TZID=Europe/Rome:20270109T180000
+SUMMARY:A.S.Dil. ORA Basket – ASD - AKK BOR BASKET (Esordienti femminile 
+ Under 12 — girone TS)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Esordienti femminile Under 12 — girone TS\n5ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-f-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-f-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-f-ts-bbed376f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270115T173000
+DTEND;TZID=Europe/Rome:20270115T193000
+SUMMARY:TIGROTTE – A.S.Dil. ORA Basket (Esordienti femminile Under 12 —
+  girone TS)
+LOCATION:Tensostruttura Liceo 'G. Ober\, Trieste
+DESCRIPTION:Esordienti femminile Under 12 — girone TS\n6ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-f-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-f-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-f-ts-75b8ef03@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T160000
+DTEND;TZID=Europe/Rome:20270130T180000
+SUMMARY:A.S.D. PALL. INTERCLUB MUGGIA – A.S.Dil. ORA Basket (Esordienti f
+ emminile Under 12 — girone TS)
+LOCATION:Palestra Comunale 'G. Pacco'\, Muggia
+DESCRIPTION:Esordienti femminile Under 12 — girone TS\n8ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-f-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-f-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-f-ts-23d19a8a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270206T160000
+DTEND;TZID=Europe/Rome:20270206T180000
+SUMMARY:A.S.Dil. ORA Basket – S.S.D. FUTUROSA FORNA BASKET T (Esordienti 
+ femminile Under 12 — girone TS)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Esordienti femminile Under 12 — girone TS\n9ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-f-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-f-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-f-ts-4fcab7d2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T180000
+DTEND;TZID=Europe/Rome:20270213T200000
+SUMMARY:ASD - AKK BOR BASKET – A.S.Dil. ORA Basket (Esordienti femminile 
+ Under 12 — girone TS)
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Esordienti femminile Under 12 — girone TS\n10ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-esordienti-f-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-f-ts
+END:VEVENT
+END:VCALENDAR

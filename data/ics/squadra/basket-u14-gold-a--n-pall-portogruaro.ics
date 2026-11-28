@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Pall. Portogruaro · Under 14 Under 14 Maschile Gold 
+ — girone A (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-gold-a-83ce2488@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T173000
+DTEND;TZID=Europe/Rome:20261027T193000
+SUMMARY:Pall. Portogruaro 84-28 Vis Spilimbergo (Under 14 Maschile Gold —
+  girone A (prima fase))
+LOCATION:Palazzetto dello Sport\, Portogruaro
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-2cfd965f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T180000
+DTEND;TZID=Europe/Rome:20261107T200000
+SUMMARY:Pall. Interclub Muggia 57-75 Pall. Portogruaro (Under 14 Maschile G
+ old — girone A (prima fase))
+LOCATION:Palestra comunale 'G. Pacco'\, Muggia
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-134e0b17@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T173000
+DTEND;TZID=Europe/Rome:20261110T193000
+SUMMARY:Pall. Portogruaro 48-93 O.F.P. Azzurra R.D.R. Basket Trieste (Under
+  14 Maschile Gold — girone A (prima fase))
+LOCATION:Palazzetto dello Sport\, Portogruaro
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-716d2755@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T163000
+DTEND;TZID=Europe/Rome:20261114T183000
+SUMMARY:Nautilus Allestimenti 44-83 Pall. Portogruaro (Under 14 Maschile Go
+ ld — girone A (prima fase))
+LOCATION:Palestra Polifunzionale\, Ronchi dei Legionari
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-dd1d3709@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261121T160000
+DTEND;TZID=Europe/Rome:20261121T180000
+SUMMARY:Pall. Portogruaro – Udine Basket Club (Under 14 Maschile Gold —
+  girone A (prima fase))
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-87cee134@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261202T190000
+DTEND;TZID=Europe/Rome:20261202T210000
+SUMMARY:Vis Spilimbergo – Pall. Portogruaro (Under 14 Maschile Gold — g
+ irone A (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n6ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-ce1fb083@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261210T180000
+DTEND;TZID=Europe/Rome:20261210T200000
+SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste – Pall. Portogruaro (Under 1
+ 4 Maschile Gold — girone A (prima fase))
+LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n7ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-136ea134@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261212T163000
+DTEND;TZID=Europe/Rome:20261212T183000
+SUMMARY:Pall. Portogruaro – Pall. Interclub Muggia (Under 14 Maschile Gol
+ d — girone A (prima fase))
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n8ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-dbe5b823@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261219T163000
+DTEND;TZID=Europe/Rome:20261219T183000
+SUMMARY:Pall. Portogruaro – Nautilus Allestimenti (Under 14 Maschile Gold
+  — girone A (prima fase))
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n9ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-a-f0c9a905@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T163000
+DTEND;TZID=Europe/Rome:20270109T183000
+SUMMARY:Udine Basket Club – Pall. Portogruaro (Under 14 Maschile Gold —
+  girone A (prima fase))
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone A (prima fase)\n10ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u14-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-a
+END:VEVENT
+END:VCALENDAR

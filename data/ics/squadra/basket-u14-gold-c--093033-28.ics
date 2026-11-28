@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · NUOVO BASKET 2000 · Under 14 Under 14 Maschile Gold 
+ — girone C (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-gold-c-4ff5cf1b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261024T173000
+DTEND;TZID=Europe/Rome:20261024T193000
+SUMMARY:WEB SBaMM 69-47 NUOVO BASKET 2000 (Under 14 Maschile Gold — giron
+ e C (prima fase))
+LOCATION:Palestra Ist. F. Tomadini\, Udine
+DESCRIPTION:Under 14 Maschile Gold — girone C (prima fase)\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-c-8760dbf0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261122T094500
+DTEND;TZID=Europe/Rome:20261122T114500
+SUMMARY:NUOVA PALLACANESTRO SANVITESE – NUOVO BASKET 2000 (Under 14 Masch
+ ile Gold — girone C (prima fase))
+LOCATION:Palasport "Crisafulli"\, Pordenone
+DESCRIPTION:Under 14 Maschile Gold — girone C (prima fase)\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-c-7f4f34ec@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261123T174500
+DTEND;TZID=Europe/Rome:20261123T194500
+SUMMARY:C.M.B. ARCOBALENO TRIESTE 70-71 NUOVO BASKET 2000 (Under 14 Maschil
+ e Gold — girone C (prima fase))
+LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
+DESCRIPTION:Under 14 Maschile Gold — girone C (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-c-e919ecfd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261127T173000
+DTEND;TZID=Europe/Rome:20261127T193000
+SUMMARY:NUOVO BASKET 2000 60-68 WEB SBaMM (Under 14 Maschile Gold — giron
+ e C (prima fase))
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 14 Maschile Gold — girone C (prima fase)\n6ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-c-7887c467@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261219T153000
+DTEND;TZID=Europe/Rome:20261219T173000
+SUMMARY:NUOVO BASKET 2000 – C.M.B. ARCOBALENO TRIESTE (Under 14 Maschile 
+ Gold — girone C (prima fase))
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 14 Maschile Gold — girone C (prima fase)\n9ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-c-f6bba8d4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270110T160000
+DTEND;TZID=Europe/Rome:20270110T180000
+SUMMARY:NUOVA PALLACANESTRO SANVITESE – NUOVO BASKET 2000 (Under 14 Masch
+ ile Gold — girone C (prima fase))
+LOCATION:Casa Della Gioventu'\, San Vito Al Tagliamento
+DESCRIPTION:Under 14 Maschile Gold — girone C (prima fase)\n10ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u14-gold-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-c
+END:VEVENT
+END:VCALENDAR

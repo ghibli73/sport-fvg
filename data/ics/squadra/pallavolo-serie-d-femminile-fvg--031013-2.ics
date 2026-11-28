@@ -1,0 +1,396 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. MORARO VOLLEY · Serie D femminile — girone 
+ unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-98adfa0b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T203000
+DTEND;TZID=Europe/Rome:20261017T223000
+SUMMARY:A.S.D. MORARO VOLLEY 0-3 REVOLUTION SRL Trieste (Serie D femminile 
+ — girone unico)
+LOCATION:Palestra Comunale\, MOSSA GO
+DESCRIPTION:Serie D femminile — girone unico\n1ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-62c0496b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261025T183000
+DTEND;TZID=Europe/Rome:20261025T203000
+SUMMARY:ROJALKENNEDY PRIMACASSA 3-2 A.S.D. MORARO VOLLEY (Serie D femminile
+  — girone unico)
+LOCATION:Palestra Comunale\, Remugnano REANA DEL ROIALE UD
+DESCRIPTION:Serie D femminile — girone unico\n2ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ef6f0606@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA 3-1 A.S.D. MORARO VOLLEY (Serie D femminile
+  — girone unico)
+LOCATION:Palestra Scuole Medie\, ZOPPOLA PN
+DESCRIPTION:Serie D femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ad84bb84@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261105T210000
+DTEND;TZID=Europe/Rome:20261105T230000
+SUMMARY:A.S.D. MORARO VOLLEY 3-0 EUROVOLLEYSCHOOL (Serie D femminile — gi
+ rone unico)
+LOCATION:Palestra Comunale\, Mossa (GO)
+DESCRIPTION:Serie D femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-0449e0b9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:VERO SRL MANIAGO 0-3 A.S.D. MORARO VOLLEY (Serie D femminile — gi
+ rone unico)
+LOCATION:Palazzetto dello Sport\, Montereale Valcellina (PN)
+DESCRIPTION:Serie D femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-0c42656c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:A.S.D. MORARO VOLLEY 3-0 C.U.S. TRIESTE A.S.D. (Serie D femminile 
+ — girone unico)
+LOCATION:Palestra Comunale\, Mossa (GO)
+DESCRIPTION:Serie D femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-7bf8e589@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T183000
+DTEND;TZID=Europe/Rome:20261122T203000
+SUMMARY:IMQ RIZZI UDINE 0-3 A.S.D. MORARO VOLLEY (Serie D femminile — gir
+ one unico)
+LOCATION:Pala IMQ - Palestra Scuole G. B. Tiepolo\, Udine (UD)
+DESCRIPTION:Serie D femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-55ff394b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:A.S.D. MORARO VOLLEY – PALLAVOLO BRUGNERA 96 (Serie D femminile 
+ — girone unico)
+LOCATION:Palestra Comunale\, Via dello Sport 1\, Mossa (GO)
+DESCRIPTION:Serie D femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-4ff09164@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T200000
+DTEND;TZID=Europe/Rome:20261205T220000
+SUMMARY:SOCA LOKANDA DEVETAK ZKB – A.S.D. MORARO VOLLEY (Serie D femminil
+ e — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n9ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-b41417fb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T203000
+DTEND;TZID=Europe/Rome:20261212T223000
+SUMMARY:A.S.D. MORARO VOLLEY – MASCHIO PALLAVOLO BUIA (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n10ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-0e4f6662@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T183000
+DTEND;TZID=Europe/Rome:20261220T203000
+SUMMARY:CLUB AURORA VOLLEY UDINE – A.S.D. MORARO VOLLEY (Serie D femminil
+ e — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n11ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-8e48b5c5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T203000
+DTEND;TZID=Europe/Rome:20270109T223000
+SUMMARY:A.S.D. MORARO VOLLEY – PIZZA D'ORO PAV BRESSA (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n12ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-41aaab67@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270113T200000
+DTEND;TZID=Europe/Rome:20270113T220000
+SUMMARY:CFV - MT ECOSERVICE – A.S.D. MORARO VOLLEY (Serie D femminile —
+  girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n13ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-9b2fe73e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270116T203000
+DTEND;TZID=Europe/Rome:20270116T223000
+SUMMARY:A.S.D. MORARO VOLLEY – FARRAVOLO (Serie D femminile — girone un
+ ico)
+DESCRIPTION:Serie D femminile — girone unico\n14ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ceb1e837@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T200000
+DTEND;TZID=Europe/Rome:20270123T220000
+SUMMARY:ASD PALLAVOLO MOSSA – A.S.D. MORARO VOLLEY (Serie D femminile —
+  girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n15ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-fb9856d6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T203000
+DTEND;TZID=Europe/Rome:20270130T223000
+SUMMARY:REVOLUTION SRL Trieste – A.S.D. MORARO VOLLEY (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n16ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-9f77aa04@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270206T203000
+DTEND;TZID=Europe/Rome:20270206T223000
+SUMMARY:A.S.D. MORARO VOLLEY – ROJALKENNEDY PRIMACASSA (Serie D femminile
+  — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n17ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-93abf663@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T203000
+DTEND;TZID=Europe/Rome:20270213T223000
+SUMMARY:A.S.D. MORARO VOLLEY – GIOIELLI DI MAX ZOPPOLA (Serie D femminile
+  — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n18ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-1d569513@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270217T190000
+DTEND;TZID=Europe/Rome:20270217T210000
+SUMMARY:EUROVOLLEYSCHOOL – A.S.D. MORARO VOLLEY (Serie D femminile — gi
+ rone unico)
+DESCRIPTION:Serie D femminile — girone unico\n19ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-493bb367@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270220T203000
+DTEND;TZID=Europe/Rome:20270220T223000
+SUMMARY:A.S.D. MORARO VOLLEY – VERO SRL MANIAGO (Serie D femminile — gi
+ rone unico)
+DESCRIPTION:Serie D femminile — girone unico\n20ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-e36d5c4d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270227T180000
+DTEND;TZID=Europe/Rome:20270227T200000
+SUMMARY:C.U.S. TRIESTE A.S.D. – A.S.D. MORARO VOLLEY (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n21ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-64a77c28@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270306T203000
+DTEND;TZID=Europe/Rome:20270306T223000
+SUMMARY:A.S.D. MORARO VOLLEY – IMQ RIZZI UDINE (Serie D femminile — gir
+ one unico)
+DESCRIPTION:Serie D femminile — girone unico\n22ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-a1f648ff@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270313T203000
+DTEND;TZID=Europe/Rome:20270313T223000
+SUMMARY:PALLAVOLO BRUGNERA 96 – A.S.D. MORARO VOLLEY (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n23ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-3d113708@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270320T203000
+DTEND;TZID=Europe/Rome:20270320T223000
+SUMMARY:A.S.D. MORARO VOLLEY – SOCA LOKANDA DEVETAK ZKB (Serie D femminil
+ e — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n24ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-cfe8c48e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270403T203000
+DTEND;TZID=Europe/Rome:20270403T223000
+SUMMARY:MASCHIO PALLAVOLO BUIA – A.S.D. MORARO VOLLEY (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n25ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-82332667@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270410T203000
+DTEND;TZID=Europe/Rome:20270410T223000
+SUMMARY:A.S.D. MORARO VOLLEY – CLUB AURORA VOLLEY UDINE (Serie D femminil
+ e — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n26ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-73541236@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270418T193000
+DTEND;TZID=Europe/Rome:20270418T213000
+SUMMARY:PIZZA D'ORO PAV BRESSA – A.S.D. MORARO VOLLEY (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n27ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-f423e404@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270422T210000
+DTEND;TZID=Europe/Rome:20270422T230000
+SUMMARY:A.S.D. MORARO VOLLEY – CFV - MT ECOSERVICE (Serie D femminile —
+  girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n28ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-c2f7159d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270424T203000
+DTEND;TZID=Europe/Rome:20270424T223000
+SUMMARY:FARRAVOLO – A.S.D. MORARO VOLLEY (Serie D femminile — girone un
+ ico)
+DESCRIPTION:Serie D femminile — girone unico\n29ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ba624b65@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270501T180000
+DTEND;TZID=Europe/Rome:20270501T200000
+SUMMARY:A.S.D. MORARO VOLLEY – ASD PALLAVOLO MOSSA (Serie D femminile —
+  girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n30ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+END:VCALENDAR

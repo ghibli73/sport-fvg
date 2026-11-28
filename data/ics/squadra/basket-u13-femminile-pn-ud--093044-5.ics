@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · WIS 1963 WOMAN SPILIMBERGO · Under 13 Under 13 Femmi
+ nile — girone PN/UD (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-c0980abd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261024T163000
+DTEND;TZID=Europe/Rome:20261024T183000
+SUMMARY:POZZUOLO BASKET 77-30 WIS 1963 WOMAN SPILIMBERGO (Under 13 Femminil
+ e — girone PN/UD (prima fase))
+LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-6ff51335@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T173000
+DTEND;TZID=Europe/Rome:20261108T193000
+SUMMARY:WIS 1963 WOMAN SPILIMBERGO 31-66 SISTEMA ROSA PALL. (Under 13 Femmi
+ nile — girone PN/UD (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-902aed0c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T153000
+DTEND;TZID=Europe/Rome:20261115T173000
+SUMMARY:POL. LIBERTAS ACLI 58-22 WIS 1963 WOMAN SPILIMBERGO (Under 13 Femmi
+ nile — girone PN/UD (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-e0b809d9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261122T150000
+DTEND;TZID=Europe/Rome:20261122T170000
+SUMMARY:WIS 1963 WOMAN SPILIMBERGO 42-70 POL. CASARSA (Under 13 Femminile 
+ — girone PN/UD (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-3053e4b5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261128T150000
+DTEND;TZID=Europe/Rome:20261128T170000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO – WIS 1963 WOMAN SPILIMBERGO (Under 13 
+ Femminile — girone PN/UD (prima fase))
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n6ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-5f0774dd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261203T183000
+DTEND;TZID=Europe/Rome:20261203T203000
+SUMMARY:APU NEXT GEN – WIS 1963 WOMAN SPILIMBERGO (Under 13 Femminile —
+  girone PN/UD (prima fase))
+LOCATION:Palestra Sc. 'Marconi'\, Udine
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n7ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-7300087c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261213T103000
+DTEND;TZID=Europe/Rome:20261213T123000
+SUMMARY:WIS 1963 WOMAN SPILIMBERGO – POZZUOLO BASKET (Under 13 Femminile 
+ — girone PN/UD (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n8ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-59a87dcf@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T190000
+DTEND;TZID=Europe/Rome:20270109T210000
+SUMMARY:SISTEMA ROSA PALL. – WIS 1963 WOMAN SPILIMBERGO (Under 13 Femmini
+ le — girone PN/UD (prima fase))
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n10ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-15b4bbfd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T150000
+DTEND;TZID=Europe/Rome:20270117T170000
+SUMMARY:WIS 1963 WOMAN SPILIMBERGO – POL. LIBERTAS ACLI (Under 13 Femmini
+ le — girone PN/UD (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n11ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-a3d4734a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270124T153000
+DTEND;TZID=Europe/Rome:20270124T173000
+SUMMARY:POL. CASARSA – WIS 1963 WOMAN SPILIMBERGO (Under 13 Femminile —
+  girone PN/UD (prima fase))
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n12ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-dfdd72c7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T150000
+DTEND;TZID=Europe/Rome:20270131T170000
+SUMMARY:WIS 1963 WOMAN SPILIMBERGO – POL. LIBERTAS CUSSIGNACCO (Under 13 
+ Femminile — girone PN/UD (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n13ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-0a722911@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270207T150000
+DTEND;TZID=Europe/Rome:20270207T170000
+SUMMARY:WIS 1963 WOMAN SPILIMBERGO – APU NEXT GEN (Under 13 Femminile —
+  girone PN/UD (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n14ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+END:VCALENDAR

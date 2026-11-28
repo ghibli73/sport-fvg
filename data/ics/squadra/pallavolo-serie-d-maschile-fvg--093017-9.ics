@@ -1,0 +1,252 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PIERA1899 VINI DEL FRIULI · Serie D maschile — gir
+ one unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-601adb7c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T190000
+DTEND;TZID=Europe/Rome:20261017T210000
+SUMMARY:PIERA1899 VINI DEL FRIULI 0-3 SPORTING CLUB (Serie D maschile — g
+ irone unico)
+LOCATION:Palestra Scuola Media Da Vinci\, CORDENONS PN
+DESCRIPTION:Serie D maschile — girone unico\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-472e4320@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261024T190000
+DTEND;TZID=Europe/Rome:20261024T210000
+SUMMARY:FOX VOLLEY NOVASEI 3-0 PIERA1899 VINI DEL FRIULI (Serie D maschile 
+ — girone unico)
+LOCATION:Palestra Scuole\, Fagnigola AZZANO DECIMO PN
+DESCRIPTION:Serie D maschile — girone unico\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-82f4e393@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T193000
+DTEND;TZID=Europe/Rome:20261031T213000
+SUMMARY:ASDMUZZANAVOLLEY 3-2 PIERA1899 VINI DEL FRIULI (Serie D maschile 
+ — girone unico)
+LOCATION:Palestra Comunale\, MUZZANA DEL TURGNANO UD
+DESCRIPTION:Serie D maschile — girone unico\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-52f7daad@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261103T203000
+DTEND;TZID=Europe/Rome:20261103T223000
+SUMMARY:PIERA1899 VINI DEL FRIULI 0-3 CREDIFRIULI ROJALESE (Serie D maschil
+ e — girone unico)
+LOCATION:Palestra Scuola Media Da Vinci\, Cordenons (PN)
+DESCRIPTION:Serie D maschile — girone unico\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-97742793@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T173000
+DTEND;TZID=Europe/Rome:20261107T193000
+SUMMARY:VPA BANCA360 FVG 3-0 PIERA1899 VINI DEL FRIULI (Serie D maschile 
+ — girone unico)
+LOCATION:PalaPrata\, Prata di Pordenone (PN)
+DESCRIPTION:Serie D maschile — girone unico\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-2ae920c1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T190000
+DTEND;TZID=Europe/Rome:20261114T210000
+SUMMARY:PIERA1899 VINI DEL FRIULI 1-3 CASSA RURALE FVG (Serie D maschile 
+ — girone unico)
+LOCATION:Palestra Scuola Media Da Vinci\, Cordenons (PN)
+DESCRIPTION:Serie D maschile — girone unico\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-1003a1dd@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T203000
+DTEND;TZID=Europe/Rome:20261121T223000
+SUMMARY:PALLAVOLO ALTURA 3-1 PIERA1899 VINI DEL FRIULI (Serie D maschile 
+ — girone unico)
+LOCATION:Palestra Scuola Elementare Don Milani\, Trieste (TS)
+DESCRIPTION:Serie D maschile — girone unico\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-75210955@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T190000
+DTEND;TZID=Europe/Rome:20261128T210000
+SUMMARY:PIERA1899 VINI DEL FRIULI – SLOVOLLEY STUDIO VEGLIACH (Serie D ma
+ schile — girone unico)
+LOCATION:Palestra Scuola Media Da Vinci\, Via Mazzini 88\, Cordenons (PN)
+DESCRIPTION:Serie D maschile — girone unico\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-84d8271b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T203000
+DTEND;TZID=Europe/Rome:20261205T223000
+SUMMARY:A.P. TRAVESIO – PIERA1899 VINI DEL FRIULI (Serie D maschile — g
+ irone unico)
+DESCRIPTION:Serie D maschile — girone unico\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-0364911e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T203000
+DTEND;TZID=Europe/Rome:20261212T223000
+SUMMARY:SPORTING CLUB – PIERA1899 VINI DEL FRIULI (Serie D maschile — g
+ irone unico)
+DESCRIPTION:Serie D maschile — girone unico\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-05ae4d4d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T190000
+DTEND;TZID=Europe/Rome:20261219T210000
+SUMMARY:PIERA1899 VINI DEL FRIULI – FOX VOLLEY NOVASEI (Serie D maschile 
+ — girone unico)
+DESCRIPTION:Serie D maschile — girone unico\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-bd8f1ffb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T200000
+DTEND;TZID=Europe/Rome:20270109T220000
+SUMMARY:PIERA1899 VINI DEL FRIULI – ASDMUZZANAVOLLEY (Serie D maschile 
+ — girone unico)
+DESCRIPTION:Serie D maschile — girone unico\n12ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-a5ee5e32@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270112T203000
+DTEND;TZID=Europe/Rome:20270112T223000
+SUMMARY:CREDIFRIULI ROJALESE – PIERA1899 VINI DEL FRIULI (Serie D maschil
+ e — girone unico)
+DESCRIPTION:Serie D maschile — girone unico\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-6d4cf970@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270116T203000
+DTEND;TZID=Europe/Rome:20270116T223000
+SUMMARY:PIERA1899 VINI DEL FRIULI – VPA BANCA360 FVG (Serie D maschile 
+ — girone unico)
+DESCRIPTION:Serie D maschile — girone unico\n14ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-b68c8130@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T173000
+DTEND;TZID=Europe/Rome:20270123T193000
+SUMMARY:CASSA RURALE FVG – PIERA1899 VINI DEL FRIULI (Serie D maschile 
+ — girone unico)
+DESCRIPTION:Serie D maschile — girone unico\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-fb412fea@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T190000
+DTEND;TZID=Europe/Rome:20270130T210000
+SUMMARY:PIERA1899 VINI DEL FRIULI – PALLAVOLO ALTURA (Serie D maschile 
+ — girone unico)
+DESCRIPTION:Serie D maschile — girone unico\n16ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-469fa657@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270204T203000
+DTEND;TZID=Europe/Rome:20270204T223000
+SUMMARY:SLOVOLLEY STUDIO VEGLIACH – PIERA1899 VINI DEL FRIULI (Serie D ma
+ schile — girone unico)
+DESCRIPTION:Serie D maschile — girone unico\n17ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-b4297262@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T173000
+DTEND;TZID=Europe/Rome:20270213T193000
+SUMMARY:PIERA1899 VINI DEL FRIULI – A.P. TRAVESIO (Serie D maschile — g
+ irone unico)
+DESCRIPTION:Serie D maschile — girone unico\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+END:VCALENDAR

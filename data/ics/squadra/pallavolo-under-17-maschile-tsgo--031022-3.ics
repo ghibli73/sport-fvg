@@ -1,0 +1,160 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · SOCASLOVOLLEY ZKB TORREF · Under 17 Under 17 maschil
+ e CT Trieste-Gorizia — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-tsgo-017da8f4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261119T183000
+DTEND;TZID=Europe/Rome:20261119T203000
+SUMMARY:SOCASLOVOLLEY ZKB TORREF 3-0 SLOVOLLEY VAL GORIZIANA (Under 17 masc
+ hile CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Comunale\, DOBERDO' DEL LAGO GO
+DESCRIPTION:Under 17 maschile CT Trieste-Gorizia — girone unico\n1ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-17-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-tsgo-a3a7e071@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:TRE MERLI VOLLEY – SOCASLOVOLLEY ZKB TORREF (Under 17 maschile CT
+  Trieste-Gorizia — girone unico)
+LOCATION:Palestra San Giovanni campo 2\, Via San Cilino 99\, TRIESTE TS
+DESCRIPTION:Under 17 maschile CT Trieste-Gorizia — girone unico\n2ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-17-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-tsgo-0cca3f57@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261202T190000
+DTEND;TZID=Europe/Rome:20261202T210000
+SUMMARY:GRUPPO DIMORE FINCANTIERI – SOCASLOVOLLEY ZKB TORREF (Under 17 ma
+ schile CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Under 17 maschile CT Trieste-Gorizia — girone unico\n3ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-17-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-tsgo-6c44ee1f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261210T183000
+DTEND;TZID=Europe/Rome:20261210T203000
+SUMMARY:SOCASLOVOLLEY ZKB TORREF – ROSSO VOLLEYCLUB TRIESTE (Under 17 mas
+ chile CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Under 17 maschile CT Trieste-Gorizia — girone unico\n4ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-17-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-tsgo-c7059430@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261217T183000
+DTEND;TZID=Europe/Rome:20261217T203000
+SUMMARY:SOCASLOVOLLEY ZKB TORREF – INTREPIDA (Under 17 maschile CT Triest
+ e-Gorizia — girone unico)
+DESCRIPTION:Under 17 maschile CT Trieste-Gorizia — girone unico\n5ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-17-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-tsgo-605b32fa@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270108T200000
+DTEND;TZID=Europe/Rome:20270108T220000
+SUMMARY:SLOVOLLEY VAL GORIZIANA – SOCASLOVOLLEY ZKB TORREF (Under 17 masc
+ hile CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Under 17 maschile CT Trieste-Gorizia — girone unico\n6ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-17-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-tsgo-c87e5434@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270114T183000
+DTEND;TZID=Europe/Rome:20270114T203000
+SUMMARY:SOCASLOVOLLEY ZKB TORREF – TRE MERLI VOLLEY (Under 17 maschile CT
+  Trieste-Gorizia — girone unico)
+DESCRIPTION:Under 17 maschile CT Trieste-Gorizia — girone unico\n7ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-17-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-tsgo-98ff0d88@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270121T183000
+DTEND;TZID=Europe/Rome:20270121T203000
+SUMMARY:SOCASLOVOLLEY ZKB TORREF – GRUPPO DIMORE FINCANTIERI (Under 17 ma
+ schile CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Under 17 maschile CT Trieste-Gorizia — girone unico\n8ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-17-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-tsgo-1e4ee74a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270131T170000
+DTEND;TZID=Europe/Rome:20270131T190000
+SUMMARY:ROSSO VOLLEYCLUB TRIESTE – SOCASLOVOLLEY ZKB TORREF (Under 17 mas
+ chile CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Under 17 maschile CT Trieste-Gorizia — girone unico\n9ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-pallavolo-under-17-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-tsg
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-tsgo-c81d3791@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270212T180000
+DTEND;TZID=Europe/Rome:20270212T200000
+SUMMARY:INTREPIDA – SOCASLOVOLLEY ZKB TORREF (Under 17 maschile CT Triest
+ e-Gorizia — girone unico)
+DESCRIPTION:Under 17 maschile CT Trieste-Gorizia — girone unico\n10ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-17-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-tsg
+ o
+END:VEVENT
+END:VCALENDAR

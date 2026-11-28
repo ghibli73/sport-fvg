@@ -1,0 +1,373 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · COLLI VOLLEY · Prima Divisione femminile CT Udine 
+ — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-17298dc6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261018T180000
+DTEND;TZID=Europe/Rome:20261018T200000
+SUMMARY:COLLI VOLLEY 0-3 ASD KENNEDY ADEGLIACCO (Prima Divisione femminile 
+ CT Udine — girone unico)
+LOCATION:Palasport\, TRICESIMO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n1ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-bc6139b8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261025T180000
+DTEND;TZID=Europe/Rome:20261025T200000
+SUMMARY:COLLI VOLLEY 3-1 LEGNOLANDIA VAL-BUT (Prima Divisione femminile CT 
+ Udine — girone unico)
+LOCATION:Palasport\, TRICESIMO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n2ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-48d25049@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:VOLLEY BALL CARNIA 3-2 COLLI VOLLEY (Prima Divisione femminile CT U
+ dine — girone unico)
+LOCATION:Palestra Falcone\, TOLMEZZO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n3ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-d73796be@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:COLLI VOLLEY 3-1 FTV RIZZI UDINE (Prima Divisione femminile CT Udin
+ e — girone unico)
+LOCATION:Palasport\, TRICESIMO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n4ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-640337d8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261117T210000
+DTEND;TZID=Europe/Rome:20261117T230000
+SUMMARY:ASDMUZZANAVOLLEY 3-1 COLLI VOLLEY (Prima Divisione femminile CT Udi
+ ne — girone unico)
+LOCATION:Palestra Comunale\, MUZZANA DEL TURGNANO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n5ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-8d6aa012@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T180000
+DTEND;TZID=Europe/Rome:20261121T200000
+SUMMARY:LIBERTAS MARTIGNACCO 3-0 COLLI VOLLEY (Prima Divisione femminile CT
+  Udine — girone unico)
+LOCATION:Palazzetto dello Sport Azzurri d'Italia\, MARTIGNACCO UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n6ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-b6e53443@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:FACTORY VOLLEY FAEDIS – COLLI VOLLEY (Prima Divisione femminile C
+ T Udine — girone unico)
+LOCATION:Palestra Castellterçol\, via Polisportivo\, FAEDIS UD
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n7ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-ceaaa226@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:COLLI VOLLEY – LIBERTAS GONARS (Prima Divisione femminile CT Udin
+ e — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n8ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-7c845b22@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T180000
+DTEND;TZID=Europe/Rome:20261213T200000
+SUMMARY:COLLI VOLLEY – ART_CENTO VOLLEY (Prima Divisione femminile CT Udi
+ ne — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n10ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-5ff9ee85@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261218T203000
+DTEND;TZID=Europe/Rome:20261218T223000
+SUMMARY:VILLADIES SAFE MARINE – COLLI VOLLEY (Prima Divisione femminile C
+ T Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n11ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-46593dba@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270108T203000
+DTEND;TZID=Europe/Rome:20270108T223000
+SUMMARY:CHEI DE VILE – COLLI VOLLEY (Prima Divisione femminile CT Udine 
+ — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n12ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-fb8a9a5e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T170000
+DTEND;TZID=Europe/Rome:20270110T190000
+SUMMARY:FVG VOLLEY ACADEMY – COLLI VOLLEY (Prima Divisione femminile CT U
+ dine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n9ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-494ae842@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T180000
+DTEND;TZID=Europe/Rome:20270117T200000
+SUMMARY:COLLI VOLLEY – A.S.D. STELLA VOLLEY (Prima Divisione femminile CT
+  Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n13ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-270a696c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T210000
+DTEND;TZID=Europe/Rome:20270123T230000
+SUMMARY:ASD KENNEDY ADEGLIACCO – COLLI VOLLEY (Prima Divisione femminile 
+ CT Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n14ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-b96b06f3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270129T210000
+DTEND;TZID=Europe/Rome:20270129T230000
+SUMMARY:LEGNOLANDIA VAL-BUT – COLLI VOLLEY (Prima Divisione femminile CT 
+ Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n15ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-dc694fc4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270207T180000
+DTEND;TZID=Europe/Rome:20270207T200000
+SUMMARY:COLLI VOLLEY – VOLLEY BALL CARNIA (Prima Divisione femminile CT U
+ dine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n16ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-a353543d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270214T180000
+DTEND;TZID=Europe/Rome:20270214T200000
+SUMMARY:FTV RIZZI UDINE – COLLI VOLLEY (Prima Divisione femminile CT Udin
+ e — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n17ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-7dd78b17@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270221T180000
+DTEND;TZID=Europe/Rome:20270221T200000
+SUMMARY:COLLI VOLLEY – ASDMUZZANAVOLLEY (Prima Divisione femminile CT Udi
+ ne — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n18ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-64cd8df7@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270228T180000
+DTEND;TZID=Europe/Rome:20270228T200000
+SUMMARY:COLLI VOLLEY – LIBERTAS MARTIGNACCO (Prima Divisione femminile CT
+  Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n19ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-6450d187@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270307T180000
+DTEND;TZID=Europe/Rome:20270307T200000
+SUMMARY:COLLI VOLLEY – FACTORY VOLLEY FAEDIS (Prima Divisione femminile C
+ T Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n20ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-34966a0e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270312T210000
+DTEND;TZID=Europe/Rome:20270312T230000
+SUMMARY:LIBERTAS GONARS – COLLI VOLLEY (Prima Divisione femminile CT Udin
+ e — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n21ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-266e45e0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270321T180000
+DTEND;TZID=Europe/Rome:20270321T200000
+SUMMARY:COLLI VOLLEY – FVG VOLLEY ACADEMY (Prima Divisione femminile CT U
+ dine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n22ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-ee99ab3b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270403T200000
+DTEND;TZID=Europe/Rome:20270403T220000
+SUMMARY:ART_CENTO VOLLEY – COLLI VOLLEY (Prima Divisione femminile CT Udi
+ ne — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n23ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-f07c38da@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270411T180000
+DTEND;TZID=Europe/Rome:20270411T200000
+SUMMARY:COLLI VOLLEY – VILLADIES SAFE MARINE (Prima Divisione femminile C
+ T Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n24ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-3b55de6b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270418T180000
+DTEND;TZID=Europe/Rome:20270418T200000
+SUMMARY:COLLI VOLLEY – CHEI DE VILE (Prima Divisione femminile CT Udine 
+ — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n25ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-femminile-ud-26606291@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270507T203000
+DTEND;TZID=Europe/Rome:20270507T223000
+SUMMARY:A.S.D. STELLA VOLLEY – COLLI VOLLEY (Prima Divisione femminile CT
+  Udine — girone unico)
+DESCRIPTION:Prima Divisione femminile CT Udine — girone unico\n26ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-pallavolo-prima-divisione-femminile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-femmi
+ nile-ud
+END:VEVENT
+END:VCALENDAR

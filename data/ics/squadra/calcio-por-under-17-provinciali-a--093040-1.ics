@@ -1,0 +1,129 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · SAN QUIRINO · Under 17 Under 17 provinciali — giro
+ ne A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-por-under-17-provinciali-a-85860675@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:POLISPORTIVA TAMAI 16-0 SAN QUIRINO (Under 17 provinciali — giron
+ e A)
+DESCRIPTION:Under 17 provinciali — girone A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-17-provinciali-a-8072e649@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:SAN QUIRINO 0-16 CORDENONESE 3 S (Under 17 provinciali — girone A
+ )
+DESCRIPTION:Under 17 provinciali — girone A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-17-provinciali-a-50794382@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:SPAL CORDOVADO Sq. B 16-0 SAN QUIRINO (Under 17 provinciali — gir
+ one A)
+DESCRIPTION:Under 17 provinciali — girone A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-17-provinciali-a-c7df5e4e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:SAN QUIRINO 1-15 CALCIO BANNIA (Under 17 provinciali — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-17-provinciali-a-a4040d37@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:TORRE 12-0 SAN QUIRINO (Under 17 provinciali — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-17-provinciali-a-406eacf3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:SAN QUIRINO 0-18 POLISPORTIVA CODROIPO (Under 17 provinciali — gi
+ rone A)
+DESCRIPTION:Under 17 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-17-provinciali-a-7609a8ea@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:SACILESE 17-0 SAN QUIRINO (Under 17 provinciali — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-17-provinciali-a-b0885968@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:CALCIO MANIAGO VAJONT 9-0 SAN QUIRINO (Under 17 provinciali — gir
+ one A)
+DESCRIPTION:Under 17 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
+ -a
+END:VEVENT
+END:VCALENDAR

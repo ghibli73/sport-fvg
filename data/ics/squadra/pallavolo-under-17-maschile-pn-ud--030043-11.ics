@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · GEMONA LA PERLA · Under 17 Under 17 maschile interte
+ rritoriale PN-UD — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-be6321b5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261115T150000
+DTEND;TZID=Europe/Rome:20261115T170000
+SUMMARY:GEMONA LA PERLA 3-0 VPA MCZ (Under 17 maschile interterritoriale PN
+ -UD — girone unico)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n2ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-bf3d0dfc@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T150000
+DTEND;TZID=Europe/Rome:20261122T170000
+SUMMARY:ASD KENNEDY ADEGLIACCO 0-3 GEMONA LA PERLA (Under 17 maschile inter
+ territoriale PN-UD — girone unico)
+LOCATION:Palestra Comunale\, Cavalicco TAVAGNACCO UD
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n3ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-b5fd965c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T190000
+DTEND;TZID=Europe/Rome:20261129T210000
+SUMMARY:GEMONA LA PERLA – FUTURA DREAM FIT (Under 17 maschile interterrit
+ oriale PN-UD — girone unico)
+LOCATION:Palestra Comun. Porcians\, Via Liguria\, ARTEGNA UD
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n4ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-139392e1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261206T150000
+DTEND;TZID=Europe/Rome:20261206T170000
+SUMMARY:PASIAN DI PRATO AZZURRA – GEMONA LA PERLA (Under 17 maschile inte
+ rterritoriale PN-UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n5ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-848ce6c0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T113000
+DTEND;TZID=Europe/Rome:20261213T133000
+SUMMARY:GEMONA LA PERLA – VPA BANCA360 (Under 17 maschile interterritoria
+ le PN-UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n6ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-68b02e7f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270124T093000
+DTEND;TZID=Europe/Rome:20270124T113000
+SUMMARY:GEMONA LA PERLA – ASD KENNEDY ADEGLIACCO (Under 17 maschile inter
+ territoriale PN-UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n10
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-67773467@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270126T200000
+DTEND;TZID=Europe/Rome:20270126T220000
+SUMMARY:FUTURA DREAM FIT – GEMONA LA PERLA (Under 17 maschile interterrit
+ oriale PN-UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n11
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-cf1de170@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270207T110000
+DTEND;TZID=Europe/Rome:20270207T130000
+SUMMARY:GEMONA LA PERLA – PASIAN DI PRATO AZZURRA (Under 17 maschile inte
+ rterritoriale PN-UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n12
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-e8e96047@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270210T203000
+DTEND;TZID=Europe/Rome:20270210T223000
+SUMMARY:VPA BANCA360 – GEMONA LA PERLA (Under 17 maschile interterritoria
+ le PN-UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n13
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-17-maschile-pn-ud-fb2ef5e5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270218T203000
+DTEND;TZID=Europe/Rome:20270218T223000
+SUMMARY:VPA MCZ – GEMONA LA PERLA (Under 17 maschile interterritoriale PN
+ -UD — girone unico)
+DESCRIPTION:Under 17 maschile interterritoriale PN-UD — girone unico\n9ª
+  giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gi
+ thub.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-17-maschile-pn-
+ ud
+END:VEVENT
+END:VCALENDAR

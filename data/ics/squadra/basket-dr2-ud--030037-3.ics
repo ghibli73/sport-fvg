@@ -1,0 +1,260 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Collinare Basket · Divisione Regionale 2 — girone 
+ UD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr2-ud-8fe3c1f9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261016T204500
+DTEND;TZID=Europe/Rome:20261016T224500
+SUMMARY:Udine Basket Club 77-57 Collinare Basket (Divisione Regionale 2 —
+  girone UD)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-0c596e6f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261023T204500
+DTEND;TZID=Europe/Rome:20261023T224500
+SUMMARY:Collinare Basket 45-66 Basket Perteole (Divisione Regionale 2 — g
+ irone UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Divisione Regionale 2 — girone UD\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-60ab1a65@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261030T204500
+DTEND;TZID=Europe/Rome:20261030T224500
+SUMMARY:Danieli Sporting Club 87-85 Collinare Basket (Divisione Regionale 2
+  — girone UD)
+LOCATION:Palestra 'Buttrio'\, Buttrio
+DESCRIPTION:Divisione Regionale 2 — girone UD\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-1b324b36@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261106T204500
+DTEND;TZID=Europe/Rome:20261106T224500
+SUMMARY:Collinare Basket 74-67 P.A.F. (Divisione Regionale 2 — girone UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Divisione Regionale 2 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-953683fd@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261111T210000
+DTEND;TZID=Europe/Rome:20261111T230000
+SUMMARY:Pall. Laipacco 53-60 Collinare Basket (Divisione Regionale 2 — gi
+ rone UD)
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-56ba901c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T213000
+DTEND;TZID=Europe/Rome:20261120T233000
+SUMMARY:Pol. Libertas Cussignacco 65-73 Collinare Basket (Divisione Regiona
+ le 2 — girone UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-b0e38c27@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T204500
+DTEND;TZID=Europe/Rome:20261127T224500
+SUMMARY:Collinare Basket 67-75 Olympia Rivignano (Divisione Regionale 2 —
+  girone UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Divisione Regionale 2 — girone UD\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-f5e62b6b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261218T203000
+DTEND;TZID=Europe/Rome:20261218T223000
+SUMMARY:Longobardi – Collinare Basket (Divisione Regionale 2 — girone U
+ D)
+LOCATION:Pal. Com. Martiri Liberta'\, Cividale Del Friuli
+DESCRIPTION:Divisione Regionale 2 — girone UD\n10ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-bfb8175c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270115T204500
+DTEND;TZID=Europe/Rome:20270115T224500
+SUMMARY:Collinare Basket – Udine Basket Club (Divisione Regionale 2 — g
+ irone UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Divisione Regionale 2 — girone UD\n12ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-b774ce79@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270123T200000
+DTEND;TZID=Europe/Rome:20270123T220000
+SUMMARY:Basket Perteole – Collinare Basket (Divisione Regionale 2 — gir
+ one UD)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Divisione Regionale 2 — girone UD\n13ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-34665ac9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270129T204500
+DTEND;TZID=Europe/Rome:20270129T224500
+SUMMARY:Collinare Basket – Danieli Sporting Club (Divisione Regionale 2 
+ — girone UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Divisione Regionale 2 — girone UD\n14ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-97e157c2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270206T203000
+DTEND;TZID=Europe/Rome:20270206T223000
+SUMMARY:P.A.F. – Collinare Basket (Divisione Regionale 2 — girone UD)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Divisione Regionale 2 — girone UD\n15ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-247203cf@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270212T204500
+DTEND;TZID=Europe/Rome:20270212T224500
+SUMMARY:Collinare Basket – Pall. Laipacco (Divisione Regionale 2 — giro
+ ne UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Divisione Regionale 2 — girone UD\n16ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-f2d17017@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270219T204500
+DTEND;TZID=Europe/Rome:20270219T224500
+SUMMARY:Collinare Basket – Pol. Libertas Cussignacco (Divisione Regionale
+  2 — girone UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Divisione Regionale 2 — girone UD\n17ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-13c31ab6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270227T183000
+DTEND;TZID=Europe/Rome:20270227T203000
+SUMMARY:Olympia Rivignano – Collinare Basket (Divisione Regionale 2 — g
+ irone UD)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Divisione Regionale 2 — girone UD\n18ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-d1ebc021@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270305T204500
+DTEND;TZID=Europe/Rome:20270305T224500
+SUMMARY:Collinare Basket – S.I.L. Pallacanestro Lignano (Divisione Region
+ ale 2 — girone UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Divisione Regionale 2 — girone UD\n19ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-bf1c28f5@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270319T204500
+DTEND;TZID=Europe/Rome:20270319T224500
+SUMMARY:Collinare Basket – Longobardi (Divisione Regionale 2 — girone U
+ D)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Divisione Regionale 2 — girone UD\n21ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-9e8c8da1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270325T210000
+DTEND;TZID=Europe/Rome:20270325T230000
+SUMMARY:C.U.S. Udine – Collinare Basket (Divisione Regionale 2 — girone
+  UD)
+LOCATION:Palazzetto 'Angelo G. Giumanin\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n22ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+END:VCALENDAR

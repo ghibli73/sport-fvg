@@ -1,0 +1,428 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · DEPORTIVO JUNIOR · Promozione — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-promozione-a-fee397c7@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:ANCONA LUMIGNACCO 0-0 DEPORTIVO JUNIOR (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n1ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-5e07ada5@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:DEPORTIVO JUNIOR 2-1 CORVA (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n2ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-f4d13a5c@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:BUJESE CALCIO 2-2 DEPORTIVO JUNIOR (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n3ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-700809c5@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:DEPORTIVO JUNIOR 3-0 UNION MARTIGNACCO (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n4ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-840fbd6e@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:SANT ANDREA SAN VITO 1-0 DEPORTIVO JUNIOR (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n5ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-f4095ffb@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:DEPORTIVO JUNIOR 2-1 PRO CERVIGNANO RUDA (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n6ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-1010cc3e@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:CORNO CALCIO 1929 0-2 DEPORTIVO JUNIOR (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n7ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-4805e88c@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:UNION PASIANO 5-2 DEPORTIVO JUNIOR (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n8ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-482712ad@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:DEPORTIVO JUNIOR 0-1 RIVE D ARCANO FLAIBANO (Promozione — girone 
+ A)
+DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
+ one-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-0a6151db@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:TRICESIMO CALCIO 0-2 DEPORTIVO JUNIOR (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n10ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-8417ce35@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:DEPORTIVO JUNIOR 0-2 CUSSIGNACCO CALCIO (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n11ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-feb627f9@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:TRIESTE VICTORY ACADEMY 2-0 DEPORTIVO JUNIOR (Promozione — girone
+  A)
+DESCRIPTION:Promozione — girone A\n12ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-c1bff20b@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261129T143000
+DTEND;TZID=Europe/Rome:20261129T163000
+SUMMARY:DEPORTIVO JUNIOR – FIUME VENETO -BANNIA (Promozione — girone A)
+LOCATION:Tavagnacco Stadium Tavagnacco\, Via Tolmezzo
+DESCRIPTION:Promozione — girone A\n13ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-a726a660@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261205T143000
+DTEND;TZID=Europe/Rome:20261205T163000
+SUMMARY:CENTRO SEDIA CALCIO NAT – DEPORTIVO JUNIOR (Promozione — girone
+  A)
+DESCRIPTION:Promozione — girone A\n14ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-db8dc039@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261208T143000
+DTEND;TZID=Europe/Rome:20261208T163000
+SUMMARY:DEPORTIVO JUNIOR – FIUMICELLO 2004 (Promozione — girone A)
+LOCATION:Tavagnacco Stadium Tavagnacco\, Via Tolmezzo
+DESCRIPTION:Promozione — girone A\n15ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-f4aaaeed@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261213T143000
+DTEND;TZID=Europe/Rome:20261213T163000
+SUMMARY:MARANESE – DEPORTIVO JUNIOR (Promozione — girone A)
+LOCATION:Comunale Marano Lagunare\, Via Lignano 8
+DESCRIPTION:Promozione — girone A\n16ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-4378b9bc@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261220T143000
+DTEND;TZID=Europe/Rome:20261220T163000
+SUMMARY:DEPORTIVO JUNIOR – SISTIANA SESLJAN (Promozione — girone A)
+LOCATION:Tavagnacco Stadium Tavagnacco\, Via Tolmezzo
+DESCRIPTION:Promozione — girone A\n17ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-b7862467@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270110T143000
+DTEND;TZID=Europe/Rome:20270110T163000
+SUMMARY:DEPORTIVO JUNIOR – ANCONA LUMIGNACCO (Promozione — girone A)
+LOCATION:Tavagnacco Stadium Tavagnacco\, Via Tolmezzo
+DESCRIPTION:Promozione — girone A\n18ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-9daee1f9@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270117T143000
+DTEND;TZID=Europe/Rome:20270117T163000
+SUMMARY:CORVA – DEPORTIVO JUNIOR (Promozione — girone A)
+LOCATION:Bruno Nicole' Corva Di Azzano Decimo\, Via Tonin 10
+DESCRIPTION:Promozione — girone A\n19ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-2ab8365f@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270124T143000
+DTEND;TZID=Europe/Rome:20270124T163000
+SUMMARY:DEPORTIVO JUNIOR – BUJESE CALCIO (Promozione — girone A)
+LOCATION:Tavagnacco Stadium Tavagnacco\, Via Tolmezzo
+DESCRIPTION:Promozione — girone A\n20ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-b984dba8@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270131T143000
+DTEND;TZID=Europe/Rome:20270131T163000
+SUMMARY:UNION MARTIGNACCO – DEPORTIVO JUNIOR (Promozione — girone A)
+LOCATION:Centrale Martignacco\, Via S.Biagio 59
+DESCRIPTION:Promozione — girone A\n21ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-84fc4c09@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270207T143000
+DTEND;TZID=Europe/Rome:20270207T163000
+SUMMARY:DEPORTIVO JUNIOR – SANT ANDREA SAN VITO (Promozione — girone A)
+LOCATION:Tavagnacco Stadium Tavagnacco\, Via Tolmezzo
+DESCRIPTION:Promozione — girone A\n22ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-ed2dbcaa@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270214T143000
+DTEND;TZID=Europe/Rome:20270214T163000
+SUMMARY:PRO CERVIGNANO RUDA – DEPORTIVO JUNIOR (Promozione — girone A)
+LOCATION:Sergio Michelutti Ruda\, Via Udine 50
+DESCRIPTION:Promozione — girone A\n23ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-cc1961b5@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270221T143000
+DTEND;TZID=Europe/Rome:20270221T163000
+SUMMARY:DEPORTIVO JUNIOR – CORNO CALCIO 1929 (Promozione — girone A)
+LOCATION:Tavagnacco Stadium Tavagnacco\, Via Tolmezzo
+DESCRIPTION:Promozione — girone A\n24ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-b29b1fff@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270228T150000
+DTEND;TZID=Europe/Rome:20270228T170000
+SUMMARY:DEPORTIVO JUNIOR – UNION PASIANO (Promozione — girone A)
+LOCATION:Tavagnacco Stadium Tavagnacco\, Via Tolmezzo
+DESCRIPTION:Promozione — girone A\n25ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-0a1344a8@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270307T150000
+DTEND;TZID=Europe/Rome:20270307T170000
+SUMMARY:RIVE D ARCANO FLAIBANO – DEPORTIVO JUNIOR (Promozione — girone 
+ A)
+LOCATION:Remigio Picco Flaibano\, Via Cavour 56
+DESCRIPTION:Promozione — girone A\n26ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-cdfeb42b@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270314T150000
+DTEND;TZID=Europe/Rome:20270314T170000
+SUMMARY:DEPORTIVO JUNIOR – TRICESIMO CALCIO (Promozione — girone A)
+LOCATION:Tavagnacco Stadium Tavagnacco\, Via Tolmezzo
+DESCRIPTION:Promozione — girone A\n27ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-f0612841@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270331T200000
+DTEND;TZID=Europe/Rome:20270331T220000
+SUMMARY:CUSSIGNACCO CALCIO – DEPORTIVO JUNIOR (Promozione — girone A)
+LOCATION:Gigi Comuzzi - Campo B1 Cussignacco\, Via Padova
+DESCRIPTION:Promozione — girone A\n28ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-da8ddf9b@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270404T160000
+DTEND;TZID=Europe/Rome:20270404T180000
+SUMMARY:DEPORTIVO JUNIOR – TRIESTE VICTORY ACADEMY (Promozione — girone
+  A)
+LOCATION:Tavagnacco Stadium Tavagnacco\, Via Tolmezzo
+DESCRIPTION:Promozione — girone A\n29ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-23e2c7b2@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270411T160000
+DTEND;TZID=Europe/Rome:20270411T180000
+SUMMARY:FIUME VENETO -BANNIA – DEPORTIVO JUNIOR (Promozione — girone A)
+LOCATION:Principale - A Fiume Veneto\, Via Verdi 4
+DESCRIPTION:Promozione — girone A\n30ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-28b75b5b@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270418T160000
+DTEND;TZID=Europe/Rome:20270418T180000
+SUMMARY:DEPORTIVO JUNIOR – CENTRO SEDIA CALCIO NAT (Promozione — girone
+  A)
+LOCATION:Tavagnacco Stadium Tavagnacco\, Via Tolmezzo
+DESCRIPTION:Promozione — girone A\n31ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-768573b4@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270425T160000
+DTEND;TZID=Europe/Rome:20270425T180000
+SUMMARY:FIUMICELLO 2004 – DEPORTIVO JUNIOR (Promozione — girone A)
+LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
+DESCRIPTION:Promozione — girone A\n32ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-d2976ad0@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270502T160000
+DTEND;TZID=Europe/Rome:20270502T180000
+SUMMARY:DEPORTIVO JUNIOR – MARANESE (Promozione — girone A)
+LOCATION:Tavagnacco Stadium Tavagnacco\, Via Tolmezzo
+DESCRIPTION:Promozione — girone A\n33ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-promozione-a-6dabc7e3@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270509T160000
+DTEND;TZID=Europe/Rome:20270509T180000
+SUMMARY:SISTIANA SESLJAN – DEPORTIVO JUNIOR (Promozione — girone A)
+LOCATION:Comunale Visogliano\, Localita Visogliano
+DESCRIPTION:Promozione — girone A\n34ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+END:VCALENDAR

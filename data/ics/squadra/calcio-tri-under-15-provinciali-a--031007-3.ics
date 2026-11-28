@@ -1,0 +1,364 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · AZZURRA · Under 15 Under 15 provinciali — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-9eae43c5@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:MUGGIA 1967 3-1 AZZURRA (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-bd3c5bf3@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:AZZURRA 3-0 DOMIO (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-50f56e11@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:AZZURRA 0-5 JUVENTINA S.ANDREA (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-6b639bf0@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:CAMPANELLE 5-0 AZZURRA (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-47114460@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:AZZURRA 0-2 FIUMICELLO 2004 (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-68e94017@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:U.FINCANTIERI MONFALCONE 8-0 AZZURRA (Under 15 provinciali — giro
+ ne A)
+DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-b825cc0e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:SAN GIOVANNI A.S.D. 3-0 AZZURRA (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-5384438b@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261129T103000
+DTEND;TZID=Europe/Rome:20261129T123000
+SUMMARY:ZARJA A.S.D. – AZZURRA (Under 15 provinciali — girone A)
+LOCATION:Comunale Trebiciano\, Loc. Trebiciano
+DESCRIPTION:Under 15 provinciali — girone A\n12ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-24cb2dbe@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261201T183000
+DTEND;TZID=Europe/Rome:20261201T203000
+SUMMARY:AZZURRA – ISONTINO CALCIO (Under 15 provinciali — girone A)
+LOCATION:Bonansea Straccis\, Via Colonia 15
+DESCRIPTION:Under 15 provinciali — girone A\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-1673be91@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261206T103000
+DTEND;TZID=Europe/Rome:20261206T123000
+SUMMARY:AZZURRA – S.GIUSTO FOOTBALL ACADEMY (Under 15 provinciali — gir
+ one A)
+LOCATION:Bonansea Straccis\, Via Colonia 15
+DESCRIPTION:Under 15 provinciali — girone A\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-e50bc597@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261213T121500
+DTEND;TZID=Europe/Rome:20261213T141500
+SUMMARY:STUDENTI – AZZURRA (Under 15 provinciali — girone A)
+LOCATION:Bussani Comunale Trieste\, Via Petracco 8
+DESCRIPTION:Under 15 provinciali — girone A\n14ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-792c596e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261220T103000
+DTEND;TZID=Europe/Rome:20261220T123000
+SUMMARY:AZZURRA – CHIARBOLA PONZIANA CALCIO (Under 15 provinciali — gir
+ one A)
+LOCATION:Bonansea Straccis\, Via Colonia 15
+DESCRIPTION:Under 15 provinciali — girone A\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-a4dbe732@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270110T103000
+DTEND;TZID=Europe/Rome:20270110T123000
+SUMMARY:FANI OLIMPIA – AZZURRA (Under 15 provinciali — girone A)
+LOCATION:Klabjan Comunale Dolina - San Dorligo D.Valle\, Loc. Dolina 462
+DESCRIPTION:Under 15 provinciali — girone A\n16ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-4420ea9d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270117T103000
+DTEND;TZID=Europe/Rome:20270117T123000
+SUMMARY:AZZURRA – MUGGIA 1967 (Under 15 provinciali — girone A)
+LOCATION:Bonansea Straccis\, Via Colonia 15
+DESCRIPTION:Under 15 provinciali — girone A\n17ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-1a6ddf15@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270124T103000
+DTEND;TZID=Europe/Rome:20270124T123000
+SUMMARY:DOMIO – AZZURRA (Under 15 provinciali — girone A)
+LOCATION:Barut Asd Domio Mattonaia\, Localita Mattonaia 610
+DESCRIPTION:Under 15 provinciali — girone A\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-3c6d2f84@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270207T093000
+DTEND;TZID=Europe/Rome:20270207T113000
+SUMMARY:JUVENTINA S.ANDREA – AZZURRA (Under 15 provinciali — girone A)
+LOCATION:Comunale Mossa\, Via Dello Sport 1
+DESCRIPTION:Under 15 provinciali — girone A\n20ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-4e41b8a7@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270214T103000
+DTEND;TZID=Europe/Rome:20270214T123000
+SUMMARY:AZZURRA – CAMPANELLE (Under 15 provinciali — girone A)
+LOCATION:Bonansea Straccis\, Via Colonia 15
+DESCRIPTION:Under 15 provinciali — girone A\n21ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-0ed2c665@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270221T103000
+DTEND;TZID=Europe/Rome:20270221T123000
+SUMMARY:FIUMICELLO 2004 – AZZURRA (Under 15 provinciali — girone A)
+LOCATION:Enzo Andrian Fiumicello\, Via Liberta'14
+DESCRIPTION:Under 15 provinciali — girone A\n22ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-3051126c@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270228T103000
+DTEND;TZID=Europe/Rome:20270228T123000
+SUMMARY:AZZURRA – U.FINCANTIERI MONFALCONE (Under 15 provinciali — giro
+ ne A)
+LOCATION:Bonansea Straccis\, Via Colonia 15
+DESCRIPTION:Under 15 provinciali — girone A\n23ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-075b9a57@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270307T103000
+DTEND;TZID=Europe/Rome:20270307T123000
+SUMMARY:I.S.M. GRADISCA – AZZURRA (Under 15 provinciali — girone A)
+LOCATION:Gino Colaussi Gradisca D'Isonzo\, Via Dei Campi
+DESCRIPTION:Under 15 provinciali — girone A\n24ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-fd894fca@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270314T103000
+DTEND;TZID=Europe/Rome:20270314T123000
+SUMMARY:AZZURRA – SAN GIOVANNI A.S.D. (Under 15 provinciali — girone A)
+LOCATION:Bonansea Straccis\, Via Colonia 15
+DESCRIPTION:Under 15 provinciali — girone A\n25ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-bfacf800@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270321T103000
+DTEND;TZID=Europe/Rome:20270321T123000
+SUMMARY:ISONTINO CALCIO – AZZURRA (Under 15 provinciali — girone A)
+LOCATION:Valerio Del Neri Pieris\, Via Anna Frank 3
+DESCRIPTION:Under 15 provinciali — girone A\n26ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-39d58939@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270404T103000
+DTEND;TZID=Europe/Rome:20270404T123000
+SUMMARY:AZZURRA – ZARJA A.S.D. (Under 15 provinciali — girone A)
+LOCATION:Bonansea Straccis\, Via Colonia 15
+DESCRIPTION:Under 15 provinciali — girone A\n27ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-bb5096ff@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270411T103000
+DTEND;TZID=Europe/Rome:20270411T123000
+SUMMARY:S.GIUSTO FOOTBALL ACADEMY – AZZURRA (Under 15 provinciali — gir
+ one A)
+LOCATION:Rouna Prosecco\, San Primo - Zona Sportiva
+DESCRIPTION:Under 15 provinciali — girone A\n28ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-37912845@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270418T103000
+DTEND;TZID=Europe/Rome:20270418T123000
+SUMMARY:AZZURRA – STUDENTI (Under 15 provinciali — girone A)
+LOCATION:Bonansea Straccis\, Via Colonia 15
+DESCRIPTION:Under 15 provinciali — girone A\n29ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-15-provinciali-a-5aa276ed@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270425T090000
+DTEND;TZID=Europe/Rome:20270425T110000
+SUMMARY:CHIARBOLA PONZIANA CALCIO – AZZURRA (Under 15 provinciali — gir
+ one A)
+LOCATION:Campanelle Trieste\, Via Campanelle 300
+DESCRIPTION:Under 15 provinciali — girone A\n30ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+END:VCALENDAR

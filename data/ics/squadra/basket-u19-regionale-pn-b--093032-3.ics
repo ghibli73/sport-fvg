@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Scuola Pallacanestro Porcia 2021 · Under 19 Under 19
+  Maschile Regionale — girone PN B (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-7e8e80f6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:Scuola Pallacanestro Porcia 2021 – Humus Basket (Under 19 Maschil
+ e Regionale — girone PN B (prima fase))
+LOCATION:Pal. Sc. Medie F. Cornacchia\, Porcia
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n1ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-0c87401d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:Polisigma 43-81 Scuola Pallacanestro Porcia 2021 (Under 19 Maschile
+  Regionale — girone PN B (prima fase))
+LOCATION:Palestra Scolastica Scuole Medie\, Zoppola
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n2ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-1e48abfc@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261120T203000
+DTEND;TZID=Europe/Rome:20261120T223000
+SUMMARY:Basket Maniago-Pol. Montereale – Scuola Pallacanestro Porcia 2021
+  (Under 19 Maschile Regionale — girone PN B (prima fase))
+LOCATION:Palazzetto dello Sport\, Maniago
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n4ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-d06e99e6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261202T204500
+DTEND;TZID=Europe/Rome:20261202T224500
+SUMMARY:Sistema BK Pordenone – Scuola Pallacanestro Porcia 2021 (Under 19
+  Maschile Regionale — girone PN B (prima fase))
+LOCATION:Pal. Sc. Medie Villanova\, Pordenone
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n5ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-cd8e40fb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261207T210000
+DTEND;TZID=Europe/Rome:20261207T230000
+SUMMARY:Torre Basket – Scuola Pallacanestro Porcia 2021 (Under 19 Maschil
+ e Regionale — girone PN B (prima fase))
+LOCATION:(Pordenone)
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n6ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-4b63e4be@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261211T203000
+DTEND;TZID=Europe/Rome:20261211T223000
+SUMMARY:Roraigrande – Scuola Pallacanestro Porcia 2021 (Under 19 Maschile
+  Regionale — girone PN B (prima fase))
+LOCATION:(Pordenone)
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n7ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-0252f9e2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261222T210000
+DTEND;TZID=Europe/Rome:20261222T230000
+SUMMARY:Humus Basket – Scuola Pallacanestro Porcia 2021 (Under 19 Maschil
+ e Regionale — girone PN B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n8ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-23bdf1dc@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T153000
+DTEND;TZID=Europe/Rome:20270109T173000
+SUMMARY:Scuola Pallacanestro Porcia 2021 – Polisigma (Under 19 Maschile R
+ egionale — girone PN B (prima fase))
+LOCATION:Pal. Sc. Medie "F. Cornacchia"\, Porcia
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n9ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-ae19ad4a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270123T153000
+DTEND;TZID=Europe/Rome:20270123T173000
+SUMMARY:Scuola Pallacanestro Porcia 2021 – Basket Maniago-Pol. Montereale
+  (Under 19 Maschile Regionale — girone PN B (prima fase))
+LOCATION:Pal. Sc. Medie "F. Cornacchia"\, Porcia
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n11ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-8054d9af@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270130T153000
+DTEND;TZID=Europe/Rome:20270130T173000
+SUMMARY:Scuola Pallacanestro Porcia 2021 – Sistema BK Pordenone (Under 19
+  Maschile Regionale — girone PN B (prima fase))
+LOCATION:Pal. Sc. Medie "F. Cornacchia"\, Porcia
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n12ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-8583bebe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270206T190000
+DTEND;TZID=Europe/Rome:20270206T210000
+SUMMARY:Scuola Pallacanestro Porcia 2021 – Torre Basket (Under 19 Maschil
+ e Regionale — girone PN B (prima fase))
+LOCATION:Pal. Sc. Medie "F. Cornacchia"\, Porcia
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n13ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-142a840c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270214T113000
+DTEND;TZID=Europe/Rome:20270214T133000
+SUMMARY:Scuola Pallacanestro Porcia 2021 – Roraigrande (Under 19 Maschile
+  Regionale — girone PN B (prima fase))
+LOCATION:Pal. Sc. Medie "F. Cornacchia"\, Porcia
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n14ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+END:VCALENDAR

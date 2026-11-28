@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · UDINE UNITED RIZZI CORMOR · Under 17 Under 17 provin
+ ciali — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-3a75d812@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:CHIAVRIS 1-12 UDINE UNITED RIZZI CORMOR (Under 17 provinciali — g
+ irone B)
+DESCRIPTION:Under 17 provinciali — girone B\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-03a053a4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:UDINE UNITED RIZZI CORMOR 6-0 SERENISSIMA PRADAMANO (Under 17 provi
+ nciali — girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-e5026583@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:RIVE D ARCANO FLAIBANO 1-5 UDINE UNITED RIZZI CORMOR (Under 17 prov
+ inciali — girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-ba7cb3fb@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:UDINE UNITED RIZZI CORMOR 3-1 COMETAZZURRA (Under 17 provinciali 
+ — girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-4d5722fa@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:S.GOTTARDO 2-1 UDINE UNITED RIZZI CORMOR (Under 17 provinciali — 
+ girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-30c961b6@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:UDINE UNITED RIZZI CORMOR 6-0 BUTTRIO CALCIO (Under 17 provinciali 
+ — girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-549675d8@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:POLISPORTIVA CODROIPO 2-11 UDINE UNITED RIZZI CORMOR (Under 17 prov
+ inciali — girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-9267aaca@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:UDINE UNITED RIZZI CORMOR 7-0 COMUNALE LESTIZZA (Under 17 provincia
+ li — girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+END:VCALENDAR

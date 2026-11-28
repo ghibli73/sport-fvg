@@ -1,0 +1,236 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · UEB Academy Cividale · Under 17 Under 17 Maschile Go
+ ld — girone UD (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-c9a6bbe8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261018T110000
+DTEND;TZID=Europe/Rome:20261018T130000
+SUMMARY:MAJANESE 70-65 UEB Academy Cividale (Under 17 Maschile Gold — gir
+ one UD (prima fase))
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n1ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-d0078673@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261025T150000
+DTEND;TZID=Europe/Rome:20261025T170000
+SUMMARY:UEB Academy Cividale 65-77 UDINE BASKET CLUB (Under 17 Maschile Gol
+ d — girone UD (prima fase))
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-64c56d15@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T193000
+DTEND;TZID=Europe/Rome:20261031T213000
+SUMMARY:Uattzy SBaMM 76-87 UEB Academy Cividale (Under 17 Maschile Gold —
+  girone UD (prima fase))
+LOCATION:Palestra Tomadini\, Udine
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-97ad0658@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T150000
+DTEND;TZID=Europe/Rome:20261108T170000
+SUMMARY:UEB Academy Cividale 66-60 BASKET TERZO (Under 17 Maschile Gold —
+  girone UD (prima fase))
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-f0278435@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261113T190000
+DTEND;TZID=Europe/Rome:20261113T210000
+SUMMARY:FELETTO BASKETBALL ACADEMY 68-67 UEB Academy Cividale (Under 17 Mas
+ chile Gold — girone UD (prima fase))
+LOCATION:Palestra Cavalicco\, Tavagnacco
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-70e0b3a7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:UEB Academy Cividale – LIBERTAS GONARS (Under 17 Maschile Gold 
+ — girone UD (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n6ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-0f993c8a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261205T183000
+DTEND;TZID=Europe/Rome:20261205T203000
+SUMMARY:GP Engineering di Paron – UEB Academy Cividale (Under 17 Maschile
+  Gold — girone UD (prima fase))
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n8ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-f27f35ba@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261213T110000
+DTEND;TZID=Europe/Rome:20261213T130000
+SUMMARY:UEB Academy Cividale – POL. LIBERTAS ACLI (Under 17 Maschile Gold
+  — girone UD (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n9ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-add2370c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261220T150000
+DTEND;TZID=Europe/Rome:20261220T170000
+SUMMARY:UEB Academy Cividale – MAJANESE (Under 17 Maschile Gold — giron
+ e UD (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n10ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-a4c110d8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270110T110000
+DTEND;TZID=Europe/Rome:20270110T130000
+SUMMARY:UDINE BASKET CLUB – UEB Academy Cividale (Under 17 Maschile Gold 
+ — girone UD (prima fase))
+LOCATION:Palestra Mazzini\, Udine
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n11ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-f9e0ef17@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T110000
+DTEND;TZID=Europe/Rome:20270117T130000
+SUMMARY:UEB Academy Cividale – Uattzy SBaMM (Under 17 Maschile Gold — g
+ irone UD (prima fase))
+LOCATION:Palestra Sc. Elementari\, Premariacco
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n12ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-a4e38861@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270120T183000
+DTEND;TZID=Europe/Rome:20270120T203000
+SUMMARY:BASKET TERZO – UEB Academy Cividale (Under 17 Maschile Gold — g
+ irone UD (prima fase))
+LOCATION:Pal. Comunale\, Terzo D'Aquileia
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n13ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-b807b7fe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T110000
+DTEND;TZID=Europe/Rome:20270131T130000
+SUMMARY:UEB Academy Cividale – FELETTO BASKETBALL ACADEMY (Under 17 Masch
+ ile Gold — girone UD (prima fase))
+LOCATION:Palestra Sc. Elementari\, Premariacco
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n14ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-f875f98a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270206T180000
+DTEND;TZID=Europe/Rome:20270206T200000
+SUMMARY:LIBERTAS GONARS – UEB Academy Cividale (Under 17 Maschile Gold 
+ — girone UD (prima fase))
+LOCATION:Palazzetto Dello Sport\, Gonars
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n15ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-87eb34d5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270221T110000
+DTEND;TZID=Europe/Rome:20270221T130000
+SUMMARY:UEB Academy Cividale – GP Engineering di Paron (Under 17 Maschile
+  Gold — girone UD (prima fase))
+LOCATION:Palestra Sc. Elementari\, Premariacco
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n17ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-69a34631@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270228T110000
+DTEND;TZID=Europe/Rome:20270228T130000
+SUMMARY:POL. LIBERTAS ACLI – UEB Academy Cividale (Under 17 Maschile Gold
+  — girone UD (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n18ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
+END:VEVENT
+END:VCALENDAR

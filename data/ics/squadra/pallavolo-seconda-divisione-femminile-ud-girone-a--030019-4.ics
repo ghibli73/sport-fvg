@@ -1,0 +1,240 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · APD CASSACCO · Seconda Divisione femminile CT Udine 
+ — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-bbfcca98@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261023T210000
+DTEND;TZID=Europe/Rome:20261023T230000
+SUMMARY:APD CASSACCO 1-3 ASFJR 1971 (Seconda Divisione femminile CT Udine 
+ — girone A)
+LOCATION:Palestra scuole elementari\, CASSACCO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n1ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-69086db7@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:AURORA VOLLEY UDINE 0-3 APD CASSACCO (Seconda Divisione femminile C
+ T Udine — girone A)
+LOCATION:Palestra Scuola Media "Bellavitis"\, UDINE UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-0299adf3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261113T210000
+DTEND;TZID=Europe/Rome:20261113T230000
+SUMMARY:APD CASSACCO 3-0 PALLAVOLO BUIA (Seconda Divisione femminile CT Udi
+ ne — girone A)
+LOCATION:Palestra scuole elementari\, CASSACCO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-9e3cbafd@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261125T210000
+DTEND;TZID=Europe/Rome:20261125T230000
+SUMMARY:APD CASSACCO 3-2 ART_CENTO VOLLEY (Seconda Divisione femminile CT U
+ dine — girone A)
+LOCATION:Palestra scuole elementari\, via Divisione Julia 15\, CASSACCO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-e8a76932@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261202T210000
+DTEND;TZID=Europe/Rome:20261202T230000
+SUMMARY:APD CASSACCO – FVG VOLLEY ACADEMY (Seconda Divisione femminile CT
+  Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n6ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-430c9ad7@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261209T203000
+DTEND;TZID=Europe/Rome:20261209T223000
+SUMMARY:ROJALKENNEDY ASSICOOP – APD CASSACCO (Seconda Divisione femminile
+  CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n7ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-112c6c2e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261218T210000
+DTEND;TZID=Europe/Rome:20261218T230000
+SUMMARY:APD CASSACCO – INGEGNI PASIAN DI PRATO (Seconda Divisione femmini
+ le CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n8ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-ac776f2d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270115T201500
+DTEND;TZID=Europe/Rome:20270115T221500
+SUMMARY:CSI TARCENTO AZZURRA – APD CASSACCO (Seconda Divisione femminile 
+ CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n9ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-645c6d7e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T180000
+DTEND;TZID=Europe/Rome:20270123T200000
+SUMMARY:ASFJR 1971 – APD CASSACCO (Seconda Divisione femminile CT Udine 
+ — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n10ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-2b7a7ee7@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270129T210000
+DTEND;TZID=Europe/Rome:20270129T230000
+SUMMARY:APD CASSACCO – AURORA VOLLEY UDINE (Seconda Divisione femminile C
+ T Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n11ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-cee29549@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270207T180000
+DTEND;TZID=Europe/Rome:20270207T200000
+SUMMARY:PALLAVOLO BUIA – APD CASSACCO (Seconda Divisione femminile CT Udi
+ ne — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n12ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-291a6b44@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270219T210000
+DTEND;TZID=Europe/Rome:20270219T230000
+SUMMARY:APD CASSACCO – ART_CENTO VOLLEY (Seconda Divisione femminile CT U
+ dine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n14ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-4e2a596c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270227T200000
+DTEND;TZID=Europe/Rome:20270227T220000
+SUMMARY:FVG VOLLEY ACADEMY – APD CASSACCO (Seconda Divisione femminile CT
+  Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n15ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-103b30e3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270305T210000
+DTEND;TZID=Europe/Rome:20270305T230000
+SUMMARY:APD CASSACCO – ROJALKENNEDY ASSICOOP (Seconda Divisione femminile
+  CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n16ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-f9d7c4df@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270314T180000
+DTEND;TZID=Europe/Rome:20270314T200000
+SUMMARY:INGEGNI PASIAN DI PRATO – APD CASSACCO (Seconda Divisione femmini
+ le CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n17ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-c92bf8e1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270319T210000
+DTEND;TZID=Europe/Rome:20270319T230000
+SUMMARY:APD CASSACCO – CSI TARCENTO AZZURRA (Seconda Divisione femminile 
+ CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n18ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+END:VCALENDAR

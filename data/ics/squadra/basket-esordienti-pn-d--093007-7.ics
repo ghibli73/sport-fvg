@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · NEW BRUGNERA BASKET A.S.D. · Under 12 Trofeo Esordie
+ nti Under 12 — girone PN D
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-29d7df6b@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261106T173000
+DTEND;TZID=Europe/Rome:20261106T193000
+SUMMARY:SCUOLA PALL PORCIA 12-4 NEW BRUGNERA BASKET A.S.D. (Trofeo Esordien
+ ti Under 12 — girone PN D)
+LOCATION:Palestra Sc. Di Roraipiccolo\, Porcia
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-6ace2030@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261108T150000
+DTEND;TZID=Europe/Rome:20261108T170000
+SUMMARY:ASD GAIA BASKET SCHOOL 12-4 NEW BRUGNERA BASKET A.S.D. (Trofeo Esor
+ dienti Under 12 — girone PN D)
+LOCATION:Nuova Palestra Di Calderano\, Gaiarine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-8ea0cbcc@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261120T170000
+DTEND;TZID=Europe/Rome:20261120T190000
+SUMMARY:NEW BRUGNERA BASKET A.S.D. – FIUME VENETO BIANCO (Trofeo Esordien
+ ti Under 12 — girone PN D)
+LOCATION:Palasport\, Brugnera
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-ede4e60e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261127T170000
+DTEND;TZID=Europe/Rome:20261127T190000
+SUMMARY:NEW BRUGNERA BASKET A.S.D. – A.S.D. HUMUS SACILE ARANCIO (Trofeo 
+ Esordienti Under 12 — girone PN D)
+LOCATION:Palasport\, Brugnera
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-76095781@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261204T170000
+DTEND;TZID=Europe/Rome:20261204T190000
+SUMMARY:FIUME VENETO BIANCO – NEW BRUGNERA BASKET A.S.D. (Trofeo Esordien
+ ti Under 12 — girone PN D)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-3eccea5e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261210T163000
+DTEND;TZID=Europe/Rome:20261210T183000
+SUMMARY:A.S.D. HUMUS FONTANAFREDDA BLU – NEW BRUGNERA BASKET A.S.D. (Trof
+ eo Esordienti Under 12 — girone PN D)
+LOCATION:Palazzetto Dello Sport\, Fontanafredda
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-4eb655a2@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261211T164500
+DTEND;TZID=Europe/Rome:20261211T184500
+SUMMARY:NEW BRUGNERA BASKET A.S.D. – ASD GAIA BASKET SCHOOL (Trofeo Esord
+ ienti Under 12 — girone PN D)
+LOCATION:Palasport\, Brugnera
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-8459e25e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261218T170000
+DTEND;TZID=Europe/Rome:20261218T190000
+SUMMARY:NEW BRUGNERA BASKET A.S.D. – SCUOLA PALL PORCIA (Trofeo Esordient
+ i Under 12 — girone PN D)
+LOCATION:Palasport\, Brugnera
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-f1e4571d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270115T170000
+DTEND;TZID=Europe/Rome:20270115T190000
+SUMMARY:NEW BRUGNERA BASKET A.S.D. – A.S.D. HUMUS FONTANAFREDDA BLU (Trof
+ eo Esordienti Under 12 — girone PN D)
+LOCATION:Palasport\, Brugnera
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-46c3096f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270122T173000
+DTEND;TZID=Europe/Rome:20270122T193000
+SUMMARY:A.S.D. HUMUS SACILE ARANCIO – NEW BRUGNERA BASKET A.S.D. (Trofeo 
+ Esordienti Under 12 — girone PN D)
+LOCATION:Palestra Ist.To Marchesini - M\, Sacile
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+END:VCALENDAR

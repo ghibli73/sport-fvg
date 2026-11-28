@@ -1,0 +1,171 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Rana Verona · SuperLega (Serie A1 maschile) — regu
+ lar season
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-2730720b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T180000
+DTEND;TZID=Europe/Rome:20261017T200000
+SUMMARY:Rana Verona 0-3 Cucine Lube Civitanova (SuperLega (Serie A1 maschil
+ e) — regular season)
+LOCATION:Pala MAGIS\, Verona (VR)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-1aa58917@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261025T180000
+DTEND;TZID=Europe/Rome:20261025T200000
+SUMMARY:Vero Volley Monza 1-3 Rana Verona (SuperLega (Serie A1 maschile) 
+ — regular season)
+LOCATION:OpiquadArena\, Monza (MB)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-89cd7876@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261101T170000
+DTEND;TZID=Europe/Rome:20261101T190000
+SUMMARY:Valsa Group Modena 3-1 Rana Verona (SuperLega (Serie A1 maschile) 
+ — regular season)
+LOCATION:PalaSport G.Panini\, Modena (MO)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-6506f006@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261104T203000
+DTEND;TZID=Europe/Rome:20261104T223000
+SUMMARY:Rana Verona 3-2 Allianz Milano (SuperLega (Serie A1 maschile) — r
+ egular season)
+LOCATION:Pala MAGIS\, Verona (VR)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-ce2b799f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T180000
+DTEND;TZID=Europe/Rome:20261108T200000
+SUMMARY:Gas Sales Bluenergy Piacenza 3-0 Rana Verona (SuperLega (Serie A1 m
+ aschile) — regular season)
+LOCATION:PalabancaSport\, Piacenza (PC)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-6bc038a5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261120T204500
+DTEND;TZID=Europe/Rome:20261120T224500
+SUMMARY:Acqua Sant'Anna Cuneo 3-1 Rana Verona (SuperLega (Serie A1 maschile
+ ) — regular season)
+LOCATION:Palasport di Cuneo\, Cuneo (CN)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n6ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-573874d8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T150000
+DTEND;TZID=Europe/Rome:20261129T170000
+SUMMARY:Rana Verona – Itas Trentino (SuperLega (Serie A1 maschile) — re
+ gular season)
+LOCATION:Pala MAGIS\, Verona (VR)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n7ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-3ee186b4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261202T200000
+DTEND;TZID=Europe/Rome:20261202T220000
+SUMMARY:Rana Verona – Tinet Prata di Pordenone (SuperLega (Serie A1 masch
+ ile) — regular season)
+LOCATION:Pala MAGIS\, Verona (VR)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n8ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-2b52b0e3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261206T170000
+DTEND;TZID=Europe/Rome:20261206T190000
+SUMMARY:Sir Susa Scai Perugia – Rana Verona (SuperLega (Serie A1 maschile
+ ) — regular season)
+LOCATION:Pala Barton Energy\, Perugia (PG)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n9ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-b1dcc04d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T160000
+DTEND;TZID=Europe/Rome:20261213T180000
+SUMMARY:Rana Verona – Pallavolo Padova (SuperLega (Serie A1 maschile) —
+  regular season)
+LOCATION:Pala MAGIS\, Verona (VR)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n10ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-f2ff1039@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T180000
+DTEND;TZID=Europe/Rome:20261220T200000
+SUMMARY:Rana Verona – Cisterna Volley (SuperLega (Serie A1 maschile) — 
+ regular season)
+LOCATION:Pala MAGIS\, Verona (VR)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n11ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+END:VCALENDAR

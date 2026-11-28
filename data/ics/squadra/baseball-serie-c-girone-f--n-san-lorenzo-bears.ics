@@ -1,0 +1,208 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · San Lorenzo Bears · Serie C baseball — girone F (r
+ egular season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-36a493a1@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260412
+DTEND;VALUE=DATE:20260413
+SUMMARY:White Sox Buttrio 20-8 San Lorenzo Bears (Serie C baseball — giro
+ ne F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n1ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-d1f81322@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:San Lorenzo Bears 6-13 Europa Baseball Club ASD (Serie C baseball 
+ — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n2ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-ec27cf2b@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+SUMMARY:San Lorenzo Bears 6-20 B.C. Conegliano (Serie C baseball — girone
+  F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n3ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-4b52db32@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+SUMMARY:San Lorenzo Bears 12-16 Astros Porcia Baseball (Serie C baseball 
+ — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n4ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-a2b4d72e@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+SUMMARY:Baseball Ponzano Veneto – Blu Fioi 3-2 San Lorenzo Bears (Serie C
+  baseball — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n5ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-92b31866@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:San Lorenzo Bears 3-6 White Sox Buttrio (Serie C baseball — giron
+ e F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n6ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-fe2c7b25@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:Europa Baseball Club ASD 10-5 San Lorenzo Bears (Serie C baseball 
+ — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n7ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-410496ac@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:B.C. Conegliano 16-6 San Lorenzo Bears (Serie C baseball — girone
+  F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n8ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-2c86a315@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:Astros Porcia Baseball 18-5 San Lorenzo Bears (Serie C baseball —
+  girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n9ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-280dba70@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+SUMMARY:San Lorenzo Bears 13-10 Baseball Ponzano Veneto – Blu Fioi (Serie
+  C baseball — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n10ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-a4e82412@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:White Sox Buttrio 10-0 San Lorenzo Bears (Serie C baseball — giro
+ ne F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n11ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-52f413a2@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:Baseball Ponzano Veneto – Blu Fioi 20-3 San Lorenzo Bears (Serie 
+ C baseball — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n12ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-53d4ef70@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:San Lorenzo Bears 18-15 Europa Baseball Club ASD (Serie C baseball 
+ — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n13ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-1a3395eb@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:San Lorenzo Bears 13-12 Astros Porcia Baseball (Serie C baseball 
+ — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n14ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-85763f5e@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:San Lorenzo Bears 21-11 B.C. Conegliano (Serie C baseball — giron
+ e F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n15ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+END:VCALENDAR

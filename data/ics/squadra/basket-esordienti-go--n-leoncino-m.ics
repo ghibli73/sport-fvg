@@ -1,0 +1,236 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · LEONCINO M · Under 12 Trofeo Esordienti Under 12 —
+  girone GO
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-go-c53b83c2@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261118T174500
+DTEND;TZID=Europe/Rome:20261118T194500
+SUMMARY:LEONCINO M 6-10 Ronchi Basket Club (Trofeo Esordienti Under 12 — 
+ girone GO)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n1ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-43d7f6a9@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261125T183000
+DTEND;TZID=Europe/Rome:20261125T203000
+SUMMARY:ASD NUOVA BASKET ISONZO – LEONCINO M (Trofeo Esordienti Under 12 
+ — girone GO)
+LOCATION:Palestra Scolastica\, San Canzian D'Isonzo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n2ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-d1c3f071@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261210T180000
+DTEND;TZID=Europe/Rome:20261210T200000
+SUMMARY:DINAMO GORIZIA – LEONCINO M (Trofeo Esordienti Under 12 — giron
+ e GO)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n4ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-76498044@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261215T181500
+DTEND;TZID=Europe/Rome:20261215T201500
+SUMMARY:PALLACANESTRO GRADO – LEONCINO M (Trofeo Esordienti Under 12 — 
+ girone GO)
+LOCATION:Palasport Della Sacca Dei More\, Grado
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n5ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-cdcec709@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270113T174500
+DTEND;TZID=Europe/Rome:20270113T194500
+SUMMARY:LEONCINO M – ALBA CORMONS (Trofeo Esordienti Under 12 — girone 
+ GO)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n6ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-5fc11dec@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270118T173000
+DTEND;TZID=Europe/Rome:20270118T193000
+SUMMARY:BABY FALCONS A.S.D. – LEONCINO M (Trofeo Esordienti Under 12 — 
+ girone GO)
+LOCATION:Palestra Comunale\, Staranzano
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n7ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-f5cab2b4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270127T174500
+DTEND;TZID=Europe/Rome:20270127T194500
+SUMMARY:LEONCINO M – DINAMO GORIZIA 2016 (Trofeo Esordienti Under 12 — 
+ girone GO)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n8ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-6fbb6751@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270205T174500
+DTEND;TZID=Europe/Rome:20270205T194500
+SUMMARY:LEONCINO F – LEONCINO M (Trofeo Esordienti Under 12 — girone GO
+ )
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n9ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-90cf95a6@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270217T174500
+DTEND;TZID=Europe/Rome:20270217T194500
+SUMMARY:Ronchi Basket Club – LEONCINO M (Trofeo Esordienti Under 12 — g
+ irone GO)
+LOCATION:Palestra Polifunzionale 'O. Pe\, Ronchi Dei Legionari
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n10ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-72179958@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270224T174500
+DTEND;TZID=Europe/Rome:20270224T194500
+SUMMARY:LEONCINO M – ASD NUOVA BASKET ISONZO (Trofeo Esordienti Under 12 
+ — girone GO)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n11ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-36905620@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270317T174500
+DTEND;TZID=Europe/Rome:20270317T194500
+SUMMARY:LEONCINO M – PALLACANESTRO GRADO (Trofeo Esordienti Under 12 — 
+ girone GO)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n14ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-d7168c7e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270323T170000
+DTEND;TZID=Europe/Rome:20270323T190000
+SUMMARY:ALBA CORMONS – LEONCINO M (Trofeo Esordienti Under 12 — girone 
+ GO)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n15ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-87d849c5@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270331T174500
+DTEND;TZID=Europe/Rome:20270331T194500
+SUMMARY:LEONCINO M – BABY FALCONS A.S.D. (Trofeo Esordienti Under 12 — 
+ girone GO)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n16ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-8f1f6e29@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270410T110000
+DTEND;TZID=Europe/Rome:20270410T130000
+SUMMARY:DINAMO GORIZIA 2016 – LEONCINO M (Trofeo Esordienti Under 12 — 
+ girone GO)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n17ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-9599a950@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270414T174500
+DTEND;TZID=Europe/Rome:20270414T194500
+SUMMARY:LEONCINO M – DINAMO GORIZIA (Trofeo Esordienti Under 12 — giron
+ e GO)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n13ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-go-280dcf79@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270428T174500
+DTEND;TZID=Europe/Rome:20270428T194500
+SUMMARY:LEONCINO M – LEONCINO F (Trofeo Esordienti Under 12 — girone GO
+ )
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone GO\n18ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-esordienti-go
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-go
+END:VEVENT
+END:VCALENDAR

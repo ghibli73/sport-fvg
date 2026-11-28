@@ -1,0 +1,181 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PRESSANO · Serie A Gold maschile — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-cdd54c7e@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260912T183000
+DTEND;TZID=Europe/Rome:20260912T203000
+SUMMARY:PROGER CASSANO MAGNAGO 21-25 PRESSANO (Serie A Gold maschile — gi
+ rone unico)
+LOCATION:CASSANO MAGNAGO
+DESCRIPTION:Serie A Gold maschile — girone unico\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-a424a9bd@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260919T200000
+DTEND;TZID=Europe/Rome:20260919T220000
+SUMMARY:PRESSANO 35-31 JUNIOR FASANO (Serie A Gold maschile — girone unic
+ o)
+LOCATION:LAVIS
+DESCRIPTION:Serie A Gold maschile — girone unico\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-4bd00cc8@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260923T183000
+DTEND;TZID=Europe/Rome:20260923T203000
+SUMMARY:METELLI COLOGNE 28-32 PRESSANO (Serie A Gold maschile — girone un
+ ico)
+LOCATION:COLOGNE
+DESCRIPTION:Serie A Gold maschile — girone unico\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-d76d64bd@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20260926T200000
+DTEND;TZID=Europe/Rome:20260926T220000
+SUMMARY:PRESSANO 33-31 TEAMNETWORK ALBATRO SIRACUSA (Serie A Gold maschile 
+ — girone unico)
+LOCATION:LAVIS
+DESCRIPTION:Serie A Gold maschile — girone unico\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-878c683e@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261003T180000
+DTEND;TZID=Europe/Rome:20261003T200000
+SUMMARY:MACAGI CINGOLI 23-23 PRESSANO (Serie A Gold maschile — girone uni
+ co)
+LOCATION:CINGOLI
+DESCRIPTION:Serie A Gold maschile — girone unico\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-6eeffa4e@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261010T160000
+DTEND;TZID=Europe/Rome:20261010T180000
+SUMMARY:PRESSANO 27-27 RAIMOND SASSARI (Serie A Gold maschile — girone un
+ ico)
+LOCATION:LAVIS
+DESCRIPTION:Serie A Gold maschile — girone unico\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-9cf63417@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261017T180000
+DTEND;TZID=Europe/Rome:20261017T200000
+SUMMARY:PUBLIESSE CHIARAVALLE 22-22 PRESSANO (Serie A Gold maschile — gir
+ one unico)
+LOCATION:CHIARAVALLE
+DESCRIPTION:Serie A Gold maschile — girone unico\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-3dc6ade4@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261024T183000
+DTEND;TZID=Europe/Rome:20261024T203000
+SUMMARY:PRESSANO 32-21 ORLANDO HAENNA (Serie A Gold maschile — girone uni
+ co)
+LOCATION:LAVIS
+DESCRIPTION:Serie A Gold maschile — girone unico\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-114e038b@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261031T183000
+DTEND;TZID=Europe/Rome:20261031T203000
+SUMMARY:PRESSANO 33-31 TRIESTE (Serie A Gold maschile — girone unico)
+LOCATION:LAVIS
+DESCRIPTION:Serie A Gold maschile — girone unico\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-ffe0420b@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261114T190000
+DTEND;TZID=Europe/Rome:20261114T210000
+SUMMARY:CONVERSANO 29-21 PRESSANO (Serie A Gold maschile — girone unico)
+LOCATION:CONVERSANO
+DESCRIPTION:Serie A Gold maschile — girone unico\n10ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-c04cffb9@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261121T183000
+DTEND;TZID=Europe/Rome:20261121T203000
+SUMMARY:PRESSANO 36-30 SALUMIFICIO RIVA MOLTENO (Serie A Gold maschile — 
+ girone unico)
+LOCATION:LAVIS
+DESCRIPTION:Serie A Gold maschile — girone unico\n11ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+BEGIN:VEVENT
+UID:pallamano-serie-a-gold-maschile-f4c116fe@zuin-fvg
+DTSTAMP:20261121T000000Z
+DTSTART;TZID=Europe/Rome:20261128T190000
+DTEND;TZID=Europe/Rome:20261128T210000
+SUMMARY:BLACK DEVILS MERAN ALPERIA – PRESSANO (Serie A Gold maschile — 
+ girone unico)
+LOCATION:MERANO
+DESCRIPTION:Serie A Gold maschile — girone unico\n12ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-pallamano-serie-a-gold-maschile
+URL:https://ghibli73.github.io/sport-fvg/#g-pallamano-serie-a-gold-maschile
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Farmacia del Sole Udine SBaMM · Under 14 Under 14 Fe
+ mminile — girone C (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-femminile-c-42862b46@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T113000
+DTEND;TZID=Europe/Rome:20261108T133000
+SUMMARY:Farmacia del Sole Udine SBaMM 53-76 SISTEMA ROSA PALL. (Under 14 Fe
+ mminile — girone C (prima fase))
+LOCATION:Palestra Ist. F. Tomadini\, Udine
+DESCRIPTION:Under 14 Femminile — girone C (prima fase)\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-c-c57d8f6a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T151500
+DTEND;TZID=Europe/Rome:20261115T171500
+SUMMARY:BIN Tigrotte 55-29 Farmacia del Sole Udine SBaMM (Under 14 Femminil
+ e — girone C (prima fase))
+LOCATION:Pal. I.T. Leonardo da Vinci\, Trieste
+DESCRIPTION:Under 14 Femminile — girone C (prima fase)\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-c-94540a6b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261122T163000
+DTEND;TZID=Europe/Rome:20261122T183000
+SUMMARY:BASKET FIUME – Farmacia del Sole Udine SBaMM (Under 14 Femminile 
+ — girone C (prima fase))
+LOCATION:Pal. Sc. El. 'Cesare Battist\, Fiume Veneto
+DESCRIPTION:Under 14 Femminile — girone C (prima fase)\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-c-cb254829@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261205T183000
+DTEND;TZID=Europe/Rome:20261205T203000
+SUMMARY:SISTEMA ROSA PALL. – Farmacia del Sole Udine SBaMM (Under 14 Femm
+ inile — girone C (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 14 Femminile — girone C (prima fase)\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-c-c09ca116@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261213T113000
+DTEND;TZID=Europe/Rome:20261213T133000
+SUMMARY:Farmacia del Sole Udine SBaMM – BIN Tigrotte (Under 14 Femminile 
+ — girone C (prima fase))
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
+DESCRIPTION:Under 14 Femminile — girone C (prima fase)\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-c-ba7d4df9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261220T113000
+DTEND;TZID=Europe/Rome:20261220T133000
+SUMMARY:Farmacia del Sole Udine SBaMM – BASKET FIUME (Under 14 Femminile 
+ — girone C (prima fase))
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
+DESCRIPTION:Under 14 Femminile — girone C (prima fase)\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-c
+END:VEVENT
+END:VCALENDAR

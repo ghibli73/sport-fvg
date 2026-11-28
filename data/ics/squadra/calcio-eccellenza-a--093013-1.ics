@@ -1,0 +1,423 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CHIONS · Eccellenza — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-fe02960e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:CHIONS 1-2 NUOVO PORDENONE 2024 FC (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n1ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-b72a9448@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:POLISPORTIVA CODROIPO 2-1 CHIONS (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n2ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-aa9fd3c1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:CHIONS 2-3 MUGGIA 1967 (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n3ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-bc8d65ef@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:SANVITESE 2-1 CHIONS (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n4ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-c89eda54@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:CHIONS 1-0 TOLMEZZO CARNIA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n5ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-fc865853@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:PRO GORIZIA 2-2 CHIONS (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n6ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-6dd91a5c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:CHIONS 3-0 POLISPORTIVA TAMAI ASD (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n7ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-b93ba5db@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:PRO FAGAGNA 0-1 CHIONS (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n8ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-95998051@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:CHIONS 1-2 AZZURRA PREMARIACCO (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-a0aa3f95@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CHIONS 0-1 SAN LUIGI CALCIO (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n10ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-6fab72ee@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:U.FINCANTIERI MONFALCONE 0-2 CHIONS (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n11ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-2a8d5707@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:CHIONS 2-1 CALCIO TEOR (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n12ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-db4c7b37@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261129T143000
+DTEND;TZID=Europe/Rome:20261129T163000
+SUMMARY:CASARSA – CHIONS (Eccellenza — girone A)
+LOCATION:Titti Della Negra Campo B Casarsa Della Delizia
+DESCRIPTION:Eccellenza — girone A\n13ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-a392edd6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261205T143000
+DTEND;TZID=Europe/Rome:20261205T163000
+SUMMARY:CHIONS – JUVENTINA S.ANDREA (Eccellenza — girone A)
+LOCATION:Francesco Tesolin Chions\, Via Garibaldi
+DESCRIPTION:Eccellenza — girone A\n14ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-79b08816@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261208T143000
+DTEND;TZID=Europe/Rome:20261208T163000
+SUMMARY:FORUM JULII CALCIO – CHIONS (Eccellenza — girone A)
+LOCATION:Valter Marinigh Gagliano\, Strada Mezzana 11
+DESCRIPTION:Eccellenza — girone A\n15ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-62e7f624@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261213T143000
+DTEND;TZID=Europe/Rome:20261213T163000
+SUMMARY:CHIONS – N.K. KRAS REPEN (Eccellenza — girone A)
+LOCATION:Francesco Tesolin Chions\, Via Garibaldi
+DESCRIPTION:Eccellenza — girone A\n16ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-18d354a4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261219T143000
+DTEND;TZID=Europe/Rome:20261219T163000
+SUMMARY:COMUNALE FONTANAFREDDA – CHIONS (Eccellenza — girone A)
+LOCATION:Tognon 1 Fontanafredda\, Viale Dello Sport
+DESCRIPTION:Eccellenza — girone A\n17ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-ac0aff92@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270110T143000
+DTEND;TZID=Europe/Rome:20270110T163000
+SUMMARY:NUOVO PORDENONE 2024 FC – CHIONS (Eccellenza — girone A)
+LOCATION:Bottecchia Pordenone\, Via Stadio 6
+DESCRIPTION:Eccellenza — girone A\n18ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-7ad3e328@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270117T143000
+DTEND;TZID=Europe/Rome:20270117T163000
+SUMMARY:CHIONS – POLISPORTIVA CODROIPO (Eccellenza — girone A)
+LOCATION:Francesco Tesolin Chions\, Via Garibaldi
+DESCRIPTION:Eccellenza — girone A\n19ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-97e51502@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270124T143000
+DTEND;TZID=Europe/Rome:20270124T163000
+SUMMARY:MUGGIA 1967 – CHIONS (Eccellenza — girone A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Eccellenza — girone A\n20ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-c85616e8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270131T143000
+DTEND;TZID=Europe/Rome:20270131T163000
+SUMMARY:CHIONS – SANVITESE (Eccellenza — girone A)
+LOCATION:Francesco Tesolin Chions\, Via Garibaldi
+DESCRIPTION:Eccellenza — girone A\n21ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-2937ab91@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270207T143000
+DTEND;TZID=Europe/Rome:20270207T163000
+SUMMARY:TOLMEZZO CARNIA – CHIONS (Eccellenza — girone A)
+LOCATION:F.Lli Ermano - Comunale A Tolmezzo\, Via Val Di Gorto 28
+DESCRIPTION:Eccellenza — girone A\n22ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-893a24e4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270214T143000
+DTEND;TZID=Europe/Rome:20270214T163000
+SUMMARY:CHIONS – PRO GORIZIA (Eccellenza — girone A)
+LOCATION:Francesco Tesolin Chions\, Via Garibaldi
+DESCRIPTION:Eccellenza — girone A\n23ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-3fce1dfb@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270221T143000
+DTEND;TZID=Europe/Rome:20270221T163000
+SUMMARY:POLISPORTIVA TAMAI ASD – CHIONS (Eccellenza — girone A)
+LOCATION:Cav. L. Verardo - Campo A Tamai\, Via Giovanni Xxiii 41
+DESCRIPTION:Eccellenza — girone A\n24ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-1456d93c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270228T150000
+DTEND;TZID=Europe/Rome:20270228T170000
+SUMMARY:CHIONS – PRO FAGAGNA (Eccellenza — girone A)
+LOCATION:Francesco Tesolin Chions\, Via Garibaldi
+DESCRIPTION:Eccellenza — girone A\n25ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-079cfda2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270307T150000
+DTEND;TZID=Europe/Rome:20270307T170000
+SUMMARY:AZZURRA PREMARIACCO – CHIONS (Eccellenza — girone A)
+LOCATION:Paderno Campo Sintetico Premariacco\, Via Olimpia 13
+DESCRIPTION:Eccellenza — girone A\n26ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-aa46ff3d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270314T150000
+DTEND;TZID=Europe/Rome:20270314T170000
+SUMMARY:SAN LUIGI CALCIO – CHIONS (Eccellenza — girone A)
+LOCATION:San Luigi Comunale Trieste\, Via Felluga 58
+DESCRIPTION:Eccellenza — girone A\n27ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-22531ff8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270331T200000
+DTEND;TZID=Europe/Rome:20270331T220000
+SUMMARY:CHIONS – U.FINCANTIERI MONFALCONE (Eccellenza — girone A)
+LOCATION:Francesco Tesolin Chions\, Via Garibaldi
+DESCRIPTION:Eccellenza — girone A\n28ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-617a2427@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270404T160000
+DTEND;TZID=Europe/Rome:20270404T180000
+SUMMARY:CALCIO TEOR – CHIONS (Eccellenza — girone A)
+LOCATION:Comunale A Teor Teor\, Via Roma 28
+DESCRIPTION:Eccellenza — girone A\n29ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-8e4139a4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270411T160000
+DTEND;TZID=Europe/Rome:20270411T180000
+SUMMARY:CHIONS – CASARSA (Eccellenza — girone A)
+LOCATION:Francesco Tesolin Chions\, Via Garibaldi
+DESCRIPTION:Eccellenza — girone A\n30ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-919a9ad1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270418T160000
+DTEND;TZID=Europe/Rome:20270418T180000
+SUMMARY:JUVENTINA S.ANDREA – CHIONS (Eccellenza — girone A)
+LOCATION:Comunale Sant'Andrea Gorizia\, Via Del Carso
+DESCRIPTION:Eccellenza — girone A\n31ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-9cea612d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270425T160000
+DTEND;TZID=Europe/Rome:20270425T180000
+SUMMARY:CHIONS – FORUM JULII CALCIO (Eccellenza — girone A)
+LOCATION:Francesco Tesolin Chions\, Via Garibaldi
+DESCRIPTION:Eccellenza — girone A\n32ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-71cecc29@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270502T160000
+DTEND;TZID=Europe/Rome:20270502T180000
+SUMMARY:N.K. KRAS REPEN – CHIONS (Eccellenza — girone A)
+LOCATION:Skabar Monrupino\, Strada Comunale Di Repen
+DESCRIPTION:Eccellenza — girone A\n33ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-2b93473b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270509T160000
+DTEND;TZID=Europe/Rome:20270509T180000
+SUMMARY:CHIONS – COMUNALE FONTANAFREDDA (Eccellenza — girone A)
+LOCATION:Francesco Tesolin Chions\, Via Garibaldi
+DESCRIPTION:Eccellenza — girone A\n34ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+END:VCALENDAR

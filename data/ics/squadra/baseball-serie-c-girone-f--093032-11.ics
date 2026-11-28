@@ -1,0 +1,208 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Astros Porcia Baseball · Serie C baseball — girone
+  F (regular season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-67087f6f@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260412
+DTEND;VALUE=DATE:20260413
+SUMMARY:Astros Porcia Baseball 12-2 B.C. Conegliano (Serie C baseball — g
+ irone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n1ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-552bab52@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:Astros Porcia Baseball 8-10 White Sox Buttrio (Serie C baseball —
+  girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n2ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-be89a532@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+SUMMARY:Astros Porcia Baseball 5-6 Baseball Ponzano Veneto – Blu Fioi (Se
+ rie C baseball — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n3ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-4b52db32@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+SUMMARY:San Lorenzo Bears 12-16 Astros Porcia Baseball (Serie C baseball 
+ — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n4ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-3c7b5621@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+SUMMARY:Astros Porcia Baseball 1-12 Europa Baseball Club ASD (Serie C baseb
+ all — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n5ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-f1a9b1ea@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:B.C. Conegliano 4-8 Astros Porcia Baseball (Serie C baseball — gi
+ rone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n6ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-71842c65@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:White Sox Buttrio 10-0 Astros Porcia Baseball (Serie C baseball —
+  girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n7ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-8c733937@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:Baseball Ponzano Veneto – Blu Fioi 6-6 Astros Porcia Baseball (Se
+ rie C baseball — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n8ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-2c86a315@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:Astros Porcia Baseball 18-5 San Lorenzo Bears (Serie C baseball —
+  girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n9ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-0a8dd1e7@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+SUMMARY:Europa Baseball Club ASD 3-1 Astros Porcia Baseball (Serie C baseba
+ ll — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n10ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-73417e22@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:Astros Porcia Baseball 16-6 B.C. Conegliano (Serie C baseball — g
+ irone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n11ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-f88d77e5@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:Astros Porcia Baseball 13-10 Europa Baseball Club ASD (Serie C base
+ ball — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n12ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-2ccea098@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:Astros Porcia Baseball 1-13 White Sox Buttrio (Serie C baseball —
+  girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n13ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-1a3395eb@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:San Lorenzo Bears 13-12 Astros Porcia Baseball (Serie C baseball 
+ — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n14ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-c-girone-f-45dc78e1@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:Baseball Ponzano Veneto – Blu Fioi 10-7 Astros Porcia Baseball (S
+ erie C baseball — girone F (regular season))
+DESCRIPTION:Serie C baseball — girone F (regular season)\n15ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-c-girone-f
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-c-girone-f
+END:VEVENT
+END:VCALENDAR

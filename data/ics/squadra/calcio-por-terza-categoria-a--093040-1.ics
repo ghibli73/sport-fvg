@@ -1,0 +1,117 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · SAN QUIRINO · Terza Categoria — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-04c389e5@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:SAN QUIRINO 1-1 CALCIO ZOPPOLA (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n1ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-455497b1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:VIRTUS ROVEREDO Sq. B 0-0 SAN QUIRINO (Terza Categoria — girone A
+ )
+DESCRIPTION:Terza Categoria — girone A\n2ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-5799a320@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:CALCIO BANNIA 0-2 SAN QUIRINO (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n4ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-a4e955dc@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:SAN QUIRINO 2-2 SACILESE (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n5ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-3e3e14ab@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:RORAI PORCIA Sq. B 0-1 SAN QUIRINO (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-0eb34e6e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:SAN QUIRINO 5-1 CALCIO AVIANO Sq. B (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-3dc08e49@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SAP RAMUSCELLESE 1-2 SAN QUIRINO (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-5960de36@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:SAN QUIRINO 1-2 MORSANO AL TAGLIAMENTO (Terza Categoria — girone 
+ A)
+DESCRIPTION:Terza Categoria — girone A\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+END:VCALENDAR

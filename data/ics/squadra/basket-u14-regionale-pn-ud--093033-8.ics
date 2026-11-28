@@ -1,0 +1,327 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Torre Basket · Under 14 Under 14 Maschile Regionale 
+ — girone PN/UD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-2188b241@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T160000
+DTEND;TZID=Europe/Rome:20261031T180000
+SUMMARY:Azzano Basket 55-60 Torre Basket (Under 14 Maschile Regionale — g
+ irone PN/UD)
+LOCATION:Palazzetto Matteo Molent\, Azzano Decimo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n1ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-f9680866@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261113T191500
+DTEND;TZID=Europe/Rome:20261113T211500
+SUMMARY:Torre Basket 66-22 Humus Basket (Under 14 Maschile Regionale — gi
+ rone PN/UD)
+LOCATION:Palestra Istituto Flora\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-c4154389@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261122T103000
+DTEND;TZID=Europe/Rome:20261122T123000
+SUMMARY:New Brugnera Basket – Torre Basket (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palasport\, Brugnera
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-a6f063fa@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261211T190000
+DTEND;TZID=Europe/Rome:20261211T210000
+SUMMARY:Torre Basket – Libertas Fiume Veneto (Under 14 Maschile Regionale
+  — girone PN/UD)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-4cea621c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261214T183000
+DTEND;TZID=Europe/Rome:20261214T203000
+SUMMARY:BVO Annone – Torre Basket (Under 14 Maschile Regionale — girone
+  PN/UD)
+LOCATION:Palazzetto Dello Sport\, Annone Veneto
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-132834a7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261220T110000
+DTEND;TZID=Europe/Rome:20261220T130000
+SUMMARY:Majanese – Torre Basket (Under 14 Maschile Regionale — girone P
+ N/UD)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n8ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-771e6d0e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T163000
+DTEND;TZID=Europe/Rome:20270109T183000
+SUMMARY:Torre Basket – Pall. Codroipese (Under 14 Maschile Regionale — 
+ girone PN/UD)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n9ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-059c3869@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T110000
+DTEND;TZID=Europe/Rome:20270117T130000
+SUMMARY:3 S Basket Cordenons – Torre Basket (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n10ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-5d22f6fc@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270124T093000
+DTEND;TZID=Europe/Rome:20270124T113000
+SUMMARY:Olympia Rivignano – Torre Basket (Under 14 Maschile Regionale —
+  girone PN/UD)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n11ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-df873a1d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T093000
+DTEND;TZID=Europe/Rome:20270131T113000
+SUMMARY:Torre Basket – Pol. Casarsa (Under 14 Maschile Regionale — giro
+ ne PN/UD)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n12ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-02ed6b0c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270207T103000
+DTEND;TZID=Europe/Rome:20270207T123000
+SUMMARY:Gemona Basket – Torre Basket (Under 14 Maschile Regionale — gir
+ one PN/UD)
+LOCATION:Palestra Ipsia\, Gemona Del Friuli
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n13ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-94cd3ce1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270212T190000
+DTEND;TZID=Europe/Rome:20270212T210000
+SUMMARY:Torre Basket – Azzano Basket (Under 14 Maschile Regionale — gir
+ one PN/UD)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n14ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-9d4bd440@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270228T113000
+DTEND;TZID=Europe/Rome:20270228T133000
+SUMMARY:Humus Basket – Torre Basket (Under 14 Maschile Regionale — giro
+ ne PN/UD)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n16ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-ea998582@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270306T183000
+DTEND;TZID=Europe/Rome:20270306T203000
+SUMMARY:Torre Basket – New Brugnera Basket (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n17ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-de7e3bd4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270313T163000
+DTEND;TZID=Europe/Rome:20270313T183000
+SUMMARY:Collinare Basket – Torre Basket (Under 14 Maschile Regionale — 
+ girone PN/UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n18ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-150daca5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270321T113000
+DTEND;TZID=Europe/Rome:20270321T133000
+SUMMARY:Torre Basket – BVO Annone (Under 14 Maschile Regionale — girone
+  PN/UD)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n19ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-ce72a1a9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270403T170000
+DTEND;TZID=Europe/Rome:20270403T190000
+SUMMARY:Libertas Fiume Veneto – Torre Basket (Under 14 Maschile Regionale
+  — girone PN/UD)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n20ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-3fcdc544@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270411T163000
+DTEND;TZID=Europe/Rome:20270411T183000
+SUMMARY:Torre Basket – Majanese (Under 14 Maschile Regionale — girone P
+ N/UD)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n21ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-537f00c8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270417T153000
+DTEND;TZID=Europe/Rome:20270417T173000
+SUMMARY:Pall. Codroipese – Torre Basket (Under 14 Maschile Regionale — 
+ girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n22ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-707d065b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270424T163000
+DTEND;TZID=Europe/Rome:20270424T183000
+SUMMARY:Torre Basket – 3 S Basket Cordenons (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n23ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-cd6e02b9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270502T113000
+DTEND;TZID=Europe/Rome:20270502T133000
+SUMMARY:Torre Basket – Olympia Rivignano (Under 14 Maschile Regionale —
+  girone PN/UD)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n24ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-ab8d3ca9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270509T110000
+DTEND;TZID=Europe/Rome:20270509T130000
+SUMMARY:Pol. Casarsa – Torre Basket (Under 14 Maschile Regionale — giro
+ ne PN/UD)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n25ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-547fab06@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270515T170000
+DTEND;TZID=Europe/Rome:20270515T190000
+SUMMARY:Torre Basket – Gemona Basket (Under 14 Maschile Regionale — gir
+ one PN/UD)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n26ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+END:VCALENDAR

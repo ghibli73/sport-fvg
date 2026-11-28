@@ -1,0 +1,286 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Basket Perteole · Divisione Regionale 2 — girone U
+ D
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr2-ud-d01b0a1b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261017T200000
+DTEND;TZID=Europe/Rome:20261017T220000
+SUMMARY:Basket Perteole 58-64 Pall. Laipacco (Divisione Regionale 2 — gir
+ one UD)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Divisione Regionale 2 — girone UD\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-0c596e6f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261023T204500
+DTEND;TZID=Europe/Rome:20261023T224500
+SUMMARY:Collinare Basket 45-66 Basket Perteole (Divisione Regionale 2 — g
+ irone UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Divisione Regionale 2 — girone UD\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-aebf13cc@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261107T200000
+DTEND;TZID=Europe/Rome:20261107T220000
+SUMMARY:Basket Perteole 68-72 Olympia Rivignano (Divisione Regionale 2 — 
+ girone UD)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Divisione Regionale 2 — girone UD\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-e2704d4a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261113T204500
+DTEND;TZID=Europe/Rome:20261113T224500
+SUMMARY:Udine Basket Club 86-50 Basket Perteole (Divisione Regionale 2 — 
+ girone UD)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-d09aa742@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261121T200000
+DTEND;TZID=Europe/Rome:20261121T220000
+SUMMARY:Basket Perteole 67-59 Danieli Sporting Club (Divisione Regionale 2 
+ — girone UD)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Divisione Regionale 2 — girone UD\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-66411631@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T200000
+DTEND;TZID=Europe/Rome:20261128T220000
+SUMMARY:Basket Perteole – Pol. Libertas Cussignacco (Divisione Regionale 
+ 2 — girone UD)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Divisione Regionale 2 — girone UD\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-c1238483@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:Longobardi – Basket Perteole (Divisione Regionale 2 — girone UD
+ )
+LOCATION:Pal. Com. Martiri Liberta'\, Cividale Del Friuli
+DESCRIPTION:Divisione Regionale 2 — girone UD\n8ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-4c73dd55@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261212T200000
+DTEND;TZID=Europe/Rome:20261212T220000
+SUMMARY:Basket Perteole – C.U.S. Udine (Divisione Regionale 2 — girone 
+ UD)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Divisione Regionale 2 — girone UD\n9ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-53385aee@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261219T203000
+DTEND;TZID=Europe/Rome:20261219T223000
+SUMMARY:P.A.F. – Basket Perteole (Divisione Regionale 2 — girone UD)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Divisione Regionale 2 — girone UD\n10ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-a0dd5be3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270112T204500
+DTEND;TZID=Europe/Rome:20270112T224500
+SUMMARY:Basket Perteole – S.I.L. Pallacanestro Lignano (Divisione Regiona
+ le 2 — girone UD)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Divisione Regionale 2 — girone UD\n11ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-5eaa4a7a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270115T210000
+DTEND;TZID=Europe/Rome:20270115T230000
+SUMMARY:Pall. Laipacco – Basket Perteole (Divisione Regionale 2 — giron
+ e UD)
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n12ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-b774ce79@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270123T200000
+DTEND;TZID=Europe/Rome:20270123T220000
+SUMMARY:Basket Perteole – Collinare Basket (Divisione Regionale 2 — gir
+ one UD)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Divisione Regionale 2 — girone UD\n13ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-8d3dffe6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270206T183000
+DTEND;TZID=Europe/Rome:20270206T203000
+SUMMARY:Olympia Rivignano – Basket Perteole (Divisione Regionale 2 — gi
+ rone UD)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Divisione Regionale 2 — girone UD\n15ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-21aaf0eb@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270213T200000
+DTEND;TZID=Europe/Rome:20270213T220000
+SUMMARY:Basket Perteole – Udine Basket Club (Divisione Regionale 2 — gi
+ rone UD)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Divisione Regionale 2 — girone UD\n16ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-e0eda90f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270219T211500
+DTEND;TZID=Europe/Rome:20270219T231500
+SUMMARY:Danieli Sporting Club – Basket Perteole (Divisione Regionale 2 
+ — girone UD)
+LOCATION:Palestra 'Buttrio'\, Buttrio
+DESCRIPTION:Divisione Regionale 2 — girone UD\n17ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-7d27dbe2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270226T213000
+DTEND;TZID=Europe/Rome:20270226T233000
+SUMMARY:Pol. Libertas Cussignacco – Basket Perteole (Divisione Regionale 
+ 2 — girone UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n18ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-c315d843@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270306T200000
+DTEND;TZID=Europe/Rome:20270306T220000
+SUMMARY:Basket Perteole – Longobardi (Divisione Regionale 2 — girone UD
+ )
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Divisione Regionale 2 — girone UD\n19ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-d27a4f91@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270312T210000
+DTEND;TZID=Europe/Rome:20270312T230000
+SUMMARY:C.U.S. Udine – Basket Perteole (Divisione Regionale 2 — girone 
+ UD)
+LOCATION:Palazzetto 'Angelo G. Giumanin\, Udine
+DESCRIPTION:Divisione Regionale 2 — girone UD\n20ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-59c67745@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270320T200000
+DTEND;TZID=Europe/Rome:20270320T220000
+SUMMARY:Basket Perteole – P.A.F. (Divisione Regionale 2 — girone UD)
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Divisione Regionale 2 — girone UD\n21ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-ud-2cc7b819@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270402T210000
+DTEND;TZID=Europe/Rome:20270402T230000
+SUMMARY:S.I.L. Pallacanestro Lignano – Basket Perteole (Divisione Regiona
+ le 2 — girone UD)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Divisione Regionale 2 — girone UD\n22ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+END:VCALENDAR

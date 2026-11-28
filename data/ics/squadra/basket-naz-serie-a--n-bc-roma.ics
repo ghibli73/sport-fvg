@@ -1,0 +1,137 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · BC Roma · Serie A (LBA) — regular season
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-naz-serie-a-aafe631b@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Treviso 109-94 BC Roma (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n1ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-2a4cce1b@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:BC Roma 108-70 Tortona (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n2ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-21fd1bf3@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Maxima Roma 96-95 BC Roma (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n3ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-1d08c45c@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:BC Roma 98-104 Venezia (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n4ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-e08e836f@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Varese 110-103 BC Roma (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n5ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-ab9e6d59@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:BC Roma 103-90 Scafati (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n6ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-34682299@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Trieste 116-100 BC Roma (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n7ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-6bf48e33@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:BC Roma 88-89 Verona (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n8ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-974ce782@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Virtus Bologna 117-110 BC Roma (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n9ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-23709fd1@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:BC Roma – Trento (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n10ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,211 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · TNT PUB RUGGINE · Prima Divisione maschile CT Triest
+ e-Gorizia — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-8839ae64@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T193000
+DTEND;TZID=Europe/Rome:20261128T213000
+SUMMARY:SLOVOLLEY VAL GORIZIANA – TNT PUB RUGGINE (Prima Divisione maschi
+ le CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra Comunale S. Andrea\, Via San Michele 143\, GORIZIA GO
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-55e52b03@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:TNT PUB RUGGINE – SLOVOLLEY - NAS PRAPOR (Prima Divisione maschil
+ e CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n2
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-28e38770@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261207T210000
+DTEND;TZID=Europe/Rome:20261207T230000
+SUMMARY:INTREPIDA TEN03 – TNT PUB RUGGINE (Prima Divisione maschile CT Tr
+ ieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n3
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-139d3c9e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261218T203000
+DTEND;TZID=Europe/Rome:20261218T223000
+SUMMARY:TNT PUB RUGGINE – CLIMATRIESTE ALTURA (Prima Divisione maschile C
+ T Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n4
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-89681a91@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270108T204500
+DTEND;TZID=Europe/Rome:20270108T224500
+SUMMARY:TRE MERLI VOLLEY – TNT PUB RUGGINE (Prima Divisione maschile CT T
+ rieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n5
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-7ee36a5d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270115T203000
+DTEND;TZID=Europe/Rome:20270115T223000
+SUMMARY:VOLLEY CLUB TRIESTE – TNT PUB RUGGINE (Prima Divisione maschile C
+ T Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n6
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-c9d2d128@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270122T203000
+DTEND;TZID=Europe/Rome:20270122T223000
+SUMMARY:TNT PUB RUGGINE – C.U.S. TRIESTE A.S.D. (Prima Divisione maschile
+  CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n7
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-a4e8a9e8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270129T203000
+DTEND;TZID=Europe/Rome:20270129T223000
+SUMMARY:TNT PUB RUGGINE – SLOVOLLEY VAL GORIZIANA (Prima Divisione maschi
+ le CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n8
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-5079c201@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270211T210000
+DTEND;TZID=Europe/Rome:20270211T230000
+SUMMARY:SLOVOLLEY - NAS PRAPOR – TNT PUB RUGGINE (Prima Divisione maschil
+ e CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n9
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-abaccdcf@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270219T203000
+DTEND;TZID=Europe/Rome:20270219T223000
+SUMMARY:TNT PUB RUGGINE – INTREPIDA TEN03 (Prima Divisione maschile CT Tr
+ ieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ 0ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-3044ddd3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270224T210000
+DTEND;TZID=Europe/Rome:20270224T230000
+SUMMARY:CLIMATRIESTE ALTURA – TNT PUB RUGGINE (Prima Divisione maschile C
+ T Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ 1ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-f0dc22be@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270305T203000
+DTEND;TZID=Europe/Rome:20270305T223000
+SUMMARY:TNT PUB RUGGINE – TRE MERLI VOLLEY (Prima Divisione maschile CT T
+ rieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ 2ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-f9748fee@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270312T203000
+DTEND;TZID=Europe/Rome:20270312T223000
+SUMMARY:TNT PUB RUGGINE – VOLLEY CLUB TRIESTE (Prima Divisione maschile C
+ T Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ 3ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-f811e219@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270316T210000
+DTEND;TZID=Europe/Rome:20270316T230000
+SUMMARY:C.U.S. TRIESTE A.S.D. – TNT PUB RUGGINE (Prima Divisione maschile
+  CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ 4ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+END:VCALENDAR

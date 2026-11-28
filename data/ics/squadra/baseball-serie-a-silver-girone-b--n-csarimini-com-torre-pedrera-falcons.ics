@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CSARimini.com Torre Pedrera Falcons · Serie A Silver
+  baseball — girone B (regular season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-06f2063a@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260412
+SUMMARY:Gereon Engineering NBP Ronchi 5-4 CSARimini.com Torre Pedrera Falco
+ ns (Serie A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n2ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-87b551bf@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260412
+SUMMARY:Gereon Engineering NBP Ronchi 5-0 CSARimini.com Torre Pedrera Falco
+ ns (Serie A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n2ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-5d078b2a@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:IS Copy Junior Alpina 2-7 CSARimini.com Torre Pedrera Falcons (Seri
+ e A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n7ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-01343c43@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:IS Copy Junior Alpina 16-1 CSARimini.com Torre Pedrera Falcons (Ser
+ ie A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n7ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-5625c427@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:CSARimini.com Torre Pedrera Falcons 7-9 Alfa Sistemi Buttrio (Serie
+  A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n8ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-2855cedc@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:CSARimini.com Torre Pedrera Falcons 0-15 Alfa Sistemi Buttrio (Seri
+ e A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n8ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-268b5048@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:CSARimini.com Torre Pedrera Falcons 2-3 Gereon Engineering NBP Ronc
+ hi (Serie A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n13ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-59df5c99@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:CSARimini.com Torre Pedrera Falcons 0-14 Gereon Engineering NBP Ron
+ chi (Serie A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n13ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-343b785e@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
+SUMMARY:CSARimini.com Torre Pedrera Falcons 6-1 IS Copy Junior Alpina (Seri
+ e A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n18ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-a4e80c57@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
+SUMMARY:CSARimini.com Torre Pedrera Falcons 7-8 IS Copy Junior Alpina (Seri
+ e A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n18ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-2ce25c07@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:Alfa Sistemi Buttrio 11-8 CSARimini.com Torre Pedrera Falcons (Seri
+ e A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n19ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-f2bd49f8@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:Alfa Sistemi Buttrio 5-2 CSARimini.com Torre Pedrera Falcons (Serie
+  A Silver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n19ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,236 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Nuovo Basket 2000 · Under 13 Under 13 Maschile — g
+ irone PN A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-pn-a-07f3a765@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T173000
+DTEND;TZID=Europe/Rome:20261109T193000
+SUMMARY:Nuovo Basket 2000 109-34 Basket Maniago (Under 13 Maschile — giro
+ ne PN A)
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-74fe7b26@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T171500
+DTEND;TZID=Europe/Rome:20261116T191500
+SUMMARY:Nuovo Basket 2000 96-14 Sistema BK Pordenone (Under 13 Maschile —
+  girone PN A)
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-1fa2e618@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261124T170000
+DTEND;TZID=Europe/Rome:20261124T190000
+SUMMARY:Scuola Pallacanestro Porcia 2021 – Nuovo Basket 2000 (Under 13 Ma
+ schile — girone PN A)
+LOCATION:Pal. Sc. Medie "F. Cornacchia"\, Porcia
+DESCRIPTION:Under 13 Maschile — girone PN A\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-36489e2b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261130T170000
+DTEND;TZID=Europe/Rome:20261130T190000
+SUMMARY:Nuovo Basket 2000 – 3 S Basket Cordenons (Under 13 Maschile — g
+ irone PN A)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-aeeabfef@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261206T100000
+DTEND;TZID=Europe/Rome:20261206T120000
+SUMMARY:Basket Pasiano – Nuovo Basket 2000 (Under 13 Maschile — girone 
+ PN A)
+LOCATION:Palazzetto 'Roberto Marson'\, Pasiano Di Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-9b64c2b9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261214T171500
+DTEND;TZID=Europe/Rome:20261214T191500
+SUMMARY:Nuovo Basket 2000 – Roraigrande Basket (Under 13 Maschile — gir
+ one PN A)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-4601c27b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261220T110000
+DTEND;TZID=Europe/Rome:20261220T130000
+SUMMARY:Humus Basket – Nuovo Basket 2000 (Under 13 Maschile — girone PN
+  A)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 13 Maschile — girone PN A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-d4a19295@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270111T171500
+DTEND;TZID=Europe/Rome:20270111T191500
+SUMMARY:Nuovo Basket 2000 – Aviano Basket (Under 13 Maschile — girone P
+ N A)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-c4b9a991@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270116T150000
+DTEND;TZID=Europe/Rome:20270116T170000
+SUMMARY:3 S Basket Cordenons – Nuovo Basket 2000 (Under 13 Maschile — g
+ irone PN A)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 13 Maschile — girone PN A\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-40ce6724@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270123T110000
+DTEND;TZID=Europe/Rome:20270123T130000
+SUMMARY:Basket Maniago – Nuovo Basket 2000 (Under 13 Maschile — girone 
+ PN A)
+LOCATION:Palazzetto Dello Sport\, Maniago
+DESCRIPTION:Under 13 Maschile — girone PN A\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-41d1344d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T160000
+DTEND;TZID=Europe/Rome:20270131T180000
+SUMMARY:Sistema BK Pordenone – Nuovo Basket 2000 (Under 13 Maschile — g
+ irone PN A)
+LOCATION:Pallone Ex Tenis - Solo M.B.\, Roveredo In Piano
+DESCRIPTION:Under 13 Maschile — girone PN A\n12ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-44367f94@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270208T171500
+DTEND;TZID=Europe/Rome:20270208T191500
+SUMMARY:Nuovo Basket 2000 – Scuola Pallacanestro Porcia 2021 (Under 13 Ma
+ schile — girone PN A)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-e1c5b189@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270222T171500
+DTEND;TZID=Europe/Rome:20270222T191500
+SUMMARY:Nuovo Basket 2000 – Basket Pasiano (Under 13 Maschile — girone 
+ PN A)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-4c191271@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270227T160000
+DTEND;TZID=Europe/Rome:20270227T180000
+SUMMARY:Roraigrande Basket – Nuovo Basket 2000 (Under 13 Maschile — gir
+ one PN A)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n16ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-5d1feef0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270308T171500
+DTEND;TZID=Europe/Rome:20270308T191500
+SUMMARY:Nuovo Basket 2000 – Humus Basket (Under 13 Maschile — girone PN
+  A)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n17ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-fac02ca1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270313T150000
+DTEND;TZID=Europe/Rome:20270313T170000
+SUMMARY:Aviano Basket – Nuovo Basket 2000 (Under 13 Maschile — girone P
+ N A)
+LOCATION:Palazzetto Dello Sport\, Aviano
+DESCRIPTION:Under 13 Maschile — girone PN A\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+END:VCALENDAR

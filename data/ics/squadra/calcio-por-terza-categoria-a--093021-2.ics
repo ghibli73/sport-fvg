@@ -1,0 +1,107 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CALCIO BANNIA · Terza Categoria — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-1441cd49@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:MORSANO AL TAGLIAMENTO 1-2 CALCIO BANNIA (Terza Categoria — giron
+ e A)
+DESCRIPTION:Terza Categoria — girone A\n1ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-ab43b383@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:CALCIO BANNIA 1-1 TORRE Sq. B (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n2ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-d1256f10@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:NUOVA VILLANOVA F.C. 2-1 CALCIO BANNIA (Terza Categoria — girone 
+ A)
+DESCRIPTION:Terza Categoria — girone A\n3ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-5799a320@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:CALCIO BANNIA 0-2 SAN QUIRINO (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n4ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-477a9868@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:VIVARINA 3-1 CALCIO BANNIA (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n5ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-b21972e3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:CALCIO BANNIA 3-1 CALCIO ZOPPOLA (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-d7d96fad@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:VIRTUS ROVEREDO Sq. B 2-1 CALCIO BANNIA (Terza Categoria — girone
+  A)
+DESCRIPTION:Terza Categoria — girone A\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+END:VCALENDAR

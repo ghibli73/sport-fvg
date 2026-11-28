@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · FALCONSTAR BASKET · Under 19 Under 19 Maschile Gold 
+ — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-a-f28d3fb4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261005T184500
+DTEND;TZID=Europe/Rome:20261005T204500
+SUMMARY:Scuola Basket Miky Mian 39-96 FALCONSTAR BASKET (Under 19 Maschile 
+ Gold — girone A)
+LOCATION:Palestra Mazzini\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone A\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-430cb153@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261012T200000
+DTEND;TZID=Europe/Rome:20261012T220000
+SUMMARY:FALCONSTAR BASKET 73-65 DINAMO GORIZIA (Under 19 Maschile Gold — 
+ girone A)
+LOCATION:Palestra Polifunzionale\, Monfalcone
+DESCRIPTION:Under 19 Maschile Gold — girone A\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-af520146@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261019T200000
+DTEND;TZID=Europe/Rome:20261019T220000
+SUMMARY:FALCONSTAR BASKET 90-74 AUTOSCUOLA CORDENONESE CORDENONS (Under 19 
+ Maschile Gold — girone A)
+LOCATION:Palestra Polifunzionale\, Monfalcone
+DESCRIPTION:Under 19 Maschile Gold — girone A\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-fa132fa2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261028T200000
+DTEND;TZID=Europe/Rome:20261028T220000
+SUMMARY:FALCONSTAR BASKET 98-68 GEMONA BASKET (Under 19 Maschile Gold — g
+ irone A)
+LOCATION:Palestra Polifunzionale\, Monfalcone
+DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-9e494646@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T190000
+DTEND;TZID=Europe/Rome:20261104T210000
+SUMMARY:CHIURLO CERVIGNANO 59-63 FALCONSTAR BASKET (Under 19 Maschile Gold 
+ — girone A)
+LOCATION:Palasport Piazzale Lancieri d'Aosta\, Cervignano del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-5aa57205@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T200000
+DTEND;TZID=Europe/Rome:20261109T220000
+SUMMARY:FALCONSTAR BASKET 93-63 GP Engineering di Paron (Under 19 Maschile 
+ Gold — girone A)
+LOCATION:Palestra Polifunzionale\, Monfalcone
+DESCRIPTION:Under 19 Maschile Gold — girone A\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-ca44a7a1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261117T190000
+DTEND;TZID=Europe/Rome:20261117T210000
+SUMMARY:VIS SPILIMBERGO 42-93 FALCONSTAR BASKET (Under 19 Maschile Gold —
+  girone A)
+LOCATION:Palazzetto dello Sport\, Spilimbergo
+DESCRIPTION:Under 19 Maschile Gold — girone A\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-033e6f65@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261123T200000
+DTEND;TZID=Europe/Rome:20261123T220000
+SUMMARY:FALCONSTAR BASKET 101-65 VENEZIA GIULIA BASKETBALL (Under 19 Maschi
+ le Gold — girone A)
+LOCATION:Palestra Polifunzionale\, Monfalcone
+DESCRIPTION:Under 19 Maschile Gold — girone A\n8ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+END:VCALENDAR

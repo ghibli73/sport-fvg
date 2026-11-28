@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · U.S.D. Don Bosco · Under 13 Under 13 Femminile — g
+ irone GO/TS (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-821a457e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261112T193000
+DTEND;TZID=Europe/Rome:20261112T213000
+SUMMARY:U.S.D. Don Bosco 22-74 Pall. Interclub Muggia (Under 13 Femminile 
+ — girone GO/TS (prima fase))
+LOCATION:Pal. Oratorio "Don Bosco"\, Trieste
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-250ae0cf@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T120000
+DTEND;TZID=Europe/Rome:20261115T140000
+SUMMARY:US Alba Pallacanestro – U.S.D. Don Bosco (Under 13 Femminile — 
+ girone GO/TS (prima fase))
+LOCATION:Palasport "R. Plet"\, Cormons
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-a5f60d03@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261126T193000
+DTEND;TZID=Europe/Rome:20261126T213000
+SUMMARY:U.S.D. Don Bosco 22-56 Futurosa Nera (Under 13 Femminile — girone
+  GO/TS (prima fase))
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-7c629e0b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261128T163000
+DTEND;TZID=Europe/Rome:20261128T183000
+SUMMARY:Dinamo Gorizia – U.S.D. Don Bosco (Under 13 Femminile — girone 
+ GO/TS (prima fase))
+LOCATION:Palestra Comunale\, Romans D'Isonzo
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-57b8e97d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261210T193000
+DTEND;TZID=Europe/Rome:20261210T213000
+SUMMARY:U.S.D. Don Bosco – BIN Tigrotte (Under 13 Femminile — girone GO
+ /TS (prima fase))
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-f927221a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261222T171500
+DTEND;TZID=Europe/Rome:20261222T191500
+SUMMARY:Pall. Interclub Muggia – U.S.D. Don Bosco (Under 13 Femminile —
+  girone GO/TS (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n6ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-d9bff1b4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270114T193000
+DTEND;TZID=Europe/Rome:20270114T213000
+SUMMARY:U.S.D. Don Bosco – US Alba Pallacanestro (Under 13 Femminile — 
+ girone GO/TS (prima fase))
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n7ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-31197544@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T093000
+DTEND;TZID=Europe/Rome:20270117T113000
+SUMMARY:Futurosa Nera – U.S.D. Don Bosco (Under 13 Femminile — girone G
+ O/TS (prima fase))
+LOCATION:Pal. Comunale 'Luca Vascott\, Trieste
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n8ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-608dd468@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270128T193000
+DTEND;TZID=Europe/Rome:20270128T213000
+SUMMARY:U.S.D. Don Bosco – Dinamo Gorizia (Under 13 Femminile — girone 
+ GO/TS (prima fase))
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n9ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-femminile-go-ts-f113a636@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T094500
+DTEND;TZID=Europe/Rome:20270131T114500
+SUMMARY:BIN Tigrotte – U.S.D. Don Bosco (Under 13 Femminile — girone GO
+ /TS (prima fase))
+LOCATION:Pal. Liceo 'G. Oberdan'\, Trieste
+DESCRIPTION:Under 13 Femminile — girone GO/TS (prima fase)\n10ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u13-femminile-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-go-ts
+END:VEVENT
+END:VCALENDAR

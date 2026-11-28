@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Pol. Libertas Acli · Under 15 Under 15 Maschile Gold
+  — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u15-gold-23cbdec5@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261017T161500
+DTEND;TZID=Europe/Rome:20261017T181500
+SUMMARY:Pol. Libertas Acli 71-52 Longobardi (Under 15 Maschile Gold — gir
+ one unico)
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n1ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-66c424c2@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261027T173000
+DTEND;TZID=Europe/Rome:20261027T193000
+SUMMARY:ZKB Jadran 56-70 Pol. Libertas Acli (Under 15 Maschile Gold — gir
+ one unico)
+LOCATION:Palestra M. Ervatti\, Sgonico
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n2ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-5feabeae@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261031T161500
+DTEND;TZID=Europe/Rome:20261031T181500
+SUMMARY:Pol. Libertas Acli 62-57 Basket Gradisca (Under 15 Maschile Gold 
+ — girone unico)
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n3ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-70767d5c@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261107T180000
+DTEND;TZID=Europe/Rome:20261107T200000
+SUMMARY:Falconstar Basket 44-81 Pol. Libertas Acli (Under 15 Maschile Gold 
+ — girone unico)
+LOCATION:Palestra Polifunzionale\, Monfalcone
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n4ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-dc7ba224@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261114T161500
+DTEND;TZID=Europe/Rome:20261114T181500
+SUMMARY:Pol. Libertas Acli – Bachmann Tarvisio (Under 15 Maschile Gold 
+ — girone unico)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n5ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-f9b82c98@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261122T110000
+DTEND;TZID=Europe/Rome:20261122T130000
+SUMMARY:Feletto Basketball Academy – Pol. Libertas Acli (Under 15 Maschil
+ e Gold — girone unico)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n6ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-304fb038@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261205T173000
+DTEND;TZID=Europe/Rome:20261205T193000
+SUMMARY:Longobardi – Pol. Libertas Acli (Under 15 Maschile Gold — giron
+ e unico)
+LOCATION:Palestra Sc. 'Ipolito Nievo'\, Remanzacco
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n8ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-59bd26f4@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261212T161500
+DTEND;TZID=Europe/Rome:20261212T181500
+SUMMARY:Pol. Libertas Acli – ZKB Jadran (Under 15 Maschile Gold — giron
+ e unico)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n9ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-90a8b33c@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20261219T160000
+DTEND;TZID=Europe/Rome:20261219T180000
+SUMMARY:Basket Gradisca – Pol. Libertas Acli (Under 15 Maschile Gold — 
+ girone unico)
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n10ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-a6b55684@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20270113T184500
+DTEND;TZID=Europe/Rome:20270113T204500
+SUMMARY:Pol. Libertas Acli – Falconstar Basket (Under 15 Maschile Gold 
+ — girone unico)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n11ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-3b4e5548@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20270118T190000
+DTEND;TZID=Europe/Rome:20270118T210000
+SUMMARY:Bachmann Tarvisio – Pol. Libertas Acli (Under 15 Maschile Gold 
+ — girone unico)
+LOCATION:Palasport\, Tarvisio
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n12ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-gold-e183cfe6@zuin-fvg
+DTSTAMP:20261113T000000Z
+DTSTART;TZID=Europe/Rome:20270123T161500
+DTEND;TZID=Europe/Rome:20270123T181500
+SUMMARY:Pol. Libertas Acli – Feletto Basketball Academy (Under 15 Maschil
+ e Gold — girone unico)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Under 15 Maschile Gold — girone unico\n13ª giornata\nDati no
+ n ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/
+ #g-basket-u15-gold
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
+END:VEVENT
+END:VCALENDAR
