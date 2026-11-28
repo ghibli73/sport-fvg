@@ -62,6 +62,10 @@ jobs:
         run: python scripts/variazioni.py /tmp/risultati_prima.json "$OUT"
       - name: Controlli prima di pubblicare
         run: python scripts/risultati_tools.py check /tmp/risultati_prima.json "$OUT"
+      - name: Prova - controllo qualità dei dati (test_dati.py sul risultato di prova)
+        if: env.PROVA == 'true'
+        run: python scripts/test_dati.py --risultati "$OUT" --max 15 | head -60
+        continue-on-error: true
       - name: Avvisi dei risultati e delle partite spostate (ntfy.sh)
         run: |
           if [ "$PROVA" = "true" ]; then python scripts/avvisi.py /tmp/risultati_prima.json "$OUT" --prova
