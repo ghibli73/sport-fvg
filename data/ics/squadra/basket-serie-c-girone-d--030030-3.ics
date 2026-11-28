@@ -1,0 +1,366 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CENTRO SEDIA BASKET · Serie C maschile — girone D 
+ (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-6e4cdd71@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20260926T203000
+DTEND;TZID=Europe/Rome:20260926T223000
+SUMMARY:AKK BOR BASKET 78-86 CENTRO SEDIA BASKET (Serie C maschile — giro
+ ne D (prima fase))
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-29071f40@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261003T190000
+DTEND;TZID=Europe/Rome:20261003T210000
+SUMMARY:CENTRO SEDIA BASKET 82-74 POLISPORTIVA VENEZIA GIULIA (Serie C masc
+ hile — girone D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-13bacf84@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261010T190000
+DTEND;TZID=Europe/Rome:20261010T210000
+SUMMARY:CENTRO SEDIA BASKET 75-60 POL. LIBERTAS ACLI (Serie C maschile — 
+ girone D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-e679eeda@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261017T193000
+DTEND;TZID=Europe/Rome:20261017T213000
+SUMMARY:COLLINARE BASKET 73-60 CENTRO SEDIA BASKET (Serie C maschile — gi
+ rone D (prima fase))
+LOCATION:Pal. Sc. Elementare\, Fagagna
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-965df50e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261024T190000
+DTEND;TZID=Europe/Rome:20261024T210000
+SUMMARY:CENTRO SEDIA BASKET 72-87 G.S. VALLENONCELLO (Serie C maschile — 
+ girone D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-7feb1869@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:INTERMEK CORDENONS 53-43 CENTRO SEDIA BASKET (Serie C maschile — 
+ girone D (prima fase))
+LOCATION:Palazzetto dello Sport\, Cordenons
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-1e9f3af3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261107T190000
+DTEND;TZID=Europe/Rome:20261107T210000
+SUMMARY:CENTRO SEDIA BASKET 88-79 BASKETRIESTE (Serie C maschile — girone
+  D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-97e4ea6d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261114T200000
+DTEND;TZID=Europe/Rome:20261114T220000
+SUMMARY:FIDEMA GROUP RONCHI 70-85 CENTRO SEDIA BASKET (Serie C maschile —
+  girone D (prima fase))
+LOCATION:Palestra Polifunzionale\, Ronchi dei Legionari
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-c8704ed0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261121T190000
+DTEND;TZID=Europe/Rome:20261121T210000
+SUMMARY:CENTRO SEDIA BASKET 76-71 HUMUS BASKET (Serie C maschile — girone
+  D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-46d01002@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261205T190000
+DTEND;TZID=Europe/Rome:20261205T210000
+SUMMARY:CENTRO SEDIA BASKET – PALL. PORTOGRUARO (Serie C maschile — gir
+ one D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n11ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-1234c7be@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261212T183000
+DTEND;TZID=Europe/Rome:20261212T203000
+SUMMARY:VIS SPILIMBERGO – CENTRO SEDIA BASKET (Serie C maschile — giron
+ e D (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n12ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-ea7f1c69@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261219T190000
+DTEND;TZID=Europe/Rome:20261219T210000
+SUMMARY:CENTRO SEDIA BASKET – UEB Cividale B (Serie C maschile — girone
+  D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n13ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-e425c21a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261222T200000
+DTEND;TZID=Europe/Rome:20261222T220000
+SUMMARY:AMICI PALLACANESTRO UDINESE – CENTRO SEDIA BASKET (Serie C maschi
+ le — girone D (prima fase))
+LOCATION:Palasport 'Primo Carnera'\, Udine
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-f56e567d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270109T190000
+DTEND;TZID=Europe/Rome:20270109T210000
+SUMMARY:CENTRO SEDIA BASKET – AKK BOR BASKET (Serie C maschile — girone
+  D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n14ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-eba11bd6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270116T183000
+DTEND;TZID=Europe/Rome:20270116T203000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA – CENTRO SEDIA BASKET (Serie C maschi
+ le — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n15ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-c6350e03@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270123T193000
+DTEND;TZID=Europe/Rome:20270123T213000
+SUMMARY:POL. LIBERTAS ACLI – CENTRO SEDIA BASKET (Serie C maschile — gi
+ rone D (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n16ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-e1839f49@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270130T190000
+DTEND;TZID=Europe/Rome:20270130T210000
+SUMMARY:CENTRO SEDIA BASKET – COLLINARE BASKET (Serie C maschile — giro
+ ne D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n17ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-8d33fc53@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270206T190000
+DTEND;TZID=Europe/Rome:20270206T210000
+SUMMARY:G.S. VALLENONCELLO – CENTRO SEDIA BASKET (Serie C maschile — gi
+ rone D (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n18ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-61f9bf08@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270213T190000
+DTEND;TZID=Europe/Rome:20270213T210000
+SUMMARY:CENTRO SEDIA BASKET – INTERMEK CORDENONS (Serie C maschile — gi
+ rone D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n19ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-4f8adf23@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270219T203000
+DTEND;TZID=Europe/Rome:20270219T223000
+SUMMARY:BASKETRIESTE – CENTRO SEDIA BASKET (Serie C maschile — girone D
+  (prima fase))
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n20ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-163ab6ea@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270227T190000
+DTEND;TZID=Europe/Rome:20270227T210000
+SUMMARY:CENTRO SEDIA BASKET – FIDEMA GROUP RONCHI (Serie C maschile — g
+ irone D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n21ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-e8cd2865@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270306T200000
+DTEND;TZID=Europe/Rome:20270306T220000
+SUMMARY:HUMUS BASKET – CENTRO SEDIA BASKET (Serie C maschile — girone D
+  (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n22ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-82d798df@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270313T190000
+DTEND;TZID=Europe/Rome:20270313T210000
+SUMMARY:CENTRO SEDIA BASKET – AMICI PALLACANESTRO UDINESE (Serie C maschi
+ le — girone D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n23ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-bc7c7b80@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270321T173000
+DTEND;TZID=Europe/Rome:20270321T193000
+SUMMARY:PALL. PORTOGRUARO – CENTRO SEDIA BASKET (Serie C maschile — gir
+ one D (prima fase))
+LOCATION:Palazzetto Dello Sport\, Portogruaro
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n24ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-0cc7eda5@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270403T190000
+DTEND;TZID=Europe/Rome:20270403T210000
+SUMMARY:CENTRO SEDIA BASKET – VIS SPILIMBERGO (Serie C maschile — giron
+ e D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n25ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-51ec5777@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270409T210000
+DTEND;TZID=Europe/Rome:20270409T230000
+SUMMARY:UEB Cividale B – CENTRO SEDIA BASKET (Serie C maschile — girone
+  D (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n26ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+END:VCALENDAR

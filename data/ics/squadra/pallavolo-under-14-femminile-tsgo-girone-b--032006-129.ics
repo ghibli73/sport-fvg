@@ -1,0 +1,160 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ASDOFP AZZURRARDR FULMINE · Under 14 Under 14 femmin
+ ile CT Trieste-Gorizia — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-b-bb7646a3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T180000
+DTEND;TZID=Europe/Rome:20261121T200000
+SUMMARY:ASDOFP AZZURRARDR FULMINE 3-1 TIGERS PALLAVOLO RONCHI (Under 14 fem
+ minile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Liceo Oberdan\, TRIESTE TS
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone B\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-b-3ab8905e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T150000
+DTEND;TZID=Europe/Rome:20261128T170000
+SUMMARY:PIZZA CAVOUR FINCANTIERI – ASDOFP AZZURRARDR FULMINE (Under 14 fe
+ mminile CT Trieste-Gorizia — girone B)
+LOCATION:Palasport\, Via Rossini 48\, MONFALCONE GO
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone B\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-b-b84d1143@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T171500
+DTEND;TZID=Europe/Rome:20261212T191500
+SUMMARY:ASDOFP AZZURRARDR FULMINE – AZZURRA TOGETHER (Under 14 femminile 
+ CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone B\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-b-9f574371@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261216T184500
+DTEND;TZID=Europe/Rome:20261216T204500
+SUMMARY:ASDOFP AZZURRARDR FULMINE – SOCA MITTEL CO (Under 14 femminile CT
+  Trieste-Gorizia — girone B)
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone B\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-b-7917c4f5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270108T180000
+DTEND;TZID=Europe/Rome:20270108T200000
+SUMMARY:KONTOVEL-SOKOL – ASDOFP AZZURRARDR FULMINE (Under 14 femminile CT
+  Trieste-Gorizia — girone B)
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone B\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-b-9c11831a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270124T180000
+DTEND;TZID=Europe/Rome:20270124T200000
+SUMMARY:TIGERS PALLAVOLO RONCHI – ASDOFP AZZURRARDR FULMINE (Under 14 fem
+ minile CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone B\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-b-fa4d7509@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T171500
+DTEND;TZID=Europe/Rome:20270130T191500
+SUMMARY:ASDOFP AZZURRARDR FULMINE – PIZZA CAVOUR FINCANTIERI (Under 14 fe
+ mminile CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone B\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-b-eb818bcb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T160000
+DTEND;TZID=Europe/Rome:20270213T180000
+SUMMARY:AZZURRA TOGETHER – ASDOFP AZZURRARDR FULMINE (Under 14 femminile 
+ CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone B\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-b-c4f8e6fa@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270220T153000
+DTEND;TZID=Europe/Rome:20270220T173000
+SUMMARY:SOCA MITTEL CO – ASDOFP AZZURRARDR FULMINE (Under 14 femminile CT
+  Trieste-Gorizia — girone B)
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone B\n9ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-14-femminile-tsgo-girone-b-9f9b0f0d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270227T171500
+DTEND;TZID=Europe/Rome:20270227T191500
+SUMMARY:ASDOFP AZZURRARDR FULMINE – KONTOVEL-SOKOL (Under 14 femminile CT
+  Trieste-Gorizia — girone B)
+DESCRIPTION:Under 14 femminile CT Trieste-Gorizia — girone B\n10ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-14-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-14-femminile-ts
+ go-girone-b
+END:VEVENT
+END:VCALENDAR

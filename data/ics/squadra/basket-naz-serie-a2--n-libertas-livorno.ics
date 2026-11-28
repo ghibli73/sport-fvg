@@ -1,0 +1,160 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Libertas Livorno · Serie A2 — girone unico (regula
+ r season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-c6197493@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Libertas Livorno 63-62 Pistoia (Serie A2 — girone unico (regular 
+ season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-949a3e4d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Mestre 49-88 Libertas Livorno (Serie A2 — girone unico (regular s
+ eason))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-eeb87ec7@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:JuVi Cremona 73-75 Libertas Livorno (Serie A2 — girone unico (reg
+ ular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-97a0ef6b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Libertas Livorno 87-72 Urania Milano (Serie A2 — girone unico (re
+ gular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-f748e598@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Libertas Livorno 85-59 Fortitudo Bologna (Serie A2 — girone unico
+  (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-6029b58d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Forli 87-92 Libertas Livorno (Serie A2 — girone unico (regular se
+ ason))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-58aa8a25@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Vigevano 81-87 Libertas Livorno (Serie A2 — girone unico (regular
+  season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-a9c0fbf8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Libertas Livorno 76-63 Cento (Serie A2 — girone unico (regular se
+ ason))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-aa629b94@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Libertas Livorno 78-81 Brindisi (Serie A2 — girone unico (regular
+  season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-bd700f73@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Montecatini 58-78 Libertas Livorno (Serie A2 — girone unico (regu
+ lar season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-88056d4b@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:Basket Torino – Libertas Livorno (Serie A2 — girone unico (regu
+ lar season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n12ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+END:VCALENDAR

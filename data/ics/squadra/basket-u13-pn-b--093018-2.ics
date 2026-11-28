@@ -1,0 +1,208 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Basket Cordovado · Under 13 Under 13 Maschile — gi
+ rone PN B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-pn-b-7f9a2f34@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T164500
+DTEND;TZID=Europe/Rome:20261109T184500
+SUMMARY:Basket Cordovado 96-26 Pol. Casarsa (Under 13 Maschile — girone P
+ N B)
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 13 Maschile — girone PN B\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-b736a284@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T164500
+DTEND;TZID=Europe/Rome:20261116T184500
+SUMMARY:Basket Cordovado 66-58 Libertas Fiume Veneto (Under 13 Maschile —
+  girone PN B)
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 13 Maschile — girone PN B\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-c2f1d077@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261123T164500
+DTEND;TZID=Europe/Rome:20261123T184500
+SUMMARY:Basket Cordovado 55-57 Pall. Portogruaro (Under 13 Maschile — gir
+ one PN B)
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 13 Maschile — girone PN B\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-9e8f711a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261130T164500
+DTEND;TZID=Europe/Rome:20261130T184500
+SUMMARY:Basket Cordovado – Balonsesto (Under 13 Maschile — girone PN B)
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 13 Maschile — girone PN B\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-7296e3d5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261205T150000
+DTEND;TZID=Europe/Rome:20261205T170000
+SUMMARY:Polisportiva Concordia – Basket Cordovado (Under 13 Maschile — 
+ girone PN B)
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
+DESCRIPTION:Under 13 Maschile — girone PN B\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-c0f58fda@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261214T164500
+DTEND;TZID=Europe/Rome:20261214T184500
+SUMMARY:Basket Cordovado – Torre Basket (Under 13 Maschile — girone PN 
+ B)
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 13 Maschile — girone PN B\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-3aecc666@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261218T173000
+DTEND;TZID=Europe/Rome:20261218T193000
+SUMMARY:Azzano Basket – Basket Cordovado (Under 13 Maschile — girone PN
+  B)
+LOCATION:Palazzetto 'Matteo Molent'\, Azzano Decimo
+DESCRIPTION:Under 13 Maschile — girone PN B\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-2d7603ee@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270113T180000
+DTEND;TZID=Europe/Rome:20270113T200000
+SUMMARY:Libertas Fiume Veneto – Basket Cordovado (Under 13 Maschile — g
+ irone PN B)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 13 Maschile — girone PN B\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-a3a1ade0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270119T183000
+DTEND;TZID=Europe/Rome:20270119T203000
+SUMMARY:Pol. Casarsa – Basket Cordovado (Under 13 Maschile — girone PN 
+ B)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Under 13 Maschile — girone PN B\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-01222689@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270124T160000
+DTEND;TZID=Europe/Rome:20270124T180000
+SUMMARY:Pall. Portogruaro – Basket Cordovado (Under 13 Maschile — giron
+ e PN B)
+LOCATION:Palazzetto Dello Sport\, Portogruaro
+DESCRIPTION:Under 13 Maschile — girone PN B\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-cc09993c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270203T190000
+DTEND;TZID=Europe/Rome:20270203T210000
+SUMMARY:Balonsesto – Basket Cordovado (Under 13 Maschile — girone PN B)
+LOCATION:Palazzetto Comunale\, Sesto Al Reghena
+DESCRIPTION:Under 13 Maschile — girone PN B\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-aa6da409@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270203T190000
+DTEND;TZID=Europe/Rome:20270203T210000
+SUMMARY:Basket Cordovado – Polisportiva Concordia (Under 13 Maschile — 
+ girone PN B)
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 13 Maschile — girone PN B\n12ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-5b013089@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270219T191500
+DTEND;TZID=Europe/Rome:20270219T211500
+SUMMARY:Torre Basket – Basket Cordovado (Under 13 Maschile — girone PN 
+ B)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN B\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-b-3a792996@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270222T173000
+DTEND;TZID=Europe/Rome:20270222T193000
+SUMMARY:Basket Cordovado – Azzano Basket (Under 13 Maschile — girone PN
+  B)
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 13 Maschile — girone PN B\n14ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-b
+END:VEVENT
+END:VCALENDAR

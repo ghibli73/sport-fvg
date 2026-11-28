@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Crazy Sambonifacese · Serie A Silver baseball — gi
+ rone B (regular season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-18cc7476@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260405
+SUMMARY:Alfa Sistemi Buttrio 2-4 Crazy Sambonifacese (Serie A Silver baseba
+ ll — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n1ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-2b131b4d@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260405
+SUMMARY:Alfa Sistemi Buttrio 9-3 Crazy Sambonifacese (Serie A Silver baseba
+ ll — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n1ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-21bdcda0@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260510
+SUMMARY:Gereon Engineering NBP Ronchi 8-4 Crazy Sambonifacese (Serie A Silv
+ er baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n6ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-93761291@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260510
+SUMMARY:Gereon Engineering NBP Ronchi 15-7 Crazy Sambonifacese (Serie A Sil
+ ver baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n6ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-7c7a5ffb@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:Crazy Sambonifacese 5-4 IS Copy Junior Alpina (Serie A Silver baseb
+ all — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n11ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-fe644412@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:Crazy Sambonifacese 0-8 IS Copy Junior Alpina (Serie A Silver baseb
+ all — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n11ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-c1c84a88@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:Crazy Sambonifacese 5-6 Alfa Sistemi Buttrio (Serie A Silver baseba
+ ll — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n12ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-3ccb8fd3@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:Crazy Sambonifacese 1-6 Alfa Sistemi Buttrio (Serie A Silver baseba
+ ll — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n12ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-dbd0048e@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:Crazy Sambonifacese 5-2 Gereon Engineering NBP Ronchi (Serie A Silv
+ er baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n17ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-970d8c83@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:Crazy Sambonifacese 6-3 Gereon Engineering NBP Ronchi (Serie A Silv
+ er baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n17ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-275ee4ad@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:IS Copy Junior Alpina 6-7 Crazy Sambonifacese (Serie A Silver baseb
+ all — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n22ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-ff729270@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:IS Copy Junior Alpina 10-0 Crazy Sambonifacese (Serie A Silver base
+ ball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n22ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,236 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Scuola Basket Miky Mian · Under 17 Under 17 Maschile
+  Regionale — girone UD (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-7d35317b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T180000
+DTEND;TZID=Europe/Rome:20261027T200000
+SUMMARY:UDINE BASKET CLUB 58-56 Scuola Basket Miky Mian (Under 17 Maschile 
+ Regionale — girone UD (prima fase))
+LOCATION:Palestra Sc. Marconi\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-f213a659@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T193000
+DTEND;TZID=Europe/Rome:20261103T213000
+SUMMARY:POL. TRICESIMO 70-46 Scuola Basket Miky Mian (Under 17 Maschile Reg
+ ionale — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-b6351929@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T193000
+DTEND;TZID=Europe/Rome:20261107T213000
+SUMMARY:Scuola Basket Miky Mian 40-72 APU NEXT GEN (Under 17 Maschile Regio
+ nale — girone UD (prima fase))
+LOCATION:Palestra I.S. F. Tomadini\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-b8927f45@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T174500
+DTEND;TZID=Europe/Rome:20261114T194500
+SUMMARY:P.A.F. 83-66 Scuola Basket Miky Mian (Under 17 Maschile Regionale 
+ — girone UD (prima fase))
+LOCATION:Palestra scolastica\, Povoletto
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-4b47b0cb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261128T163000
+DTEND;TZID=Europe/Rome:20261128T183000
+SUMMARY:OLYMPIA RIVIGNANO – Scuola Basket Miky Mian (Under 17 Maschile Re
+ gionale — girone UD (prima fase))
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n6ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-357bd6a7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261205T193000
+DTEND;TZID=Europe/Rome:20261205T213000
+SUMMARY:Scuola Basket Miky Mian – MONTGOMERY HAMBURGER HOUSE (Under 17 Ma
+ schile Regionale — girone UD (prima fase))
+LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n7ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-71f31269@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261212T180000
+DTEND;TZID=Europe/Rome:20261212T200000
+SUMMARY:PALL. LAIPACCO – Scuola Basket Miky Mian (Under 17 Maschile Regio
+ nale — girone UD (prima fase))
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n8ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-36e25f1f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261216T190000
+DTEND;TZID=Europe/Rome:20261216T210000
+SUMMARY:POL LIB. PASIAN DI PRATO – Scuola Basket Miky Mian (Under 17 Masc
+ hile Regionale — girone UD (prima fase))
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n9ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-1fecc278@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T153000
+DTEND;TZID=Europe/Rome:20270109T173000
+SUMMARY:Scuola Basket Miky Mian – UDINE BASKET CLUB (Under 17 Maschile Re
+ gionale — girone UD (prima fase))
+LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n10ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-f3b453df@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270116T193000
+DTEND;TZID=Europe/Rome:20270116T213000
+SUMMARY:Scuola Basket Miky Mian – POL. TRICESIMO (Under 17 Maschile Regio
+ nale — girone UD (prima fase))
+LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n11ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-116b201d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270124T150000
+DTEND;TZID=Europe/Rome:20270124T170000
+SUMMARY:APU NEXT GEN – Scuola Basket Miky Mian (Under 17 Maschile Regiona
+ le — girone UD (prima fase))
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n12ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-98042a1b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270130T153000
+DTEND;TZID=Europe/Rome:20270130T173000
+SUMMARY:Scuola Basket Miky Mian – P.A.F. (Under 17 Maschile Regionale —
+  girone UD (prima fase))
+LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n13ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-ab0094ec@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270213T193000
+DTEND;TZID=Europe/Rome:20270213T213000
+SUMMARY:Scuola Basket Miky Mian – OLYMPIA RIVIGNANO (Under 17 Maschile Re
+ gionale — girone UD (prima fase))
+LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n15ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-a1516397@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270220T153000
+DTEND;TZID=Europe/Rome:20270220T173000
+SUMMARY:MONTGOMERY HAMBURGER HOUSE – Scuola Basket Miky Mian (Under 17 Ma
+ schile Regionale — girone UD (prima fase))
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n16ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-d3a38193@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270227T153000
+DTEND;TZID=Europe/Rome:20270227T173000
+SUMMARY:Scuola Basket Miky Mian – PALL. LAIPACCO (Under 17 Maschile Regio
+ nale — girone UD (prima fase))
+LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n17ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-ud-96bef4c5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270306T193000
+DTEND;TZID=Europe/Rome:20270306T213000
+SUMMARY:Scuola Basket Miky Mian – POL LIB. PASIAN DI PRATO (Under 17 Masc
+ hile Regionale — girone UD (prima fase))
+LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n18ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,209 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · DINAMO GORIZIA · Under 13 Under 13 Maschile — giro
+ ne GO/TS B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-81f826d5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T160000
+DTEND;TZID=Europe/Rome:20261104T180000
+SUMMARY:A.INT.BALONCESTO ISONTINA 54-65 DINAMO GORIZIA (Under 13 Maschile 
+ — girone GO/TS B)
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n1ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-26611a20@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T150000
+DTEND;TZID=Europe/Rome:20261108T170000
+SUMMARY:DINAMO GORIZIA 83-50 SERVOLANA (Under 13 Maschile — girone GO/TS 
+ B)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n2ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-4e6f40dc@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T193000
+DTEND;TZID=Europe/Rome:20261118T213000
+SUMMARY:DINAMO GORIZIA 101-31 SAN VITO TRIESTE (Under 13 Maschile — giron
+ e GO/TS B)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n3ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-8e2316ef@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261122T093000
+DTEND;TZID=Europe/Rome:20261122T113000
+SUMMARY:BASKETRIESTE 86-39 DINAMO GORIZIA (Under 13 Maschile — girone GO/
+ TS B)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n4ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-2ef8b606@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261128T153000
+DTEND;TZID=Europe/Rome:20261128T173000
+SUMMARY:DINAMO GORIZIA – BARCOLANA BASKET TRIESTE (Under 13 Maschile — 
+ girone GO/TS B)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n5ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-1126102d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261208T184500
+DTEND;TZID=Europe/Rome:20261208T204500
+SUMMARY:AKK BOR BASKET – DINAMO GORIZIA (Under 13 Maschile — girone GO/
+ TS B)
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n6ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-58576587@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261209T193000
+DTEND;TZID=Europe/Rome:20261209T213000
+SUMMARY:DINAMO GORIZIA – S.S. SD KONTOVEL (Under 13 Maschile — girone G
+ O/TS B)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n7ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-e0c0fe50@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261216T193000
+DTEND;TZID=Europe/Rome:20261216T213000
+SUMMARY:DINAMO GORIZIA – A.INT.BALONCESTO ISONTINA (Under 13 Maschile —
+  girone GO/TS B)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n8ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-5ea88398@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T110000
+DTEND;TZID=Europe/Rome:20270109T130000
+SUMMARY:SERVOLANA – DINAMO GORIZIA (Under 13 Maschile — girone GO/TS B)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n9ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-25af503d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270120T181500
+DTEND;TZID=Europe/Rome:20270120T201500
+SUMMARY:SAN VITO TRIESTE – DINAMO GORIZIA (Under 13 Maschile — girone G
+ O/TS B)
+LOCATION:Palazzetto 'Atleti Azzurri'\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n10ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-efa57649@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270123T153000
+DTEND;TZID=Europe/Rome:20270123T173000
+SUMMARY:DINAMO GORIZIA – BASKETRIESTE (Under 13 Maschile — girone GO/TS
+  B)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n11ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-d89b3711@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T150000
+DTEND;TZID=Europe/Rome:20270131T170000
+SUMMARY:BARCOLANA BASKET TRIESTE – DINAMO GORIZIA (Under 13 Maschile — 
+ girone GO/TS B)
+LOCATION:Pal. Comunale 'Luca Vascott\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n12ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-9934be48@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270203T193000
+DTEND;TZID=Europe/Rome:20270203T213000
+SUMMARY:DINAMO GORIZIA – AKK BOR BASKET (Under 13 Maschile — girone GO/
+ TS B)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n13ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-17bd39f7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270214T110000
+DTEND;TZID=Europe/Rome:20270214T130000
+SUMMARY:S.S. SD KONTOVEL – DINAMO GORIZIA (Under 13 Maschile — girone G
+ O/TS B)
+LOCATION:Palestra 'M.Ervatti'\, Sgonico
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n14ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+END:VCALENDAR

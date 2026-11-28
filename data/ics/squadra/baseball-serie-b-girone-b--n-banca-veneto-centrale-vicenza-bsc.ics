@@ -1,0 +1,172 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Banca Veneto Centrale Vicenza BSC · Serie B baseball
+  — girone B (regular season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-031e1162@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+SUMMARY:Banca Veneto Centrale Vicenza BSC 16-19 Sultan Allestimenti Navali 
+ Cervignano (Serie B baseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n3ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-576d92de@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:Banca Veneto Centrale Vicenza BSC 1-6 Rangers Redipuglia (Serie B b
+ aseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n6ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-c1e4e9e9@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:Banca Veneto Centrale Vicenza BSC 8-6 Rangers Redipuglia (Serie B b
+ aseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n6ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-9896783b@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:Banca Veneto Centrale Vicenza BSC 12-5 Sultan Allestimenti Navali C
+ ervignano (Serie B baseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n3ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-4184e492@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:Staranzano Ducks 17-4 Banca Veneto Centrale Vicenza BSC (Serie B ba
+ seball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n7ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-10b18469@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:Staranzano Ducks 2-1 Banca Veneto Centrale Vicenza BSC (Serie B bas
+ eball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n7ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-744c4f3c@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:Sultan Allestimenti Navali Cervignano 12-1 Banca Veneto Centrale Vi
+ cenza BSC (Serie B baseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n10ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-a35e3e41@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:Sultan Allestimenti Navali Cervignano 9-7 Banca Veneto Centrale Vic
+ enza BSC (Serie B baseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n10ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-a30b0982@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:Rangers Redipuglia 9-1 Banca Veneto Centrale Vicenza BSC (Serie B b
+ aseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n13ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-f9d499e5@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:Rangers Redipuglia 3-2 Banca Veneto Centrale Vicenza BSC (Serie B b
+ aseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n13ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-46e16b5c@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:Banca Veneto Centrale Vicenza BSC 5-12 Staranzano Ducks (Serie B ba
+ seball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n14ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-f73fc25f@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:Banca Veneto Centrale Vicenza BSC 1-12 Staranzano Ducks (Serie B ba
+ seball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n14ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+END:VCALENDAR

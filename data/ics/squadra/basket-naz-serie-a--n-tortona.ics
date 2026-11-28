@@ -1,0 +1,137 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Tortona · Serie A (LBA) — regular season
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-naz-serie-a-78911fd3@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Tortona 101-93 Verona (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n1ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-2a4cce1b@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:BC Roma 108-70 Tortona (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n2ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-5c763050@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Reggiana 93-86 Tortona (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n3ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-1d0e77e5@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Tortona 75-89 Maxima Roma (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n4ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-a9e51e1d@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Tortona 90-92 Basket Napoli (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n5ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-af71b4c6@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Udine 86-77 Tortona (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n6ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-37bd1e70@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Tortona 87-76 Treviso (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n7ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-d05bb724@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Cantu 92-106 Tortona (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n8ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-cccd053d@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Tortona 83-80 Olimpia Milano (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n9ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
+ t-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a-fa11cdce@zuin-fvg
+DTSTAMP:20261122T000000Z
+DTSTART;TZID=Europe/Rome:20261205T193000
+DTEND;TZID=Europe/Rome:20261205T213000
+SUMMARY:Venezia – Tortona (Serie A (LBA) — regular season)
+DESCRIPTION:Serie A (LBA) — regular season\n10ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-naz-serie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+END:VCALENDAR

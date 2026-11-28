@@ -1,0 +1,206 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · SERVOLANA · Under 13 Under 13 Maschile — girone GO
+ /TS B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-14c4ffb0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T110000
+DTEND;TZID=Europe/Rome:20261031T130000
+SUMMARY:SERVOLANA 50-62 BARCOLANA BASKET TRIESTE (Under 13 Maschile — gir
+ one GO/TS B)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n1ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-26611a20@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T150000
+DTEND;TZID=Europe/Rome:20261108T170000
+SUMMARY:DINAMO GORIZIA 83-50 SERVOLANA (Under 13 Maschile — girone GO/TS 
+ B)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n2ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-675e705d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T093000
+DTEND;TZID=Europe/Rome:20261115T113000
+SUMMARY:AKK BOR BASKET 94-46 SERVOLANA (Under 13 Maschile — girone GO/TS 
+ B)
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n3ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-976914f3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261129T160000
+DTEND;TZID=Europe/Rome:20261129T180000
+SUMMARY:A.INT.BALONCESTO ISONTINA – SERVOLANA (Under 13 Maschile — giro
+ ne GO/TS B)
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n5ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-d263fe1a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261205T153000
+DTEND;TZID=Europe/Rome:20261205T173000
+SUMMARY:SERVOLANA – BASKETRIESTE (Under 13 Maschile — girone GO/TS B)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n6ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-c3c71b99@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261213T110000
+DTEND;TZID=Europe/Rome:20261213T130000
+SUMMARY:SERVOLANA – S.S. SD KONTOVEL (Under 13 Maschile — girone GO/TS 
+ B)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n4ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-d2ac02c7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261216T181500
+DTEND;TZID=Europe/Rome:20261216T201500
+SUMMARY:SAN VITO TRIESTE – SERVOLANA (Under 13 Maschile — girone GO/TS 
+ B)
+LOCATION:Palazzetto 'Atleti Azzurri'\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n7ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-cb40884b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261220T171500
+DTEND;TZID=Europe/Rome:20261220T191500
+SUMMARY:BARCOLANA BASKET TRIESTE – SERVOLANA (Under 13 Maschile — giron
+ e GO/TS B)
+LOCATION:Pal. Comunale 'Luca Vascott\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n8ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-5ea88398@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T110000
+DTEND;TZID=Europe/Rome:20270109T130000
+SUMMARY:SERVOLANA – DINAMO GORIZIA (Under 13 Maschile — girone GO/TS B)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n9ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-83178024@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270116T153000
+DTEND;TZID=Europe/Rome:20270116T173000
+SUMMARY:SERVOLANA – AKK BOR BASKET (Under 13 Maschile — girone GO/TS B)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n10ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-fd762a18@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270124T110000
+DTEND;TZID=Europe/Rome:20270124T130000
+SUMMARY:S.S. SD KONTOVEL – SERVOLANA (Under 13 Maschile — girone GO/TS 
+ B)
+LOCATION:Palestra 'M.Ervatti'\, Sgonico
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n11ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-7aed4234@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270130T110000
+DTEND;TZID=Europe/Rome:20270130T130000
+SUMMARY:SERVOLANA – A.INT.BALONCESTO ISONTINA (Under 13 Maschile — giro
+ ne GO/TS B)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n12ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-d81edb25@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270207T093000
+DTEND;TZID=Europe/Rome:20270207T113000
+SUMMARY:BASKETRIESTE – SERVOLANA (Under 13 Maschile — girone GO/TS B)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n13ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-b04aebeb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270213T153000
+DTEND;TZID=Europe/Rome:20270213T173000
+SUMMARY:SERVOLANA – SAN VITO TRIESTE (Under 13 Maschile — girone GO/TS 
+ B)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n14ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+END:VCALENDAR

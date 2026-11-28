@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · MAGNANO IN RIVIERA · Under 15 Under 15 provinciali 
+ — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-udi-under-15-provinciali-a-1d918294@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:UNION MARTIGNACCO 6-0 MAGNANO IN RIVIERA (Under 15 provinciali — 
+ girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-15-provinciali-a-9b00fc0f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:MAGNANO IN RIVIERA 1-2 PALMARKET PAGNACCO (Under 15 provinciali —
+  girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-15-provinciali-a-2b4703b7@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:MAGNANO IN RIVIERA 0-5 TOLMEZZO CARNIA (Under 15 provinciali — gi
+ rone A)
+DESCRIPTION:Under 15 provinciali — girone A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-15-provinciali-a-545909a3@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:POLISPORTIVA CODROIPO 5-0 MAGNANO IN RIVIERA (Under 15 provinciali 
+ — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-15-provinciali-a-e3a12621@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:MAGNANO IN RIVIERA 1-5 COMUNALE LESTIZZA (Under 15 provinciali — 
+ girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-15-provinciali-a-ba7d7703@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:REANESE 4-0 MAGNANO IN RIVIERA (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-15-provinciali-a-e76e82d8@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:MAGNANO IN RIVIERA 0-1 OSOPPO RUSH SOCCER (Under 15 provinciali —
+  girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-15-provinciali-a-b7dd90f4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:MAGNANO IN RIVIERA 0-2 FIUME VENETO -BANNIA (Under 15 provinciali 
+ — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
+ -a
+END:VEVENT
+END:VCALENDAR

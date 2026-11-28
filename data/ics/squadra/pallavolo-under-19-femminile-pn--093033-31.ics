@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Union Volley Academy Pn · Under 19 Under 19 femminil
+ e CT Pordenone — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-pn-0641642b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T193000
+DTEND;TZID=Europe/Rome:20261108T213000
+SUMMARY:Union Volley Academy Pn 3-0 PORDENONE VOLLEY (Under 19 femminile CT
+  Pordenone — girone unico)
+LOCATION:Pal. Scuole Medie\, PORDENONE PN
+DESCRIPTION:Under 19 femminile CT Pordenone — girone unico\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-under-19-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-pn-7060ae81@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261117T191500
+DTEND;TZID=Europe/Rome:20261117T211500
+SUMMARY:CFV - TREDI 3-0 Union Volley Academy Pn (Under 19 femminile CT Pord
+ enone — girone unico)
+LOCATION:Palestra Scuola Elementare "Cesare Battisti"\, Fiume Veneto (PN)
+DESCRIPTION:Under 19 femminile CT Pordenone — girone unico\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-under-19-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-pn-e68a1c25@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T183000
+DTEND;TZID=Europe/Rome:20261129T203000
+SUMMARY:Union Volley Academy Pn – PSG FB TANKS (Under 19 femminile CT Por
+ denone — girone unico)
+LOCATION:Pal. Scuole Medie\, Via Vesalio\, PORDENONE PN
+DESCRIPTION:Under 19 femminile CT Pordenone — girone unico\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-under-19-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-pn-970ca1aa@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261206T183000
+DTEND;TZID=Europe/Rome:20261206T203000
+SUMMARY:Union Volley Academy Pn – OFF. ROMANIN GIS (Under 19 femminile CT
+  Pordenone — girone unico)
+DESCRIPTION:Under 19 femminile CT Pordenone — girone unico\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-under-19-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-pn-37fdd7ac@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T160000
+DTEND;TZID=Europe/Rome:20261220T180000
+SUMMARY:AUTOTORINO SPILIMBERGO – Union Volley Academy Pn (Under 19 femmin
+ ile CT Pordenone — girone unico)
+DESCRIPTION:Under 19 femminile CT Pordenone — girone unico\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-under-19-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-pn-f8af6bf6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T110000
+DTEND;TZID=Europe/Rome:20270110T130000
+SUMMARY:PORDENONE VOLLEY – Union Volley Academy Pn (Under 19 femminile CT
+  Pordenone — girone unico)
+DESCRIPTION:Under 19 femminile CT Pordenone — girone unico\n6ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-under-19-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-pn-3ed9d2cc@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T183000
+DTEND;TZID=Europe/Rome:20270117T203000
+SUMMARY:Union Volley Academy Pn – CFV - TREDI (Under 19 femminile CT Pord
+ enone — girone unico)
+DESCRIPTION:Under 19 femminile CT Pordenone — girone unico\n7ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-under-19-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-pn-75035e23@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270124T183000
+DTEND;TZID=Europe/Rome:20270124T203000
+SUMMARY:PSG FB TANKS – Union Volley Academy Pn (Under 19 femminile CT Por
+ denone — girone unico)
+DESCRIPTION:Under 19 femminile CT Pordenone — girone unico\n8ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-under-19-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-pn-aa958abf@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270201T204500
+DTEND;TZID=Europe/Rome:20270201T224500
+SUMMARY:OFF. ROMANIN GIS – Union Volley Academy Pn (Under 19 femminile CT
+  Pordenone — girone unico)
+DESCRIPTION:Under 19 femminile CT Pordenone — girone unico\n9ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-under-19-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-19-femminile-pn-51bb79b0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270214T183000
+DTEND;TZID=Europe/Rome:20270214T203000
+SUMMARY:Union Volley Academy Pn – AUTOTORINO SPILIMBERGO (Under 19 femmin
+ ile CT Pordenone — girone unico)
+DESCRIPTION:Under 19 femminile CT Pordenone — girone unico\n10ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-under-19-femminile-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-19-femminile-pn
+END:VEVENT
+END:VCALENDAR

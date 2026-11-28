@@ -1,0 +1,223 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · RORAIGRANDE · Under 17 Under 17 Maschile Regionale 
+ — girone PN (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-7d3a9224@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261025T160000
+DTEND;TZID=Europe/Rome:20261025T180000
+SUMMARY:RORAIGRANDE 34-84 BASKET MANIAGO (Under 17 Maschile Regionale — g
+ irone PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-8666c35b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:RORAIGRANDE 49-56 TORRE BASKET (Under 17 Maschile Regionale — gir
+ one PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-db14b82e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T100000
+DTEND;TZID=Europe/Rome:20261115T120000
+SUMMARY:PALL. PORTOGRUARO 46-41 RORAIGRANDE (Under 17 Maschile Regionale 
+ — girone PN (prima fase))
+LOCATION:Palazzetto dello Sport\, Portogruaro
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-681e9dfe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T193000
+DTEND;TZID=Europe/Rome:20261125T213000
+SUMMARY:RORAIGRANDE 49-83 LIBERTAS FIUME VENETO (Under 17 Maschile Regional
+ e — girone PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n5ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-51fa792f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261128T160000
+DTEND;TZID=Europe/Rome:20261128T180000
+SUMMARY:RORAIGRANDE – NUOVA PALLACANESTRO SANVITESE (Under 17 Maschile Re
+ gionale — girone PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n6ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-61255c10@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261206T183000
+DTEND;TZID=Europe/Rome:20261206T203000
+SUMMARY:HUMUS BASKET – RORAIGRANDE (Under 17 Maschile Regionale — giron
+ e PN (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n7ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-d98f09d6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261219T183000
+DTEND;TZID=Europe/Rome:20261219T203000
+SUMMARY:BVO ANNONE – RORAIGRANDE (Under 17 Maschile Regionale — girone 
+ PN (prima fase))
+LOCATION:Palazzetto Dello Sport\, Annone Veneto
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n9ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-a5195d3f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270110T113000
+DTEND;TZID=Europe/Rome:20270110T133000
+SUMMARY:BASKET MANIAGO – RORAIGRANDE (Under 17 Maschile Regionale — gir
+ one PN (prima fase))
+LOCATION:Palazzetto Dello Sport\, Maniago
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n10ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-1e2bd518@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270116T163000
+DTEND;TZID=Europe/Rome:20270116T183000
+SUMMARY:RORAIGRANDE – NEW BRUGNERA BASKET (Under 17 Maschile Regionale 
+ — girone PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n11ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-2734db14@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270120T191500
+DTEND;TZID=Europe/Rome:20270120T211500
+SUMMARY:TORRE BASKET – RORAIGRANDE (Under 17 Maschile Regionale — giron
+ e PN (prima fase))
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n12ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-08626c43@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270128T190000
+DTEND;TZID=Europe/Rome:20270128T210000
+SUMMARY:NEW BRUGNERA BASKET – RORAIGRANDE (Under 17 Maschile Regionale 
+ — girone PN (prima fase))
+LOCATION:Palasport\, Brugnera
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-5adf3382@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270207T110000
+DTEND;TZID=Europe/Rome:20270207T130000
+SUMMARY:LIBERTAS FIUME VENETO – RORAIGRANDE (Under 17 Maschile Regionale 
+ — girone PN (prima fase))
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n14ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-c88b8a64@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270214T180000
+DTEND;TZID=Europe/Rome:20270214T200000
+SUMMARY:NUOVA PALLACANESTRO SANVITESE – RORAIGRANDE (Under 17 Maschile Re
+ gionale — girone PN (prima fase))
+LOCATION:Casa Della Gioventu'\, San Vito Al Tagliamento
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n15ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-e3a53e23@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270220T160000
+DTEND;TZID=Europe/Rome:20270220T180000
+SUMMARY:RORAIGRANDE – HUMUS BASKET (Under 17 Maschile Regionale — giron
+ e PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n16ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-f6ed59fd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270306T160000
+DTEND;TZID=Europe/Rome:20270306T180000
+SUMMARY:RORAIGRANDE – BVO ANNONE (Under 17 Maschile Regionale — girone 
+ PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n18ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+END:VCALENDAR

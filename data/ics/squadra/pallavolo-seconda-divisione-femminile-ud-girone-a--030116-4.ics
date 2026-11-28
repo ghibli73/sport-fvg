@@ -1,0 +1,241 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CSI TARCENTO AZZURRA · Seconda Divisione femminile C
+ T Udine — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-4a728a0c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261025T180000
+DTEND;TZID=Europe/Rome:20261025T200000
+SUMMARY:ART_CENTO VOLLEY 0-3 CSI TARCENTO AZZURRA (Seconda Divisione femmin
+ ile CT Udine — girone A)
+LOCATION:Palasport\, TARCENTO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n1ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-638edf40@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261106T201500
+DTEND;TZID=Europe/Rome:20261106T221500
+SUMMARY:CSI TARCENTO AZZURRA 1-3 FVG VOLLEY ACADEMY (Seconda Divisione femm
+ inile CT Udine — girone A)
+LOCATION:Palestra Scuole Medie\, TARCENTO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-a1a0a2a1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261111T203000
+DTEND;TZID=Europe/Rome:20261111T223000
+SUMMARY:ROJALKENNEDY ASSICOOP 3-2 CSI TARCENTO AZZURRA (Seconda Divisione f
+ emminile CT Udine — girone A)
+LOCATION:Palestra Comunale\, Remugnano REANA DEL ROIALE UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-72a453cb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T180000
+DTEND;TZID=Europe/Rome:20261122T200000
+SUMMARY:INGEGNI PASIAN DI PRATO 3-0 CSI TARCENTO AZZURRA (Seconda Divisione
+  femminile CT Udine — girone A)
+LOCATION:Palestra ENAIP\, Pasian di Prato PASIAN DI PRATO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-43481b63@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261127T201500
+DTEND;TZID=Europe/Rome:20261127T221500
+SUMMARY:CSI TARCENTO AZZURRA 3-0 AURORA VOLLEY UDINE (Seconda Divisione fem
+ minile CT Udine — girone A)
+LOCATION:Palestra Scuole Medie\, Via Taviele\, TARCENTO UD
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-e72d8860@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261211T201500
+DTEND;TZID=Europe/Rome:20261211T221500
+SUMMARY:CSI TARCENTO AZZURRA – ASFJR 1971 (Seconda Divisione femminile CT
+  Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n7ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-742c0663@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T170000
+DTEND;TZID=Europe/Rome:20261220T190000
+SUMMARY:PALLAVOLO BUIA – CSI TARCENTO AZZURRA (Seconda Divisione femminil
+ e CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n8ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-ac776f2d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270115T201500
+DTEND;TZID=Europe/Rome:20270115T221500
+SUMMARY:CSI TARCENTO AZZURRA – APD CASSACCO (Seconda Divisione femminile 
+ CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n9ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-c56b4555@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270122T201500
+DTEND;TZID=Europe/Rome:20270122T221500
+SUMMARY:CSI TARCENTO AZZURRA – ART_CENTO VOLLEY (Seconda Divisione femmin
+ ile CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n10ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-f43f1dfb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T200000
+DTEND;TZID=Europe/Rome:20270130T220000
+SUMMARY:FVG VOLLEY ACADEMY – CSI TARCENTO AZZURRA (Seconda Divisione femm
+ inile CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n11ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-35bb08d1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270205T201500
+DTEND;TZID=Europe/Rome:20270205T221500
+SUMMARY:CSI TARCENTO AZZURRA – ROJALKENNEDY ASSICOOP (Seconda Divisione f
+ emminile CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n12ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-b56831ea@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270212T201500
+DTEND;TZID=Europe/Rome:20270212T221500
+SUMMARY:CSI TARCENTO AZZURRA – INGEGNI PASIAN DI PRATO (Seconda Divisione
+  femminile CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n13ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-67dc904a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270220T200000
+DTEND;TZID=Europe/Rome:20270220T220000
+SUMMARY:AURORA VOLLEY UDINE – CSI TARCENTO AZZURRA (Seconda Divisione fem
+ minile CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n14ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-379c0729@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270306T180000
+DTEND;TZID=Europe/Rome:20270306T200000
+SUMMARY:ASFJR 1971 – CSI TARCENTO AZZURRA (Seconda Divisione femminile CT
+  Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n16ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-f076970a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270312T201500
+DTEND;TZID=Europe/Rome:20270312T221500
+SUMMARY:CSI TARCENTO AZZURRA – PALLAVOLO BUIA (Seconda Divisione femminil
+ e CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n17ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-seconda-divisione-femminile-ud-girone-a-c92bf8e1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270319T210000
+DTEND;TZID=Europe/Rome:20270319T230000
+SUMMARY:APD CASSACCO – CSI TARCENTO AZZURRA (Seconda Divisione femminile 
+ CT Udine — girone A)
+DESCRIPTION:Seconda Divisione femminile CT Udine — girone A\n18ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-seconda-divisione-femminile-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-seconda-divisione-fem
+ minile-ud-girone-a
+END:VEVENT
+END:VCALENDAR

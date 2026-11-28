@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Polisportiva Concordia · Under 19 Under 19 Maschile 
+ Regionale — girone PN A (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-d34b7cc9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:New Brugnera Basket 114-50 Polisportiva Concordia (Under 19 Maschil
+ e Regionale — girone PN A (prima fase))
+LOCATION:Palasport Via Del Mas\, Brugnera
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n1ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-cf070a74@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T191500
+DTEND;TZID=Europe/Rome:20261118T211500
+SUMMARY:Balonsesto 123-34 Polisportiva Concordia (Under 19 Maschile Regiona
+ le — girone PN A (prima fase))
+LOCATION:Palazzetto Comunale\, Sesto al Reghena
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n2ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-3afc1b4b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261124T193000
+DTEND;TZID=Europe/Rome:20261124T213000
+SUMMARY:Polisportiva Concordia – Libertas Fiume Veneto (Under 19 Maschile
+  Regionale — girone PN A (prima fase))
+LOCATION:Pal.tto Sport "L. Valerio"\, Concordia Sagittaria
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n3ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-2d339aef@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261129T153000
+DTEND;TZID=Europe/Rome:20261129T173000
+SUMMARY:Pol. Casarsa – Polisportiva Concordia (Under 19 Maschile Regional
+ e — girone PN A (prima fase))
+LOCATION:(Pordenone)
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n4ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-965df33d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261209T193000
+DTEND;TZID=Europe/Rome:20261209T213000
+SUMMARY:Polisportiva Concordia – Pall. Portogruaro (Under 19 Maschile Reg
+ ionale — girone PN A (prima fase))
+LOCATION:Pal.Tto Sport "L. Valerio"\, Concordia Sagittaria
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n5ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-297cb14f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270112T193000
+DTEND;TZID=Europe/Rome:20270112T213000
+SUMMARY:Polisportiva Concordia – New Brugnera Basket (Under 19 Maschile R
+ egionale — girone PN A (prima fase))
+LOCATION:Pal.Tto Sport "L. Valerio"\, Concordia Sagittaria
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n6ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-16d6794e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270119T193000
+DTEND;TZID=Europe/Rome:20270119T213000
+SUMMARY:Polisportiva Concordia – Balonsesto (Under 19 Maschile Regionale 
+ — girone PN A (prima fase))
+LOCATION:Pal.Tto Sport "L. Valerio"\, Concordia Sagittaria
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n7ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-515feb11@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270122T200000
+DTEND;TZID=Europe/Rome:20270122T220000
+SUMMARY:Libertas Fiume Veneto – Polisportiva Concordia (Under 19 Maschile
+  Regionale — girone PN A (prima fase))
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n8ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-7aeef565@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270202T193000
+DTEND;TZID=Europe/Rome:20270202T213000
+SUMMARY:Polisportiva Concordia – Pol. Casarsa (Under 19 Maschile Regional
+ e — girone PN A (prima fase))
+LOCATION:Pal.Tto Sport "L. Valerio"\, Concordia Sagittaria
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n9ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-5b6c8ce1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270208T201500
+DTEND;TZID=Europe/Rome:20270208T221500
+SUMMARY:Pall. Portogruaro – Polisportiva Concordia (Under 19 Maschile Reg
+ ionale — girone PN A (prima fase))
+LOCATION:Portogruaro - (Venezia)
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n10ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+END:VCALENDAR

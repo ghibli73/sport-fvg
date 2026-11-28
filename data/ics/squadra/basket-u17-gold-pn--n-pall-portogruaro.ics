@@ -1,0 +1,171 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PALL. PORTOGRUARO · Under 17 Under 17 Maschile Gold 
+ — girone PN (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-1961930d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261017T163000
+DTEND;TZID=Europe/Rome:20261017T183000
+SUMMARY:RORAIGRANDE 55-59 PALL. PORTOGRUARO (Under 17 Maschile Gold — gir
+ one PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n1ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-7d6da6ba@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261025T103000
+DTEND;TZID=Europe/Rome:20261025T123000
+SUMMARY:PALL. PORTOGRUARO 65-51 BASKET CORDOVADO (Under 17 Maschile Gold 
+ — girone PN (prima fase))
+LOCATION:Palazzetto dello Sport\, Portogruaro
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-0f9e0f09@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T103000
+DTEND;TZID=Europe/Rome:20261101T123000
+SUMMARY:PALL. PORTOGRUARO 71-46 VIS SPILIMBERGO (Under 17 Maschile Gold —
+  girone PN (prima fase))
+LOCATION:Palazzetto dello Sport\, Portogruaro
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n3ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-68695514@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T103000
+DTEND;TZID=Europe/Rome:20261108T123000
+SUMMARY:PALL. PORTOGRUARO 60-71 NUOVO BASKET 2000 (Under 17 Maschile Gold 
+ — girone PN (prima fase))
+LOCATION:Palazzetto dello Sport\, Portogruaro
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-630d6fc6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:G.S. VALLENONCELLO 61-78 PALL. PORTOGRUARO (Under 17 Maschile Gold 
+ — girone PN (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-734d8109@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261202T210000
+DTEND;TZID=Europe/Rome:20261202T230000
+SUMMARY:HUMUS BASKET – PALL. PORTOGRUARO (Under 17 Maschile Gold — giro
+ ne PN (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n7ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-1491f188@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261206T103000
+DTEND;TZID=Europe/Rome:20261206T123000
+SUMMARY:PALL. PORTOGRUARO – RORAIGRANDE (Under 17 Maschile Gold — giron
+ e PN (prima fase))
+LOCATION:Palazzetto Dello Sport\, Portogruaro
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n8ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-04f5f525@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261217T190000
+DTEND;TZID=Europe/Rome:20261217T210000
+SUMMARY:VIS SPILIMBERGO – PALL. PORTOGRUARO (Under 17 Maschile Gold — g
+ irone PN (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n10ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-44317658@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T173000
+DTEND;TZID=Europe/Rome:20270109T193000
+SUMMARY:NUOVO BASKET 2000 – PALL. PORTOGRUARO (Under 17 Maschile Gold —
+  girone PN (prima fase))
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n11ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-2a2785e1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T103000
+DTEND;TZID=Europe/Rome:20270117T123000
+SUMMARY:PALL. PORTOGRUARO – G.S. VALLENONCELLO (Under 17 Maschile Gold 
+ — girone PN (prima fase))
+LOCATION:Palazzetto Dello Sport\, Portogruaro
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n12ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-c1f45cdd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T103000
+DTEND;TZID=Europe/Rome:20270131T123000
+SUMMARY:PALL. PORTOGRUARO – HUMUS BASKET (Under 17 Maschile Gold — giro
+ ne PN (prima fase))
+LOCATION:Palazzetto Dello Sport\, Portogruaro
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n14ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,105 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · AUDAX SANROCCHESE · Terza Categoria — girone D
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-43dfc75e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:AUDAX SANROCCHESE 1-2 CAMPANELLE (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n2ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-f619904a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:MARIANO 0-3 AUDAX SANROCCHESE (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n3ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-cc884417@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:MORARO 3-2 AUDAX SANROCCHESE (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n5ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-6ca7967f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:AUDAX SANROCCHESE 1-2 PRIMOREC (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-6cd396cd@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:AUDAX SANROCCHESE 1-0 VILLESSE CALCIO (Terza Categoria — girone D
+ )
+DESCRIPTION:Terza Categoria — girone D\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-30549253@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:FARRA CALCIO 2-1 AUDAX SANROCCHESE (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-84518373@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:AUDAX SANROCCHESE 0-2 GRADESE CALCIO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+END:VCALENDAR

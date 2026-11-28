@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · G.S. VALLENONCELLO · Under 17 Under 17 Maschile Gold
+  — girone PN (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-924495eb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261015T173000
+DTEND;TZID=Europe/Rome:20261015T193000
+SUMMARY:NUOVO BASKET 2000 96-61 G.S. VALLENONCELLO (Under 17 Maschile Gold 
+ — girone PN (prima fase))
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n1ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-7a9b42b9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261025T110000
+DTEND;TZID=Europe/Rome:20261025T130000
+SUMMARY:G.S. VALLENONCELLO 53-59 RORAIGRANDE (Under 17 Maschile Gold — gi
+ rone PN (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n2ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-65a639ec@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T210000
+DTEND;TZID=Europe/Rome:20261111T230000
+SUMMARY:HUMUS BASKET 82-61 G.S. VALLENONCELLO (Under 17 Maschile Gold — g
+ irone PN (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n4ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-630d6fc6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:G.S. VALLENONCELLO 61-78 PALL. PORTOGRUARO (Under 17 Maschile Gold 
+ — girone PN (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n5ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-c9aa49aa@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T193000
+DTEND;TZID=Europe/Rome:20261125T213000
+SUMMARY:BASKET CORDOVADO 81-75 G.S. VALLENONCELLO (Under 17 Maschile Gold 
+ — girone PN (prima fase))
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n6ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-ba0f2096@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:G.S. VALLENONCELLO – VIS SPILIMBERGO (Under 17 Maschile Gold — 
+ girone PN (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n7ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-db416de6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261213T113000
+DTEND;TZID=Europe/Rome:20261213T133000
+SUMMARY:RORAIGRANDE – G.S. VALLENONCELLO (Under 17 Maschile Gold — giro
+ ne PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n9ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-53742152@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261220T110000
+DTEND;TZID=Europe/Rome:20261220T130000
+SUMMARY:G.S. VALLENONCELLO – NUOVO BASKET 2000 (Under 17 Maschile Gold 
+ — girone PN (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n8ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-0c99e411@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270108T184500
+DTEND;TZID=Europe/Rome:20270108T204500
+SUMMARY:G.S. VALLENONCELLO – HUMUS BASKET (Under 17 Maschile Gold — gir
+ one PN (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n11ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-2a2785e1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T103000
+DTEND;TZID=Europe/Rome:20270117T123000
+SUMMARY:PALL. PORTOGRUARO – G.S. VALLENONCELLO (Under 17 Maschile Gold 
+ — girone PN (prima fase))
+LOCATION:Palazzetto Dello Sport\, Portogruaro
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n12ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-db60a3d7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270124T110000
+DTEND;TZID=Europe/Rome:20270124T130000
+SUMMARY:G.S. VALLENONCELLO – BASKET CORDOVADO (Under 17 Maschile Gold —
+  girone PN (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n13ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-pn-c35dd30e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270129T190000
+DTEND;TZID=Europe/Rome:20270129T210000
+SUMMARY:VIS SPILIMBERGO – G.S. VALLENONCELLO (Under 17 Maschile Gold — 
+ girone PN (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Under 17 Maschile Gold — girone PN (prima fase)\n14ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-basket-u17-gold-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-pn
+END:VEVENT
+END:VCALENDAR

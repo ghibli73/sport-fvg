@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Gas Più Energie srl · Under 15 Under 15 Maschile Ec
+ cellenza — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-371abb2e@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261010T183000
+DTEND;TZID=Europe/Rome:20261010T203000
+SUMMARY:Gas Più Energie srl 52-73 Udine Basket Club Pallacanestro (Under 1
+ 5 Maschile Eccellenza — girone unico)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n2ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-ceb618ce@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261017T170000
+DTEND;TZID=Europe/Rome:20261017T190000
+SUMMARY:Dinamo Gorizia 62-94 Gas Più Energie srl (Under 15 Maschile Eccell
+ enza — girone unico)
+LOCATION:Centro Stella Matutina\, Gorizia
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n3ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-a162dc62@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261025T113000
+DTEND;TZID=Europe/Rome:20261025T133000
+SUMMARY:Gas Più Energie srl 70-73 O.F.P. Azzurra R.D.R. Basket Trieste (Un
+ der 15 Maschile Eccellenza — girone unico)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n4ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-2a150555@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261031T193000
+DTEND;TZID=Europe/Rome:20261031T213000
+SUMMARY:BCC Pordenonese Monsile 86-77 Gas Più Energie srl (Under 15 Maschi
+ le Eccellenza — girone unico)
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n5ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-635f110f@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:Gas Più Energie srl 45-87 APU Next Gen (Under 15 Maschile Eccellen
+ za — girone unico)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n6ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-8f81e909@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261114T160000
+DTEND;TZID=Europe/Rome:20261114T180000
+SUMMARY:Pallacanestro Trieste 2004 – Gas Più Energie srl (Under 15 Masch
+ ile Eccellenza — girone unico)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n7ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-645cbf70@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261129T110000
+DTEND;TZID=Europe/Rome:20261129T130000
+SUMMARY:Udine Basket Club Pallacanestro – Gas Più Energie srl (Under 15 
+ Maschile Eccellenza — girone unico)
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n9ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-13ceb2e0@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261206T113000
+DTEND;TZID=Europe/Rome:20261206T133000
+SUMMARY:Gas Più Energie srl – Dinamo Gorizia (Under 15 Maschile Eccellen
+ za — girone unico)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n10ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-dfd2e9cc@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261213T100000
+DTEND;TZID=Europe/Rome:20261213T120000
+SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste – Gas Più Energie srl (Unde
+ r 15 Maschile Eccellenza — girone unico)
+LOCATION:Palestra Comunale Di San Giova\, Trieste
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n11ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-29a58bf0@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20261220T113000
+DTEND;TZID=Europe/Rome:20261220T133000
+SUMMARY:Gas Più Energie srl – BCC Pordenonese Monsile (Under 15 Maschile
+  Eccellenza — girone unico)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n12ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-052f555e@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20270111T194500
+DTEND;TZID=Europe/Rome:20270111T214500
+SUMMARY:APU Next Gen – Gas Più Energie srl (Under 15 Maschile Eccellenza
+  — girone unico)
+LOCATION:Palasport 'Primo Carnera'\, Udine
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n13ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-eccellenza-56c29571@zuin-fvg
+DTSTAMP:20261112T000000Z
+DTSTART;TZID=Europe/Rome:20270117T113000
+DTEND;TZID=Europe/Rome:20270117T133000
+SUMMARY:Gas Più Energie srl – Pallacanestro Trieste 2004 (Under 15 Masch
+ ile Eccellenza — girone unico)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 15 Maschile Eccellenza — girone unico\n14ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-basket-u15-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
+END:VEVENT
+END:VCALENDAR

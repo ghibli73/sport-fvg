@@ -1,0 +1,119 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Feletto Basketball Academy · Under 19 Under 19 Masch
+ ile Gold — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-b-f598a072@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261005T183000
+DTEND;TZID=Europe/Rome:20261005T203000
+SUMMARY:G.S. Vallenoncello 48-99 Feletto Basketball Academy (Under 19 Masch
+ ile Gold — girone B)
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Under 19 Maschile Gold — girone B\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-5fa01b9f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261013T190000
+DTEND;TZID=Europe/Rome:20261013T210000
+SUMMARY:Feletto Basketball Academy 82-67 Libertas Trieste (Under 19 Maschil
+ e Gold — girone B)
+LOCATION:Palestra F. Cavalicco - V. S. Bernardo\, Tavagnacco
+DESCRIPTION:Under 19 Maschile Gold — girone B\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-98f96159@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261019T193000
+DTEND;TZID=Europe/Rome:20261019T213000
+SUMMARY:U.S.D. Jadran 82-78 Feletto Basketball Academy (Under 19 Maschile G
+ old — girone B)
+LOCATION:Palestra 'M. Ervatti'\, Sgonico
+DESCRIPTION:Under 19 Maschile Gold — girone B\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-a5c79be6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261027T200000
+DTEND;TZID=Europe/Rome:20261027T220000
+SUMMARY:Amici Pallacanestro Udinese 67-76 Feletto Basketball Academy (Under
+  19 Maschile Gold — girone B)
+LOCATION:Palasport 'Primo Carnera'\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone B\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-d4ec8f46@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T190000
+DTEND;TZID=Europe/Rome:20261103T210000
+SUMMARY:Feletto Basketball Academy 80-74 O.F.P. Azzurra R.D.R. Basket Tries
+ te (Under 19 Maschile Gold — girone B)
+LOCATION:Palestra F. Cavalicco - V. S. Bernardo\, Tavagnacco
+DESCRIPTION:Under 19 Maschile Gold — girone B\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-8e9d4820@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T190000
+DTEND;TZID=Europe/Rome:20261110T210000
+SUMMARY:Feletto Basketball Academy 77-92 Fly Solartech Icarus (Under 19 Mas
+ chile Gold — girone B)
+LOCATION:Palestra F. Cavalicco - V. S. Bernardo\, Tavagnacco
+DESCRIPTION:Under 19 Maschile Gold — girone B\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-758784cf@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261123T193000
+DTEND;TZID=Europe/Rome:20261123T213000
+SUMMARY:Ronchi Basket Club 57-76 Feletto Basketball Academy (Under 19 Masch
+ ile Gold — girone B)
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 19 Maschile Gold — girone B\n8ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,366 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · POL. LIBERTAS ACLI · Serie C maschile — girone D (
+ prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-1f614d75@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20260925T200000
+DTEND;TZID=Europe/Rome:20260925T220000
+SUMMARY:AMICI PALLACANESTRO UDINESE 55-81 POL. LIBERTAS ACLI (Serie C masch
+ ile — girone D (prima fase))
+LOCATION:Palasport "Primo Carnera"\, Udine
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-d40b1eae@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261003T193000
+DTEND;TZID=Europe/Rome:20261003T213000
+SUMMARY:POL. LIBERTAS ACLI 86-82 PALL. PORTOGRUARO (Serie C maschile — gi
+ rone D (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-13bacf84@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261010T190000
+DTEND;TZID=Europe/Rome:20261010T210000
+SUMMARY:CENTRO SEDIA BASKET 75-60 POL. LIBERTAS ACLI (Serie C maschile — 
+ girone D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-fd9743a4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261017T193000
+DTEND;TZID=Europe/Rome:20261017T213000
+SUMMARY:POL. LIBERTAS ACLI 57-55 POLISPORTIVA VENEZIA GIULIA (Serie C masch
+ ile — girone D (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-fb73913a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261024T203000
+DTEND;TZID=Europe/Rome:20261024T223000
+SUMMARY:AKK BOR BASKET 68-74 POL. LIBERTAS ACLI (Serie C maschile — giron
+ e D (prima fase))
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-de4f2827@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261031T193000
+DTEND;TZID=Europe/Rome:20261031T213000
+SUMMARY:POL. LIBERTAS ACLI 72-62 COLLINARE BASKET (Serie C maschile — gir
+ one D (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-c2efd0a3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261107T193000
+DTEND;TZID=Europe/Rome:20261107T213000
+SUMMARY:POL. LIBERTAS ACLI 74-84 INTERMEK CORDENONS (Serie C maschile — g
+ irone D (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-89f459d8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261114T190000
+DTEND;TZID=Europe/Rome:20261114T210000
+SUMMARY:G.S. VALLENONCELLO 73-67 POL. LIBERTAS ACLI (Serie C maschile — g
+ irone D (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-eb0487c6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261121T193000
+DTEND;TZID=Europe/Rome:20261121T213000
+SUMMARY:POL. LIBERTAS ACLI 83-79 BASKETRIESTE (Serie C maschile — girone 
+ D (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-eb20c3cd@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T200000
+DTEND;TZID=Europe/Rome:20261128T220000
+SUMMARY:FIDEMA GROUP RONCHI – POL. LIBERTAS ACLI (Serie C maschile — gi
+ rone D (prima fase))
+LOCATION:Palestra Polifunzionale 'O. Pe\, Ronchi Dei Legionari
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-456229f0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261205T193000
+DTEND;TZID=Europe/Rome:20261205T213000
+SUMMARY:POL. LIBERTAS ACLI – HUMUS BASKET (Serie C maschile — girone D 
+ (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n11ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-e876ac8f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261211T210000
+DTEND;TZID=Europe/Rome:20261211T230000
+SUMMARY:UEB Cividale B – POL. LIBERTAS ACLI (Serie C maschile — girone 
+ D (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n12ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-2a00785d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261219T193000
+DTEND;TZID=Europe/Rome:20261219T213000
+SUMMARY:POL. LIBERTAS ACLI – VIS SPILIMBERGO (Serie C maschile — girone
+  D (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n13ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-f2dd4cdb@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270109T193000
+DTEND;TZID=Europe/Rome:20270109T213000
+SUMMARY:POL. LIBERTAS ACLI – AMICI PALLACANESTRO UDINESE (Serie C maschil
+ e — girone D (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n14ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-49fb10b3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270117T173000
+DTEND;TZID=Europe/Rome:20270117T193000
+SUMMARY:PALL. PORTOGRUARO – POL. LIBERTAS ACLI (Serie C maschile — giro
+ ne D (prima fase))
+LOCATION:Palazzetto Dello Sport\, Portogruaro
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n15ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-c6350e03@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270123T193000
+DTEND;TZID=Europe/Rome:20270123T213000
+SUMMARY:POL. LIBERTAS ACLI – CENTRO SEDIA BASKET (Serie C maschile — gi
+ rone D (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n16ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-fd81cdb4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270130T183000
+DTEND;TZID=Europe/Rome:20270130T203000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA – POL. LIBERTAS ACLI (Serie C maschil
+ e — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n17ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-1e58560a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270206T193000
+DTEND;TZID=Europe/Rome:20270206T213000
+SUMMARY:POL. LIBERTAS ACLI – AKK BOR BASKET (Serie C maschile — girone 
+ D (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n18ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-ee8449df@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270213T193000
+DTEND;TZID=Europe/Rome:20270213T213000
+SUMMARY:COLLINARE BASKET – POL. LIBERTAS ACLI (Serie C maschile — giron
+ e D (prima fase))
+LOCATION:Pal. Sc. Elementare\, Fagagna
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n19ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-aed0f75f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270221T180000
+DTEND;TZID=Europe/Rome:20270221T200000
+SUMMARY:INTERMEK CORDENONS – POL. LIBERTAS ACLI (Serie C maschile — gir
+ one D (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n20ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-2344625e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270227T193000
+DTEND;TZID=Europe/Rome:20270227T213000
+SUMMARY:POL. LIBERTAS ACLI – G.S. VALLENONCELLO (Serie C maschile — gir
+ one D (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n21ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-7cef0862@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270305T203000
+DTEND;TZID=Europe/Rome:20270305T223000
+SUMMARY:BASKETRIESTE – POL. LIBERTAS ACLI (Serie C maschile — girone D 
+ (prima fase))
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n22ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-8ce5559a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270313T193000
+DTEND;TZID=Europe/Rome:20270313T213000
+SUMMARY:POL. LIBERTAS ACLI – FIDEMA GROUP RONCHI (Serie C maschile — gi
+ rone D (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n23ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-504c96f3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270320T200000
+DTEND;TZID=Europe/Rome:20270320T220000
+SUMMARY:HUMUS BASKET – POL. LIBERTAS ACLI (Serie C maschile — girone D 
+ (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n24ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-6e48796e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270403T193000
+DTEND;TZID=Europe/Rome:20270403T213000
+SUMMARY:POL. LIBERTAS ACLI – UEB Cividale B (Serie C maschile — girone 
+ D (prima fase))
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n25ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-31fbc06d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270410T183000
+DTEND;TZID=Europe/Rome:20270410T203000
+SUMMARY:VIS SPILIMBERGO – POL. LIBERTAS ACLI (Serie C maschile — girone
+  D (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n26ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+END:VCALENDAR

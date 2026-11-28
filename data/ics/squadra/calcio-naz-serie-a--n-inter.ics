@@ -1,0 +1,483 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Inter · Serie A — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-aeff11a9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20260822T183000
+DTEND;TZID=Europe/Rome:20260822T203000
+SUMMARY:Inter 4-1 Monza (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n1ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-7502fe2b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20260830T204500
+DTEND;TZID=Europe/Rome:20260830T224500
+SUMMARY:Cagliari 0-1 Inter (Serie A — girone unico)
+LOCATION:Unipol Domus\, Cagliari
+DESCRIPTION:Serie A — girone unico\n2ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-01de7567@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20260905T180000
+DTEND;TZID=Europe/Rome:20260905T200000
+SUMMARY:Inter 3-2 Napoli (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n3ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-95fd4172@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20260914T204500
+DTEND;TZID=Europe/Rome:20260914T224500
+SUMMARY:Inter 5-3 Udinese (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n4ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-a1720bff@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20260919T180000
+DTEND;TZID=Europe/Rome:20260919T200000
+SUMMARY:Roma 2-2 Inter (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n5ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-62fc58d8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261010T180000
+DTEND;TZID=Europe/Rome:20261010T200000
+SUMMARY:Inter 3-0 Parma (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n6ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-27085cee@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T180000
+DTEND;TZID=Europe/Rome:20261017T200000
+SUMMARY:Bologna 1-3 Inter (Serie A — girone unico)
+LOCATION:Renato Dall'Ara\, Bologna
+DESCRIPTION:Serie A — girone unico\n7ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-da3e95b8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261025T123000
+DTEND;TZID=Europe/Rome:20261025T143000
+SUMMARY:Inter 2-1 Fiorentina (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n8ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-fa76ffb2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261028T183000
+DTEND;TZID=Europe/Rome:20261028T203000
+SUMMARY:Venezia 0-2 Inter (Serie A — girone unico)
+LOCATION:Pier Luigi Penzo\, Venezia
+DESCRIPTION:Serie A — girone unico\n9ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-d3ba0c1f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T204500
+DTEND;TZID=Europe/Rome:20261031T224500
+SUMMARY:Milan 3-1 Inter (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n10ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-1e08c65f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T180000
+DTEND;TZID=Europe/Rome:20261108T200000
+SUMMARY:Inter 2-0 Como (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n11ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-63cba894@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T204500
+DTEND;TZID=Europe/Rome:20261122T224500
+SUMMARY:Atalanta 4-4 Inter (Serie A — girone unico)
+LOCATION:New Balance Arena\, Bergamo
+DESCRIPTION:Serie A — girone unico\n12ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-4726716f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T204500
+DTEND;TZID=Europe/Rome:20261128T224500
+SUMMARY:Inter – Genoa (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n13ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-b8d8ff2d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T180000
+DTEND;TZID=Europe/Rome:20261205T200000
+SUMMARY:Frosinone – Inter (Serie A — girone unico)
+LOCATION:Benito Stirpe\, Frosinone
+DESCRIPTION:Serie A — girone unico\n14ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-cf2ab55e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T150000
+DTEND;TZID=Europe/Rome:20261213T170000
+SUMMARY:Inter – Torino (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n15ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-fd9a9c24@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261218T204500
+DTEND;TZID=Europe/Rome:20261218T224500
+SUMMARY:Lecce – Inter (Serie A — girone unico)
+LOCATION:Ettore Giardiniero - Via Del Mare\, Lecce
+DESCRIPTION:Serie A — girone unico\n16ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-5ef3cd80@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270103T123000
+DTEND;TZID=Europe/Rome:20270103T143000
+SUMMARY:Inter – Sassuolo (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n17ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-cb34c891@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270106T204500
+DTEND;TZID=Europe/Rome:20270106T224500
+SUMMARY:Lazio – Inter (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n18ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-5a79ec7b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T204500
+DTEND;TZID=Europe/Rome:20270110T224500
+SUMMARY:Inter – Juventus (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n19ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-3fb1a462@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Parma – Inter (Serie A — girone unico)
+LOCATION:Ennio Tardini\, Parma
+DESCRIPTION:Serie A — girone unico\n20ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-4fd5ddc6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Inter – Venezia (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n21ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-d58a26dc@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Napoli – Inter (Serie A — girone unico)
+LOCATION:Diego Armando Maradona\, Napoli
+DESCRIPTION:Serie A — girone unico\n22ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-8a919ea8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Inter – Cagliari (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n23ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-2d2c6b5e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Inter – Milan (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n24ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-3fc774ab@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Fiorentina – Inter (Serie A — girone unico)
+LOCATION:Artemio Franchi\, Firenze
+DESCRIPTION:Serie A — girone unico\n25ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-8bc9cd17@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Inter – Atalanta (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n26ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-ed413a25@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Udinese – Inter (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n27ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-8452a9fe@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Torino – Inter (Serie A — girone unico)
+LOCATION:Olimpico - Grande Torino\, Torino
+DESCRIPTION:Serie A — girone unico\n28ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-76dc61ad@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:Inter – Frosinone (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n29ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-cc33be8e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Genoa – Inter (Serie A — girone unico)
+LOCATION:Luigi Ferraris\, Genova
+DESCRIPTION:Serie A — girone unico\n30ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-26af8abe@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Inter – Roma (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n31ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-76f0a7f1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Monza – Inter (Serie A — girone unico)
+LOCATION:Brianteo\, Monza
+DESCRIPTION:Serie A — girone unico\n32ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-96e7f8bd@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Inter – Bologna (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n33ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-1ceb01da@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Como – Inter (Serie A — girone unico)
+LOCATION:Giuseppe Sinigaglia\, Como
+DESCRIPTION:Serie A — girone unico\n34ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-17eb99d5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Inter – Lecce (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n35ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-7f61102c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:Juventus – Inter (Serie A — girone unico)
+LOCATION:Allianz Stadium\, Torino
+DESCRIPTION:Serie A — girone unico\n36ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-518f1f44@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:Inter – Lazio (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n37ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-2ad98bbf@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:Sassuolo – Inter (Serie A — girone unico)
+LOCATION:Mapei Stadium\, Reggio Emilia
+DESCRIPTION:Serie A — girone unico\n38ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+END:VCALENDAR

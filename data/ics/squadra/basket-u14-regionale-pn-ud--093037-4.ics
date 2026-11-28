@@ -1,0 +1,327 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Humus Basket · Under 14 Under 14 Maschile Regionale 
+ — girone PN/UD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-697ce315@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T113000
+DTEND;TZID=Europe/Rome:20261108T133000
+SUMMARY:Humus Basket 26-92 Gemona Basket (Under 14 Maschile Regionale — g
+ irone PN/UD)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n2ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-f9680866@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261113T191500
+DTEND;TZID=Europe/Rome:20261113T211500
+SUMMARY:Torre Basket 66-22 Humus Basket (Under 14 Maschile Regionale — gi
+ rone PN/UD)
+LOCATION:Palestra Istituto Flora\, Pordenone
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n3ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-676f05bb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261123T190000
+DTEND;TZID=Europe/Rome:20261123T210000
+SUMMARY:Humus Basket 24-90 Olympia Rivignano (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n4ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-47b2d5cc@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261127T183000
+DTEND;TZID=Europe/Rome:20261127T203000
+SUMMARY:Humus Basket 85-33 Azzano Basket (Under 14 Maschile Regionale — g
+ irone PN/UD)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n5ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-533d54a6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261206T113000
+DTEND;TZID=Europe/Rome:20261206T133000
+SUMMARY:Humus Basket – Pol. Casarsa (Under 14 Maschile Regionale — giro
+ ne PN/UD)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-cf289f81@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261212T183000
+DTEND;TZID=Europe/Rome:20261212T203000
+SUMMARY:Pall. Codroipese – Humus Basket (Under 14 Maschile Regionale — 
+ girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n7ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-bcd20e05@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261222T190000
+DTEND;TZID=Europe/Rome:20261222T210000
+SUMMARY:Libertas Fiume Veneto – Humus Basket (Under 14 Maschile Regionale
+  — girone PN/UD)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n8ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-70d930b2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270110T153000
+DTEND;TZID=Europe/Rome:20270110T173000
+SUMMARY:Humus Basket – Collinare Basket (Under 14 Maschile Regionale — 
+ girone PN/UD)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n9ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-17f6f483@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270116T160000
+DTEND;TZID=Europe/Rome:20270116T180000
+SUMMARY:BVO Annone – Humus Basket (Under 14 Maschile Regionale — girone
+  PN/UD)
+LOCATION:Palazzetto Dello Sport\, Annone Veneto
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n10ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-d58b3feb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270124T160000
+DTEND;TZID=Europe/Rome:20270124T180000
+SUMMARY:Humus Basket – Majanese (Under 14 Maschile Regionale — girone P
+ N/UD)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n11ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-5782a71b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270130T150000
+DTEND;TZID=Europe/Rome:20270130T170000
+SUMMARY:3 S Basket Cordenons – Humus Basket (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n12ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-483208a6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270207T153000
+DTEND;TZID=Europe/Rome:20270207T173000
+SUMMARY:Humus Basket – New Brugnera Basket (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n13ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-352ffdae@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270220T163000
+DTEND;TZID=Europe/Rome:20270220T183000
+SUMMARY:Gemona Basket – Humus Basket (Under 14 Maschile Regionale — gir
+ one PN/UD)
+LOCATION:Palestra Ipsia\, Gemona Del Friuli
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n15ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-9d4bd440@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270228T113000
+DTEND;TZID=Europe/Rome:20270228T133000
+SUMMARY:Humus Basket – Torre Basket (Under 14 Maschile Regionale — giro
+ ne PN/UD)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n16ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-fdc1133b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270306T163000
+DTEND;TZID=Europe/Rome:20270306T183000
+SUMMARY:Olympia Rivignano – Humus Basket (Under 14 Maschile Regionale —
+  girone PN/UD)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n17ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-96fc11db@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270314T113000
+DTEND;TZID=Europe/Rome:20270314T133000
+SUMMARY:Azzano Basket – Humus Basket (Under 14 Maschile Regionale — gir
+ one PN/UD)
+LOCATION:(Pordenone)
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n18ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-4860c3f1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270323T183000
+DTEND;TZID=Europe/Rome:20270323T203000
+SUMMARY:Pol. Casarsa – Humus Basket (Under 14 Maschile Regionale — giro
+ ne PN/UD)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n19ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-67da0ea2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270404T113000
+DTEND;TZID=Europe/Rome:20270404T133000
+SUMMARY:Humus Basket – Pall. Codroipese (Under 14 Maschile Regionale — 
+ girone PN/UD)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n20ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-e0bacfd5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270411T153000
+DTEND;TZID=Europe/Rome:20270411T173000
+SUMMARY:Humus Basket – Libertas Fiume Veneto (Under 14 Maschile Regionale
+  — girone PN/UD)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n21ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-c4abb555@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270417T163000
+DTEND;TZID=Europe/Rome:20270417T183000
+SUMMARY:Collinare Basket – Humus Basket (Under 14 Maschile Regionale — 
+ girone PN/UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n22ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-b27a0262@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270426T190000
+DTEND;TZID=Europe/Rome:20270426T210000
+SUMMARY:Humus Basket – BVO Annone (Under 14 Maschile Regionale — girone
+  PN/UD)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n23ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-05fd4ed0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270502T110000
+DTEND;TZID=Europe/Rome:20270502T130000
+SUMMARY:Majanese – Humus Basket (Under 14 Maschile Regionale — girone P
+ N/UD)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n24ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-c9cb4578@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270516T110000
+DTEND;TZID=Europe/Rome:20270516T130000
+SUMMARY:New Brugnera Basket – Humus Basket (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palasport\, Brugnera
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n26ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
+END:VEVENT
+END:VCALENDAR

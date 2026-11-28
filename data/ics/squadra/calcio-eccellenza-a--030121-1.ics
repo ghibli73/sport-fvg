@@ -1,0 +1,431 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · TOLMEZZO CARNIA · Eccellenza — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-ae3687a1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:AZZURRA PREMARIACCO 0-2 TOLMEZZO CARNIA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n1ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-eecca4c9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:TOLMEZZO CARNIA 3-0 PRO GORIZIA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n2ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-269b101a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:PRO FAGAGNA 3-0 TOLMEZZO CARNIA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n3ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-864ec04e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:TOLMEZZO CARNIA 1-0 SAN LUIGI CALCIO (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n4ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-c89eda54@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:CHIONS 1-0 TOLMEZZO CARNIA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n5ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-47e7096e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:TOLMEZZO CARNIA 3-0 CALCIO TEOR (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n6ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-6d2789a4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:CASARSA 3-1 TOLMEZZO CARNIA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n7ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-7075c661@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:TOLMEZZO CARNIA 1-3 JUVENTINA S.ANDREA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n8ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-e7ac40d1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:FORUM JULII CALCIO 1-3 TOLMEZZO CARNIA (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-47acc202@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:TOLMEZZO CARNIA 1-0 N.K. KRAS REPEN (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n10ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-260b1b76@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:COMUNALE FONTANAFREDDA 0-0 TOLMEZZO CARNIA (Eccellenza — girone A
+ )
+DESCRIPTION:Eccellenza — girone A\n11ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-5a4da664@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:TOLMEZZO CARNIA 0-1 NUOVO PORDENONE 2024 FC (Eccellenza — girone 
+ A)
+DESCRIPTION:Eccellenza — girone A\n12ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-4434ddbc@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261129T143000
+DTEND;TZID=Europe/Rome:20261129T163000
+SUMMARY:POLISPORTIVA CODROIPO – TOLMEZZO CARNIA (Eccellenza — girone A)
+LOCATION:Centrale Codroipo\, Via Circonvallazione Sud
+DESCRIPTION:Eccellenza — girone A\n13ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-23d95015@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261205T143000
+DTEND;TZID=Europe/Rome:20261205T163000
+SUMMARY:TOLMEZZO CARNIA – U.FINCANTIERI MONFALCONE (Eccellenza — girone
+  A)
+LOCATION:F.Lli Ermano - Comunale A Tolmezzo\, Via Val Di Gorto 28
+DESCRIPTION:Eccellenza — girone A\n14ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-42a7d0ea@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261208T143000
+DTEND;TZID=Europe/Rome:20261208T163000
+SUMMARY:MUGGIA 1967 – TOLMEZZO CARNIA (Eccellenza — girone A)
+LOCATION:Zaccaria Comunale Muggia\, Via Dei Mulini 15/A
+DESCRIPTION:Eccellenza — girone A\n15ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-3d41bb54@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261213T143000
+DTEND;TZID=Europe/Rome:20261213T163000
+SUMMARY:POLISPORTIVA TAMAI ASD – TOLMEZZO CARNIA (Eccellenza — girone A
+ )
+LOCATION:Cav. L. Verardo - Campo A Tamai\, Via Giovanni Xxiii 41
+DESCRIPTION:Eccellenza — girone A\n16ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-22412fa3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261219T143000
+DTEND;TZID=Europe/Rome:20261219T163000
+SUMMARY:TOLMEZZO CARNIA – SANVITESE (Eccellenza — girone A)
+LOCATION:F.Lli Ermano - Comunale A Tolmezzo\, Via Val Di Gorto 28
+DESCRIPTION:Eccellenza — girone A\n17ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-5256943d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270110T143000
+DTEND;TZID=Europe/Rome:20270110T163000
+SUMMARY:TOLMEZZO CARNIA – AZZURRA PREMARIACCO (Eccellenza — girone A)
+LOCATION:F.Lli Ermano - Comunale A Tolmezzo\, Via Val Di Gorto 28
+DESCRIPTION:Eccellenza — girone A\n18ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-bd60eb87@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270117T143000
+DTEND;TZID=Europe/Rome:20270117T163000
+SUMMARY:PRO GORIZIA – TOLMEZZO CARNIA (Eccellenza — girone A)
+LOCATION:Enzo Bearzot Gorizia\, Via Capodistria 6
+DESCRIPTION:Eccellenza — girone A\n19ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-74133879@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270124T143000
+DTEND;TZID=Europe/Rome:20270124T163000
+SUMMARY:TOLMEZZO CARNIA – PRO FAGAGNA (Eccellenza — girone A)
+LOCATION:F.Lli Ermano - Comunale A Tolmezzo\, Via Val Di Gorto 28
+DESCRIPTION:Eccellenza — girone A\n20ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-25977da5@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270131T143000
+DTEND;TZID=Europe/Rome:20270131T163000
+SUMMARY:SAN LUIGI CALCIO – TOLMEZZO CARNIA (Eccellenza — girone A)
+LOCATION:San Luigi Comunale Trieste\, Via Felluga 58
+DESCRIPTION:Eccellenza — girone A\n21ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-2937ab91@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270207T143000
+DTEND;TZID=Europe/Rome:20270207T163000
+SUMMARY:TOLMEZZO CARNIA – CHIONS (Eccellenza — girone A)
+LOCATION:F.Lli Ermano - Comunale A Tolmezzo\, Via Val Di Gorto 28
+DESCRIPTION:Eccellenza — girone A\n22ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-6c3904af@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270214T143000
+DTEND;TZID=Europe/Rome:20270214T163000
+SUMMARY:CALCIO TEOR – TOLMEZZO CARNIA (Eccellenza — girone A)
+LOCATION:Comunale A Teor Teor\, Via Roma 28
+DESCRIPTION:Eccellenza — girone A\n23ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-32d13997@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270221T143000
+DTEND;TZID=Europe/Rome:20270221T163000
+SUMMARY:TOLMEZZO CARNIA – CASARSA (Eccellenza — girone A)
+LOCATION:F.Lli Ermano - Comunale A Tolmezzo\, Via Val Di Gorto 28
+DESCRIPTION:Eccellenza — girone A\n24ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-1c322fe6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270228T150000
+DTEND;TZID=Europe/Rome:20270228T170000
+SUMMARY:JUVENTINA S.ANDREA – TOLMEZZO CARNIA (Eccellenza — girone A)
+LOCATION:Comunale Sant'Andrea Gorizia\, Via Del Carso
+DESCRIPTION:Eccellenza — girone A\n25ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-3690ff00@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270307T150000
+DTEND;TZID=Europe/Rome:20270307T170000
+SUMMARY:TOLMEZZO CARNIA – FORUM JULII CALCIO (Eccellenza — girone A)
+LOCATION:F.Lli Ermano - Comunale A Tolmezzo\, Via Val Di Gorto 28
+DESCRIPTION:Eccellenza — girone A\n26ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-5317862c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270314T150000
+DTEND;TZID=Europe/Rome:20270314T170000
+SUMMARY:N.K. KRAS REPEN – TOLMEZZO CARNIA (Eccellenza — girone A)
+LOCATION:Skabar Monrupino\, Strada Comunale Di Repen
+DESCRIPTION:Eccellenza — girone A\n27ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-e849b9a6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270331T200000
+DTEND;TZID=Europe/Rome:20270331T220000
+SUMMARY:TOLMEZZO CARNIA – COMUNALE FONTANAFREDDA (Eccellenza — girone A
+ )
+LOCATION:F.Lli Ermano - Comunale A Tolmezzo\, Via Val Di Gorto 28
+DESCRIPTION:Eccellenza — girone A\n28ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-0d0f9556@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270404T160000
+DTEND;TZID=Europe/Rome:20270404T180000
+SUMMARY:NUOVO PORDENONE 2024 FC – TOLMEZZO CARNIA (Eccellenza — girone 
+ A)
+LOCATION:Bottecchia Pordenone\, Via Stadio 6
+DESCRIPTION:Eccellenza — girone A\n29ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-59e841a9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270411T160000
+DTEND;TZID=Europe/Rome:20270411T180000
+SUMMARY:TOLMEZZO CARNIA – POLISPORTIVA CODROIPO (Eccellenza — girone A)
+LOCATION:F.Lli Ermano - Comunale A Tolmezzo\, Via Val Di Gorto 28
+DESCRIPTION:Eccellenza — girone A\n30ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-6bda6468@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270418T160000
+DTEND;TZID=Europe/Rome:20270418T180000
+SUMMARY:U.FINCANTIERI MONFALCONE – TOLMEZZO CARNIA (Eccellenza — girone
+  A)
+LOCATION:Boito Comunale Monfalcone\, Via Boito 53
+DESCRIPTION:Eccellenza — girone A\n31ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-cb310173@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270425T160000
+DTEND;TZID=Europe/Rome:20270425T180000
+SUMMARY:TOLMEZZO CARNIA – MUGGIA 1967 (Eccellenza — girone A)
+LOCATION:F.Lli Ermano - Comunale A Tolmezzo\, Via Val Di Gorto 28
+DESCRIPTION:Eccellenza — girone A\n32ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-e3ec1361@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270502T160000
+DTEND;TZID=Europe/Rome:20270502T180000
+SUMMARY:TOLMEZZO CARNIA – POLISPORTIVA TAMAI ASD (Eccellenza — girone A
+ )
+LOCATION:F.Lli Ermano - Comunale A Tolmezzo\, Via Val Di Gorto 28
+DESCRIPTION:Eccellenza — girone A\n33ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-eccellenza-a-3493c1ca@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270509T160000
+DTEND;TZID=Europe/Rome:20270509T180000
+SUMMARY:SANVITESE – TOLMEZZO CARNIA (Eccellenza — girone A)
+LOCATION:Campo A - Principale San Vito Al Tagliamento\, Viale Prodolone 42
+DESCRIPTION:Eccellenza — girone A\n34ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,211 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · C.U.S. TRIESTE A.S.D. · Prima Divisione maschile CT 
+ Trieste-Gorizia — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-62098b53@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261127T210000
+DTEND;TZID=Europe/Rome:20261127T230000
+SUMMARY:C.U.S. TRIESTE A.S.D. 3-0 VOLLEY CLUB TRIESTE (Prima Divisione masc
+ hile CT Trieste-Gorizia — girone unico)
+LOCATION:Palestra C.U.S.\, Via Monte Cengio 2\, TRIESTE TS
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-c5fd00b2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261201T204500
+DTEND;TZID=Europe/Rome:20261201T224500
+SUMMARY:TRE MERLI VOLLEY – C.U.S. TRIESTE A.S.D. (Prima Divisione maschil
+ e CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n2
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-471b49c6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261211T200000
+DTEND;TZID=Europe/Rome:20261211T220000
+SUMMARY:SLOVOLLEY VAL GORIZIANA – C.U.S. TRIESTE A.S.D. (Prima Divisione 
+ maschile CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n3
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-4e419327@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261217T210000
+DTEND;TZID=Europe/Rome:20261217T230000
+SUMMARY:SLOVOLLEY - NAS PRAPOR – C.U.S. TRIESTE A.S.D. (Prima Divisione m
+ aschile CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n4
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-cc1a3fbf@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270108T210000
+DTEND;TZID=Europe/Rome:20270108T230000
+SUMMARY:INTREPIDA TEN03 – C.U.S. TRIESTE A.S.D. (Prima Divisione maschile
+  CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n5
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-5a1b2109@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270112T210000
+DTEND;TZID=Europe/Rome:20270112T230000
+SUMMARY:C.U.S. TRIESTE A.S.D. – CLIMATRIESTE ALTURA (Prima Divisione masc
+ hile CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n6
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-c9d2d128@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270122T203000
+DTEND;TZID=Europe/Rome:20270122T223000
+SUMMARY:TNT PUB RUGGINE – C.U.S. TRIESTE A.S.D. (Prima Divisione maschile
+  CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n7
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-024b1cef@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270129T203000
+DTEND;TZID=Europe/Rome:20270129T223000
+SUMMARY:VOLLEY CLUB TRIESTE – C.U.S. TRIESTE A.S.D. (Prima Divisione masc
+ hile CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n8
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-efd55ff5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270209T210000
+DTEND;TZID=Europe/Rome:20270209T230000
+SUMMARY:C.U.S. TRIESTE A.S.D. – TRE MERLI VOLLEY (Prima Divisione maschil
+ e CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n9
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-0284dd6d@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270216T210000
+DTEND;TZID=Europe/Rome:20270216T230000
+SUMMARY:C.U.S. TRIESTE A.S.D. – SLOVOLLEY VAL GORIZIANA (Prima Divisione 
+ maschile CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ 0ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-857cabca@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270223T210000
+DTEND;TZID=Europe/Rome:20270223T230000
+SUMMARY:C.U.S. TRIESTE A.S.D. – SLOVOLLEY - NAS PRAPOR (Prima Divisione m
+ aschile CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ 1ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-41d4aaa3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270302T210000
+DTEND;TZID=Europe/Rome:20270302T230000
+SUMMARY:C.U.S. TRIESTE A.S.D. – INTREPIDA TEN03 (Prima Divisione maschile
+  CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ 2ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-7fcbd682@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270310T210000
+DTEND;TZID=Europe/Rome:20270310T230000
+SUMMARY:CLIMATRIESTE ALTURA – C.U.S. TRIESTE A.S.D. (Prima Divisione masc
+ hile CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ 3ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-tsgo-f811e219@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270316T210000
+DTEND;TZID=Europe/Rome:20270316T230000
+SUMMARY:C.U.S. TRIESTE A.S.D. – TNT PUB RUGGINE (Prima Divisione maschile
+  CT Trieste-Gorizia — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Trieste-Gorizia — girone unico\n1
+ 4ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-pallavolo-prima-divisione-maschile-tsgo
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-tsgo
+END:VEVENT
+END:VCALENDAR

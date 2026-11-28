@@ -1,0 +1,210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · APU NEXT GEN S.S.D. A R.L. · Under 12 Trofeo Esordie
+ nti Under 12 — girone UD A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-b5e18a55@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261119T190000
+DTEND;TZID=Europe/Rome:20261119T210000
+SUMMARY:APU NEXT GEN S.S.D. A R.L. – A.S.D. P.A.F. (Trofeo Esordienti Und
+ er 12 — girone UD A)
+LOCATION:Palestra Sc. 'Marconi'\, Udine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-45c49e25@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261129T150000
+DTEND;TZID=Europe/Rome:20261129T170000
+SUMMARY:LIBERTAS GONARS – APU NEXT GEN S.S.D. A R.L. (Trofeo Esordienti U
+ nder 12 — girone UD A)
+LOCATION:Palazzetto Dello Sport\, Gonars
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-f485b78e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261217T180000
+DTEND;TZID=Europe/Rome:20261217T200000
+SUMMARY:APU NEXT GEN S.S.D. A R.L. – A.S.DIL. OLYMPIA RIVIGNANO (Trofeo E
+ sordienti Under 12 — girone UD A)
+LOCATION:Palestra Sc. 'Marconi'\, Udine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-9c20da4d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270112T180000
+DTEND;TZID=Europe/Rome:20270112T200000
+SUMMARY:LAIPACCO – APU NEXT GEN S.S.D. A R.L. (Trofeo Esordienti Under 12
+  — girone UD A)
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-2e629e04@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270128T190000
+DTEND;TZID=Europe/Rome:20270128T210000
+SUMMARY:APU NEXT GEN S.S.D. A R.L. – A.S.D MAJANESE (Trofeo Esordienti Un
+ der 12 — girone UD A)
+LOCATION:Palestra Sc. 'Marconi'\, Udine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-9d10c5a9@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270204T190000
+DTEND;TZID=Europe/Rome:20270204T210000
+SUMMARY:APU NEXT GEN S.S.D. A R.L. – A.S.D.LONGOBARDI (Trofeo Esordienti 
+ Under 12 — girone UD A)
+LOCATION:Palestra Sc. 'Marconi'\, Udine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-533b6827@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270216T173000
+DTEND;TZID=Europe/Rome:20270216T193000
+SUMMARY:GEMONA BASKET a.s.d. – APU NEXT GEN S.S.D. A R.L. (Trofeo Esordie
+ nti Under 12 — girone UD A)
+LOCATION:Palestra C.R.I.\, Gemona Del Friuli
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-937f1830@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270227T160000
+DTEND;TZID=Europe/Rome:20270227T180000
+SUMMARY:A.S.D. P.A.F. – APU NEXT GEN S.S.D. A R.L. (Trofeo Esordienti Und
+ er 12 — girone UD A)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-a12a463c@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270311T180000
+DTEND;TZID=Europe/Rome:20270311T200000
+SUMMARY:APU NEXT GEN S.S.D. A R.L. – LIBERTAS GONARS (Trofeo Esordienti U
+ nder 12 — girone UD A)
+LOCATION:Palestra Sc. 'Marconi'\, Udine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-c3ac399d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270320T160000
+DTEND;TZID=Europe/Rome:20270320T180000
+SUMMARY:A.S.DIL. OLYMPIA RIVIGNANO – APU NEXT GEN S.S.D. A R.L. (Trofeo E
+ sordienti Under 12 — girone UD A)
+LOCATION:Palestra Comunale\, Rivignano Teor
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-405ad74b@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270408T190000
+DTEND;TZID=Europe/Rome:20270408T210000
+SUMMARY:APU NEXT GEN S.S.D. A R.L. – LAIPACCO (Trofeo Esordienti Under 12
+  — girone UD A)
+LOCATION:Palestra Sc. 'Marconi'\, Udine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n11ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-c91919c5@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270418T150000
+DTEND;TZID=Europe/Rome:20270418T170000
+SUMMARY:A.S.D MAJANESE – APU NEXT GEN S.S.D. A R.L. (Trofeo Esordienti Un
+ der 12 — girone UD A)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n12ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-67da8485@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270424T153000
+DTEND;TZID=Europe/Rome:20270424T173000
+SUMMARY:A.S.D.LONGOBARDI – APU NEXT GEN S.S.D. A R.L. (Trofeo Esordienti 
+ Under 12 — girone UD A)
+LOCATION:Palestra Sc. 'Ipolito Nievo'\, Remanzacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n13ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-a-cd3d05e0@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270506T190000
+DTEND;TZID=Europe/Rome:20270506T210000
+SUMMARY:APU NEXT GEN S.S.D. A R.L. – GEMONA BASKET a.s.d. (Trofeo Esordie
+ nti Under 12 — girone UD A)
+LOCATION:Palestra Sc. 'Marconi'\, Udine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n14ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+END:VCALENDAR

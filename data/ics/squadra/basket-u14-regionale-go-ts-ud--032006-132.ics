@@ -1,0 +1,327 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · U.S.D. DON BOSCO · Under 14 Under 14 Maschile Region
+ ale — girone GO/TS/UD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-30b09845@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T193000
+DTEND;TZID=Europe/Rome:20261104T213000
+SUMMARY:U.S.D. DON BOSCO 36-74 LIBERTAS GONARS (Under 14 Maschile Regionale
+  — girone GO/TS/UD)
+LOCATION:Pal. Oratorio "Don Bosco"\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n1ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-95142ee3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T150000
+DTEND;TZID=Europe/Rome:20261107T170000
+SUMMARY:APU NEXT GEN – U.S.D. DON BOSCO (Under 14 Maschile Regionale — 
+ girone GO/TS/UD)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n2ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-84d29544@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T193000
+DTEND;TZID=Europe/Rome:20261118T213000
+SUMMARY:U.S.D. DON BOSCO 56-39 WEB SBaMM (Under 14 Maschile Regionale — g
+ irone GO/TS/UD)
+LOCATION:Pal. Oratorio "Don Bosco"\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-f6a3a19b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261120T190000
+DTEND;TZID=Europe/Rome:20261120T210000
+SUMMARY:AKK BOR BASKET – U.S.D. DON BOSCO (Under 14 Maschile Regionale 
+ — girone GO/TS/UD)
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n4ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-94c30ca8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261206T100000
+DTEND;TZID=Europe/Rome:20261206T120000
+SUMMARY:O.F.P. AZZURRA R.D.R. Basket Trieste – U.S.D. DON BOSCO (Under 14
+  Maschile Regionale — girone GO/TS/UD)
+LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n6ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-52aeb04b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261221T193000
+DTEND;TZID=Europe/Rome:20261221T213000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO – U.S.D. DON BOSCO (Under 14 Maschile R
+ egionale — girone GO/TS/UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n8ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-399091da@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270113T193000
+DTEND;TZID=Europe/Rome:20270113T213000
+SUMMARY:U.S.D. DON BOSCO – US ALBA PALLACANESTRO (Under 14 Maschile Regio
+ nale — girone GO/TS/UD)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n9ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-62da5532@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270123T150000
+DTEND;TZID=Europe/Rome:20270123T170000
+SUMMARY:U.S.D. DON BOSCO – BASKET CERVIGNANESE (Under 14 Maschile Regiona
+ le — girone GO/TS/UD)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n10ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-e8c62b93@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270123T160000
+DTEND;TZID=Europe/Rome:20270123T180000
+SUMMARY:FALCONSTAR BASKET – U.S.D. DON BOSCO (Under 14 Maschile Regionale
+  — girone GO/TS/UD)
+LOCATION:Palestra 'B' Marcon\, Monfalcone
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n11ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-503a09f9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270130T160000
+DTEND;TZID=Europe/Rome:20270130T180000
+SUMMARY:POL LIB. PASIAN DI PRATO – U.S.D. DON BOSCO (Under 14 Maschile Re
+ gionale — girone GO/TS/UD)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n12ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-0a67fc86@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270210T193000
+DTEND;TZID=Europe/Rome:20270210T213000
+SUMMARY:U.S.D. DON BOSCO – LIGNANO BASKET (Under 14 Maschile Regionale 
+ — girone GO/TS/UD)
+LOCATION:Pal. Oratorio "Don Bosco"\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n13ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-3abd3b75@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270213T160000
+DTEND;TZID=Europe/Rome:20270213T180000
+SUMMARY:LIBERTAS GONARS – U.S.D. DON BOSCO (Under 14 Maschile Regionale 
+ — girone GO/TS/UD)
+LOCATION:Palazzetto Dello Sport\, Gonars
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n14ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-616ae52b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270224T193000
+DTEND;TZID=Europe/Rome:20270224T213000
+SUMMARY:U.S.D. DON BOSCO – APU NEXT GEN (Under 14 Maschile Regionale — 
+ girone GO/TS/UD)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n15ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-293a4265@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270227T193000
+DTEND;TZID=Europe/Rome:20270227T213000
+SUMMARY:WEB SBaMM – U.S.D. DON BOSCO (Under 14 Maschile Regionale — gir
+ one GO/TS/UD)
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n16ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-8f093c9a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270310T193000
+DTEND;TZID=Europe/Rome:20270310T213000
+SUMMARY:U.S.D. DON BOSCO – AKK BOR BASKET (Under 14 Maschile Regionale 
+ — girone GO/TS/UD)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n17ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-80a3c8ff@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270324T193000
+DTEND;TZID=Europe/Rome:20270324T213000
+SUMMARY:U.S.D. DON BOSCO – O.F.P. AZZURRA R.D.R. Basket Trieste (Under 14
+  Maschile Regionale — girone GO/TS/UD)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n19ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-6bc644d2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270404T110000
+DTEND;TZID=Europe/Rome:20270404T130000
+SUMMARY:PALL. LAIPACCO – U.S.D. DON BOSCO (Under 14 Maschile Regionale 
+ — girone GO/TS/UD)
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n20ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-55c76ed2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270414T193000
+DTEND;TZID=Europe/Rome:20270414T213000
+SUMMARY:U.S.D. DON BOSCO – POL. LIBERTAS CUSSIGNACCO (Under 14 Maschile R
+ egionale — girone GO/TS/UD)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n21ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-b266379a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270418T150000
+DTEND;TZID=Europe/Rome:20270418T170000
+SUMMARY:US ALBA PALLACANESTRO – U.S.D. DON BOSCO (Under 14 Maschile Regio
+ nale — girone GO/TS/UD)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n22ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-097c505d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270424T160000
+DTEND;TZID=Europe/Rome:20270424T180000
+SUMMARY:BASKET CERVIGNANESE – U.S.D. DON BOSCO (Under 14 Maschile Regiona
+ le — girone GO/TS/UD)
+LOCATION:Pal. Scuole Elementari\, Cervignano Del Friuli
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n23ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-98cef8f3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270505T193000
+DTEND;TZID=Europe/Rome:20270505T213000
+SUMMARY:U.S.D. DON BOSCO – FALCONSTAR BASKET (Under 14 Maschile Regionale
+  — girone GO/TS/UD)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n24ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-83b40bc9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270512T193000
+DTEND;TZID=Europe/Rome:20270512T213000
+SUMMARY:U.S.D. DON BOSCO – POL LIB. PASIAN DI PRATO (Under 14 Maschile Re
+ gionale — girone GO/TS/UD)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n25ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-3a19c87d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270514T190000
+DTEND;TZID=Europe/Rome:20270514T210000
+SUMMARY:LIGNANO BASKET – U.S.D. DON BOSCO (Under 14 Maschile Regionale 
+ — girone GO/TS/UD)
+LOCATION:(Udine)
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n26ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+END:VCALENDAR

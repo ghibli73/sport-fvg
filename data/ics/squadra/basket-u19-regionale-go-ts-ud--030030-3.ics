@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · MB PAPER'S · Under 19 Under 19 Maschile Regionale 
+ — girone GO/TS/UD (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-99d582b4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261104T194500
+DTEND;TZID=Europe/Rome:20261104T214500
+SUMMARY:MB PAPER'S 43-61 BASKET 4 TRIESTE (Under 19 Maschile Regionale — 
+ girone GO/TS/UD (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n1
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-8c1f2c8b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T200000
+DTEND;TZID=Europe/Rome:20261111T220000
+SUMMARY:BASKET PERTEOLE 68-73 MB PAPER'S (Under 19 Maschile Regionale — g
+ irone GO/TS/UD (prima fase))
+LOCATION:Palestra Comunale\, Ruda
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n2
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-338a80f1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261118T194500
+DTEND;TZID=Europe/Rome:20261118T214500
+SUMMARY:MB PAPER'S 39-75 FALCONSTAR BASKET (Under 19 Maschile Regionale —
+  girone GO/TS/UD (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n3
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-d7cc7a8c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261125T194500
+DTEND;TZID=Europe/Rome:20261125T214500
+SUMMARY:MB PAPER'S 38-83 BASKET CERVIGNANESE (Under 19 Maschile Regionale 
+ — girone GO/TS/UD (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n4
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-f1166759@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261209T194500
+DTEND;TZID=Europe/Rome:20261209T214500
+SUMMARY:MB PAPER'S – SAN VITO TRIESTE (Under 19 Maschile Regionale — gi
+ rone GO/TS/UD (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n6
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-8e4b9e15@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261216T200000
+DTEND;TZID=Europe/Rome:20261216T220000
+SUMMARY:BREG – MB PAPER'S (Under 19 Maschile Regionale — girone GO/TS/U
+ D (prima fase))
+LOCATION:Palestra 'S.Klabjan'\, San Dorligo Della Valle
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n7
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-864acd70@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261223T184500
+DTEND;TZID=Europe/Rome:20261223T204500
+SUMMARY:BASKET 4 TRIESTE – MB PAPER'S (Under 19 Maschile Regionale — gi
+ rone GO/TS/UD (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n8
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-aaab98d8@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270113T194500
+DTEND;TZID=Europe/Rome:20270113T214500
+SUMMARY:MB PAPER'S – BASKET PERTEOLE (Under 19 Maschile Regionale — gir
+ one GO/TS/UD (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n9
+ ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.
+ github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-9f28f4e0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270118T200000
+DTEND;TZID=Europe/Rome:20270118T220000
+SUMMARY:FALCONSTAR BASKET – MB PAPER'S (Under 19 Maschile Regionale — g
+ irone GO/TS/UD (prima fase))
+LOCATION:Palestra 'B' Marcon\, Monfalcone
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n1
+ 0ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-c2dc1f95@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270126T191500
+DTEND;TZID=Europe/Rome:20270126T211500
+SUMMARY:BASKET CERVIGNANESE – MB PAPER'S (Under 19 Maschile Regionale —
+  girone GO/TS/UD (prima fase))
+LOCATION:Pal. Scuole Elementari\, Cervignano Del Friuli
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n1
+ 1ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-b6785a0c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270208T211500
+DTEND;TZID=Europe/Rome:20270208T231500
+SUMMARY:SAN VITO TRIESTE – MB PAPER'S (Under 19 Maschile Regionale — gi
+ rone GO/TS/UD (prima fase))
+LOCATION:Palazzetto 'Atleti Azzurri'\, Trieste
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n1
+ 3ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-go-ts-ud-907280a3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270217T194500
+DTEND;TZID=Europe/Rome:20270217T214500
+SUMMARY:MB PAPER'S – BREG (Under 19 Maschile Regionale — girone GO/TS/U
+ D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Under 19 Maschile Regionale — girone GO/TS/UD (prima fase)\n1
+ 4ª giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73
+ .github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-go-ts-ud
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,286 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Torre Basket · Divisione Regionale 1 — girone Oves
+ t
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr1-ovest-62c45749@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261002T204500
+DTEND;TZID=Europe/Rome:20261002T224500
+SUMMARY:Torre Basket 84-78 Pol. Polisigma (Divisione Regionale 1 — girone
+  Ovest)
+LOCATION:Palestra Istituto "Flora"\, Pordenone
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-23761ee4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261011T180000
+DTEND;TZID=Europe/Rome:20261011T200000
+SUMMARY:Libertas Fiume Veneto 64-53 Torre Basket (Divisione Regionale 1 —
+  girone Ovest)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-7ee05c99@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261016T210000
+DTEND;TZID=Europe/Rome:20261016T230000
+SUMMARY:BCC Pordenonese e Monsile 70-69 Torre Basket (Divisione Regionale 1
+  — girone Ovest)
+LOCATION:Palazzetto "Matteo Molent"\, Azzano Decimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-c3ead172@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261023T204500
+DTEND;TZID=Europe/Rome:20261023T224500
+SUMMARY:Torre Basket 85-64 Gemona Basket (Divisione Regionale 1 — girone 
+ Ovest)
+LOCATION:Palestra Istituto "Flora"\, Pordenone
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-c3ed06bc@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261031T180000
+DTEND;TZID=Europe/Rome:20261031T200000
+SUMMARY:C.T.S. 73-76 Torre Basket (Divisione Regionale 1 — girone Ovest)
+LOCATION:Palazzetto dello Sport\, Codroipo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-4740747e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261106T204500
+DTEND;TZID=Europe/Rome:20261106T224500
+SUMMARY:Torre Basket 76-89 Errebi Majano (Divisione Regionale 1 — girone 
+ Ovest)
+LOCATION:Palestra Istituto "Flora"\, Pordenone
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-a0c8469d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261113T210000
+DTEND;TZID=Europe/Rome:20261113T230000
+SUMMARY:Pol. Lib. Pasian di Prato 75-56 Torre Basket (Divisione Regionale 1
+  — girone Ovest)
+LOCATION:Palasport "Mario Vecchiatto"\, Pasian di Prato
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-4e65ed30@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T204500
+DTEND;TZID=Europe/Rome:20261120T224500
+SUMMARY:Torre Basket 58-88 Feletto Basketball Academy (Divisione Regionale 
+ 1 — girone Ovest)
+LOCATION:Palestra Istituto "Flora"\, Pordenone
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-87c1cdf6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T210000
+DTEND;TZID=Europe/Rome:20261127T230000
+SUMMARY:Tecno 2 Commerciale Tricesimo 54-71 Torre Basket (Divisione Regiona
+ le 1 — girone Ovest)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-f52d25eb@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261204T204500
+DTEND;TZID=Europe/Rome:20261204T224500
+SUMMARY:Torre Basket – Pall. Tolmezzo (Divisione Regionale 1 — girone O
+ vest)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n10ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-5060dd76@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261211T210000
+DTEND;TZID=Europe/Rome:20261211T230000
+SUMMARY:Pol. Casarsa – Torre Basket (Divisione Regionale 1 — girone Ove
+ st)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n11ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-d2947946@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261219T190000
+DTEND;TZID=Europe/Rome:20261219T210000
+SUMMARY:Pol. Polisigma – Torre Basket (Divisione Regionale 1 — girone O
+ vest)
+LOCATION:Palestra Scolastica Scuole Med\, Zoppola
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n12ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-50681cc0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270108T204500
+DTEND;TZID=Europe/Rome:20270108T224500
+SUMMARY:Torre Basket – Libertas Fiume Veneto (Divisione Regionale 1 — g
+ irone Ovest)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n13ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-bda86fce@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270123T200000
+DTEND;TZID=Europe/Rome:20270123T220000
+SUMMARY:Gemona Basket – Torre Basket (Divisione Regionale 1 — girone Ov
+ est)
+LOCATION:Palestra Ipsia\, Gemona Del Friuli
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n15ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-d0afc8c3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270129T204500
+DTEND;TZID=Europe/Rome:20270129T224500
+SUMMARY:Torre Basket – C.T.S. (Divisione Regionale 1 — girone Ovest)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n16ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-8e225088@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270205T210000
+DTEND;TZID=Europe/Rome:20270205T230000
+SUMMARY:Errebi Majano – Torre Basket (Divisione Regionale 1 — girone Ov
+ est)
+LOCATION:Centro Studi\, Majano
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n17ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-aa2a34d5@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270220T194500
+DTEND;TZID=Europe/Rome:20270220T214500
+SUMMARY:Feletto Basketball Academy – Torre Basket (Divisione Regionale 1 
+ — girone Ovest)
+LOCATION:Palestra\, Tavagnacco
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n19ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-0df16705@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270226T204500
+DTEND;TZID=Europe/Rome:20270226T224500
+SUMMARY:Torre Basket – Tecno 2 Commerciale Tricesimo (Divisione Regionale
+  1 — girone Ovest)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n20ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-cab42a1c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270305T204500
+DTEND;TZID=Europe/Rome:20270305T224500
+SUMMARY:Pall. Tolmezzo – Torre Basket (Divisione Regionale 1 — girone O
+ vest)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n21ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-ovest-c0ecad00@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270312T204500
+DTEND;TZID=Europe/Rome:20270312T224500
+SUMMARY:Torre Basket – Pol. Casarsa (Divisione Regionale 1 — girone Ove
+ st)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Divisione Regionale 1 — girone Ovest\n22ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr1-ovest
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
+END:VEVENT
+END:VCALENDAR

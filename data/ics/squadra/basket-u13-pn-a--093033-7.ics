@@ -1,0 +1,223 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Sistema BK Pordenone · Under 13 Under 13 Maschile 
+ — girone PN A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-pn-a-53e257a5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T110000
+DTEND;TZID=Europe/Rome:20261031T130000
+SUMMARY:Basket Maniago 0-20 Sistema BK Pordenone (Under 13 Maschile — gir
+ one PN A)
+LOCATION:Palazzetto dello Sport\, Maniago
+DESCRIPTION:Under 13 Maschile — girone PN A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-c890a526@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T160000
+DTEND;TZID=Europe/Rome:20261108T180000
+SUMMARY:Sistema BK Pordenone – Roraigrande Basket (Under 13 Maschile — 
+ girone PN A)
+LOCATION:Pallone ex Tennis\, Roveredo in Piano
+DESCRIPTION:Under 13 Maschile — girone PN A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-74fe7b26@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T171500
+DTEND;TZID=Europe/Rome:20261116T191500
+SUMMARY:Nuovo Basket 2000 96-14 Sistema BK Pordenone (Under 13 Maschile —
+  girone PN A)
+LOCATION:Palasport Crisafulli\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-0c6774de@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261122T153000
+DTEND;TZID=Europe/Rome:20261122T173000
+SUMMARY:Sistema BK Pordenone – Aviano Basket (Under 13 Maschile — giron
+ e PN A)
+LOCATION:Palazzetto Dello Sport Comunal\, Roveredo In Piano
+DESCRIPTION:Under 13 Maschile — girone PN A\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-8e489c37@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261129T090000
+DTEND;TZID=Europe/Rome:20261129T110000
+SUMMARY:Scuola Pallacanestro Porcia 2021 – Sistema BK Pordenone (Under 13
+  Maschile — girone PN A)
+LOCATION:Pal. Sc. Medie 'F. Cornacchia'\, Porcia
+DESCRIPTION:Under 13 Maschile — girone PN A\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-6d698913@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261220T153000
+DTEND;TZID=Europe/Rome:20261220T173000
+SUMMARY:Basket Pasiano – Sistema BK Pordenone (Under 13 Maschile — giro
+ ne PN A)
+LOCATION:Palazzetto 'Roberto Marson'\, Pasiano Di Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-51df6cdb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270110T160000
+DTEND;TZID=Europe/Rome:20270110T180000
+SUMMARY:Sistema BK Pordenone – 3 S Basket Cordenons (Under 13 Maschile 
+ — girone PN A)
+LOCATION:Pallone Ex Tenis - Solo M.B.\, Roveredo In Piano
+DESCRIPTION:Under 13 Maschile — girone PN A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-8943fbbd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T153000
+DTEND;TZID=Europe/Rome:20270117T173000
+SUMMARY:Sistema BK Pordenone – Basket Maniago (Under 13 Maschile — giro
+ ne PN A)
+LOCATION:Pallone Ex Tenis - Solo M.B.\, Roveredo In Piano
+DESCRIPTION:Under 13 Maschile — girone PN A\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-ec71502d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270123T160000
+DTEND;TZID=Europe/Rome:20270123T180000
+SUMMARY:Roraigrande Basket – Sistema BK Pordenone (Under 13 Maschile — 
+ girone PN A)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-41d1344d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T160000
+DTEND;TZID=Europe/Rome:20270131T180000
+SUMMARY:Sistema BK Pordenone – Nuovo Basket 2000 (Under 13 Maschile — g
+ irone PN A)
+LOCATION:Pallone Ex Tenis - Solo M.B.\, Roveredo In Piano
+DESCRIPTION:Under 13 Maschile — girone PN A\n12ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-4c03ba53@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270206T150000
+DTEND;TZID=Europe/Rome:20270206T170000
+SUMMARY:Aviano Basket – Sistema BK Pordenone (Under 13 Maschile — giron
+ e PN A)
+LOCATION:Palazzetto Dello Sport\, Aviano
+DESCRIPTION:Under 13 Maschile — girone PN A\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-3f651be3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270214T160000
+DTEND;TZID=Europe/Rome:20270214T180000
+SUMMARY:Sistema BK Pordenone – Scuola Pallacanestro Porcia 2021 (Under 13
+  Maschile — girone PN A)
+LOCATION:Pallone Ex Tenis - Solo M.B.\, Roveredo In Piano
+DESCRIPTION:Under 13 Maschile — girone PN A\n14ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-c1eec509@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270221T183000
+DTEND;TZID=Europe/Rome:20270221T203000
+SUMMARY:Humus Basket – Sistema BK Pordenone (Under 13 Maschile — girone
+  PN A)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 13 Maschile — girone PN A\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-7ce85764@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270307T153000
+DTEND;TZID=Europe/Rome:20270307T173000
+SUMMARY:Sistema BK Pordenone – Basket Pasiano (Under 13 Maschile — giro
+ ne PN A)
+LOCATION:Pallone Ex Tenis - Solo M.B.\, Roveredo In Piano
+DESCRIPTION:Under 13 Maschile — girone PN A\n17ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-4f756b45@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270314T150000
+DTEND;TZID=Europe/Rome:20270314T170000
+SUMMARY:3 S Basket Cordenons – Sistema BK Pordenone (Under 13 Maschile 
+ — girone PN A)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 13 Maschile — girone PN A\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+END:VCALENDAR

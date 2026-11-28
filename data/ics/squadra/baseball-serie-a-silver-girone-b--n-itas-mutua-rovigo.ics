@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Itas Mutua Rovigo · Serie A Silver baseball — giro
+ ne B (regular season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-dd972e43@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+SUMMARY:IS Copy Junior Alpina 5-8 Itas Mutua Rovigo (Serie A Silver basebal
+ l — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n4ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-f3401c36@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+SUMMARY:IS Copy Junior Alpina 8-0 Itas Mutua Rovigo (Serie A Silver basebal
+ l — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n4ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-716ca224@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260502
+DTEND;VALUE=DATE:20260503
+SUMMARY:Alfa Sistemi Buttrio 5-3 Itas Mutua Rovigo (Serie A Silver baseball
+  — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n5ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-f552754b@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260502
+DTEND;VALUE=DATE:20260503
+SUMMARY:Alfa Sistemi Buttrio 6-8 Itas Mutua Rovigo (Serie A Silver baseball
+  — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n5ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-c4e1ff19@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+SUMMARY:Itas Mutua Rovigo 3-7 Gereon Engineering NBP Ronchi (Serie A Silver
+  baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n10ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-1b8ce7ac@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+SUMMARY:Itas Mutua Rovigo 2-7 Gereon Engineering NBP Ronchi (Serie A Silver
+  baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n10ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-fffccb31@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:Itas Mutua Rovigo 6-5 IS Copy Junior Alpina (Serie A Silver basebal
+ l — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n15ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-5e62b098@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:Itas Mutua Rovigo 4-3 IS Copy Junior Alpina (Serie A Silver basebal
+ l — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n15ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-021994ca@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:Itas Mutua Rovigo 3-8 Alfa Sistemi Buttrio (Serie A Silver baseball
+  — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n16ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-11abbcf5@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:Itas Mutua Rovigo 0-4 Alfa Sistemi Buttrio (Serie A Silver baseball
+  — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n16ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-9d7d1919@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Gereon Engineering NBP Ronchi 1-9 Itas Mutua Rovigo (Serie A Silver
+  baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n21ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-a-silver-girone-b-71c436ec@zuin-fvg
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Gereon Engineering NBP Ronchi 0-2 Itas Mutua Rovigo (Serie A Silver
+  baseball — girone B (regular season))
+DESCRIPTION:Serie A Silver baseball — girone B (regular season)\n21ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-baseball-serie-a-silver-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-a-silver-girone-
+ b
+END:VEVENT
+END:VCALENDAR

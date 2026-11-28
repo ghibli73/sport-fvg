@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Campania Felix Caserta · Serie A2 softball — giron
+ e B (regular season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:baseball-softball-serie-a2-girone-b-13fead4f@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+SUMMARY:Stars Ronchi 11-5 Campania Felix Caserta (Serie A2 softball — gir
+ one B (regular season))
+DESCRIPTION:Serie A2 softball — girone B (regular season)\n10ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-baseball-softball-serie-a2-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-softball-serie-a2-giro
+ ne-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-softball-serie-a2-girone-b-57808fda@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+SUMMARY:Stars Ronchi 3-4 Campania Felix Caserta (Serie A2 softball — giro
+ ne B (regular season))
+DESCRIPTION:Serie A2 softball — girone B (regular season)\n10ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-baseball-softball-serie-a2-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-softball-serie-a2-giro
+ ne-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-softball-serie-a2-girone-b-6ed06eba@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
+SUMMARY:Campania Felix Caserta 2-15 Stars Ronchi (Serie A2 softball — gir
+ one B (regular season))
+DESCRIPTION:Serie A2 softball — girone B (regular season)\n15ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-baseball-softball-serie-a2-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-softball-serie-a2-giro
+ ne-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-softball-serie-a2-girone-b-f5e11a73@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
+SUMMARY:Campania Felix Caserta 1-11 Stars Ronchi (Serie A2 softball — gir
+ one B (regular season))
+DESCRIPTION:Serie A2 softball — girone B (regular season)\n15ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-baseball-softball-serie-a2-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-softball-serie-a2-giro
+ ne-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-softball-serie-a2-girone-b-c073229b@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:Campania Felix Caserta 0-14 Stars Ronchi (Serie A2 softball — gir
+ one B (regular season))
+DESCRIPTION:Serie A2 softball — girone B (regular season)\n5ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-softball-serie-a2-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-softball-serie-a2-giro
+ ne-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-softball-serie-a2-girone-b-834373a2@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:Campania Felix Caserta 2-14 Stars Ronchi (Serie A2 softball — gir
+ one B (regular season))
+DESCRIPTION:Serie A2 softball — girone B (regular season)\n5ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-softball-serie-a2-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-softball-serie-a2-giro
+ ne-b
+END:VEVENT
+END:VCALENDAR

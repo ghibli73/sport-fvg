@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Fiorentina Baseball e Softball · Serie A2 softball 
+ — girone B (regular season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:baseball-softball-serie-a2-girone-b-55b7633b@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+SUMMARY:Fiorentina Baseball e Softball 19-12 Stars Ronchi (Serie A2 softbal
+ l — girone B (regular season))
+DESCRIPTION:Serie A2 softball — girone B (regular season)\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-softball-serie-a2-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-softball-serie-a2-giro
+ ne-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-softball-serie-a2-girone-b-29c6346e@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+SUMMARY:Fiorentina Baseball e Softball 11-1 Stars Ronchi (Serie A2 softball
+  — girone B (regular season))
+DESCRIPTION:Serie A2 softball — girone B (regular season)\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-softball-serie-a2-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-softball-serie-a2-giro
+ ne-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-softball-serie-a2-girone-b-2e4b8148@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
+SUMMARY:Stars Ronchi 5-4 Fiorentina Baseball e Softball (Serie A2 softball 
+ — girone B (regular season))
+DESCRIPTION:Serie A2 softball — girone B (regular season)\n8ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-softball-serie-a2-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-softball-serie-a2-giro
+ ne-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-softball-serie-a2-girone-b-c7ceb29d@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
+SUMMARY:Stars Ronchi 12-6 Fiorentina Baseball e Softball (Serie A2 softball
+  — girone B (regular season))
+DESCRIPTION:Serie A2 softball — girone B (regular season)\n8ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-softball-serie-a2-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-softball-serie-a2-giro
+ ne-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-softball-serie-a2-girone-b-eca787ee@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:Fiorentina Baseball e Softball 2-10 Stars Ronchi (Serie A2 softball
+  — girone B (regular season))
+DESCRIPTION:Serie A2 softball — girone B (regular season)\n13ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-baseball-softball-serie-a2-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-softball-serie-a2-giro
+ ne-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-softball-serie-a2-girone-b-1898b6bb@zuin-fvg
+DTSTAMP:20260719T000000Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:Fiorentina Baseball e Softball 0-6 Stars Ronchi (Serie A2 softball 
+ — girone B (regular season))
+DESCRIPTION:Serie A2 softball — girone B (regular season)\n13ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-baseball-softball-serie-a2-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-softball-serie-a2-giro
+ ne-b
+END:VEVENT
+END:VCALENDAR

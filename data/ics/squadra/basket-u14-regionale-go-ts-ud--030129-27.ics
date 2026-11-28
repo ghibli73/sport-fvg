@@ -1,0 +1,327 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · POL. LIBERTAS CUSSIGNACCO · Under 14 Under 14 Maschi
+ le Regionale — girone GO/TS/UD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-909dc96c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T190000
+DTEND;TZID=Europe/Rome:20261101T210000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO 70-21 POL LIB. PASIAN DI PRATO (Under 14 
+ Maschile Regionale — girone GO/TS/UD)
+LOCATION:Pal. Sc. E. "Ada Negri"\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n1ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-b8557107@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO 17-70 O.F.P. AZZURRA R.D.R. Basket Triest
+ e (Under 14 Maschile Regionale — girone GO/TS/UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n3ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-42f94ba6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261121T153000
+DTEND;TZID=Europe/Rome:20261121T173000
+SUMMARY:WEB SBaMM – POL. LIBERTAS CUSSIGNACCO (Under 14 Maschile Regional
+ e — girone GO/TS/UD)
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n4ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-9c95501d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261202T193000
+DTEND;TZID=Europe/Rome:20261202T213000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO – AKK BOR BASKET (Under 14 Maschile Reg
+ ionale — girone GO/TS/UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n5ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-5792b8e4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261205T180000
+DTEND;TZID=Europe/Rome:20261205T200000
+SUMMARY:PALL. LAIPACCO – POL. LIBERTAS CUSSIGNACCO (Under 14 Maschile Reg
+ ionale — girone GO/TS/UD)
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n6ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-51ca23ad@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261211T190000
+DTEND;TZID=Europe/Rome:20261211T210000
+SUMMARY:LIGNANO BASKET – POL. LIBERTAS CUSSIGNACCO (Under 14 Maschile Reg
+ ionale — girone GO/TS/UD)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n7ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-52aeb04b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261221T193000
+DTEND;TZID=Europe/Rome:20261221T213000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO – U.S.D. DON BOSCO (Under 14 Maschile R
+ egionale — girone GO/TS/UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n8ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-c3b5db69@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T160000
+DTEND;TZID=Europe/Rome:20270109T180000
+SUMMARY:BASKET CERVIGNANESE – POL. LIBERTAS CUSSIGNACCO (Under 14 Maschil
+ e Regionale — girone GO/TS/UD)
+LOCATION:Pal. Scuole Elementari\, Cervignano Del Friuli
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n9ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-65d37ed3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T110000
+DTEND;TZID=Europe/Rome:20270117T130000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO – FALCONSTAR BASKET (Under 14 Maschile 
+ Regionale — girone GO/TS/UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n10ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-1c89fd1e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270120T183000
+DTEND;TZID=Europe/Rome:20270120T203000
+SUMMARY:US ALBA PALLACANESTRO – POL. LIBERTAS CUSSIGNACCO (Under 14 Masch
+ ile Regionale — girone GO/TS/UD)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n2ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-7c221b74@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270127T193000
+DTEND;TZID=Europe/Rome:20270127T213000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO – LIBERTAS GONARS (Under 14 Maschile Re
+ gionale — girone GO/TS/UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n12ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-16404be6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270206T173000
+DTEND;TZID=Europe/Rome:20270206T193000
+SUMMARY:APU NEXT GEN – POL. LIBERTAS CUSSIGNACCO (Under 14 Maschile Regio
+ nale — girone GO/TS/UD)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n13ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-29bddf25@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270213T160000
+DTEND;TZID=Europe/Rome:20270213T180000
+SUMMARY:POL LIB. PASIAN DI PRATO – POL. LIBERTAS CUSSIGNACCO (Under 14 Ma
+ schile Regionale — girone GO/TS/UD)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n14ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-96417dc9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270224T193000
+DTEND;TZID=Europe/Rome:20270224T213000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO – US ALBA PALLACANESTRO (Under 14 Masch
+ ile Regionale — girone GO/TS/UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n15ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-957e96de@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270228T100000
+DTEND;TZID=Europe/Rome:20270228T120000
+SUMMARY:O.F.P. AZZURRA R.D.R. Basket Trieste – POL. LIBERTAS CUSSIGNACCO 
+ (Under 14 Maschile Regionale — girone GO/TS/UD)
+LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n16ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-dd5cf80a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270309T190000
+DTEND;TZID=Europe/Rome:20270309T210000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO – WEB SBaMM (Under 14 Maschile Regional
+ e — girone GO/TS/UD)
+LOCATION:Pal. ''M. Vecchiatto''\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n17ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-06c36461@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270313T180000
+DTEND;TZID=Europe/Rome:20270313T200000
+SUMMARY:AKK BOR BASKET – POL. LIBERTAS CUSSIGNACCO (Under 14 Maschile Reg
+ ionale — girone GO/TS/UD)
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n18ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-6e5ddd5c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270323T190000
+DTEND;TZID=Europe/Rome:20270323T210000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO – PALL. LAIPACCO (Under 14 Maschile Reg
+ ionale — girone GO/TS/UD)
+LOCATION:Pal. ''M. Vecchiatto''\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n19ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-7f12b492@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270404T110000
+DTEND;TZID=Europe/Rome:20270404T130000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO – LIGNANO BASKET (Under 14 Maschile Reg
+ ionale — girone GO/TS/UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n20ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-55c76ed2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270414T193000
+DTEND;TZID=Europe/Rome:20270414T213000
+SUMMARY:U.S.D. DON BOSCO – POL. LIBERTAS CUSSIGNACCO (Under 14 Maschile R
+ egionale — girone GO/TS/UD)
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n21ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-45c5151f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270424T160000
+DTEND;TZID=Europe/Rome:20270424T180000
+SUMMARY:FALCONSTAR BASKET – POL. LIBERTAS CUSSIGNACCO (Under 14 Maschile 
+ Regionale — girone GO/TS/UD)
+LOCATION:Palestra 'B' Marcon\, Monfalcone
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n23ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-f3b277e0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270508T160000
+DTEND;TZID=Europe/Rome:20270508T180000
+SUMMARY:LIBERTAS GONARS – POL. LIBERTAS CUSSIGNACCO (Under 14 Maschile Re
+ gionale — girone GO/TS/UD)
+LOCATION:Palazzetto Dello Sport\, Gonars
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n25ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-go-ts-ud-9fbcbf88@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270516T110000
+DTEND;TZID=Europe/Rome:20270516T130000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO – APU NEXT GEN (Under 14 Maschile Regio
+ nale — girone GO/TS/UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n26ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-regionale-go-ts-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ASD POL. LIBERTAS CUSSIGNACCO · Under 12 Esordienti 
+ femminile Under 12 — girone UD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-f-ud-e32c3fc9@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261213T100000
+DTEND;TZID=Europe/Rome:20261213T120000
+SUMMARY:ASD POL. LIBERTAS CUSSIGNACCO – POL. LIBERTAS ASD ACLI (Esordient
+ i femminile Under 12 — girone UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Esordienti femminile Under 12 — girone UD\n1ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-f-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-f-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-f-ud-7977449f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261220T100000
+DTEND;TZID=Europe/Rome:20261220T120000
+SUMMARY:ASD POL. LIBERTAS CUSSIGNACCO – APU NEXT GEN S.S.D. A R.L. (Esord
+ ienti femminile Under 12 — girone UD)
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Esordienti femminile Under 12 — girone UD\n3ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-f-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-f-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-f-ud-f97f50b3@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270130T170000
+DTEND;TZID=Europe/Rome:20270130T190000
+SUMMARY:POL. LIBERTAS ASD ACLI – ASD POL. LIBERTAS CUSSIGNACCO (Esordient
+ i femminile Under 12 — girone UD)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Esordienti femminile Under 12 — girone UD\n4ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-f-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-f-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-f-ud-e860022d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270303T190000
+DTEND;TZID=Europe/Rome:20270303T210000
+SUMMARY:APU NEXT GEN S.S.D. A R.L. – ASD POL. LIBERTAS CUSSIGNACCO (Esord
+ ienti femminile Under 12 — girone UD)
+LOCATION:Palestra Sc. 'Marconi'\, Udine
+DESCRIPTION:Esordienti femminile Under 12 — girone UD\n6ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-f-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-f-ud
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,140 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Cento · Serie A2 — girone unico (regular season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-2948657c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Cento 81-96 Pesaro (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-113c4fbb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Forli 80-73 Cento (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-8d0f9fbd@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Cento 98-88 Vigevano (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-8e00d311@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Sassari 80-70 Cento (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-e43c6fcb@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Cento 52-96 Pistoia (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-17a02a24@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Montecatini 71-77 Cento (Serie A2 — girone unico (regular season)
+ )
+DESCRIPTION:Serie A2 — girone unico (regular season)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-56bb6103@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Cento 64-74 Cividale (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-a9c0fbf8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Libertas Livorno 76-63 Cento (Serie A2 — girone unico (regular se
+ ason))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-b186797d@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Cento 77-79 JuVi Cremona (Serie A2 — girone unico (regular season
+ ))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-1c43eda8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Brindisi 83-79 Cento (Serie A2 — girone unico (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+END:VCALENDAR

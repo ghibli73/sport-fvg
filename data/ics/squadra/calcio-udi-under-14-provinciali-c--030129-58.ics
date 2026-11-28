@@ -1,0 +1,145 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · DONATELLO CALCIO A.S.D. · Under 14 Under 14 provinci
+ ali — girone C
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-581ef328@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:DONATELLO CALCIO A.S.D. 5-0 PALMARKET PAGNACCO (Under 14 provincial
+ i — girone C)
+DESCRIPTION:Under 14 provinciali — girone C\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-233094d8@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:UDINE UNITED RIZZI CORMOR 0-5 DONATELLO CALCIO A.S.D. (Under 14 pro
+ vinciali — girone C)
+DESCRIPTION:Under 14 provinciali — girone C\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-604f7fdf@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:DONATELLO CALCIO A.S.D. 3-1 PRO FAGAGNA (Under 14 provinciali — g
+ irone C)
+DESCRIPTION:Under 14 provinciali — girone C\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-142c25e6@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:DONATELLO CALCIO A.S.D. 7-1 UNION MARTIGNACCO (Under 14 provinciali
+  — girone C)
+DESCRIPTION:Under 14 provinciali — girone C\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-86e21922@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:TOLMEZZO CARNIA 0-6 DONATELLO CALCIO A.S.D. (Under 14 provinciali 
+ — girone C)
+DESCRIPTION:Under 14 provinciali — girone C\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-032266a8@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:DONATELLO CALCIO A.S.D. 15-1 OSOPPO RUSH SOCCER (Under 14 provincia
+ li — girone C)
+DESCRIPTION:Under 14 provinciali — girone C\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-009fe122@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:DONATELLO CALCIO A.S.D. 21-0 DEPORTIVO JUNIOR (Under 14 provinciali
+  — girone C)
+DESCRIPTION:Under 14 provinciali — girone C\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-78d43e3b@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:RIVE D ARCANO FLAIBANO 0-5 DONATELLO CALCIO A.S.D. (Under 14 provin
+ ciali — girone C)
+DESCRIPTION:Under 14 provinciali — girone C\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-14-provinciali-c-157f23f3@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:DONATELLO CALCIO A.S.D. – DE AGOSTINI ACADEMY (Under 14 provincia
+ li — girone C)
+DESCRIPTION:Under 14 provinciali — girone C\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-udi-under-14-provinciali-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
+ -c
+END:VEVENT
+END:VCALENDAR

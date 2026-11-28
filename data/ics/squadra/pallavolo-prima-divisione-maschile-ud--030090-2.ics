@@ -1,0 +1,187 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D.ROJALESE · Prima Divisione maschile CT Udine 
+ — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-0bc72fec@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261115T200000
+DTEND;TZID=Europe/Rome:20261115T220000
+SUMMARY:GEMONA LA PERLA 3-0 A.S.D.ROJALESE (Prima Divisione maschile CT Udi
+ ne — girone unico)
+LOCATION:Palestra Comun. Porcians\, ARTEGNA UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-8fb213ef@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T180000
+DTEND;TZID=Europe/Rome:20261122T200000
+SUMMARY:A.S.D.ROJALESE 3-1 IL POZZO (Prima Divisione maschile CT Udine — 
+ girone unico)
+LOCATION:Palestra Comunale\, Remugnano REANA DEL ROIALE UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n3ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-43bb515e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T210000
+DTEND;TZID=Europe/Rome:20261129T230000
+SUMMARY:A.S.D.ROJALESE – AURORA VOLLEY UDINE (Prima Divisione maschile CT
+  Udine — girone unico)
+LOCATION:Palestra Comunale\, Via Stadio\, Remugnano\, REANA DEL ROIALE UD
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-0128b899@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
+SUMMARY:A.S.D.ROJALESE – APD SAN LEONARDO (Prima Divisione maschile CT Ud
+ ine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-1f5e0e3e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T173000
+DTEND;TZID=Europe/Rome:20261213T193000
+SUMMARY:ASDMUZZANAVOLLEY – A.S.D.ROJALESE (Prima Divisione maschile CT Ud
+ ine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-cf01031c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T180000
+DTEND;TZID=Europe/Rome:20261220T200000
+SUMMARY:A.S.D.ROJALESE – GAIA VOLLEYBAS UDINE (Prima Divisione maschile C
+ T Udine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-c1df857a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T210000
+DTEND;TZID=Europe/Rome:20270117T230000
+SUMMARY:A.S.D.ROJALESE – GEMONA LA PERLA (Prima Divisione maschile CT Udi
+ ne — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n9ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-b0349d48@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270124T180000
+DTEND;TZID=Europe/Rome:20270124T200000
+SUMMARY:IL POZZO – A.S.D.ROJALESE (Prima Divisione maschile CT Udine — 
+ girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n10ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-d00f086e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270131T180000
+DTEND;TZID=Europe/Rome:20270131T200000
+SUMMARY:AURORA VOLLEY UDINE – A.S.D.ROJALESE (Prima Divisione maschile CT
+  Udine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n11ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-5eb30af4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270206T203000
+DTEND;TZID=Europe/Rome:20270206T223000
+SUMMARY:APD SAN LEONARDO – A.S.D.ROJALESE (Prima Divisione maschile CT Ud
+ ine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n12ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-8f040d79@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270214T180000
+DTEND;TZID=Europe/Rome:20270214T200000
+SUMMARY:A.S.D.ROJALESE – ASDMUZZANAVOLLEY (Prima Divisione maschile CT Ud
+ ine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n13ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-prima-divisione-maschile-ud-4c150fc9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270219T201500
+DTEND;TZID=Europe/Rome:20270219T221500
+SUMMARY:GAIA VOLLEYBAS UDINE – A.S.D.ROJALESE (Prima Divisione maschile C
+ T Udine — girone unico)
+DESCRIPTION:Prima Divisione maschile CT Udine — girone unico\n14ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-prima-divisione-maschile-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-prima-divisione-masch
+ ile-ud
+END:VEVENT
+END:VCALENDAR

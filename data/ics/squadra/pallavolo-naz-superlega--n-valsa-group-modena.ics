@@ -1,0 +1,171 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Valsa Group Modena · SuperLega (Serie A1 maschile) 
+ — regular season
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-bd4516b9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261018T190000
+DTEND;TZID=Europe/Rome:20261018T210000
+SUMMARY:Valsa Group Modena 0-3 Itas Trentino (SuperLega (Serie A1 maschile)
+  — regular season)
+LOCATION:PalaSport G.Panini\, Modena (MO)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n1ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-c4866cb1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261025T180000
+DTEND;TZID=Europe/Rome:20261025T200000
+SUMMARY:Gas Sales Bluenergy Piacenza 3-0 Valsa Group Modena (SuperLega (Ser
+ ie A1 maschile) — regular season)
+LOCATION:PalabancaSport\, Piacenza (PC)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n2ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-89cd7876@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261101T170000
+DTEND;TZID=Europe/Rome:20261101T190000
+SUMMARY:Valsa Group Modena 3-1 Rana Verona (SuperLega (Serie A1 maschile) 
+ — regular season)
+LOCATION:PalaSport G.Panini\, Modena (MO)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n3ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-6afe4675@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261104T203000
+DTEND;TZID=Europe/Rome:20261104T223000
+SUMMARY:Cucine Lube Civitanova 3-1 Valsa Group Modena (SuperLega (Serie A1 
+ maschile) — regular season)
+LOCATION:Eurosuole Forum\, Civitanova Marche (MC)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n4ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-e8303403@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T203000
+DTEND;TZID=Europe/Rome:20261108T223000
+SUMMARY:Vero Volley Monza 0-3 Valsa Group Modena (SuperLega (Serie A1 masch
+ ile) — regular season)
+LOCATION:OpiquadArena\, Monza (MB)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-80ccc87c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T190000
+DTEND;TZID=Europe/Rome:20261122T210000
+SUMMARY:Valsa Group Modena 3-0 Cisterna Volley (SuperLega (Serie A1 maschil
+ e) — regular season)
+LOCATION:PalaSport G.Panini\, Modena (MO)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n6ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-ad6b6d80@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T190000
+DTEND;TZID=Europe/Rome:20261129T210000
+SUMMARY:Sir Susa Scai Perugia – Valsa Group Modena (SuperLega (Serie A1 m
+ aschile) — regular season)
+LOCATION:Pala Barton Energy\, Perugia (PG)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n7ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-2b1cde4e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261202T200000
+DTEND;TZID=Europe/Rome:20261202T220000
+SUMMARY:Valsa Group Modena – Acqua Sant'Anna Cuneo (SuperLega (Serie A1 m
+ aschile) — regular season)
+LOCATION:PalaSport G.Panini\, Modena (MO)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n8ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-643ea3f8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261206T170000
+DTEND;TZID=Europe/Rome:20261206T190000
+SUMMARY:Pallavolo Padova – Valsa Group Modena (SuperLega (Serie A1 maschi
+ le) — regular season)
+LOCATION:Kioene Arena\, Padova (PD)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n9ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-9d879a08@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T170000
+DTEND;TZID=Europe/Rome:20261213T190000
+SUMMARY:Valsa Group Modena – Tinet Prata di Pordenone (SuperLega (Serie A
+ 1 maschile) — regular season)
+LOCATION:PalaSport G.Panini\, Modena (MO)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n10ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-naz-superlega-f53b3047@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T180000
+DTEND;TZID=Europe/Rome:20261220T200000
+SUMMARY:Valsa Group Modena – Allianz Milano (SuperLega (Serie A1 maschile
+ ) — regular season)
+LOCATION:PalaSport G.Panini\, Modena (MO)
+DESCRIPTION:SuperLega (Serie A1 maschile) — regular season\n11ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-pallavolo-naz-superlega
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-naz-superlega
+END:VEVENT
+END:VCALENDAR

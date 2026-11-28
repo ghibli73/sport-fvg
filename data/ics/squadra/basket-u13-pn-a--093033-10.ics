@@ -1,0 +1,236 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Roraigrande Basket · Under 13 Under 13 Maschile — 
+ girone PN A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-pn-a-83ac9e9c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261103T180000
+DTEND;TZID=Europe/Rome:20261103T200000
+SUMMARY:Roraigrande Basket 14-57 Basket Pasiano (Under 13 Maschile — giro
+ ne PN A)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-c890a526@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T160000
+DTEND;TZID=Europe/Rome:20261108T180000
+SUMMARY:Sistema BK Pordenone – Roraigrande Basket (Under 13 Maschile — 
+ girone PN A)
+LOCATION:Pallone ex Tennis\, Roveredo in Piano
+DESCRIPTION:Under 13 Maschile — girone PN A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-19d415ea@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T150000
+DTEND;TZID=Europe/Rome:20261114T170000
+SUMMARY:Aviano Basket 55-28 Roraigrande Basket (Under 13 Maschile — giron
+ e PN A)
+LOCATION:Palazzetto dello Sport\, Aviano
+DESCRIPTION:Under 13 Maschile — girone PN A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-1d9a7b7e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261121T173000
+DTEND;TZID=Europe/Rome:20261121T193000
+SUMMARY:Roraigrande Basket – Humus Basket (Under 13 Maschile — girone P
+ N A)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-8ad9b9a0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261128T150000
+DTEND;TZID=Europe/Rome:20261128T170000
+SUMMARY:3 S Basket Cordenons – Roraigrande Basket (Under 13 Maschile — 
+ girone PN A)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 13 Maschile — girone PN A\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-888b06fe@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261205T153000
+DTEND;TZID=Europe/Rome:20261205T173000
+SUMMARY:Roraigrande Basket – Basket Maniago (Under 13 Maschile — girone
+  PN A)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-9b64c2b9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261214T171500
+DTEND;TZID=Europe/Rome:20261214T191500
+SUMMARY:Nuovo Basket 2000 – Roraigrande Basket (Under 13 Maschile — gir
+ one PN A)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-c0ae0da2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270110T113000
+DTEND;TZID=Europe/Rome:20270110T133000
+SUMMARY:Scuola Pallacanestro Porcia 2021 – Roraigrande Basket (Under 13 M
+ aschile — girone PN A)
+LOCATION:Pal. Sc. Medie 'F. Cornacchia'\, Porcia
+DESCRIPTION:Under 13 Maschile — girone PN A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-1921fad3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T100000
+DTEND;TZID=Europe/Rome:20270117T120000
+SUMMARY:Basket Pasiano – Roraigrande Basket (Under 13 Maschile — girone
+  PN A)
+LOCATION:Palazzetto 'Roberto Marson'\, Pasiano Di Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-ec71502d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270123T160000
+DTEND;TZID=Europe/Rome:20270123T180000
+SUMMARY:Roraigrande Basket – Sistema BK Pordenone (Under 13 Maschile — 
+ girone PN A)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-c21cc064@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T093000
+DTEND;TZID=Europe/Rome:20270131T113000
+SUMMARY:Roraigrande Basket – Aviano Basket (Under 13 Maschile — girone 
+ PN A)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n12ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-4c8b6db5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270207T183000
+DTEND;TZID=Europe/Rome:20270207T203000
+SUMMARY:Humus Basket – Roraigrande Basket (Under 13 Maschile — girone P
+ N A)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 13 Maschile — girone PN A\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-6f33a50c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270216T180000
+DTEND;TZID=Europe/Rome:20270216T200000
+SUMMARY:Roraigrande Basket – 3 S Basket Cordenons (Under 13 Maschile — 
+ girone PN A)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n14ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-0dbb6f2d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270220T150000
+DTEND;TZID=Europe/Rome:20270220T170000
+SUMMARY:Basket Maniago – Roraigrande Basket (Under 13 Maschile — girone
+  PN A)
+LOCATION:Palazzetto Dello Sport\, Maniago
+DESCRIPTION:Under 13 Maschile — girone PN A\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-4c191271@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270227T160000
+DTEND;TZID=Europe/Rome:20270227T180000
+SUMMARY:Roraigrande Basket – Nuovo Basket 2000 (Under 13 Maschile — gir
+ one PN A)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n16ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-286d7778@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270313T150000
+DTEND;TZID=Europe/Rome:20270313T170000
+SUMMARY:Roraigrande Basket – Scuola Pallacanestro Porcia 2021 (Under 13 M
+ aschile — girone PN A)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+END:VCALENDAR

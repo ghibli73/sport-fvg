@@ -1,0 +1,137 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · VPA · Under 15 Under 15 maschile interterritoriale P
+ N-UD — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-a-c7560863@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T163000
+DTEND;TZID=Europe/Rome:20261107T183000
+SUMMARY:ASDMUZZANAVOLLEY 0-3 VPA (Under 15 maschile interterritoriale PN-UD
+  — girone A)
+LOCATION:Palestra Comunale\, MUZZANA DEL TURGNANO UD
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone A\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-a-dadcf302@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261112T190000
+DTEND;TZID=Europe/Rome:20261112T210000
+SUMMARY:VPA 3-0 FOX VOLLEY U15 (Under 15 maschile interterritoriale PN-UD 
+ — girone A)
+LOCATION:Palestra Scuole Medie\, PRATA DI PORDENONE PN
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone A\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-a-17a18b8c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T153000
+DTEND;TZID=Europe/Rome:20261121T173000
+SUMMARY:PASIAN DI PRATO VOLLEY 0-3 VPA (Under 15 maschile interterritoriale
+  PN-UD — girone A)
+LOCATION:Palestra ENAIP\, Pasian di Prato PASIAN DI PRATO UD
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone A\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-a-9a198ea6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261126T190000
+DTEND;TZID=Europe/Rome:20261126T210000
+SUMMARY:VPA 0-3 FUTURA STUDIO FRACASSI (Under 15 maschile interterritoriale
+  PN-UD — girone A)
+LOCATION:Palestra Scuole Medie\, Via Martiri della Libertà\, PRATA DI PORD
+ ENONE PN
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone A\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-a-ce39ff81@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261210T190000
+DTEND;TZID=Europe/Rome:20261210T210000
+SUMMARY:VPA – ASDMUZZANAVOLLEY (Under 15 maschile interterritoriale PN-UD
+  — girone A)
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone A\n6ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-a-a4dbdafa@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T153000
+DTEND;TZID=Europe/Rome:20261219T173000
+SUMMARY:FOX VOLLEY U15 – VPA (Under 15 maschile interterritoriale PN-UD 
+ — girone A)
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone A\n7ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-a-f94c3d62@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270112T190000
+DTEND;TZID=Europe/Rome:20270112T210000
+SUMMARY:VPA – PASIAN DI PRATO VOLLEY (Under 15 maschile interterritoriale
+  PN-UD — girone A)
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone A\n8ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-a
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-maschile-pn-ud-girone-a-6c0c90da@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270113T190000
+DTEND;TZID=Europe/Rome:20270113T210000
+SUMMARY:FUTURA STUDIO FRACASSI – VPA (Under 15 maschile interterritoriale
+  PN-UD — girone A)
+DESCRIPTION:Under 15 maschile interterritoriale PN-UD — girone A\n9ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-pallavolo-under-15-maschile-pn-ud-girone-a
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-maschile-pn-
+ ud-girone-a
+END:VEVENT
+END:VCALENDAR

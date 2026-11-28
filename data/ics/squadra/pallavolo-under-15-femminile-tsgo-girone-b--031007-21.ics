@@ -1,0 +1,242 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · GLASMIK - RZ PELLETS · Under 15 Under 15 femminile C
+ T Trieste-Gorizia — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-74d167b2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T153000
+DTEND;TZID=Europe/Rome:20261017T173000
+SUMMARY:GLASMIK - RZ PELLETS 0-3 UNICLIMA TSV CITY (Under 15 femminile CT T
+ rieste-Gorizia — girone B)
+LOCATION:Palestra Comunale S. Andrea\, Gorizia
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n1ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-81e8347a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261025T110000
+DTEND;TZID=Europe/Rome:20261025T130000
+SUMMARY:CASSA RURALE FVG TURRIACO 3-1 GLASMIK - RZ PELLETS (Under 15 femmin
+ ile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, TURRIACO GO
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n2ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-89accadf@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T150000
+DTEND;TZID=Europe/Rome:20261107T170000
+SUMMARY:AR FINCANTIERI ASD 3-0 GLASMIK - RZ PELLETS (Under 15 femminile CT 
+ Trieste-Gorizia — girone B)
+LOCATION:Palasport\, MONFALCONE GO
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n4ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-e0a3acd7@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261109T190000
+DTEND;TZID=Europe/Rome:20261109T210000
+SUMMARY:GLASMIK - RZ PELLETS 0-3 EXCALIBUR OLYMPIA TRIESTE (Under 15 femmin
+ ile CT Trieste-Gorizia — girone B)
+LOCATION:Palestra Comunale\, DOBERDO' DEL LAGO GO
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n5ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-5d333b82@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T180000
+DTEND;TZID=Europe/Rome:20261121T200000
+SUMMARY:SYSTEM VOLLEY U.15 3-0 GLASMIK - RZ PELLETS (Under 15 femminile CT 
+ Trieste-Gorizia — girone B)
+LOCATION:Palestra Istituto Volta\, TRIESTE TS
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n6ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-6400f7b6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T153000
+DTEND;TZID=Europe/Rome:20261128T173000
+SUMMARY:GLASMIK - RZ PELLETS – U.S. AZZURRA (Under 15 femminile CT Triest
+ e-Gorizia — girone B)
+LOCATION:Palestra Comunale S. Andrea\, Via San Michele 143\, GORIZIA GO
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n7ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-2c6c9878@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261206T153000
+DTEND;TZID=Europe/Rome:20261206T173000
+SUMMARY:ASD OFP AZZURRA RDR LUCE – GLASMIK - RZ PELLETS (Under 15 femmini
+ le CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n8ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-f71a092c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T170000
+DTEND;TZID=Europe/Rome:20261213T190000
+SUMMARY:ZALET SLOGA U15 – GLASMIK - RZ PELLETS (Under 15 femminile CT Tri
+ este-Gorizia — girone B)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n9ª giornat
+ a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
+ sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-4ecd296c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261220T110000
+DTEND;TZID=Europe/Rome:20261220T130000
+SUMMARY:UNICLIMA TSV CITY – GLASMIK - RZ PELLETS (Under 15 femminile CT T
+ rieste-Gorizia — girone B)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n10ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-11571b63@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T153000
+DTEND;TZID=Europe/Rome:20270109T173000
+SUMMARY:GLASMIK - RZ PELLETS – CASSA RURALE FVG TURRIACO (Under 15 femmin
+ ile CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n11ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-cf1bb0d8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T153000
+DTEND;TZID=Europe/Rome:20270123T173000
+SUMMARY:GLASMIK - RZ PELLETS – AR FINCANTIERI ASD (Under 15 femminile CT 
+ Trieste-Gorizia — girone B)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n13ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-58e0a6ad@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270128T190000
+DTEND;TZID=Europe/Rome:20270128T210000
+SUMMARY:EXCALIBUR OLYMPIA TRIESTE – GLASMIK - RZ PELLETS (Under 15 femmin
+ ile CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n14ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-9af88b88@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T153000
+DTEND;TZID=Europe/Rome:20270213T173000
+SUMMARY:GLASMIK - RZ PELLETS – SYSTEM VOLLEY U.15 (Under 15 femminile CT 
+ Trieste-Gorizia — girone B)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n15ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-32742da1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270221T103000
+DTEND;TZID=Europe/Rome:20270221T123000
+SUMMARY:U.S. AZZURRA – GLASMIK - RZ PELLETS (Under 15 femminile CT Triest
+ e-Gorizia — girone B)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n16ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-063668b2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270227T153000
+DTEND;TZID=Europe/Rome:20270227T173000
+SUMMARY:GLASMIK - RZ PELLETS – ASD OFP AZZURRA RDR LUCE (Under 15 femmini
+ le CT Trieste-Gorizia — girone B)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n17ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-under-15-femminile-tsgo-girone-b-83a4da9c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270307T110000
+DTEND;TZID=Europe/Rome:20270307T130000
+SUMMARY:GLASMIK - RZ PELLETS – ZALET SLOGA U15 (Under 15 femminile CT Tri
+ este-Gorizia — girone B)
+DESCRIPTION:Under 15 femminile CT Trieste-Gorizia — girone B\n18ª giorna
+ ta\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io
+ /sport-fvg/#g-pallavolo-under-15-femminile-tsgo-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-under-15-femminile-ts
+ go-girone-b
+END:VEVENT
+END:VCALENDAR

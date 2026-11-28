@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · SPAL CORDOVADO · Under 15 Under 15 provinciali — g
+ irone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-por-under-15-provinciali-a-a1556bc9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:POLCENIGO BUDOIA 0-14 SPAL CORDOVADO (Under 15 provinciali — giro
+ ne A)
+DESCRIPTION:Under 15 provinciali — girone A\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-15-provinciali-a-fde79916@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:SPAL CORDOVADO 1-0 CHIONS (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-15-provinciali-a-c8ec4ce2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:CALCIO AVIANO 1-3 SPAL CORDOVADO (Under 15 provinciali — girone A
+ )
+DESCRIPTION:Under 15 provinciali — girone A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-15-provinciali-a-aabde04f@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:SPAL CORDOVADO 12-0 PRATA CALCIO (Under 15 provinciali — girone A
+ )
+DESCRIPTION:Under 15 provinciali — girone A\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-15-provinciali-a-101a61d4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:SAN QUIRINO 0-18 SPAL CORDOVADO (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-15-provinciali-a-1d68912b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:POLISPORTIVA TAMAI 2-0 SPAL CORDOVADO (Under 15 provinciali — gir
+ one A)
+DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-15-provinciali-a-a7d6ef54@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SPAL CORDOVADO 8-0 CALCIO BANNIA (Under 15 provinciali — girone A
+ )
+DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-under-15-provinciali-a-53aebe31@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:NUOVA VILLANOVA FC. 2-3 SPAL CORDOVADO (Under 15 provinciali — gi
+ rone A)
+DESCRIPTION:Under 15 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
+ -a
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,275 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Baloncesto Triestino · Divisione Regionale 2 — gir
+ one GO/TS
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-4f660c56@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261016T203000
+DTEND;TZID=Europe/Rome:20261016T223000
+SUMMARY:U.S. Goriziana 50-71 Baloncesto Triestino (Divisione Regionale 2 
+ — girone GO/TS)
+LOCATION:Palestra Pino Brumatti\, Gorizia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-8d2dd99d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261023T211500
+DTEND;TZID=Europe/Rome:20261023T231500
+SUMMARY:Baloncesto Triestino 68-76 C.U.S. Trieste (Divisione Regionale 2 
+ — girone GO/TS)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-54ec3f7e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261030T210000
+DTEND;TZID=Europe/Rome:20261030T230000
+SUMMARY:Basket Terzo 73-67 Baloncesto Triestino (Divisione Regionale 2 — 
+ girone GO/TS)
+LOCATION:Pal. Comunale\, Terzo d'Aquileia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-ddd51537@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261106T211500
+DTEND;TZID=Europe/Rome:20261106T231500
+SUMMARY:Baloncesto Triestino 60-50 Barcolana Basket Trieste (Divisione Regi
+ onale 2 — girone GO/TS)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-261b9af3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261115T183000
+DTEND;TZID=Europe/Rome:20261115T203000
+SUMMARY:Baloncesto Isontina 53-62 Baloncesto Triestino (Divisione Regionale
+  2 — girone GO/TS)
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-f3796dd4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T211500
+DTEND;TZID=Europe/Rome:20261120T231500
+SUMMARY:Baloncesto Triestino 63-42 Circolo Sportivo Sokol (Divisione Region
+ ale 2 — girone GO/TS)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-817d3327@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261127T203000
+DTEND;TZID=Europe/Rome:20261127T223000
+SUMMARY:Athletismo 65-70 Baloncesto Triestino (Divisione Regionale 2 — gi
+ rone GO/TS)
+LOCATION:Palestra 'Pino Brumatti'\, Gorizia
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-ce50f00a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261204T211500
+DTEND;TZID=Europe/Rome:20261204T231500
+SUMMARY:Baloncesto Triestino – Pallacanestro Bisiacca (Divisione Regional
+ e 2 — girone GO/TS)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-b947c73d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261211T211500
+DTEND;TZID=Europe/Rome:20261211T231500
+SUMMARY:Baloncesto Triestino – Breg (Divisione Regionale 2 — girone GO/
+ TS)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-c286f401@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270108T211500
+DTEND;TZID=Europe/Rome:20270108T231500
+SUMMARY:Baloncesto Triestino – Nuova Basket Isonzo (Divisione Regionale 2
+  — girone GO/TS)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n11ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-b7bcf661@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270115T211500
+DTEND;TZID=Europe/Rome:20270115T231500
+SUMMARY:Baloncesto Triestino – U.S. Goriziana (Divisione Regionale 2 — 
+ girone GO/TS)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n12ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-f39d3e4d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270122T211500
+DTEND;TZID=Europe/Rome:20270122T231500
+SUMMARY:C.U.S. Trieste – Baloncesto Triestino (Divisione Regionale 2 — 
+ girone GO/TS)
+LOCATION:Palestra C.U.S\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n13ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-6194c315@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270129T211500
+DTEND;TZID=Europe/Rome:20270129T231500
+SUMMARY:Baloncesto Triestino – Basket Terzo (Divisione Regionale 2 — gi
+ rone GO/TS)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n14ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-55d93ff6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270203T211500
+DTEND;TZID=Europe/Rome:20270203T231500
+SUMMARY:Barcolana Basket Trieste – Baloncesto Triestino (Divisione Region
+ ale 2 — girone GO/TS)
+LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n15ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-9c840017@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270220T180000
+DTEND;TZID=Europe/Rome:20270220T200000
+SUMMARY:Circolo Sportivo Sokol – Baloncesto Triestino (Divisione Regional
+ e 2 — girone GO/TS)
+LOCATION:Palestra Comunale 'Aurisina'\, Duino Aurisina
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n17ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-bb06e445@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270226T211500
+DTEND;TZID=Europe/Rome:20270226T231500
+SUMMARY:Baloncesto Triestino – Athletismo (Divisione Regionale 2 — giro
+ ne GO/TS)
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n18ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-d559afe9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270305T204500
+DTEND;TZID=Europe/Rome:20270305T224500
+SUMMARY:Pallacanestro Bisiacca – Baloncesto Triestino (Divisione Regional
+ e 2 — girone GO/TS)
+LOCATION:Palestra Comunale\, Staranzano
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n19ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-6e448c3c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270313T200000
+DTEND;TZID=Europe/Rome:20270313T220000
+SUMMARY:Breg – Baloncesto Triestino (Divisione Regionale 2 — girone GO/
+ TS)
+LOCATION:Palestra 'S.Klabjan'\, San Dorligo Della Valle
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n20ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr2-go-ts-4e3837f6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270402T204500
+DTEND;TZID=Europe/Rome:20270402T224500
+SUMMARY:Nuova Basket Isonzo – Baloncesto Triestino (Divisione Regionale 2
+  — girone GO/TS)
+LOCATION:(Gorizia)
+DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n22ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr2-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+END:VCALENDAR

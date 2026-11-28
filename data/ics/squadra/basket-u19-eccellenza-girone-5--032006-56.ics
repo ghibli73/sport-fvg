@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Pallacanestro Trieste 2004 · Under 19 Under 19 Masch
+ ile Eccellenza — girone 5 (interregionale FVG-Veneto)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-cae477b1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20260928T193000
+DTEND;TZID=Europe/Rome:20260928T213000
+SUMMARY:Pallacanestro Trieste 2004 112-101 Umana Spa Reyer (Under 19 Maschi
+ le Eccellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n1ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-24b2d4e6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261005T200000
+DTEND;TZID=Europe/Rome:20261005T220000
+SUMMARY:Universo Treviso Basket 84-82 Pallacanestro Trieste 2004 (Under 19 
+ Maschile Eccellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palestra S. Antonino\, Treviso
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n2ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-fe8c30c5@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261012T200000
+DTEND;TZID=Europe/Rome:20261012T220000
+SUMMARY:Amici Pallacanestro Udinese 102-96 Pallacanestro Trieste 2004 (Unde
+ r 19 Maschile Eccellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palasport 'Primo Carnera'\, Udine
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n3ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-eb6b962d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261019T193000
+DTEND;TZID=Europe/Rome:20261019T213000
+SUMMARY:Pallacanestro Trieste 2004 69-79 UEB Cividale (Under 19 Maschile Ec
+ cellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n4ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-01f1abd6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261027T210000
+DTEND;TZID=Europe/Rome:20261027T230000
+SUMMARY:Basket Mestre 1958 83-70 Pallacanestro Trieste 2004 (Under 19 Masch
+ ile Eccellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palazzetto di Trivignano (Pala Vega)\, Venezia
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n5ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-388f8b8a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261103T190000
+DTEND;TZID=Europe/Rome:20261103T210000
+SUMMARY:Umana Spa Reyer 87-85 Pallacanestro Trieste 2004 (Under 19 Maschile
+  Eccellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palasport 'Taliercio'\, Venezia
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n6ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-9d2f9885@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261109T193000
+DTEND;TZID=Europe/Rome:20261109T213000
+SUMMARY:Pallacanestro Trieste 2004 92-73 Universo Treviso Basket (Under 19 
+ Maschile Eccellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n7ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-9310a2f0@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261117T193000
+DTEND;TZID=Europe/Rome:20261117T213000
+SUMMARY:Pallacanestro Trieste 2004 79-96 Amici Pallacanestro Udinese (Under
+  19 Maschile Eccellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n8ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-a7ae48e4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261123T203000
+DTEND;TZID=Europe/Rome:20261123T223000
+SUMMARY:UEB Cividale 101-68 Pallacanestro Trieste 2004 (Under 19 Maschile E
+ ccellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palazzetto dello Sport\, Cividale del Friuli
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n9ª giornata\nDati non ufficiali: fa fede la federazione. https://
+ ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-eccellenza-girone-5-08fa45ac@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261207T193000
+DTEND;TZID=Europe/Rome:20261207T213000
+SUMMARY:Pallacanestro Trieste 2004 – Basket Mestre 1958 (Under 19 Maschil
+ e Eccellenza — girone 5 (interregionale FVG-Veneto))
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Under 19 Maschile Eccellenza — girone 5 (interregionale FVG-V
+ eneto)\n10ª giornata\nDati non ufficiali: fa fede la federazione. https:/
+ /ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-eccellenza-girone-5
+END:VEVENT
+END:VCALENDAR

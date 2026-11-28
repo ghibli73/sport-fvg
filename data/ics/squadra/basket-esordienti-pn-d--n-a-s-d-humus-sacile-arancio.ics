@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.D. HUMUS SACILE ARANCIO · Under 12 Trofeo Esordi
+ enti Under 12 — girone PN D
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-c76b07cd@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261111T190000
+DTEND;TZID=Europe/Rome:20261111T210000
+SUMMARY:A.S.D. HUMUS SACILE ARANCIO 12-4 A.S.D. HUMUS FONTANAFREDDA BLU (Tr
+ ofeo Esordienti Under 12 — girone PN D)
+LOCATION:Palestra Ist.To Marchesini - M\, Sacile
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-03bc0d4a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261120T173000
+DTEND;TZID=Europe/Rome:20261120T193000
+SUMMARY:A.S.D. HUMUS SACILE ARANCIO 12-4 SCUOLA PALL PORCIA (Trofeo Esordie
+ nti Under 12 — girone PN D)
+LOCATION:Palestra Ist.To Marchesini - M\, Sacile
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-ede4e60e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261127T170000
+DTEND;TZID=Europe/Rome:20261127T190000
+SUMMARY:NEW BRUGNERA BASKET A.S.D. – A.S.D. HUMUS SACILE ARANCIO (Trofeo 
+ Esordienti Under 12 — girone PN D)
+LOCATION:Palasport\, Brugnera
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-867e10a9@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261203T193000
+DTEND;TZID=Europe/Rome:20261203T213000
+SUMMARY:A.S.D. HUMUS FONTANAFREDDA BLU – A.S.D. HUMUS SACILE ARANCIO (Tro
+ feo Esordienti Under 12 — girone PN D)
+LOCATION:Palazzetto Dello Sport\, Fontanafredda
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-06883365@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261205T144500
+DTEND;TZID=Europe/Rome:20261205T164500
+SUMMARY:ASD GAIA BASKET SCHOOL – A.S.D. HUMUS SACILE ARANCIO (Trofeo Esor
+ dienti Under 12 — girone PN D)
+LOCATION:Nuova Palestra Di Calderano\, Gaiarine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-e16f3dcc@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261218T174500
+DTEND;TZID=Europe/Rome:20261218T194500
+SUMMARY:A.S.D. HUMUS SACILE ARANCIO – FIUME VENETO BIANCO (Trofeo Esordie
+ nti Under 12 — girone PN D)
+LOCATION:Palestra Ist.To Marchesini - M\, Sacile
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-6ded41d3@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270112T171500
+DTEND;TZID=Europe/Rome:20270112T191500
+SUMMARY:SCUOLA PALL PORCIA – A.S.D. HUMUS SACILE ARANCIO (Trofeo Esordien
+ ti Under 12 — girone PN D)
+LOCATION:Palestra Sc. Di Roraipiccolo\, Porcia
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-0e97a368@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270120T170000
+DTEND;TZID=Europe/Rome:20270120T190000
+SUMMARY:FIUME VENETO BIANCO – A.S.D. HUMUS SACILE ARANCIO (Trofeo Esordie
+ nti Under 12 — girone PN D)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-46c3096f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270122T173000
+DTEND;TZID=Europe/Rome:20270122T193000
+SUMMARY:A.S.D. HUMUS SACILE ARANCIO – NEW BRUGNERA BASKET A.S.D. (Trofeo 
+ Esordienti Under 12 — girone PN D)
+LOCATION:Palestra Ist.To Marchesini - M\, Sacile
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-d-b26ddf44@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270124T150000
+DTEND;TZID=Europe/Rome:20270124T170000
+SUMMARY:A.S.D. HUMUS SACILE ARANCIO – ASD GAIA BASKET SCHOOL (Trofeo Esor
+ dienti Under 12 — girone PN D)
+LOCATION:Palestra Ist.To Marchesini - M\, Sacile
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN D\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-pn-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-d
+END:VEVENT
+END:VCALENDAR

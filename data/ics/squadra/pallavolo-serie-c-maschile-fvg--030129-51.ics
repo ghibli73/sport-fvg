@@ -1,0 +1,252 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · GAIA VOLLEYBAS UDINE · Serie C maschile — girone u
+ nico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-be877c92@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T203000
+DTEND;TZID=Europe/Rome:20261017T223000
+SUMMARY:ROSSO VOLLEY C. TS 3-2 GAIA VOLLEYBAS UDINE (Serie C maschile — g
+ irone unico)
+LOCATION:Palestra Cobolli\, TRIESTE TS
+DESCRIPTION:Serie C maschile — girone unico\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-0325d2ba@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261024T170000
+DTEND;TZID=Europe/Rome:20261024T190000
+SUMMARY:GAIA VOLLEYBAS UDINE 3-0 TRE MERLI VOLLEY (Serie C maschile — gir
+ one unico)
+LOCATION:Palestra Scuola Mazzini\, UDINE UD
+DESCRIPTION:Serie C maschile — girone unico\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-d3b814a4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T170000
+DTEND;TZID=Europe/Rome:20261031T190000
+SUMMARY:GAIA VOLLEYBAS UDINE 0-3 MARCOLIN ARREDAMENTI SV (Serie C maschile 
+ — girone unico)
+LOCATION:Palestra Scuola Mazzini\, UDINE UD
+DESCRIPTION:Serie C maschile — girone unico\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-69568ced@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261104T203000
+DTEND;TZID=Europe/Rome:20261104T223000
+SUMMARY:BUTTERFLY FINCANTIERI 0-3 GAIA VOLLEYBAS UDINE (Serie C maschile 
+ — girone unico)
+LOCATION:Palasport\, Monfalcone (GO)
+DESCRIPTION:Serie C maschile — girone unico\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-c661f63c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T170000
+DTEND;TZID=Europe/Rome:20261107T190000
+SUMMARY:GAIA VOLLEYBAS UDINE 1-3 PORDENONE VOLLEY (Serie C maschile — gir
+ one unico)
+LOCATION:Palestra Scuola Mazzini\, Udine (UD)
+DESCRIPTION:Serie C maschile — girone unico\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-75b3186f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T200000
+DTEND;TZID=Europe/Rome:20261114T220000
+SUMMARY:SOCASLOVOLLEY ZKB DEVETAK 3-1 GAIA VOLLEYBAS UDINE (Serie C maschil
+ e — girone unico)
+LOCATION:Palestra Comunale\, Savogna d'Isonzo (GO)
+DESCRIPTION:Serie C maschile — girone unico\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-15ee9770@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T170000
+DTEND;TZID=Europe/Rome:20261121T190000
+SUMMARY:GAIA VOLLEYBAS UDINE 3-1 SIEL IL POZZO (Serie C maschile — girone
+  unico)
+LOCATION:Palestra Scuola Mazzini\, Udine (UD)
+DESCRIPTION:Serie C maschile — girone unico\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-b1cf5d80@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:SLOVOLLEY ZKB – GAIA VOLLEYBAS UDINE (Serie C maschile — girone
+  unico)
+LOCATION:Palestra Comunale Paolo Colja\, Repen 177\, Monrupino (TS)
+DESCRIPTION:Serie C maschile — girone unico\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-337b0a38@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T170000
+DTEND;TZID=Europe/Rome:20261205T190000
+SUMMARY:GAIA VOLLEYBAS UDINE – VPA AUSONIA (Serie C maschile — girone u
+ nico)
+DESCRIPTION:Serie C maschile — girone unico\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-b4cf7dc2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T170000
+DTEND;TZID=Europe/Rome:20261212T190000
+SUMMARY:GAIA VOLLEYBAS UDINE – ROSSO VOLLEY C. TS (Serie C maschile — g
+ irone unico)
+DESCRIPTION:Serie C maschile — girone unico\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-05b70483@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T173000
+DTEND;TZID=Europe/Rome:20261219T193000
+SUMMARY:TRE MERLI VOLLEY – GAIA VOLLEYBAS UDINE (Serie C maschile — gir
+ one unico)
+DESCRIPTION:Serie C maschile — girone unico\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-ab755bba@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T200000
+DTEND;TZID=Europe/Rome:20270109T220000
+SUMMARY:MARCOLIN ARREDAMENTI SV – GAIA VOLLEYBAS UDINE (Serie C maschile 
+ — girone unico)
+DESCRIPTION:Serie C maschile — girone unico\n12ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-53328fa4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270112T190000
+DTEND;TZID=Europe/Rome:20270112T210000
+SUMMARY:GAIA VOLLEYBAS UDINE – BUTTERFLY FINCANTIERI (Serie C maschile 
+ — girone unico)
+DESCRIPTION:Serie C maschile — girone unico\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-bd08e588@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T173000
+DTEND;TZID=Europe/Rome:20270117T193000
+SUMMARY:PORDENONE VOLLEY – GAIA VOLLEYBAS UDINE (Serie C maschile — gir
+ one unico)
+DESCRIPTION:Serie C maschile — girone unico\n14ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-7ae0c0ce@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T170000
+DTEND;TZID=Europe/Rome:20270123T190000
+SUMMARY:GAIA VOLLEYBAS UDINE – SOCASLOVOLLEY ZKB DEVETAK (Serie C maschil
+ e — girone unico)
+DESCRIPTION:Serie C maschile — girone unico\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-4b47bbae@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T170000
+DTEND;TZID=Europe/Rome:20270130T190000
+SUMMARY:SIEL IL POZZO – GAIA VOLLEYBAS UDINE (Serie C maschile — girone
+  unico)
+DESCRIPTION:Serie C maschile — girone unico\n16ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-29c11f23@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270206T170000
+DTEND;TZID=Europe/Rome:20270206T190000
+SUMMARY:GAIA VOLLEYBAS UDINE – SLOVOLLEY ZKB (Serie C maschile — girone
+  unico)
+DESCRIPTION:Serie C maschile — girone unico\n17ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-bcb0ac5c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T203000
+DTEND;TZID=Europe/Rome:20270213T223000
+SUMMARY:VPA AUSONIA – GAIA VOLLEYBAS UDINE (Serie C maschile — girone u
+ nico)
+DESCRIPTION:Serie C maschile — girone unico\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+END:VCALENDAR

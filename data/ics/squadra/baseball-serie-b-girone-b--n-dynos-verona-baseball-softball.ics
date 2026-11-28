@@ -1,0 +1,172 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Dynos Verona Baseball Softball · Serie B baseball 
+ — girone B (regular season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-da05561e@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260412
+DTEND;VALUE=DATE:20260413
+SUMMARY:Dynos Verona Baseball Softball 4-9 Rangers Redipuglia (Serie B base
+ ball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n1ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-99346b4f@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260412
+DTEND;VALUE=DATE:20260413
+SUMMARY:Dynos Verona Baseball Softball 1-7 Rangers Redipuglia (Serie B base
+ ball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n1ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-0fdf13a0@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:Sultan Allestimenti Navali Cervignano 5-18 Dynos Verona Baseball So
+ ftball (Serie B baseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n2ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-76c2d98b@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:Sultan Allestimenti Navali Cervignano 5-3 Dynos Verona Baseball Sof
+ tball (Serie B baseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n2ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-ae768fd1@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+SUMMARY:Staranzano Ducks 10-0 Dynos Verona Baseball Softball (Serie B baseb
+ all — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n3ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-10072724@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+SUMMARY:Staranzano Ducks 9-7 Dynos Verona Baseball Softball (Serie B baseba
+ ll — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n3ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-d5b6dbe3@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:Rangers Redipuglia 7-8 Dynos Verona Baseball Softball (Serie B base
+ ball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n8ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-132f9196@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:Rangers Redipuglia 11-7 Dynos Verona Baseball Softball (Serie B bas
+ eball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n8ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-dcf5a9f9@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+SUMMARY:Dynos Verona Baseball Softball 2-1 Sultan Allestimenti Navali Cervi
+ gnano (Serie B baseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n9ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-24a4d6c6@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+SUMMARY:Dynos Verona Baseball Softball 3-15 Sultan Allestimenti Navali Cerv
+ ignano (Serie B baseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n9ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-7d417667@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:Dynos Verona Baseball Softball 7-1 Staranzano Ducks (Serie B baseba
+ ll — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n10ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-5d5e7ac2@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:Dynos Verona Baseball Softball 6-5 Staranzano Ducks (Serie B baseba
+ ll — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n10ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+END:VCALENDAR

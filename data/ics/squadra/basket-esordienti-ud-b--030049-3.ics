@@ -1,0 +1,210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.S.DIL. LIGNANO BASKET · Under 12 Trofeo Esordienti
+  Under 12 — girone UD B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-d8a32c39@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261114T164500
+DTEND;TZID=Europe/Rome:20261114T184500
+SUMMARY:A.S.DIL. LIGNANO BASKET – UDINE BASKET CLUB ASD (Trofeo Esordient
+ i Under 12 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-f8cd2265@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261129T093000
+DTEND;TZID=Europe/Rome:20261129T113000
+SUMMARY:A.DIL.PALL. CODROIPESE – A.S.DIL. LIGNANO BASKET (Trofeo Esordien
+ ti Under 12 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-1ba30791@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261204T164500
+DTEND;TZID=Europe/Rome:20261204T184500
+SUMMARY:A.S.DIL. LIGNANO BASKET – APD PRINCIPE (Trofeo Esordienti Under 1
+ 2 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-4dfed9e5@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261214T180000
+DTEND;TZID=Europe/Rome:20261214T200000
+SUMMARY:POL. DIL. TRICESIMO – A.S.DIL. LIGNANO BASKET (Trofeo Esordienti 
+ Under 12 — girone UD B)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-9ede0364@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270116T153000
+DTEND;TZID=Europe/Rome:20270116T173000
+SUMMARY:ASD POL LIB. PASIAN DI PRATO – A.S.DIL. LIGNANO BASKET (Trofeo Es
+ ordienti Under 12 — girone UD B)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-52395def@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270122T164500
+DTEND;TZID=Europe/Rome:20270122T184500
+SUMMARY:A.S.DIL. LIGNANO BASKET – FELETTO (Trofeo Esordienti Under 12 —
+  girone UD B)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-0f1f9945@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270202T171500
+DTEND;TZID=Europe/Rome:20270202T191500
+SUMMARY:POL. LIBERTAS ASD ACLI – A.S.DIL. LIGNANO BASKET (Trofeo Esordien
+ ti Under 12 — girone UD B)
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-0aadcc8b@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270222T174500
+DTEND;TZID=Europe/Rome:20270222T194500
+SUMMARY:UDINE BASKET CLUB ASD – A.S.DIL. LIGNANO BASKET (Trofeo Esordient
+ i Under 12 — girone UD B)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-46877348@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270305T164500
+DTEND;TZID=Europe/Rome:20270305T184500
+SUMMARY:A.S.DIL. LIGNANO BASKET – A.DIL.PALL. CODROIPESE (Trofeo Esordien
+ ti Under 12 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-37e814c9@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270309T173000
+DTEND;TZID=Europe/Rome:20270309T193000
+SUMMARY:APD PRINCIPE – A.S.DIL. LIGNANO BASKET (Trofeo Esordienti Under 1
+ 2 — girone UD B)
+LOCATION:Palestra Scuola Media Non Om\, Pagnacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-37a70be4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270319T164500
+DTEND;TZID=Europe/Rome:20270319T184500
+SUMMARY:A.S.DIL. LIGNANO BASKET – POL. DIL. TRICESIMO (Trofeo Esordienti 
+ Under 12 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n11ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-d735fabc@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270409T164500
+DTEND;TZID=Europe/Rome:20270409T184500
+SUMMARY:A.S.DIL. LIGNANO BASKET – ASD POL LIB. PASIAN DI PRATO (Trofeo Es
+ ordienti Under 12 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n12ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-b5c35b0d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270420T170000
+DTEND;TZID=Europe/Rome:20270420T190000
+SUMMARY:FELETTO – A.S.DIL. LIGNANO BASKET (Trofeo Esordienti Under 12 —
+  girone UD B)
+LOCATION:Pal. Sc. Media Feletto Umbeto\, Tavagnacco
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n13ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-ud-b-c473f5e4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270507T164500
+DTEND;TZID=Europe/Rome:20270507T184500
+SUMMARY:A.S.DIL. LIGNANO BASKET – POL. LIBERTAS ASD ACLI (Trofeo Esordien
+ ti Under 12 — girone UD B)
+LOCATION:Palazzetto Dello Sport\, Lignano Sabbiadoro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n14ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-ud-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,483 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Lazio · Serie A — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-816f0a71@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20260824T183000
+DTEND;TZID=Europe/Rome:20260824T203000
+SUMMARY:Bologna 0-1 Lazio (Serie A — girone unico)
+LOCATION:Renato Dall'Ara\, Bologna
+DESCRIPTION:Serie A — girone unico\n1ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-0e10ca26@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20260830T204500
+DTEND;TZID=Europe/Rome:20260830T224500
+SUMMARY:Lazio 1-0 Genoa (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n2ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-85fa5e78@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20260907T204500
+DTEND;TZID=Europe/Rome:20260907T224500
+SUMMARY:Udinese 1-2 Lazio (Serie A — girone unico)
+LOCATION:Friuli/Bluenergy stadium\, Udine
+DESCRIPTION:Serie A — girone unico\n3ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-3e15bb3f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20260912T180000
+DTEND;TZID=Europe/Rome:20260912T200000
+SUMMARY:Lazio 2-2 Milan (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n4ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-cbcfeffb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20260919T204500
+DTEND;TZID=Europe/Rome:20260919T224500
+SUMMARY:Venezia 0-2 Lazio (Serie A — girone unico)
+LOCATION:Pier Luigi Penzo\, Venezia
+DESCRIPTION:Serie A — girone unico\n5ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-d582f30b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261011T150000
+DTEND;TZID=Europe/Rome:20261011T170000
+SUMMARY:Lazio 3-1 Monza (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n6ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-7db9fceb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261018T204500
+DTEND;TZID=Europe/Rome:20261018T224500
+SUMMARY:Juventus 0-3 Lazio (Serie A — girone unico)
+LOCATION:Allianz Stadium\, Torino
+DESCRIPTION:Serie A — girone unico\n7ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-b11c027f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261024T204500
+DTEND;TZID=Europe/Rome:20261024T224500
+SUMMARY:Lazio 2-1 Parma (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n8ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-44b1a010@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261027T183000
+DTEND;TZID=Europe/Rome:20261027T203000
+SUMMARY:Sassuolo 2-6 Lazio (Serie A — girone unico)
+LOCATION:Mapei Stadium\, Reggio Emilia
+DESCRIPTION:Serie A — girone unico\n9ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-se
+ rie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-c97f82ad@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261101T150000
+DTEND;TZID=Europe/Rome:20261101T170000
+SUMMARY:Lazio 2-1 Cagliari (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n10ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-b0976273@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T123000
+DTEND;TZID=Europe/Rome:20261108T143000
+SUMMARY:Napoli 1-1 Lazio (Serie A — girone unico)
+LOCATION:Diego Armando Maradona\, Napoli
+DESCRIPTION:Serie A — girone unico\n11ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-92dbd5a9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T150000
+DTEND;TZID=Europe/Rome:20261121T170000
+SUMMARY:Lazio 3-0 Lecce (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n12ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-038b3f01@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T180000
+DTEND;TZID=Europe/Rome:20261128T200000
+SUMMARY:Torino – Lazio (Serie A — girone unico)
+LOCATION:Olimpico - Grande Torino\, Torino
+DESCRIPTION:Serie A — girone unico\n13ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-665ce4d1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261206T150000
+DTEND;TZID=Europe/Rome:20261206T170000
+SUMMARY:Lazio – Atalanta (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n14ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-fe32b543@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T123000
+DTEND;TZID=Europe/Rome:20261213T143000
+SUMMARY:Lazio – Roma (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n15ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-ddd204b2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261218T183000
+DTEND;TZID=Europe/Rome:20261218T203000
+SUMMARY:Frosinone – Lazio (Serie A — girone unico)
+LOCATION:Benito Stirpe\, Frosinone
+DESCRIPTION:Serie A — girone unico\n16ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-f390b8c3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270102T150000
+DTEND;TZID=Europe/Rome:20270102T170000
+SUMMARY:Fiorentina – Lazio (Serie A — girone unico)
+LOCATION:Artemio Franchi\, Firenze
+DESCRIPTION:Serie A — girone unico\n17ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-cb34c891@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270106T204500
+DTEND;TZID=Europe/Rome:20270106T224500
+SUMMARY:Lazio – Inter (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n18ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-8a5b811e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T123000
+DTEND;TZID=Europe/Rome:20270110T143000
+SUMMARY:Como – Lazio (Serie A — girone unico)
+LOCATION:Giuseppe Sinigaglia\, Como
+DESCRIPTION:Serie A — girone unico\n19ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-dd73aa18@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Lazio – Bologna (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n20ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-7783422c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Monza – Lazio (Serie A — girone unico)
+LOCATION:Brianteo\, Monza
+DESCRIPTION:Serie A — girone unico\n21ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-2c80b00c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Lazio – Venezia (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n22ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-4f9261b1@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Atalanta – Lazio (Serie A — girone unico)
+LOCATION:New Balance Arena\, Bergamo
+DESCRIPTION:Serie A — girone unico\n23ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-455338e4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Cagliari – Lazio (Serie A — girone unico)
+LOCATION:Unipol Domus\, Cagliari
+DESCRIPTION:Serie A — girone unico\n24ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-4ba4f5ea@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Lazio – Napoli (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n25ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-7a94e9d6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Genoa – Lazio (Serie A — girone unico)
+LOCATION:Luigi Ferraris\, Genova
+DESCRIPTION:Serie A — girone unico\n26ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-67648486@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Lazio – Frosinone (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n27ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-3b20b5b8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Lazio – Juventus (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n28ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-dfb64eb2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:Parma – Lazio (Serie A — girone unico)
+LOCATION:Ennio Tardini\, Parma
+DESCRIPTION:Serie A — girone unico\n29ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-14fb3d71@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Lecce – Lazio (Serie A — girone unico)
+LOCATION:Ettore Giardiniero - Via Del Mare\, Lecce
+DESCRIPTION:Serie A — girone unico\n30ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-c2d8f167@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Lazio – Torino (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n31ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-865ea24e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Roma – Lazio (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n32ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-2f1b5304@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Lazio – Como (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n33ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-58de85d4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Milan – Lazio (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n34ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-e4d23493@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Lazio – Sassuolo (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n35ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-e18f08ea@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:Lazio – Udinese (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n36ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-518f1f44@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:Inter – Lazio (Serie A — girone unico)
+LOCATION:Giuseppe Meazza\, Milano
+DESCRIPTION:Serie A — girone unico\n37ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-naz-serie-a-6b7e7222@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:Lazio – Fiorentina (Serie A — girone unico)
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Serie A — girone unico\n38ª giornata\nDati non ufficiali: fa
+  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-naz-s
+ erie-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-naz-serie-a
+END:VEVENT
+END:VCALENDAR

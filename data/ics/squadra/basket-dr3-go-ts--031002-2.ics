@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · US ALBA PALLACANESTRO 'B' · Divisione Regionale 3 
+ — girone GO/TS
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-7dec78da@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261106T210000
+DTEND;TZID=Europe/Rome:20261106T230000
+SUMMARY:A.S.A.R.-A.S. AM.ROMANS 77-34 US ALBA PALLACANESTRO 'B' (Divisione 
+ Regionale 3 — girone GO/TS)
+LOCATION:Palestra Comunale\, Romans d'Isonzo
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-e8524c9c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261113T203000
+DTEND;TZID=Europe/Rome:20261113T223000
+SUMMARY:US ALBA PALLACANESTRO 'B' 52-83 PALLACANESTRO GRADO (Divisione Regi
+ onale 3 — girone GO/TS)
+LOCATION:Palasport "R. Plet"\, Cormons
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-1352f1cf@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T211500
+DTEND;TZID=Europe/Rome:20261120T231500
+SUMMARY:BASKET 4 TRIESTE 106-49 US ALBA PALLACANESTRO 'B' (Divisione Region
+ ale 3 — girone GO/TS)
+LOCATION:Pal. Liceo "G. Oberdan"\, Trieste
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-758b8ada@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:OLIMPIA GORIZIA – US ALBA PALLACANESTRO 'B' (Divisione Regionale 
+ 3 — girone GO/TS)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-c6837af8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:US ALBA PALLACANESTRO 'B' – OLD STARS (Divisione Regionale 3 — 
+ girone GO/TS)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-449102d6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261211T203000
+DTEND;TZID=Europe/Rome:20261211T223000
+SUMMARY:US ALBA PALLACANESTRO 'B' – LIBERTAS TRIESTE (Divisione Regionale
+  3 — girone GO/TS)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n7ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-bb1bc760@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270122T203000
+DTEND;TZID=Europe/Rome:20270122T223000
+SUMMARY:US ALBA PALLACANESTRO 'B' – A.S.A.R.-A.S. AM.ROMANS (Divisione Re
+ gionale 3 — girone GO/TS)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n9ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-08abf429@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270129T204500
+DTEND;TZID=Europe/Rome:20270129T224500
+SUMMARY:PALLACANESTRO GRADO – US ALBA PALLACANESTRO 'B' (Divisione Region
+ ale 3 — girone GO/TS)
+LOCATION:Palasport Della Sacca Dei More\, Grado
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n10ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-06c2d2df@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270205T203000
+DTEND;TZID=Europe/Rome:20270205T223000
+SUMMARY:US ALBA PALLACANESTRO 'B' – BASKET 4 TRIESTE (Divisione Regionale
+  3 — girone GO/TS)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n11ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-cce93bbd@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270212T203000
+DTEND;TZID=Europe/Rome:20270212T223000
+SUMMARY:US ALBA PALLACANESTRO 'B' – OLIMPIA GORIZIA (Divisione Regionale 
+ 3 — girone GO/TS)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n12ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-ab9c68ff@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270219T210000
+DTEND;TZID=Europe/Rome:20270219T230000
+SUMMARY:OLD STARS – US ALBA PALLACANESTRO 'B' (Divisione Regionale 3 — 
+ girone GO/TS)
+LOCATION:Centro 'Stella Matutina'\, Gorizia
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n13ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr3-go-ts-846906f8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270630T211500
+DTEND;TZID=Europe/Rome:20270630T231500
+SUMMARY:LIBERTAS TRIESTE – US ALBA PALLACANESTRO 'B' (Divisione Regionale
+  3 — girone GO/TS)
+LOCATION:Trieste - (Trieste)
+DESCRIPTION:Divisione Regionale 3 — girone GO/TS\n14ª giornata\nDati non
+  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
+ g-basket-dr3-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-go-ts
+END:VEVENT
+END:VCALENDAR

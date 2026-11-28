@@ -1,0 +1,107 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PRO FAGNIGOLA · Terza Categoria — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-9597577d@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:VIVARINA 0-0 PRO FAGNIGOLA (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n1ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-986ce287@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:PRO FAGNIGOLA 4-0 CALCIO AVIANO Sq. B (Terza Categoria — girone A
+ )
+DESCRIPTION:Terza Categoria — girone A\n2ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-5a80102b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:PRO FAGNIGOLA 5-1 CALCIO ZOPPOLA (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n3ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-f1d78a39@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:SAP RAMUSCELLESE 0-4 PRO FAGNIGOLA (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n4ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-8ca4287a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:PRO FAGNIGOLA 3-0 VIRTUS ROVEREDO Sq. B (Terza Categoria — girone
+  A)
+DESCRIPTION:Terza Categoria — girone A\n5ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-16579bdd@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:MORSANO AL TAGLIAMENTO 0-10 PRO FAGNIGOLA (Terza Categoria — giro
+ ne A)
+DESCRIPTION:Terza Categoria — girone A\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-36ebd654@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:TORRE Sq. B 1-4 PRO FAGNIGOLA (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+END:VCALENDAR

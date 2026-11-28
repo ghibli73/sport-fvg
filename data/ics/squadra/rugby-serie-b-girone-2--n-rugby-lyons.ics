@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Rugby Lyons · Serie B — girone 2 (1a fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-e3abab6b@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Bassa Bresciana Leno 26-12 Rugby Lyons (Serie B — girone 2 (1a fa
+ se))
+DESCRIPTION:Serie B — girone 2 (1a fase)\n1ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-e1d7a7a0@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Rugby Carpi 22-20 Rugby Lyons (Serie B — girone 2 (1a fase))
+DESCRIPTION:Serie B — girone 2 (1a fase)\n2ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-3956ad0b@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Rugby Lyons 35-23 Rugby Fiumicello (Serie B — girone 2 (1a fase))
+DESCRIPTION:Serie B — girone 2 (1a fase)\n3ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-99c26d14@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Rugby Lyons 29-19 Rugby Oltremella (Serie B — girone 2 (1a fase))
+DESCRIPTION:Serie B — girone 2 (1a fase)\n4ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-db0c4ccf@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Rugby Lyons – Casalmaggiore Rugby (Serie B — girone 2 (1a fase)
+ )
+DESCRIPTION:Serie B — girone 2 (1a fase)\n5ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+END:VCALENDAR

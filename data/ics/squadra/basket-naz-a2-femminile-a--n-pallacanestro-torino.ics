@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Pallacanestro Torino · Serie A2 femminile — girone
+  A (Nord)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-143aa08d@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Cagliari 30-74 Pallacanestro Torino (Serie A2 femminile — girone 
+ A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-fa3c83ca@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Pallacanestro Torino 70-53 San Salvatore Selargius (Serie A2 femmin
+ ile — girone A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-f29d7eee@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Milano Basket Stars 62-68 Pallacanestro Torino (Serie A2 femminile 
+ — girone A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-5ef49d1e@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Pallacanestro Torino 74-50 Trieste (Serie A2 femminile — girone A
+  (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-da7277a3@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Vicenza 54-53 Pallacanestro Torino (Serie A2 femminile — girone A
+  (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-c71b297e@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Sanga Milano 81-76 Pallacanestro Torino (Serie A2 femminile — gir
+ one A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,396 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · GIOIELLI DI MAX ZOPPOLA · Serie D femminile — giro
+ ne unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-7d9d46d3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T190000
+DTEND;TZID=Europe/Rome:20261017T210000
+SUMMARY:CFV - MT ECOSERVICE 3-0 GIOIELLI DI MAX ZOPPOLA (Serie D femminile 
+ — girone unico)
+LOCATION:Palasport Villotta\, CHIONS PN
+DESCRIPTION:Serie D femminile — girone unico\n1ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-46ba6092@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261025T180000
+DTEND;TZID=Europe/Rome:20261025T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA 3-0 FARRAVOLO (Serie D femminile — girone
+  unico)
+LOCATION:Palestra Scuole Medie\, ZOPPOLA PN
+DESCRIPTION:Serie D femminile — girone unico\n2ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ef6f0606@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA 3-1 A.S.D. MORARO VOLLEY (Serie D femminile
+  — girone unico)
+LOCATION:Palestra Scuole Medie\, ZOPPOLA PN
+DESCRIPTION:Serie D femminile — girone unico\n3ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-f4662f55@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261104T203000
+DTEND;TZID=Europe/Rome:20261104T223000
+SUMMARY:PIZZA D'ORO PAV BRESSA 0-3 GIOIELLI DI MAX ZOPPOLA (Serie D femmini
+ le — girone unico)
+LOCATION:Palestra Comunale\, Campoformido (UD)
+DESCRIPTION:Serie D femminile — girone unico\n4ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-188837d9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261108T180000
+DTEND;TZID=Europe/Rome:20261108T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA 3-2 REVOLUTION SRL Trieste (Serie D femmini
+ le — girone unico)
+LOCATION:Palestra Scuole Medie\, Zoppola (PN)
+DESCRIPTION:Serie D femminile — girone unico\n5ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-6c46d217@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261115T183000
+DTEND;TZID=Europe/Rome:20261115T203000
+SUMMARY:ROJALKENNEDY PRIMACASSA 0-3 GIOIELLI DI MAX ZOPPOLA (Serie D femmin
+ ile — girone unico)
+LOCATION:Palestra Comunale\, Reana del Rojale (UD)
+DESCRIPTION:Serie D femminile — girone unico\n6ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-c8067a2a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261122T180000
+DTEND;TZID=Europe/Rome:20261122T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA 3-0 EUROVOLLEYSCHOOL (Serie D femminile —
+  girone unico)
+LOCATION:Palestra Scuole Medie\, Zoppola (PN)
+DESCRIPTION:Serie D femminile — girone unico\n7ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-1006d0ae@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA – C.U.S. TRIESTE A.S.D. (Serie D femminil
+ e — girone unico)
+LOCATION:Palestra Scuole Medie\, Via Leonardo Da Vinci\, Zoppola (PN)
+DESCRIPTION:Serie D femminile — girone unico\n8ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-b6d818e5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T200000
+DTEND;TZID=Europe/Rome:20261205T220000
+SUMMARY:VERO SRL MANIAGO – GIOIELLI DI MAX ZOPPOLA (Serie D femminile —
+  girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n9ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-4a001fb7@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261213T180000
+DTEND;TZID=Europe/Rome:20261213T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA – PALLAVOLO BRUGNERA 96 (Serie D femminil
+ e — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n10ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-233607bb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T200000
+DTEND;TZID=Europe/Rome:20261219T220000
+SUMMARY:ASD PALLAVOLO MOSSA – GIOIELLI DI MAX ZOPPOLA (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n11ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-0eac0511@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T180000
+DTEND;TZID=Europe/Rome:20270110T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA – SOCA LOKANDA DEVETAK ZKB (Serie D femmi
+ nile — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n12ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-91896ed0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270112T203000
+DTEND;TZID=Europe/Rome:20270112T223000
+SUMMARY:IMQ RIZZI UDINE – GIOIELLI DI MAX ZOPPOLA (Serie D femminile — 
+ girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n13ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-1e32b606@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270117T180000
+DTEND;TZID=Europe/Rome:20270117T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA – CLUB AURORA VOLLEY UDINE (Serie D femmi
+ nile — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n14ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-a8fa618a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T203000
+DTEND;TZID=Europe/Rome:20270123T223000
+SUMMARY:MASCHIO PALLAVOLO BUIA – GIOIELLI DI MAX ZOPPOLA (Serie D femmini
+ le — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n15ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-bf5d6674@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270127T200000
+DTEND;TZID=Europe/Rome:20270127T220000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA – CFV - MT ECOSERVICE (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n16ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-71179efb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270206T203000
+DTEND;TZID=Europe/Rome:20270206T223000
+SUMMARY:FARRAVOLO – GIOIELLI DI MAX ZOPPOLA (Serie D femminile — girone
+  unico)
+DESCRIPTION:Serie D femminile — girone unico\n17ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-93abf663@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T203000
+DTEND;TZID=Europe/Rome:20270213T223000
+SUMMARY:A.S.D. MORARO VOLLEY – GIOIELLI DI MAX ZOPPOLA (Serie D femminile
+  — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n18ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-31c87a4e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270217T200000
+DTEND;TZID=Europe/Rome:20270217T220000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA – PIZZA D'ORO PAV BRESSA (Serie D femmini
+ le — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n19ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-2506e6eb@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270220T203000
+DTEND;TZID=Europe/Rome:20270220T223000
+SUMMARY:REVOLUTION SRL Trieste – GIOIELLI DI MAX ZOPPOLA (Serie D femmini
+ le — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n20ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-8395489f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270228T180000
+DTEND;TZID=Europe/Rome:20270228T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA – ROJALKENNEDY PRIMACASSA (Serie D femmin
+ ile — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n21ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-a557d7af@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270306T180000
+DTEND;TZID=Europe/Rome:20270306T200000
+SUMMARY:EUROVOLLEYSCHOOL – GIOIELLI DI MAX ZOPPOLA (Serie D femminile —
+  girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n22ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-5f6d30bf@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270313T180000
+DTEND;TZID=Europe/Rome:20270313T200000
+SUMMARY:C.U.S. TRIESTE A.S.D. – GIOIELLI DI MAX ZOPPOLA (Serie D femminil
+ e — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n23ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-081ed5d5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270321T180000
+DTEND;TZID=Europe/Rome:20270321T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA – VERO SRL MANIAGO (Serie D femminile —
+  girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n24ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-bf84d72a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270403T203000
+DTEND;TZID=Europe/Rome:20270403T223000
+SUMMARY:PALLAVOLO BRUGNERA 96 – GIOIELLI DI MAX ZOPPOLA (Serie D femminil
+ e — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n25ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-9bc01ae8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270411T180000
+DTEND;TZID=Europe/Rome:20270411T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA – ASD PALLAVOLO MOSSA (Serie D femminile 
+ — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n26ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-ee3f163a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270417T200000
+DTEND;TZID=Europe/Rome:20270417T220000
+SUMMARY:SOCA LOKANDA DEVETAK ZKB – GIOIELLI DI MAX ZOPPOLA (Serie D femmi
+ nile — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n27ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-1bf349e7@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270421T200000
+DTEND;TZID=Europe/Rome:20270421T220000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA – IMQ RIZZI UDINE (Serie D femminile — 
+ girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n28ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-9bc708ad@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270425T183000
+DTEND;TZID=Europe/Rome:20270425T203000
+SUMMARY:CLUB AURORA VOLLEY UDINE – GIOIELLI DI MAX ZOPPOLA (Serie D femmi
+ nile — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n29ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-femminile-fvg-82cf7416@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270501T180000
+DTEND;TZID=Europe/Rome:20270501T200000
+SUMMARY:GIOIELLI DI MAX ZOPPOLA – MASCHIO PALLAVOLO BUIA (Serie D femmini
+ le — girone unico)
+DESCRIPTION:Serie D femminile — girone unico\n30ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pa
+ llavolo-serie-d-femminile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-femminile-fvg
+END:VEVENT
+END:VCALENDAR

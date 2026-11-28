@@ -1,0 +1,181 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ARIS SAN POLO CALCIO · Under 17 Under 17 provinciali
+  — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-bd8c6382@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261129T103000
+DTEND;TZID=Europe/Rome:20261129T123000
+SUMMARY:ARIS SAN POLO CALCIO – SANT ANDREA SAN VITO (Under 17 provinciali
+  — girone A)
+LOCATION:Cosulich - Comunale Monfalcone\, Via Cosulich 28
+DESCRIPTION:Under 17 provinciali — girone A\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-dae3e6e0@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270110T103000
+DTEND;TZID=Europe/Rome:20270110T123000
+SUMMARY:TORRE – ARIS SAN POLO CALCIO (Under 17 provinciali — girone A)
+LOCATION:Comunale San Vito Al Torre\, Via Roma 153
+DESCRIPTION:Under 17 provinciali — girone A\n12ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-e7b157d4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270117T103000
+DTEND;TZID=Europe/Rome:20270117T123000
+SUMMARY:ARIS SAN POLO CALCIO – SAN GIOVANNI A.S.D. (Under 17 provinciali 
+ — girone A)
+LOCATION:Cosulich - Comunale Monfalcone\, Via Cosulich 28
+DESCRIPTION:Under 17 provinciali — girone A\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-4a090266@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270131T103000
+DTEND;TZID=Europe/Rome:20270131T123000
+SUMMARY:ARIS SAN POLO CALCIO – S.GIUSTO FOOTBALL ACADEMY (Under 17 provin
+ ciali — girone A)
+LOCATION:Cosulich - Comunale Monfalcone\, Via Cosulich 28
+DESCRIPTION:Under 17 provinciali — girone A\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-03f13e52@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270207T103000
+DTEND;TZID=Europe/Rome:20270207T123000
+SUMMARY:UNIONE FRIULI ISONTINA – ARIS SAN POLO CALCIO (Under 17 provincia
+ li — girone A)
+LOCATION:Comunale San Lorenzo Isontino\, Via Gavinana 47
+DESCRIPTION:Under 17 provinciali — girone A\n16ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-8eb80c11@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270214T103000
+DTEND;TZID=Europe/Rome:20270214T123000
+SUMMARY:ARIS SAN POLO CALCIO – CAMPANELLE (Under 17 provinciali — giron
+ e A)
+LOCATION:Cosulich - Comunale Monfalcone\, Via Cosulich 28
+DESCRIPTION:Under 17 provinciali — girone A\n17ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-0071f6f8@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270221T121500
+DTEND;TZID=Europe/Rome:20270221T141500
+SUMMARY:STUDENTI – ARIS SAN POLO CALCIO (Under 17 provinciali — girone 
+ A)
+LOCATION:Buffalo - Campo A Trieste\, Via Petracco 8
+DESCRIPTION:Under 17 provinciali — girone A\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-0fd39eae@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270228T103000
+DTEND;TZID=Europe/Rome:20270228T123000
+SUMMARY:ARIS SAN POLO CALCIO – FIUMICELLO 2004 (Under 17 provinciali — 
+ girone A)
+LOCATION:Cosulich - Comunale Monfalcone\, Via Cosulich 28
+DESCRIPTION:Under 17 provinciali — girone A\n19ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-32ed4658@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270307T103000
+DTEND;TZID=Europe/Rome:20270307T123000
+SUMMARY:AUDAX SANROCCHESE – ARIS SAN POLO CALCIO (Under 17 provinciali 
+ — girone A)
+LOCATION:Rosario Vizzari Gorizia\, Via Baiamonti 15
+DESCRIPTION:Under 17 provinciali — girone A\n20ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-dda7d3ac@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270314T103000
+DTEND;TZID=Europe/Rome:20270314T123000
+SUMMARY:ARIS SAN POLO CALCIO – ISONTINO CALCIO (Under 17 provinciali — 
+ girone A)
+LOCATION:Cosulich - Comunale Monfalcone\, Via Cosulich 28
+DESCRIPTION:Under 17 provinciali — girone A\n21ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-17-provinciali-a-db43fde2@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270321T090000
+DTEND;TZID=Europe/Rome:20270321T110000
+SUMMARY:SANT ANDREA SAN VITO – ARIS SAN POLO CALCIO (Under 17 provinciali
+  — girone A)
+LOCATION:Starc Comunale Trieste\, Via Locchi
+DESCRIPTION:Under 17 provinciali — girone A\n22ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
+ -a
+END:VEVENT
+END:VCALENDAR

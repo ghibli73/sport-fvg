@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Virtus Cagliari · Serie A2 femminile — girone A (N
+ ord)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-ca610bf8@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Trieste 63-62 Virtus Cagliari (Serie A2 femminile — girone A (Nor
+ d))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-ee22cda5@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Virtus Cagliari 85-77 Vicenza (Serie A2 femminile — girone A (Nor
+ d))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-c76861f1@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Alpo VillaFranca 69-58 Virtus Cagliari (Serie A2 femminile — giro
+ ne A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-5415f253@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Virtus Cagliari 64-46 San Salvatore Selargius (Serie A2 femminile 
+ — girone A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-bb9d631c@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Itas Alperia Bolzano 79-66 Virtus Cagliari (Serie A2 femminile — 
+ girone A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-916bad58@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Virtus Cagliari 72-57 Milano Basket Stars (Serie A2 femminile — g
+ irone A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-3c2a6a43@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Rome:20261128T170000
+DTEND;TZID=Europe/Rome:20261128T190000
+SUMMARY:Sanga Milano – Virtus Cagliari (Serie A2 femminile — girone A (
+ Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+END:VCALENDAR

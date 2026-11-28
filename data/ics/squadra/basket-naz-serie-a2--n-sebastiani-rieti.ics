@@ -1,0 +1,160 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Sebastiani Rieti · Serie A2 — girone unico (regula
+ r season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-8b644cee@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Sebastiani Rieti 81-73 Caserta (Serie A2 — girone unico (regular 
+ season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-b5e73caf@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Vigevano 64-79 Sebastiani Rieti (Serie A2 — girone unico (regular
+  season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-9691357e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Sebastiani Rieti 78-70 Pistoia (Serie A2 — girone unico (regular 
+ season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-e10a93b8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Forli 93-71 Sebastiani Rieti (Serie A2 — girone unico (regular se
+ ason))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-5d69fc01@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Sebastiani Rieti 70-63 Brindisi (Serie A2 — girone unico (regular
+  season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-dfe6717c@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Rimini 96-73 Sebastiani Rieti (Serie A2 — girone unico (regular s
+ eason))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-35da728e@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Sebastiani Rieti 73-65 JuVi Cremona (Serie A2 — girone unico (reg
+ ular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-e86b5b8f@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Ruvo Di Puglia 63-68 Sebastiani Rieti (Serie A2 — girone unico (r
+ egular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-a8a094d8@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Sebastiani Rieti 80-62 Montecatini (Serie A2 — girone unico (regu
+ lar season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-5ca938e5@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Fortitudo Bologna 89-78 Sebastiani Rieti (Serie A2 — girone unico
+  (regular season))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-serie-a2-b9339c12@zuin-fvg
+DTSTAMP:20261124T000000Z
+DTSTART;TZID=Europe/Rome:20261128T200000
+DTEND;TZID=Europe/Rome:20261128T220000
+SUMMARY:Cividale – Sebastiani Rieti (Serie A2 — girone unico (regular s
+ eason))
+DESCRIPTION:Serie A2 — girone unico (regular season)\n12ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-naz-serie-a2
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a2
+END:VEVENT
+END:VCALENDAR

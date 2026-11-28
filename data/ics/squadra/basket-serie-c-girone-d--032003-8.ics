@@ -1,0 +1,366 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · POLISPORTIVA VENEZIA GIULIA · Serie C maschile — g
+ irone D (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-d7ae990a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20260926T183000
+DTEND;TZID=Europe/Rome:20260926T203000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA 78-49 BASKETRIESTE (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-29071f40@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261003T190000
+DTEND;TZID=Europe/Rome:20261003T210000
+SUMMARY:CENTRO SEDIA BASKET 82-74 POLISPORTIVA VENEZIA GIULIA (Serie C masc
+ hile — girone D (prima fase))
+LOCATION:Palasport Marco Zilio\, Corno di Rosazzo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-f50606eb@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261009T183000
+DTEND;TZID=Europe/Rome:20261009T203000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA 80-68 COLLINARE BASKET (Serie C maschil
+ e — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-fd9743a4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261017T193000
+DTEND;TZID=Europe/Rome:20261017T213000
+SUMMARY:POL. LIBERTAS ACLI 57-55 POLISPORTIVA VENEZIA GIULIA (Serie C masch
+ ile — girone D (prima fase))
+LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-c2e91971@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261024T183000
+DTEND;TZID=Europe/Rome:20261024T203000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA 75-83 FIDEMA GROUP RONCHI (Serie C masc
+ hile — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-3d9a8e50@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261031T190000
+DTEND;TZID=Europe/Rome:20261031T210000
+SUMMARY:G.S. VALLENONCELLO 75-68 POLISPORTIVA VENEZIA GIULIA (Serie C masch
+ ile — girone D (prima fase))
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-c38e0fd7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261107T183000
+DTEND;TZID=Europe/Rome:20261107T203000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA 86-62 HUMUS BASKET (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-9ec03ef8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:INTERMEK CORDENONS 68-61 POLISPORTIVA VENEZIA GIULIA (Serie C masch
+ ile — girone D (prima fase))
+LOCATION:Palazzetto dello Sport\, Cordenons
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-b8815af5@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261121T183000
+DTEND;TZID=Europe/Rome:20261121T203000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA 65-63 VIS SPILIMBERGO (Serie C maschile
+  — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-8fcad8e6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261129T173000
+DTEND;TZID=Europe/Rome:20261129T193000
+SUMMARY:PALL. PORTOGRUARO – POLISPORTIVA VENEZIA GIULIA (Serie C maschile
+  — girone D (prima fase))
+LOCATION:Palazzetto Dello Sport\, Portogruaro
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-d3a3fc83@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261205T183000
+DTEND;TZID=Europe/Rome:20261205T203000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA – UEB Cividale B (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n11ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-5ba28f1b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261211T200000
+DTEND;TZID=Europe/Rome:20261211T220000
+SUMMARY:AMICI PALLACANESTRO UDINESE – POLISPORTIVA VENEZIA GIULIA (Serie 
+ C maschile — girone D (prima fase))
+LOCATION:Palasport 'Primo Carnera'\, Udine
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n12ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-e16cbf5c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261218T210000
+DTEND;TZID=Europe/Rome:20261218T230000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA – AKK BOR BASKET (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n13ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-800716ae@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270108T203000
+DTEND;TZID=Europe/Rome:20270108T223000
+SUMMARY:BASKETRIESTE – POLISPORTIVA VENEZIA GIULIA (Serie C maschile — 
+ girone D (prima fase))
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n14ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-eba11bd6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270116T183000
+DTEND;TZID=Europe/Rome:20270116T203000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA – CENTRO SEDIA BASKET (Serie C maschi
+ le — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n15ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-eb0d46a3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270123T193000
+DTEND;TZID=Europe/Rome:20270123T213000
+SUMMARY:COLLINARE BASKET – POLISPORTIVA VENEZIA GIULIA (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Pal. Sc. Elementare\, Fagagna
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n16ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-fd81cdb4@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270130T183000
+DTEND;TZID=Europe/Rome:20270130T203000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA – POL. LIBERTAS ACLI (Serie C maschil
+ e — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n17ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-07e45856@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270206T200000
+DTEND;TZID=Europe/Rome:20270206T220000
+SUMMARY:FIDEMA GROUP RONCHI – POLISPORTIVA VENEZIA GIULIA (Serie C maschi
+ le — girone D (prima fase))
+LOCATION:Palestra Polifunzionale 'O. Pe\, Ronchi Dei Legionari
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n18ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-94d233c9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270213T183000
+DTEND;TZID=Europe/Rome:20270213T203000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA – G.S. VALLENONCELLO (Serie C maschil
+ e — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n19ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-5fceb5dc@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270220T200000
+DTEND;TZID=Europe/Rome:20270220T220000
+SUMMARY:HUMUS BASKET – POLISPORTIVA VENEZIA GIULIA (Serie C maschile — 
+ girone D (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n20ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-ed3a8045@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270227T183000
+DTEND;TZID=Europe/Rome:20270227T203000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA – INTERMEK CORDENONS (Serie C maschil
+ e — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n21ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-c3203088@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270306T183000
+DTEND;TZID=Europe/Rome:20270306T203000
+SUMMARY:VIS SPILIMBERGO – POLISPORTIVA VENEZIA GIULIA (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Palazzeto Dello Sport\, Spilimbergo
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n22ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-41292007@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270312T210000
+DTEND;TZID=Europe/Rome:20270312T230000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA – PALL. PORTOGRUARO (Serie C maschile
+  — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n23ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-e136b6cd@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270319T210000
+DTEND;TZID=Europe/Rome:20270319T230000
+SUMMARY:UEB Cividale B – POLISPORTIVA VENEZIA GIULIA (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n24ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-be0a02a6@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270402T210000
+DTEND;TZID=Europe/Rome:20270402T230000
+SUMMARY:POLISPORTIVA VENEZIA GIULIA – AMICI PALLACANESTRO UDINESE (Serie 
+ C maschile — girone D (prima fase))
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n25ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-serie-c-girone-d-974635d1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270410T203000
+DTEND;TZID=Europe/Rome:20270410T223000
+SUMMARY:AKK BOR BASKET – POLISPORTIVA VENEZIA GIULIA (Serie C maschile 
+ — girone D (prima fase))
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Serie C maschile — girone D (prima fase)\n26ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-serie-c-girone-d
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
+END:VEVENT
+END:VCALENDAR

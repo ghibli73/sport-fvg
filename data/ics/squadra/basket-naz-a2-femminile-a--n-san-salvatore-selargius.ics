@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · San Salvatore Selargius · Serie A2 femminile — gir
+ one A (Nord)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-f7a487da@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:San Salvatore Selargius 30-68 Milano Basket Stars (Serie A2 femmini
+ le — girone A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-fa3c83ca@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Pallacanestro Torino 70-53 San Salvatore Selargius (Serie A2 femmin
+ ile — girone A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-9789db47@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:San Salvatore Selargius 44-56 Sanga Milano (Serie A2 femminile — 
+ girone A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-5415f253@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Virtus Cagliari 64-46 San Salvatore Selargius (Serie A2 femminile 
+ — girone A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-e1ecbfcd@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:San Salvatore Selargius 51-45 Cagliari (Serie A2 femminile — giro
+ ne A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-be57bc6a@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:San Salvatore Selargius – Vicenza (Serie A2 femminile — girone 
+ A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+END:VCALENDAR

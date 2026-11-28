@@ -1,0 +1,247 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · VPA AUSONIA · Serie C maschile — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-95eb727a@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T203000
+DTEND;TZID=Europe/Rome:20261017T223000
+SUMMARY:VPA AUSONIA 1-3 MARCOLIN ARREDAMENTI SV (Serie C maschile — giron
+ e unico)
+LOCATION:PalaPrata\, PRATA DI PORDENONE PN
+DESCRIPTION:Serie C maschile — girone unico\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-b12a16f4@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261025T203000
+DTEND;TZID=Europe/Rome:20261025T223000
+SUMMARY:BUTTERFLY FINCANTIERI 0-3 VPA AUSONIA (Serie C maschile — girone 
+ unico)
+LOCATION:Palasport\, MONFALCONE GO
+DESCRIPTION:Serie C maschile — girone unico\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-8372002b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T203000
+DTEND;TZID=Europe/Rome:20261031T223000
+SUMMARY:VPA AUSONIA 2-3 PORDENONE VOLLEY (Serie C maschile — girone unico
+ )
+LOCATION:PalaPrata\, PRATA DI PORDENONE PN
+DESCRIPTION:Serie C maschile — girone unico\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-332c5d3f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261104T203000
+DTEND;TZID=Europe/Rome:20261104T223000
+SUMMARY:SOCASLOVOLLEY ZKB DEVETAK 3-0 VPA AUSONIA (Serie C maschile — gir
+ one unico)
+LOCATION:Palestra Comunale\, Savogna d'Isonzo (GO)
+DESCRIPTION:Serie C maschile — girone unico\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-f92ca060@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:VPA AUSONIA 3-0 SIEL IL POZZO (Serie C maschile — girone unico)
+LOCATION:PalaPrata\, Prata di Pordenone (PN)
+DESCRIPTION:Serie C maschile — girone unico\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-5260fed9@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261112T203000
+DTEND;TZID=Europe/Rome:20261112T223000
+SUMMARY:SLOVOLLEY ZKB 3-0 VPA AUSONIA (Serie C maschile — girone unico)
+LOCATION:Circ. Spor. Slov. - Pal. Mirko Spacapan\, Gorizia (GO)
+DESCRIPTION:Serie C maschile — girone unico\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-21f1c411@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T203000
+DTEND;TZID=Europe/Rome:20261121T223000
+SUMMARY:VPA AUSONIA 3-0 TRE MERLI VOLLEY (Serie C maschile — girone unico
+ )
+LOCATION:PalaPrata\, Prata di Pordenone (PN)
+DESCRIPTION:Serie C maschile — girone unico\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-bfe52c7b@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T203000
+DTEND;TZID=Europe/Rome:20261128T223000
+SUMMARY:VPA AUSONIA – ROSSO VOLLEY C. TS (Serie C maschile — girone uni
+ co)
+LOCATION:PalaPrata\, Via A. Volta\, Prata di Pordenone (PN)
+DESCRIPTION:Serie C maschile — girone unico\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-337b0a38@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T170000
+DTEND;TZID=Europe/Rome:20261205T190000
+SUMMARY:GAIA VOLLEYBAS UDINE – VPA AUSONIA (Serie C maschile — girone u
+ nico)
+DESCRIPTION:Serie C maschile — girone unico\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-9df32bdd@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261209T203000
+DTEND;TZID=Europe/Rome:20261209T223000
+SUMMARY:MARCOLIN ARREDAMENTI SV – VPA AUSONIA (Serie C maschile — giron
+ e unico)
+DESCRIPTION:Serie C maschile — girone unico\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-cd5a43fd@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T203000
+DTEND;TZID=Europe/Rome:20261219T223000
+SUMMARY:VPA AUSONIA – BUTTERFLY FINCANTIERI (Serie C maschile — girone 
+ unico)
+DESCRIPTION:Serie C maschile — girone unico\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-c0422c31@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270110T173000
+DTEND;TZID=Europe/Rome:20270110T193000
+SUMMARY:PORDENONE VOLLEY – VPA AUSONIA (Serie C maschile — girone unico
+ )
+DESCRIPTION:Serie C maschile — girone unico\n12ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-a9e046b6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270112T203000
+DTEND;TZID=Europe/Rome:20270112T223000
+SUMMARY:VPA AUSONIA – SOCASLOVOLLEY ZKB DEVETAK (Serie C maschile — gir
+ one unico)
+DESCRIPTION:Serie C maschile — girone unico\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-cdd147fe@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270116T170000
+DTEND;TZID=Europe/Rome:20270116T190000
+SUMMARY:SIEL IL POZZO – VPA AUSONIA (Serie C maschile — girone unico)
+DESCRIPTION:Serie C maschile — girone unico\n14ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-0f4555b0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T203000
+DTEND;TZID=Europe/Rome:20270123T223000
+SUMMARY:VPA AUSONIA – SLOVOLLEY ZKB (Serie C maschile — girone unico)
+DESCRIPTION:Serie C maschile — girone unico\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-0808d507@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T173000
+DTEND;TZID=Europe/Rome:20270130T193000
+SUMMARY:TRE MERLI VOLLEY – VPA AUSONIA (Serie C maschile — girone unico
+ )
+DESCRIPTION:Serie C maschile — girone unico\n16ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-51b77ad5@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270206T203000
+DTEND;TZID=Europe/Rome:20270206T223000
+SUMMARY:ROSSO VOLLEY C. TS – VPA AUSONIA (Serie C maschile — girone uni
+ co)
+DESCRIPTION:Serie C maschile — girone unico\n17ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-c-maschile-fvg-bcb0ac5c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T203000
+DTEND;TZID=Europe/Rome:20270213T223000
+SUMMARY:VPA AUSONIA – GAIA VOLLEYBAS UDINE (Serie C maschile — girone u
+ nico)
+DESCRIPTION:Serie C maschile — girone unico\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-c-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-c-maschile-fvg
+END:VEVENT
+END:VCALENDAR

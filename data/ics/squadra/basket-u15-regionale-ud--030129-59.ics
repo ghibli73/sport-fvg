@@ -1,0 +1,246 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · APU NEXT GEN · Under 15 Under 15 Maschile Regionale 
+ — girone UD
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-4fdb8e78@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:APU NEXT GEN 92-42 Sonvilla Snc SBaMM (Under 15 Maschile Regionale 
+ — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n2ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-68844bbb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:APU NEXT GEN 63-56 PALL. LAIPACCO (Under 15 Maschile Regionale — 
+ girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n3ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-f9fd8f68@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:BASKET CERVIGNANESE 52-92 APU NEXT GEN (Under 15 Maschile Regionale
+  — girone UD)
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n4ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-df28cf92@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261123T190000
+DTEND;TZID=Europe/Rome:20261123T210000
+SUMMARY:PALL. TOLMEZZO – APU NEXT GEN (Under 15 Maschile Regionale — gi
+ rone UD)
+LOCATION:Palestra Scolastica\, Tolmezzo
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n5ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-f9002cd3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261126T194500
+DTEND;TZID=Europe/Rome:20261126T214500
+SUMMARY:APU NEXT GEN – LIBERTAS GONARS (Under 15 Maschile Regionale — g
+ irone UD)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n6ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-980117ce@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261204T194500
+DTEND;TZID=Europe/Rome:20261204T214500
+SUMMARY:UDINE BASKET CLUB – APU NEXT GEN (Under 15 Maschile Regionale —
+  girone UD)
+LOCATION:Pal. Liceo Stellini\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n7ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-44a88adc@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261210T170000
+DTEND;TZID=Europe/Rome:20261210T190000
+SUMMARY:APU NEXT GEN – COLLEDANI SRL (Under 15 Maschile Regionale — gir
+ one UD)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n8ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-6eaae2c7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261219T180000
+DTEND;TZID=Europe/Rome:20261219T200000
+SUMMARY:POL. TRICESIMO – APU NEXT GEN (Under 15 Maschile Regionale — gi
+ rone UD)
+LOCATION:Palestra Comunale\, Tricesimo
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n9ª giornata\nDati n
+ on ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg
+ /#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-0daabaf1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270111T193000
+DTEND;TZID=Europe/Rome:20270111T213000
+SUMMARY:APU NEXT GEN – OLYMPIA RIVIGNANO (Under 15 Maschile Regionale —
+  girone UD)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n10ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-57f81145@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T110000
+DTEND;TZID=Europe/Rome:20270117T130000
+SUMMARY:Sonvilla Snc SBaMM – APU NEXT GEN (Under 15 Maschile Regionale 
+ — girone UD)
+LOCATION:Pal. ''M. Vecchiatto''\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n11ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-f4760761@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270123T180000
+DTEND;TZID=Europe/Rome:20270123T200000
+SUMMARY:PALL. LAIPACCO – APU NEXT GEN (Under 15 Maschile Regionale — gi
+ rone UD)
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n12ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-d97bab4a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270130T150000
+DTEND;TZID=Europe/Rome:20270130T170000
+SUMMARY:APU NEXT GEN – BASKET CERVIGNANESE (Under 15 Maschile Regionale 
+ — girone UD)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n13ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-4fafd8c0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270206T150000
+DTEND;TZID=Europe/Rome:20270206T170000
+SUMMARY:APU NEXT GEN – PALL. TOLMEZZO (Under 15 Maschile Regionale — gi
+ rone UD)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n14ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-b45f207e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270216T180000
+DTEND;TZID=Europe/Rome:20270216T200000
+SUMMARY:LIBERTAS GONARS – APU NEXT GEN (Under 15 Maschile Regionale — g
+ irone UD)
+LOCATION:Palazzetto Dello Sport\, Gonars
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n15ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-2df716ce@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270220T150000
+DTEND;TZID=Europe/Rome:20270220T170000
+SUMMARY:APU NEXT GEN – UDINE BASKET CLUB (Under 15 Maschile Regionale —
+  girone UD)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n16ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-223b45eb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270304T180000
+DTEND;TZID=Europe/Rome:20270304T200000
+SUMMARY:COLLEDANI SRL – APU NEXT GEN (Under 15 Maschile Regionale — gir
+ one UD)
+LOCATION:Palasport Marco Zilio\, Corno Di Rosazzo
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n17ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u15-regionale-ud-32a91368@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270306T150000
+DTEND;TZID=Europe/Rome:20270306T170000
+SUMMARY:APU NEXT GEN – POL. TRICESIMO (Under 15 Maschile Regionale — gi
+ rone UD)
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
+DESCRIPTION:Under 15 Maschile Regionale — girone UD\n18ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-u15-regionale-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-ud
+END:VEVENT
+END:VCALENDAR

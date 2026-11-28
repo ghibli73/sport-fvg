@@ -1,0 +1,234 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Aviano Basket · Under 13 Under 13 Maschile — giron
+ e PN A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u13-pn-a-e2532d16@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261108T100000
+DTEND;TZID=Europe/Rome:20261108T120000
+SUMMARY:Basket Pasiano 69-29 Aviano Basket (Under 13 Maschile — girone PN
+  A)
+LOCATION:Palazzetto "Roberto Marson"\, Pasiano di Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-19d415ea@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T150000
+DTEND;TZID=Europe/Rome:20261114T170000
+SUMMARY:Aviano Basket 55-28 Roraigrande Basket (Under 13 Maschile — giron
+ e PN A)
+LOCATION:Palazzetto dello Sport\, Aviano
+DESCRIPTION:Under 13 Maschile — girone PN A\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-0c6774de@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261122T153000
+DTEND;TZID=Europe/Rome:20261122T173000
+SUMMARY:Sistema BK Pordenone – Aviano Basket (Under 13 Maschile — giron
+ e PN A)
+LOCATION:Palazzetto Dello Sport Comunal\, Roveredo In Piano
+DESCRIPTION:Under 13 Maschile — girone PN A\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-87898104@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261129T183000
+DTEND;TZID=Europe/Rome:20261129T203000
+SUMMARY:Humus Basket – Aviano Basket (Under 13 Maschile — girone PN A)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 13 Maschile — girone PN A\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-2277e63d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261205T150000
+DTEND;TZID=Europe/Rome:20261205T170000
+SUMMARY:Aviano Basket – 3 S Basket Cordenons (Under 13 Maschile — giron
+ e PN A)
+LOCATION:Palazzetto Dello Sport\, Aviano
+DESCRIPTION:Under 13 Maschile — girone PN A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-d4d1674c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261212T150000
+DTEND;TZID=Europe/Rome:20261212T170000
+SUMMARY:Basket Maniago – Aviano Basket (Under 13 Maschile — girone PN A
+ )
+LOCATION:Palazzetto Dello Sport\, Maniago
+DESCRIPTION:Under 13 Maschile — girone PN A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-d74f5621@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261219T150000
+DTEND;TZID=Europe/Rome:20261219T170000
+SUMMARY:Aviano Basket – Scuola Pallacanestro Porcia 2021 (Under 13 Maschi
+ le — girone PN A)
+LOCATION:Palazzetto Dello Sport\, Aviano
+DESCRIPTION:Under 13 Maschile — girone PN A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-d4a19295@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270111T171500
+DTEND;TZID=Europe/Rome:20270111T191500
+SUMMARY:Nuovo Basket 2000 – Aviano Basket (Under 13 Maschile — girone P
+ N A)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
+ et-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-24f0f74e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270123T150000
+DTEND;TZID=Europe/Rome:20270123T170000
+SUMMARY:Aviano Basket – Basket Pasiano (Under 13 Maschile — girone PN A
+ )
+LOCATION:Palazzetto Dello Sport\, Aviano
+DESCRIPTION:Under 13 Maschile — girone PN A\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-c21cc064@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T093000
+DTEND;TZID=Europe/Rome:20270131T113000
+SUMMARY:Roraigrande Basket – Aviano Basket (Under 13 Maschile — girone 
+ PN A)
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 13 Maschile — girone PN A\n12ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-4c03ba53@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270206T150000
+DTEND;TZID=Europe/Rome:20270206T170000
+SUMMARY:Aviano Basket – Sistema BK Pordenone (Under 13 Maschile — giron
+ e PN A)
+LOCATION:Palazzetto Dello Sport\, Aviano
+DESCRIPTION:Under 13 Maschile — girone PN A\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-d2a59a88@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270216T190000
+DTEND;TZID=Europe/Rome:20270216T210000
+SUMMARY:Aviano Basket – Humus Basket (Under 13 Maschile — girone PN A)
+LOCATION:Palazzetto Dello Sport\, Aviano
+DESCRIPTION:Under 13 Maschile — girone PN A\n14ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-29e5c7dd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270221T150000
+DTEND;TZID=Europe/Rome:20270221T170000
+SUMMARY:3 S Basket Cordenons – Aviano Basket (Under 13 Maschile — giron
+ e PN A)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 13 Maschile — girone PN A\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-227fc921@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270227T153000
+DTEND;TZID=Europe/Rome:20270227T173000
+SUMMARY:Aviano Basket – Basket Maniago (Under 13 Maschile — girone PN A
+ )
+LOCATION:Palazzetto Dello Sport\, Aviano
+DESCRIPTION:Under 13 Maschile — girone PN A\n16ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-113c647d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270307T100000
+DTEND;TZID=Europe/Rome:20270307T120000
+SUMMARY:Scuola Pallacanestro Porcia 2021 – Aviano Basket (Under 13 Maschi
+ le — girone PN A)
+LOCATION:Pal. Sc. Medie 'F. Cornacchia'\, Porcia
+DESCRIPTION:Under 13 Maschile — girone PN A\n17ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-pn-a-fac02ca1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270313T150000
+DTEND;TZID=Europe/Rome:20270313T170000
+SUMMARY:Aviano Basket – Nuovo Basket 2000 (Under 13 Maschile — girone P
+ N A)
+LOCATION:Palazzetto Dello Sport\, Aviano
+DESCRIPTION:Under 13 Maschile — girone PN A\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-pn-a
+END:VEVENT
+END:VCALENDAR

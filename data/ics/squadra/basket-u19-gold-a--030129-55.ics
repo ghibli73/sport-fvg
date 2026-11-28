@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Scuola Basket Miky Mian · Under 19 Under 19 Maschile
+  Gold — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-gold-a-f28d3fb4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261005T184500
+DTEND;TZID=Europe/Rome:20261005T204500
+SUMMARY:Scuola Basket Miky Mian 39-96 FALCONSTAR BASKET (Under 19 Maschile 
+ Gold — girone A)
+LOCATION:Palestra Mazzini\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone A\n1ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-4a4940a7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261010T190000
+DTEND;TZID=Europe/Rome:20261010T210000
+SUMMARY:VENEZIA GIULIA BASKETBALL 105-51 Scuola Basket Miky Mian (Under 19 
+ Maschile Gold — girone A)
+LOCATION:Palasport Piazzale Menguzzato\, Muggia
+DESCRIPTION:Under 19 Maschile Gold — girone A\n7ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-750707f5@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261012T190000
+DTEND;TZID=Europe/Rome:20261012T210000
+SUMMARY:Scuola Basket Miky Mian 46-93 SERVOLANA (Under 19 Maschile Gold —
+  girone A)
+LOCATION:Palestra Mazzini\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone A\n2ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-763db3a0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261019T210000
+DTEND;TZID=Europe/Rome:20261019T230000
+SUMMARY:HUMUS BASKET 96-65 Scuola Basket Miky Mian (Under 19 Maschile Gold 
+ — girone A)
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 19 Maschile Gold — girone A\n3ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-8367282b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261026T184500
+DTEND;TZID=Europe/Rome:20261026T204500
+SUMMARY:Scuola Basket Miky Mian 81-71 AUTOSCUOLA CORDENONESE CORDENONS (Und
+ er 19 Maschile Gold — girone A)
+LOCATION:Palestra Mazzini\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-a13c4a6d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261102T203000
+DTEND;TZID=Europe/Rome:20261102T223000
+SUMMARY:GEMONA BASKET 82-72 Scuola Basket Miky Mian (Under 19 Maschile Gold
+  — girone A)
+LOCATION:Palestra IPSIA\, Gemona del Friuli
+DESCRIPTION:Under 19 Maschile Gold — girone A\n5ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-b45a0bdb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T184500
+DTEND;TZID=Europe/Rome:20261109T204500
+SUMMARY:Scuola Basket Miky Mian 89-101 UEB Academy Cividale (Under 19 Masch
+ ile Gold — girone A)
+LOCATION:Palestra Mazzini\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone A\n6ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-a-1acfb3c2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261123T184500
+DTEND;TZID=Europe/Rome:20261123T204500
+SUMMARY:Scuola Basket Miky Mian 60-82 DINAMO GORIZIA (Under 19 Maschile Gol
+ d — girone A)
+LOCATION:Palestra Mazzini\, Udine
+DESCRIPTION:Under 19 Maschile Gold — girone A\n8ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
+END:VEVENT
+END:VCALENDAR

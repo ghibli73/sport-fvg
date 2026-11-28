@@ -1,0 +1,126 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · ARZINO · Terza Categoria — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-1e84f78e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:CENTRO ATLETICO RICREATIV 1-0 ARZINO (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n1ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-0acc82c7@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:ARZINO 1-1 VALNATISONE CALCIO (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n2ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-7b44438b@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:VALERIANO PINZANO 1-0 ARZINO (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n3ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-6d818563@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:ARZINO 2-4 OSOPPO RUSH SOCCER (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n4ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-7da9a850@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:UNIONE CALCIO 3 STELLE 3-4 ARZINO (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n5ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-e032a7d4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:ARZINO 4-0 ASSOSANGIORGINA (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-120f94eb@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:MOIMACCO 0-2 ARZINO (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-dec13539@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ARZINO 0-1 DIANA (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-b392ef07@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:MAJANESE 0-4 ARZINO (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · A.s.d. POLISPORTIVA CONCORDIA · Under 12 Trofeo Esor
+ dienti Under 12 — girone PN C
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-6838d9b5@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261110T164500
+DTEND;TZID=Europe/Rome:20261110T184500
+SUMMARY:FIUME VENETO BLU 12-4 A.s.d. POLISPORTIVA CONCORDIA (Trofeo Esordie
+ nti Under 12 — girone PN C)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-ee25970a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261115T180000
+DTEND;TZID=Europe/Rome:20261115T200000
+SUMMARY:A.s.d. POLISPORTIVA CONCORDIA 12-4 BVO ANNONE (Trofeo Esordienti Un
+ der 12 — girone PN C)
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-5efee625@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261116T181500
+DTEND;TZID=Europe/Rome:20261116T201500
+SUMMARY:PORTOGRUARO ROSSO 10-6 A.s.d. POLISPORTIVA CONCORDIA (Trofeo Esordi
+ enti Under 12 — girone PN C)
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-31109ead@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261206T153000
+DTEND;TZID=Europe/Rome:20261206T173000
+SUMMARY:A.s.d. POLISPORTIVA CONCORDIA – A. DIL. BASKET CORDOVADO (Trofeo 
+ Esordienti Under 12 — girone PN C)
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-a5841a13@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261212T153000
+DTEND;TZID=Europe/Rome:20261212T173000
+SUMMARY:A.s.d. POLISPORTIVA CONCORDIA – FIUME VENETO BLU (Trofeo Esordien
+ ti Under 12 — girone PN C)
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-7ac9c734@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261214T170000
+DTEND;TZID=Europe/Rome:20261214T190000
+SUMMARY:PORTOGRUARO BIANCO – A.s.d. POLISPORTIVA CONCORDIA (Trofeo Esordi
+ enti Under 12 — girone PN C)
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-30123bf7@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261222T164500
+DTEND;TZID=Europe/Rome:20261222T184500
+SUMMARY:A.s.d. POLISPORTIVA CONCORDIA – PORTOGRUARO ROSSO (Trofeo Esordie
+ nti Under 12 — girone PN C)
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-430daffd@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270109T160000
+DTEND;TZID=Europe/Rome:20270109T180000
+SUMMARY:BVO ANNONE – A.s.d. POLISPORTIVA CONCORDIA (Trofeo Esordienti Und
+ er 12 — girone PN C)
+LOCATION:Palazzetto Dello Sport\, Annone Veneto
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-87541dc0@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270115T181500
+DTEND;TZID=Europe/Rome:20270115T201500
+SUMMARY:A. DIL. BASKET CORDOVADO – A.s.d. POLISPORTIVA CONCORDIA (Trofeo 
+ Esordienti Under 12 — girone PN C)
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-f4e10b99@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270123T160000
+DTEND;TZID=Europe/Rome:20270123T180000
+SUMMARY:A.s.d. POLISPORTIVA CONCORDIA – PORTOGRUARO BIANCO (Trofeo Esordi
+ enti Under 12 — girone PN C)
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+END:VCALENDAR

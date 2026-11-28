@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · CAMPANELLE · Terza Categoria — girone D
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-43dfc75e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:AUDAX SANROCCHESE 1-2 CAMPANELLE (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n2ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-05e1f7f1@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:CAMPANELLE 2-3 FARRA CALCIO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n3ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-f6b2bf0f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:GRADESE CALCIO 4-0 CAMPANELLE (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n4ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-38ab5f1e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:CAMPANELLE 4-1 PRIMORJE 1924 (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n5ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-79c83253@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:MLADOST A.S.D. 3-1 CAMPANELLE (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-0494b2e4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CAMPANELLE 2-1 DOMIO (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-e9630ff7@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ARIS SAN POLO CALCIO 2-0 CAMPANELLE (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-terza-categoria-d-32b2dde4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:CAMPANELLE 2-3 CALCIO PIERIS 1925 (Terza Categoria — girone D)
+DESCRIPTION:Terza Categoria — girone D\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-go
+ r-terza-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-terza-categoria-d
+END:VEVENT
+END:VCALENDAR

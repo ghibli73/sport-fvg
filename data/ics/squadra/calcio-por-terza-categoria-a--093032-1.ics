@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · RORAI PORCIA Sq. B · Terza Categoria — girone A
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-97bb7d4c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:CALCIO AVIANO Sq. B 5-3 RORAI PORCIA Sq. B (Terza Categoria — gir
+ one A)
+DESCRIPTION:Terza Categoria — girone A\n1ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-438aa6b9@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:RORAI PORCIA Sq. B 1-0 SAP RAMUSCELLESE (Terza Categoria — girone
+  A)
+DESCRIPTION:Terza Categoria — girone A\n2ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-02454372@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:MORSANO AL TAGLIAMENTO 5-2 RORAI PORCIA Sq. B (Terza Categoria — 
+ girone A)
+DESCRIPTION:Terza Categoria — girone A\n3ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-03f265a8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:RORAI PORCIA Sq. B 1-2 TORRE Sq. B (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n4ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-fa6d7d49@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:NUOVA VILLANOVA F.C. 7-0 RORAI PORCIA Sq. B (Terza Categoria — gi
+ rone A)
+DESCRIPTION:Terza Categoria — girone A\n5ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-3e3e14ab@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:RORAI PORCIA Sq. B 0-1 SAN QUIRINO (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-e2309dd5@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:VIVARINA 2-0 RORAI PORCIA Sq. B (Terza Categoria — girone A)
+DESCRIPTION:Terza Categoria — girone A\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-90d6d586@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:RORAI PORCIA Sq. B 1-7 CALCIO ZOPPOLA (Terza Categoria — girone A
+ )
+DESCRIPTION:Terza Categoria — girone A\n8ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-por-terza-categoria-a-ffb5b0ae@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:VIRTUS ROVEREDO Sq. B 1-0 RORAI PORCIA Sq. B (Terza Categoria — g
+ irone A)
+DESCRIPTION:Terza Categoria — girone A\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-po
+ r-terza-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
+END:VEVENT
+END:VCALENDAR

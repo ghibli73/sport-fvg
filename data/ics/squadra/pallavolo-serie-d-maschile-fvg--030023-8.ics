@@ -1,0 +1,249 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · SPORTING CLUB · Serie D maschile — girone unico
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-601adb7c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261017T190000
+DTEND;TZID=Europe/Rome:20261017T210000
+SUMMARY:PIERA1899 VINI DEL FRIULI 0-3 SPORTING CLUB (Serie D maschile — g
+ irone unico)
+LOCATION:Palestra Scuola Media Da Vinci\, CORDENONS PN
+DESCRIPTION:Serie D maschile — girone unico\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-d8188c53@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261024T203000
+DTEND;TZID=Europe/Rome:20261024T223000
+SUMMARY:SPORTING CLUB 0-3 CREDIFRIULI ROJALESE (Serie D maschile — girone
+  unico)
+LOCATION:Palestra Comunale\, Sevegliano BAGNARIA ARSA UD
+DESCRIPTION:Serie D maschile — girone unico\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-8d7734d2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261031T173000
+DTEND;TZID=Europe/Rome:20261031T193000
+SUMMARY:VPA BANCA360 FVG 3-0 SPORTING CLUB (Serie D maschile — girone uni
+ co)
+LOCATION:PalaPrata\, PRATA DI PORDENONE PN
+DESCRIPTION:Serie D maschile — girone unico\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-0905bb63@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261103T200000
+DTEND;TZID=Europe/Rome:20261103T220000
+SUMMARY:SPORTING CLUB 2-3 CASSA RURALE FVG (Serie D maschile — girone uni
+ co)
+LOCATION:Palestra Comunale\, Sevegliano\, Bagnaria Arsa (UD)
+DESCRIPTION:Serie D maschile — girone unico\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-1d9313d0@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261107T203000
+DTEND;TZID=Europe/Rome:20261107T223000
+SUMMARY:PALLAVOLO ALTURA 3-1 SPORTING CLUB (Serie D maschile — girone uni
+ co)
+LOCATION:Palestra Scuola Elementare Don Milani\, Trieste (TS)
+DESCRIPTION:Serie D maschile — girone unico\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-a625a27e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261114T203000
+DTEND;TZID=Europe/Rome:20261114T223000
+SUMMARY:SPORTING CLUB 3-2 SLOVOLLEY STUDIO VEGLIACH (Serie D maschile — g
+ irone unico)
+LOCATION:Palestra Comunale\, Sevegliano\, Bagnaria Arsa (UD)
+DESCRIPTION:Serie D maschile — girone unico\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-390502c2@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261121T203000
+DTEND;TZID=Europe/Rome:20261121T223000
+SUMMARY:A.P. TRAVESIO 2-3 SPORTING CLUB (Serie D maschile — girone unico)
+LOCATION:Palestra Scuole Medie\, Travesio (PN)
+DESCRIPTION:Serie D maschile — girone unico\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-a4a1c8e8@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261128T193000
+DTEND;TZID=Europe/Rome:20261128T213000
+SUMMARY:ASDMUZZANAVOLLEY – SPORTING CLUB (Serie D maschile — girone uni
+ co)
+LOCATION:Palestra Comunale\, Via Pruan 52\, Muzzana del Turgnano (UD)
+DESCRIPTION:Serie D maschile — girone unico\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-729d1c81@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261205T203000
+DTEND;TZID=Europe/Rome:20261205T223000
+SUMMARY:SPORTING CLUB – FOX VOLLEY NOVASEI (Serie D maschile — girone u
+ nico)
+DESCRIPTION:Serie D maschile — girone unico\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pall
+ avolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-0364911e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261212T203000
+DTEND;TZID=Europe/Rome:20261212T223000
+SUMMARY:SPORTING CLUB – PIERA1899 VINI DEL FRIULI (Serie D maschile — g
+ irone unico)
+DESCRIPTION:Serie D maschile — girone unico\n10ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-03ab02dc@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20261219T203000
+DTEND;TZID=Europe/Rome:20261219T223000
+SUMMARY:CREDIFRIULI ROJALESE – SPORTING CLUB (Serie D maschile — girone
+  unico)
+DESCRIPTION:Serie D maschile — girone unico\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-ea549522@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270109T203000
+DTEND;TZID=Europe/Rome:20270109T223000
+SUMMARY:SPORTING CLUB – VPA BANCA360 FVG (Serie D maschile — girone uni
+ co)
+DESCRIPTION:Serie D maschile — girone unico\n12ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-9fc137df@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270114T203000
+DTEND;TZID=Europe/Rome:20270114T223000
+SUMMARY:CASSA RURALE FVG – SPORTING CLUB (Serie D maschile — girone uni
+ co)
+DESCRIPTION:Serie D maschile — girone unico\n13ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-6be4691f@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270116T203000
+DTEND;TZID=Europe/Rome:20270116T223000
+SUMMARY:SPORTING CLUB – PALLAVOLO ALTURA (Serie D maschile — girone uni
+ co)
+DESCRIPTION:Serie D maschile — girone unico\n14ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-a995372e@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270123T203000
+DTEND;TZID=Europe/Rome:20270123T223000
+SUMMARY:SLOVOLLEY STUDIO VEGLIACH – SPORTING CLUB (Serie D maschile — g
+ irone unico)
+DESCRIPTION:Serie D maschile — girone unico\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-ee9455d3@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270130T203000
+DTEND;TZID=Europe/Rome:20270130T223000
+SUMMARY:SPORTING CLUB – A.P. TRAVESIO (Serie D maschile — girone unico)
+DESCRIPTION:Serie D maschile — girone unico\n16ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-dbac5aa6@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270206T203000
+DTEND;TZID=Europe/Rome:20270206T223000
+SUMMARY:SPORTING CLUB – ASDMUZZANAVOLLEY (Serie D maschile — girone uni
+ co)
+DESCRIPTION:Serie D maschile — girone unico\n17ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+BEGIN:VEVENT
+UID:pallavolo-serie-d-maschile-fvg-44110e0c@zuin-fvg
+DTSTAMP:20261128T000000Z
+DTSTART;TZID=Europe/Rome:20270213T173000
+DTEND;TZID=Europe/Rome:20270213T193000
+SUMMARY:FOX VOLLEY NOVASEI – SPORTING CLUB (Serie D maschile — girone u
+ nico)
+DESCRIPTION:Serie D maschile — girone unico\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-pal
+ lavolo-serie-d-maschile-fvg
+URL:https://ghibli73.github.io/sport-fvg/#g-pallavolo-serie-d-maschile-fvg
+END:VEVENT
+END:VCALENDAR

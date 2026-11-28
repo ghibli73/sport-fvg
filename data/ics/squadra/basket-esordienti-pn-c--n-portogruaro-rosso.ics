@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · PORTOGRUARO ROSSO · Under 12 Trofeo Esordienti Under
+  12 — girone PN C
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-4f3483d9@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:BVO ANNONE 5-11 PORTOGRUARO ROSSO (Trofeo Esordienti Under 12 — g
+ irone PN C)
+LOCATION:Palazzetto Dello Sport\, Annone Veneto
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n1ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-5efee625@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261116T181500
+DTEND;TZID=Europe/Rome:20261116T201500
+SUMMARY:PORTOGRUARO ROSSO 10-6 A.s.d. POLISPORTIVA CONCORDIA (Trofeo Esordi
+ enti Under 12 — girone PN C)
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-37e2b494@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261123T170000
+DTEND;TZID=Europe/Rome:20261123T190000
+SUMMARY:PORTOGRUARO ROSSO – A. DIL. BASKET CORDOVADO (Trofeo Esordienti U
+ nder 12 — girone PN C)
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n3ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-882d873e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261130T180000
+DTEND;TZID=Europe/Rome:20261130T200000
+SUMMARY:PORTOGRUARO ROSSO – PORTOGRUARO BIANCO (Trofeo Esordienti Under 1
+ 2 — girone PN C)
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n4ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-f1498229@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261209T170000
+DTEND;TZID=Europe/Rome:20261209T190000
+SUMMARY:FIUME VENETO BLU – PORTOGRUARO ROSSO (Trofeo Esordienti Under 12 
+ — girone PN C)
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n5ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-44b79d7e@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261214T181500
+DTEND;TZID=Europe/Rome:20261214T201500
+SUMMARY:PORTOGRUARO ROSSO – BVO ANNONE (Trofeo Esordienti Under 12 — gi
+ rone PN C)
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n6ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-30123bf7@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261222T164500
+DTEND;TZID=Europe/Rome:20261222T184500
+SUMMARY:A.s.d. POLISPORTIVA CONCORDIA – PORTOGRUARO ROSSO (Trofeo Esordie
+ nti Under 12 — girone PN C)
+LOCATION:Pal.Tto Sport 'L. Valerio'\, Concordia Sagittaria
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n7ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-d8a1211c@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270108T181500
+DTEND;TZID=Europe/Rome:20270108T201500
+SUMMARY:A. DIL. BASKET CORDOVADO – PORTOGRUARO ROSSO (Trofeo Esordienti U
+ nder 12 — girone PN C)
+LOCATION:Palestra Comunale\, Cordovado
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n8ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-b21e2d46@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270118T173000
+DTEND;TZID=Europe/Rome:20270118T193000
+SUMMARY:PORTOGRUARO BIANCO – PORTOGRUARO ROSSO (Trofeo Esordienti Under 1
+ 2 — girone PN C)
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n9ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-esordienti-pn-c-db115c86@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270225T181500
+DTEND;TZID=Europe/Rome:20270225T201500
+SUMMARY:PORTOGRUARO ROSSO – FIUME VENETO BLU (Trofeo Esordienti Under 12 
+ — girone PN C)
+LOCATION:Palestra Comunale 'Summaga'\, Portogruaro
+DESCRIPTION:Trofeo Esordienti Under 12 — girone PN C\n10ª giornata\nDati
+  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
+ vg/#g-basket-esordienti-pn-c
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-pn-c
+END:VEVENT
+END:VCALENDAR

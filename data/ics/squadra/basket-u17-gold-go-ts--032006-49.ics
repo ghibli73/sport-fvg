@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · AKK Bor Basket · Under 17 Under 17 Maschile Gold —
+  girone GO/TS (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-453e43ab@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261023T204500
+DTEND;TZID=Europe/Rome:20261023T224500
+SUMMARY:AKK Bor Basket 45-103 Servolana (Under 17 Maschile Gold — girone 
+ GO/TS (prima fase))
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n1ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-2b381849@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261031T120000
+DTEND;TZID=Europe/Rome:20261031T140000
+SUMMARY:Falconstar Basket 90-46 AKK Bor Basket (Under 17 Maschile Gold — 
+ girone GO/TS (prima fase))
+LOCATION:Palestra Polifunzionale\, Monfalcone
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n3ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-f87efa8d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261106T204500
+DTEND;TZID=Europe/Rome:20261106T224500
+SUMMARY:AKK Bor Basket 69-71 Basketrieste (Under 17 Maschile Gold — giron
+ e GO/TS (prima fase))
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n4ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-dfd16ea7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261114T153000
+DTEND;TZID=Europe/Rome:20261114T173000
+SUMMARY:DOM 83-55 AKK Bor Basket (Under 17 Maschile Gold — girone GO/TS (
+ prima fase))
+LOCATION:PalaBigot\, Gorizia
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n5ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-baa6e1c4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261120T204500
+DTEND;TZID=Europe/Rome:20261120T224500
+SUMMARY:AKK Bor Basket – O.F.P. Azzurra R.D.R. Basket Trieste (Under 17 M
+ aschile Gold — girone GO/TS (prima fase))
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n6ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-7c728c21@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261129T103000
+DTEND;TZID=Europe/Rome:20261129T123000
+SUMMARY:Basket Gradisca – AKK Bor Basket (Under 17 Maschile Gold — giro
+ ne GO/TS (prima fase))
+LOCATION:Pal. Ciro Zimolo\, Gradisca D'Isonzo
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n7ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-056e6b51@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261206T110000
+DTEND;TZID=Europe/Rome:20261206T130000
+SUMMARY:Servolana – AKK Bor Basket (Under 17 Maschile Gold — girone GO/
+ TS (prima fase))
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n8ª giorn
+ ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
+ o/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-bb7e7cc0@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261218T204500
+DTEND;TZID=Europe/Rome:20261218T224500
+SUMMARY:AKK Bor Basket – Falconstar Basket (Under 17 Maschile Gold — gi
+ rone GO/TS (prima fase))
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n10ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-68b18b34@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270113T193000
+DTEND;TZID=Europe/Rome:20270113T213000
+SUMMARY:Basketrieste – AKK Bor Basket (Under 17 Maschile Gold — girone 
+ GO/TS (prima fase))
+LOCATION:Palarubini - Allianz Dome\, Trieste
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n11ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-ec46dedf@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270115T204500
+DTEND;TZID=Europe/Rome:20270115T224500
+SUMMARY:AKK Bor Basket – DOM (Under 17 Maschile Gold — girone GO/TS (pr
+ ima fase))
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n12ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-6ccad1dd@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270123T180000
+DTEND;TZID=Europe/Rome:20270123T200000
+SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste – AKK Bor Basket (Under 17 M
+ aschile Gold — girone GO/TS (prima fase))
+LOCATION:Pal. I.T. Leonardo Da Vinci\, Trieste
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n13ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-go-ts-4770e3f1@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270129T204500
+DTEND;TZID=Europe/Rome:20270129T224500
+SUMMARY:AKK Bor Basket – Basket Gradisca (Under 17 Maschile Gold — giro
+ ne GO/TS (prima fase))
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n14ª gior
+ nata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.
+ io/sport-fvg/#g-basket-u17-gold-go-ts
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+END:VCALENDAR

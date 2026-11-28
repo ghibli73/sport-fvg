@@ -1,0 +1,210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · TORRE BASKET · Under 17 Under 17 Maschile Regionale 
+ — girone PN (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-6c57b54c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261024T100000
+DTEND;TZID=Europe/Rome:20261024T120000
+SUMMARY:PALL. PORTOGRUARO 47-54 TORRE BASKET (Under 17 Maschile Regionale 
+ — girone PN (prima fase))
+LOCATION:Palazzetto dello Sport\, Portogruaro
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n1ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-aebd2cbb@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T090000
+DTEND;TZID=Europe/Rome:20261101T110000
+SUMMARY:TORRE BASKET 65-73 LIBERTAS FIUME VENETO (Under 17 Maschile Regiona
+ le — girone PN (prima fase))
+LOCATION:Palestra Istituto "Flora"\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n2ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-8666c35b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261107T160000
+DTEND;TZID=Europe/Rome:20261107T180000
+SUMMARY:RORAIGRANDE 49-56 TORRE BASKET (Under 17 Maschile Regionale — gir
+ one PN (prima fase))
+LOCATION:Palazzetto Roraigrande\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n3ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-76f279a2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261111T191500
+DTEND;TZID=Europe/Rome:20261111T211500
+SUMMARY:TORRE BASKET 67-57 HUMUS BASKET (Under 17 Maschile Regionale — gi
+ rone PN (prima fase))
+LOCATION:Palestra Istituto "Flora"\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n4ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-3d697884@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261122T180000
+DTEND;TZID=Europe/Rome:20261122T200000
+SUMMARY:NUOVA PALLACANESTRO SANVITESE – TORRE BASKET (Under 17 Maschile R
+ egionale — girone PN (prima fase))
+LOCATION:Casa Della Gioventu'\, San Vito Al Tagliamento
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n5ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-1862587c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261213T163000
+DTEND;TZID=Europe/Rome:20261213T183000
+SUMMARY:TORRE BASKET – BASKET MANIAGO (Under 17 Maschile Regionale — gi
+ rone PN (prima fase))
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n8ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-1dc69837@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270110T163000
+DTEND;TZID=Europe/Rome:20270110T183000
+SUMMARY:TORRE BASKET – PALL. PORTOGRUARO (Under 17 Maschile Regionale —
+  girone PN (prima fase))
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n10ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-451bd0bf@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270113T191500
+DTEND;TZID=Europe/Rome:20270113T211500
+SUMMARY:TORRE BASKET – NEW BRUGNERA BASKET (Under 17 Maschile Regionale 
+ — girone PN (prima fase))
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n6ª gio
+ rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
+ .io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-3c305472@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270117T110000
+DTEND;TZID=Europe/Rome:20270117T130000
+SUMMARY:LIBERTAS FIUME VENETO – TORRE BASKET (Under 17 Maschile Regionale
+  — girone PN (prima fase))
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n11ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-2734db14@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270120T191500
+DTEND;TZID=Europe/Rome:20270120T211500
+SUMMARY:TORRE BASKET – RORAIGRANDE (Under 17 Maschile Regionale — giron
+ e PN (prima fase))
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n12ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-5ac65ee2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270131T183000
+DTEND;TZID=Europe/Rome:20270131T203000
+SUMMARY:HUMUS BASKET – TORRE BASKET (Under 17 Maschile Regionale — giro
+ ne PN (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n13ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-f03b921b@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270207T183000
+DTEND;TZID=Europe/Rome:20270207T203000
+SUMMARY:TORRE BASKET – NUOVA PALLACANESTRO SANVITESE (Under 17 Maschile R
+ egionale — girone PN (prima fase))
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n14ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-6fdd4f74@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270213T183000
+DTEND;TZID=Europe/Rome:20270213T203000
+SUMMARY:NEW BRUGNERA BASKET – TORRE BASKET (Under 17 Maschile Regionale 
+ — girone PN (prima fase))
+LOCATION:Palasport\, Brugnera
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n15ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-regionale-pn-a021b03f@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270226T184500
+DTEND;TZID=Europe/Rome:20270226T204500
+SUMMARY:BASKET MANIAGO – TORRE BASKET (Under 17 Maschile Regionale — gi
+ rone PN (prima fase))
+LOCATION:Palazzetto Dello Sport\, Maniago
+DESCRIPTION:Under 17 Maschile Regionale — girone PN (prima fase)\n17ª gi
+ ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
+ b.io/sport-fvg/#g-basket-u17-regionale-pn
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-pn
+END:VEVENT
+END:VCALENDAR

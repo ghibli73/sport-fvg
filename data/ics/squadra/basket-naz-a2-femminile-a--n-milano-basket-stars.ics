@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Milano Basket Stars · Serie A2 femminile — girone 
+ A (Nord)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-f7a487da@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:San Salvatore Selargius 30-68 Milano Basket Stars (Serie A2 femmini
+ le — girone A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n1ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-074d72a4@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Milano Basket Stars 71-68 Alpo VillaFranca (Serie A2 femminile — 
+ girone A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n2ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-f29d7eee@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Milano Basket Stars 62-68 Pallacanestro Torino (Serie A2 femminile 
+ — girone A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n3ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-cbaf0a7b@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Sanga Milano 69-68 Milano Basket Stars (Serie A2 femminile — giro
+ ne A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n4ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-45359e87@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Milano Basket Stars 66-69 Usmate (Serie A2 femminile — girone A (
+ Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n5ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-916bad58@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Virtus Cagliari 72-57 Milano Basket Stars (Serie A2 femminile — g
+ irone A (Nord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n6ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-naz-a2-femminile-a-0a53cf15@zuin-fvg
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Trieste – Milano Basket Stars (Serie A2 femminile — girone A (N
+ ord))
+DESCRIPTION:Serie A2 femminile — girone A (Nord)\n8ª giornata\nDati non 
+ ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
+ -basket-naz-a2-femminile-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-a2-femminile-a
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · VALERIANO PINZANO · Terza Categoria — girone B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-0f0054d6@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:VALERIANO PINZANO 4-1 MAJANESE (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n1ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-cdaaecc0@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:CHIAVRIS 1-3 VALERIANO PINZANO (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n2ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-7b44438b@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:VALERIANO PINZANO 1-0 ARZINO (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n3ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-f5303296@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:TARCENTINA 1-2 VALERIANO PINZANO (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n4ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-bb7fdda3@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:VALERIANO PINZANO 2-0 TREPPO GRANDE (Terza Categoria — girone B)
+DESCRIPTION:Terza Categoria — girone B\n5ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-07ed1daa@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:CENTRO ATLETICO RICREATIV 1-3 VALERIANO PINZANO (Terza Categoria 
+ — girone B)
+DESCRIPTION:Terza Categoria — girone B\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-8ceda84d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:VALERIANO PINZANO 0-3 VALNATISONE CALCIO (Terza Categoria — giron
+ e B)
+DESCRIPTION:Terza Categoria — girone B\n7ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-terza-categoria-b-758e5fad@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:OSOPPO RUSH SOCCER 1-0 VALERIANO PINZANO (Terza Categoria — giron
+ e B)
+DESCRIPTION:Terza Categoria — girone B\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-b
+END:VEVENT
+END:VCALENDAR

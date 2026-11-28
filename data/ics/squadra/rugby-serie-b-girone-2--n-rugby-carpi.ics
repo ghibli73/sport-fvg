@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Rugby Carpi · Serie B — girone 2 (1a fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-06aa33a9@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Rugby Carpi 33-35 Casalmaggiore Rugby (Serie B — girone 2 (1a fas
+ e))
+DESCRIPTION:Serie B — girone 2 (1a fase)\n1ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-e1d7a7a0@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Rugby Carpi 22-20 Rugby Lyons (Serie B — girone 2 (1a fase))
+DESCRIPTION:Serie B — girone 2 (1a fase)\n2ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-5e4a1e6b@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Rugby Carpi 11-18 Rugby Oltremella (Serie B — girone 2 (1a fase))
+DESCRIPTION:Serie B — girone 2 (1a fase)\n3ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-0e57e414@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Rugby Fiumicello 10-19 Rugby Carpi (Serie B — girone 2 (1a fase))
+DESCRIPTION:Serie B — girone 2 (1a fase)\n4ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+BEGIN:VEVENT
+UID:rugby-serie-b-girone-2-4a975a1c@zuin-fvg
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Rugby Carpi – Rugby Mantova (Serie B — girone 2 (1a fase))
+DESCRIPTION:Serie B — girone 2 (1a fase)\n5ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-rugby-s
+ erie-b-girone-2
+URL:https://ghibli73.github.io/sport-fvg/#g-rugby-serie-b-girone-2
+END:VEVENT
+END:VCALENDAR

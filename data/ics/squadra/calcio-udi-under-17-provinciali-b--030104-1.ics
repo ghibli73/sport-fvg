@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · SANTAMARIA · Under 17 Under 17 provinciali — giron
+ e B
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-25107071@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:SANTAMARIA 4-1 SERENISSIMA PRADAMANO (Under 17 provinciali — giro
+ ne B)
+DESCRIPTION:Under 17 provinciali — girone B\n1ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-711d2c34@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:RIVE D ARCANO FLAIBANO 1-1 SANTAMARIA (Under 17 provinciali — gir
+ one B)
+DESCRIPTION:Under 17 provinciali — girone B\n2ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-b75e7700@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:SANTAMARIA 4-3 COMETAZZURRA (Under 17 provinciali — girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n3ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-434d8197@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:S.GOTTARDO 2-1 SANTAMARIA (Under 17 provinciali — girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n4ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-1bb79995@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:SANTAMARIA 6-1 BUTTRIO CALCIO (Under 17 provinciali — girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-5ca75371@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:POLISPORTIVA CODROIPO 1-5 SANTAMARIA (Under 17 provinciali — giro
+ ne B)
+DESCRIPTION:Under 17 provinciali — girone B\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-35c2855f@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:SANTAMARIA 12-0 COMUNALE LESTIZZA (Under 17 provinciali — girone 
+ B)
+DESCRIPTION:Under 17 provinciali — girone B\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-udi-under-17-provinciali-b-84015881@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:ASSOSANGIORGINA 0-5 SANTAMARIA (Under 17 provinciali — girone B)
+DESCRIPTION:Under 17 provinciali — girone B\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-17-provinciali-b
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
+ -b
+END:VEVENT
+END:VCALENDAR

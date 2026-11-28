@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Pol. Casarsa · Under 19 Under 19 Maschile Regionale 
+ — girone PN A (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-12e5dad4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261109T183000
+DTEND;TZID=Europe/Rome:20261109T203000
+SUMMARY:Pol. Casarsa 61-50 Libertas Fiume Veneto (Under 19 Maschile Regiona
+ le — girone PN A (prima fase))
+LOCATION:Palasport 'Palarosa'\, Casarsa della Delizia
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n1ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-d3e06676@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261115T150000
+DTEND;TZID=Europe/Rome:20261115T170000
+SUMMARY:Pol. Casarsa 67-59 New Brugnera Basket (Under 19 Maschile Regionale
+  — girone PN A (prima fase))
+LOCATION:Palasport 'Palarosa'\, Casarsa della Delizia
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n2ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-61a28ac4@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261122T180000
+DTEND;TZID=Europe/Rome:20261122T200000
+SUMMARY:Pol. Casarsa – Pall. Portogruaro (Under 19 Maschile Regionale —
+  girone PN A (prima fase))
+LOCATION:Palasport 'Palarosa'\, Casarsa della Delizia
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n3ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-2d339aef@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261129T153000
+DTEND;TZID=Europe/Rome:20261129T173000
+SUMMARY:Pol. Casarsa – Polisportiva Concordia (Under 19 Maschile Regional
+ e — girone PN A (prima fase))
+LOCATION:(Pordenone)
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n4ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-de2190cf@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261207T191500
+DTEND;TZID=Europe/Rome:20261207T211500
+SUMMARY:Balonsesto – Pol. Casarsa (Under 19 Maschile Regionale — girone
+  PN A (prima fase))
+LOCATION:Palazzetto Comunale\, Sesto Al Reghena
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n5ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-68ca2b7e@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T170000
+DTEND;TZID=Europe/Rome:20270109T190000
+SUMMARY:Libertas Fiume Veneto – Pol. Casarsa (Under 19 Maschile Regionale
+  — girone PN A (prima fase))
+LOCATION:Palasport\, Fiume Veneto
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n6ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-ff611098@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270116T183000
+DTEND;TZID=Europe/Rome:20270116T203000
+SUMMARY:New Brugnera Basket – Pol. Casarsa (Under 19 Maschile Regionale 
+ — girone PN A (prima fase))
+LOCATION:Palasport\, Brugnera
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n7ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-1739780d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270125T201500
+DTEND;TZID=Europe/Rome:20270125T221500
+SUMMARY:Pall. Portogruaro – Pol. Casarsa (Under 19 Maschile Regionale —
+  girone PN A (prima fase))
+LOCATION:Palazzetto Dello Sport\, Portogruaro
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n8ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-7aeef565@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270202T193000
+DTEND;TZID=Europe/Rome:20270202T213000
+SUMMARY:Polisportiva Concordia – Pol. Casarsa (Under 19 Maschile Regional
+ e — girone PN A (prima fase))
+LOCATION:Pal.Tto Sport "L. Valerio"\, Concordia Sagittaria
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n9ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-a-9f999343@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270214T150000
+DTEND;TZID=Europe/Rome:20270214T170000
+SUMMARY:Pol. Casarsa – Balonsesto (Under 19 Maschile Regionale — girone
+  PN A (prima fase))
+LOCATION:(Pordenone)
+DESCRIPTION:Under 19 Maschile Regionale — girone PN A (prima fase)\n10ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u19-regionale-pn-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-a
+END:VEVENT
+END:VCALENDAR

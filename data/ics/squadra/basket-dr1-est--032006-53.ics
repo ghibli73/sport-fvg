@@ -1,0 +1,314 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Santos Basket Trieste · Divisione Regionale 1 — gi
+ rone Est
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-dr1-est-274fb588@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261002T211500
+DTEND;TZID=Europe/Rome:20261002T231500
+SUMMARY:Santos Basket Trieste 101-88 U.S. Alba (Divisione Regionale 1 — g
+ irone Est)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n1ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-7c74d382@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261009T211500
+DTEND;TZID=Europe/Rome:20261009T231500
+SUMMARY:Insureteach SRL Azzurra 68-59 Santos Basket Trieste (Divisione Regi
+ onale 1 — girone Est)
+LOCATION:Palestra Comunale di San Giovanni\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n2ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-10b5f076@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261016T211500
+DTEND;TZID=Europe/Rome:20261016T231500
+SUMMARY:Santos Basket Trieste 53-62 S.S. SD Kontovel (Divisione Regionale 1
+  — girone Est)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n3ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-84126b32@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261024T193000
+DTEND;TZID=Europe/Rome:20261024T213000
+SUMMARY:Metamorfosi Gradisca 74-69 Santos Basket Trieste (Divisione Regiona
+ le 1 — girone Est)
+LOCATION:Pal. Ciro Zimolo\, Gradisca d'Isonzo
+DESCRIPTION:Divisione Regionale 1 — girone Est\n4ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-9296d3cf@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261030T211500
+DTEND;TZID=Europe/Rome:20261030T231500
+SUMMARY:Santos Basket Trieste 83-75 Servolana (Divisione Regionale 1 — gi
+ rone Est)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n5ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-21d1ff4b@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261106T211500
+DTEND;TZID=Europe/Rome:20261106T231500
+SUMMARY:Santos Basket Trieste 72-100 Credifriuli Cervignano (Divisione Regi
+ onale 1 — girone Est)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n6ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-ebd0cec7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261113T211500
+DTEND;TZID=Europe/Rome:20261113T231500
+SUMMARY:Santos Basket Trieste 78-77 Pall. Interclub Muggia (Divisione Regio
+ nale 1 — girone Est)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n7ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-3cbcf703@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261120T211500
+DTEND;TZID=Europe/Rome:20261120T231500
+SUMMARY:Santos Basket Trieste 80-71 U.S.D. Dom (Divisione Regionale 1 — g
+ irone Est)
+LOCATION:Pal. Don Milani\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n8ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-d909505a@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261129T180000
+DTEND;TZID=Europe/Rome:20261129T200000
+SUMMARY:Libertas Gonars – Santos Basket Trieste (Divisione Regionale 1 
+ — girone Est)
+LOCATION:Palazzetto Dello Sport\, Gonars
+DESCRIPTION:Divisione Regionale 1 — girone Est\n9ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-bad613a7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261202T211500
+DTEND;TZID=Europe/Rome:20261202T231500
+SUMMARY:Santos Basket Trieste – Geatti Idraulica ed Edilizia (Divisione R
+ egionale 1 — girone Est)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n10ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-6e08694e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261211T210000
+DTEND;TZID=Europe/Rome:20261211T230000
+SUMMARY:San Vito Trieste – Santos Basket Trieste (Divisione Regionale 1 
+ — girone Est)
+LOCATION:Palazzetto 'Atleti Azzurri'\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n11ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-759f32d8@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20261219T200000
+DTEND;TZID=Europe/Rome:20261219T220000
+SUMMARY:U.S. Alba – Santos Basket Trieste (Divisione Regionale 1 — giro
+ ne Est)
+LOCATION:Palasport 'R. Plet'\, Cormons
+DESCRIPTION:Divisione Regionale 1 — girone Est\n12ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-670f4cb7@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270108T211500
+DTEND;TZID=Europe/Rome:20270108T231500
+SUMMARY:Santos Basket Trieste – Insureteach SRL Azzurra (Divisione Region
+ ale 1 — girone Est)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n13ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-c007b875@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270116T180000
+DTEND;TZID=Europe/Rome:20270116T200000
+SUMMARY:S.S. SD Kontovel – Santos Basket Trieste (Divisione Regionale 1 
+ — girone Est)
+LOCATION:Palestra 'M.Ervatti'\, Sgonico
+DESCRIPTION:Divisione Regionale 1 — girone Est\n14ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-c8af28e2@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270122T211500
+DTEND;TZID=Europe/Rome:20270122T231500
+SUMMARY:Santos Basket Trieste – Metamorfosi Gradisca (Divisione Regionale
+  1 — girone Est)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n15ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-462329a3@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270130T180000
+DTEND;TZID=Europe/Rome:20270130T200000
+SUMMARY:Servolana – Santos Basket Trieste (Divisione Regionale 1 — giro
+ ne Est)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n16ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-1fc29670@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270206T193000
+DTEND;TZID=Europe/Rome:20270206T213000
+SUMMARY:Credifriuli Cervignano – Santos Basket Trieste (Divisione Regiona
+ le 1 — girone Est)
+LOCATION:Palasport\, Cervignano Del Friuli
+DESCRIPTION:Divisione Regionale 1 — girone Est\n17ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-1d1ddc72@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270213T204500
+DTEND;TZID=Europe/Rome:20270213T224500
+SUMMARY:Pall. Interclub Muggia – Santos Basket Trieste (Divisione Regiona
+ le 1 — girone Est)
+LOCATION:Palasport\, Muggia
+DESCRIPTION:Divisione Regionale 1 — girone Est\n18ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-cf709560@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270219T200000
+DTEND;TZID=Europe/Rome:20270219T220000
+SUMMARY:U.S.D. Dom – Santos Basket Trieste (Divisione Regionale 1 — gir
+ one Est)
+LOCATION:Kulturni Dom\, Gorizia
+DESCRIPTION:Divisione Regionale 1 — girone Est\n19ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-c783acee@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270226T211500
+DTEND;TZID=Europe/Rome:20270226T231500
+SUMMARY:Santos Basket Trieste – Libertas Gonars (Divisione Regionale 1 
+ — girone Est)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n20ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-f4327539@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270305T210000
+DTEND;TZID=Europe/Rome:20270305T230000
+SUMMARY:Geatti Idraulica ed Edilizia – Santos Basket Trieste (Divisione R
+ egionale 1 — girone Est)
+LOCATION:Pal. ''M. Vecchiatto''\, Udine
+DESCRIPTION:Divisione Regionale 1 — girone Est\n21ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-dr1-est-d7bcf38e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270312T211500
+DTEND;TZID=Europe/Rome:20270312T231500
+SUMMARY:Santos Basket Trieste – San Vito Trieste (Divisione Regionale 1 
+ — girone Est)
+LOCATION:Pal. 'Don Milani'\, Trieste
+DESCRIPTION:Divisione Regionale 1 — girone Est\n22ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-dr1-est
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,184 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Humus Basket · Under 19 Under 19 Maschile Regionale 
+ — girone PN B (prima fase)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-7e8e80f6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261101T180000
+DTEND;TZID=Europe/Rome:20261101T200000
+SUMMARY:Scuola Pallacanestro Porcia 2021 – Humus Basket (Under 19 Maschil
+ e Regionale — girone PN B (prima fase))
+LOCATION:Pal. Sc. Medie F. Cornacchia\, Porcia
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n1ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-0c54e7b9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261110T210000
+DTEND;TZID=Europe/Rome:20261110T230000
+SUMMARY:Humus Basket 86-47 Roraigrande (Under 19 Maschile Regionale — gir
+ one PN B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n2ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-b49665f7@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261116T210000
+DTEND;TZID=Europe/Rome:20261116T230000
+SUMMARY:Torre Basket 64-72 Humus Basket (Under 19 Maschile Regionale — gi
+ rone PN B (prima fase))
+LOCATION:Palestra Istituto Flora\, Pordenone
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n3ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-bb97c207@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261121T160000
+DTEND;TZID=Europe/Rome:20261121T180000
+SUMMARY:Polisigma – Humus Basket (Under 19 Maschile Regionale — girone 
+ PN B (prima fase))
+LOCATION:Palestra Scolastica Scuole Medie\, Zoppola
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n4ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-c9d29320@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261201T203000
+DTEND;TZID=Europe/Rome:20261201T223000
+SUMMARY:Humus Basket – Sistema BK Pordenone (Under 19 Maschile Regionale 
+ — girone PN B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n7ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-db10f780@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261204T203000
+DTEND;TZID=Europe/Rome:20261204T223000
+SUMMARY:Basket Maniago-Pol. Montereale – Humus Basket (Under 19 Maschile 
+ Regionale — girone PN B (prima fase))
+LOCATION:Palazzetto Dello Sport\, Maniago
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n6ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-0252f9e2@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261222T210000
+DTEND;TZID=Europe/Rome:20261222T230000
+SUMMARY:Humus Basket – Scuola Pallacanestro Porcia 2021 (Under 19 Maschil
+ e Regionale — girone PN B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n8ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-599e43f9@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270109T181500
+DTEND;TZID=Europe/Rome:20270109T201500
+SUMMARY:Roraigrande – Humus Basket (Under 19 Maschile Regionale — giron
+ e PN B (prima fase))
+LOCATION:(Pordenone)
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n9ª g
+ iornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.gith
+ ub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-d7e69c41@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270119T210000
+DTEND;TZID=Europe/Rome:20270119T230000
+SUMMARY:Humus Basket – Torre Basket (Under 19 Maschile Regionale — giro
+ ne PN B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n10ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-2d483081@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270126T210000
+DTEND;TZID=Europe/Rome:20270126T230000
+SUMMARY:Humus Basket – Polisigma (Under 19 Maschile Regionale — girone 
+ PN B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n11ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-a8565c4c@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270209T210000
+DTEND;TZID=Europe/Rome:20270209T230000
+SUMMARY:Humus Basket – Basket Maniago-Pol. Montereale (Under 19 Maschile 
+ Regionale — girone PN B (prima fase))
+LOCATION:Palamicheletto\, Sacile
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n13ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-regionale-pn-b-ac918d23@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270217T204500
+DTEND;TZID=Europe/Rome:20270217T224500
+SUMMARY:Sistema BK Pordenone – Humus Basket (Under 19 Maschile Regionale 
+ — girone PN B (prima fase))
+LOCATION:Pal. Sc. Medie Villanova\, Pordenone
+DESCRIPTION:Under 19 Maschile Regionale — girone PN B (prima fase)\n14ª 
+ giornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.git
+ hub.io/sport-fvg/#g-basket-u19-regionale-pn-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-pn-b
+END:VEVENT
+END:VCALENDAR

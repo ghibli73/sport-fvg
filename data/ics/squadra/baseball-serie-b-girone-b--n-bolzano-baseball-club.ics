@@ -1,0 +1,172 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zuin Sport in FVG//IT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zuìn · Bolzano Baseball Club · Serie B baseball — girone 
+ B (regular season)
+X-WR-TIMEZONE:Europe/Rome
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Rome
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-c6c27f09@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260412
+SUMMARY:Sultan Allestimenti Navali Cervignano 11-1 Bolzano Baseball Club (S
+ erie B baseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n1ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-c6c27f09@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260412
+DTEND;VALUE=DATE:20260413
+SUMMARY:Sultan Allestimenti Navali Cervignano 2-3 Bolzano Baseball Club (Se
+ rie B baseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n1ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-7fc7788b@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+SUMMARY:Bolzano Baseball Club 0-20 Rangers Redipuglia (Serie B baseball —
+  girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n4ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-bb4f8510@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+SUMMARY:Bolzano Baseball Club 10-12 Rangers Redipuglia (Serie B baseball 
+ — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n4ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-1ffa6b11@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+SUMMARY:Staranzano Ducks 5-6 Bolzano Baseball Club (Serie B baseball — gi
+ rone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n5ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-b996cc46@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+SUMMARY:Staranzano Ducks 12-2 Bolzano Baseball Club (Serie B baseball — g
+ irone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n5ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-4e3b3696@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:Bolzano Baseball Club 4-8 Sultan Allestimenti Navali Cervignano (Se
+ rie B baseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n8ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-f3ec1023@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:Bolzano Baseball Club 3-2 Sultan Allestimenti Navali Cervignano (Se
+ rie B baseball — girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n8ª giornata\nD
+ ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
+ t-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-00fc1fc9@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:Rangers Redipuglia 5-1 Bolzano Baseball Club (Serie B baseball — 
+ girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n11ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-5b50b462@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:Rangers Redipuglia 4-8 Bolzano Baseball Club (Serie B baseball — 
+ girone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n11ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-49a5c48d@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:Bolzano Baseball Club 5-6 Staranzano Ducks (Serie B baseball — gi
+ rone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n12ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+BEGIN:VEVENT
+UID:baseball-serie-b-girone-b-423d61e2@zuin-fvg
+DTSTAMP:20260726T000000Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:Bolzano Baseball Club 5-4 Staranzano Ducks (Serie B baseball — gi
+ rone B (regular season))
+DESCRIPTION:Serie B baseball — girone B (regular season)\n12ª giornata\n
+ Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
+ rt-fvg/#g-baseball-serie-b-girone-b
+URL:https://ghibli73.github.io/sport-fvg/#g-baseball-serie-b-girone-b
+END:VEVENT
+END:VCALENDAR

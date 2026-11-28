@@ -88,10 +88,13 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
 - **Partite, proposta A** — dalla 1.17.0 (manuale: `pipeline/agenti/partite-proposta-a.md`).
   - `#risultati` = ingresso (Questo weekend, ricerca di squadra o campionato, tessere Calcio · Pallavolo · Basket · Altri sport); `#risultati?sport=…&liv=p|g&camp=…&genere=…&zona=…` = sport con Prima squadra/Giovanili, barra dei campionati, zone a pulsanti, nomi brevi dei gironi e pulsante Classifica. Ordine unico degli sport (Calcio, Pallavolo, Basket, poi gli altri) in tutta l'app.
   - Girone compatto, aperto sull'ultimo turno giocato; dal nastro partita evidenziata e "indietro" verso l'origine. Preferiti `{v:2,c,g,sq}` (squadre singole), compatibili con i vecchi `{c,g}`. Nessun cambio ai dati né agli script; SHELL `sportfvg-shell-v28`.
+- **Calendario della squadra** — dalla 1.20.0 (manuale: `pipeline/agenti/calendario-squadra.md`).
+  - Pulsante «Calendario» (icona agenda) in Preferiti, Home («Le tue squadre»), scheda società e classifica → vista `#cal-<gid>--<chiave>` con tutte le partite della squadra per mese, riga Oggi e prossima partita, chip tra le squadre seguite.
+  - `scripts/ics.py` scrive anche `data/ics/squadra/<gid>--<chiave>.ics` (tutta la stagione, stessi UID) per l'abbonamento webcal; nessun cambio ai workflow (salvano già `data/`). Controllo `node tests/calendario-squadra.test.js`; SHELL `sportfvg-shell-v31`.
 
 - **Dati della gara** — dalla 1.19.0 (formato: `pipeline/agenti/formato-risultati.md`).
   - Pallavolo `stato_gara` (omologata/ufficioso) e `designata` dalle pagine FIPAV già lette (volley.py, settimane -2…+1); basket `data_cal` ("giocata il" delle omologazioni) e `designata` (pagine fip.it già lette in variazioni_fip); calcio `data_cal`/`campo_cal`/`esito`/`rinviata` e `penalita` dal Quadro gare (`calcio_live.py --dettagli` in aggiorna-calcio.yml + giro rapido, `config/calcio_dettagli.json`).
-  - Designazioni: solo un booleano per le gare dei prossimi 7 giorni, mai nomi (niente calcio, niente Pordenone). In app etichette piccole nella riga partita e legenda in Info; SHELL `sportfvg-shell-v30`.
+  - Designazioni: solo un booleano per le gare dei prossimi 7 giorni, mai nomi (niente calcio, niente Pordenone). In app etichette piccole nella riga partita e legenda in Info; SHELL `sportfvg-shell-v31`.
   - Sonda fonti: modo `maschera=<url>|<regex>[@@n]` (HTML con le parole maiuscole sostituite da "X": struttura delle pagine senza stampare nomi nel log).
 
 ## Registro
@@ -108,3 +111,4 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
 - 2026-11-26 — Prototipo "Partite" a settimane (1.15.0 beta, branch design/partite-settimana, PR in bozza): axe-core 0 violazioni a 320/390/1280 px, schermate in design/screenshot/partite.
 - 2026-11-26 — Prototipo barra dei campionati (1.16.0 beta, SHELL v27, branch design/barra-campionati, PR in bozza): 175/175 gironi assegnati, 0 in "Altro"; axe-core 0 violazioni a 320/390/1280 px chiaro e scuro (corretto anche il contrasto di "Aggiornato alle" nel tema scuro).
 - 2026-11-28 — Proposta A della sezione Partite (1.17.0 beta, SHELL v28, branch design/partite-proposta-a, PR in bozza): percorsi dell'analisi rifatti (genitore Under 13 da 5 tocchi + 5 passate a 3 tocchi con la ricerca; Partite mostra subito 3 partite; 3 squadre seguite = 3 partite invece di 15), axe-core 0 violazioni a 320/390/1280 px chiaro e scuro, liste e girone sotto 100 ms con CPU 4×.
+- 2026-11-28 — Calendario della squadra (1.20.0 beta, SHELL v31, branch funzioni/calendario-squadra, PR in bozza): 1.765 file .ics per squadra (25.689 eventi), chiavi app = file; axe-core 0 violazioni a 320/390/1280 px chiaro e scuro, apertura sotto 100 ms con CPU 4×, schermate in design/screenshot/calendario-squadra.
