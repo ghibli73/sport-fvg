@@ -1,5 +1,7 @@
 # Vista "Partite" a settimane — Zuìn 1.15.0 beta (prototipo)
 
+> **Dalla 1.17.0** (`pipeline/agenti/partite-proposta-a.md`): il girone si apre sull'ultimo turno giocato se nella settimana in corso non si è giocato ancora nulla; in Partite il blocco settimanale si chiama "Questo weekend" (squadre seguite o partite in evidenza) e non è più ripetuto in Preferiti; le squadre si possono seguire una per una (`sq` nei preferiti).
+
 Risultati e calendario uniti in una sola vista, una settimana alla volta (lunedì–domenica, ora italiana Europe/Rome).
 Tutto è calcolato nel browser da `data/risultati.json`: nessun campo nuovo nei dati, nessuna modifica agli script.
 
