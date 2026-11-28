@@ -259,6 +259,10 @@ def leggi_blocchi_pn(righe):
         blocco["cat"], blocco["data"] = cat, data
         if not cat:
             return  # attività non gestita (Esordienti, Pulcini, tornei): le sue righe "GIOCATA" non hanno punteggi
+        if attesa and blocco["gare"] and len(blocco["punti"]) == len(blocco["gare"]):
+            # il blocco nuovo ha esattamente i suoi punteggi: quelli dei blocchi in attesa non arriveranno più
+            print("    blocchi " + ", ".join(f"{b['cat']} girone {b['gir'][0]} g{b['gir'][1]}" for b in attesa) + ": punteggi mancanti, scartati")
+            attesa.clear()
         attesa.append(blocco)
         ng = sum(len(b["gare"]) for b in attesa); npt = sum(len(b["punti"]) for b in attesa)
         if npt < ng:
@@ -569,6 +573,14 @@ def main():
             print(f"  scartato {k}: categoria provinciale senza delegazione riconosciuta"); continue
         n_sq = len({compatto(g["casa"]) for g in gs} | {compatto(g["ospite"]) for g in gs})
         doppie = [x for x, c in Counter((g["g_eff"], compatto(t)) for g in gs for t in (g["casa"], g["ospite"])).items() if c > 1]
+        if k[0] == "Regionale" and re.match(r"(Seconda|Terza) Categoria", k[1]):
+            # Seconda e Terza sono solo delle Delegazioni: nei CU regionali sono gironi di coppa o di fasi finali
+            print(f"  scartato {k}: categoria delle Delegazioni in un CU regionale"); continue
+        n_gio = len({(g["giornata"], g.get("ar")) for g in gs})
+        if len(gs) < 0.35 * (n_sq // 2) * n_gio:
+            # poche gare sparse su molte giornate (es. 21 squadre, 12 gare, giornate 1-23): non è un girone di campionato
+            # letto bene (blocchi di altre competizioni o titoli attribuiti male)
+            print(f"  scartato {k}: {n_sq} squadre, {len(gs)} gare in {n_gio} giornate (troppo poche)"); continue
         if len(gs) < 4 or n_sq < 4 or n_sq > 22 or doppie:
             print(f"  scartato {k}: {n_sq} squadre, {len(gs)} gare, {len(doppie)} squadre doppie nella stessa giornata"); continue
         # copie: unifica_nomi cambia i nomi solo nel girone costruito, non nelle gare salvate in calcio_stato.json

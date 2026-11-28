@@ -77,3 +77,47 @@ Aggiornamento 25/11/2026 (sessione agente risultati calcio):
 - Delegazione Trieste CU n.29 dell'8/10/2026: /2026/10/ts_cu_29_2026-2027.pdf (non letto).
 - Procedura settimanale Seconda/Terza: 1) aprire /comunicati/ e il post del CU della Delegazione (Udine giovedì, Pordenone mercoledì, Gorizia giovedì, Trieste più CU a settimana); 2) estrarre la tabella risultati e modifiche; 3) aggiungere le righe a _lavoro/ris_deleg.txt (girone|giornata|data|ora|casa|ospite|gc|go|fonte; gc/go vuoti = da giocare) e la sigla del CU nel dizionario CU dello script; 4) python3 -I risultati/calcio/_lavoro/script/genera_delegazioni.py (scrive la classifica solo quando le giornate 1..N sono tutte presenti; altrimenti classifica vuota e "dati_parziali": true); 5) python3 build_risultati.py. Per completare la stagione servono i CU Udine delle giornate 1-7 (circa n.20-26, dal 1/10 al 13/11/2026).
 Formato: PDF di testo, letto bene da WebFetch chiedendo "tutte le righe di risultato verbatim, con girone e giornata". Il modello che riassume può attribuire male i blocchi quando l'impaginazione è confusa (successo con go_cu_24: un blocco Under 19 è stato etichettato Under 14): controllare i nomi con le composizioni dei gironi sopra.
+
+## Aggiornamento 28/11/2026 (agente calcio, branch fix/calcio-pordenone)
+- BUG CORRETTO — Delegazione di Pordenone mai letta: i suoi CU si chiamano "2026-C.U.-N.-NN-Delegazione-PN-2026-2027.pdf"
+  (a volte -1, -2) e il filtro dei nomi file in elenco_pdf() ("cu[-_ ]?\d+") non li riconosceva. Nuova regola unica
+  `RX_FILE_CU` in scripts/calcio_nuovi_cu.py (importata da calcio.py); comitato anche dal nome file ("Delegazione-PN").
+- BUG CORRETTO — archivio media letto solo in parte: WordPress può dare MENO di 100 file in una pagina anche se ce ne
+  sono altre (26/11: 97 nella prima, 100 nella seconda), e lo script si fermava ("meno di 100 = ultima"): i CU prima del
+  15/10 non erano mai stati letti in automatico. Ora `media_wp()` usa l'intestazione X-WP-TotalPages (anche per i
+  calendari in calcio_calendari.py). Al massimo `MAX_CU` = 60 CU nuovi per esecuzione (prima i più recenti; il recupero
+  della serie si distribuisce su 3-4 esecuzioni); una gara già letta da un CU più recente non viene sovrascritta da uno
+  più vecchio. Opzione `--max-cu N` per le prove.
+- Formato dei CU di Pordenone: il PDF contiene prima le pagine del Comitato Regionale e poi (indice "Risultati … pag. 25")
+  quelle della Delegazione, senza il titolo "RISULTATI GARE". Blocchi "Campionato 2^ Categoria – Girone “A”" /
+  "RISULTATI UFFICIALI GARE DEL gg/mm/aaaa" (o "RISULTATO UFFICIALE GARA DEL" per i recuperi) / "GIRONE A – 9a Giornata - A" /
+  righe "CASA -OSPITE" (trattino con spazio solo prima; "1) " davanti per le note "1) Giocata il …", "1) Posticipo al …").
+  I punteggi stanno in una colonna a destra che pdf_righe() restituisce DOPO le squadre, a volte dopo due blocchi insieme
+  (U14 gironi A e B). Lettere al posto del punteggio: "- F", "- P", "- B", "- V.D." = gara non disputata/rinviata/sospesa/
+  vedi delibera → nessun risultato (mai 0-0). Un nome può andare a capo ("CHIONS" / "-SESTO BAGNAROLA").
+  Parser: `leggi_blocchi_pn()` in calcio.py (usato per i CU di Pordenone e per i CU senza "RISULTATI GARE"): abbina
+  punteggi e gare in ordine solo quando i totali coincidono, altrimenti scarta i blocchi (messaggio "blocchi …
+  scartati" nel log). Esordienti/Pulcini ("GIOCATA") ignorati.
+- Gironi PN (gid calcio-por-…): Seconda A, Terza A, Under 19/17/16/15 provinciali A, Under 14 provinciali A e B.
+  Alias delle società aggiunti in config/calcio_alias.json (Sq. B = stessa società; "TORRE" nei gironi PN = Torre di
+  Pordenone 093033-2; "VIVAI RASCEDO/GRAVIS" è un refuso del CU per Vivai Rauscedo/Gravis).
+- Variazioni di Pordenone ("MODIFICHE PROGRAMMA GARE"): tabella su più righe con colonne spezzate, lettura parziale.
+- Sonda fonti: nuovi modi `tutte=<url>[@@regex@@n]` (righe come le legge calcio.py; nelle regex "." al posto degli spazi)
+  e `pagpdf=<url>@@<n>` (testo di una pagina con le posizioni delle parole). Il sito LND a volte risponde dai runner
+  GitHub con "Access denied by Imunify360 bot-protection" (403) o con una pagina non JSON: riprovare dopo qualche minuto.
+
+### Tempi dei provinciali
+- Le Delegazioni pubblicano il CU con i risultati della domenica tra mercoledì e venerdì pomeriggio/sera (26/11: Udine
+  CU-28 14:50, Gorizia go_cu_25 17:21, Trieste ts_cu_42 17:35; Pordenone il mercoledì-venerdì e lunedì 19-20).
+- Giro rapido (avviato ogni 15 minuti da cron-job.org): nuovo passo "Comunicati LND nuovi?" ogni giorno 12:00-23:45 ora
+  italiana, anche fuori dalle fasce di gara: `scripts/calcio_nuovi_cu.py` fa UNA richiesta all'archivio media (PDF degli
+  ultimi 4 giorni, solo data e indirizzo, libreria standard) e confronta con config/calcio_stato.json; se c'è un CU non
+  letto pubblicato dopo l'avvio dell'ultima "Aggiorna calcio" (e nessuna è in corso o in coda) avvia
+  `aggiorna-calcio.yml` (permesso `actions: write` del GITHUB_TOKEN). Ritardo atteso: 15-30 minuti dalla pubblicazione
+  invece delle 13:23/18:23 UTC ritardate di ore. Un CU illeggibile non fa ripartire il workflow ogni 15 minuti (vale solo
+  ciò che è uscito dopo l'ultima esecuzione). Nota: anche un lancio di prova di Aggiorna calcio conta come "ultima".
+- Quadro gare (calcio_live.py): copre già tutti i gironi dell'app abbinati in config/calcio_lnd.json, provinciali
+  compresi (UD, GO, TS dal 26/11). I gironi nuovi (es. PN) vengono abbinati alla prima "Aggiorna calcio" successiva
+  (campo `senza_abbinamento` in calcio_lnd.json: un girone che non c'era all'ultima scoperta la fa ripetere subito,
+  senza aspettare 7 giorni). Rinviate: oltre alle note "rinviata/sospesa/non disputata…" anche ogni 0-0 con una nota
+  qualsiasi viene scartato (si aspetta il CU).
