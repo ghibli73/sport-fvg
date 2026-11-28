@@ -25,6 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:calcio-udi-seconda-categoria-c-064bad45@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:POLISPORTIVA FLAMBRO 3-1 SANTAMARIA (Seconda Categoria — girone C
+ )
+DESCRIPTION:Seconda Categoria — girone C\n6ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-019585ed@zuin-fvg
 DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261030
@@ -36,16 +48,15 @@ DESCRIPTION:Under 18 regionali — girone A\n9ª giornata\nDati non ufficia
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-udi-seconda-categoria-c-064bad45@zuin-fvg
+UID:calcio-udi-terza-categoria-c-eeaffe71@zuin-fvg
 DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:POLISPORTIVA FLAMBRO 3-1 SANTAMARIA (Seconda Categoria — girone C
- )
-DESCRIPTION:Seconda Categoria — girone C\n6ª giornata\nDati non ufficial
- i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
- udi-seconda-categoria-c
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:STRASSOLDO 0-1 SANTAMARIA (Terza Categoria — girone C)
+DESCRIPTION:Terza Categoria — girone C\n6ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
+ i-terza-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-15-provinciali-a-bfad0b58@zuin-fvg
@@ -59,17 +70,6 @@ DESCRIPTION:Under 15 provinciali — girone A\n6ª giornata\nDati non uffic
  io-gor-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
  -a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-udi-terza-categoria-c-eeaffe71@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:STRASSOLDO 0-1 SANTAMARIA (Terza Categoria — girone C)
-DESCRIPTION:Terza Categoria — girone C\n6ª giornata\nDati non ufficiali:
-  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
- i-terza-categoria-c
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-b0735a14@zuin-fvg
@@ -108,18 +108,6 @@ DESCRIPTION:Under 18 regionali — girone A\n10ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-gor-under-15-provinciali-a-ae19b68d@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:CHIAVRIS 3-1 SANTAMARIA (Under 15 provinciali — girone A)
-DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-gor-under-15-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
- -a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-c-0e5f1ea6@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
@@ -140,6 +128,18 @@ DESCRIPTION:Terza Categoria — girone C\n7ª giornata\nDati non ufficiali:
   fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-ud
  i-terza-categoria-c
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-terza-categoria-c
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-15-provinciali-a-ae19b68d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CHIAVRIS 3-1 SANTAMARIA (Under 15 provinciali — girone A)
+DESCRIPTION:Under 15 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-15-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-68e0752e@zuin-fvg
@@ -167,6 +167,18 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
  -b
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-udi-under-16-provinciali-a-4896d331@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:SANTAMARIA 6-1 S.GOTTARDO (Under 16 provinciali — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-udi-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-8b314355@zuin-fvg
 DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261114
@@ -178,16 +190,16 @@ DESCRIPTION:Under 18 regionali — girone A\n12ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-udi-under-16-provinciali-a-4896d331@zuin-fvg
+UID:calcio-udi-seconda-categoria-c-3c9dbf86@zuin-fvg
 DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:SANTAMARIA 6-1 S.GOTTARDO (Under 16 provinciali — girone A)
-DESCRIPTION:Under 16 provinciali — girone A\n8ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-udi-under-16-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
- -a
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:UDINE UNITED RIZZI CORMOR 0-0 SANTAMARIA (Seconda Categoria — gir
+ one C)
+DESCRIPTION:Seconda Categoria — girone C\n8ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ udi-seconda-categoria-c
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-15-provinciali-a-3bbf5bba@zuin-fvg
@@ -201,18 +213,6 @@ DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
  io-gor-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-15-provinciali
  -a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-udi-seconda-categoria-c-3c9dbf86@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:UDINE UNITED RIZZI CORMOR 0-0 SANTAMARIA (Seconda Categoria — gir
- one C)
-DESCRIPTION:Seconda Categoria — girone C\n8ª giornata\nDati non ufficial
- i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
- udi-seconda-categoria-c
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-c
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-c-4596a1f7@zuin-fvg

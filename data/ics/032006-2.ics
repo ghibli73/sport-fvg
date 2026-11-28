@@ -25,17 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-under-19-regionali-a-9dbbc2ac@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-SUMMARY:MUGGIA 1967 0-0 SAN LUIGI CALCIO (Under 19 regionali — girone A)
-DESCRIPTION:Under 19 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-19-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-eccellenza-a-73e512b3@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261031
@@ -57,6 +46,19 @@ DESCRIPTION:Under 19 regionali — girone A\n10ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-19-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-14-provinciali-a-8b4bb3f0@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SAN LUIGI CALCIO 4-0 ISONTINO CALCIO (Under 14 provinciali — giro
+ ne A)
+DESCRIPTION:Under 14 provinciali — girone A\n5ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-14-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-92812d2b@zuin-fvg
@@ -93,19 +95,6 @@ DESCRIPTION:Under 17 regionali — girone A\n9ª giornata\nDati non ufficia
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-tri-under-14-provinciali-a-8b4bb3f0@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:SAN LUIGI CALCIO 4-0 ISONTINO CALCIO (Under 14 provinciali — giro
- ne A)
-DESCRIPTION:Under 14 provinciali — girone A\n5ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-tri-under-14-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
- -a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-1208610c@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261107
@@ -127,6 +116,19 @@ DESCRIPTION:Eccellenza — girone A\n10ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
  enza-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-under-14-provinciali-a-ca0942c4@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:U.FINCANTIERI MONFALCONE 0-5 SAN LUIGI CALCIO (Under 14 provinciali
+  — girone A)
+DESCRIPTION:Under 14 provinciali — girone A\n6ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-14-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-3650a3b9@zuin-fvg
@@ -163,19 +165,6 @@ DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-17-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-tri-under-14-provinciali-a-ca0942c4@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:U.FINCANTIERI MONFALCONE 0-5 SAN LUIGI CALCIO (Under 14 provinciali
-  — girone A)
-DESCRIPTION:Under 14 provinciali — girone A\n6ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-tri-under-14-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
- -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-902a3871@zuin-fvg
@@ -223,18 +212,6 @@ DESCRIPTION:Eccellenza — girone A\n11ª giornata\nDati non ufficiali: fa
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-81946497@zuin-fvg
-DTSTAMP:20261127T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:SAN LUIGI CALCIO 1-3 MANZANESE CALCIO (Under 15 regionali — giron
- e A)
-DESCRIPTION:Under 15 regionali — girone A\n11ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-c8b3dedf@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
@@ -246,6 +223,18 @@ DESCRIPTION:Under 14 provinciali — girone A\n7ª giornata\nDati non uffic
  io-tri-under-14-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-81946497@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SAN LUIGI CALCIO 1-3 MANZANESE CALCIO (Under 15 regionali — giron
+ e A)
+DESCRIPTION:Under 15 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-4b15ece4@zuin-fvg
@@ -270,6 +259,19 @@ DESCRIPTION:Eccellenza — girone A\n12ª giornata\nDati non ufficiali: fa
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-tri-under-14-provinciali-a-11aa61b0@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:MUGGIA 1967 0-7 SAN LUIGI CALCIO (Under 14 provinciali — girone A
+ )
+DESCRIPTION:Under 14 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-tri-under-14-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-e2c0cd59@zuin-fvg
 DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261122
@@ -292,19 +294,6 @@ DESCRIPTION:Under 17 regionali — girone A\n12ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-17-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-tri-under-14-provinciali-a-11aa61b0@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:MUGGIA 1967 0-7 SAN LUIGI CALCIO (Under 14 provinciali — girone A
- )
-DESCRIPTION:Under 14 provinciali — girone A\n8ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-tri-under-14-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
- -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-aee682a6@zuin-fvg
@@ -521,19 +510,6 @@ DESCRIPTION:Under 19 regionali — girone A\n18ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-9cab6922@zuin-fvg
-DTSTAMP:20261127T000000Z
-DTSTART;TZID=Europe/Rome:20261213T103000
-DTEND;TZID=Europe/Rome:20261213T123000
-SUMMARY:SAN LUIGI CALCIO – TRIESTE VICTORY ACADEMY (Under 16 regionali 
- — girone A)
-LOCATION:Vesna Santa Croce Santa Croce\, Santa Croce 768
-DESCRIPTION:Under 16 regionali — girone A\n16ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-f7e9ec23@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261213T103000
@@ -545,6 +521,19 @@ DESCRIPTION:Under 14 provinciali — girone A\n11ª giornata\nDati non uffi
  cio-tri-under-14-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-9cab6922@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261213T103000
+DTEND;TZID=Europe/Rome:20261213T123000
+SUMMARY:SAN LUIGI CALCIO – TRIESTE VICTORY ACADEMY (Under 16 regionali 
+ — girone A)
+LOCATION:Vesna Santa Croce Santa Croce\, Santa Croce 768
+DESCRIPTION:Under 16 regionali — girone A\n16ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-e63d52dc@zuin-fvg
@@ -954,6 +943,20 @@ DESCRIPTION:Under 19 regionali — girone A\n25ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-tri-under-14-provinciali-a-5195cfb6@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270207T103000
+DTEND;TZID=Europe/Rome:20270207T123000
+SUMMARY:ISONTINO CALCIO – SAN LUIGI CALCIO (Under 14 provinciali — giro
+ ne A)
+LOCATION:Sandro Brunner - Comunale Vermegliano\, Via Granatieri
+DESCRIPTION:Under 14 provinciali — girone A\n14ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-14-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-6acf1e6b@zuin-fvg
 DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T103000
@@ -990,20 +993,6 @@ DESCRIPTION:Under 17 regionali — girone A\n22ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-17-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-tri-under-14-provinciali-a-5195cfb6@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;TZID=Europe/Rome:20270207T103000
-DTEND;TZID=Europe/Rome:20270207T123000
-SUMMARY:ISONTINO CALCIO – SAN LUIGI CALCIO (Under 14 provinciali — giro
- ne A)
-LOCATION:Sandro Brunner - Comunale Vermegliano\, Via Granatieri
-DESCRIPTION:Under 14 provinciali — girone A\n14ª giornata\nDati non uffi
- ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
- cio-tri-under-14-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
- -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-eccellenza-a-70f58941@zuin-fvg
@@ -1274,6 +1263,20 @@ DESCRIPTION:Under 19 regionali — girone A\n30ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-tri-under-14-provinciali-a-b7fd955a@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20270307T103000
+DTEND;TZID=Europe/Rome:20270307T123000
+SUMMARY:TRIESTE VICTORY ACADEMY – SAN LUIGI CALCIO (Under 14 provinciali 
+ — girone A)
+LOCATION:Bussani Comunale Trieste\, Via Petracco 8
+DESCRIPTION:Under 14 provinciali — girone A\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
+ cio-tri-under-14-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-4379659c@zuin-fvg
 DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270307T103000
@@ -1296,20 +1299,6 @@ DESCRIPTION:Under 17 regionali — girone A\n26ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-17-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-tri-under-14-provinciali-a-b7fd955a@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;TZID=Europe/Rome:20270307T103000
-DTEND;TZID=Europe/Rome:20270307T123000
-SUMMARY:TRIESTE VICTORY ACADEMY – SAN LUIGI CALCIO (Under 14 provinciali 
- — girone A)
-LOCATION:Bussani Comunale Trieste\, Via Petracco 8
-DESCRIPTION:Under 14 provinciali — girone A\n18ª giornata\nDati non uffi
- ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
- cio-tri-under-14-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
- -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-0abdafca@zuin-fvg
