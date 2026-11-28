@@ -25,20 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-b571b302@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-SUMMARY:FIUME VENETO -BANNIA 6-3 BUJESE CALCIO (Under 18 regionali — giro
- ne A)
-DESCRIPTION:Under 18 regionali — girone A\n8ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-019585ed@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:BUJESE CALCIO 0-3 SANTAMARIA (Under 18 regionali — girone A)
@@ -49,7 +37,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-08896578@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:BUJESE CALCIO 1-1 FIUME VENETO -BANNIA (Promozione — girone A)
@@ -60,7 +48,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-c18055cb@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:PALMARKET PAGNACCO 3-2 BUJESE CALCIO (Under 18 regionali — girone
@@ -72,7 +60,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-1c48cdca@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:CENTRO SEDIA CALCIO NAT 0-1 BUJESE CALCIO (Promozione — girone A)
@@ -96,7 +84,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-7579e3b4@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:BUJESE CALCIO 2-4 S.GOTTARDO (Under 18 regionali — girone A)
@@ -107,7 +95,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-7d8933df@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:MUGGIA 1967 7-0 BUJESE CALCIO (Under 18 regionali — girone A)
@@ -118,7 +106,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-992e27d7@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:BUJESE CALCIO 3-2 FIUMICELLO 2004 (Promozione — girone A)
@@ -154,7 +142,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-3c73954d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:BUJESE CALCIO 1-4 RIVE D ARCANO FLAIBANO (Under 18 regionali — gi
@@ -165,8 +153,19 @@ DESCRIPTION:Under 18 regionali — girone A\n13ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-promozione-a-7573e245@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:MARANESE 3-2 BUJESE CALCIO (Promozione — girone A)
+DESCRIPTION:Promozione — girone A\n12ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
+ ione-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-a39f0b5d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261128T173000
 DTEND;TZID=Europe/Rome:20261128T193000
 SUMMARY:UNION MARTIGNACCO – BUJESE CALCIO (Under 18 regionali — girone 
@@ -179,7 +178,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-0878f396@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261129T143000
 DTEND;TZID=Europe/Rome:20261129T163000
 SUMMARY:BUJESE CALCIO – SISTIANA SESLJAN (Promozione — girone A)
@@ -191,7 +190,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-06895f83@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261205T153000
 DTEND;TZID=Europe/Rome:20261205T173000
 SUMMARY:ANCONA LUMIGNACCO – BUJESE CALCIO (Promozione — girone A)
@@ -203,7 +202,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-bb5947a4@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261205T173000
 DTEND;TZID=Europe/Rome:20261205T193000
 SUMMARY:BUJESE CALCIO – SANT ANDREA SAN VITO (Under 18 regionali — giro
@@ -216,7 +215,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-2e0d1485@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261208T143000
 DTEND;TZID=Europe/Rome:20261208T163000
 SUMMARY:BUJESE CALCIO – CORVA (Promozione — girone A)
@@ -228,7 +227,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-b9bde500@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261212T173000
 DTEND;TZID=Europe/Rome:20261212T193000
 SUMMARY:CHIAVRIS – BUJESE CALCIO (Under 18 regionali — girone A)
@@ -240,7 +239,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-11e877e0@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T143000
 DTEND;TZID=Europe/Rome:20261213T163000
 SUMMARY:BUJESE CALCIO – SANT ANDREA SAN VITO (Promozione — girone A)
@@ -252,7 +251,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-ebc0a644@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261219T173000
 DTEND;TZID=Europe/Rome:20261219T193000
 SUMMARY:BUJESE CALCIO – SANGIORGINA (Under 18 regionali — girone A)
@@ -264,7 +263,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-7b9b2a0d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T143000
 DTEND;TZID=Europe/Rome:20261220T163000
 SUMMARY:PRO CERVIGNANO RUDA – BUJESE CALCIO (Promozione — girone A)
@@ -276,7 +275,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-83862b94@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261222T190000
 DTEND;TZID=Europe/Rome:20261222T210000
 SUMMARY:CUSSIGNACCO CALCIO – BUJESE CALCIO (Under 18 regionali — girone
@@ -289,7 +288,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-2ade33f0@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270109T173000
 DTEND;TZID=Europe/Rome:20270109T193000
 SUMMARY:BRIAN LIGNANO CALCIO – BUJESE CALCIO (Under 18 regionali — giro
@@ -302,7 +301,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-65e4e2f6@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T143000
 DTEND;TZID=Europe/Rome:20270110T163000
 SUMMARY:CORNO CALCIO 1929 – BUJESE CALCIO (Promozione — girone A)
@@ -314,7 +313,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-82b0ad47@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270116T173000
 DTEND;TZID=Europe/Rome:20270116T193000
 SUMMARY:BUJESE CALCIO – COMUNALE FONTANAFREDDA (Under 18 regionali — gi
@@ -327,7 +326,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-48c216d7@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T143000
 DTEND;TZID=Europe/Rome:20270117T163000
 SUMMARY:BUJESE CALCIO – UNION MARTIGNACCO (Promozione — girone A)
@@ -339,7 +338,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-c16e4c69@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270123T173000
 DTEND;TZID=Europe/Rome:20270123T193000
 SUMMARY:TORRE – BUJESE CALCIO (Under 18 regionali — girone A)
@@ -351,7 +350,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-2ab8365f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T143000
 DTEND;TZID=Europe/Rome:20270124T163000
 SUMMARY:DEPORTIVO JUNIOR – BUJESE CALCIO (Promozione — girone A)
@@ -363,7 +362,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-9a74da54@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270130T173000
 DTEND;TZID=Europe/Rome:20270130T193000
 SUMMARY:BUJESE CALCIO – CHIONS (Under 18 regionali — girone A)
@@ -375,7 +374,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-4a05b26f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T143000
 DTEND;TZID=Europe/Rome:20270131T163000
 SUMMARY:BUJESE CALCIO – UNION PASIANO (Promozione — girone A)
@@ -387,7 +386,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-150e132d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270206T173000
 DTEND;TZID=Europe/Rome:20270206T193000
 SUMMARY:POLISPORTIVA TAMAI ASD – BUJESE CALCIO (Under 18 regionali — gi
@@ -400,7 +399,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-363ca182@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T143000
 DTEND;TZID=Europe/Rome:20270207T163000
 SUMMARY:RIVE D ARCANO FLAIBANO – BUJESE CALCIO (Promozione — girone A)
@@ -412,7 +411,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-d900f687@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270213T173000
 DTEND;TZID=Europe/Rome:20270213T193000
 SUMMARY:BUJESE CALCIO – U.FINCANTIERI MONFALCONE (Under 18 regionali — 
@@ -425,7 +424,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-48a2b13f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270214T143000
 DTEND;TZID=Europe/Rome:20270214T163000
 SUMMARY:BUJESE CALCIO – TRICESIMO CALCIO (Promozione — girone A)
@@ -437,7 +436,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-258f6b27@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270220T173000
 DTEND;TZID=Europe/Rome:20270220T193000
 SUMMARY:NUOVO PORDENONE 2024 FC – BUJESE CALCIO (Under 18 regionali — g
@@ -450,7 +449,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-5f6c9011@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T143000
 DTEND;TZID=Europe/Rome:20270221T163000
 SUMMARY:CUSSIGNACCO CALCIO – BUJESE CALCIO (Promozione — girone A)
@@ -462,7 +461,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-ee53e35b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270223T190000
 DTEND;TZID=Europe/Rome:20270223T210000
 SUMMARY:BUJESE CALCIO – FIUME VENETO -BANNIA (Under 18 regionali — giro
@@ -475,7 +474,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-e9ad44d2@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270227T173000
 DTEND;TZID=Europe/Rome:20270227T193000
 SUMMARY:SANTAMARIA – BUJESE CALCIO (Under 18 regionali — girone A)
@@ -487,7 +486,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-741f42c3@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T150000
 DTEND;TZID=Europe/Rome:20270228T170000
 SUMMARY:BUJESE CALCIO – TRIESTE VICTORY ACADEMY (Promozione — girone A)
@@ -499,7 +498,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-f49b5475@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270306T173000
 DTEND;TZID=Europe/Rome:20270306T193000
 SUMMARY:BUJESE CALCIO – PALMARKET PAGNACCO (Under 18 regionali — girone
@@ -512,7 +511,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-0d3cf1ef@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270307T150000
 DTEND;TZID=Europe/Rome:20270307T170000
 SUMMARY:FIUME VENETO -BANNIA – BUJESE CALCIO (Promozione — girone A)
@@ -524,7 +523,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-c205e747@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270309T190000
 DTEND;TZID=Europe/Rome:20270309T210000
 SUMMARY:S.GOTTARDO – BUJESE CALCIO (Under 18 regionali — girone A)
@@ -536,7 +535,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-28a07e4e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270313T173000
 DTEND;TZID=Europe/Rome:20270313T193000
 SUMMARY:BUJESE CALCIO – MUGGIA 1967 (Under 18 regionali — girone A)
@@ -548,7 +547,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-80ba4818@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T150000
 DTEND;TZID=Europe/Rome:20270314T170000
 SUMMARY:BUJESE CALCIO – CENTRO SEDIA CALCIO NAT (Promozione — girone A)
@@ -560,7 +559,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-7b5f601e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270320T173000
 DTEND;TZID=Europe/Rome:20270320T193000
 SUMMARY:RIVE D ARCANO FLAIBANO – BUJESE CALCIO (Under 18 regionali — gi
@@ -573,7 +572,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-3b8fd1bb@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270331T200000
 DTEND;TZID=Europe/Rome:20270331T220000
 SUMMARY:FIUMICELLO 2004 – BUJESE CALCIO (Promozione — girone A)
@@ -585,7 +584,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-2f05a248@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270403T173000
 DTEND;TZID=Europe/Rome:20270403T193000
 SUMMARY:BUJESE CALCIO – UNION MARTIGNACCO (Under 18 regionali — girone 
@@ -598,7 +597,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-b95de7e9@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T160000
 DTEND;TZID=Europe/Rome:20270404T180000
 SUMMARY:BUJESE CALCIO – MARANESE (Promozione — girone A)
@@ -610,7 +609,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-cbba7867@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270410T180000
 DTEND;TZID=Europe/Rome:20270410T200000
 SUMMARY:SANT ANDREA SAN VITO – BUJESE CALCIO (Under 18 regionali — giro
@@ -623,7 +622,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-7020a24f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270411T160000
 DTEND;TZID=Europe/Rome:20270411T180000
 SUMMARY:SISTIANA SESLJAN – BUJESE CALCIO (Promozione — girone A)
@@ -635,7 +634,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-9e03c8a4@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270418T160000
 DTEND;TZID=Europe/Rome:20270418T180000
 SUMMARY:BUJESE CALCIO – ANCONA LUMIGNACCO (Promozione — girone A)
@@ -647,7 +646,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-9e4d31df@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270424T173000
 DTEND;TZID=Europe/Rome:20270424T193000
 SUMMARY:BUJESE CALCIO – CHIAVRIS (Under 18 regionali — girone A)
@@ -659,7 +658,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-aa33704c@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270425T160000
 DTEND;TZID=Europe/Rome:20270425T180000
 SUMMARY:CORVA – BUJESE CALCIO (Promozione — girone A)
@@ -671,7 +670,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-a274d835@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270501T173000
 DTEND;TZID=Europe/Rome:20270501T193000
 SUMMARY:SANGIORGINA – BUJESE CALCIO (Under 18 regionali — girone A)
@@ -683,7 +682,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-424c2fdb@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270502T160000
 DTEND;TZID=Europe/Rome:20270502T180000
 SUMMARY:SANT ANDREA SAN VITO – BUJESE CALCIO (Promozione — girone A)
@@ -695,7 +694,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-8f94bc63@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270508T173000
 DTEND;TZID=Europe/Rome:20270508T193000
 SUMMARY:BUJESE CALCIO – CUSSIGNACCO CALCIO (Under 18 regionali — girone
@@ -708,7 +707,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-9498f0b8@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T160000
 DTEND;TZID=Europe/Rome:20270509T180000
 SUMMARY:BUJESE CALCIO – PRO CERVIGNANO RUDA (Promozione — girone A)

@@ -25,44 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-u19-gold-b-576dd8ca@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261027T190000
-DTEND;TZID=Europe/Rome:20261027T210000
-SUMMARY:Basket Pasiano 81-64 O.F.P. Azzurra R.D.R. Basket Trieste (Under 19
-  Maschile Gold — girone B)
-LOCATION:Palazzetto "Roberto Marson"\, Pasiano di Pordenone
-DESCRIPTION:Under 19 Maschile Gold — girone B\n4ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-u19-gold-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u15-regionale-go-ts-9ef5c75b@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-SUMMARY:NAUTILUS ALLESTIMENTI 48-51 O.F.P. AZZURRA R.D.R. Basket (Under 15 
- Maschile Regionale — girone GO/TS)
-DESCRIPTION:Under 15 Maschile Regionale — girone GO/TS\n1ª giornata\nDat
- i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
- fvg/#g-basket-u15-regionale-go-ts
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-regionale-go-ts
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u17-eccellenza-80c6bf2e@zuin-fvg
-DTSTAMP:20261112T000000Z
-DTSTART;TZID=Europe/Rome:20261028T200000
-DTEND;TZID=Europe/Rome:20261028T220000
-SUMMARY:Amici Pallacanestro Udinese 81-62 O.F.P. Azzurra R.D.R. Basket Trie
- ste (Under 17 Maschile Eccellenza — girone unico)
-LOCATION:Palasport Primo Carnera\, Udine
-DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n4ª giornata\nDa
- ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
- -fvg/#g-basket-u17-eccellenza
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u14-regionale-go-ts-ud-1ec5c08b@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261030T190000
@@ -102,7 +64,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-9392feff@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261031T180000
 DTEND;TZID=Europe/Rome:20261031T200000
 SUMMARY:U.S.D. Jadran 64-71 O.F.P. Azzurra R.D.R. Basket Trieste (Under 17 
@@ -219,7 +181,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-e03447a6@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261108T120000
 DTEND;TZID=Europe/Rome:20261108T140000
 SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste 86-59 APU Next Gen (Under 17 M
@@ -268,6 +230,19 @@ DESCRIPTION:Divisione Regionale 1 — girone Est\n7ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr1-est
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-925d031d@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261113T210000
+DTEND;TZID=Europe/Rome:20261113T230000
+SUMMARY:MEP Cividale 85-52 O.F.P. Azzurra R.D.R. Basket Trieste (Under 17 M
+ aschile Eccellenza — girone unico)
+LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n7ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-gold-a-9540beac@zuin-fvg
@@ -360,13 +335,26 @@ DESCRIPTION:Divisione Regionale 1 — girone Est\n8ª giornata\nDati non uf
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-est
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u17-eccellenza-9c793f55@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261122T100000
+DTEND;TZID=Europe/Rome:20261122T120000
+SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste 66-104 Pallacanestro Trieste 2
+ 004 (Under 17 Maschile Eccellenza — girone unico)
+LOCATION:Palestra 'B' Marcon\, Monfalcone
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n8ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u19-gold-b-0911493f@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261123T211500
 DTEND;TZID=Europe/Rome:20261123T231500
 SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste 88-70 Libertas Trieste (Under 
  19 Maschile Gold — girone B)
-LOCATION:Palestra Comunale di San Giovanni\, Trieste
+LOCATION:Palestra Comunale Di San Giova\, Trieste
 DESCRIPTION:Under 19 Maschile Gold — girone B\n8ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-u19-gold-b
@@ -377,8 +365,8 @@ UID:basket-dr1-est-cd0b07e6@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261127T200000
 DTEND;TZID=Europe/Rome:20261127T220000
-SUMMARY:U.S.D. Dom – Insureteach SRL Azzurra (Divisione Regionale 1 — g
- irone Est)
+SUMMARY:U.S.D. Dom 78-66 Insureteach SRL Azzurra (Divisione Regionale 1 —
+  girone Est)
 LOCATION:Kulturni Dom\, Gorizia
 DESCRIPTION:Divisione Regionale 1 — girone Est\n9ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
@@ -452,7 +440,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-go-ts
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-41331cbf@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261129T160000
 DTEND;TZID=Europe/Rome:20261129T180000
 SUMMARY:BCC Pordenonese Monsile – O.F.P. Azzurra R.D.R. Basket Trieste (U
@@ -517,7 +505,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-7ced7767@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261206T110000
 DTEND;TZID=Europe/Rome:20261206T130000
 SUMMARY:Economy Rent Cordenons – O.F.P. Azzurra R.D.R. Basket Trieste (Un
@@ -621,7 +609,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-5e1f2c86@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T120000
 DTEND;TZID=Europe/Rome:20261213T140000
 SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste – Amici Pallacanestro Udines
@@ -712,7 +700,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-db1f34c1@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T120000
 DTEND;TZID=Europe/Rome:20261220T140000
 SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste – U.S.D. Jadran (Under 17 Ma
@@ -803,7 +791,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-5f812928@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T150000
 DTEND;TZID=Europe/Rome:20270110T170000
 SUMMARY:APU Next Gen – O.F.P. Azzurra R.D.R. Basket Trieste (Under 17 Mas
@@ -881,7 +869,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-eccellenza
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-c1820cac@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T120000
 DTEND;TZID=Europe/Rome:20270117T140000
 SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste – MEP Cividale (Under 17 Mas

@@ -25,32 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-u15-gold-66c424c2@zuin-fvg
-DTSTAMP:20261113T000000Z
-DTSTART;TZID=Europe/Rome:20261027T173000
-DTEND;TZID=Europe/Rome:20261027T193000
-SUMMARY:ZKB Jadran 56-70 Pol. Libertas Acli (Under 15 Maschile Gold — gir
- one unico)
-LOCATION:Palestra M. Ervatti\, Sgonico
-DESCRIPTION:Under 15 Maschile Gold — girone unico\n2ª giornata\nDati non
-  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
- g-basket-u15-gold
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u15-gold
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u19-gold-b-a9c47ee0@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261028T201500
-DTEND;TZID=Europe/Rome:20261028T221500
-SUMMARY:Fly Solartech Icarus 79-46 Ronchi Basket Club (Under 19 Maschile Go
- ld — girone B)
-LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
-DESCRIPTION:Under 19 Maschile Gold — girone B\n3ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-u19-gold-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u13-femminile-pn-ud-84817382@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261030T190000
@@ -291,7 +265,7 @@ DTSTART;TZID=Europe/Rome:20261124T201500
 DTEND;TZID=Europe/Rome:20261124T221500
 SUMMARY:Fly Solartech Icarus 85-42 Pol. Casarsa (Under 19 Maschile Gold —
   girone B)
-LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
 DESCRIPTION:Under 19 Maschile Gold — girone B\n8ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-u19-gold-b
@@ -313,8 +287,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-femminile-pn-ud-31a4e45f@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261128T150000
-DTEND;TZID=Europe/Rome:20261128T170000
+DTSTART;TZID=Europe/Rome:20261128T160000
+DTEND;TZID=Europe/Rome:20261128T180000
 SUMMARY:POL. LIBERTAS ACLI – SISTEMA ROSA PALL. (Under 13 Femminile — g
  irone PN/UD (prima fase))
 LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
@@ -330,7 +304,7 @@ DTSTART;TZID=Europe/Rome:20261128T180000
 DTEND;TZID=Europe/Rome:20261128T200000
 SUMMARY:LIBERTAS GONARS – POL. LIBERTAS ACLI (Under 17 Maschile Gold — 
  girone UD (prima fase))
-LOCATION:Palazzetto Dello Sport\, Gonars
+LOCATION:Palestra Comunale\, Santa Maria La Longa
 DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n7ª giornata
  \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
  port-fvg/#g-basket-u17-gold-ud
@@ -369,7 +343,7 @@ DTSTART;TZID=Europe/Rome:20261130T193000
 DTEND;TZID=Europe/Rome:20261130T213000
 SUMMARY:Fly Solartech Icarus – Amici Pallacanestro Udinese (Under 19 Masc
  hile Gold — girone B)
-LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
 DESCRIPTION:Under 19 Maschile Gold — girone B\n1ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-u19-gold-b
@@ -421,7 +395,7 @@ DTSTART;TZID=Europe/Rome:20261204T173000
 DTEND;TZID=Europe/Rome:20261204T193000
 SUMMARY:POL. CASARSA – POL. LIBERTAS ACLI (Under 13 Femminile — girone 
  PN/UD (prima fase))
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n8ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u13-femminile-pn-ud
@@ -928,7 +902,7 @@ DTSTART;TZID=Europe/Rome:20270131T120000
 DTEND;TZID=Europe/Rome:20270131T140000
 SUMMARY:SISTEMA ROSA PALL. – POL. LIBERTAS ACLI (Under 13 Femminile — g
  irone PN/UD (prima fase))
-LOCATION:Palasport "Crisafulli"\, Pordenone
+LOCATION:Palasport 'Crisafulli'\, Pordenone
 DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n13ª giornata
  \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
  port-fvg/#g-basket-u13-femminile-pn-ud

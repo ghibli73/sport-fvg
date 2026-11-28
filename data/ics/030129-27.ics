@@ -25,19 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-dr2-ud-efcf3bc0@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20261028T210000
-DTEND;TZID=Europe/Rome:20261028T230000
-SUMMARY:Olympia Rivignano 66-37 Pol. Libertas Cussignacco (Divisione Region
- ale 2 — girone UD)
-LOCATION:Palestra Comunale\, Rivignano Teor
-DESCRIPTION:Divisione Regionale 2 — girone UD\n3ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-dr2-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u14-femminile-b-22178071@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261029T193000
@@ -272,17 +259,17 @@ DESCRIPTION:Divisione Regionale 2 — girone UD\n7ª giornata\nDati non uff
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u14-femminile-b-d9348cd6@zuin-fvg
+UID:basket-u13-femminile-pn-ud-c6e6779a@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261130T193000
-DTEND;TZID=Europe/Rome:20261130T213000
-SUMMARY:POL. LIBERTAS CUSSIGNACCO – U.S.D. DON BOSCO (Under 14 Femminile 
- — girone B (prima fase))
-LOCATION:Palestra Sc. Zardini\, Udine
-DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n7ª giornata\nDat
- i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
- fvg/#g-basket-u14-femminile-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
+DTSTART;TZID=Europe/Rome:20261201T170000
+DTEND;TZID=Europe/Rome:20261201T190000
+SUMMARY:POZZUOLO BASKET – POL. LIBERTAS CUSSIGNACCO (Under 13 Femminile 
+ — girone PN/UD (prima fase))
+LOCATION:Polisportivo Comunale\, Pozzuolo Del Friuli
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-regionale-go-ts-ud-9c95501d@zuin-fvg
@@ -356,7 +343,7 @@ DTSTART;TZID=Europe/Rome:20261211T210000
 DTEND;TZID=Europe/Rome:20261211T230000
 SUMMARY:Pall. Laipacco – Pol. Libertas Cussignacco (Divisione Regionale 2
   — girone UD)
-LOCATION:Pal. Sc. 'Ezio Cernich"\, Udine
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
 DESCRIPTION:Divisione Regionale 2 — girone UD\n9ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-dr2-ud
@@ -384,6 +371,19 @@ SUMMARY:AKK BOR BASKET – POL. LIBERTAS CUSSIGNACCO (Under 14 Femminile
  — girone B (prima fase))
 LOCATION:Stadio 1° Maggio\, Trieste
 DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n8ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-femminile-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-femminile-b-d9348cd6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261216T193000
+DTEND;TZID=Europe/Rome:20261216T213000
+SUMMARY:POL. LIBERTAS CUSSIGNACCO – U.S.D. DON BOSCO (Under 14 Femminile 
+ — girone B (prima fase))
+LOCATION:Palestra Sc. Zardini\, Udine
+DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n7ª giornata\nDat
  i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
  fvg/#g-basket-u14-femminile-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
@@ -746,7 +746,7 @@ DTSTART;TZID=Europe/Rome:20270207T153000
 DTEND;TZID=Europe/Rome:20270207T173000
 SUMMARY:POL. CASARSA – POL. LIBERTAS CUSSIGNACCO (Under 13 Femminile — 
  girone PN/UD (prima fase))
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n14ª giornata
  \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
  port-fvg/#g-basket-u13-femminile-pn-ud
@@ -987,6 +987,19 @@ DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n19ª giornata\
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-dr2-ud-3f356f3e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;TZID=Europe/Rome:20270324T204500
+DTEND;TZID=Europe/Rome:20270324T224500
+SUMMARY:Danieli Sporting Club – Pol. Libertas Cussignacco (Divisione Regi
+ onale 2 — girone UD)
+LOCATION:Palestra 'Buttrio'\, Buttrio
+DESCRIPTION:Divisione Regionale 2 — girone UD\n22ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-dr2-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-dr3-ud-36f70ed6@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20270325T204500
@@ -998,19 +1011,6 @@ DESCRIPTION:Divisione Regionale 3 — girone UD\n23ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr3-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-dr2-ud-3f356f3e@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20270402T204500
-DTEND;TZID=Europe/Rome:20270402T224500
-SUMMARY:Danieli Sporting Club – Pol. Libertas Cussignacco (Divisione Regi
- onale 2 — girone UD)
-LOCATION:Palestra 'Buttrio'\, Buttrio
-DESCRIPTION:Divisione Regionale 2 — girone UD\n22ª giornata\nDati non uf
- ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
- asket-dr2-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr3-ud-dd248766@zuin-fvg

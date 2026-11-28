@@ -25,17 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-under-19-regionali-a-dd032223@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-SUMMARY:PRO GORIZIA 0-2 REANESE (Under 19 regionali — girone A)
-DESCRIPTION:Under 19 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-19-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-fbcd5cfe@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261031
@@ -46,17 +35,6 @@ DESCRIPTION:Under 19 regionali — girone A\n10ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-19-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-46cb615b@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:RORAI PORCIA 2-1 REANESE (Under 16 regionali — girone A)
-DESCRIPTION:Under 16 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-7611ed57@zuin-fvg
@@ -82,6 +60,17 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-46cb615b@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:RORAI PORCIA 2-1 REANESE (Under 16 regionali — girone A)
+DESCRIPTION:Under 16 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-064a50e9@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261107
@@ -91,18 +80,6 @@ DESCRIPTION:Under 19 regionali — girone A\n11ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-19-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-af531e5e@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:TRIESTE VICTORY ACADEMY 4-0 REANESE (Under 16 regionali — girone 
- A)
-DESCRIPTION:Under 16 regionali — girone A\n10ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-4a31e17e@zuin-fvg
@@ -129,23 +106,24 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-af531e5e@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:TRIESTE VICTORY ACADEMY 4-0 REANESE (Under 16 regionali — girone 
+ A)
+DESCRIPTION:Under 16 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-64cc4d77@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:REANESE 2-0 SANVITESE (Under 19 regionali — girone A)
 DESCRIPTION:Under 19 regionali — girone A\n12ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-19-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-19-regionali-a-9e0bb1b1@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:S.P.A.L.CORDOVADO 1-0 REANESE (Under 19 regionali — girone A)
-DESCRIPTION:Under 19 regionali — girone A\n13ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-19-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
@@ -163,15 +141,15 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-7d731934@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:REANESE 1-2 SACILESE (Under 16 regionali — girone A)
-DESCRIPTION:Under 16 regionali — girone A\n11ª giornata\nDati non uffici
+UID:calcio-under-19-regionali-a-9e0bb1b1@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:S.P.A.L.CORDOVADO 1-0 REANESE (Under 19 regionali — girone A)
+DESCRIPTION:Under 19 regionali — girone A\n13ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+ o-under-19-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-6907d852@zuin-fvg
@@ -183,6 +161,17 @@ DESCRIPTION:Seconda Categoria — girone B\n8ª giornata\nDati non ufficial
  i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
  udi-seconda-categoria-b
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-seconda-categoria-b
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-7d731934@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:REANESE 1-2 SACILESE (Under 16 regionali — girone A)
+DESCRIPTION:Under 16 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-61740a12@zuin-fvg
@@ -220,6 +209,18 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-fbe74195@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:REANESE 1-2 UDINE UNITED RIZZI CORMOR (Under 16 regionali — giron
+ e A)
+DESCRIPTION:Under 16 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-2a08f05e@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261128T173000
@@ -233,7 +234,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-a8a62c0b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261129T103000
 DTEND;TZID=Europe/Rome:20261129T123000
 SUMMARY:DONATELLO CALCIO A.S.D. – REANESE (Under 16 regionali — girone 
@@ -246,7 +247,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-ec7f35e9@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261202T190000
 DTEND;TZID=Europe/Rome:20261202T210000
 SUMMARY:S.P.A.L.CORDOVADO – REANESE (Under 16 regionali — girone A)
@@ -270,7 +271,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-4d743f8e@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261206T103000
 DTEND;TZID=Europe/Rome:20261206T123000
 SUMMARY:REANESE – SAN LUIGI CALCIO (Under 16 regionali — girone A)
@@ -308,7 +309,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-1d19b692@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T103000
 DTEND;TZID=Europe/Rome:20261213T123000
 SUMMARY:SANVITESE – REANESE (Under 16 regionali — girone A)
@@ -333,7 +334,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-4dc7ec45@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T103000
 DTEND;TZID=Europe/Rome:20261220T123000
 SUMMARY:REANESE – CHIONS (Under 16 regionali — girone A)
@@ -369,7 +370,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-fb5237e5@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T103000
 DTEND;TZID=Europe/Rome:20270110T123000
 SUMMARY:REANESE – SANT ANDREA SAN VITO (Under 16 regionali — girone A)
@@ -393,7 +394,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-49dbd13f@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T103000
 DTEND;TZID=Europe/Rome:20270117T123000
 SUMMARY:ISONTINO CALCIO – REANESE (Under 16 regionali — girone A)
@@ -417,7 +418,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-1ef4b9c6@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T103000
 DTEND;TZID=Europe/Rome:20270124T123000
 SUMMARY:REANESE – OPICINA (Under 16 regionali — girone A)
@@ -441,7 +442,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-4a455b40@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T103000
 DTEND;TZID=Europe/Rome:20270131T123000
 SUMMARY:MAGNANO IN RIVIERA – REANESE (Under 16 regionali — girone A)
@@ -464,7 +465,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-8c368127@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T103000
 DTEND;TZID=Europe/Rome:20270207T123000
 SUMMARY:REANESE – PRO FAGAGNA (Under 16 regionali — girone A)
@@ -489,7 +490,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-4cc6a2f9@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270214T114500
 DTEND;TZID=Europe/Rome:20270214T134500
 SUMMARY:COMUNALE FONTANAFREDDA – REANESE (Under 16 regionali — girone A
@@ -515,7 +516,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-18a45a8a@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T103000
 DTEND;TZID=Europe/Rome:20270221T123000
 SUMMARY:REANESE – FIUMICELLO 2004 (Under 16 regionali — girone A)
@@ -552,7 +553,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-2038b254@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T103000
 DTEND;TZID=Europe/Rome:20270228T123000
 SUMMARY:CJARLINS MUZANE – REANESE (Under 16 regionali — girone A)
@@ -576,7 +577,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-8f823ed6@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270307T103000
 DTEND;TZID=Europe/Rome:20270307T123000
 SUMMARY:REANESE – RORAI PORCIA (Under 16 regionali — girone A)
@@ -612,7 +613,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-f4633dc0@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T103000
 DTEND;TZID=Europe/Rome:20270314T123000
 SUMMARY:REANESE – TRIESTE VICTORY ACADEMY (Under 16 regionali — girone 
@@ -638,7 +639,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-2e5b46da@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270321T100000
 DTEND;TZID=Europe/Rome:20270321T120000
 SUMMARY:SACILESE – REANESE (Under 16 regionali — girone A)
@@ -662,7 +663,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-f9b1abbf@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T103000
 DTEND;TZID=Europe/Rome:20270404T123000
 SUMMARY:REANESE – S.P.A.L.CORDOVADO (Under 16 regionali — girone A)
@@ -686,7 +687,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-edfc2090@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270411T103000
 DTEND;TZID=Europe/Rome:20270411T123000
 SUMMARY:UDINE UNITED RIZZI CORMOR – REANESE (Under 16 regionali — giron
@@ -712,7 +713,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-955913d8@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270418T103000
 DTEND;TZID=Europe/Rome:20270418T123000
 SUMMARY:REANESE – DONATELLO CALCIO A.S.D. (Under 16 regionali — girone 
@@ -738,7 +739,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-b831026f@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270425T103000
 DTEND;TZID=Europe/Rome:20270425T123000
 SUMMARY:SAN LUIGI CALCIO – REANESE (Under 16 regionali — girone A)
@@ -763,7 +764,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-22dc5f01@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270502T103000
 DTEND;TZID=Europe/Rome:20270502T123000
 SUMMARY:REANESE – SANVITESE (Under 16 regionali — girone A)
@@ -775,7 +776,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-e556f6e0@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T103000
 DTEND;TZID=Europe/Rome:20270509T123000
 SUMMARY:CHIONS – REANESE (Under 16 regionali — girone A)

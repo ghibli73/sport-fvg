@@ -25,19 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-u17-gold-ud-dbd33dea@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261027T191500
-DTEND;TZID=Europe/Rome:20261027T211500
-SUMMARY:BASKET TERZO 61-71 UDINE BASKET CLUB (Under 17 Maschile Gold — gi
- rone UD (prima fase))
-LOCATION:Palestra Scuole Elementari\, Cervignano del Friuli
-DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n3ª giornata
- \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
- port-fvg/#g-basket-u17-gold-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-dr2-go-ts-54ec3f7e@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261030T210000
@@ -107,13 +94,26 @@ UID:basket-dr2-go-ts-45476ae6@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261127T210000
 DTEND;TZID=Europe/Rome:20261127T230000
-SUMMARY:Basket Terzo – C.U.S. Trieste (Divisione Regionale 2 — girone G
- O/TS)
+SUMMARY:Basket Terzo 72-68 C.U.S. Trieste (Divisione Regionale 2 — girone
+  GO/TS)
 LOCATION:Pal. Comunale\, Terzo D'Aquileia
 DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n7ª giornata\nDati non 
  ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g
  -basket-dr2-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-1bb54a58@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261128T163000
+DTEND;TZID=Europe/Rome:20261128T183000
+SUMMARY:BASKET TERZO – MAJANESE (Under 17 Maschile Gold — girone UD (pr
+ ima fase))
+LOCATION:Pal. Comunale\, Terzo D'Aquileia
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n7ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-gold-ud-39edc41f@zuin-fvg
@@ -160,7 +160,7 @@ DTSTART;TZID=Europe/Rome:20261212T193000
 DTEND;TZID=Europe/Rome:20261212T213000
 SUMMARY:Uattzy SBaMM – BASKET TERZO (Under 17 Maschile Gold — girone UD
   (prima fase))
-LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
 DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n9ª giornata
  \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
  port-fvg/#g-basket-u17-gold-ud
@@ -308,19 +308,6 @@ DESCRIPTION:Divisione Regionale 2 — girone GO/TS\n16ª giornata\nDati non
   ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
  g-basket-dr2-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-go-ts
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u17-gold-ud-1bb54a58@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270214T110000
-DTEND;TZID=Europe/Rome:20270214T130000
-SUMMARY:BASKET TERZO – MAJANESE (Under 17 Maschile Gold — girone UD (pr
- ima fase))
-LOCATION:Centro Studi\, Majano
-DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n7ª giornata
- \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
- port-fvg/#g-basket-u17-gold-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-gold-ud-f4dc876d@zuin-fvg
