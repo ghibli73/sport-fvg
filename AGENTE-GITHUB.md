@@ -91,7 +91,7 @@ Non raccoglie dati sportivi: pubblica quelli prodotti dagli script e dagli agent
 
 - **Dati della gara** — dalla 1.19.0 (formato: `pipeline/agenti/formato-risultati.md`).
   - Pallavolo `stato_gara` (omologata/ufficioso) e `designata` dalle pagine FIPAV già lette (volley.py, settimane -2…+1); basket `data_cal` ("giocata il" delle omologazioni) e `designata` (pagine fip.it già lette in variazioni_fip); calcio `data_cal`/`campo_cal`/`esito`/`rinviata` e `penalita` dal Quadro gare (`calcio_live.py --dettagli` in aggiorna-calcio.yml + giro rapido, `config/calcio_dettagli.json`).
-  - Designazioni: solo un booleano per le gare dei prossimi 7 giorni, mai nomi (niente calcio, niente Pordenone). In app etichette piccole nella riga partita e legenda in Info; SHELL `sportfvg-shell-v29`.
+  - Designazioni: solo un booleano per le gare dei prossimi 7 giorni, mai nomi (niente calcio, niente Pordenone). In app etichette piccole nella riga partita e legenda in Info; SHELL `sportfvg-shell-v30`.
   - Sonda fonti: modo `maschera=<url>|<regex>[@@n]` (HTML con le parole maiuscole sostituite da "X": struttura delle pagine senza stampare nomi nel log).
 
 ## Registro
