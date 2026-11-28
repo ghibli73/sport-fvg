@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:calcio-prima-categoria-a-a1a6f3d5@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:RIVOLTO 0-1 CALCIO AVIANO (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-por-terza-categoria-a-a5144fa4@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -37,14 +48,14 @@ DESCRIPTION:Terza Categoria — girone A\n6ª giornata\nDati non ufficiali:
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-prima-categoria-a-a1a6f3d5@zuin-fvg
+UID:calcio-prima-categoria-a-7234373f@zuin-fvg
 DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:RIVOLTO 0-1 CALCIO AVIANO (Prima Categoria — girone A)
-DESCRIPTION:Prima Categoria — girone A\n9ª giornata\nDati non ufficiali:
-  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
- ima-categoria-a
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:CALCIO AVIANO 1-2 S.P.A.L.CORDOVADO (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n10ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
 END:VEVENT
 BEGIN:VEVENT
@@ -59,12 +70,12 @@ DESCRIPTION:Terza Categoria — girone A\n7ª giornata\nDati non ufficiali:
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-prima-categoria-a-7234373f@zuin-fvg
+UID:calcio-prima-categoria-a-d02d751e@zuin-fvg
 DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:CALCIO AVIANO 1-2 S.P.A.L.CORDOVADO (Prima Categoria — girone A)
-DESCRIPTION:Prima Categoria — girone A\n10ª giornata\nDati non ufficiali
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:TAGLIAMENTO 0-0 CALCIO AVIANO (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n11ª giornata\nDati non ufficiali
  : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
  rima-categoria-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
@@ -92,17 +103,6 @@ DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
  io-por-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
  -a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-prima-categoria-a-d02d751e@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:TAGLIAMENTO 0-0 CALCIO AVIANO (Prima Categoria — girone A)
-DESCRIPTION:Prima Categoria — girone A\n11ª giornata\nDati non ufficiali
- : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
- rima-categoria-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-prima-categoria-a-58dd4a15@zuin-fvg

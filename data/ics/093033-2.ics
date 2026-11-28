@@ -48,6 +48,28 @@ DESCRIPTION:Terza Categoria — girone A\n6ª giornata\nDati non ufficiali:
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-terza-categoria-a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-prima-categoria-a-fc24497e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:TORRE 0-1 VIGONOVO (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n9ª giornata\nDati non ufficiali:
+  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
+ ima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-seconda-categoria-d-cc377ceb@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:ZARJA A.S.D. 1-1 TORRE (Seconda Categoria — girone D)
+DESCRIPTION:Seconda Categoria — girone D\n6ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ tri-seconda-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-gor-under-16-provinciali-a-a1353ba7@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -72,28 +94,6 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-prima-categoria-a-fc24497e@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:TORRE 0-1 VIGONOVO (Prima Categoria — girone A)
-DESCRIPTION:Prima Categoria — girone A\n9ª giornata\nDati non ufficiali:
-  fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-pr
- ima-categoria-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-tri-seconda-categoria-d-cc377ceb@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:ZARJA A.S.D. 1-1 TORRE (Seconda Categoria — girone D)
-DESCRIPTION:Seconda Categoria — girone D\n6ª giornata\nDati non ufficial
- i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
- tri-seconda-categoria-d
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-74fdc1e1@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -104,6 +104,17 @@ DESCRIPTION:Under 17 provinciali — girone A\n5ª giornata\nDati non uffic
  io-tri-under-17-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-59c76019@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:CHIONS 6-1 TORRE (Under 18 regionali — girone A)
+DESCRIPTION:Under 18 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-19-provinciali-a-2e5ae10f@zuin-fvg
@@ -118,15 +129,26 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-59c76019@zuin-fvg
-DTSTAMP:20261127T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:CHIONS 6-1 TORRE (Under 18 regionali — girone A)
-DESCRIPTION:Under 18 regionali — girone A\n10ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+UID:calcio-prima-categoria-a-eb08f75e@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:RIVOLTO 0-4 TORRE (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n10ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-tri-seconda-categoria-d-2d94410d@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:TORRE 4-0 CORMONESE (Seconda Categoria — girone D)
+DESCRIPTION:Seconda Categoria — girone D\n7ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ tri-seconda-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-por-terza-categoria-a-c0afe02b@zuin-fvg
@@ -165,34 +187,24 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-prima-categoria-a-eb08f75e@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:RIVOLTO 0-4 TORRE (Prima Categoria — girone A)
-DESCRIPTION:Prima Categoria — girone A\n10ª giornata\nDati non ufficiali
- : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
- rima-categoria-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-tri-seconda-categoria-d-2d94410d@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:TORRE 4-0 CORMONESE (Seconda Categoria — girone D)
-DESCRIPTION:Seconda Categoria — girone D\n7ª giornata\nDati non ufficial
- i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
- tri-seconda-categoria-d
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-d70d8af4@zuin-fvg
 DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:TORRE 1-2 POLISPORTIVA TAMAI ASD (Under 18 regionali — girone A)
 DESCRIPTION:Under 18 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-9656f67a@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:U.FINCANTIERI MONFALCONE 6-1 TORRE (Under 18 regionali — girone A
+ )
+DESCRIPTION:Under 18 regionali — girone A\n12ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-18-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
@@ -210,28 +222,26 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-9656f67a@zuin-fvg
-DTSTAMP:20261127T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:U.FINCANTIERI MONFALCONE 6-1 TORRE (Under 18 regionali — girone A
- )
-DESCRIPTION:Under 18 regionali — girone A\n12ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
+UID:calcio-prima-categoria-a-f543d0bb@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:TORRE 0-0 A.C. CORDENONESE 3S ASD (Prima Categoria — girone A)
+DESCRIPTION:Prima Categoria — girone A\n11ª giornata\nDati non ufficiali
+ : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
+ rima-categoria-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-gor-under-16-provinciali-a-456fb823@zuin-fvg
+UID:calcio-tri-seconda-categoria-d-bfb0bcfc@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-SUMMARY:JUVENTINA S.ANDREA 1-0 TORRE (Under 16 provinciali — girone A)
-DESCRIPTION:Under 16 provinciali — girone A\n8ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-gor-under-16-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
- -a
+SUMMARY:I.S.M. GRADISCA 2-2 TORRE (Seconda Categoria — girone D)
+DESCRIPTION:Seconda Categoria — girone D\n8ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ tri-seconda-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-por-terza-categoria-a-36ebd654@zuin-fvg
@@ -258,26 +268,16 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-prima-categoria-a-f543d0bb@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:TORRE 0-0 A.C. CORDENONESE 3S ASD (Prima Categoria — girone A)
-DESCRIPTION:Prima Categoria — girone A\n11ª giornata\nDati non ufficiali
- : fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-p
- rima-categoria-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-prima-categoria-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-tri-seconda-categoria-d-bfb0bcfc@zuin-fvg
+UID:calcio-gor-under-16-provinciali-a-456fb823@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-SUMMARY:I.S.M. GRADISCA 2-2 TORRE (Seconda Categoria — girone D)
-DESCRIPTION:Seconda Categoria — girone D\n8ª giornata\nDati non ufficial
- i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
- tri-seconda-categoria-d
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
+SUMMARY:JUVENTINA S.ANDREA 1-0 TORRE (Under 16 provinciali — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n8ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
+ -a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-gor-under-19-provinciali-a-cb1d2f34@zuin-fvg
@@ -292,16 +292,15 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-19-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-gor-under-16-provinciali-a-73a928b5@zuin-fvg
+UID:calcio-tri-seconda-categoria-d-94be4d99@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-SUMMARY:TORRE 0-4 I.S.M. GRADISCA (Under 16 provinciali — girone A)
-DESCRIPTION:Under 16 provinciali — girone A\n9ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-gor-under-16-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
- -a
+SUMMARY:TORRE 0-0 TURRIACO 1922 (Seconda Categoria — girone D)
+DESCRIPTION:Seconda Categoria — girone D\n9ª giornata\nDati non ufficial
+ i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
+ tri-seconda-categoria-d
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-por-terza-categoria-a-38566cae@zuin-fvg
@@ -339,6 +338,18 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-gor-under-16-provinciali-a-73a928b5@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:TORRE 0-4 I.S.M. GRADISCA (Under 16 provinciali — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-por-under-17-provinciali-a-f8b1b34a@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261122
@@ -349,17 +360,6 @@ DESCRIPTION:Under 17 provinciali — girone A\n9ª giornata\nDati non uffic
  io-por-under-17-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
  -a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-tri-seconda-categoria-d-94be4d99@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:TORRE 0-0 TURRIACO 1922 (Seconda Categoria — girone D)
-DESCRIPTION:Seconda Categoria — girone D\n9ª giornata\nDati non ufficial
- i: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-
- tri-seconda-categoria-d
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-seconda-categoria-d
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-fe7c30d1@zuin-fvg

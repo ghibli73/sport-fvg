@@ -25,6 +25,17 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:calcio-eccellenza-a-edc89985@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:N.K. KRAS REPEN 0-0 POLISPORTIVA CODROIPO (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n9ª giornata\nDati non ufficiali: fa f
+ ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
+ nza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-por-under-19-provinciali-a-4cd01a7e@zuin-fvg
 DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261031
@@ -36,17 +47,6 @@ DESCRIPTION:Under 19 provinciali — girone A\n6ª giornata\nDati non uffic
  io-por-under-19-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
  -a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-eccellenza-a-edc89985@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:N.K. KRAS REPEN 0-0 POLISPORTIVA CODROIPO (Eccellenza — girone A)
-DESCRIPTION:Eccellenza — girone A\n9ª giornata\nDati non ufficiali: fa f
- ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccelle
- nza-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-17-provinciali-b-5ca75371@zuin-fvg
@@ -69,19 +69,6 @@ DTEND;VALUE=DATE:20261106
 SUMMARY:SAN QUIRINO 0-18 POLISPORTIVA CODROIPO (Under 17 provinciali — gi
  rone A)
 DESCRIPTION:Under 17 provinciali — girone A\n6ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-por-under-17-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
- -a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-por-under-17-provinciali-a-b47740ab@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:POLISPORTIVA CODROIPO 2-0 POLISPORTIVA TAMAI (Under 17 provinciali 
- — girone A)
-DESCRIPTION:Under 17 provinciali — girone A\n7ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
  io-por-under-17-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
@@ -112,6 +99,19 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-por-under-17-provinciali-a-b47740ab@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:POLISPORTIVA CODROIPO 2-0 POLISPORTIVA TAMAI (Under 17 provinciali 
+ — girone A)
+DESCRIPTION:Under 17 provinciali — girone A\n7ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-por-under-17-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-17-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-udi-under-17-provinciali-b-ea3143b1@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
@@ -125,6 +125,18 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
  -b
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-eccellenza-a-0535e39c@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:POLISPORTIVA CODROIPO 1-3 NUOVO PORDENONE 2024 FC (Eccellenza — g
+ irone A)
+DESCRIPTION:Eccellenza — girone A\n11ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-por-under-19-provinciali-a-35259085@zuin-fvg
 DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261114
@@ -136,18 +148,6 @@ DESCRIPTION:Under 19 provinciali — girone A\n8ª giornata\nDati non uffic
  io-por-under-19-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
  -a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-eccellenza-a-0535e39c@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:POLISPORTIVA CODROIPO 1-3 NUOVO PORDENONE 2024 FC (Eccellenza — g
- irone A)
-DESCRIPTION:Eccellenza — girone A\n11ª giornata\nDati non ufficiali: fa 
- fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
- enza-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-15-provinciali-a-6874e1be@zuin-fvg
@@ -176,6 +176,17 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
  -b
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-eccellenza-a-0ef13569@zuin-fvg
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:SANVITESE 2-0 POLISPORTIVA CODROIPO (Eccellenza — girone A)
+DESCRIPTION:Eccellenza — girone A\n12ª giornata\nDati non ufficiali: fa 
+ fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
+ enza-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-por-under-19-provinciali-a-c96aadbc@zuin-fvg
 DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261121
@@ -187,17 +198,6 @@ DESCRIPTION:Under 19 provinciali — girone A\n9ª giornata\nDati non uffic
  io-por-under-19-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-por-under-19-provinciali
  -a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-eccellenza-a-0ef13569@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:SANVITESE 2-0 POLISPORTIVA CODROIPO (Eccellenza — girone A)
-DESCRIPTION:Eccellenza — girone A\n12ª giornata\nDati non ufficiali: fa 
- fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-eccell
- enza-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-por-under-14-provinciali-b-7bcb9229@zuin-fvg

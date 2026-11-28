@@ -25,19 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-gor-under-16-provinciali-a-900032cc@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:CHIARBOLA PONZIANA CALCIO 2-2 PRO CERVIGNANO RUDA (Under 16 provinc
- iali — girone A)
-DESCRIPTION:Under 16 provinciali — girone A\n6ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
- io-gor-under-16-provinciali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
- -a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-tri-under-15-provinciali-a-9658a975@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -51,13 +38,13 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-gor-under-16-provinciali-a-698a7ea3@zuin-fvg
+UID:calcio-gor-under-16-provinciali-a-900032cc@zuin-fvg
 DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:CHIARBOLA PONZIANA CALCIO 2-1 ZARJA A.S.D. (Under 16 provinciali 
- — girone A)
-DESCRIPTION:Under 16 provinciali — girone A\n8ª giornata\nDati non uffic
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:CHIARBOLA PONZIANA CALCIO 2-2 PRO CERVIGNANO RUDA (Under 16 provinc
+ iali — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n6ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
  io-gor-under-16-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
@@ -77,13 +64,13 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-gor-under-16-provinciali-a-04156962@zuin-fvg
+UID:calcio-gor-under-16-provinciali-a-698a7ea3@zuin-fvg
 DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:JUVENTINA S.ANDREA 0-1 CHIARBOLA PONZIANA CALCIO (Under 16 provinci
- ali — girone A)
-DESCRIPTION:Under 16 provinciali — girone A\n9ª giornata\nDati non uffic
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:CHIARBOLA PONZIANA CALCIO 2-1 ZARJA A.S.D. (Under 16 provinciali 
+ — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n8ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
  io-gor-under-16-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
@@ -100,6 +87,19 @@ DESCRIPTION:Under 15 provinciali — girone A\n10ª giornata\nDati non uffi
  ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-cal
  cio-tri-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-15-provinciali
+ -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-gor-under-16-provinciali-a-04156962@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:JUVENTINA S.ANDREA 0-1 CHIARBOLA PONZIANA CALCIO (Under 16 provinci
+ ali — girone A)
+DESCRIPTION:Under 16 provinciali — girone A\n9ª giornata\nDati non uffic
+ iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calc
+ io-gor-under-16-provinciali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-gor-under-16-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
