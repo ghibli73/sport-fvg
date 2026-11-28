@@ -14,10 +14,12 @@ Calendario aggiornato (spostamenti, anticipi, cambi di campo, recuperi): vedi pi
      (tutte con --completo) e aggiorna per numero gara data, ora e campo. L'abbinamento girone FIP -> slug viene
      cercato in automatico (--scopri-fip, oppure da solo una volta alla settimana) confrontando i numeri gara.
 Le omologazioni lette sono ricordate in config/basket_stato.json, così ogni esecuzione legge solo le nuove.
-  6. giro rapido (--rapido, nelle fasce di gara: pipeline/agenti/tempo-reale.md): per i gironi abbinati legge sul portale
-     FIP le pagine delle giornate con gare finite da poco e senza omologazione, prende i punteggi (referto elettronico)
-     e li salva in config/live.json; in app compaiono con "non_omologato": true finché l'omologazione del Giudice non li
-     conferma (se omologazione e portale non coincidono vale l'omologazione).
+  6. giro rapido (--rapido, nelle fasce di gara: pipeline/agenti/tempo-reale.md): per i gironi abbinati (e i minibasket)
+     legge sul portale FIP le pagine delle giornate con gare finite nelle ultime 3 settimane e senza omologazione
+     (quelle degli ultimi 3 giorni a ogni giro, le altre al massimo ogni 6 ore e 40 pagine per giro), prende i punteggi
+     (referto elettronico) e li salva in config/live.json; in app compaiono con "non_omologato": true ("da omologare")
+     finché l'omologazione del Giudice non li conferma (se omologazione e portale non coincidono vale l'omologazione).
+     Gironi senza calendario in PDF ("calendario_portale": true, U15 Regionale): calendario completato dal portale.
   7. minibasket Under 12 (Trofeo Esordienti, Esordienti Femminile): gironi con "minibasket": true e "portale" (parametri del
      girone su fip.it/risultati). Il Comitato non pubblica i calendari in PDF e omologa queste gare a blocchi (a gennaio
      nel 2025/26): calendario, date, ore, campi e punteggi si leggono dal portale FIP (le gare non ancora omologate restano
@@ -696,12 +698,17 @@ def risultati_fip(specs, cfg, live, oggi, adesso=None):
     pagine = nuovi = 0
     lista = []  # (priorità, ultima lettura, slug, giornata, gare attese)
     vive = set()  # giornate con gare ancora in attesa (anche quelle lette da poco)
-    for slug, p in sorted(cfg.get("gironi", {}).items()):
+    # gironi abbinati in config/basket_fip.json e minibasket (parametri del portale in "portale" della config)
+    portali = {k: v for k, v in cfg.get("gironi", {}).items() if not (specs.get(k) or {}).get("minibasket")}
+    portali.update({k: s["portale"] for k, s in specs.items() if s.get("minibasket") and s.get("portale")})
+    for slug, p in sorted(portali.items()):
         s = specs.get(slug)
-        if not s or not p.get("andata") or s.get("minibasket"):
+        if not s or not p.get("andata"):
             continue
+        mini = s.get("minibasket")
         voci = live.setdefault("gironi", {}).setdefault("basket-" + slug, {})
-        attese = [g for g in s["gare"] if (not g[7] or pari(g[7])) and da <= (g[2] or "") <= oggi
+        attese = [g for g in s["gare"] if (not g[7] or pari(g[7], mini)) and da <= (g[2] or "") <= oggi
+                  and (not mini or str(g[0]) not in s.get("ris_portale", {}))
                   and TR.finita(g[2], g[3], 105, ora) and f"gara:{g[0]}" not in voci]
         for gio in sorted({g[1] for g in attese}):
             gg = [g for g in attese if g[1] == gio]
@@ -724,16 +731,20 @@ def risultati_fip(specs, cfg, live, oggi, adesso=None):
     for prio, _, slug, gio, gg in lista:
         if prio and vecchie >= LIVE_MAX_VECCHIE:
             break
-        p = cfg["gironi"][slug]
+        p = portali[slug]
         ar, n = (1, gio) if gio <= p["andata"] else (0, gio - p["andata"])
-        q = {k: v for k, v in p.items() if k not in ("andata", "nome", "uguali")}
+        q = {k: v for k, v in p.items() if k not in ("andata", "ritorno", "nome", "uguali")}
         try:
             html = fip_get({**q, "codice_ar": ar, "giornata": n}); pagine += 1; vecchie += prio
         except Exception as e:
             print(f"  ! FIP {slug} giornata {gio}: {e}"); continue
         chiave = f"{slug}|{gio}"
         letture[chiave] = ora.isoformat(timespec="minutes")
-        punti = fip_punteggi(html)
+        if specs[slug].get("minibasket"):  # punteggio per periodi: il pari esiste (non 0-0)
+            punti = {x["num"]: (*map(int, x["ris"].split("-")), x["omologata"], x["data"] or "9999")
+                     for x in fip_gare_mini(html) if x["ris"]}
+        else:
+            punti = fip_punteggi(html)
         voci = live.setdefault("gironi", {}).setdefault("basket-" + slug, {})
         for g in gg:
             if g[0] not in punti:
