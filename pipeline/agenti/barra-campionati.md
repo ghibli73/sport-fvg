@@ -1,5 +1,7 @@
 # Barra dei campionati — Zuìn 1.16.0 beta (prototipo)
 
+> **Dalla 1.17.0** (proposta A, `pipeline/agenti/partite-proposta-a.md`): la barra resta, ma dentro lo sport (`#risultati?sport=…`) dopo la scelta Prima squadra/Giovanili (`liv=p|g`); `#risultati` senza parametri è l'ingresso con "Questo weekend", ricerca e tessere degli sport. Le zone sono pulsanti e non più una tendina; i gironi hanno nomi brevi raggruppati per campionato e genere. La tabella `CAMP` e `tests/campionati.test.js` non cambiano.
+
 In "Partite e classifiche" (`#risultati`), dopo lo sport, la seconda riga non è più il comitato ma una **barra scorrevole dei campionati**, in ordine di importanza (dal più alto al più giovane). Tutto calcolato nel browser da `data/risultati.json`: nessun campo nuovo, nessuno script toccato.
 
 ## Tabella e regole (index.html, blocco `CAMP-INIZIO … CAMP-FINE`)
