@@ -26,6 +26,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # solo per avviare "Aggiorna calcio" quando escono Comunicati LND nuovi (passo "Comunicati LND nuovi?")
 
 concurrency:
   group: giro-rapido-${{ github.ref_name }}
@@ -44,6 +45,11 @@ jobs:
         id: fascia
         run: |
           # senza checkout: basta Python per l'ora italiana
+          # Comunicati LND: le Delegazioni li pubblicano nel pomeriggio/sera (es. giovedì Udine 14:50, Gorizia 17:20,
+          # Trieste 17:35; Pordenone mercoledì-venerdì-lunedì 19-20): controllo leggero ogni giorno 12-23:45
+          python3 -c "
+          import datetime as d, zoneinfo as z
+          t = d.datetime.now(z.ZoneInfo('Europe/Rome')).strftime('%H:%M'); print('cu=' + str('12:00' <= t <= '23:45').lower())" >> "$GITHUB_OUTPUT"
           case " $OPZIONI " in *" --prova "*|*" --forza "*) echo "lancio forzato"; echo "via=true" >> "$GITHUB_OUTPUT"; exit 0;; esac
           if python3 -c "
           import datetime as d, zoneinfo as z, sys
@@ -55,7 +61,24 @@ jobs:
             echo "fuori fascia: nessuna lettura"; echo "via=false" >> "$GITHUB_OUTPUT"
           fi
       - uses: actions/checkout@v4
-        if: steps.fascia.outputs.via == 'true'
+        if: steps.fascia.outputs.via == 'true' || steps.fascia.outputs.cu == 'true'
+      # una sola richiesta all'archivio LND (PDF degli ultimi 4 giorni): se c'è un Comunicato non ancora letto e pubblicato
+      # dopo l'avvio dell'ultima "Aggiorna calcio", la avvia subito (invece di aspettare i cron 13:23/18:23 UTC, che GitHub
+      # ritarda anche di ore). Mai più di un avvio per CU: dopo l'avvio quel CU è "prima" dell'ultima esecuzione.
+      - name: Comunicati LND nuovi? (se sì avvia Aggiorna calcio)
+        if: (steps.fascia.outputs.via == 'true' || steps.fascia.outputs.cu == 'true')
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ULTIMA=$(gh run list --workflow aggiorna-calcio.yml --branch "$GITHUB_REF_NAME" --limit 1 --json createdAt -q '.[0].createdAt' 2>/dev/null || true)
+          ATTIVE=$(gh run list --workflow aggiorna-calcio.yml --branch "$GITHUB_REF_NAME" --limit 5 --json status -q '[.[] | select(.status != "completed")] | length' 2>/dev/null || echo 0)
+          echo "ultima Aggiorna calcio: ${ULTIMA:-nessuna}; in corso o in coda: $ATTIVE"
+          if python3 scripts/calcio_nuovi_cu.py ${ULTIMA:+--dopo "$ULTIMA"}; then
+            case " $OPZIONI " in *" --prova "*) echo "prova: Aggiorna calcio non avviata"; exit 0;; esac
+            if [ "${ATTIVE:-0}" != "0" ]; then echo "Aggiorna calcio già in corso o in coda"; exit 0; fi
+            gh workflow run aggiorna-calcio.yml --ref "$GITHUB_REF_NAME" && echo "Aggiorna calcio avviata"
+          fi
       - uses: actions/setup-python@v5
         if: steps.fascia.outputs.via == 'true'
         with:

@@ -55,10 +55,7 @@ def slugify(s):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", strip_acc(s.lower()))).strip("-")
 
 
-# nome file di un Comunicato Ufficiale: "CU-50.pdf", "go_cu_25_2026_-_2027.pdf", "ts_cu_42_...", "CU_09.pdf",
-# "Comunicato-Ufficiale-nr-21-...", e quelli della Delegazione di Pordenone "2026-C.U.-N.-40-Delegazione-PN-2026-2027.pdf"
-# (con i punti e la "N." prima del numero: il vecchio filtro "cu[-_ ]?\d+" non li riconosceva e i provinciali PN mancavano)
-RX_FILE_CU = re.compile(r"(^|[/_-])c\.?u\.?[-_ ]?(?:n(?:r|°)?\.?[-_ ]?)?\d+|comunicato", re.I)
+from calcio_nuovi_cu import RX_FILE_CU  # nome file di un CU (anche "2026-C.U.-N.-40-Delegazione-PN-...")
 
 
 def media_wp(par, pausa=0.5, max_pagine=20):
@@ -246,21 +243,36 @@ def titolo_cat(l):
 
 def leggi_blocchi_pn(righe):
     """-> [(categoria, girone, giornata, AR, data, casa, ospite, gc, go, n_nota)] dal formato a blocchi (Pordenone).
-    Un blocco con un numero di punteggi diverso dal numero di gare viene scartato (mai abbinare a caso)."""
+    I punteggi della colonna destra arrivano dopo le squadre, a volte dopo più blocchi insieme (es. U14 girone A e B
+    sulla stessa pagina: 5 + 6 squadre, poi 11 punteggi): i blocchi chiusi senza tutti i punteggi restano "in attesa" e
+    si abbinano in ordine quando il totale delle gare in attesa è uguale al totale dei punteggi. Se i punteggi sono più
+    delle gare la catena viene scartata (mai abbinare a caso)."""
     out, cat, data, blocco = [], None, None, None
+    attesa = []  # blocchi chiusi in attesa dei punteggi
 
     def chiudi():
-        if not blocco or not cat or not data:
+        if not blocco:
             return
-        gare, punti, note = blocco["gare"], blocco["punti"], blocco["note"]
-        if len(gare) != len(punti):
-            print(f"    blocco {cat} girone {blocco['gir'][0]} g{blocco['gir'][1]}: {len(gare)} gare e {len(punti)} punteggi, scartato")
+        blocco["cat"], blocco["data"] = cat, data
+        if not cat:
+            return  # attività non gestita (Esordienti, Pulcini, tornei): le sue righe "GIOCATA" non hanno punteggi
+        attesa.append(blocco)
+        ng = sum(len(b["gare"]) for b in attesa); npt = sum(len(b["punti"]) for b in attesa)
+        if npt < ng:
             return
-        for (nota, casa, osp), pt in zip(gare, punti):
-            if pt is None:
-                continue  # gara non disputata / rinviata / sospesa: nessun risultato (mai 0-0)
-            d = note.get(nota, data) if nota else data
-            out.append([cat, blocco["gir"][0], blocco["gir"][1], blocco["gir"][2], d, casa, osp, pt[0], pt[1], nota])
+        if npt > ng:
+            print("    blocchi " + ", ".join(f"{b['cat']} girone {b['gir'][0]} g{b['gir'][1]}" for b in attesa)
+                  + f": {ng} gare e {npt} punteggi, scartati")
+        else:
+            punti = [p for b in attesa for p in b["punti"]]
+            for b in attesa:
+                for (nota, casa, osp) in b["gare"]:
+                    pt = punti.pop(0)
+                    if pt is None or not b["cat"] or not b["data"]:
+                        continue  # gara non disputata / rinviata / sospesa (mai 0-0), o blocco di un'attività non gestita
+                    d = b["note"].get(nota, b["data"]) if nota else b["data"]
+                    out.append([b["cat"], b["gir"][0], b["gir"][1], b["gir"][2], d, casa, osp, pt[0], pt[1], nota])
+        attesa.clear()
 
     for i, l in enumerate(righe):
         md = RX_DATA_PN.search(l)
@@ -307,6 +319,8 @@ def leggi_blocchi_pn(righe):
             casa, osp = dividi_pn(mr.group(2) + " - " + mr.group(3))
             blocco["gare"].append((mr.group(1), casa, osp))
     chiudi()
+    if attesa:
+        print("    blocchi " + ", ".join(f"{b['cat']} girone {b['gir'][0]} g{b['gir'][1]}" for b in attesa) + ": punteggi mancanti, scartati")
     return out
 
 

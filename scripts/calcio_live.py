@@ -148,6 +148,9 @@ def scopri(data, cfg):
             cfg["gironi"][gid] = {"campionato": camp, "girone": gir, "nome": nome.strip(), "delegazione": deleg, "uguali": ok,
                                   "giornate": GIORNATE.get((camp, gir), [])}
             print(f"  {gid} = {nome.strip()} ({deleg}, campionato {camp}, girone {gir}, {ok} squadre uguali)")
+    # gironi dell'app senza abbinamento a questa scoperta: un girone nuovo (es. i provinciali di Pordenone appena letti)
+    # non è in questo elenco e fa ripetere la scoperta al prossimo aggiorna-calcio senza aspettare 7 giorni
+    cfg["senza_abbinamento"] = sorted(set(nostri) - set(cfg["gironi"]))
     if completa:
         cfg["scoperta"] = dt.date.today().isoformat()
     else:
@@ -226,6 +229,10 @@ def leggi(data, cfg, live, oggi, verifica=False):
                     continue
                 if m.get("homeGoals") is None or m.get("awayGoals") is None:
                     continue
+                # 0-0 con una nota qualsiasi (es. "Da Giudice sportivo", "Non disputata per mancanza arbitro" scritta in
+                # altro modo, le lettere "F"/"P"/"V.D." dei CU provinciali): non è un pareggio sicuro, si aspetta il CU
+                if int(m["homeGoals"]) == 0 and int(m["awayGoals"]) == 0 and str(m.get("outcome") or "").strip():
+                    continue
                 casa, osp = abbina_nome(m.get("home"), nomi), abbina_nome(m.get("away"), nomi)
                 if not casa or not osp or casa == osp:
                     continue
@@ -270,7 +277,9 @@ def main():
     vecchia = not cfg.get("scoperta") or (dt.date.fromisoformat(oggi) - dt.date.fromisoformat(cfg["scoperta"])).days >= 7
     # la scoperta (circa 40 pagine) si fa nel workflow del calcio, fuori dalle fasce di gara (--solo-scoperta);
     # il giro rapido la fa solo se non c'è ancora nessun abbinamento
-    serve = (vecchia and nostri - set(cfg.get("gironi") or {})) or cfg.get("scoperta_parziale", "") > cfg.get("scoperta", "")
+    senza = nostri - set(cfg.get("gironi") or {})
+    serve = (vecchia and senza) or cfg.get("scoperta_parziale", "") > cfg.get("scoperta", "") \
+        or bool(senza - set(cfg.get("senza_abbinamento") or []))  # gironi nuovi dall'ultima scoperta
     if "--scopri" in sys.argv or not cfg.get("gironi") or ("--solo-scoperta" in sys.argv and serve):
         try:
             scopri(data, cfg)
