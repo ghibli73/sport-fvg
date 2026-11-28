@@ -25,19 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-u14-gold-b-91fbbb2d@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261028T193000
-DTEND;TZID=Europe/Rome:20261028T213000
-SUMMARY:APU Next Gen 127-26 Basketrieste (Under 14 Maschile Gold — girone
-  B (prima fase))
-LOCATION:Palazzetto M. Benedetti\, Udine
-DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n1ª giornata\
- nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
- ort-fvg/#g-basket-u14-gold-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u17-gold-go-ts-8ee7d528@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261029T193000
@@ -200,7 +187,7 @@ DTSTART;TZID=Europe/Rome:20261125T193000
 DTEND;TZID=Europe/Rome:20261125T213000
 SUMMARY:Basketrieste 66-57 Dinamo Gorizia (Under 14 Maschile Gold — giron
  e B (prima fase))
-LOCATION:Palarubini Allianz Dome\, Trieste
+LOCATION:Palarubini - Allianz Dome\, Trieste
 DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n5ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-gold-b
@@ -213,24 +200,11 @@ DTSTART;TZID=Europe/Rome:20261129T093000
 DTEND;TZID=Europe/Rome:20261129T113000
 SUMMARY:BASKETRIESTE – SAN VITO TRIESTE (Under 13 Maschile — girone GO/
  TS B)
-LOCATION:Palarubini\, Trieste
+LOCATION:Palarubini - Allianz Dome\, Trieste
 DESCRIPTION:Under 13 Maschile — girone GO/TS B\n5ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u13-go-ts-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u14-gold-b-3ce4efb3@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261202T193000
-DTEND;TZID=Europe/Rome:20261202T213000
-SUMMARY:Basketrieste – APU Next Gen (Under 14 Maschile Gold — girone B 
- (prima fase))
-LOCATION:Palarubini\, Trieste
-DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n6ª giornata\
- nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
- ort-fvg/#g-basket-u14-gold-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-gold-go-ts-0f73ade8@zuin-fvg
@@ -244,6 +218,19 @@ DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n7ª giorn
  ata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.i
  o/sport-fvg/#g-basket-u17-gold-go-ts
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-gold-b-3ce4efb3@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261203T190000
+DTEND;TZID=Europe/Rome:20261203T210000
+SUMMARY:Basketrieste – APU Next Gen (Under 14 Maschile Gold — girone B 
+ (prima fase))
+LOCATION:Palestra Comunale 'Trieste Cam\, Trieste
+DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n6ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u14-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-go-ts-b-d263fe1a@zuin-fvg
@@ -342,7 +329,7 @@ DTSTART;TZID=Europe/Rome:20261216T193000
 DTEND;TZID=Europe/Rome:20261216T213000
 SUMMARY:Basketrieste – Longobardi (Under 14 Maschile Gold — girone B (p
  rima fase))
-LOCATION:Palarubini\, Trieste
+LOCATION:Palarubini - Allianz Dome\, Trieste
 DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n8ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-gold-b
@@ -364,11 +351,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-gold-b-e9ac9b0b@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261219T153000
-DTEND;TZID=Europe/Rome:20261219T173000
+DTSTART;TZID=Europe/Rome:20261219T143000
+DTEND;TZID=Europe/Rome:20261219T163000
 SUMMARY:Basketrieste – Humus Basket (Under 14 Maschile Gold — girone B 
  (prima fase))
-LOCATION:Palarubini\, Trieste
+LOCATION:Palarubini - Allianz Dome\, Trieste
 DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n9ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-gold-b
@@ -381,7 +368,7 @@ DTSTART;TZID=Europe/Rome:20261220T093000
 DTEND;TZID=Europe/Rome:20261220T113000
 SUMMARY:BASKETRIESTE – AKK BOR BASKET (Under 13 Maschile — girone GO/TS
   B)
-LOCATION:Palarubini\, Trieste
+LOCATION:Palarubini - Allianz Dome\, Trieste
 DESCRIPTION:Under 13 Maschile — girone GO/TS B\n8ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u13-go-ts-b
@@ -420,7 +407,7 @@ DTSTART;TZID=Europe/Rome:20270110T110000
 DTEND;TZID=Europe/Rome:20270110T130000
 SUMMARY:S.S. SD KONTOVEL – BASKETRIESTE (Under 13 Maschile — girone GO/
  TS B)
-LOCATION:Sgonico - (Trieste)
+LOCATION:Palestra 'M.Ervatti'\, Sgonico
 DESCRIPTION:Under 13 Maschile — girone GO/TS B\n9ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u13-go-ts-b
@@ -459,7 +446,7 @@ DTSTART;TZID=Europe/Rome:20270117T093000
 DTEND;TZID=Europe/Rome:20270117T113000
 SUMMARY:BASKETRIESTE – A.INT.BALONCESTO ISONTINA (Under 13 Maschile — g
  irone GO/TS B)
-LOCATION:Palarubini\, Trieste
+LOCATION:Palarubini - Allianz Dome\, Trieste
 DESCRIPTION:Under 13 Maschile — girone GO/TS B\n10ª giornata\nDati non u
  fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
  basket-u13-go-ts-b
@@ -485,7 +472,7 @@ DTSTART;TZID=Europe/Rome:20270123T153000
 DTEND;TZID=Europe/Rome:20270123T173000
 SUMMARY:DINAMO GORIZIA – BASKETRIESTE (Under 13 Maschile — girone GO/TS
   B)
-LOCATION:Centro "Stella Matutina"\, Gorizia
+LOCATION:Centro 'Stella Matutina'\, Gorizia
 DESCRIPTION:Under 13 Maschile — girone GO/TS B\n11ª giornata\nDati non u
  fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
  basket-u13-go-ts-b
@@ -533,8 +520,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-go-ts-b-cea0c49d@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270203T180000
-DTEND;TZID=Europe/Rome:20270203T200000
+DTSTART;TZID=Europe/Rome:20270201T180000
+DTEND;TZID=Europe/Rome:20270201T200000
 SUMMARY:SAN VITO TRIESTE – BASKETRIESTE (Under 13 Maschile — girone GO/
  TS B)
 LOCATION:Palazzetto 'Atleti Azzurri'\, Trieste
@@ -562,7 +549,7 @@ DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270207T093000
 DTEND;TZID=Europe/Rome:20270207T113000
 SUMMARY:BASKETRIESTE – SERVOLANA (Under 13 Maschile — girone GO/TS B)
-LOCATION:Palarubini\, Trieste
+LOCATION:Palarubini - Allianz Dome\, Trieste
 DESCRIPTION:Under 13 Maschile — girone GO/TS B\n13ª giornata\nDati non u
  fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
  basket-u13-go-ts-b
@@ -588,7 +575,7 @@ DTSTART;TZID=Europe/Rome:20270214T150000
 DTEND;TZID=Europe/Rome:20270214T170000
 SUMMARY:BARCOLANA BASKET TRIESTE – BASKETRIESTE (Under 13 Maschile — gi
  rone GO/TS B)
-LOCATION:Pal. Comunale "Luca Vascotto"\, Trieste
+LOCATION:Pal. Comunale 'Luca Vascott\, Trieste
 DESCRIPTION:Under 13 Maschile — girone GO/TS B\n14ª giornata\nDati non u
  fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
  basket-u13-go-ts-b

@@ -25,20 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-82147cc1@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-SUMMARY:S.GOTTARDO 3-3 RIVE D ARCANO FLAIBANO (Under 18 regionali — giron
- e A)
-DESCRIPTION:Under 18 regionali — girone A\n8ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-2664e54b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:UNION MARTIGNACCO 0-2 S.GOTTARDO (Under 18 regionali — girone A)
@@ -98,7 +86,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-b606cda9@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:S.GOTTARDO 0-1 SANT ANDREA SAN VITO (Under 18 regionali — girone 
@@ -160,22 +148,11 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-7579e3b4@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:BUJESE CALCIO 2-4 S.GOTTARDO (Under 18 regionali — girone A)
 DESCRIPTION:Under 18 regionali — girone A\n11ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-72966f73@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:S.GOTTARDO 1-0 CHIAVRIS (Under 18 regionali — girone A)
-DESCRIPTION:Under 18 regionali — girone A\n12ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-18-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
@@ -191,6 +168,17 @@ DESCRIPTION:Under 16 provinciali — girone A\n8ª giornata\nDati non uffic
  io-udi-under-16-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-72966f73@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:S.GOTTARDO 1-0 CHIAVRIS (Under 18 regionali — girone A)
+DESCRIPTION:Under 18 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-44384bc1@zuin-fvg
@@ -229,17 +217,6 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
  -b
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-12022333@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:SANGIORGINA 1-1 S.GOTTARDO (Under 18 regionali — girone A)
-DESCRIPTION:Under 18 regionali — girone A\n13ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-udi-under-16-provinciali-a-1f8713c4@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261121
@@ -251,6 +228,17 @@ DESCRIPTION:Under 16 provinciali — girone A\n9ª giornata\nDati non uffic
  io-udi-under-16-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-16-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-18-regionali-a-12022333@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:SANGIORGINA 1-1 S.GOTTARDO (Under 18 regionali — girone A)
+DESCRIPTION:Under 18 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-18-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-seconda-categoria-b-2ff34af2@zuin-fvg
@@ -291,7 +279,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-bd281ebf@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261128T173000
 DTEND;TZID=Europe/Rome:20261128T193000
 SUMMARY:S.GOTTARDO – CUSSIGNACCO CALCIO (Under 18 regionali — girone A)
@@ -315,7 +303,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-843693aa@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261205T173000
 DTEND;TZID=Europe/Rome:20261205T193000
 SUMMARY:BRIAN LIGNANO CALCIO – S.GOTTARDO (Under 18 regionali — girone 
@@ -328,7 +316,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-0a7d3a6f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261208T173000
 DTEND;TZID=Europe/Rome:20261208T193000
 SUMMARY:S.GOTTARDO – COMUNALE FONTANAFREDDA (Under 18 regionali — giron
@@ -341,7 +329,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-70baeb35@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261212T173000
 DTEND;TZID=Europe/Rome:20261212T193000
 SUMMARY:TORRE – S.GOTTARDO (Under 18 regionali — girone A)
@@ -353,7 +341,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-20153430@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261219T173000
 DTEND;TZID=Europe/Rome:20261219T193000
 SUMMARY:S.GOTTARDO – CHIONS (Under 18 regionali — girone A)
@@ -365,7 +353,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-ec55da39@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261222T190000
 DTEND;TZID=Europe/Rome:20261222T210000
 SUMMARY:POLISPORTIVA TAMAI ASD – S.GOTTARDO (Under 18 regionali — giron
@@ -378,7 +366,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-89898188@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270109T173000
 DTEND;TZID=Europe/Rome:20270109T193000
 SUMMARY:U.FINCANTIERI MONFALCONE – S.GOTTARDO (Under 18 regionali — gir
@@ -391,7 +379,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-30330d16@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270116T173000
 DTEND;TZID=Europe/Rome:20270116T193000
 SUMMARY:S.GOTTARDO – NUOVO PORDENONE 2024 FC (Under 18 regionali — giro
@@ -404,7 +392,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-419a38c4@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270123T173000
 DTEND;TZID=Europe/Rome:20270123T193000
 SUMMARY:FIUME VENETO -BANNIA – S.GOTTARDO (Under 18 regionali — girone 
@@ -417,7 +405,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-b0fcfa4b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270130T173000
 DTEND;TZID=Europe/Rome:20270130T193000
 SUMMARY:S.GOTTARDO – SANTAMARIA (Under 18 regionali — girone A)
@@ -429,7 +417,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-60accf3a@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270206T173000
 DTEND;TZID=Europe/Rome:20270206T193000
 SUMMARY:PALMARKET PAGNACCO – S.GOTTARDO (Under 18 regionali — girone A)
@@ -441,7 +429,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-081bdcd2@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270220T173000
 DTEND;TZID=Europe/Rome:20270220T193000
 SUMMARY:S.GOTTARDO – MUGGIA 1967 (Under 18 regionali — girone A)
@@ -453,7 +441,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-f9798e82@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270223T190000
 DTEND;TZID=Europe/Rome:20270223T210000
 SUMMARY:RIVE D ARCANO FLAIBANO – S.GOTTARDO (Under 18 regionali — giron
@@ -466,7 +454,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-693ea954@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270227T173000
 DTEND;TZID=Europe/Rome:20270227T193000
 SUMMARY:S.GOTTARDO – UNION MARTIGNACCO (Under 18 regionali — girone A)
@@ -478,7 +466,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-d702d8a1@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270306T180000
 DTEND;TZID=Europe/Rome:20270306T200000
 SUMMARY:SANT ANDREA SAN VITO – S.GOTTARDO (Under 18 regionali — girone 
@@ -491,7 +479,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-c205e747@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270309T190000
 DTEND;TZID=Europe/Rome:20270309T210000
 SUMMARY:S.GOTTARDO – BUJESE CALCIO (Under 18 regionali — girone A)
@@ -503,7 +491,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-b7677b26@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270313T173000
 DTEND;TZID=Europe/Rome:20270313T193000
 SUMMARY:CHIAVRIS – S.GOTTARDO (Under 18 regionali — girone A)
@@ -515,7 +503,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-fa7352c6@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270320T173000
 DTEND;TZID=Europe/Rome:20270320T193000
 SUMMARY:S.GOTTARDO – SANGIORGINA (Under 18 regionali — girone A)
@@ -527,7 +515,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-dd65b4ee@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270403T173000
 DTEND;TZID=Europe/Rome:20270403T193000
 SUMMARY:CUSSIGNACCO CALCIO – S.GOTTARDO (Under 18 regionali — girone A)
@@ -539,7 +527,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-6047f319@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270410T173000
 DTEND;TZID=Europe/Rome:20270410T193000
 SUMMARY:S.GOTTARDO – BRIAN LIGNANO CALCIO (Under 18 regionali — girone 
@@ -552,7 +540,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-8fa1529e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270417T173000
 DTEND;TZID=Europe/Rome:20270417T193000
 SUMMARY:COMUNALE FONTANAFREDDA – S.GOTTARDO (Under 18 regionali — giron
@@ -565,7 +553,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-cf013234@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270424T173000
 DTEND;TZID=Europe/Rome:20270424T193000
 SUMMARY:S.GOTTARDO – TORRE (Under 18 regionali — girone A)
@@ -577,7 +565,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-95e61657@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270501T173000
 DTEND;TZID=Europe/Rome:20270501T193000
 SUMMARY:CHIONS – S.GOTTARDO (Under 18 regionali — girone A)
@@ -589,7 +577,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-f8785c10@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270508T173000
 DTEND;TZID=Europe/Rome:20270508T193000
 SUMMARY:S.GOTTARDO – POLISPORTIVA TAMAI ASD (Under 18 regionali — giron

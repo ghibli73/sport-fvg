@@ -25,20 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-5522a262@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-SUMMARY:SANTAMARIA 1-1 SANT ANDREA SAN VITO (Under 18 regionali — girone 
- A)
-DESCRIPTION:Under 18 regionali — girone A\n8ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-promozione-a-7ee84669@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:SANT ANDREA SAN VITO 2-0 TRICESIMO CALCIO (Promozione — girone A)
@@ -49,7 +37,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-5079cd1d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:SANT ANDREA SAN VITO 5-0 PALMARKET PAGNACCO (Under 18 regionali —
@@ -58,17 +46,6 @@ DESCRIPTION:Under 18 regionali — girone A\n9ª giornata\nDati non ufficia
  li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
  -under-18-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-572ef8d0@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:SANT ANDREA SAN VITO 3-1 CHIONS (Under 16 regionali — girone A)
-DESCRIPTION:Under 16 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-284de8cd@zuin-fvg
@@ -82,6 +59,17 @@ DESCRIPTION:Under 14 provinciali — girone A\n5ª giornata\nDati non uffic
  io-tri-under-14-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-572ef8d0@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SANT ANDREA SAN VITO 3-1 CHIONS (Under 16 regionali — girone A)
+DESCRIPTION:Under 16 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-10a74829@zuin-fvg
@@ -98,7 +86,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-b606cda9@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:S.GOTTARDO 0-1 SANT ANDREA SAN VITO (Under 18 regionali — girone 
@@ -110,7 +98,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-9ee97c58@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:FIUMICELLO 2004 1-2 SANT ANDREA SAN VITO (Promozione — girone A)
@@ -118,30 +106,6 @@ DESCRIPTION:Promozione — girone A\n10ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
  ione-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-89511773@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:TRIESTE VICTORY ACADEMY 1-2 SANT ANDREA SAN VITO (Under 15 regional
- i — girone A)
-DESCRIPTION:Under 15 regionali — girone A\n10ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-be597021@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:SANT ANDREA SAN VITO 6-0 RORAI PORCIA (Under 16 regionali — giron
- e A)
-DESCRIPTION:Under 16 regionali — girone A\n10ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-7fcf15bd@zuin-fvg
@@ -155,6 +119,30 @@ DESCRIPTION:Under 14 provinciali — girone A\n6ª giornata\nDati non uffic
  io-tri-under-14-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-89511773@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:TRIESTE VICTORY ACADEMY 1-2 SANT ANDREA SAN VITO (Under 15 regional
+ i — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-be597021@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:SANT ANDREA SAN VITO 6-0 RORAI PORCIA (Under 16 regionali — giron
+ e A)
+DESCRIPTION:Under 16 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-a994754a@zuin-fvg
@@ -171,7 +159,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-7c345218@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:SANT ANDREA SAN VITO 5-0 MUGGIA 1967 (Under 18 regionali — girone
@@ -183,7 +171,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-da38bbde@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:RIVE D ARCANO FLAIBANO 1-1 SANT ANDREA SAN VITO (Under 18 regionali
@@ -195,7 +183,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-6e56b9d4@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:SANT ANDREA SAN VITO 0-1 TRIESTE VICTORY ACADEMY (Promozione — gi
@@ -204,29 +192,6 @@ DESCRIPTION:Promozione — girone A\n11ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
  ione-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-3d276599@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:SANT ANDREA SAN VITO 1-2 OPICINA (Under 15 regionali — girone A)
-DESCRIPTION:Under 15 regionali — girone A\n11ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-ce43db27@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:ISONTINO CALCIO 1-6 SANT ANDREA SAN VITO (Under 16 regionali — gi
- rone A)
-DESCRIPTION:Under 16 regionali — girone A\n11ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-18a7d7b1@zuin-fvg
@@ -240,6 +205,29 @@ DESCRIPTION:Under 14 provinciali — girone A\n7ª giornata\nDati non uffic
  io-tri-under-14-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-3d276599@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SANT ANDREA SAN VITO 1-2 OPICINA (Under 15 regionali — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-ce43db27@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:ISONTINO CALCIO 1-6 SANT ANDREA SAN VITO (Under 16 regionali — gi
+ rone A)
+DESCRIPTION:Under 16 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-5bc2267a@zuin-fvg
@@ -256,7 +244,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-251d306e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:SANT ANDREA SAN VITO 1-3 UNION MARTIGNACCO (Under 18 regionali — 
@@ -268,7 +256,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-a5bcd0eb@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:SISTIANA SESLJAN 0-2 SANT ANDREA SAN VITO (Promozione — girone A)
@@ -276,29 +264,6 @@ DESCRIPTION:Promozione — girone A\n12ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
  ione-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-600d2daa@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:CUSSIGNACCO CALCIO 1-0 SANT ANDREA SAN VITO (Under 15 regionali —
-  girone A)
-DESCRIPTION:Under 15 regionali — girone A\n12ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-9d033037@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:SANT ANDREA SAN VITO 4-3 OPICINA (Under 16 regionali — girone A)
-DESCRIPTION:Under 16 regionali — girone A\n12ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-8e125380@zuin-fvg
@@ -312,6 +277,53 @@ DESCRIPTION:Under 14 provinciali — girone A\n8ª giornata\nDati non uffic
  io-tri-under-14-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-600d2daa@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:CUSSIGNACCO CALCIO 1-0 SANT ANDREA SAN VITO (Under 15 regionali —
+  girone A)
+DESCRIPTION:Under 15 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-9d033037@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:SANT ANDREA SAN VITO 4-3 OPICINA (Under 16 regionali — girone A)
+DESCRIPTION:Under 16 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-a35b45af@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:SANT ANDREA SAN VITO 2-3 DONATELLO CALCIO A.S.D. (Under 15 regional
+ i — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-c59faf8d@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:MAGNANO IN RIVIERA 3-4 SANT ANDREA SAN VITO (Under 16 regionali —
+  girone A)
+DESCRIPTION:Under 16 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-95251565@zuin-fvg
@@ -343,7 +355,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-2cff7617@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261129T103000
 DTEND;TZID=Europe/Rome:20261129T123000
 SUMMARY:CALCIO SACILE 2026 – SANT ANDREA SAN VITO (Under 15 regionali —
@@ -370,7 +382,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-ceb5114a@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261129T111500
 DTEND;TZID=Europe/Rome:20261129T131500
 SUMMARY:SANT ANDREA SAN VITO – PRO FAGAGNA (Under 16 regionali — girone
@@ -383,7 +395,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-01cb10ff@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261129T150000
 DTEND;TZID=Europe/Rome:20261129T170000
 SUMMARY:SANT ANDREA SAN VITO – CENTRO SEDIA CALCIO NAT (Promozione — gi
@@ -396,7 +408,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-cb5464ba@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261205T143000
 DTEND;TZID=Europe/Rome:20261205T163000
 SUMMARY:CORVA – SANT ANDREA SAN VITO (Promozione — girone A)
@@ -408,7 +420,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-bb5947a4@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261205T173000
 DTEND;TZID=Europe/Rome:20261205T193000
 SUMMARY:BUJESE CALCIO – SANT ANDREA SAN VITO (Under 18 regionali — giro
@@ -435,7 +447,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-3ac9c6d1@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261206T111500
 DTEND;TZID=Europe/Rome:20261206T131500
 SUMMARY:SANT ANDREA SAN VITO – CALCIO MANIAGO VAJONT (Under 15 regionali 
@@ -461,7 +473,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-0d8c72fe@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261206T114500
 DTEND;TZID=Europe/Rome:20261206T134500
 SUMMARY:COMUNALE FONTANAFREDDA – SANT ANDREA SAN VITO (Under 16 regionali
@@ -474,7 +486,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-1562e860@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261208T143000
 DTEND;TZID=Europe/Rome:20261208T163000
 SUMMARY:SANT ANDREA SAN VITO – MARANESE (Promozione — girone A)
@@ -486,7 +498,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-74c24d53@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261208T180000
 DTEND;TZID=Europe/Rome:20261208T200000
 SUMMARY:SANT ANDREA SAN VITO – CHIAVRIS (Under 18 regionali — girone A)
@@ -498,7 +510,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-d204f85f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261212T173000
 DTEND;TZID=Europe/Rome:20261212T193000
 SUMMARY:SANGIORGINA – SANT ANDREA SAN VITO (Under 18 regionali — girone
@@ -525,7 +537,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-fc13fcc7@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T111500
 DTEND;TZID=Europe/Rome:20261213T131500
 SUMMARY:SANT ANDREA SAN VITO – FIUMICELLO 2004 (Under 16 regionali — gi
@@ -538,7 +550,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-bf708d4d@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T113000
 DTEND;TZID=Europe/Rome:20261213T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – SANT ANDREA SAN VITO (Under 15 regional
@@ -551,7 +563,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-11e877e0@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T143000
 DTEND;TZID=Europe/Rome:20261213T163000
 SUMMARY:BUJESE CALCIO – SANT ANDREA SAN VITO (Promozione — girone A)
@@ -563,7 +575,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-1fd9a64f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261219T180000
 DTEND;TZID=Europe/Rome:20261219T200000
 SUMMARY:SANT ANDREA SAN VITO – CUSSIGNACCO CALCIO (Under 18 regionali —
@@ -590,7 +602,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-ebba817b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T103000
 DTEND;TZID=Europe/Rome:20261220T123000
 SUMMARY:CJARLINS MUZANE – SANT ANDREA SAN VITO (Under 16 regionali — gi
@@ -603,7 +615,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-6e49cf88@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T111500
 DTEND;TZID=Europe/Rome:20261220T131500
 SUMMARY:SANT ANDREA SAN VITO – CJARLINS MUZANE (Under 15 regionali — gi
@@ -616,7 +628,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-72a28612@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T143000
 DTEND;TZID=Europe/Rome:20261220T163000
 SUMMARY:SANT ANDREA SAN VITO – ANCONA LUMIGNACCO (Promozione — girone A
@@ -629,7 +641,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-c6e3846a@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261222T190000
 DTEND;TZID=Europe/Rome:20261222T210000
 SUMMARY:BRIAN LIGNANO CALCIO – SANT ANDREA SAN VITO (Under 18 regionali 
@@ -642,7 +654,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-3493b3c8@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270109T173000
 DTEND;TZID=Europe/Rome:20270109T193000
 SUMMARY:COMUNALE FONTANAFREDDA – SANT ANDREA SAN VITO (Under 18 regionali
@@ -669,7 +681,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-fb5237e5@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T103000
 DTEND;TZID=Europe/Rome:20270110T123000
 SUMMARY:REANESE – SANT ANDREA SAN VITO (Under 16 regionali — girone A)
@@ -681,7 +693,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-118521ee@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T111500
 DTEND;TZID=Europe/Rome:20270110T131500
 SUMMARY:SANT ANDREA SAN VITO – MANZANESE CALCIO (Under 15 regionali — g
@@ -694,7 +706,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-90a331e8@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T143000
 DTEND;TZID=Europe/Rome:20270110T163000
 SUMMARY:UNION MARTIGNACCO – SANT ANDREA SAN VITO (Promozione — girone A
@@ -707,7 +719,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-58f7cc68@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270116T180000
 DTEND;TZID=Europe/Rome:20270116T200000
 SUMMARY:SANT ANDREA SAN VITO – TORRE (Under 18 regionali — girone A)
@@ -719,7 +731,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-b2a4d783@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T111500
 DTEND;TZID=Europe/Rome:20270117T131500
 SUMMARY:SANT ANDREA SAN VITO – TRIESTE VICTORY ACADEMY (Under 16 regional
@@ -732,7 +744,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-aa4d751b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T113000
 DTEND;TZID=Europe/Rome:20270117T133000
 SUMMARY:SAN LUIGI CALCIO – SANT ANDREA SAN VITO (Under 15 regionali — g
@@ -745,7 +757,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-20fc5009@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T143000
 DTEND;TZID=Europe/Rome:20270117T163000
 SUMMARY:SANT ANDREA SAN VITO – PRO CERVIGNANO RUDA (Promozione — girone
@@ -758,7 +770,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-bca4422d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270123T173000
 DTEND;TZID=Europe/Rome:20270123T193000
 SUMMARY:CHIONS – SANT ANDREA SAN VITO (Under 18 regionali — girone A)
@@ -770,7 +782,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-7201c5a8@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T100000
 DTEND;TZID=Europe/Rome:20270124T120000
 SUMMARY:SACILESE – SANT ANDREA SAN VITO (Under 16 regionali — girone A)
@@ -796,7 +808,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-929dcf30@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T111500
 DTEND;TZID=Europe/Rome:20270124T131500
 SUMMARY:SANT ANDREA SAN VITO – ANCONA LUMIGNACCO (Under 15 regionali — 
@@ -809,7 +821,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-b60f892b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T143000
 DTEND;TZID=Europe/Rome:20270124T163000
 SUMMARY:CORNO CALCIO 1929 – SANT ANDREA SAN VITO (Promozione — girone A
@@ -822,7 +834,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-094b6788@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270130T180000
 DTEND;TZID=Europe/Rome:20270130T200000
 SUMMARY:SANT ANDREA SAN VITO – POLISPORTIVA TAMAI ASD (Under 18 regionali
@@ -863,7 +875,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-3f71e855@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T103000
 DTEND;TZID=Europe/Rome:20270131T123000
 SUMMARY:SANVITESE – SANT ANDREA SAN VITO (Under 15 regionali — girone A
@@ -876,7 +888,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-2c5482d9@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T111500
 DTEND;TZID=Europe/Rome:20270131T131500
 SUMMARY:SANT ANDREA SAN VITO – S.P.A.L.CORDOVADO (Under 16 regionali — 
@@ -889,7 +901,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-9ebb158d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T143000
 DTEND;TZID=Europe/Rome:20270131T163000
 SUMMARY:SANT ANDREA SAN VITO – RIVE D ARCANO FLAIBANO (Promozione — gir
@@ -902,7 +914,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-5ec80e58@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270206T173000
 DTEND;TZID=Europe/Rome:20270206T193000
 SUMMARY:U.FINCANTIERI MONFALCONE – SANT ANDREA SAN VITO (Under 18 regiona
@@ -929,7 +941,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-529e78a9@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T103000
 DTEND;TZID=Europe/Rome:20270207T123000
 SUMMARY:UDINE UNITED RIZZI CORMOR – SANT ANDREA SAN VITO (Under 16 region
@@ -956,7 +968,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-7ee35566@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T111500
 DTEND;TZID=Europe/Rome:20270207T131500
 SUMMARY:SANT ANDREA SAN VITO – UDINE UNITED RIZZI CORMOR (Under 15 region
@@ -969,7 +981,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-84fc4c09@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T143000
 DTEND;TZID=Europe/Rome:20270207T163000
 SUMMARY:DEPORTIVO JUNIOR – SANT ANDREA SAN VITO (Promozione — girone A)
@@ -981,7 +993,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-4c48fb4e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270213T180000
 DTEND;TZID=Europe/Rome:20270213T200000
 SUMMARY:SANT ANDREA SAN VITO – NUOVO PORDENONE 2024 FC (Under 18 regional
@@ -1022,7 +1034,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-f5589d44@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270214T100000
 DTEND;TZID=Europe/Rome:20270214T120000
 SUMMARY:COMUNALE FONTANAFREDDA – SANT ANDREA SAN VITO (Under 15 regionali
@@ -1035,7 +1047,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-2577b0c3@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270214T111500
 DTEND;TZID=Europe/Rome:20270214T131500
 SUMMARY:SANT ANDREA SAN VITO – DONATELLO CALCIO A.S.D. (Under 16 regional
@@ -1048,7 +1060,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-d425ca6e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270214T143000
 DTEND;TZID=Europe/Rome:20270214T163000
 SUMMARY:SANT ANDREA SAN VITO – CUSSIGNACCO CALCIO (Promozione — girone 
@@ -1061,7 +1073,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-c99f7d44@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270220T173000
 DTEND;TZID=Europe/Rome:20270220T193000
 SUMMARY:FIUME VENETO -BANNIA – SANT ANDREA SAN VITO (Under 18 regionali 
@@ -1088,7 +1100,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-ac0696f6@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T103000
 DTEND;TZID=Europe/Rome:20270221T123000
 SUMMARY:SAN LUIGI CALCIO – SANT ANDREA SAN VITO (Under 16 regionali — g
@@ -1115,7 +1127,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-d05e562e@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T111500
 DTEND;TZID=Europe/Rome:20270221T131500
 SUMMARY:SANT ANDREA SAN VITO – TRIESTINA CALCIO 1918 SRL (Under 15 region
@@ -1128,7 +1140,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-827b6d58@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T143000
 DTEND;TZID=Europe/Rome:20270221T163000
 SUMMARY:UNION PASIANO – SANT ANDREA SAN VITO (Promozione — girone A)
@@ -1140,7 +1152,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-51d7a263@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270223T180000
 DTEND;TZID=Europe/Rome:20270223T200000
 SUMMARY:SANT ANDREA SAN VITO – SANTAMARIA (Under 18 regionali — girone 
@@ -1153,7 +1165,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-1dfc50da@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270227T173000
 DTEND;TZID=Europe/Rome:20270227T193000
 SUMMARY:PALMARKET PAGNACCO – SANT ANDREA SAN VITO (Under 18 regionali —
@@ -1194,7 +1206,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-ab8a34b9@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T103000
 DTEND;TZID=Europe/Rome:20270228T123000
 SUMMARY:PRO FAGAGNA – SANT ANDREA SAN VITO (Under 15 regionali — girone
@@ -1207,7 +1219,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-54eee422@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T111500
 DTEND;TZID=Europe/Rome:20270228T131500
 SUMMARY:SANT ANDREA SAN VITO – SANVITESE (Under 16 regionali — girone A
@@ -1220,7 +1232,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-d731d568@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T150000
 DTEND;TZID=Europe/Rome:20270228T170000
 SUMMARY:SANT ANDREA SAN VITO – FIUME VENETO -BANNIA (Promozione — giron
@@ -1233,7 +1245,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-d702d8a1@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270306T180000
 DTEND;TZID=Europe/Rome:20270306T200000
 SUMMARY:SANT ANDREA SAN VITO – S.GOTTARDO (Under 18 regionali — girone 
@@ -1243,18 +1255,6 @@ DESCRIPTION:Under 18 regionali — girone A\n29ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-18-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-16-regionali-a-da2dcde3@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20270307T103000
-DTEND;TZID=Europe/Rome:20270307T123000
-SUMMARY:CHIONS – SANT ANDREA SAN VITO (Under 16 regionali — girone A)
-LOCATION:Facca Azzano Decimo\, Via Dello Stadio
-DESCRIPTION:Under 16 regionali — girone A\n26ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-16-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-14-provinciali-a-756fd82d@zuin-fvg
@@ -1269,6 +1269,18 @@ DESCRIPTION:Under 14 provinciali — girone A\n18ª giornata\nDati non uffi
  cio-tri-under-14-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-14-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-16-regionali-a-da2dcde3@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20270307T103000
+DTEND;TZID=Europe/Rome:20270307T123000
+SUMMARY:CHIONS – SANT ANDREA SAN VITO (Under 16 regionali — girone A)
+LOCATION:Facca Azzano Decimo\, Via Dello Stadio
+DESCRIPTION:Under 16 regionali — girone A\n26ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-16-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-tri-under-17-provinciali-a-736f443e@zuin-fvg
@@ -1286,7 +1298,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-311858c8@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270307T150000
 DTEND;TZID=Europe/Rome:20270307T170000
 SUMMARY:TRICESIMO CALCIO – SANT ANDREA SAN VITO (Promozione — girone A)
@@ -1298,7 +1310,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-25d6ed7f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270309T190000
 DTEND;TZID=Europe/Rome:20270309T210000
 SUMMARY:MUGGIA 1967 – SANT ANDREA SAN VITO (Under 18 regionali — girone
@@ -1311,7 +1323,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-870ddb11@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270313T180000
 DTEND;TZID=Europe/Rome:20270313T200000
 SUMMARY:SANT ANDREA SAN VITO – RIVE D ARCANO FLAIBANO (Under 18 regionali
@@ -1324,7 +1336,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-51fa3fa7@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T103000
 DTEND;TZID=Europe/Rome:20270314T123000
 SUMMARY:RORAI PORCIA – SANT ANDREA SAN VITO (Under 16 regionali — giron
@@ -1350,7 +1362,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-43c3610d@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T111500
 DTEND;TZID=Europe/Rome:20270314T131500
 SUMMARY:SANT ANDREA SAN VITO – TRIESTE VICTORY ACADEMY (Under 15 regional
@@ -1363,7 +1375,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-15f647b8@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T150000
 DTEND;TZID=Europe/Rome:20270314T170000
 SUMMARY:SANT ANDREA SAN VITO – FIUMICELLO 2004 (Promozione — girone A)
@@ -1375,7 +1387,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-93a3bcdd@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270320T173000
 DTEND;TZID=Europe/Rome:20270320T193000
 SUMMARY:UNION MARTIGNACCO – SANT ANDREA SAN VITO (Under 18 regionali — 
@@ -1402,7 +1414,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-tri-under-17-provinciali
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-4774ac1f@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270321T111500
 DTEND;TZID=Europe/Rome:20270321T131500
 SUMMARY:SANT ANDREA SAN VITO – ISONTINO CALCIO (Under 16 regionali — gi
@@ -1415,7 +1427,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-0eef6eb7@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270321T113000
 DTEND;TZID=Europe/Rome:20270321T133000
 SUMMARY:OPICINA – SANT ANDREA SAN VITO (Under 15 regionali — girone A)
@@ -1427,7 +1439,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-1f5463b4@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270331T200000
 DTEND;TZID=Europe/Rome:20270331T220000
 SUMMARY:TRIESTE VICTORY ACADEMY – SANT ANDREA SAN VITO (Promozione — gi
@@ -1440,7 +1452,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-92cee0b3@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T103000
 DTEND;TZID=Europe/Rome:20270404T123000
 SUMMARY:OPICINA – SANT ANDREA SAN VITO (Under 16 regionali — girone A)
@@ -1452,7 +1464,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-9ff15e5c@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T111500
 DTEND;TZID=Europe/Rome:20270404T131500
 SUMMARY:SANT ANDREA SAN VITO – CUSSIGNACCO CALCIO (Under 15 regionali —
@@ -1465,7 +1477,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-7d7625ef@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T160000
 DTEND;TZID=Europe/Rome:20270404T180000
 SUMMARY:SANT ANDREA SAN VITO – SISTIANA SESLJAN (Promozione — girone A)
@@ -1477,7 +1489,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-cbba7867@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270410T180000
 DTEND;TZID=Europe/Rome:20270410T200000
 SUMMARY:SANT ANDREA SAN VITO – BUJESE CALCIO (Under 18 regionali — giro
@@ -1490,7 +1502,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-dbc3ef26@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270411T103000
 DTEND;TZID=Europe/Rome:20270411T123000
 SUMMARY:DONATELLO CALCIO A.S.D. – SANT ANDREA SAN VITO (Under 15 regional
@@ -1503,7 +1515,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-520287ba@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270411T111500
 DTEND;TZID=Europe/Rome:20270411T131500
 SUMMARY:SANT ANDREA SAN VITO – MAGNANO IN RIVIERA (Under 16 regionali —
@@ -1516,7 +1528,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-b8659ab2@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270411T160000
 DTEND;TZID=Europe/Rome:20270411T180000
 SUMMARY:CENTRO SEDIA CALCIO NAT – SANT ANDREA SAN VITO (Promozione — gi
@@ -1528,7 +1540,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-d9845fce@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270417T173000
 DTEND;TZID=Europe/Rome:20270417T193000
 SUMMARY:CHIAVRIS – SANT ANDREA SAN VITO (Under 18 regionali — girone A)
@@ -1540,7 +1552,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-de462717@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270418T103000
 DTEND;TZID=Europe/Rome:20270418T123000
 SUMMARY:PRO FAGAGNA – SANT ANDREA SAN VITO (Under 16 regionali — girone
@@ -1553,7 +1565,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-bfd96cc6@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270418T111500
 DTEND;TZID=Europe/Rome:20270418T131500
 SUMMARY:SANT ANDREA SAN VITO – CALCIO SACILE 2026 (Under 15 regionali —
@@ -1566,7 +1578,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-38469b01@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270418T160000
 DTEND;TZID=Europe/Rome:20270418T180000
 SUMMARY:SANT ANDREA SAN VITO – CORVA (Promozione — girone A)
@@ -1578,7 +1590,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-bce88986@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270424T180000
 DTEND;TZID=Europe/Rome:20270424T200000
 SUMMARY:SANT ANDREA SAN VITO – SANGIORGINA (Under 18 regionali — girone
@@ -1591,7 +1603,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-54042f34@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270425T103000
 DTEND;TZID=Europe/Rome:20270425T123000
 SUMMARY:CALCIO MANIAGO VAJONT – SANT ANDREA SAN VITO (Under 15 regionali 
@@ -1604,7 +1616,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-ed11282b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270425T111500
 DTEND;TZID=Europe/Rome:20270425T131500
 SUMMARY:SANT ANDREA SAN VITO – COMUNALE FONTANAFREDDA (Under 16 regionali
@@ -1617,7 +1629,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-45da397f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270425T160000
 DTEND;TZID=Europe/Rome:20270425T180000
 SUMMARY:MARANESE – SANT ANDREA SAN VITO (Promozione — girone A)
@@ -1629,7 +1641,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-51c019ee@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270501T173000
 DTEND;TZID=Europe/Rome:20270501T193000
 SUMMARY:CUSSIGNACCO CALCIO – SANT ANDREA SAN VITO (Under 18 regionali —
@@ -1642,7 +1654,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-fe351da0@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270502T103000
 DTEND;TZID=Europe/Rome:20270502T123000
 SUMMARY:FIUMICELLO 2004 – SANT ANDREA SAN VITO (Under 16 regionali — gi
@@ -1655,7 +1667,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-2483f068@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270502T111500
 DTEND;TZID=Europe/Rome:20270502T131500
 SUMMARY:SANT ANDREA SAN VITO – NUOVO PORDENONE 2024 FC (Under 15 regional
@@ -1668,7 +1680,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-424c2fdb@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270502T160000
 DTEND;TZID=Europe/Rome:20270502T180000
 SUMMARY:SANT ANDREA SAN VITO – BUJESE CALCIO (Promozione — girone A)
@@ -1680,7 +1692,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-a6a2a169@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270508T180000
 DTEND;TZID=Europe/Rome:20270508T200000
 SUMMARY:SANT ANDREA SAN VITO – BRIAN LIGNANO CALCIO (Under 18 regionali 
@@ -1693,7 +1705,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-488554eb@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T103000
 DTEND;TZID=Europe/Rome:20270509T123000
 SUMMARY:CJARLINS MUZANE – SANT ANDREA SAN VITO (Under 15 regionali — gi
@@ -1706,7 +1718,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-16-regionali-a-cecd7b54@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T111500
 DTEND;TZID=Europe/Rome:20270509T131500
 SUMMARY:SANT ANDREA SAN VITO – CJARLINS MUZANE (Under 16 regionali — gi
@@ -1719,7 +1731,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-16-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-ccd1e3b9@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T160000
 DTEND;TZID=Europe/Rome:20270509T180000
 SUMMARY:ANCONA LUMIGNACCO – SANT ANDREA SAN VITO (Promozione — girone A

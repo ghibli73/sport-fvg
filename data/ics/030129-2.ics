@@ -25,20 +25,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-0727487d@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-SUMMARY:POLISPORTIVA TAMAI ASD 5-4 CUSSIGNACCO CALCIO (Under 18 regionali 
- — girone A)
-DESCRIPTION:Under 18 regionali — girone A\n8ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-00d8c28a@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:CUSSIGNACCO CALCIO 2-1 U.FINCANTIERI MONFALCONE (Under 17 regionali
@@ -50,7 +38,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-b9ea9c05@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:CUSSIGNACCO CALCIO 2-4 U.FINCANTIERI MONFALCONE (Under 18 regionali
@@ -62,7 +50,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-f981b09a@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:UNION MARTIGNACCO 1-1 CUSSIGNACCO CALCIO (Promozione — girone A)
@@ -70,18 +58,6 @@ DESCRIPTION:Promozione — girone A\n9ª giornata\nDati non ufficiali: fa f
  ede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promozi
  one-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-0beb575c@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:COMUNALE FONTANAFREDDA 3-1 CUSSIGNACCO CALCIO (Under 15 regionali 
- — girone A)
-DESCRIPTION:Under 15 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-d-6c9ebb15@zuin-fvg
@@ -97,8 +73,20 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
  -d
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-0beb575c@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:COMUNALE FONTANAFREDDA 3-1 CUSSIGNACCO CALCIO (Under 15 regionali 
+ — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-fc408c8a@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:COMUNALE FONTANAFREDDA 2-0 CUSSIGNACCO CALCIO (Under 17 regionali 
@@ -110,7 +98,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-02b2088c@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:NUOVO PORDENONE 2024 FC 3-0 CUSSIGNACCO CALCIO (Under 18 regionali 
@@ -122,7 +110,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-8c3e141b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:CUSSIGNACCO CALCIO 0-3 RIVE D ARCANO FLAIBANO (Promozione — giron
@@ -134,7 +122,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-6f02492b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:CUSSIGNACCO CALCIO 2-1 TRIESTINA CALCIO 1918 SRL (Under 15 regional
@@ -146,7 +134,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-dcb5fb7c@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:CUSSIGNACCO CALCIO 5-3 FIUME VENETO -BANNIA (Under 18 regionali —
@@ -158,7 +146,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-8d700f30@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:PRO FAGAGNA 5-1 CUSSIGNACCO CALCIO (Under 15 regionali — girone A
@@ -170,7 +158,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-8b314355@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:SANTAMARIA 1-5 CUSSIGNACCO CALCIO (Under 18 regionali — girone A)
@@ -181,7 +169,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-8417ce35@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:DEPORTIVO JUNIOR 0-2 CUSSIGNACCO CALCIO (Promozione — girone A)
@@ -189,18 +177,6 @@ DESCRIPTION:Promozione — girone A\n11ª giornata\nDati non ufficiali: fa
  fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio-promoz
  ione-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-797d3821@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:CUSSIGNACCO CALCIO 4-1 S.P.A.L.CORDOVADO (Under 17 regionali — gi
- rone A)
-DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-udi-under-14-provinciali-d-a1c11e9c@zuin-fvg
@@ -216,8 +192,20 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
  -d
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-797d3821@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:CUSSIGNACCO CALCIO 4-1 S.P.A.L.CORDOVADO (Under 17 regionali — gi
+ rone A)
+DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-promozione-a-368c1cf6@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:CUSSIGNACCO CALCIO 1-0 PRO CERVIGNANO RUDA (Promozione — girone A
@@ -229,7 +217,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-416d4f46@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:CUSSIGNACCO CALCIO 1-2 PALMARKET PAGNACCO (Under 18 regionali — g
@@ -241,7 +229,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-600d2daa@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:CUSSIGNACCO CALCIO 1-0 SANT ANDREA SAN VITO (Under 15 regionali —
@@ -253,7 +241,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-e05de737@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:CJARLINS MUZANE 8-2 CUSSIGNACCO CALCIO (Under 17 regionali — giro
@@ -277,8 +265,20 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-14-provinciali
  -d
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-d624c88f@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:CUSSIGNACCO CALCIO 4-1 BRIAN LIGNANO CALCIO (Under 17 regionali —
+  girone A)
+DESCRIPTION:Under 17 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-bd281ebf@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261128T173000
 DTEND;TZID=Europe/Rome:20261128T193000
 SUMMARY:S.GOTTARDO – CUSSIGNACCO CALCIO (Under 18 regionali — girone A)
@@ -290,7 +290,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-dcc71df4@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261129T103000
 DTEND;TZID=Europe/Rome:20261129T123000
 SUMMARY:CUSSIGNACCO CALCIO – OPICINA (Under 15 regionali — girone A)
@@ -302,7 +302,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-7ba4e9b7@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261129T103000
 DTEND;TZID=Europe/Rome:20261129T123000
 SUMMARY:TRIESTE VICTORY ACADEMY – CUSSIGNACCO CALCIO (Under 17 regionali 
@@ -315,7 +315,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-271e2fe0@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261129T143000
 DTEND;TZID=Europe/Rome:20261129T163000
 SUMMARY:UNION PASIANO – CUSSIGNACCO CALCIO (Promozione — girone A)
@@ -327,7 +327,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-5e6199de@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261205T143000
 DTEND;TZID=Europe/Rome:20261205T163000
 SUMMARY:FIUME VENETO -BANNIA – CUSSIGNACCO CALCIO (Promozione — girone 
@@ -340,7 +340,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-5e5f0122@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261205T173000
 DTEND;TZID=Europe/Rome:20261205T193000
 SUMMARY:CUSSIGNACCO CALCIO – MUGGIA 1967 (Under 18 regionali — girone A
@@ -353,7 +353,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-20c1b686@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261206T103000
 DTEND;TZID=Europe/Rome:20261206T123000
 SUMMARY:CUSSIGNACCO CALCIO – TOLMEZZO CARNIA (Under 17 regionali — giro
@@ -366,7 +366,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-147ce0b6@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261208T143000
 DTEND;TZID=Europe/Rome:20261208T163000
 SUMMARY:CUSSIGNACCO CALCIO – TRICESIMO CALCIO (Promozione — girone A)
@@ -378,7 +378,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-fc1f3e70@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261208T173000
 DTEND;TZID=Europe/Rome:20261208T193000
 SUMMARY:RIVE D ARCANO FLAIBANO – CUSSIGNACCO CALCIO (Under 18 regionali 
@@ -391,7 +391,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-bb1c3560@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261209T183000
 DTEND;TZID=Europe/Rome:20261209T203000
 SUMMARY:TRIESTE VICTORY ACADEMY – CUSSIGNACCO CALCIO (Under 15 regionali 
@@ -404,7 +404,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-857c57d0@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261212T173000
 DTEND;TZID=Europe/Rome:20261212T193000
 SUMMARY:CUSSIGNACCO CALCIO – UNION MARTIGNACCO (Under 18 regionali — gi
@@ -417,7 +417,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-e910d504@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T103000
 DTEND;TZID=Europe/Rome:20261213T123000
 SUMMARY:DONATELLO CALCIO A.S.D. – CUSSIGNACCO CALCIO (Under 15 regionali 
@@ -430,7 +430,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-eff10d98@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T143000
 DTEND;TZID=Europe/Rome:20261213T163000
 SUMMARY:FIUMICELLO 2004 – CUSSIGNACCO CALCIO (Promozione — girone A)
@@ -442,7 +442,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-1fd9a64f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261219T180000
 DTEND;TZID=Europe/Rome:20261219T200000
 SUMMARY:SANT ANDREA SAN VITO – CUSSIGNACCO CALCIO (Under 18 regionali —
@@ -455,7 +455,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-dd2e5a1c@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T103000
 DTEND;TZID=Europe/Rome:20261220T123000
 SUMMARY:CUSSIGNACCO CALCIO – CALCIO SACILE 2026 (Under 15 regionali — g
@@ -468,7 +468,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-2ed65018@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T103000
 DTEND;TZID=Europe/Rome:20261220T123000
 SUMMARY:SANVITESE – CUSSIGNACCO CALCIO (Under 17 regionali — girone A)
@@ -480,7 +480,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-5fa030d8@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T143000
 DTEND;TZID=Europe/Rome:20261220T163000
 SUMMARY:CUSSIGNACCO CALCIO – TRIESTE VICTORY ACADEMY (Promozione — giro
@@ -493,7 +493,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-83862b94@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261222T190000
 DTEND;TZID=Europe/Rome:20261222T210000
 SUMMARY:CUSSIGNACCO CALCIO – BUJESE CALCIO (Under 18 regionali — girone
@@ -506,7 +506,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-96b6dc76@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270109T173000
 DTEND;TZID=Europe/Rome:20270109T193000
 SUMMARY:CUSSIGNACCO CALCIO – CHIAVRIS (Under 18 regionali — girone A)
@@ -518,7 +518,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-36b49128@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T103000
 DTEND;TZID=Europe/Rome:20270110T123000
 SUMMARY:CUSSIGNACCO CALCIO – CALCIO MANIAGO VAJONT (Under 15 regionali 
@@ -531,7 +531,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-381afc49@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T103000
 DTEND;TZID=Europe/Rome:20270110T123000
 SUMMARY:ZARJA A.S.D. – CUSSIGNACCO CALCIO (Under 17 regionali — girone 
@@ -544,7 +544,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-c9572779@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T143000
 DTEND;TZID=Europe/Rome:20270110T163000
 SUMMARY:CUSSIGNACCO CALCIO – SISTIANA SESLJAN (Promozione — girone A)
@@ -556,7 +556,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-8d4d2d70@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270116T173000
 DTEND;TZID=Europe/Rome:20270116T193000
 SUMMARY:SANGIORGINA – CUSSIGNACCO CALCIO (Under 18 regionali — girone A
@@ -569,7 +569,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-a9207250@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T103000
 DTEND;TZID=Europe/Rome:20270117T123000
 SUMMARY:CUSSIGNACCO CALCIO – NUOVO PORDENONE 2024 FC (Under 17 regionali 
@@ -582,7 +582,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-a680fc2e@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T113000
 DTEND;TZID=Europe/Rome:20270117T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – CUSSIGNACCO CALCIO (Under 15 regionali 
@@ -595,7 +595,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-39d0e82d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T143000
 DTEND;TZID=Europe/Rome:20270117T163000
 SUMMARY:CENTRO SEDIA CALCIO NAT – CUSSIGNACCO CALCIO (Promozione — giro
@@ -607,7 +607,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-f513a034@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T103000
 DTEND;TZID=Europe/Rome:20270124T123000
 SUMMARY:CUSSIGNACCO CALCIO – CJARLINS MUZANE (Under 15 regionali — giro
@@ -620,7 +620,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-a1561c24@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T103000
 DTEND;TZID=Europe/Rome:20270124T123000
 SUMMARY:PRO GORIZIA – CUSSIGNACCO CALCIO (Under 17 regionali — girone A
@@ -633,7 +633,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-d9159a5a@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T143000
 DTEND;TZID=Europe/Rome:20270124T163000
 SUMMARY:CUSSIGNACCO CALCIO – MARANESE (Promozione — girone A)
@@ -645,7 +645,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-f127146f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270130T173000
 DTEND;TZID=Europe/Rome:20270130T193000
 SUMMARY:CUSSIGNACCO CALCIO – BRIAN LIGNANO CALCIO (Under 18 regionali —
@@ -658,7 +658,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-924f3b1c@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T103000
 DTEND;TZID=Europe/Rome:20270131T123000
 SUMMARY:MANZANESE CALCIO – CUSSIGNACCO CALCIO (Under 15 regionali — gir
@@ -671,7 +671,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-68c808ca@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T103000
 DTEND;TZID=Europe/Rome:20270131T123000
 SUMMARY:CUSSIGNACCO CALCIO – MANZANESE CALCIO (Under 17 regionali — gir
@@ -684,7 +684,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-b703e64d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T143000
 DTEND;TZID=Europe/Rome:20270131T163000
 SUMMARY:ANCONA LUMIGNACCO – CUSSIGNACCO CALCIO (Promozione — girone A)
@@ -696,7 +696,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-1c0f02fe@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270206T173000
 DTEND;TZID=Europe/Rome:20270206T193000
 SUMMARY:COMUNALE FONTANAFREDDA – CUSSIGNACCO CALCIO (Under 18 regionali 
@@ -709,7 +709,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-6acf1e6b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T103000
 DTEND;TZID=Europe/Rome:20270207T123000
 SUMMARY:CUSSIGNACCO CALCIO – SAN LUIGI CALCIO (Under 15 regionali — gir
@@ -722,7 +722,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-eab73881@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T103000
 DTEND;TZID=Europe/Rome:20270207T123000
 SUMMARY:SAN LUIGI CALCIO – CUSSIGNACCO CALCIO (Under 17 regionali — gir
@@ -735,7 +735,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-a255a4c7@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T143000
 DTEND;TZID=Europe/Rome:20270207T163000
 SUMMARY:CUSSIGNACCO CALCIO – CORVA (Promozione — girone A)
@@ -747,7 +747,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-07d0d82a@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270213T173000
 DTEND;TZID=Europe/Rome:20270213T193000
 SUMMARY:CUSSIGNACCO CALCIO – TORRE (Under 18 regionali — girone A)
@@ -759,7 +759,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-dc5c633f@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270214T103000
 DTEND;TZID=Europe/Rome:20270214T123000
 SUMMARY:ANCONA LUMIGNACCO – CUSSIGNACCO CALCIO (Under 15 regionali — gi
@@ -772,7 +772,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-c5a0cea9@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270214T103000
 DTEND;TZID=Europe/Rome:20270214T123000
 SUMMARY:CUSSIGNACCO CALCIO – ANCONA LUMIGNACCO (Under 17 regionali — gi
@@ -785,7 +785,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-d425ca6e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270214T143000
 DTEND;TZID=Europe/Rome:20270214T163000
 SUMMARY:SANT ANDREA SAN VITO – CUSSIGNACCO CALCIO (Promozione — girone 
@@ -798,7 +798,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-9c23306b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270220T173000
 DTEND;TZID=Europe/Rome:20270220T193000
 SUMMARY:CHIONS – CUSSIGNACCO CALCIO (Under 18 regionali — girone A)
@@ -810,7 +810,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-74b65b0c@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T103000
 DTEND;TZID=Europe/Rome:20270221T123000
 SUMMARY:CUSSIGNACCO CALCIO – SANVITESE (Under 15 regionali — girone A)
@@ -822,7 +822,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-28e7ea77@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T103000
 DTEND;TZID=Europe/Rome:20270221T123000
 SUMMARY:DONATELLO CALCIO A.S.D. – CUSSIGNACCO CALCIO (Under 17 regionali 
@@ -835,7 +835,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-5f6c9011@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T143000
 DTEND;TZID=Europe/Rome:20270221T163000
 SUMMARY:CUSSIGNACCO CALCIO – BUJESE CALCIO (Promozione — girone A)
@@ -847,7 +847,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-668a529e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270223T190000
 DTEND;TZID=Europe/Rome:20270223T210000
 SUMMARY:CUSSIGNACCO CALCIO – POLISPORTIVA TAMAI ASD (Under 18 regionali 
@@ -860,7 +860,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-2acb0a7e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270227T173000
 DTEND;TZID=Europe/Rome:20270227T193000
 SUMMARY:U.FINCANTIERI MONFALCONE – CUSSIGNACCO CALCIO (Under 18 regionali
@@ -873,7 +873,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-b671f929@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T103000
 DTEND;TZID=Europe/Rome:20270228T123000
 SUMMARY:UDINE UNITED RIZZI CORMOR – CUSSIGNACCO CALCIO (Under 15 regional
@@ -886,7 +886,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-95a94415@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T103000
 DTEND;TZID=Europe/Rome:20270228T123000
 SUMMARY:CUSSIGNACCO CALCIO – PRO FAGAGNA (Under 17 regionali — girone A
@@ -899,7 +899,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-f2805516@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T150000
 DTEND;TZID=Europe/Rome:20270228T170000
 SUMMARY:CORNO CALCIO 1929 – CUSSIGNACCO CALCIO (Promozione — girone A)
@@ -911,7 +911,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-7df60830@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270306T173000
 DTEND;TZID=Europe/Rome:20270306T193000
 SUMMARY:CUSSIGNACCO CALCIO – NUOVO PORDENONE 2024 FC (Under 18 regionali 
@@ -924,7 +924,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-a0007a83@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270307T103000
 DTEND;TZID=Europe/Rome:20270307T123000
 SUMMARY:CUSSIGNACCO CALCIO – COMUNALE FONTANAFREDDA (Under 15 regionali 
@@ -937,7 +937,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-a251dcfd@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270307T103000
 DTEND;TZID=Europe/Rome:20270307T123000
 SUMMARY:U.FINCANTIERI MONFALCONE – CUSSIGNACCO CALCIO (Under 17 regionali
@@ -950,7 +950,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-35408c45@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270307T150000
 DTEND;TZID=Europe/Rome:20270307T170000
 SUMMARY:CUSSIGNACCO CALCIO – UNION MARTIGNACCO (Promozione — girone A)
@@ -962,7 +962,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-fb02a703@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270309T190000
 DTEND;TZID=Europe/Rome:20270309T210000
 SUMMARY:FIUME VENETO -BANNIA – CUSSIGNACCO CALCIO (Under 18 regionali —
@@ -975,7 +975,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-e2d3ec34@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270313T173000
 DTEND;TZID=Europe/Rome:20270313T193000
 SUMMARY:CUSSIGNACCO CALCIO – SANTAMARIA (Under 18 regionali — girone A)
@@ -987,7 +987,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-aa2b656d@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T103000
 DTEND;TZID=Europe/Rome:20270314T123000
 SUMMARY:TRIESTINA CALCIO 1918 SRL – CUSSIGNACCO CALCIO (Under 15 regional
@@ -1000,7 +1000,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-9b75f1b8@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T103000
 DTEND;TZID=Europe/Rome:20270314T123000
 SUMMARY:CUSSIGNACCO CALCIO – COMUNALE FONTANAFREDDA (Under 17 regionali 
@@ -1013,7 +1013,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-001c8f8f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T150000
 DTEND;TZID=Europe/Rome:20270314T170000
 SUMMARY:RIVE D ARCANO FLAIBANO – CUSSIGNACCO CALCIO (Promozione — giron
@@ -1026,7 +1026,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-f0c44ef1@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270320T173000
 DTEND;TZID=Europe/Rome:20270320T193000
 SUMMARY:PALMARKET PAGNACCO – CUSSIGNACCO CALCIO (Under 18 regionali — g
@@ -1039,7 +1039,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-2db07328@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270321T103000
 DTEND;TZID=Europe/Rome:20270321T123000
 SUMMARY:CUSSIGNACCO CALCIO – PRO FAGAGNA (Under 15 regionali — girone A
@@ -1052,7 +1052,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-54f6db1f@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270321T103000
 DTEND;TZID=Europe/Rome:20270321T123000
 SUMMARY:S.P.A.L.CORDOVADO – CUSSIGNACCO CALCIO (Under 17 regionali — gi
@@ -1066,7 +1066,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-f0612841@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270331T200000
 DTEND;TZID=Europe/Rome:20270331T220000
 SUMMARY:CUSSIGNACCO CALCIO – DEPORTIVO JUNIOR (Promozione — girone A)
@@ -1078,7 +1078,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-dd65b4ee@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270403T173000
 DTEND;TZID=Europe/Rome:20270403T193000
 SUMMARY:CUSSIGNACCO CALCIO – S.GOTTARDO (Under 18 regionali — girone A)
@@ -1090,7 +1090,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-373ba541@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T103000
 DTEND;TZID=Europe/Rome:20270404T123000
 SUMMARY:CUSSIGNACCO CALCIO – CJARLINS MUZANE (Under 17 regionali — giro
@@ -1103,7 +1103,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-9ff15e5c@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T111500
 DTEND;TZID=Europe/Rome:20270404T131500
 SUMMARY:SANT ANDREA SAN VITO – CUSSIGNACCO CALCIO (Under 15 regionali —
@@ -1116,7 +1116,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-cdc8244e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T160000
 DTEND;TZID=Europe/Rome:20270404T180000
 SUMMARY:PRO CERVIGNANO RUDA – CUSSIGNACCO CALCIO (Promozione — girone A
@@ -1129,7 +1129,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-b16ff0c1@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270410T173000
 DTEND;TZID=Europe/Rome:20270410T193000
 SUMMARY:MUGGIA 1967 – CUSSIGNACCO CALCIO (Under 18 regionali — girone A
@@ -1142,7 +1142,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-bc434897@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270411T103000
 DTEND;TZID=Europe/Rome:20270411T123000
 SUMMARY:CUSSIGNACCO CALCIO – TRIESTE VICTORY ACADEMY (Under 15 regionali 
@@ -1155,7 +1155,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-aec3ad1a@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270411T113000
 DTEND;TZID=Europe/Rome:20270411T133000
 SUMMARY:BRIAN LIGNANO CALCIO – CUSSIGNACCO CALCIO (Under 17 regionali —
@@ -1168,7 +1168,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-bc9a90cb@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270411T160000
 DTEND;TZID=Europe/Rome:20270411T180000
 SUMMARY:CUSSIGNACCO CALCIO – UNION PASIANO (Promozione — girone A)
@@ -1180,7 +1180,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-cf1cc40b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270417T173000
 DTEND;TZID=Europe/Rome:20270417T193000
 SUMMARY:CUSSIGNACCO CALCIO – RIVE D ARCANO FLAIBANO (Under 18 regionali 
@@ -1193,7 +1193,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-47bd5772@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270418T103000
 DTEND;TZID=Europe/Rome:20270418T123000
 SUMMARY:CUSSIGNACCO CALCIO – TRIESTE VICTORY ACADEMY (Under 17 regionali 
@@ -1206,7 +1206,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-2d969ca7@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270418T113000
 DTEND;TZID=Europe/Rome:20270418T133000
 SUMMARY:OPICINA – CUSSIGNACCO CALCIO (Under 15 regionali — girone A)
@@ -1218,7 +1218,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-4d091d29@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270418T160000
 DTEND;TZID=Europe/Rome:20270418T180000
 SUMMARY:CUSSIGNACCO CALCIO – FIUME VENETO -BANNIA (Promozione — girone 
@@ -1231,7 +1231,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-a65a24d3@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270424T173000
 DTEND;TZID=Europe/Rome:20270424T193000
 SUMMARY:UNION MARTIGNACCO – CUSSIGNACCO CALCIO (Under 18 regionali — gi
@@ -1244,7 +1244,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-da47f2ed@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270425T103000
 DTEND;TZID=Europe/Rome:20270425T123000
 SUMMARY:TOLMEZZO CARNIA – CUSSIGNACCO CALCIO (Under 17 regionali — giro
@@ -1257,7 +1257,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-7444e34d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270425T160000
 DTEND;TZID=Europe/Rome:20270425T180000
 SUMMARY:TRICESIMO CALCIO – CUSSIGNACCO CALCIO (Promozione — girone A)
@@ -1269,7 +1269,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-51c019ee@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270501T173000
 DTEND;TZID=Europe/Rome:20270501T193000
 SUMMARY:CUSSIGNACCO CALCIO – SANT ANDREA SAN VITO (Under 18 regionali —
@@ -1282,7 +1282,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-ce14aacb@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270502T103000
 DTEND;TZID=Europe/Rome:20270502T123000
 SUMMARY:CUSSIGNACCO CALCIO – DONATELLO CALCIO A.S.D. (Under 15 regionali 
@@ -1295,7 +1295,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-04f8cb4f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270502T160000
 DTEND;TZID=Europe/Rome:20270502T180000
 SUMMARY:CUSSIGNACCO CALCIO – FIUMICELLO 2004 (Promozione — girone A)
@@ -1307,7 +1307,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-promozione-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-8f94bc63@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270508T173000
 DTEND;TZID=Europe/Rome:20270508T193000
 SUMMARY:BUJESE CALCIO – CUSSIGNACCO CALCIO (Under 18 regionali — girone
@@ -1320,7 +1320,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-1d32ba27@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T103000
 DTEND;TZID=Europe/Rome:20270509T123000
 SUMMARY:CALCIO SACILE 2026 – CUSSIGNACCO CALCIO (Under 15 regionali — g
@@ -1333,7 +1333,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-cc86b883@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T103000
 DTEND;TZID=Europe/Rome:20270509T123000
 SUMMARY:CUSSIGNACCO CALCIO – SANVITESE (Under 17 regionali — girone A)
@@ -1345,7 +1345,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-promozione-a-a32752c3@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T160000
 DTEND;TZID=Europe/Rome:20270509T180000
 SUMMARY:TRIESTE VICTORY ACADEMY – CUSSIGNACCO CALCIO (Promozione — giro

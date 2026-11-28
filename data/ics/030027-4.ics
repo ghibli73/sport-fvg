@@ -25,19 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-u19-gold-a-1a9e9f6b@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261027T190000
-DTEND;TZID=Europe/Rome:20261027T210000
-SUMMARY:VIS SPILIMBERGO 63-81 GP Engineering di Paron (Under 19 Maschile Go
- ld — girone A)
-LOCATION:Palazzetto dello Sport\, Spilimbergo
-DESCRIPTION:Under 19 Maschile Gold — girone A\n4ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-u19-gold-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u13-ud-a-0a64b234@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261029T180000
@@ -418,7 +405,7 @@ DTSTART;TZID=Europe/Rome:20261123T190000
 DTEND;TZID=Europe/Rome:20261123T210000
 SUMMARY:PALL. CODROIPESE 64-68 POL. DLF DI UDINE (Under 19 Maschile Regiona
  le — girone UD (prima fase))
-LOCATION:Palazzetto dello Sport\, Codroipo
+LOCATION:Palazzetto Dello Sport\, Codroipo
 DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n4ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u19-regionale-ud
@@ -431,32 +418,19 @@ DTSTART;TZID=Europe/Rome:20261124T190000
 DTEND;TZID=Europe/Rome:20261124T210000
 SUMMARY:Gemona Basket 92-32 Pall. Codroipese (Under 14 Maschile Regionale 
  — girone PN/UD)
-LOCATION:Palestra IPSIA\, Gemona del Friuli
+LOCATION:Palestra Ipsia\, Gemona Del Friuli
 DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n4ª giornata\nDat
  i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
  fvg/#g-basket-u14-regionale-pn-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-dr3-ud-efe7e557@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20261126T204500
-DTEND;TZID=Europe/Rome:20261126T224500
-SUMMARY:PALL. TOLMEZZO – MONTGOMERY HAMBURGER HOUSE 'B' (Divisione Region
- ale 3 — girone UD)
-LOCATION:Palestra Scolastica\, Tolmezzo
-DESCRIPTION:Divisione Regionale 3 — girone UD\n7ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-dr3-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u17-gold-ud-67c4b823@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261127T190000
 DTEND;TZID=Europe/Rome:20261127T210000
-SUMMARY:FELETTO BASKETBALL ACADEMY – GP Engineering di Paron (Under 17 Ma
- schile Gold — girone UD (prima fase))
+SUMMARY:FELETTO BASKETBALL ACADEMY 59-68 GP Engineering di Paron (Under 17 
+ Maschile Gold — girone UD (prima fase))
 LOCATION:Palestra\, Tavagnacco
 DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n7ª giornata
  \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
@@ -607,19 +581,6 @@ DESCRIPTION:Under 19 Maschile Gold — girone A\n8ª giornata\nDati non uff
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-a
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u14-regionale-pn-ud-37c9a277@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261205T163000
-DTEND;TZID=Europe/Rome:20261205T183000
-SUMMARY:Collinare Basket – Pall. Codroipese (Under 14 Maschile Regionale 
- — girone PN/UD)
-LOCATION:Palestra\, Fagagna
-DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n6ª giornata\nDat
- i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
- fvg/#g-basket-u14-regionale-pn-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u17-gold-ud-0f993c8a@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261205T183000
@@ -657,6 +618,19 @@ DESCRIPTION:Under 13 Maschile — girone UD A\n6ª giornata\nDati non uffic
  iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
  et-u13-ud-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u14-regionale-pn-ud-37c9a277@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261206T100000
+DTEND;TZID=Europe/Rome:20261206T120000
+SUMMARY:Collinare Basket – Pall. Codroipese (Under 14 Maschile Regionale 
+ — girone PN/UD)
+LOCATION:Palestra\, Fagagna
+DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n6ª giornata\nDat
+ i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
+ fvg/#g-basket-u14-regionale-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u15-eccellenza-13ceb2e0@zuin-fvg
@@ -717,7 +691,7 @@ DTSTART;TZID=Europe/Rome:20261211T210000
 DTEND;TZID=Europe/Rome:20261211T230000
 SUMMARY:Pol. Lib. Pasian di Prato – C.T.S. (Divisione Regionale 1 — gir
  one Ovest)
-LOCATION:(Udine)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
 DESCRIPTION:Divisione Regionale 1 — girone Ovest\n11ª giornata\nDati non
   ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
  g-basket-dr1-ovest
@@ -795,7 +769,7 @@ DTSTART;TZID=Europe/Rome:20261214T173000
 DTEND;TZID=Europe/Rome:20261214T193000
 SUMMARY:APU NEXT GEN – MONTGOMERY HAMBURGER HOUSE (Under 17 Maschile Regi
  onale — girone UD (prima fase))
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n9ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u17-regionale-ud
@@ -898,7 +872,7 @@ DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261220T180000
 DTEND;TZID=Europe/Rome:20261220T200000
 SUMMARY:Pol. Casarsa – C.T.S. (Divisione Regionale 1 — girone Ovest)
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Divisione Regionale 1 — girone Ovest\n12ª giornata\nDati non
   ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
  g-basket-dr1-ovest
@@ -937,7 +911,7 @@ DTSTART;TZID=Europe/Rome:20270109T163000
 DTEND;TZID=Europe/Rome:20270109T183000
 SUMMARY:Torre Basket – Pall. Codroipese (Under 14 Maschile Regionale — 
  girone PN/UD)
-LOCATION:(Pordenone)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
 DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n9ª giornata\nDat
  i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
  fvg/#g-basket-u14-regionale-pn-ud
@@ -1014,7 +988,7 @@ DTSTART;TZID=Europe/Rome:20270111T193000
 DTEND;TZID=Europe/Rome:20270111T213000
 SUMMARY:POL LIB. PASIAN DI PRATO – PALL. CODROIPESE (Under 19 Maschile Re
  gionale — girone UD (prima fase))
-LOCATION:(Udine)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
 DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n9ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u19-regionale-ud
@@ -1176,19 +1150,6 @@ DESCRIPTION:Under 13 Maschile — girone UD A\n11ª giornata\nDati non uffi
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-ud-a-cd682bb6@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270124T093000
-DTEND;TZID=Europe/Rome:20270124T113000
-SUMMARY:PALL. CODROIPESE 'A' – COLLINARE BASKET (Under 13 Maschile — gi
- rone UD A)
-LOCATION:Palazzetto Dello Sport\, Codroipo
-DESCRIPTION:Under 13 Maschile — girone UD A\n11ª giornata\nDati non uffi
- ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
- ket-u13-ud-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-esordienti-ud-b-59405e3a@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270124T093000
@@ -1200,6 +1161,19 @@ DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n6ª giornata\nDati
  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
  g/#g-basket-esordienti-ud-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-cd682bb6@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270124T093000
+DTEND;TZID=Europe/Rome:20270124T113000
+SUMMARY:PALL. CODROIPESE 'A' – COLLINARE BASKET (Under 13 Maschile — gi
+ rone UD A)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 13 Maschile — girone UD A\n11ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-gold-ud-34e860b4@zuin-fvg
@@ -1234,7 +1208,7 @@ DTSTART;TZID=Europe/Rome:20270127T183000
 DTEND;TZID=Europe/Rome:20270127T203000
 SUMMARY:POL. DLF DI UDINE – PALL. CODROIPESE (Under 19 Maschile Regionale
   — girone UD (prima fase))
-LOCATION:Pal. Sc.E. "Ada Negri"\, Udine
+LOCATION:Pal. Sc.E. 'Ada Negri'\, Udine
 DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n11ª gi
  ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
  b.io/sport-fvg/#g-basket-u19-regionale-ud
@@ -1246,7 +1220,7 @@ DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20270129T204500
 DTEND;TZID=Europe/Rome:20270129T224500
 SUMMARY:Torre Basket – C.T.S. (Divisione Regionale 1 — girone Ovest)
-LOCATION:(Pordenone)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
 DESCRIPTION:Divisione Regionale 1 — girone Ovest\n16ª giornata\nDati non
   ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
  g-basket-dr1-ovest
@@ -1363,7 +1337,7 @@ DTSTART;TZID=Europe/Rome:20270205T180000
 DTEND;TZID=Europe/Rome:20270205T200000
 SUMMARY:Azzano Basket – Pall. Codroipese (Under 14 Maschile Regionale —
   girone PN/UD)
-LOCATION:(Pordenone)
+LOCATION:Palazzetto 'Matteo Molent'\, Azzano Decimo
 DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n13ª giornata\nDa
  ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
  -fvg/#g-basket-u14-regionale-pn-ud
@@ -1402,7 +1376,7 @@ DTSTART;TZID=Europe/Rome:20270206T193000
 DTEND;TZID=Europe/Rome:20270206T213000
 SUMMARY:Uattzy SBaMM – GP Engineering di Paron (Under 17 Maschile Gold 
  — girone UD (prima fase))
-LOCATION:Palestra Ist. " F. Tomadini "\, Udine
+LOCATION:Palestra Ist. ' F. Tomadini '\, Udine
 DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n15ª giornat
  a\nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/
  sport-fvg/#g-basket-u17-gold-ud
@@ -1615,19 +1589,6 @@ DESCRIPTION:Divisione Regionale 1 — girone Ovest\n19ª giornata\nDati non
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr1-ovest
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-ud-a-22cd4453@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270221T093000
-DTEND;TZID=Europe/Rome:20270221T113000
-SUMMARY:PALL. CODROIPESE 'A' – UDINE BASKET CLUB (Under 13 Maschile — g
- irone UD A)
-LOCATION:Palazzetto Dello Sport\, Codroipo
-DESCRIPTION:Under 13 Maschile — girone UD A\n15ª giornata\nDati non uffi
- ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
- ket-u13-ud-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-esordienti-ud-b-16202b64@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270221T093000
@@ -1639,6 +1600,19 @@ DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n8ª giornata\nDati
  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
  g/#g-basket-esordienti-ud-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-22cd4453@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270221T093000
+DTEND;TZID=Europe/Rome:20270221T113000
+SUMMARY:PALL. CODROIPESE 'A' – UDINE BASKET CLUB (Under 13 Maschile — g
+ irone UD A)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 13 Maschile — girone UD A\n15ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-gold-ud-87eb34d5@zuin-fvg
@@ -1836,19 +1810,6 @@ DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n18ª giornata\nDa
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-pn-ud
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-ud-a-24e2e224@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270314T093000
-DTEND;TZID=Europe/Rome:20270314T113000
-SUMMARY:PALL. CODROIPESE '2015' – UDINE BASKET CLUB (Under 13 Maschile 
- — girone UD A)
-LOCATION:Palazzetto Dello Sport\, Codroipo
-DESCRIPTION:Under 13 Maschile — girone UD A\n18ª giornata\nDati non uffi
- ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
- ket-u13-ud-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-esordienti-ud-b-e5c6561e@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20270314T093000
@@ -1860,6 +1821,19 @@ DESCRIPTION:Trofeo Esordienti Under 12 — girone UD B\n10ª giornata\nDati
   non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
  vg/#g-basket-esordienti-ud-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-b
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-ud-a-24e2e224@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270314T093000
+DTEND;TZID=Europe/Rome:20270314T113000
+SUMMARY:PALL. CODROIPESE '2015' – UDINE BASKET CLUB (Under 13 Maschile 
+ — girone UD A)
+LOCATION:Palazzetto Dello Sport\, Codroipo
+DESCRIPTION:Under 13 Maschile — girone UD A\n18ª giornata\nDati non uffi
+ ciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bas
+ ket-u13-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u13-ud-a-90c3e047@zuin-fvg
@@ -2050,7 +2024,7 @@ DTSTART;TZID=Europe/Rome:20270425T110000
 DTEND;TZID=Europe/Rome:20270425T130000
 SUMMARY:Pol. Casarsa – Pall. Codroipese (Under 14 Maschile Regionale — 
  girone PN/UD)
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n23ª giornata\nDa
  ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
  -fvg/#g-basket-u14-regionale-pn-ud

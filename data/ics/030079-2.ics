@@ -25,19 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-serie-c-femminile-61192ea8@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20261027T204500
-DTEND;TZID=Europe/Rome:20261027T224500
-SUMMARY:Pozzuolo Basket 43-69 Pall. Interclub Muggia (Serie C femminile —
-  girone unico (prima fase))
-LOCATION:Polisportivo Comunale\, Pozzuolo del Friuli
-DESCRIPTION:Serie C femminile — girone unico (prima fase)\n1ª giornata\n
- Dati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spo
- rt-fvg/#g-basket-serie-c-femminile
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-femminile
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u13-ud-a-0a64b234@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261029T180000
@@ -252,24 +239,11 @@ DTSTART;TZID=Europe/Rome:20261125T193000
 DTEND;TZID=Europe/Rome:20261125T213000
 SUMMARY:APU Next Gen 72-36 Pozzuolo Basket (Under 14 Maschile Gold — giro
  ne B (prima fase))
-LOCATION:Palazzetto M. Benedetti\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n5ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-gold-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-gold-b
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-dr3-ud-798dde5c@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20261127T210000
-DTEND;TZID=Europe/Rome:20261127T230000
-SUMMARY:POZZUOLO BASKET – MAJANESE 'B' (Divisione Regionale 3 — girone 
- UD)
-LOCATION:Polisportivo Comunale\, Pozzuolo Del Friuli
-DESCRIPTION:Divisione Regionale 3 — girone UD\n8ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-dr3-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-gold-b-e2cb444f@zuin-fvg
@@ -337,6 +311,19 @@ DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n6ª giornata\
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u13-femminile-pn-ud-c6e6779a@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261201T170000
+DTEND;TZID=Europe/Rome:20261201T190000
+SUMMARY:POZZUOLO BASKET – POL. LIBERTAS CUSSIGNACCO (Under 13 Femminile 
+ — girone PN/UD (prima fase))
+LOCATION:Polisportivo Comunale\, Pozzuolo Del Friuli
+DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n5ª giornata\
+ nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
+ ort-fvg/#g-basket-u13-femminile-pn-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-femminile-pn-ud
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-dr3-ud-571b16a7@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261205T180000
@@ -382,7 +369,7 @@ DTSTART;TZID=Europe/Rome:20261206T153000
 DTEND;TZID=Europe/Rome:20261206T173000
 SUMMARY:SISTEMA ROSA PALL. – POZZUOLO BASKET (Under 13 Femminile — giro
  ne PN/UD (prima fase))
-LOCATION:(Pordenone)
+LOCATION:Palasport 'Crisafulli'\, Pordenone
 DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n7ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u13-femminile-pn-ud
@@ -512,7 +499,7 @@ DTSTART;TZID=Europe/Rome:20261220T110000
 DTEND;TZID=Europe/Rome:20261220T130000
 SUMMARY:Longobardi – Pozzuolo Basket (Under 14 Maschile Gold — girone B
   (prima fase))
-LOCATION:(Udine)
+LOCATION:Palestra Sc. 'Ipolito Nievo'\, Remanzacco
 DESCRIPTION:Under 14 Maschile Gold — girone B (prima fase)\n9ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-gold-b
@@ -720,7 +707,7 @@ DTSTART;TZID=Europe/Rome:20270128T183000
 DTEND;TZID=Europe/Rome:20270128T203000
 SUMMARY:APU NEXT GEN – POZZUOLO BASKET (Under 13 Femminile — girone PN/
  UD (prima fase))
-LOCATION:Palestra Sc. "Marconi"\, Udine
+LOCATION:Palestra Sc. 'Marconi'\, Udine
 DESCRIPTION:Under 13 Femminile — girone PN/UD (prima fase)\n13ª giornata
  \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
  port-fvg/#g-basket-u13-femminile-pn-ud

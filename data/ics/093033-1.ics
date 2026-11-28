@@ -25,29 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:calcio-under-18-regionali-a-4432e653@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-SUMMARY:NUOVO PORDENONE 2024 FC 6-2 CHIAVRIS (Under 18 regionali — girone
-  A)
-DESCRIPTION:Under 18 regionali — girone A\n8ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-18-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-19-regionali-a-571bd543@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-SUMMARY:CORVA 1-5 NUOVO PORDENONE 2024 FC (Under 19 regionali — girone A)
-DESCRIPTION:Under 19 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-19-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-eccellenza-a-be5fb6df@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;VALUE=DATE:20261031
@@ -61,7 +38,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-5bdfef71@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:SANGIORGINA 1-1 NUOVO PORDENONE 2024 FC (Under 18 regionali — gir
@@ -84,30 +61,6 @@ DESCRIPTION:Under 19 regionali — girone A\n10ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-92812d2b@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:SAN LUIGI CALCIO 1-1 NUOVO PORDENONE 2024 FC (Under 15 regionali 
- — girone A)
-DESCRIPTION:Under 15 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-da0d0e76@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:NUOVO PORDENONE 2024 FC 2-2 ANCONA LUMIGNACCO (Under 17 regionali 
- — girone A)
-DESCRIPTION:Under 17 regionali — girone A\n9ª giornata\nDati non ufficia
- li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
- -under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-udi-under-15-provinciali-a-7c89238b@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -121,8 +74,32 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-92812d2b@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SAN LUIGI CALCIO 1-1 NUOVO PORDENONE 2024 FC (Under 15 regionali 
+ — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-da0d0e76@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:NUOVO PORDENONE 2024 FC 2-2 ANCONA LUMIGNACCO (Under 17 regionali 
+ — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n9ª giornata\nDati non ufficia
+ li: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calcio
+ -under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-02b2088c@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:NUOVO PORDENONE 2024 FC 3-0 CUSSIGNACCO CALCIO (Under 18 regionali 
@@ -157,30 +134,6 @@ DESCRIPTION:Eccellenza — girone A\n10ª giornata\nDati non ufficiali: fa
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-d4680f74@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:NUOVO PORDENONE 2024 FC 1-0 ANCONA LUMIGNACCO (Under 15 regionali 
- — girone A)
-DESCRIPTION:Under 15 regionali — girone A\n10ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-cf7f953b@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:DONATELLO CALCIO A.S.D. 1-0 NUOVO PORDENONE 2024 FC (Under 17 regio
- nali — girone A)
-DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-udi-under-15-provinciali-a-5e33e9a8@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261108
@@ -194,8 +147,32 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-d4680f74@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:NUOVO PORDENONE 2024 FC 1-0 ANCONA LUMIGNACCO (Under 15 regionali 
+ — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-cf7f953b@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:DONATELLO CALCIO A.S.D. 1-0 NUOVO PORDENONE 2024 FC (Under 17 regio
+ nali — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n10ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-38c701c7@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:BRIAN LIGNANO CALCIO 3-2 NUOVO PORDENONE 2024 FC (Under 18 regional
@@ -231,7 +208,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-e183219c@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:NUOVO PORDENONE 2024 FC 3-2 COMUNALE FONTANAFREDDA (Under 18 region
@@ -254,30 +231,6 @@ DESCRIPTION:Under 19 regionali — girone A\n13ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-a9c4b0a7@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:SANVITESE 2-2 NUOVO PORDENONE 2024 FC (Under 15 regionali — giron
- e A)
-DESCRIPTION:Under 15 regionali — girone A\n11ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-827d41d9@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:NUOVO PORDENONE 2024 FC 2-1 PRO FAGAGNA (Under 17 regionali — gir
- one A)
-DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-udi-under-15-provinciali-a-3dee5cf8@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261115
@@ -289,6 +242,30 @@ DESCRIPTION:Under 15 provinciali — girone A\n8ª giornata\nDati non uffic
  io-udi-under-15-provinciali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-15-regionali-a-a9c4b0a7@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SANVITESE 2-2 NUOVO PORDENONE 2024 FC (Under 15 regionali — giron
+ e A)
+DESCRIPTION:Under 15 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-15-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-827d41d9@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:NUOVO PORDENONE 2024 FC 2-1 PRO FAGAGNA (Under 17 regionali — gir
+ one A)
+DESCRIPTION:Under 17 regionali — girone A\n11ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-cf5fdaa6@zuin-fvg
@@ -315,30 +292,6 @@ DESCRIPTION:Eccellenza — girone A\n12ª giornata\nDati non ufficiali: fa
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-57a8cce2@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:NUOVO PORDENONE 2024 FC 4-2 UDINE UNITED RIZZI CORMOR (Under 15 reg
- ionali — girone A)
-DESCRIPTION:Under 15 regionali — girone A\n12ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-15-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
-END:VEVENT
-BEGIN:VEVENT
-UID:calcio-under-17-regionali-a-ccc4baff@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:U.FINCANTIERI MONFALCONE 1-2 NUOVO PORDENONE 2024 FC (Under 17 regi
- onali — girone A)
-DESCRIPTION:Under 17 regionali — girone A\n12ª giornata\nDati non uffici
- ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
- o-under-17-regionali-a
-URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
-END:VEVENT
-BEGIN:VEVENT
 UID:calcio-udi-under-15-provinciali-a-5698846c@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261122
@@ -352,17 +305,40 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-udi-under-15-provinciali
  -a
 END:VEVENT
 BEGIN:VEVENT
-UID:calcio-under-15-regionali-a-344118d6@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20261126T194500
-DTEND;TZID=Europe/Rome:20261126T214500
-SUMMARY:COMUNALE FONTANAFREDDA – NUOVO PORDENONE 2024 FC (Under 15 region
- ali — girone A)
-LOCATION:Tognon 2 Via Del Parco\, Fontanafredda
-DESCRIPTION:Under 15 regionali — girone A\n13ª giornata\nDati non uffici
+UID:calcio-under-15-regionali-a-57a8cce2@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:NUOVO PORDENONE 2024 FC 4-2 UDINE UNITED RIZZI CORMOR (Under 15 reg
+ ionali — girone A)
+DESCRIPTION:Under 15 regionali — girone A\n12ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-15-regionali-a
 URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-ccc4baff@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:U.FINCANTIERI MONFALCONE 1-2 NUOVO PORDENONE 2024 FC (Under 17 regi
+ onali — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n12ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
+END:VEVENT
+BEGIN:VEVENT
+UID:calcio-under-17-regionali-a-eaba69b8@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:NUOVO PORDENONE 2024 FC 2-0 COMUNALE FONTANAFREDDA (Under 17 region
+ ali — girone A)
+DESCRIPTION:Under 17 regionali — girone A\n13ª giornata\nDati non uffici
+ ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
+ o-under-17-regionali-a
+URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-19-regionali-a-380c9083@zuin-fvg
@@ -379,7 +355,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-ef154ddf@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261128T173000
 DTEND;TZID=Europe/Rome:20261128T193000
 SUMMARY:NUOVO PORDENONE 2024 FC – CHIONS (Under 18 regionali — girone A
@@ -392,12 +368,12 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-eaa49762@zuin-fvg
-DTSTAMP:20261124T000000Z
-DTSTART;TZID=Europe/Rome:20261129T113000
-DTEND;TZID=Europe/Rome:20261129T133000
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261129T103000
+DTEND;TZID=Europe/Rome:20261129T123000
 SUMMARY:NUOVO PORDENONE 2024 FC – TRIESTINA CALCIO 1918 SRL (Under 15 reg
  ionali — girone A)
-LOCATION:L. De Piero Cordenons\, Via Ponte Del Vado
+LOCATION:L. De Piero Via Ponte Del Vado\, Cordenons
 DESCRIPTION:Under 15 regionali — girone A\n14ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-calci
  o-under-15-regionali-a
@@ -417,7 +393,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-f85132ab@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261130T190000
 DTEND;TZID=Europe/Rome:20261130T210000
 SUMMARY:S.P.A.L.CORDOVADO – NUOVO PORDENONE 2024 FC (Under 17 regionali 
@@ -443,7 +419,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-37afdd96@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261205T173000
 DTEND;TZID=Europe/Rome:20261205T193000
 SUMMARY:POLISPORTIVA TAMAI ASD – NUOVO PORDENONE 2024 FC (Under 18 region
@@ -469,7 +445,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-676435a3@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261206T103000
 DTEND;TZID=Europe/Rome:20261206T123000
 SUMMARY:PRO FAGAGNA – NUOVO PORDENONE 2024 FC (Under 15 regionali — gir
@@ -482,7 +458,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-4c69a32d@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261206T113000
 DTEND;TZID=Europe/Rome:20261206T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – CJARLINS MUZANE (Under 17 regionali —
@@ -507,7 +483,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-0bfcb040@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261208T173000
 DTEND;TZID=Europe/Rome:20261208T193000
 SUMMARY:NUOVO PORDENONE 2024 FC – U.FINCANTIERI MONFALCONE (Under 18 regi
@@ -546,7 +522,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-bf708d4d@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T113000
 DTEND;TZID=Europe/Rome:20261213T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – SANT ANDREA SAN VITO (Under 15 regional
@@ -559,7 +535,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-68b0039d@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T113000
 DTEND;TZID=Europe/Rome:20261213T133000
 SUMMARY:BRIAN LIGNANO CALCIO – NUOVO PORDENONE 2024 FC (Under 17 regional
@@ -597,7 +573,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-db37ff78@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261219T173000
 DTEND;TZID=Europe/Rome:20261219T193000
 SUMMARY:FIUME VENETO -BANNIA – NUOVO PORDENONE 2024 FC (Under 18 regional
@@ -623,7 +599,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-ca03e89b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T103000
 DTEND;TZID=Europe/Rome:20261220T123000
 SUMMARY:TRIESTE VICTORY ACADEMY – NUOVO PORDENONE 2024 FC (Under 15 regio
@@ -636,7 +612,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-763a68b5@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261220T113000
 DTEND;TZID=Europe/Rome:20261220T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – TRIESTE VICTORY ACADEMY (Under 17 regio
@@ -649,7 +625,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-bec45785@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261222T190000
 DTEND;TZID=Europe/Rome:20261222T210000
 SUMMARY:NUOVO PORDENONE 2024 FC – SANTAMARIA (Under 18 regionali — giro
@@ -675,7 +651,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-ec1c1053@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270109T173000
 DTEND;TZID=Europe/Rome:20270109T193000
 SUMMARY:NUOVO PORDENONE 2024 FC – PALMARKET PAGNACCO (Under 18 regionali 
@@ -701,7 +677,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-8a156325@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T113000
 DTEND;TZID=Europe/Rome:20270110T133000
 SUMMARY:OPICINA – NUOVO PORDENONE 2024 FC (Under 15 regionali — girone 
@@ -714,7 +690,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-50b80578@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270110T113000
 DTEND;TZID=Europe/Rome:20270110T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – TOLMEZZO CARNIA (Under 17 regionali —
@@ -739,7 +715,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-30330d16@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270116T173000
 DTEND;TZID=Europe/Rome:20270116T193000
 SUMMARY:S.GOTTARDO – NUOVO PORDENONE 2024 FC (Under 18 regionali — giro
@@ -765,7 +741,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-a9207250@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T103000
 DTEND;TZID=Europe/Rome:20270117T123000
 SUMMARY:CUSSIGNACCO CALCIO – NUOVO PORDENONE 2024 FC (Under 17 regionali 
@@ -778,7 +754,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-a680fc2e@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270117T113000
 DTEND;TZID=Europe/Rome:20270117T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – CUSSIGNACCO CALCIO (Under 15 regionali 
@@ -803,7 +779,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-ac1d774d@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270123T173000
 DTEND;TZID=Europe/Rome:20270123T193000
 SUMMARY:NUOVO PORDENONE 2024 FC – MUGGIA 1967 (Under 18 regionali — gir
@@ -829,7 +805,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-c907c3b4@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T103000
 DTEND;TZID=Europe/Rome:20270124T123000
 SUMMARY:DONATELLO CALCIO A.S.D. – NUOVO PORDENONE 2024 FC (Under 15 regio
@@ -842,7 +818,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-2817e8b5@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270124T113000
 DTEND;TZID=Europe/Rome:20270124T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – SANVITESE (Under 17 regionali — giron
@@ -868,7 +844,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-8da8ba4f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270130T173000
 DTEND;TZID=Europe/Rome:20270130T193000
 SUMMARY:RIVE D ARCANO FLAIBANO – NUOVO PORDENONE 2024 FC (Under 18 region
@@ -894,7 +870,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-738928d8@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T103000
 DTEND;TZID=Europe/Rome:20270131T123000
 SUMMARY:ZARJA A.S.D. – NUOVO PORDENONE 2024 FC (Under 17 regionali — gi
@@ -907,7 +883,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-ce732244@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270131T113000
 DTEND;TZID=Europe/Rome:20270131T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – CALCIO SACILE 2026 (Under 15 regionali 
@@ -932,7 +908,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-f43a298b@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270206T173000
 DTEND;TZID=Europe/Rome:20270206T193000
 SUMMARY:NUOVO PORDENONE 2024 FC – UNION MARTIGNACCO (Under 18 regionali 
@@ -958,7 +934,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-9f0724fa@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270207T103000
 DTEND;TZID=Europe/Rome:20270207T123000
 SUMMARY:CALCIO MANIAGO VAJONT – NUOVO PORDENONE 2024 FC (Under 15 regiona
@@ -996,7 +972,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-4c48fb4e@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270213T180000
 DTEND;TZID=Europe/Rome:20270213T200000
 SUMMARY:SANT ANDREA SAN VITO – NUOVO PORDENONE 2024 FC (Under 18 regional
@@ -1009,7 +985,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-02d9c85c@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270214T113000
 DTEND;TZID=Europe/Rome:20270214T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – PRO GORIZIA (Under 17 regionali — gir
@@ -1035,7 +1011,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-258f6b27@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270220T173000
 DTEND;TZID=Europe/Rome:20270220T193000
 SUMMARY:NUOVO PORDENONE 2024 FC – BUJESE CALCIO (Under 18 regionali — g
@@ -1061,7 +1037,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-c2755526@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T103000
 DTEND;TZID=Europe/Rome:20270221T123000
 SUMMARY:MANZANESE CALCIO – NUOVO PORDENONE 2024 FC (Under 17 regionali 
@@ -1074,7 +1050,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-61ea0c87@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270221T113000
 DTEND;TZID=Europe/Rome:20270221T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – CJARLINS MUZANE (Under 15 regionali —
@@ -1100,7 +1076,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-017d128c@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270223T190000
 DTEND;TZID=Europe/Rome:20270223T210000
 SUMMARY:CHIAVRIS – NUOVO PORDENONE 2024 FC (Under 18 regionali — girone
@@ -1125,7 +1101,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-e034c03a@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270227T173000
 DTEND;TZID=Europe/Rome:20270227T193000
 SUMMARY:NUOVO PORDENONE 2024 FC – SANGIORGINA (Under 18 regionali — gir
@@ -1151,7 +1127,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-761de09f@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T103000
 DTEND;TZID=Europe/Rome:20270228T123000
 SUMMARY:MANZANESE CALCIO – NUOVO PORDENONE 2024 FC (Under 15 regionali 
@@ -1164,7 +1140,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-986538f5@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270228T113000
 DTEND;TZID=Europe/Rome:20270228T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – SAN LUIGI CALCIO (Under 17 regionali 
@@ -1190,7 +1166,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-7df60830@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270306T173000
 DTEND;TZID=Europe/Rome:20270306T193000
 SUMMARY:CUSSIGNACCO CALCIO – NUOVO PORDENONE 2024 FC (Under 18 regionali 
@@ -1216,7 +1192,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-dfa0e915@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270307T103000
 DTEND;TZID=Europe/Rome:20270307T123000
 SUMMARY:ANCONA LUMIGNACCO – NUOVO PORDENONE 2024 FC (Under 17 regionali 
@@ -1229,7 +1205,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-0abdafca@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270307T113000
 DTEND;TZID=Europe/Rome:20270307T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – SAN LUIGI CALCIO (Under 15 regionali 
@@ -1255,7 +1231,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-ca681cde@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270309T190000
 DTEND;TZID=Europe/Rome:20270309T210000
 SUMMARY:NUOVO PORDENONE 2024 FC – BRIAN LIGNANO CALCIO (Under 18 regional
@@ -1281,7 +1257,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-945fa503@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270313T173000
 DTEND;TZID=Europe/Rome:20270313T193000
 SUMMARY:COMUNALE FONTANAFREDDA – NUOVO PORDENONE 2024 FC (Under 18 region
@@ -1307,7 +1283,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-a973c46a@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T103000
 DTEND;TZID=Europe/Rome:20270314T123000
 SUMMARY:ANCONA LUMIGNACCO – NUOVO PORDENONE 2024 FC (Under 15 regionali 
@@ -1320,7 +1296,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-c6c18c91@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270314T113000
 DTEND;TZID=Europe/Rome:20270314T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – DONATELLO CALCIO A.S.D. (Under 17 regio
@@ -1359,7 +1335,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-668f2299@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270320T173000
 DTEND;TZID=Europe/Rome:20270320T193000
 SUMMARY:NUOVO PORDENONE 2024 FC – TORRE (Under 18 regionali — girone A)
@@ -1371,7 +1347,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-5aabfbe5@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270321T103000
 DTEND;TZID=Europe/Rome:20270321T123000
 SUMMARY:PRO FAGAGNA – NUOVO PORDENONE 2024 FC (Under 17 regionali — gir
@@ -1384,7 +1360,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-6f6dc0df@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270321T113000
 DTEND;TZID=Europe/Rome:20270321T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – SANVITESE (Under 15 regionali — giron
@@ -1410,7 +1386,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-80aed9e4@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270403T173000
 DTEND;TZID=Europe/Rome:20270403T193000
 SUMMARY:CHIONS – NUOVO PORDENONE 2024 FC (Under 18 regionali — girone A
@@ -1436,7 +1412,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-ef59dfa8@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T103000
 DTEND;TZID=Europe/Rome:20270404T123000
 SUMMARY:UDINE UNITED RIZZI CORMOR – NUOVO PORDENONE 2024 FC (Under 15 reg
@@ -1449,7 +1425,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-2e64cee9@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270404T113000
 DTEND;TZID=Europe/Rome:20270404T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – U.FINCANTIERI MONFALCONE (Under 17 regi
@@ -1475,7 +1451,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-132ab2bb@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270410T173000
 DTEND;TZID=Europe/Rome:20270410T193000
 SUMMARY:NUOVO PORDENONE 2024 FC – POLISPORTIVA TAMAI ASD (Under 18 region
@@ -1501,7 +1477,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-f503fbd5@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270411T113000
 DTEND;TZID=Europe/Rome:20270411T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – COMUNALE FONTANAFREDDA (Under 15 region
@@ -1514,7 +1490,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-f68da46b@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270411T114500
 DTEND;TZID=Europe/Rome:20270411T134500
 SUMMARY:COMUNALE FONTANAFREDDA – NUOVO PORDENONE 2024 FC (Under 17 region
@@ -1539,7 +1515,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-6f25712f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270417T173000
 DTEND;TZID=Europe/Rome:20270417T193000
 SUMMARY:U.FINCANTIERI MONFALCONE – NUOVO PORDENONE 2024 FC (Under 18 regi
@@ -1565,7 +1541,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-56efb395@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270418T103000
 DTEND;TZID=Europe/Rome:20270418T123000
 SUMMARY:TRIESTINA CALCIO 1918 SRL – NUOVO PORDENONE 2024 FC (Under 15 reg
@@ -1578,7 +1554,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-f6fc693c@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270418T113000
 DTEND;TZID=Europe/Rome:20270418T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – S.P.A.L.CORDOVADO (Under 17 regionali 
@@ -1617,7 +1593,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-86a4b5fc@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270425T103000
 DTEND;TZID=Europe/Rome:20270425T123000
 SUMMARY:CJARLINS MUZANE – NUOVO PORDENONE 2024 FC (Under 17 regionali —
@@ -1630,7 +1606,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-0ceebfc2@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270425T113000
 DTEND;TZID=Europe/Rome:20270425T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – PRO FAGAGNA (Under 15 regionali — gir
@@ -1655,7 +1631,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-f59a2b3f@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270501T173000
 DTEND;TZID=Europe/Rome:20270501T193000
 SUMMARY:NUOVO PORDENONE 2024 FC – FIUME VENETO -BANNIA (Under 18 regional
@@ -1681,7 +1657,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-19-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-2483f068@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270502T111500
 DTEND;TZID=Europe/Rome:20270502T131500
 SUMMARY:SANT ANDREA SAN VITO – NUOVO PORDENONE 2024 FC (Under 15 regional
@@ -1694,7 +1670,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-15-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-9bf54bf0@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270502T113000
 DTEND;TZID=Europe/Rome:20270502T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – BRIAN LIGNANO CALCIO (Under 17 regional
@@ -1720,7 +1696,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-eccellenza-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-18-regionali-a-1aa602a8@zuin-fvg
-DTSTAMP:20261125T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270508T173000
 DTEND;TZID=Europe/Rome:20270508T193000
 SUMMARY:SANTAMARIA – NUOVO PORDENONE 2024 FC (Under 18 regionali — giro
@@ -1733,7 +1709,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-18-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-17-regionali-a-f91934f0@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T103000
 DTEND;TZID=Europe/Rome:20270509T123000
 SUMMARY:TRIESTE VICTORY ACADEMY – NUOVO PORDENONE 2024 FC (Under 17 regio
@@ -1746,7 +1722,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-calcio-under-17-regionali-a
 END:VEVENT
 BEGIN:VEVENT
 UID:calcio-under-15-regionali-a-652af466@zuin-fvg
-DTSTAMP:20261124T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270509T113000
 DTEND;TZID=Europe/Rome:20270509T133000
 SUMMARY:NUOVO PORDENONE 2024 FC – TRIESTE VICTORY ACADEMY (Under 15 regio

@@ -225,7 +225,7 @@ DTSTART;TZID=Europe/Rome:20261125T181500
 DTEND;TZID=Europe/Rome:20261125T201500
 SUMMARY:SAN VITO TRIESTE 36-87 AKK BOR BASKET (Under 13 Maschile — girone
   GO/TS B)
-LOCATION:Palazzetto Atleti Azzurri\, Trieste
+LOCATION:Palazzetto 'Atleti Azzurri'\, Trieste
 DESCRIPTION:Under 13 Maschile — girone GO/TS B\n4ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u13-go-ts-b
@@ -236,8 +236,8 @@ UID:basket-serie-c-girone-d-2a73603e@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261127T210000
 DTEND;TZID=Europe/Rome:20261127T230000
-SUMMARY:UEB Cividale B – AKK BOR BASKET (Serie C maschile — girone D (p
- rima fase))
+SUMMARY:UEB Cividale B 71-56 AKK BOR BASKET (Serie C maschile — girone D 
+ (prima fase))
 LOCATION:Palazzetto Dello Sport\, Cividale Del Friuli
 DESCRIPTION:Serie C maschile — girone D (prima fase)\n10ª giornata\nDati
   non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-f
@@ -271,19 +271,6 @@ DESCRIPTION:Under 17 Maschile Gold — girone GO/TS (prima fase)\n7ª giorn
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-go-ts
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-go-ts-b-ce8931fd@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261129T110000
-DTEND;TZID=Europe/Rome:20261129T130000
-SUMMARY:S.S. SD KONTOVEL – AKK BOR BASKET (Under 13 Maschile — girone G
- O/TS B)
-LOCATION:Sgonico - (Trieste)
-DESCRIPTION:Under 13 Maschile — girone GO/TS B\n5ª giornata\nDati non uf
- ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
- asket-u13-go-ts-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u14-regionale-go-ts-ud-9c95501d@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261202T193000
@@ -303,7 +290,7 @@ DTSTART;TZID=Europe/Rome:20261203T193000
 DTEND;TZID=Europe/Rome:20261203T213000
 SUMMARY:U.S.D. DON BOSCO – AKK BOR BASKET (Under 14 Femminile — girone 
  B (prima fase))
-LOCATION:Pal. Oratorio "Don Bosco"\, Trieste
+LOCATION:Pal. Oratorio 'Don Bosco'\, Trieste
 DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n6ª giornata\nDat
  i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
  fvg/#g-basket-u14-femminile-b
@@ -364,8 +351,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-femminile-b-4d5614fe@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261206T114500
-DTEND;TZID=Europe/Rome:20261206T134500
+DTSTART;TZID=Europe/Rome:20261206T180000
+DTEND;TZID=Europe/Rome:20261206T200000
 SUMMARY:AKK BOR BASKET – A.INT.BALONCESTO ISONTINA (Under 14 Femminile 
  — girone B (prima fase))
 LOCATION:Stadio 1° Maggio\, Trieste
@@ -388,10 +375,23 @@ DESCRIPTION:Under 13 Maschile — girone GO/TS B\n6ª giornata\nDati non uf
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u13-go-ts-b-51387dda@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261209T160000
+DTEND;TZID=Europe/Rome:20261209T180000
+SUMMARY:A.INT.BALONCESTO ISONTINA – AKK BOR BASKET (Under 13 Maschile —
+  girone GO/TS B)
+LOCATION:Palasport\, Fogliano Redipuglia
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n7ª giornata\nDati non uf
+ ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
+ asket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u14-regionale-go-ts-ud-9624e047@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261210T183000
-DTEND;TZID=Europe/Rome:20261210T203000
+DTSTART;TZID=Europe/Rome:20261209T183000
+DTEND;TZID=Europe/Rome:20261209T203000
 SUMMARY:FALCONSTAR BASKET – AKK BOR BASKET (Under 14 Maschile Regionale 
  — girone GO/TS/UD)
 LOCATION:Palestra 'B' Marcon\, Monfalcone
@@ -440,14 +440,14 @@ DESCRIPTION:Under 14 Femminile — girone B (prima fase)\n8ª giornata\nDat
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-femminile-b
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-go-ts-b-51387dda@zuin-fvg
+UID:basket-u13-go-ts-b-ce8931fd@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261213T160000
-DTEND;TZID=Europe/Rome:20261213T180000
-SUMMARY:A.INT.BALONCESTO ISONTINA – AKK BOR BASKET (Under 13 Maschile —
-  girone GO/TS B)
-LOCATION:Palasport\, Fogliano Redipuglia
-DESCRIPTION:Under 13 Maschile — girone GO/TS B\n7ª giornata\nDati non uf
+DTSTART;TZID=Europe/Rome:20261218T174500
+DTEND;TZID=Europe/Rome:20261218T194500
+SUMMARY:S.S. SD KONTOVEL – AKK BOR BASKET (Under 13 Maschile — girone G
+ O/TS B)
+LOCATION:Palestra 'M.Ervatti'\, Sgonico
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n5ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u13-go-ts-b
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
@@ -498,7 +498,7 @@ DTSTART;TZID=Europe/Rome:20261220T093000
 DTEND;TZID=Europe/Rome:20261220T113000
 SUMMARY:BASKETRIESTE – AKK BOR BASKET (Under 13 Maschile — girone GO/TS
   B)
-LOCATION:Palarubini\, Trieste
+LOCATION:Palarubini - Allianz Dome\, Trieste
 DESCRIPTION:Under 13 Maschile — girone GO/TS B\n8ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-u13-go-ts-b
@@ -757,7 +757,7 @@ DTSTART;TZID=Europe/Rome:20270203T193000
 DTEND;TZID=Europe/Rome:20270203T213000
 SUMMARY:DINAMO GORIZIA – AKK BOR BASKET (Under 13 Maschile — girone GO/
  TS B)
-LOCATION:Centro "Stella Matutina"\, Gorizia
+LOCATION:Centro 'Stella Matutina'\, Gorizia
 DESCRIPTION:Under 13 Maschile — girone GO/TS B\n13ª giornata\nDati non u
  fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
  basket-u13-go-ts-b
@@ -816,19 +816,6 @@ DESCRIPTION:Serie C maschile — girone D (prima fase)\n19ª giornata\nDati
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-go-ts-b-699f3493@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270214T093000
-DTEND;TZID=Europe/Rome:20270214T113000
-SUMMARY:AKK BOR BASKET – A.INT.BALONCESTO ISONTINA (Under 13 Maschile —
-  girone GO/TS B)
-LOCATION:Stadio 1° Maggio\, Trieste
-DESCRIPTION:Under 13 Maschile — girone GO/TS B\n14ª giornata\nDati non u
- fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
- basket-u13-go-ts-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u14-regionale-go-ts-ud-897d234f@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270214T100000
@@ -840,6 +827,19 @@ DESCRIPTION:Under 14 Maschile Regionale — girone GO/TS/UD\n14ª giornata\
  nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/sp
  ort-fvg/#g-basket-u14-regionale-go-ts-ud
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u14-regionale-go-ts-ud
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u13-go-ts-b-699f3493@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20270216T184500
+DTEND;TZID=Europe/Rome:20270216T204500
+SUMMARY:AKK BOR BASKET – A.INT.BALONCESTO ISONTINA (Under 13 Maschile —
+  girone GO/TS B)
+LOCATION:Stadio 1° Maggio\, Trieste
+DESCRIPTION:Under 13 Maschile — girone GO/TS B\n14ª giornata\nDati non u
+ fficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-
+ basket-u13-go-ts-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-go-ts-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-regionale-go-ts-ud-c9857e8e@zuin-fvg

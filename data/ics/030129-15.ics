@@ -26,34 +26,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-u19-gold-b-a5c79be6@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261027T200000
-DTEND;TZID=Europe/Rome:20261027T220000
-SUMMARY:Amici Pallacanestro Udinese 67-76 Feletto Basketball Academy (Under
-  19 Maschile Gold — girone B)
-LOCATION:Palasport 'Primo Carnera'\, Udine
-DESCRIPTION:Under 19 Maschile Gold — girone B\n4ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-u19-gold-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
-END:VEVENT
-BEGIN:VEVENT
-UID:basket-u17-eccellenza-80c6bf2e@zuin-fvg
-DTSTAMP:20261112T000000Z
-DTSTART;TZID=Europe/Rome:20261028T200000
-DTEND;TZID=Europe/Rome:20261028T220000
-SUMMARY:Amici Pallacanestro Udinese 81-62 O.F.P. Azzurra R.D.R. Basket Trie
- ste (Under 17 Maschile Eccellenza — girone unico)
-LOCATION:Palasport Primo Carnera\, Udine
-DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n4ª giornata\nDa
- ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
- -fvg/#g-basket-u17-eccellenza
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u17-eccellenza-8e4f9218@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261031T160000
 DTEND;TZID=Europe/Rome:20261031T180000
 SUMMARY:Pallacanestro Trieste 2004 76-95 Amici Pallacanestro Udinese (Under
@@ -166,7 +140,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-f49b2656@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261111T200000
 DTEND;TZID=Europe/Rome:20261111T220000
 SUMMARY:Amici Pallacanestro Udinese 86-64 MEP Cividale (Under 17 Maschile E
@@ -187,6 +161,19 @@ DESCRIPTION:Serie A (LBA) — regular season\n8ª giornata\nDati non uffici
  ali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-baske
  t-naz-serie-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-eccellenza-82b03ac5@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261115T110000
+DTEND;TZID=Europe/Rome:20261115T130000
+SUMMARY:Economy Rent Cordenons 57-93 Amici Pallacanestro Udinese (Under 17 
+ Maschile Eccellenza — girone unico)
+LOCATION:Palazzetto Dello Sport\, Cordenons
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n7ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-serie-c-girone-d-f2ab52e7@zuin-fvg
@@ -252,6 +239,19 @@ DESCRIPTION:Serie A (LBA) — regular season\n9ª giornata\nDati non uffici
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
 END:VEVENT
 BEGIN:VEVENT
+UID:basket-u17-eccellenza-d0c9c209@zuin-fvg
+DTSTAMP:20261127T000000Z
+DTSTART;TZID=Europe/Rome:20261122T120000
+DTEND;TZID=Europe/Rome:20261122T140000
+SUMMARY:Amici Pallacanestro Udinese 77-59 APU Next Gen (Under 17 Maschile E
+ ccellenza — girone unico)
+LOCATION:Palestra 'B' Marcon\, Monfalcone
+DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n8ª giornata\nDa
+ ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
+ -fvg/#g-basket-u17-eccellenza
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
 UID:basket-u19-eccellenza-girone-5-20810a8a@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261124T210000
@@ -271,7 +271,7 @@ DTSTART;TZID=Europe/Rome:20261130T193000
 DTEND;TZID=Europe/Rome:20261130T213000
 SUMMARY:Fly Solartech Icarus – Amici Pallacanestro Udinese (Under 19 Masc
  hile Gold — girone B)
-LOCATION:Pal. Falcone Borsellino\, San Daniele del Friuli
+LOCATION:Pal.Falcone Borsellino\, San Daniele Del Friuli
 DESCRIPTION:Under 19 Maschile Gold — girone B\n1ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-u19-gold-b
@@ -279,7 +279,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-f5089980@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261201T200000
 DTEND;TZID=Europe/Rome:20261201T220000
 SUMMARY:Amici Pallacanestro Udinese – U.S.D. Jadran (Under 17 Maschile Ec
@@ -316,7 +316,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-naz-serie-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-1cdaa3db@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261208T200000
 DTEND;TZID=Europe/Rome:20261208T220000
 SUMMARY:Amici Pallacanestro Udinese – BCC Pordenonese Monsile (Under 17 M
@@ -326,6 +326,19 @@ DESCRIPTION:Under 17 Maschile Eccellenza — girone unico\n10ª giornata\nD
  ati non ufficiali: fa fede la federazione. https://ghibli73.github.io/spor
  t-fvg/#g-basket-u17-eccellenza
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u19-gold-b-a8bfef1d@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261209T183000
+DTEND;TZID=Europe/Rome:20261209T203000
+SUMMARY:G.S. Vallenoncello – Amici Pallacanestro Udinese (Under 19 Maschi
+ le Gold — girone B)
+LOCATION:Palasport Vallenoncello\, Pordenone
+DESCRIPTION:Under 19 Maschile Gold — girone B\n8ª giornata\nDati non uff
+ iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
+ sket-u19-gold-b
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-gold-b
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u19-eccellenza-girone-5-3c1f406f@zuin-fvg
@@ -355,7 +368,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-5e1f2c86@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261213T120000
 DTEND;TZID=Europe/Rome:20261213T140000
 SUMMARY:O.F.P. Azzurra R.D.R. Basket Trieste – Amici Pallacanestro Udines
@@ -394,7 +407,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-1436c5b6@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20261223T173000
 DTEND;TZID=Europe/Rome:20261223T193000
 SUMMARY:Amici Pallacanestro Udinese – Pallacanestro Trieste 2004 (Under 1
@@ -407,7 +420,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-eccellenza
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-c9627594@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270109T150000
 DTEND;TZID=Europe/Rome:20270109T170000
 SUMMARY:MEP Cividale – Amici Pallacanestro Udinese (Under 17 Maschile Ecc
@@ -446,7 +459,7 @@ URL:https://ghibli73.github.io/sport-fvg/#g-basket-serie-c-girone-d
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-eccellenza-f1cc04db@zuin-fvg
-DTSTAMP:20261112T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;TZID=Europe/Rome:20270120T200000
 DTEND;TZID=Europe/Rome:20270120T220000
 SUMMARY:Amici Pallacanestro Udinese – Economy Rent Cordenons (Under 17 Ma

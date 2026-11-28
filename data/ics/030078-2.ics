@@ -25,19 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-u17-regionale-ud-bed9c5c8@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261028T190000
-DTEND;TZID=Europe/Rome:20261028T210000
-SUMMARY:POL LIB. PASIAN DI PRATO 33-72 P.A.F. (Under 17 Maschile Regionale 
- — girone UD (prima fase))
-LOCATION:Palasport Mario Vecchiatto\, Pasian di Prato
-DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n2ª gio
- rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
- .io/sport-fvg/#g-basket-u17-regionale-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u13-ud-b-63e88b99@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20261029T184500
@@ -149,15 +136,17 @@ DESCRIPTION:Divisione Regionale 2 — girone UD\n6ª giornata\nDati non uff
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr2-ud
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u13-ud-b-bdaed87c@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20261126T184500
-DTEND;TZID=Europe/Rome:20261126T204500
-SUMMARY:P.A.F. – APU NEXTGEN NERA (Under 13 Maschile — girone UD B)
-DESCRIPTION:Under 13 Maschile — girone UD B\n5ª giornata\nDati non uffic
- iali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-bask
- et-u13-ud-b
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u13-ud-b
+UID:basket-esordienti-ud-a-04c85db2@zuin-fvg
+DTSTAMP:20261126T000000Z
+DTSTART;TZID=Europe/Rome:20261128T160000
+DTEND;TZID=Europe/Rome:20261128T180000
+SUMMARY:A.S.D. P.A.F. – GEMONA BASKET a.s.d. (Trofeo Esordienti Under 12 
+ — girone UD A)
+LOCATION:Palestra Scolastica\, Povoletto
+DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n2ª giornata\nDati 
+ non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
+ g/#g-basket-esordienti-ud-a
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-u17-regionale-ud-5bd2edb9@zuin-fvg
@@ -173,24 +162,12 @@ DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n6ª gio
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-esordienti-ud-a-04c85db2@zuin-fvg
-DTSTAMP:20261126T000000Z
-DTSTART;TZID=Europe/Rome:20261128T160000
-DTEND;TZID=Europe/Rome:20261128T180000
-SUMMARY:A.S.D. P.A.F. – GEMONA BASKET a.s.d. (Trofeo Esordienti Under 12 
- — girone UD A)
-LOCATION:Palestra Scolastica\, Povoletto
-DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n2ª giornata\nDati 
- non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
- g/#g-basket-esordienti-ud-a
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-dr2-ud-02ddc8df@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261128T204500
 DTEND;TZID=Europe/Rome:20261128T224500
 SUMMARY:P.A.F. – Longobardi (Divisione Regionale 2 — girone UD)
+LOCATION:Palestra Scolastica\, Povoletto
 DESCRIPTION:Divisione Regionale 2 — girone UD\n7ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-dr2-ud
@@ -228,6 +205,7 @@ DTSTART;TZID=Europe/Rome:20261212T203000
 DTEND;TZID=Europe/Rome:20261212T223000
 SUMMARY:P.A.F. – S.I.L. Pallacanestro Lignano (Divisione Regionale 2 — 
  girone UD)
+LOCATION:Palestra Scolastica\, Povoletto
 DESCRIPTION:Divisione Regionale 2 — girone UD\n9ª giornata\nDati non uff
  iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
  sket-dr2-ud
@@ -252,6 +230,7 @@ DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261219T203000
 DTEND;TZID=Europe/Rome:20261219T223000
 SUMMARY:P.A.F. – Basket Perteole (Divisione Regionale 2 — girone UD)
+LOCATION:Palestra Scolastica\, Povoletto
 DESCRIPTION:Divisione Regionale 2 — girone UD\n10ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr2-ud
@@ -264,6 +243,7 @@ DTSTART;TZID=Europe/Rome:20261220T103000
 DTEND;TZID=Europe/Rome:20261220T123000
 SUMMARY:P.A.F. – PALL. LAIPACCO (Under 17 Maschile Regionale — girone U
  D (prima fase))
+LOCATION:Palestra Scolastica\, Povoletto
 DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n9ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u17-regionale-ud
@@ -337,6 +317,7 @@ DTSTART;TZID=Europe/Rome:20270116T174500
 DTEND;TZID=Europe/Rome:20270116T194500
 SUMMARY:P.A.F. – POL LIB. PASIAN DI PRATO (Under 17 Maschile Regionale 
  — girone UD (prima fase))
+LOCATION:Palestra Scolastica\, Povoletto
 DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n11ª gi
  ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
  b.io/sport-fvg/#g-basket-u17-regionale-ud
@@ -349,6 +330,7 @@ DTSTART;TZID=Europe/Rome:20270116T203000
 DTEND;TZID=Europe/Rome:20270116T223000
 SUMMARY:P.A.F. – Danieli Sporting Club (Divisione Regionale 2 — girone 
  UD)
+LOCATION:Palestra Scolastica\, Povoletto
 DESCRIPTION:Divisione Regionale 2 — girone UD\n12ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr2-ud
@@ -409,7 +391,7 @@ DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20270129T210000
 DTEND;TZID=Europe/Rome:20270129T230000
 SUMMARY:Pall. Laipacco – P.A.F. (Divisione Regionale 2 — girone UD)
-LOCATION:Pal. Sc. 'Ezio Cernich"\, Udine
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
 DESCRIPTION:Divisione Regionale 2 — girone UD\n14ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr2-ud
@@ -471,6 +453,7 @@ DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20270206T203000
 DTEND;TZID=Europe/Rome:20270206T223000
 SUMMARY:P.A.F. – Collinare Basket (Divisione Regionale 2 — girone UD)
+LOCATION:Palestra Scolastica\, Povoletto
 DESCRIPTION:Divisione Regionale 2 — girone UD\n15ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr2-ud
@@ -483,7 +466,7 @@ DTSTART;TZID=Europe/Rome:20270207T150000
 DTEND;TZID=Europe/Rome:20270207T170000
 SUMMARY:APU NEXT GEN – P.A.F. (Under 17 Maschile Regionale — girone UD 
  (prima fase))
-LOCATION:Palazzetto 'M. Benedetti"\, Udine
+LOCATION:Palazzetto 'M. Benedetti'\, Udine
 DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n14ª gi
  ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
  b.io/sport-fvg/#g-basket-u17-regionale-ud
@@ -496,6 +479,7 @@ DTSTART;TZID=Europe/Rome:20270212T180000
 DTEND;TZID=Europe/Rome:20270212T200000
 SUMMARY:P.A.F. – POL. TRICESIMO (Under 17 Maschile Regionale — girone U
  D (prima fase))
+LOCATION:Palestra Scolastica\, Povoletto
 DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n15ª gi
  ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
  b.io/sport-fvg/#g-basket-u17-regionale-ud
@@ -556,6 +540,7 @@ DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20270220T203000
 DTEND;TZID=Europe/Rome:20270220T223000
 SUMMARY:P.A.F. – C.U.S. Udine (Divisione Regionale 2 — girone UD)
+LOCATION:Palestra Scolastica\, Povoletto
 DESCRIPTION:Divisione Regionale 2 — girone UD\n17ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr2-ud
@@ -593,6 +578,7 @@ DTSTART;TZID=Europe/Rome:20270301T190000
 DTEND;TZID=Europe/Rome:20270301T210000
 SUMMARY:P.A.F. – UDINE BASKET CLUB (Under 17 Maschile Regionale — giron
  e UD (prima fase))
+LOCATION:Palestra Scolastica\, Povoletto
 DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n17ª gi
  ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
  b.io/sport-fvg/#g-basket-u17-regionale-ud
@@ -605,7 +591,7 @@ DTSTART;TZID=Europe/Rome:20270306T180000
 DTEND;TZID=Europe/Rome:20270306T200000
 SUMMARY:PALL. LAIPACCO – P.A.F. (Under 17 Maschile Regionale — girone U
  D (prima fase))
-LOCATION:Pal. Sc. 'Ezio Cernich"\, Udine
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
 DESCRIPTION:Under 17 Maschile Regionale — girone UD (prima fase)\n18ª gi
  ornata\nDati non ufficiali: fa fede la federazione. https://ghibli73.githu
  b.io/sport-fvg/#g-basket-u17-regionale-ud
@@ -680,6 +666,7 @@ DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20270324T211500
 DTEND;TZID=Europe/Rome:20270324T231500
 SUMMARY:P.A.F. – Udine Basket Club (Divisione Regionale 2 — girone UD)
+LOCATION:Palestra Scolastica\, Povoletto
 DESCRIPTION:Divisione Regionale 2 — girone UD\n22ª giornata\nDati non uf
  ficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-b
  asket-dr2-ud

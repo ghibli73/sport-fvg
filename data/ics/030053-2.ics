@@ -25,19 +25,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:basket-dr3-ud-143778bc@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20261028T204500
-DTEND;TZID=Europe/Rome:20261028T224500
-SUMMARY:ZIO PINO BASKIN UDINE 61-36 MAJANESE 'B' (Divisione Regionale 3 —
-  girone UD)
-LOCATION:Palestra Don Bosco\, Udine
-DESCRIPTION:Divisione Regionale 3 — girone UD\n6ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-dr3-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-dr1-ovest-af1ea964@zuin-fvg
 DTSTAMP:20261125T000000Z
 DTSTART;TZID=Europe/Rome:20261030T210000
@@ -245,19 +232,6 @@ DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n4ª gio
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-dr3-ud-798dde5c@zuin-fvg
-DTSTAMP:20261125T000000Z
-DTSTART;TZID=Europe/Rome:20261127T210000
-DTEND;TZID=Europe/Rome:20261127T230000
-SUMMARY:POZZUOLO BASKET – MAJANESE 'B' (Divisione Regionale 3 — girone 
- UD)
-LOCATION:Polisportivo Comunale\, Pozzuolo Del Friuli
-DESCRIPTION:Divisione Regionale 3 — girone UD\n8ª giornata\nDati non uff
- iciali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#g-ba
- sket-dr3-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-dr3-ud
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-esordienti-ud-a-5112476b@zuin-fvg
 DTSTAMP:20261126T000000Z
 DTSTART;TZID=Europe/Rome:20261128T160000
@@ -269,6 +243,19 @@ DESCRIPTION:Trofeo Esordienti Under 12 — girone UD A\n2ª giornata\nDati
  non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fv
  g/#g-basket-esordienti-ud-a
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-esordienti-ud-a
+END:VEVENT
+BEGIN:VEVENT
+UID:basket-u17-gold-ud-1bb54a58@zuin-fvg
+DTSTAMP:20261120T000000Z
+DTSTART;TZID=Europe/Rome:20261128T163000
+DTEND;TZID=Europe/Rome:20261128T183000
+SUMMARY:BASKET TERZO – MAJANESE (Under 17 Maschile Gold — girone UD (pr
+ ima fase))
+LOCATION:Pal. Comunale\, Terzo D'Aquileia
+DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n7ª giornata
+ \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
+ port-fvg/#g-basket-u17-gold-ud
+URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
 END:VEVENT
 BEGIN:VEVENT
 UID:basket-dr1-ovest-80cb887e@zuin-fvg
@@ -498,7 +485,7 @@ DTSTART;TZID=Europe/Rome:20270108T210000
 DTEND;TZID=Europe/Rome:20270108T230000
 SUMMARY:BCC Pordenonese e Monsile – Errebi Majano (Divisione Regionale 1 
  — girone Ovest)
-LOCATION:(Pordenone)
+LOCATION:Palazzetto 'Matteo Molent'\, Azzano Decimo
 DESCRIPTION:Divisione Regionale 1 — girone Ovest\n13ª giornata\nDati non
   ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
  g-basket-dr1-ovest
@@ -511,7 +498,7 @@ DTSTART;TZID=Europe/Rome:20270109T150000
 DTEND;TZID=Europe/Rome:20270109T170000
 SUMMARY:Pol. Casarsa – Majanese (Under 14 Maschile Regionale — girone P
  N/UD)
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n9ª giornata\nDat
  i non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-
  fvg/#g-basket-u14-regionale-pn-ud
@@ -537,7 +524,7 @@ DTSTART;TZID=Europe/Rome:20270111T194500
 DTEND;TZID=Europe/Rome:20270111T214500
 SUMMARY:PALL. LAIPACCO – MAJANESE (Under 19 Maschile Regionale — girone
   UD (prima fase))
-LOCATION:Pal. Sc. 'Ezio Cernich"\, Udine
+LOCATION:Pal. Sc. 'Ezio Cernich'\, Udine
 DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n9ª gio
  rnata\nDati non ufficiali: fa fede la federazione. https://ghibli73.github
  .io/sport-fvg/#g-basket-u19-regionale-ud
@@ -701,8 +688,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:basket-u14-regionale-pn-ud-08d65ed8@zuin-fvg
 DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270130T163000
-DTEND;TZID=Europe/Rome:20270130T183000
+DTSTART;TZID=Europe/Rome:20270131T100000
+DTEND;TZID=Europe/Rome:20270131T120000
 SUMMARY:Collinare Basket – Majanese (Under 14 Maschile Regionale — giro
  ne PN/UD)
 LOCATION:Palestra\, Fagagna
@@ -816,19 +803,6 @@ DESCRIPTION:Under 19 Maschile Regionale — girone UD (prima fase)\n13ª gi
 URL:https://ghibli73.github.io/sport-fvg/#g-basket-u19-regionale-ud
 END:VEVENT
 BEGIN:VEVENT
-UID:basket-u17-gold-ud-1bb54a58@zuin-fvg
-DTSTAMP:20261120T000000Z
-DTSTART;TZID=Europe/Rome:20270214T110000
-DTEND;TZID=Europe/Rome:20270214T130000
-SUMMARY:BASKET TERZO – MAJANESE (Under 17 Maschile Gold — girone UD (pr
- ima fase))
-LOCATION:Centro Studi\, Majano
-DESCRIPTION:Under 17 Maschile Gold — girone UD (prima fase)\n7ª giornata
- \nDati non ufficiali: fa fede la federazione. https://ghibli73.github.io/s
- port-fvg/#g-basket-u17-gold-ud
-URL:https://ghibli73.github.io/sport-fvg/#g-basket-u17-gold-ud
-END:VEVENT
-BEGIN:VEVENT
 UID:basket-u17-gold-ud-f4dc876d@zuin-fvg
 DTSTAMP:20261120T000000Z
 DTSTART;TZID=Europe/Rome:20270214T110000
@@ -899,7 +873,7 @@ DTSTART;TZID=Europe/Rome:20270219T210000
 DTEND;TZID=Europe/Rome:20270219T230000
 SUMMARY:Pol. Lib. Pasian di Prato – Errebi Majano (Divisione Regionale 1 
  — girone Ovest)
-LOCATION:(Udine)
+LOCATION:Palasport 'Mario Vecchiatto'\, Pasian Di Prato
 DESCRIPTION:Divisione Regionale 1 — girone Ovest\n19ª giornata\nDati non
   ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
  g-basket-dr1-ovest
@@ -1028,7 +1002,7 @@ DTSTART;TZID=Europe/Rome:20270307T180000
 DTEND;TZID=Europe/Rome:20270307T200000
 SUMMARY:Pol. Casarsa – Errebi Majano (Divisione Regionale 1 — girone Ov
  est)
-LOCATION:(Pordenone)
+LOCATION:Palasport - 'Palarosa'\, Casarsa Della Delizia
 DESCRIPTION:Divisione Regionale 1 — girone Ovest\n21ª giornata\nDati non
   ufficiali: fa fede la federazione. https://ghibli73.github.io/sport-fvg/#
  g-basket-dr1-ovest
@@ -1171,7 +1145,7 @@ DTSTART;TZID=Europe/Rome:20270411T163000
 DTEND;TZID=Europe/Rome:20270411T183000
 SUMMARY:Torre Basket – Majanese (Under 14 Maschile Regionale — girone P
  N/UD)
-LOCATION:(Pordenone)
+LOCATION:Palestra Istituto 'Flora'\, Pordenone
 DESCRIPTION:Under 14 Maschile Regionale — girone PN/UD\n21ª giornata\nDa
  ti non ufficiali: fa fede la federazione. https://ghibli73.github.io/sport
  -fvg/#g-basket-u14-regionale-pn-ud
