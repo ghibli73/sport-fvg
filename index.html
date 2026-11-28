@@ -526,23 +526,23 @@ a.gstar{color:var(--ink);text-decoration:none}.act.wide{grid-column:1/-1}
 .rqr:empty{display:none}.rqr{margin:-4px 0 14px}.rqh{font:700 13px var(--f);text-transform:uppercase;letter-spacing:.5px;color:var(--mute);margin:10px 4px 6px}.rqe{margin:4px 4px 10px;color:var(--mute)}.rqm{margin:6px 4px 0}
 .pwe{margin:0 0 16px}.pweh{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin:2px 2px 8px}.pweh h3{font:800 21px var(--fc)}
 .pweh span{display:inline-flex;align-items:center;gap:4px;font-size:14px;font-weight:600;color:var(--mute)}.pweh span svg{width:16px;height:16px;fill:var(--gold);color:var(--gold)}
-.pwn{margin:2px 2px 6px}
+.pwn{margin:2px 2px 6px}.pwe [hidden]{display:none!important}.pwe .wksw{display:none}
 .rsth{font:800 21px var(--fc);margin:6px 2px 10px}
-.rstg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-@media(min-width:760px){.rstg{grid-template-columns:repeat(4,minmax(0,1fr))}}
-.rst{position:relative;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;gap:2px;min-height:118px;padding:14px;border:0;border-radius:18px;background:var(--c);color:#fff;text-align:left;overflow:hidden;box-shadow:0 2px 8px rgba(18,58,107,.18)}
+.rstg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.rstg>.rst:first-child{grid-column:span 2;min-height:96px}@media(min-width:760px){.rstg>.rst:first-child{grid-column:auto}}
+@media(min-width:760px){.rstg{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.rst{position:relative;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;gap:2px;min-height:112px;padding-top:56px!important;padding:14px;border:0;border-radius:18px;background:var(--c);color:#fff;text-align:left;overflow:hidden;box-shadow:0 2px 8px rgba(18,58,107,.18)}
 .rst::before{content:"";position:absolute;right:-24px;top:-24px;width:92px;height:92px;border-radius:50%;background:rgba(255,255,255,.14)}
 .rsti{position:absolute;left:14px;top:12px}.rsti svg{width:34px;height:34px;color:#fff}
-.rst b{font:800 23px/1.1 var(--fc)}.rst small{font-size:13.5px;color:#fff}
+.rst b{font:800 23px/1.1 var(--fc)}.rst small{font-size:13.5px;color:#fff;line-height:1.3}
 .rst:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 .rsta{grid-column:span 2;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:12px}
-@media(min-width:760px){.rsta{grid-column:span 4}}
+@media(min-width:760px){.rsta{grid-column:span 3}}
 .rsta>b{display:block;font:700 16px var(--fc);color:var(--mute);margin:0 2px 8px}.rsta>div{display:flex;flex-wrap:wrap;gap:8px}
 .pill.off{border-style:dashed;color:var(--mute)}
 .rsh{margin:-4px 0 0}.rshd{align-items:center;margin-top:0}.rshd h2{display:flex;align-items:center;gap:8px}.rsi{display:inline-grid}.rsi svg{width:28px;height:28px;color:var(--acc)}
-.rzc{display:flex;flex-wrap:nowrap;gap:6px}.rzc button{min-height:44px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-weight:600;font-size:15px}
+.rzc{display:flex;flex-wrap:wrap;gap:6px}.rzc button{min-height:44px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-weight:600;font-size:15px}
 .rzc button[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:#fff}
-.rflt{margin:8px -14px 12px;padding:0 14px 2px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}.rflt::-webkit-scrollbar{display:none}.rflt .rgen,.rzc button{flex:none}@media(min-width:760px){.rflt{flex-wrap:wrap;margin:8px 0 12px;padding:0}.rzc{flex-wrap:wrap}}
+.rflt{margin:8px 0 12px;gap:6px}.rzc button{padding:0 12px}
 .grw{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;border-top:1px solid var(--line)}.grw:first-child{border-top:0}.grw .row{border-top:0;padding-right:6px}
 .gcl{min-height:44px;margin-right:10px;padding:0 14px;border-radius:999px;border:1.5px solid light-dark(#b9c8de,#2f4467);background:var(--card);color:var(--acc);font-weight:700;font-size:14px}
 @media(hover:hover){.gcl:hover{background:var(--soft)}}
@@ -551,8 +551,8 @@ a.gstar{color:var(--ink);text-decoration:none}.act.wide{grid-column:1/-1}
 .tst[aria-pressed=true]{color:light-dark(#8a6a00,var(--gold))}.tst[aria-pressed=true] svg{fill:var(--gold);color:light-dark(#8a6a00,var(--gold))}
 .ftw{display:grid;grid-template-columns:minmax(0,1fr) 48px;align-items:center;border-top:1px solid var(--line)}.ftw:first-child{border-top:0}.ftw .trw{border-top:0}
 .tm .tmt{position:relative}.tm .tmt .tst{margin:-6px -8px 0 0}
-.cl td.fv,.cl th.fv{width:44px;padding:0;text-align:center}
-.gh{padding:12px 14px}.chead.gh h2{font-size:24px;text-wrap:pretty}.gh .gacts{flex-wrap:wrap;gap:6px;margin-top:10px}.gh .gstar{padding:6px 9px;gap:5px}.gh .gacts{gap:5px}.gh p{font-size:13.5px}
+.cl td.fv,.cl th.fv{width:44px;padding:0;text-align:center}@media(max-width:359px){.cl td,.cl th{padding-left:2px;padding-right:2px}.cl td.sq{font-size:13.5px}}
+.gh{padding:12px 14px}.chead.gh h2{font-size:24px;text-wrap:pretty}.gh .gacts{flex-wrap:wrap;gap:6px;margin-top:10px}.gh .gstar{padding:6px 8px;gap:4px}.gh .gstar svg{width:16px;height:16px}.gh .gacts{gap:4px}.gh p{font-size:13.5px}
 .gdot{width:44px;justify-content:center;padding:0!important}.gdot svg{width:20px;height:20px}
 .gpan{margin-top:10px;border-top:1px solid var(--line);padding-top:10px}.gpan[hidden]{display:none}
 .mt.hl{background:light-dark(#fff6d6,#2c2508);box-shadow:inset 4px 0 0 var(--gold);border-radius:8px;margin:0 -8px;padding-left:8px;padding-right:8px;outline:none}
@@ -927,14 +927,23 @@ filt+rqBox('Cerca squadra di '+SN.toLowerCase(),rSport)+`<div id="rlist"${bar?` 
 `<p class="small" style="margin:14px 2px 0">Classifiche e risultati dalle pubblicazioni ufficiali delle federazioni (FIPAV, FIP, LND), aggiornati ogni 15 minuti nelle fasce di gara.</p>`;
 cbarSetup()}
 /* ingresso di Partite (#risultati): Questo weekend, ricerca, tessere degli sport */
-function vPartite(m,sps){const seg=FAV.c.length||FAV.g.length||FAV.sq.length,tot={},cmp={},att={},t=dnum(oggiR());
-G.forEach(g=>{tot[g.sport]=(tot[g.sport]||0)+1;(cmp[g.sport]=cmp[g.sport]||new Set()).add(campDi(g).k);if(!att[g.sport]&&g.partite.some(x=>{const d=dnum(x.data);return d!=null&&Math.abs(d-t)<=30}))att[g.sport]=1});
+/* "Questo weekend" in Partite: al massimo 3 partite visibili (prima i risultati, poi in programma), le altre con "Mostra tutte",
+   così le tessere degli sport restano vicine; la scelta resta finché non si cambia vista */
+let PWE_ALL=false;
+function pweCompatta(){const sec=document.querySelector('.pwe .pwk');if(!sec)return;const c=sec.querySelector('.wkc'),M=[...c.querySelectorAll(':scope>.mt')],old=sec.querySelector('.pwm');if(old)old.remove();
+if(PWE_ALL||M.length<=4)return;M.slice(3).forEach(e=>e.hidden=true);[...c.querySelectorAll(':scope>h4,:scope>h3')].forEach(h=>{let n=h.nextElementSibling,vis=false;while(n&&!(n.tagName==='H3'||(h.tagName==='H4'&&n.tagName==='H4'))){if(n.matches('.mt')&&!n.hidden)vis=true;n=n.nextElementSibling}if(!vis)h.hidden=true});
+const b=document.createElement('button');b.className='wkj pwm';b.type='button';b.dataset.pwm='1';b.innerHTML=`Mostra tutte le ${M.length} partite della settimana${CHEV}`;c.appendChild(b)}
+document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-pwm]');if(!b)return;PWE_ALL=true;const c=b.closest('.wkc');c.querySelectorAll('[hidden]').forEach(x=>x.hidden=false);b.remove();const f=c.querySelectorAll(':scope>.mt')[3];if(f){f.tabIndex=-1;f.focus({preventScroll:true})}});
+let PST=null;
+function vPartite(m,sps){const seg=FAV.c.length||FAV.g.length||FAV.sq.length,t=dnum(oggiR());
+if(!PST||PST.G!==G||PST.t!==t){const tot={},cmp={},att={},lo=diso(t-30),hi=diso(t+30);G.forEach(g=>{tot[g.sport]=(tot[g.sport]||0)+1;(cmp[g.sport]=cmp[g.sport]||new Set()).add(campDi(g).k);if(!att[g.sport]&&g.partite.some(x=>x.data>=lo&&x.data<=hi))att[g.sport]=1});PST={G,t,tot,cmp,att}}
+const{tot,cmp,att}=PST;
 const big=sps.filter(k=>SPPOP.includes(k)),alt=sps.filter(k=>!SPPOP.includes(k)).sort((a,b)=>(att[b]||0)-(att[a]||0));
 const tile=k=>`<button class="rst" data-rs="${k}" style="--c:${spCol(k)}"><span class="rsti" aria-hidden="true">${ico(k)}</span><b>${esc(NAMES[k])}</b><small>${cmp[k].size} campionati · ${tot[k]} gironi</small></button>`;
 m.innerHTML=`<div class="hd"><h2>Partite</h2><span class="n">${G.length} gironi</span></div><p class="aggt" style="margin:-6px 2px 10px">Risultati, calendari e classifiche${AGGT?` · <span data-aggt>${esc(aggTesto())}</span>`:''}</p>`+rqBox('Cerca squadra o campionato','')+
 (G.length?`<section class="card wkcard pwe" aria-labelledby="pweT"><div class="pweh"><h3 id="pweT">Questo weekend</h3><span>${seg?STAR.replace('<svg','<svg aria-hidden="true"')+'Le tue squadre':'In evidenza'}</span></div>${wkHTML(seg?'f':'e','')}${seg?'':`<p class="small pwn">Calcio, pallavolo e basket: i campionati più alti con squadre del FVG. Tocca la stella accanto a una squadra (in classifica o nella scheda della società) per vedere qui solo le sue partite.</p>`}</section>`:'')+
 `<h3 class="rsth">Scegli lo sport</h3><div class="rstg">${big.map(tile).join('')}${alt.length?`<div class="rsta" role="group" aria-labelledby="rstaT"><b id="rstaT">Altri sport</b><div>${alt.map(k=>`<button class="pill${att[k]?'':' off'}" data-rs="${k}">${ico(k)}${esc(NAMES[k])}${att[k]?'':'<span class="vh"> (fuori stagione)</span>'}</button>`).join('')}</div></div>`:''}</div>`+
-`<p class="small" style="margin:14px 2px 0">Classifiche e risultati dalle pubblicazioni ufficiali delle federazioni (FIPAV, FIP, LND), aggiornati ogni 15 minuti nelle fasce di gara (sabato 15–23:30, domenica 15–21:30, sere feriali 20–23:30). "Da omologare" (basket) e "provvisorio" (calcio): risultato già pubblicato dal portale ufficiale ma non ancora confermato.</p>`}
+`<p class="small" style="margin:14px 2px 0">Classifiche e risultati dalle pubblicazioni ufficiali delle federazioni (FIPAV, FIP, LND), aggiornati ogni 15 minuti nelle fasce di gara (sabato 15–23:30, domenica 15–21:30, sere feriali 20–23:30). "Da omologare" (basket) e "provvisorio" (calcio): risultato già pubblicato dal portale ufficiale ma non ancora confermato.</p>`;pweCompatta()}
 /* la barra: torna dov'era, porta in vista il chip scelto (morbido se non c'è prefers-reduced-motion), sfumature ai lati se continua */
 function cbarSetup(){const cb=$('cbar'),w=$('cbw');if(!cb)return;cb.scrollLeft=RB_SL;const s=cb.querySelector('[aria-selected=true]');
 const fade=()=>{const mx=cb.scrollWidth-cb.clientWidth;w.classList.toggle('l',cb.scrollLeft>4);w.classList.toggle('r',cb.scrollLeft<mx-4)};
@@ -1024,7 +1033,7 @@ function wkHTML(ctx,title){const{w,cur,lo,hi,body}=wkBody(ctx),id='wk'+ctx.repla
 return `<section class="pwk" data-wk="${esc(ctx)}" aria-labelledby="${id}">${title?`<h3 class="wkt">${title}</h3>`:''}<div class="wkh"><button class="wkb" data-wkn="-1" aria-label="Settimana precedente"${w<=lo?' disabled':''}>${BACK}</button><div class="wkl" id="${id}" tabindex="-1"><b>${esc(wkRange(w))}</b><small>${esc(w<cur&&WKA[ctx]===w?'Ultimo turno giocato':wkRel(w,cur))}</small><span class="vh" aria-live="polite">${esc(w<cur&&WKA[ctx]===w?'Ultimo turno giocato':wkRel(w,cur))}, ${esc(wkRange(w,1))}</span></div>${w!==cur?`<button class="wko" data-wkgo="${cur}">Oggi</button>`:''}<button class="wkb" data-wkn="1" aria-label="Settimana successiva"${w>=hi?' disabled':''}>${CHEV}</button></div><div class="wkc">${body}</div><p class="small wksw" aria-hidden="true">Scorri a destra o a sinistra per cambiare settimana</p></section>`}
 function wkVai(ctx,w,dir,foc){WK[ctx]=w;const s=document.querySelector(`section.pwk[data-wk="${CSS.escape(ctx)}"]`);if(!s)return;const ti=s.querySelector('.wkt');const tmp=document.createElement('div');tmp.innerHTML=wkHTML(ctx,ti?ti.innerHTML:'');const n=tmp.firstChild;s.replaceWith(n);
 if(dir&&!RMOT()){const c=n.querySelector('.wkc');c.classList.add(dir>0?'inr':'inl')}
-const pt=$('pweT');if(pt&&n.closest('.pwe')){const cur=lun(dnum(oggiR()));pt.textContent=w===cur?'Questo weekend':wkRel(w,cur)}
+const pt=$('pweT');if(pt&&n.closest('.pwe')){const cur=lun(dnum(oggiR()));pt.textContent=w===cur?'Questo weekend':wkRel(w,cur);pweCompatta()}
 const f=foc&&n.querySelector(foc);(f&&!f.disabled?f:n.querySelector('.wkl')).focus?.({preventScroll:true})}
 document.addEventListener('click',e=>{const t=e.target;let b;
 if(b=t.closest('[data-wkn]')){const s=b.closest('section.pwk'),c=s.dataset.wk,d=+b.dataset.wkn;wkVai(c,(WK[c]??lun(dnum(oggiR())))+7*d,d,`[data-wkn="${d}"]`);e.stopImmediatePropagation();return}
@@ -1047,7 +1056,7 @@ if(gTab==='cl')body=g.classifica.length?`<div class="card"><table class="cl"><th
 else body=wkHTML('g:'+g.gid)+(played.length?`<div class="tools"><button class="gstar" data-share="day">${SHARE}Condividi gli ultimi risultati</button></div>`:'');
 if(gTab==='cl'&&g.classifica_provvisoria)body=`<p class="small" style="margin:0 2px 8px"><span class="ptag" style="margin:0 4px 0 0">provvisoria</span>La classifica comprende risultati non ancora ufficiali${g.sport==='basket'?' (da omologare)':g.sport==='pallavolo'?' (la classifica del portale non è ancora aggiornata)':''}.</p>`+body;
 const sf=isFav('g',g.gid),avv=gironeAvvisi(g);
-m.innerHTML=`<button class="back" data-gback>${BACK}<span class="vh">Torna a </span>${esc(GBACK.l)}</button><div class="chead gh"><h2>${esc(gTitolo(g))}</h2><p>${esc(NAMES[g.sport]||g.sport)} · ${esc(comPulito(g.comitato))} · ${esc(g.stagione)}</p><div class="gacts"><button class="gstar" data-fav="g" data-fid="${g.gid}" aria-pressed="${sf}" aria-label="${sf?'Segui già il girone: tocca per smettere':'Segui il girone'}">${STAR}${sf?'Seguito':'Segui'}</button>${g.partite.some(futura)?`<button class="gstar" data-ics="${g.gid}" aria-label="Aggiungi al calendario le partite in programma">${CAL}Calendario</button>`:''}${avv?`<button class="gstar" data-gpan="gavv" aria-expanded="false" aria-controls="gavv">${BELL}Avvisi</button>`:''}<button class="gstar gdot" data-gpan="gpiu" aria-expanded="false" aria-controls="gpiu" aria-label="Altre azioni"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg></button></div>${avv?`<div class="gpan" id="gavv" hidden>${avv}</div>`:''}<div class="gpan" id="gpiu" hidden><div class="gacts"><a class="gstar" href="widget.html#g-${encodeURIComponent(g.gid)}">${CODE}Metti sul tuo sito</a>${g.classifica.length?`<button class="gstar" data-share="cl">${SHARE}Condividi la classifica</button>`:''}</div><p class="small" style="margin:8px 0 0">Nome ufficiale: ${esc(g.girone)} · ${esc(g.comitato)}</p></div></div>
+m.innerHTML=`<button class="back" data-gback>${BACK}<span class="vh">Torna a </span>${esc(GBACK.l)}</button><div class="chead gh"><h2>${esc(gTitolo(g))}</h2><p>${esc(NAMES[g.sport]||g.sport)} · ${esc(comPulito(g.comitato))} · ${esc(g.stagione)}</p><div class="gacts"><button class="gstar" data-fav="g" data-fid="${g.gid}" aria-pressed="${sf}" aria-label="${sf?'Seguito: tocca per non seguire più il girone':'Segui il girone'}">${STAR}${sf?'Seguito':'Segui'}</button>${g.partite.some(futura)?`<button class="gstar" data-ics="${g.gid}" aria-label="Aggiungi al calendario le partite in programma">${CAL}Calendario</button>`:''}${avv?`<button class="gstar" data-gpan="gavv" aria-expanded="false" aria-controls="gavv">${BELL}Avvisi</button>`:''}<button class="gstar gdot" data-gpan="gpiu" aria-expanded="false" aria-controls="gpiu" aria-label="Altre azioni"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg></button></div>${avv?`<div class="gpan" id="gavv" hidden>${avv}</div>`:''}<div class="gpan" id="gpiu" hidden><div class="gacts"><a class="gstar" href="widget.html#g-${encodeURIComponent(g.gid)}">${CODE}Metti sul tuo sito</a>${g.classifica.length?`<button class="gstar" data-share="cl">${SHARE}Condividi la classifica</button>`:''}</div><p class="small" style="margin:8px 0 0">Nome ufficiale: ${esc(g.girone)} · ${esc(g.comitato)}</p></div></div>
 <div class="seg" role="tablist" aria-label="Partite o classifica"><button role="tab" data-gt="par" aria-selected="${gTab!=='cl'}">${CAL}Partite</button><button role="tab" data-gt="cl" aria-selected="${gTab==='cl'}">${LIVE}Classifica</button></div>
 ${body}<p class="small" style="margin:4px 2px">Aggiornato al ${dt(g.aggiornato)}${g.giornata?` · ${g.giornata}ª giornata`:''} · <a href="${esc(g.fonte)}" target="_blank" rel="noopener" style="color:var(--acc)">fonte ufficiale</a></p>`;
 if(HL&&HL.gid===g.gid&&!HL.vista&&gTab!=='cl'){HL.vista=1;requestAnimationFrame(()=>{const r=m.querySelector('.mt.hl')||m.querySelector('.mt .me')?.closest('.mt');if(!r)return;r.scrollIntoView({block:'center',behavior:'auto'});if(r.classList.contains('hl'))r.focus({preventScroll:true})})}
